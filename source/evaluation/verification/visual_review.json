@@ -1,0 +1,49 @@
+{
+  "state": "passed",
+  "inspected_images": [
+    {
+      "file": "report/figures/test_overview_1.png",
+      "sha256": "3a81d17b730f54c164e2fc9e0aa38f93656c23fae406c02fcc0550235e086d67"
+    },
+    {
+      "file": "report/figures/test_overview_2.png",
+      "sha256": "d2efae59c1e16406aadb84e6f83b90e479a05b8d57e6ca61ab991210a0b6f645"
+    },
+    {
+      "file": "report/figures/test_overview_3.png",
+      "sha256": "046a02a1e0eef69227d597c86d5e5dbf838a6a1385435ea692f5df6df96465fc"
+    },
+    {
+      "file": "report/figures/test_overview_4.png",
+      "sha256": "c635bd2da577abae816e50a584ad24bbeb39c41f3de92b0da451f417b0662617"
+    },
+    {
+      "file": "report/figures/test_overview_5.png",
+      "sha256": "e5dbd722876c15d2f14db47df01745ab597ab09647ca0e7366147d84f51973fa"
+    },
+    {
+      "file": "report/figures/10305_comparison.png",
+      "sha256": "020ef4da2263bc8167e10682df26b77d8d9e16d600f1215d3f1f9bbbfe336533"
+    },
+    {
+      "file": "report/figures/10347_comparison.png",
+      "sha256": "46bfb0ea5c2090c660b015b717af54384091093b87492a11d7e12687587e1378"
+    },
+    {
+      "file": "report/figures/10430_comparison.png",
+      "sha256": "a25ddc4f76000b910c53fb77689d36438f1a37b764335bd4306e4de3de12f43f"
+    },
+    {
+      "file": "report/figures/test_intensity_diagnostics.png",
+      "sha256": "7f6652daf43f07c8c393bd9cad1d48a49b16b6a799081795b6e443fbc7e78a2c"
+    }
+  ],
+  "coverage": "All 50 shallow-projection pairs in five overviews; three complete patient panels; intensity diagnostics",
+  "observations": [
+    "Large vessel courses and central low-signal area are generally recognizable",
+    "Fine network is consistently smoother/weaker; some large trunks appear thick/bright",
+    "Case10430 FULL mean visibly overbright despite lower shallow mean; case10454 shallow intensity bias has opposite sign from most patients",
+    "Fixed display scales, error colorbars and XY orientation are readable",
+    "Image similarity and sharpness are not labelled-vessel or clinical metrics"
+  ]
+}

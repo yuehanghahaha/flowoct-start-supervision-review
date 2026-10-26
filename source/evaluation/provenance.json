@@ -1,0 +1,81 @@
+{
+  "parent_experiments": [
+    "exp001",
+    "exp003"
+  ],
+  "user_authorized_current_model_test50": true,
+  "original_checkpoint_sha256": "69c3f984e86b3dc702822cfb35a492d412f8116262b2f6e31a555792071798c1",
+  "inference_checkpoint_sha256": "28a31cb177dbc91b0ecc293951abdf2c47429884ea3c04c9c70c2dfaa8e112d2",
+  "frozen_modules": [
+    {
+      "file": "fm3d/data.py",
+      "sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54"
+    },
+    {
+      "file": "fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac"
+    },
+    {
+      "file": "fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af"
+    },
+    {
+      "file": "fm3d/projection_report.py",
+      "sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40"
+    },
+    {
+      "file": "fm3d/train.py",
+      "sha256": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0"
+    },
+    {
+      "file": "fm3d/train_start.py",
+      "sha256": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93"
+    },
+    {
+      "file": "fm3d/visualize.py",
+      "sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe"
+    },
+    {
+      "file": "fm3d/wavelets.py",
+      "sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98"
+    },
+    {
+      "file": "fm3d/__init__.py",
+      "sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93"
+    }
+  ],
+  "inherited_functions": [
+    "additional_metrics",
+    "save_views",
+    "summarize"
+  ],
+  "scientific_training_changes": [],
+  "test_hyperparameter_selection": false,
+  "full_training_started": false,
+  "completed_at": "2026-10-26T13:14:10.084886+08:00",
+  "test_patients": 50,
+  "checkpoint_epoch": 70,
+  "source_code_sha256": {
+    "aggregate.py": "4406d09315a250697d585126a1bf7806210cb462554a3db44c633583b62ada67",
+    "audit_split.py": "53ea8fe7775cdbd23ec16e5ef739502c863943d470756b01c203d1e351b3b724",
+    "build_report.py": "6b1410ac4f3a5888a757f7907659ec099838b3590db36af66fb556441649ac2e",
+    "cleanup.py": "e0372c0e1bf9d21f84c5e8dc420f6e9338c099bd44ebfa745d33de3e5ccbb610",
+    "evaluation_metrics.py": "810a9927cd19637d6485e21db35c1a1b9a29238c8049abb2aeb4ae11c3604b6b",
+    "inference_batched.py": "760f71e44aec52b61c09422f8aaec15f81fe631f696cce12bde39642ecc7191c",
+    "preflight.py": "b9894ec8ba7d308bc7bbf307561a3151175dcf43700f36dffc9fb755451e24dc",
+    "render_cases.py": "ae0e33f546eea12fbf3a02e72edefccc19335b752ea39abd1053c7bbcc0bdb75",
+    "run_test.py": "4efccbd7f2b28e5ba22476b93a8888eaf206cd07d3b6b6cd43660f9df449a6ff",
+    "verify_report.py": "e9040b2aa2aaefa7497dbbe7f21047d5a27ead0d0e8fe5373856d6e896630ab3",
+    "fm3d/data.py": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+    "fm3d/inference.py": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+    "fm3d/model.py": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+    "fm3d/projection_report.py": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+    "fm3d/train.py": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+    "fm3d/train_start.py": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93",
+    "fm3d/visualize.py": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+    "fm3d/wavelets.py": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+    "fm3d/__init__.py": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93"
+  },
+  "report_checks": "verification/report_checks.json",
+  "visual_review": "verification/visual_review.json"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "passed",
+  "reviewed_at": "2026-10-26T21:26:56.284077+08:00",
+  "original_cases_reviewed": [
+    "10305",
+    "10355"
+  ],
+  "new_figures_reviewed": [
+    "report/figures/scale_diagnostics.png",
+    "report/figures/fixed_examples.png"
+  ],
+  "checks": [
+    "Same display limits for GT and prediction",
+    "Full range shown as well as fixed central zoom",
+    "Raw predictions preserved",
+    "Figure titles legible and no overlap",
+    "Statistics caption distinguishes texture/noise from vessel recall"
+  ],
+  "original_report_preserved": true
+}

@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-24T19:30:58.913663+08:00",
+  "source_project": "D:/data/code/keyan_fuxian/FlowOCT",
+  "source_experiment": "experiments/fm3d_start_200_20261022",
+  "changes": [
+    "Default budget reduced from 200 to 100 epochs; 50% exact-t0 mixture retained.",
+    "Per-epoch allocated/reserved peak GPU memory and GPU name are recorded.",
+    "Standalone evaluation explicitly uses FP32, matching checkpoint selection.",
+    "New experiment-local configuration, launch/check/status entries, organization and deployment records.",
+    "Default/budget test updated to 100 epochs; baseline network, loss, data and inference files are byte-identical.",
+    "Retained original dataset-grouping helper solely to make the copied synthetic regression suite self-contained; training never calls dataset preparation."
+  ],
+  "copied_modules": [
+    {
+      "file": "fm3d/__init__.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\__init__.py",
+      "original_sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+      "experiment_sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/data.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\data.py",
+      "original_sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+      "experiment_sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/evaluate.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\evaluate.py",
+      "original_sha256": "0fd8662fd965a288d1b2b5efd9b9ac1750ee3eb9d01385b3b1ffb85403373efb",
+      "experiment_sha256": "e9010dc80a08aad18158a16c4af727a02bd82c67a5b12e10f9df6eb45b765337",
+      "byte_identical": false
+    },
+    {
+      "file": "fm3d/inference.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\inference.py",
+      "original_sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "experiment_sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/model.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\model.py",
+      "original_sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "experiment_sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/projection_report.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\projection_report.py",
+      "original_sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+      "experiment_sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/test_core.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\test_core.py",
+      "original_sha256": "3279433c5718944aeb666135a3bac18de5f14536183f9a913adaec0bc4ce0fb1",
+      "experiment_sha256": "3279433c5718944aeb666135a3bac18de5f14536183f9a913adaec0bc4ce0fb1",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/test_projection_report.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\test_projection_report.py",
+      "original_sha256": "43209951b51d80cbeb4ad340545bec90e12542a58a558b8b1807ef8d41a532e5",
+      "experiment_sha256": "43209951b51d80cbeb4ad340545bec90e12542a58a558b8b1807ef8d41a532e5",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/test_start.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\test_start.py",
+      "original_sha256": "fd8f2eb3d808d5a5a01ef563cff4cf9079d73f39169f59f20f94e8fb871af206",
+      "experiment_sha256": "bb737edb36658b21986cd49499cdc20490d22333f389bf777ef29f15f2d3430b",
+      "byte_identical": false
+    },
+    {
+      "file": "fm3d/train.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\train.py",
+      "original_sha256": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+      "experiment_sha256": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/train_start.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\train_start.py",
+      "original_sha256": "866b31d8043952f68ff8436d52fc65d979d67f5c73eeefbe42000776c43a7711",
+      "experiment_sha256": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93",
+      "byte_identical": false
+    },
+    {
+      "file": "fm3d/visualize.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\visualize.py",
+      "original_sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+      "experiment_sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+      "byte_identical": true
+    },
+    {
+      "file": "fm3d/wavelets.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\fm3d\\wavelets.py",
+      "original_sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+      "experiment_sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+      "byte_identical": true
+    },
+    {
+      "file": "tools/prepare_common_octa500.py",
+      "source": "D:\\data\\code\\keyan_fuxian\\FlowOCT\\tools\\prepare_common_octa500.py",
+      "original_sha256": "70cdc65a6a33690d6c7799757b7ed3757328bbbe0478152f1c799be11eb78b49",
+      "experiment_sha256": "70cdc65a6a33690d6c7799757b7ed3757328bbbe0478152f1c799be11eb78b49",
+      "byte_identical": true
+    }
+  ],
+  "evaluation_annotations": "Copied 11 training-probe/validation Layer MAT files and their original hash manifest; evaluation only",
+  "source_project_modified": false
+}

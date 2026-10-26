@@ -1,0 +1,793 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>起点监督3DFM · 50例测试分析</title><style>
+body{margin:0;background:#f3f6f8;color:#203747;font:17px/1.8 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1450px;margin:auto;padding:36px 28px;background:white}h1{font-size:34px;line-height:1.4}h2{margin-top:56px;padding-top:22px;border-top:2px solid #dce6eb}h3{margin-top:34px}p{max-width:1260px}img{max-width:100%;height:auto;border:1px solid #e0e7ec}table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;font-size:15px}td,th{padding:9px 14px;border-bottom:1px solid #dbe4e9;text-align:left;min-width:85px}th{background:#edf3f6}a{color:#0b6c91}code{background:#edf2f5;padding:2px 4px;overflow-wrap:anywhere}li{margin:7px 0}
+</style></head><body><main><h1>起点监督3DFM：固定第70轮模型的50例测试集分析</h1>
+<p><strong>本报告是50例测试集评价，不是10例验证集报告，也不是旧版FlowOCT/旧3DFM的历史测试报告。</strong> 模型来自exp001的100轮训练，按原10位验证患者的浅层投影SSIM在测试前选定best70。本次不训练、不重新选模、不根据测试结果调整步数、阈值或损失。</p>
+<p>测试汇总完成时间：2026-10-26T12:53:35.019449+08:00（北京时间）。实验目录按2026-10-25创建日期保留，跨日继续同一固定评价，不另行混入新实验。</p>
+<p>50位患者的宏平均体积MAE为 <strong>0.015458</strong>，PSNR为 <strong>29.971 dB</strong>；ILM–OPL最大投影SSIM为 <strong>0.4074</strong>、PCC为 <strong>0.6595</strong>。这些指标描述像素与投影相似度，不等于细血管拓扑或临床准确性。</p>
+<h2>1. 固定设置与数据边界</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>本次实际设置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>固定划分</td>
+<td>140训练、10验证、50测试；患者无交叉</td>
+</tr>
+<tr>
+<td>实际测试</td>
+<td>原清单全部50人，每人1例，未按效果筛选</td>
+</tr>
+<tr>
+<td>模型</td>
+<td>体素3D U-Net，base16，2,097,521参数</td>
+</tr>
+<tr>
+<td>训练目标</td>
+<td>流匹配速度MSE；50%精确t=0，50%随机时间；无投影损失</td>
+</tr>
+<tr>
+<td>最佳轮次</td>
+<td>验证集事先选定第70轮，本次始终不变</td>
+</tr>
+<tr>
+<td>输入</td>
+<td>OCT；OCTA及层标注只用于输出后的评价</td>
+</tr>
+<tr>
+<td>体积</td>
+<td>ZYX=256×304×304；原始单位固定除255</td>
+</tr>
+<tr>
+<td>推理</td>
+<td>FP32，禁用AMP/TF32，Euler8，原256×64×64窗口，50%重叠</td>
+</tr>
+<tr>
+<td>拼接</td>
+<td>每一步按原Hann权重融合速度；仅最终截断到[0,1]</td>
+</tr>
+<tr>
+<td>保存</td>
+<td>原始二维投影、指定B-scan、逐病例指标和来源；不重复保存完整三维预测</td>
+</tr>
+</tbody>
+</table>
+<p>原始最佳模型SHA256：<code>69c3f984e86b3dc702822cfb35a492d412f8116262b2f6e31a555792071798c1</code>。本地执行用无损提取的同一模型权重，提取文件哈希与原始训练文件哈希分别保留。</p>
+<h2>2. 全部50位测试患者的结果</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>50人均值 ± 样本标准差</th>
+<th>患者bootstrap95%区间</th>
+<th>最小–最大</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>体积 MAE ↓</td>
+<td>0.015458 ± 0.004225</td>
+<td>[0.014358, 0.016672]</td>
+<td>0.010436–0.030115</td>
+</tr>
+<tr>
+<td>体积 MSE ↓</td>
+<td>0.001031 ± 0.000240</td>
+<td>[0.000968, 0.001099]</td>
+<td>0.000609–0.001819</td>
+</tr>
+<tr>
+<td>体积 PSNR ↑ / dB</td>
+<td>29.971 ± 0.952</td>
+<td>[29.709, 30.231]</td>
+<td>27.402–32.151</td>
+</tr>
+<tr>
+<td>ILM–OPL SSIM ↑</td>
+<td>0.4074 ± 0.0464</td>
+<td>[0.3947, 0.4203]</td>
+<td>0.3284–0.5211</td>
+</tr>
+<tr>
+<td>ILM–OPL PCC ↑</td>
+<td>0.6595 ± 0.0409</td>
+<td>[0.6484, 0.6706]</td>
+<td>0.4946–0.7581</td>
+</tr>
+<tr>
+<td>全Z最大投影 SSIM ↑</td>
+<td>0.3260 ± 0.0486</td>
+<td>[0.3129, 0.3397]</td>
+<td>0.2286–0.4342</td>
+</tr>
+<tr>
+<td>全Z最大投影 PCC ↑</td>
+<td>0.4718 ± 0.0473</td>
+<td>[0.4586, 0.4845]</td>
+<td>0.3178–0.5758</td>
+</tr>
+<tr>
+<td>全Z平均投影 SSIM ↑</td>
+<td>0.9123 ± 0.0656</td>
+<td>[0.8928, 0.9287]</td>
+<td>0.6174–0.9733</td>
+</tr>
+<tr>
+<td>全Z平均投影 PCC ↑</td>
+<td>0.6728 ± 0.0513</td>
+<td>[0.6580, 0.6856]</td>
+<td>0.4668–0.7351</td>
+</tr>
+<tr>
+<td>OPL–BM SSIM ↑</td>
+<td>0.3780 ± 0.0510</td>
+<td>[0.3640, 0.3919]</td>
+<td>0.2679–0.4615</td>
+</tr>
+<tr>
+<td>OPL–BM PCC ↑</td>
+<td>0.5550 ± 0.0733</td>
+<td>[0.5340, 0.5736]</td>
+<td>0.2554–0.6454</td>
+</tr>
+</tbody>
+</table>
+<p>每位患者等权，PSNR先逐例计算再宏平均；样本标准差用ddof=1。95%区间为固定模型下、按患者重采样10,000次的bootstrap区间，不包含重新训练、随机种子或选模的不确定性。</p>
+<p><img loading="lazy" alt="全部测试病例指标" src="figures/test_patient_metrics.png" /></p>
+<h2>3. 与10例验证结果怎样对应</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>验证集10人</th>
+<th>测试集50人</th>
+<th>测试−验证</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>体积 MAE ↓</td>
+<td>0.014292</td>
+<td>0.015458</td>
+<td>+0.001166</td>
+</tr>
+<tr>
+<td>体积 MSE ↓</td>
+<td>0.000974</td>
+<td>0.001031</td>
+<td>+0.000058</td>
+</tr>
+<tr>
+<td>体积 PSNR ↑ / dB</td>
+<td>30.211</td>
+<td>29.971</td>
+<td>-0.240</td>
+</tr>
+<tr>
+<td>ILM–OPL SSIM ↑</td>
+<td>0.4053</td>
+<td>0.4074</td>
+<td>+0.0022</td>
+</tr>
+<tr>
+<td>ILM–OPL PCC ↑</td>
+<td>0.6673</td>
+<td>0.6595</td>
+<td>-0.0078</td>
+</tr>
+</tbody>
+</table>
+<p>这是同一模型在不同患者群体上的描述性比较，不是配对试验。验证集曾用于选择best70，测试集只在冻结设置后评价；群体构成、病例难度和选模都会影响差值，不能仅由两个均值的差断言过拟合或改进原因。</p>
+<p><img loading="lazy" alt="验证与测试" src="figures/validation_test_metrics.png" /></p>
+<h2>4. 强度、对比度与细节诊断</h2>
+<p>浅层预测均值的患者宏平均为 <strong>0.1576</strong>，真实均值为 <strong>0.1876</strong>，平均差为 <strong>-0.0301</strong>。其中 <strong>8例预测均值高于GT、42例低于或等于GT</strong>。不能对全部患者统一提亮后宣称结构问题已经解决。</p>
+<p>全体积预测均值却为 <strong>0.028800</strong>，高于GT的 <strong>0.021747</strong>；预测&gt;0.1的体素比例为 <strong>9.99%</strong>，GT为 <strong>8.05%</strong>。全体积偏亮与浅层投影偏暗可以同时存在，说明需要分区域检查背景、信号分布和对比度，而不能简单用全图亮度解释血管恢复。阈值占比不等于血管密度或血管召回率。</p>
+<p>浅层投影空间标准差的宏平均比值（预测/GT）为 <strong>0.701</strong>。这是对比度诊断，不是毛细血管召回率或连通性得分。</p>
+<p>预先固定GT&gt;0.1的高强度区域平均占体素 <strong>8.05%</strong>。其MAE为 <strong>0.062057</strong>，其余区域为 <strong>0.011378</strong>，两者比值为 <strong>5.45</strong>。该区域贡献绝对误差的患者平均占比为 <strong>33.83%</strong>，平方误差占比为 <strong>51.63%</strong>。这些是实际分解，不能仅以背景体素多就断言背景主导了训练MSE或梯度；GT强度阈值也不是人工血管分割。</p>
+<p>这里分解的是最终生成体积的重建误差，不能将其直接解释为训练时速度MSE的分布或梯度贡献。</p>
+<p><img loading="lazy" alt="强度诊断" src="figures/test_intensity_diagnostics.png" /></p>
+<p>当前损失仍没有单独检查细血管分叉、断裂或层内投影的准确性。起点监督约束了从纯OCT起步的映射，但不等于增加真实血流信息或细血管专用监督。缺少输入线索时的MSE平均化、下采样/插值和窗口融合，都是需要独立对照才能分清贡献的解释候选；本报告不根据测试图调整这些设置。</p>
+<p>对五页全部50例总览以及病例10305、10347、10430的完整图作目视核对：多数病例的大血管走向和中央低信号区可辨认，但细密网状纹理普遍更平滑、更弱，部分主干显得更粗或更亮。10317虽然浅层SSIM最高，仍不能据此认定细血管最准确；10430的全深度平均图明显偏亮，浅层预测均值却低于GT。10454的浅层预测均值高于GT，与多数病例的偏差方向相反。上述都是图像/数值差异描述，不是血管分割或病变诊断结论。</p>
+<h2>5. 为什么不能只看整体误差或平均投影SSIM</h2>
+<table>
+<thead>
+<tr>
+<th>参照</th>
+<th>体积MAE</th>
+<th>PSNR/dB</th>
+<th>浅层SSIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>固定第70轮模型</td>
+<td>0.015458</td>
+<td>29.971</td>
+<td>0.4074</td>
+</tr>
+<tr>
+<td>全零输出（数值健全性参照）</td>
+<td>0.021747</td>
+<td>24.489</td>
+<td>0.0043</td>
+</tr>
+</tbody>
+</table>
+<p>模型相对全零参照的体积MAE变化为 <strong>-28.9%</strong>，PSNR变化 <strong>+5.482 dB</strong>。全零只是检查数值口径的参照，不是训练方法。</p>
+<p>本次全深度均值投影SSIM为 <strong>0.9123</strong>，浅层最大投影SSIM为 <strong>0.4074</strong>。平均投影真实图最大值范围仅为 <strong>0.0482–0.0919</strong>，所有SSIM仍固定data_range=1、win_size=7。投影内容和动态范围不同，高均值投影SSIM不能替代细结构准确性，也不能直接等同于其他论文不同定义的SSIM。</p>
+<h2>6. 全部病例图像，无效果筛选</h2>
+<p>五页总览依照固定病例编号排序；每例左GT、右预测，浅层最大投影共享显示窗[0,0.5]。该窗口可能使较亮值饱和，仅影响展示，指标使用原始浮点值。</p>
+<p><img loading="lazy" alt="测试总览第1页" src="figures/test_overview_1.png" /></p>
+<p><img loading="lazy" alt="测试总览第2页" src="figures/test_overview_2.png" /></p>
+<p><img loading="lazy" alt="测试总览第3页" src="figures/test_overview_3.png" /></p>
+<p><img loading="lazy" alt="测试总览第4页" src="figures/test_overview_4.png" /></p>
+<p><img loading="lazy" alt="测试总览第5页" src="figures/test_overview_5.png" /></p>
+<p>下面固定展示排序第1、25、50位患者，选择规则与模型效果无关；其余病例均可从下表打开完整图。</p>
+<h3>固定示例 10305</h3>
+<p><img loading="lazy" alt="完整病例" src="figures/10305_comparison.png" /></p>
+<h3>固定示例 10367</h3>
+<p><img loading="lazy" alt="完整病例" src="figures/10367_comparison.png" /></p>
+<h3>固定示例 10499</h3>
+<p><img loading="lazy" alt="完整病例" src="figures/10499_comparison.png" /></p>
+<h2>7. 病例差异与原始指标</h2>
+<p>浅层SSIM最低病例为 <strong>10328（0.3284）</strong>，最高为 <strong>10317（0.5211）</strong>；体积MAE最高为 <strong>10430（0.030115）</strong>。这里只描述本次固定模型的分布，没有据此选模型或调参。</p>
+<table>
+<thead>
+<tr>
+<th>病种字段</th>
+<th>人数</th>
+<th>体积MAE均值</th>
+<th>浅层SSIM均值</th>
+<th>浅层PCC均值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMD</td>
+<td>1</td>
+<td>0.027810</td>
+<td>0.3492</td>
+<td>0.6235</td>
+</tr>
+<tr>
+<td>CNV</td>
+<td>1</td>
+<td>0.019720</td>
+<td>0.3409</td>
+<td>0.6762</td>
+</tr>
+<tr>
+<td>DR</td>
+<td>8</td>
+<td>0.014965</td>
+<td>0.4500</td>
+<td>0.6470</td>
+</tr>
+<tr>
+<td>NORMAL</td>
+<td>40</td>
+<td>0.015141</td>
+<td>0.4020</td>
+<td>0.6625</td>
+</tr>
+</tbody>
+</table>
+<p>病种字段仅用于追溯和描述。小亚组尤其只有1–2人的情况，不支持病种性能排名或临床结论。</p>
+<table>
+<thead>
+<tr>
+<th>病例</th>
+<th>病种</th>
+<th>体积MAE</th>
+<th>PSNR/dB</th>
+<th>浅层SSIM</th>
+<th>浅层PCC</th>
+<th>完整图</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10305</td>
+<td>NORMAL</td>
+<td>0.015080</td>
+<td>29.632</td>
+<td>0.3716</td>
+<td>0.7111</td>
+<td><a href="figures/10305_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10307</td>
+<td>NORMAL</td>
+<td>0.014053</td>
+<td>29.385</td>
+<td>0.3930</td>
+<td>0.6610</td>
+<td><a href="figures/10307_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10317</td>
+<td>DR</td>
+<td>0.014802</td>
+<td>30.807</td>
+<td>0.5211</td>
+<td>0.7077</td>
+<td><a href="figures/10317_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10318</td>
+<td>NORMAL</td>
+<td>0.015645</td>
+<td>29.186</td>
+<td>0.3407</td>
+<td>0.6529</td>
+<td><a href="figures/10318_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10321</td>
+<td>NORMAL</td>
+<td>0.018171</td>
+<td>29.848</td>
+<td>0.4187</td>
+<td>0.6650</td>
+<td><a href="figures/10321_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10322</td>
+<td>NORMAL</td>
+<td>0.012540</td>
+<td>30.000</td>
+<td>0.3985</td>
+<td>0.6596</td>
+<td><a href="figures/10322_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10325</td>
+<td>AMD</td>
+<td>0.027810</td>
+<td>27.402</td>
+<td>0.3492</td>
+<td>0.6235</td>
+<td><a href="figures/10325_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10326</td>
+<td>NORMAL</td>
+<td>0.012298</td>
+<td>30.921</td>
+<td>0.3677</td>
+<td>0.6521</td>
+<td><a href="figures/10326_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10327</td>
+<td>NORMAL</td>
+<td>0.014344</td>
+<td>30.887</td>
+<td>0.4735</td>
+<td>0.7128</td>
+<td><a href="figures/10327_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10328</td>
+<td>NORMAL</td>
+<td>0.014303</td>
+<td>28.874</td>
+<td>0.3284</td>
+<td>0.6497</td>
+<td><a href="figures/10328_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10330</td>
+<td>NORMAL</td>
+<td>0.013863</td>
+<td>30.311</td>
+<td>0.3840</td>
+<td>0.6870</td>
+<td><a href="figures/10330_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10331</td>
+<td>NORMAL</td>
+<td>0.012890</td>
+<td>30.185</td>
+<td>0.3711</td>
+<td>0.6058</td>
+<td><a href="figures/10331_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10332</td>
+<td>NORMAL</td>
+<td>0.010436</td>
+<td>32.151</td>
+<td>0.4664</td>
+<td>0.6835</td>
+<td><a href="figures/10332_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10341</td>
+<td>NORMAL</td>
+<td>0.016071</td>
+<td>29.693</td>
+<td>0.3776</td>
+<td>0.6584</td>
+<td><a href="figures/10341_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10342</td>
+<td>NORMAL</td>
+<td>0.017037</td>
+<td>29.220</td>
+<td>0.3311</td>
+<td>0.6512</td>
+<td><a href="figures/10342_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10347</td>
+<td>NORMAL</td>
+<td>0.012556</td>
+<td>30.086</td>
+<td>0.3919</td>
+<td>0.6470</td>
+<td><a href="figures/10347_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10351</td>
+<td>NORMAL</td>
+<td>0.010821</td>
+<td>30.729</td>
+<td>0.4353</td>
+<td>0.6547</td>
+<td><a href="figures/10351_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10355</td>
+<td>NORMAL</td>
+<td>0.011973</td>
+<td>31.056</td>
+<td>0.4669</td>
+<td>0.6385</td>
+<td><a href="figures/10355_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10356</td>
+<td>NORMAL</td>
+<td>0.015007</td>
+<td>29.712</td>
+<td>0.4522</td>
+<td>0.6266</td>
+<td><a href="figures/10356_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10358</td>
+<td>NORMAL</td>
+<td>0.014240</td>
+<td>29.974</td>
+<td>0.3359</td>
+<td>0.6147</td>
+<td><a href="figures/10358_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10359</td>
+<td>NORMAL</td>
+<td>0.012565</td>
+<td>30.816</td>
+<td>0.4122</td>
+<td>0.7082</td>
+<td><a href="figures/10359_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10362</td>
+<td>NORMAL</td>
+<td>0.012332</td>
+<td>30.746</td>
+<td>0.3996</td>
+<td>0.6696</td>
+<td><a href="figures/10362_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10363</td>
+<td>NORMAL</td>
+<td>0.012387</td>
+<td>30.663</td>
+<td>0.4354</td>
+<td>0.6513</td>
+<td><a href="figures/10363_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10365</td>
+<td>DR</td>
+<td>0.014472</td>
+<td>30.412</td>
+<td>0.4639</td>
+<td>0.6658</td>
+<td><a href="figures/10365_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10367</td>
+<td>CNV</td>
+<td>0.019720</td>
+<td>29.284</td>
+<td>0.3409</td>
+<td>0.6762</td>
+<td><a href="figures/10367_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10379</td>
+<td>DR</td>
+<td>0.012785</td>
+<td>29.947</td>
+<td>0.4580</td>
+<td>0.6679</td>
+<td><a href="figures/10379_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10394</td>
+<td>NORMAL</td>
+<td>0.015400</td>
+<td>29.766</td>
+<td>0.3426</td>
+<td>0.6387</td>
+<td><a href="figures/10394_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10395</td>
+<td>NORMAL</td>
+<td>0.011313</td>
+<td>31.351</td>
+<td>0.4580</td>
+<td>0.6492</td>
+<td><a href="figures/10395_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10404</td>
+<td>NORMAL</td>
+<td>0.021054</td>
+<td>29.300</td>
+<td>0.3940</td>
+<td>0.6652</td>
+<td><a href="figures/10404_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10410</td>
+<td>NORMAL</td>
+<td>0.015421</td>
+<td>30.650</td>
+<td>0.4129</td>
+<td>0.6281</td>
+<td><a href="figures/10410_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10415</td>
+<td>NORMAL</td>
+<td>0.019525</td>
+<td>28.479</td>
+<td>0.4644</td>
+<td>0.6362</td>
+<td><a href="figures/10415_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10420</td>
+<td>NORMAL</td>
+<td>0.016737</td>
+<td>29.908</td>
+<td>0.3854</td>
+<td>0.6501</td>
+<td><a href="figures/10420_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10421</td>
+<td>DR</td>
+<td>0.013698</td>
+<td>29.659</td>
+<td>0.4577</td>
+<td>0.6697</td>
+<td><a href="figures/10421_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10423</td>
+<td>NORMAL</td>
+<td>0.017565</td>
+<td>30.034</td>
+<td>0.4153</td>
+<td>0.6639</td>
+<td><a href="figures/10423_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10425</td>
+<td>NORMAL</td>
+<td>0.016316</td>
+<td>29.684</td>
+<td>0.3632</td>
+<td>0.6300</td>
+<td><a href="figures/10425_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10430</td>
+<td>NORMAL</td>
+<td>0.030115</td>
+<td>27.821</td>
+<td>0.3739</td>
+<td>0.6816</td>
+<td><a href="figures/10430_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10433</td>
+<td>DR</td>
+<td>0.012423</td>
+<td>30.031</td>
+<td>0.4437</td>
+<td>0.7136</td>
+<td><a href="figures/10433_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10446</td>
+<td>NORMAL</td>
+<td>0.015125</td>
+<td>30.193</td>
+<td>0.3958</td>
+<td>0.6212</td>
+<td><a href="figures/10446_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10448</td>
+<td>NORMAL</td>
+<td>0.011187</td>
+<td>29.738</td>
+<td>0.3468</td>
+<td>0.6488</td>
+<td><a href="figures/10448_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10454</td>
+<td>DR</td>
+<td>0.023776</td>
+<td>27.873</td>
+<td>0.4178</td>
+<td>0.4946</td>
+<td><a href="figures/10454_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10460</td>
+<td>NORMAL</td>
+<td>0.012374</td>
+<td>30.505</td>
+<td>0.4174</td>
+<td>0.7113</td>
+<td><a href="figures/10460_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10467</td>
+<td>DR</td>
+<td>0.015456</td>
+<td>29.995</td>
+<td>0.3952</td>
+<td>0.6327</td>
+<td><a href="figures/10467_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10472</td>
+<td>NORMAL</td>
+<td>0.013718</td>
+<td>29.604</td>
+<td>0.3996</td>
+<td>0.6487</td>
+<td><a href="figures/10472_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10475</td>
+<td>NORMAL</td>
+<td>0.016103</td>
+<td>31.255</td>
+<td>0.5038</td>
+<td>0.7370</td>
+<td><a href="figures/10475_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10476</td>
+<td>NORMAL</td>
+<td>0.010852</td>
+<td>31.558</td>
+<td>0.4105</td>
+<td>0.7297</td>
+<td><a href="figures/10476_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10484</td>
+<td>NORMAL</td>
+<td>0.022356</td>
+<td>29.423</td>
+<td>0.4252</td>
+<td>0.7581</td>
+<td><a href="figures/10484_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10494</td>
+<td>NORMAL</td>
+<td>0.012018</td>
+<td>31.447</td>
+<td>0.4124</td>
+<td>0.6556</td>
+<td><a href="figures/10494_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10497</td>
+<td>NORMAL</td>
+<td>0.023558</td>
+<td>28.680</td>
+<td>0.3630</td>
+<td>0.6552</td>
+<td><a href="figures/10497_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10498</td>
+<td>NORMAL</td>
+<td>0.016292</td>
+<td>30.052</td>
+<td>0.4451</td>
+<td>0.6306</td>
+<td><a href="figures/10498_comparison.png">查看</a></td>
+</tr>
+<tr>
+<td>10499</td>
+<td>DR</td>
+<td>0.012306</td>
+<td>29.631</td>
+<td>0.4428</td>
+<td>0.6243</td>
+<td><a href="figures/10499_comparison.png">查看</a></td>
+</tr>
+</tbody>
+</table>
+<h2>8. 推理与来源核对</h2>
+<table>
+<thead>
+<tr>
+<th>核对项目</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用于核对的病例</td>
+<td>原验证病例10302；测试病例使用数=0</td>
+</tr>
+<tr>
+<td>原最佳权重epoch</td>
+<td>70；没有扫描其他轮次</td>
+</tr>
+<tr>
+<td>GPU窗口批量</td>
+<td>4</td>
+</tr>
+<tr>
+<td>与exp003原始指标的最大绝对差</td>
+<td>2.56e-06</td>
+</tr>
+<tr>
+<td>原始投影像素最大绝对差</td>
+<td>1.64e-06</td>
+</tr>
+<tr>
+<td>预设容差</td>
+<td>指标/投影均为1e-4；核对通过后才开始测试</td>
+</tr>
+<tr>
+<td>病例设备分工</td>
+<td>cpu: 25例, gpu: 25例</td>
+</tr>
+</tbody>
+</table>
+<p>逐窗口批量组织只改变计算调度，网络、窗口、时间点和累加顺序不变。GPU与CPU后端并非逐位等价，但在原验证病例上与原推理核对后才开始测试。测试期间不以任何测试患者做程序冒烟、性能模式选择、轮次选择或超参数决定。</p>
+<p>本次运行跨越本机长时间暂停/等待与次日恢复；原CPU分工完成后，仅把未完成病例重新分配给空闲CPU，已完成结果保留，科学设置未改。逐病例seconds包含等待，不能作为纯GPU计算时间，也不能由本次不连续运行推算公平吞吐。服务器两张3090仍不可初始化，未用于本次生成。</p>
+<p>分层投影复用原定义：标注为6层、MATLAB 1基的原640深度边界，Z256体素中心映射后在闭区间取ILM–OPL/OPL–BM最大值；FULL是256层算术均值，投影显示为XY。GT层标注用于预测与GT的相同事后投影，不进入生成模型。</p>
+<h2>9. 文件与解释边界</h2>
+<ul>
+<li><a href="per_case_metrics.csv">50例逐病例指标</a>、<a href="metrics_summary.csv">汇总及置信区间</a>、<a href="case_provenance.csv">逐病例来源与哈希</a>。</li>
+<li><code>results/case_views/</code>保留未拉伸二维数值及指定B-scan；<code>verification/</code>保留固定协议、验证核对、设备、来源和完整性记录。</li>
+<li>原exp001/003代码和权重不覆盖，不制作交付压缩包；本次不增加训练、投影损失或模型修改。</li>
+<li>这是既有固定测试划分下、当前固定模型的评价。项目历史上已经评价过旧模型的同一测试集，不能把它包装成全项目从未接触过的一次性外部盲测。</li>
+<li>本次未使用人工细血管分割标签进行该类评价，不能给出有效的细血管Dice、召回率、clDice或临床安全性结论。图像更锐利或高频更多，也不等于新增纹理就是真实血管。</li>
+</ul></main></body></html>

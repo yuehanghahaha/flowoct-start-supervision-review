@@ -1,0 +1,1274 @@
+{
+  "settings": {
+    "experiment_id": "exp010_20261025_3dfm_start70_test50",
+    "parent_experiments": [
+      "exp001_20261024_3dfm_start_100e",
+      "exp003_20261025_3dfm_start100e_validation"
+    ],
+    "mode": "test_evaluation_only",
+    "checkpoint_epoch": 70,
+    "original_checkpoint_sha256": "69c3f984e86b3dc702822cfb35a492d412f8116262b2f6e31a555792071798c1",
+    "split": "test",
+    "expected_patients": 50,
+    "axis_order": "ZYX",
+    "intensity_scale": 255.0,
+    "volume_shape": [
+      256,
+      304,
+      304
+    ],
+    "patch": [
+      256,
+      64,
+      64
+    ],
+    "ode_steps": 8,
+    "overlap": 0.5,
+    "amp": false,
+    "tf32": false,
+    "inference_batch_candidates_validation_only": [
+      4,
+      2,
+      1
+    ],
+    "validation_preflight_case": "10302",
+    "preflight_projection_max_absolute_tolerance": 0.0001,
+    "preflight_metric_absolute_tolerance": 0.0001,
+    "intensity_diagnostic_threshold": 0.1,
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 20261025,
+    "save_full_volumes": false,
+    "checkpoint_or_hyperparameter_selection_on_test": false,
+    "full_training_started": false,
+    "validated_window_batch": 4
+  },
+  "membership": [
+    {
+      "case_id": "10301",
+      "patient_id": "10301",
+      "split": "train"
+    },
+    {
+      "case_id": "10302",
+      "patient_id": "10302",
+      "split": "validation"
+    },
+    {
+      "case_id": "10303",
+      "patient_id": "10303",
+      "split": "train"
+    },
+    {
+      "case_id": "10304",
+      "patient_id": "10304",
+      "split": "train"
+    },
+    {
+      "case_id": "10305",
+      "patient_id": "10305",
+      "split": "test"
+    },
+    {
+      "case_id": "10306",
+      "patient_id": "10306",
+      "split": "train"
+    },
+    {
+      "case_id": "10307",
+      "patient_id": "10307",
+      "split": "test"
+    },
+    {
+      "case_id": "10308",
+      "patient_id": "10308",
+      "split": "train"
+    },
+    {
+      "case_id": "10309",
+      "patient_id": "10309",
+      "split": "train"
+    },
+    {
+      "case_id": "10310",
+      "patient_id": "10310",
+      "split": "train"
+    },
+    {
+      "case_id": "10311",
+      "patient_id": "10311",
+      "split": "train"
+    },
+    {
+      "case_id": "10312",
+      "patient_id": "10312",
+      "split": "train"
+    },
+    {
+      "case_id": "10313",
+      "patient_id": "10313",
+      "split": "train"
+    },
+    {
+      "case_id": "10314",
+      "patient_id": "10314",
+      "split": "train"
+    },
+    {
+      "case_id": "10315",
+      "patient_id": "10315",
+      "split": "train"
+    },
+    {
+      "case_id": "10316",
+      "patient_id": "10316",
+      "split": "train"
+    },
+    {
+      "case_id": "10317",
+      "patient_id": "10317",
+      "split": "test"
+    },
+    {
+      "case_id": "10318",
+      "patient_id": "10318",
+      "split": "test"
+    },
+    {
+      "case_id": "10319",
+      "patient_id": "10319",
+      "split": "validation"
+    },
+    {
+      "case_id": "10320",
+      "patient_id": "10320",
+      "split": "train"
+    },
+    {
+      "case_id": "10321",
+      "patient_id": "10321",
+      "split": "test"
+    },
+    {
+      "case_id": "10322",
+      "patient_id": "10322",
+      "split": "test"
+    },
+    {
+      "case_id": "10323",
+      "patient_id": "10323",
+      "split": "train"
+    },
+    {
+      "case_id": "10324",
+      "patient_id": "10324",
+      "split": "train"
+    },
+    {
+      "case_id": "10325",
+      "patient_id": "10325",
+      "split": "test"
+    },
+    {
+      "case_id": "10326",
+      "patient_id": "10326",
+      "split": "test"
+    },
+    {
+      "case_id": "10327",
+      "patient_id": "10327",
+      "split": "test"
+    },
+    {
+      "case_id": "10328",
+      "patient_id": "10328",
+      "split": "test"
+    },
+    {
+      "case_id": "10329",
+      "patient_id": "10329",
+      "split": "train"
+    },
+    {
+      "case_id": "10330",
+      "patient_id": "10330",
+      "split": "test"
+    },
+    {
+      "case_id": "10331",
+      "patient_id": "10331",
+      "split": "test"
+    },
+    {
+      "case_id": "10332",
+      "patient_id": "10332",
+      "split": "test"
+    },
+    {
+      "case_id": "10333",
+      "patient_id": "10333",
+      "split": "train"
+    },
+    {
+      "case_id": "10334",
+      "patient_id": "10334",
+      "split": "train"
+    },
+    {
+      "case_id": "10335",
+      "patient_id": "10335",
+      "split": "train"
+    },
+    {
+      "case_id": "10336",
+      "patient_id": "10336",
+      "split": "train"
+    },
+    {
+      "case_id": "10337",
+      "patient_id": "10337",
+      "split": "train"
+    },
+    {
+      "case_id": "10338",
+      "patient_id": "10338",
+      "split": "validation"
+    },
+    {
+      "case_id": "10339",
+      "patient_id": "10339",
+      "split": "train"
+    },
+    {
+      "case_id": "10340",
+      "patient_id": "10340",
+      "split": "train"
+    },
+    {
+      "case_id": "10341",
+      "patient_id": "10341",
+      "split": "test"
+    },
+    {
+      "case_id": "10342",
+      "patient_id": "10342",
+      "split": "test"
+    },
+    {
+      "case_id": "10343",
+      "patient_id": "10343",
+      "split": "train"
+    },
+    {
+      "case_id": "10344",
+      "patient_id": "10344",
+      "split": "train"
+    },
+    {
+      "case_id": "10345",
+      "patient_id": "10345",
+      "split": "train"
+    },
+    {
+      "case_id": "10346",
+      "patient_id": "10346",
+      "split": "train"
+    },
+    {
+      "case_id": "10347",
+      "patient_id": "10347",
+      "split": "test"
+    },
+    {
+      "case_id": "10348",
+      "patient_id": "10348",
+      "split": "train"
+    },
+    {
+      "case_id": "10349",
+      "patient_id": "10349",
+      "split": "train"
+    },
+    {
+      "case_id": "10350",
+      "patient_id": "10350",
+      "split": "train"
+    },
+    {
+      "case_id": "10351",
+      "patient_id": "10351",
+      "split": "test"
+    },
+    {
+      "case_id": "10352",
+      "patient_id": "10352",
+      "split": "train"
+    },
+    {
+      "case_id": "10353",
+      "patient_id": "10353",
+      "split": "train"
+    },
+    {
+      "case_id": "10354",
+      "patient_id": "10354",
+      "split": "train"
+    },
+    {
+      "case_id": "10355",
+      "patient_id": "10355",
+      "split": "test"
+    },
+    {
+      "case_id": "10356",
+      "patient_id": "10356",
+      "split": "test"
+    },
+    {
+      "case_id": "10357",
+      "patient_id": "10357",
+      "split": "validation"
+    },
+    {
+      "case_id": "10358",
+      "patient_id": "10358",
+      "split": "test"
+    },
+    {
+      "case_id": "10359",
+      "patient_id": "10359",
+      "split": "test"
+    },
+    {
+      "case_id": "10360",
+      "patient_id": "10360",
+      "split": "train"
+    },
+    {
+      "case_id": "10361",
+      "patient_id": "10361",
+      "split": "train"
+    },
+    {
+      "case_id": "10362",
+      "patient_id": "10362",
+      "split": "test"
+    },
+    {
+      "case_id": "10363",
+      "patient_id": "10363",
+      "split": "test"
+    },
+    {
+      "case_id": "10364",
+      "patient_id": "10364",
+      "split": "train"
+    },
+    {
+      "case_id": "10365",
+      "patient_id": "10365",
+      "split": "test"
+    },
+    {
+      "case_id": "10366",
+      "patient_id": "10366",
+      "split": "train"
+    },
+    {
+      "case_id": "10367",
+      "patient_id": "10367",
+      "split": "test"
+    },
+    {
+      "case_id": "10368",
+      "patient_id": "10368",
+      "split": "train"
+    },
+    {
+      "case_id": "10369",
+      "patient_id": "10369",
+      "split": "train"
+    },
+    {
+      "case_id": "10370",
+      "patient_id": "10370",
+      "split": "train"
+    },
+    {
+      "case_id": "10371",
+      "patient_id": "10371",
+      "split": "train"
+    },
+    {
+      "case_id": "10372",
+      "patient_id": "10372",
+      "split": "train"
+    },
+    {
+      "case_id": "10373",
+      "patient_id": "10373",
+      "split": "train"
+    },
+    {
+      "case_id": "10374",
+      "patient_id": "10374",
+      "split": "train"
+    },
+    {
+      "case_id": "10375",
+      "patient_id": "10375",
+      "split": "train"
+    },
+    {
+      "case_id": "10376",
+      "patient_id": "10376",
+      "split": "train"
+    },
+    {
+      "case_id": "10377",
+      "patient_id": "10377",
+      "split": "train"
+    },
+    {
+      "case_id": "10378",
+      "patient_id": "10378",
+      "split": "train"
+    },
+    {
+      "case_id": "10379",
+      "patient_id": "10379",
+      "split": "test"
+    },
+    {
+      "case_id": "10380",
+      "patient_id": "10380",
+      "split": "train"
+    },
+    {
+      "case_id": "10381",
+      "patient_id": "10381",
+      "split": "train"
+    },
+    {
+      "case_id": "10382",
+      "patient_id": "10382",
+      "split": "train"
+    },
+    {
+      "case_id": "10383",
+      "patient_id": "10383",
+      "split": "train"
+    },
+    {
+      "case_id": "10384",
+      "patient_id": "10384",
+      "split": "train"
+    },
+    {
+      "case_id": "10385",
+      "patient_id": "10385",
+      "split": "train"
+    },
+    {
+      "case_id": "10386",
+      "patient_id": "10386",
+      "split": "train"
+    },
+    {
+      "case_id": "10387",
+      "patient_id": "10387",
+      "split": "train"
+    },
+    {
+      "case_id": "10388",
+      "patient_id": "10388",
+      "split": "train"
+    },
+    {
+      "case_id": "10389",
+      "patient_id": "10389",
+      "split": "train"
+    },
+    {
+      "case_id": "10390",
+      "patient_id": "10390",
+      "split": "train"
+    },
+    {
+      "case_id": "10391",
+      "patient_id": "10391",
+      "split": "train"
+    },
+    {
+      "case_id": "10392",
+      "patient_id": "10392",
+      "split": "train"
+    },
+    {
+      "case_id": "10393",
+      "patient_id": "10393",
+      "split": "train"
+    },
+    {
+      "case_id": "10394",
+      "patient_id": "10394",
+      "split": "test"
+    },
+    {
+      "case_id": "10395",
+      "patient_id": "10395",
+      "split": "test"
+    },
+    {
+      "case_id": "10396",
+      "patient_id": "10396",
+      "split": "validation"
+    },
+    {
+      "case_id": "10397",
+      "patient_id": "10397",
+      "split": "train"
+    },
+    {
+      "case_id": "10398",
+      "patient_id": "10398",
+      "split": "train"
+    },
+    {
+      "case_id": "10399",
+      "patient_id": "10399",
+      "split": "train"
+    },
+    {
+      "case_id": "10400",
+      "patient_id": "10400",
+      "split": "train"
+    },
+    {
+      "case_id": "10401",
+      "patient_id": "10401",
+      "split": "train"
+    },
+    {
+      "case_id": "10402",
+      "patient_id": "10402",
+      "split": "train"
+    },
+    {
+      "case_id": "10403",
+      "patient_id": "10403",
+      "split": "train"
+    },
+    {
+      "case_id": "10404",
+      "patient_id": "10404",
+      "split": "test"
+    },
+    {
+      "case_id": "10405",
+      "patient_id": "10405",
+      "split": "train"
+    },
+    {
+      "case_id": "10406",
+      "patient_id": "10406",
+      "split": "train"
+    },
+    {
+      "case_id": "10407",
+      "patient_id": "10407",
+      "split": "train"
+    },
+    {
+      "case_id": "10408",
+      "patient_id": "10408",
+      "split": "train"
+    },
+    {
+      "case_id": "10409",
+      "patient_id": "10409",
+      "split": "train"
+    },
+    {
+      "case_id": "10410",
+      "patient_id": "10410",
+      "split": "test"
+    },
+    {
+      "case_id": "10411",
+      "patient_id": "10411",
+      "split": "train"
+    },
+    {
+      "case_id": "10412",
+      "patient_id": "10412",
+      "split": "train"
+    },
+    {
+      "case_id": "10413",
+      "patient_id": "10413",
+      "split": "train"
+    },
+    {
+      "case_id": "10414",
+      "patient_id": "10414",
+      "split": "train"
+    },
+    {
+      "case_id": "10415",
+      "patient_id": "10415",
+      "split": "test"
+    },
+    {
+      "case_id": "10416",
+      "patient_id": "10416",
+      "split": "train"
+    },
+    {
+      "case_id": "10417",
+      "patient_id": "10417",
+      "split": "train"
+    },
+    {
+      "case_id": "10418",
+      "patient_id": "10418",
+      "split": "train"
+    },
+    {
+      "case_id": "10419",
+      "patient_id": "10419",
+      "split": "train"
+    },
+    {
+      "case_id": "10420",
+      "patient_id": "10420",
+      "split": "test"
+    },
+    {
+      "case_id": "10421",
+      "patient_id": "10421",
+      "split": "test"
+    },
+    {
+      "case_id": "10422",
+      "patient_id": "10422",
+      "split": "validation"
+    },
+    {
+      "case_id": "10423",
+      "patient_id": "10423",
+      "split": "test"
+    },
+    {
+      "case_id": "10424",
+      "patient_id": "10424",
+      "split": "train"
+    },
+    {
+      "case_id": "10425",
+      "patient_id": "10425",
+      "split": "test"
+    },
+    {
+      "case_id": "10426",
+      "patient_id": "10426",
+      "split": "train"
+    },
+    {
+      "case_id": "10427",
+      "patient_id": "10427",
+      "split": "train"
+    },
+    {
+      "case_id": "10428",
+      "patient_id": "10428",
+      "split": "train"
+    },
+    {
+      "case_id": "10429",
+      "patient_id": "10429",
+      "split": "train"
+    },
+    {
+      "case_id": "10430",
+      "patient_id": "10430",
+      "split": "test"
+    },
+    {
+      "case_id": "10431",
+      "patient_id": "10431",
+      "split": "train"
+    },
+    {
+      "case_id": "10432",
+      "patient_id": "10432",
+      "split": "train"
+    },
+    {
+      "case_id": "10433",
+      "patient_id": "10433",
+      "split": "test"
+    },
+    {
+      "case_id": "10434",
+      "patient_id": "10434",
+      "split": "train"
+    },
+    {
+      "case_id": "10435",
+      "patient_id": "10435",
+      "split": "train"
+    },
+    {
+      "case_id": "10436",
+      "patient_id": "10436",
+      "split": "train"
+    },
+    {
+      "case_id": "10437",
+      "patient_id": "10437",
+      "split": "train"
+    },
+    {
+      "case_id": "10438",
+      "patient_id": "10438",
+      "split": "train"
+    },
+    {
+      "case_id": "10439",
+      "patient_id": "10439",
+      "split": "train"
+    },
+    {
+      "case_id": "10440",
+      "patient_id": "10440",
+      "split": "train"
+    },
+    {
+      "case_id": "10441",
+      "patient_id": "10441",
+      "split": "train"
+    },
+    {
+      "case_id": "10442",
+      "patient_id": "10442",
+      "split": "train"
+    },
+    {
+      "case_id": "10443",
+      "patient_id": "10443",
+      "split": "train"
+    },
+    {
+      "case_id": "10444",
+      "patient_id": "10444",
+      "split": "train"
+    },
+    {
+      "case_id": "10445",
+      "patient_id": "10445",
+      "split": "train"
+    },
+    {
+      "case_id": "10446",
+      "patient_id": "10446",
+      "split": "test"
+    },
+    {
+      "case_id": "10447",
+      "patient_id": "10447",
+      "split": "validation"
+    },
+    {
+      "case_id": "10448",
+      "patient_id": "10448",
+      "split": "test"
+    },
+    {
+      "case_id": "10449",
+      "patient_id": "10449",
+      "split": "train"
+    },
+    {
+      "case_id": "10450",
+      "patient_id": "10450",
+      "split": "train"
+    },
+    {
+      "case_id": "10451",
+      "patient_id": "10451",
+      "split": "train"
+    },
+    {
+      "case_id": "10452",
+      "patient_id": "10452",
+      "split": "train"
+    },
+    {
+      "case_id": "10453",
+      "patient_id": "10453",
+      "split": "train"
+    },
+    {
+      "case_id": "10454",
+      "patient_id": "10454",
+      "split": "test"
+    },
+    {
+      "case_id": "10455",
+      "patient_id": "10455",
+      "split": "train"
+    },
+    {
+      "case_id": "10456",
+      "patient_id": "10456",
+      "split": "validation"
+    },
+    {
+      "case_id": "10457",
+      "patient_id": "10457",
+      "split": "train"
+    },
+    {
+      "case_id": "10458",
+      "patient_id": "10458",
+      "split": "train"
+    },
+    {
+      "case_id": "10459",
+      "patient_id": "10459",
+      "split": "train"
+    },
+    {
+      "case_id": "10460",
+      "patient_id": "10460",
+      "split": "test"
+    },
+    {
+      "case_id": "10461",
+      "patient_id": "10461",
+      "split": "train"
+    },
+    {
+      "case_id": "10462",
+      "patient_id": "10462",
+      "split": "train"
+    },
+    {
+      "case_id": "10463",
+      "patient_id": "10463",
+      "split": "train"
+    },
+    {
+      "case_id": "10464",
+      "patient_id": "10464",
+      "split": "train"
+    },
+    {
+      "case_id": "10465",
+      "patient_id": "10465",
+      "split": "train"
+    },
+    {
+      "case_id": "10466",
+      "patient_id": "10466",
+      "split": "train"
+    },
+    {
+      "case_id": "10467",
+      "patient_id": "10467",
+      "split": "test"
+    },
+    {
+      "case_id": "10468",
+      "patient_id": "10468",
+      "split": "train"
+    },
+    {
+      "case_id": "10469",
+      "patient_id": "10469",
+      "split": "train"
+    },
+    {
+      "case_id": "10470",
+      "patient_id": "10470",
+      "split": "train"
+    },
+    {
+      "case_id": "10471",
+      "patient_id": "10471",
+      "split": "train"
+    },
+    {
+      "case_id": "10472",
+      "patient_id": "10472",
+      "split": "test"
+    },
+    {
+      "case_id": "10473",
+      "patient_id": "10473",
+      "split": "train"
+    },
+    {
+      "case_id": "10474",
+      "patient_id": "10474",
+      "split": "train"
+    },
+    {
+      "case_id": "10475",
+      "patient_id": "10475",
+      "split": "test"
+    },
+    {
+      "case_id": "10476",
+      "patient_id": "10476",
+      "split": "test"
+    },
+    {
+      "case_id": "10477",
+      "patient_id": "10477",
+      "split": "train"
+    },
+    {
+      "case_id": "10478",
+      "patient_id": "10478",
+      "split": "train"
+    },
+    {
+      "case_id": "10479",
+      "patient_id": "10479",
+      "split": "train"
+    },
+    {
+      "case_id": "10480",
+      "patient_id": "10480",
+      "split": "train"
+    },
+    {
+      "case_id": "10481",
+      "patient_id": "10481",
+      "split": "train"
+    },
+    {
+      "case_id": "10482",
+      "patient_id": "10482",
+      "split": "train"
+    },
+    {
+      "case_id": "10483",
+      "patient_id": "10483",
+      "split": "train"
+    },
+    {
+      "case_id": "10484",
+      "patient_id": "10484",
+      "split": "test"
+    },
+    {
+      "case_id": "10485",
+      "patient_id": "10485",
+      "split": "train"
+    },
+    {
+      "case_id": "10486",
+      "patient_id": "10486",
+      "split": "train"
+    },
+    {
+      "case_id": "10487",
+      "patient_id": "10487",
+      "split": "train"
+    },
+    {
+      "case_id": "10488",
+      "patient_id": "10488",
+      "split": "train"
+    },
+    {
+      "case_id": "10489",
+      "patient_id": "10489",
+      "split": "train"
+    },
+    {
+      "case_id": "10490",
+      "patient_id": "10490",
+      "split": "train"
+    },
+    {
+      "case_id": "10491",
+      "patient_id": "10491",
+      "split": "train"
+    },
+    {
+      "case_id": "10492",
+      "patient_id": "10492",
+      "split": "train"
+    },
+    {
+      "case_id": "10493",
+      "patient_id": "10493",
+      "split": "train"
+    },
+    {
+      "case_id": "10494",
+      "patient_id": "10494",
+      "split": "test"
+    },
+    {
+      "case_id": "10495",
+      "patient_id": "10495",
+      "split": "validation"
+    },
+    {
+      "case_id": "10496",
+      "patient_id": "10496",
+      "split": "train"
+    },
+    {
+      "case_id": "10497",
+      "patient_id": "10497",
+      "split": "test"
+    },
+    {
+      "case_id": "10498",
+      "patient_id": "10498",
+      "split": "test"
+    },
+    {
+      "case_id": "10499",
+      "patient_id": "10499",
+      "split": "test"
+    },
+    {
+      "case_id": "10500",
+      "patient_id": "10500",
+      "split": "validation"
+    }
+  ],
+  "test_ids": [
+    "10305",
+    "10307",
+    "10317",
+    "10318",
+    "10321",
+    "10322",
+    "10325",
+    "10326",
+    "10327",
+    "10328",
+    "10330",
+    "10331",
+    "10332",
+    "10341",
+    "10342",
+    "10347",
+    "10351",
+    "10355",
+    "10356",
+    "10358",
+    "10359",
+    "10362",
+    "10363",
+    "10365",
+    "10367",
+    "10379",
+    "10394",
+    "10395",
+    "10404",
+    "10410",
+    "10415",
+    "10420",
+    "10421",
+    "10423",
+    "10425",
+    "10430",
+    "10433",
+    "10446",
+    "10448",
+    "10454",
+    "10460",
+    "10467",
+    "10472",
+    "10475",
+    "10476",
+    "10484",
+    "10494",
+    "10497",
+    "10498",
+    "10499"
+  ],
+  "file_sha256": {
+    "experiment.json": "d6bf95c49fa6f9bd503d4842c0ef0425c9d253ccb38263d8e43c465351db0d7e",
+    "inference_batched.py": "760f71e44aec52b61c09422f8aaec15f81fe631f696cce12bde39642ecc7191c",
+    "run_test.py": "4efccbd7f2b28e5ba22476b93a8888eaf206cd07d3b6b6cd43660f9df449a6ff",
+    "evaluation_metrics.py": "810a9927cd19637d6485e21db35c1a1b9a29238c8049abb2aeb4ae11c3604b6b",
+    "checkpoints/best70.pt": "28a31cb177dbc91b0ecc293951abdf2c47429884ea3c04c9c70c2dfaa8e112d2",
+    "fm3d/data.py": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+    "fm3d/inference.py": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+    "fm3d/model.py": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+    "fm3d/projection_report.py": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+    "fm3d/train.py": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+    "fm3d/train_start.py": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93",
+    "fm3d/visualize.py": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+    "fm3d/wavelets.py": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+    "fm3d/__init__.py": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93"
+  },
+  "case_data_sha256": {
+    "10305": "27a13d3ef9ad7a975cd1137f90ed6a01f6d15b9fb954111575ab57303fb69e57",
+    "10307": "7b7b7706b10a45a62dd6948a0bed7250b5c979fbefd9208b0e1162197b8292ce",
+    "10317": "c2ce0b8a065bf30149db852787bfde717181175efc0d29c65b0b67e7c5765d5e",
+    "10318": "c684abca58e3f575feb43b8eda224db5b20faddaccd10e1128cce57db0ecfe1c",
+    "10321": "5b227600e519050af5ed4e9699d8bd0f7717c75b144ded19e616a3496244fbc2",
+    "10322": "2ef224139e1dfbd1563efb2a9c93578fbcfb48ca2f90dbc8ab3c75d326fa4a6a",
+    "10325": "21c17ab7f1ad2ea184ea86960aaf75d73f92fd8d991527d6e5d31fd30cd77a36",
+    "10326": "72d28bae64c737428095af7bf364eb11b451f8be7190d738f15ac5b33a9d883e",
+    "10327": "1d14a305c699ef3163ee08d01b932604178b4aefa65b630da7a0dd7a121d1d80",
+    "10328": "576fd3399d412d9b106d9a31009e8d66eb93cadba5dbf5ae15197d6bda816553",
+    "10330": "90a89e5c6a50c90dde24498d922ed70d28ed41dae954cd6167a9fe29daf74f2a",
+    "10331": "bb7b3aad64f303d17ac91766d31631068f575c6b7fa0574adc59938bfeff5eac",
+    "10332": "eb4e2afa1d0e6ca42a9fa7bfadf4f8984db46de236ae66185523d381502a2145",
+    "10341": "6cdc32dc2a6ce4fc8c17235b3c624004b82071cfd265175b557931fb14489acf",
+    "10342": "10ebf88fea7c29bd2cb721be17932549c92f010d362ac18a3dc4d562ba749608",
+    "10347": "4707ca3c1c91838cf251ed830a70e52a2b82b899315de11ecb5aec118d6367b5",
+    "10351": "b0ceb7c3f30fbd45297edca30b481e1a907de6d3c5b4aa9ba679cbc449c9efbe",
+    "10355": "9475e6d54f3d0b14006f3b506f3cd35b6a0c1316434cf68b557a927a94e8e098",
+    "10356": "b3a757bdbf7afe699b1b0175f959226d4075834381fe7a708f5d0ff7c05c4fcf",
+    "10358": "fa6075ce68cadb4a0d92480e67deb5cd529ddb14efbfce88718c74e3e4f30de7",
+    "10359": "d73adf66cfd7e782592746ecc1102873ab2ea5d9088dfeb1dd046fa42769d2ba",
+    "10362": "41e67fb076cb92c104110ffef9ed8f18c2f6ca1c459e1fb3a039e4c7be233df8",
+    "10363": "d785068554a6a8c1a6087e6af2ab38ae9cea3b4388905c743a27a04dfff32074",
+    "10365": "f75d5edba36a8c08841890e72e86c8cd996e0ad0148a6e45a94c1f15cd86144c",
+    "10367": "80ecb8452850d35755ea01d613871774871274f0040491971537cfc2e00a6695",
+    "10379": "a7d35cb3effd07d00d75e39d1b594c24f3cce1317a4f7f9dd5cff2cfa1abd0a5",
+    "10394": "9c9c60a65b5f38f6f2fa8f1c32cba4bd3b717d21efedd84f82990bfb63793838",
+    "10395": "68bd60254d9cc1279415a36af7e01c03e188fc611df6f7dae70c5496641cf522",
+    "10404": "1d6de76f16b032830db240c729c014af2ccc55bd8e7f6d5dce6fc1078aba6952",
+    "10410": "fa9b16fca3e88aad702899ff7e5bc2cf87d252d9caabf3a8a4474b1804f35ff9",
+    "10415": "88e8930a36f3f84f1c1210ad4057388d4e0215729eb6f28fb89cd5f99a469d5d",
+    "10420": "e3443cb4a70ce3875b883fabed72ecde8af0cd3698e82d4a20aaec82788dfb60",
+    "10421": "064b365364c997c2386d6f0794473c69dde18d0825d8f98cc1dcd891d4556d14",
+    "10423": "a1e4724ed135d3d274418fb9c0451d9455306c365e16239ba13d20cd03da8c94",
+    "10425": "999893526526beae60a1a213b8ac8c1e9a4d14b88d3c999bd36525d73a7ac9ab",
+    "10430": "56c36453dc4a7148e17e98097d260c4df7a00a26c1dfea06101e94432d534022",
+    "10433": "f700c62ed053c932f4d1c21df763fe11f42587ac84c4e113b5b960df52da3126",
+    "10446": "cdb8ab454d5248533890eadb635bff2c4b156f31e44197d08d7245b13286b6e1",
+    "10448": "5e5838b3a32d2540516f1fe167ca50b6ff308f6eb1549dfd624ea6c2a34501aa",
+    "10454": "10b2cea84af40ded96622a1a1fbb54343820ccc93d95fe2f3e0485105b8b5780",
+    "10460": "dc24245415a4774967b9ee68434abd2af1c3483bd8dab50a60b55367a55d94c3",
+    "10467": "ef0ebb1b8cbdd9e69db15b3da9c71d077aee183c90d250b67ceeca62c3a8bdd4",
+    "10472": "297647096788506bd160fda62d48f9a4dd299346be30c9ce8072e11191eaea53",
+    "10475": "f2f94eeb531c98b297671b92119ecb564eea2d350719f105e5a3220598d177a5",
+    "10476": "ab56c31e37f58ce4e17968861d741f910fefec41396ffff4f6dd9b5ff22e23a2",
+    "10484": "e5b28e746379877bb174f57f53cf91ca0054568e3f84e4ae42afa8151b262760",
+    "10494": "929e8b9e59debbcc0955df0e4db91da3ebdcf841645eff1c6c08f57b2160b262",
+    "10497": "12c0af69e3c5dbb231da311ab8bfbd2b8598557ff3a25f31bd46624dfb824b73",
+    "10498": "4ca5dfb8fb709225161b48a1b81c8e816ca3be91e6ff666b93a52b220ac2ac99",
+    "10499": "fd18257856d49c251eaa1f3de221a0480ee257f045bea26b7cc64165a897fd0e"
+  },
+  "case_layer_mat_sha256": {
+    "10305": "a0eaf4bd6ce56d7f4ad4fad7600aee96df0158b41ed6c0d42dc2a111ae405151",
+    "10307": "2884bf5d4d6b89e736928bf7b5dc12da9eb9fbd61b2aa35c31dc487312f7159f",
+    "10317": "213e075e3a7a28993939ec9c0e7e3f37346a6779db94e766270fe10758cc152f",
+    "10318": "d1b53d3c88ae9615d8119e91b5bc63bb853e85db05e8d68a6dfe6dff51ffe851",
+    "10321": "855d4d7c85810226163cd71ab06aecf9e25a36db536ff4ee4023c042906e0ef2",
+    "10322": "c6354c995c7ebe539bf356b8a83f4194d1cc759c657a369428dc5a1b465b4d43",
+    "10325": "b39098413e8329395543e92eb2782a48ea1d613f4500cfd263c8b8ebb7c5dda7",
+    "10326": "d441214842730cb03f50686bb811aa9c9aa1b46d58494e8f69bcbc042680bea0",
+    "10327": "2e5a09353f710ddf4e9a671aa3b3be5a34ba06a585123d542f13ae2cbe8e9aab",
+    "10328": "ff814de0c88eb7d4ea62b61aa1e52a15385b31b65e989150b1b7c7ae07c679bc",
+    "10330": "fa67d5518baadf738d68894675f2dc0c876b2e958e47c65d587e3afc1db521e1",
+    "10331": "ef152ed5829ec694cab65437cd5a1c990d8524b4cc4dc9d620efabde82267d45",
+    "10332": "db430ac4691327628d080521da2d8e2d60a8b132acf5a8687256dcae50a40f3c",
+    "10341": "442bc6b8feee35628c3981d0cc5f655cc4b0d8c0af71ad3f4ba11137fd764908",
+    "10342": "bc5a13d3591ff77294ee7a4ad5f7ded6ba53c6a265e36cba871927deaf3afe8c",
+    "10347": "2f8c963e5695b1efb1b4fab03f09897650e47f973751138bcae40c9ff5571231",
+    "10351": "66a5b83680b86f389e3a6556aa34767e7d9334c8ab85df838e76fe54ecdd1c32",
+    "10355": "2eb139214cac26b4cba8107573bbe01d94aacec303b26bd211f45ef8a6abcf57",
+    "10356": "c277f3ee41ce9460dc7bc309609af7a94373bf4f7c688d63261881481e7085a5",
+    "10358": "07a648eb7c639e0af48488d0f34755f233c877b451e5ee8c9b2855ad0ddf96dd",
+    "10359": "308aa268922a59b8dbad3e058d3b92fa7b453aa8f2adcc86895103b84318bf09",
+    "10362": "9f578102c3a318ee0e400efddf5e0b94771132204cc3a980752d30ebf5985445",
+    "10363": "d4f993503e4e52f22c3991c5f31cc9b297d891fccf5adfd390a15804e623e190",
+    "10365": "935c493b4dbbce162a8e2bf837db802cced60337e48cb801559cb098137a741a",
+    "10367": "1c7b96eb5d6cf4246557506b726ff3a4d764c486559b0f61e6432dc789e28a0e",
+    "10379": "d41d5a3b9d274c5a95f499055403ed42a46939473f08df3181e65c7c84516f34",
+    "10394": "81c5eab47340e4a634f422c9056b62912d618bc5e8217e02785f3bf7fc26b830",
+    "10395": "ea5235c07c85e9bcdaad45f4cbdcf4754959fa9728c408f5a189306735e2f2d8",
+    "10404": "dd5237c3b65530b7258bbd5a4be33332ef741679a2efbdab8aea6bdb82fef2ee",
+    "10410": "7cd92994f3e98687753c20899dbff3d40c8b003851ead6463af9da8918219f20",
+    "10415": "fa9d0b21ca65c93026e5b7e0b40fa1210dfc24f2e48476bcb1b64159829b893a",
+    "10420": "8da6045f3e7dd3c69ef4b2dc8ceeda35d0f235aa92cbee5c8b5757eda4622d91",
+    "10421": "d07fb76e97f45e37424827031b2b732d791a26045c017f14c290de12c137685b",
+    "10423": "86ce5b0641004fde9205d522aebe95234eb7372baea5c5fda47d26ce46b31bf8",
+    "10425": "ec3b9613021db00fb2848035f563217dcc671d09b76c330e8153f5b8ee905acb",
+    "10430": "3af29fbba993076f024c622861a434b2327296c2a25ed0da11f313651973a65b",
+    "10433": "d9a087eb8af78b7979fb7d99728c7b8241c1c109804288225114085d89655d9c",
+    "10446": "9280ef50961792ddc49dd1e1b27da8ed7a4612d4f298498cce40501d3d2777fc",
+    "10448": "d47b336320bf6dd72961e1e47fe9c2afeaef67d385774f8e5066fea961d841af",
+    "10454": "c61bb411f1b2adb343fa123b2c003919fda92f9fbf20f19d718d804f578afec4",
+    "10460": "500a757a93b4e059aa9853ff001e2737280c006c4d6068900ee0585a5a682989",
+    "10467": "2e180dae350626df81454947e049608671e6af67c94901d878858f3b1eb89fc6",
+    "10472": "6d47ec97ecaceb2c58077fe6c1cc0de46c3cc11ccec02d5ac3990fdb0b07e583",
+    "10475": "fca4518a897005b3258dc4fdc499acd0cdf14290fb66454e3ee1d9ad52affcca",
+    "10476": "d050cc26723fbfab9ca79e48c178fab3a23b1939795213998dda288ef4dffb9d",
+    "10484": "ea31a89b94a74b7c8cc8af3163a6ff174f3462bd9a7aafe213ff19ffe580c6f2",
+    "10494": "7c6a74f5715182d4bc1f33ef5841eaa84ea3abcbdd22c28b9b99ef62f11b321a",
+    "10497": "be329d6471941f0b8ec172449d0f007ba5c76100a7d74904c362d7c61f9882be",
+    "10498": "c5babcca5565cc6d426ad5127058a9bad5c625d8a8da118ab8d68e96cda0160c",
+    "10499": "a7c318d9781361d14a5e320b0eafb6170c3a7a62cfd56a7206b3b53ae684428f"
+  },
+  "case_layer_array_sha256": {
+    "10305": "08cc6b0ec2ea03fbd2b02486b00d5c882c21a80732565453aca4ab048073ac90",
+    "10307": "9020b0c6326162b7be278510100e434cb7eb5b2d45e310dfd8723e14fb56f605",
+    "10317": "307fa4a1333086db2ef2d9086dc63cbf7add03742d4e3bbe8c101d74ec3b3b64",
+    "10318": "3ca03f144eb9eb1f3b43a2a93694a5c01562e73b38f9e5ce2c280f081e4baeff",
+    "10321": "c8bdbce76993e0baf037ff6bfc5596836974ee2c2e68cb37ba18c737e58fd1bd",
+    "10322": "1f89c5ef30a6ead370ffb891cbe4f416bf52b755c09cd31de1fe7b5914e6e66b",
+    "10325": "34addf1394d931ee6fa876692a0ed49b23c1c7184a00889f7f61812753a58417",
+    "10326": "17d518d105f822dcff7d721cdcdb381815e72a4c78fb06348b05e05c8dd84b4a",
+    "10327": "9d80d983e658b3f5fb95f6b987204dd68e09882e3e486a3c4e9befd97418131e",
+    "10328": "805385b9aa9c9e0a3930db4ea6ce8cb615ba16c1c819ab96cdb63675e2103896",
+    "10330": "f656af971f3eea627917bee2a8055da31c620aef153a2a209d0636d23cb94aca",
+    "10331": "8c8fd44b6da2a8a00cfd6f95a002290cc629073d2d1242922c9fbbd4a1786932",
+    "10332": "11a47451e529edcc7a384f59d823bde614eff0bc75d451a82f1845ddc6a67bd1",
+    "10341": "ed58f301427903376266f5f16b5e71b51cda29075fd73d4bb97910bc0b4308d5",
+    "10342": "06986ea4561d242a09d6cf9cdd999996a6beea3a4624dbc32a92c79a88a21999",
+    "10347": "ab932fe38add927c2bcd60e0dfe57c272087c9eba66976de1a10f8ae9ec912c1",
+    "10351": "9b6f875fdf4c83894874ba185a5899dbd312b918e8d03f03b9e409a043955813",
+    "10355": "52faaf6703e222cbf394bb5c7cc73170d16fee5c1e2bc2bcf4f725aa944c585a",
+    "10356": "9687cdba2e144d7dd823ff7024914ae55ebe1217dacc4fcadf5e2b2c9df82168",
+    "10358": "a75d99720d73f00cd907433ad7a6870f04a33e75c6afe8888ee4463b649ae6bd",
+    "10359": "80f1de89db0d274c06c504b3b47c4486d64703154b91865394de6f3ea0ff2022",
+    "10362": "efc555483fd2e124a77ee3f38cd71283c7705b4ef250c80b5d171fe8b53b7d2d",
+    "10363": "84d40ea50860df170a9045292ffe504dc43e93b92a51473f5fbb30e251da3875",
+    "10365": "6979da6eda0a1182d7f662e3e78a7455d7e899d3fe698f550773f82267b67e1f",
+    "10367": "d89cc335b9bfeee7caf780aa7bf4bedde0d1a85e0e35888367eab2a7923f3e28",
+    "10379": "8183a88f5851d138df1b3b36f8c43bc9f10c76944bf9556bba20a8a2d91c8523",
+    "10394": "afcb23209dd215d6151f2c74112c67f9ceaf42238dc3951bb535483eddb26711",
+    "10395": "d23b5bf1f6ab11ca432c31edfa7f525640d213e4d0791510d38dfff806d83a96",
+    "10404": "2ed9b82f6d5c560807c004455a247e0d13434a94672125b7ff61ff4493fc18a4",
+    "10410": "501dd01635543d152b57b1a2de8b06ea95c8d19c91563121dc40183783e8f4e1",
+    "10415": "8698f20698b05e4938d877da483932082fe5e74a3dee9162725a8bc5849268ec",
+    "10420": "ba8d5061e0608cccd0cb2f788048f0bdfa7f1d29125dc7545a9bf66966705039",
+    "10421": "89b11fc7b41298efee901f0c2c244b9018d764fb115d77616b51cadbc804b036",
+    "10423": "9bb81838c6d5a70dc600ba8992a16d1cd0f94104a79e18be720efcc28eb79b5a",
+    "10425": "33b68e1f85050a494e2a013c2e2b9d8dc1e873c663e93dc97e6c24703dcf4df8",
+    "10430": "82bf7f448a929ed731d0a4a4adfc33931d5c305b4f40e28882e4530b8cf88248",
+    "10433": "ee2e084121ee9dc7b2b766a8954763a3f98b7324f91350c9cd89502ea53bdd5a",
+    "10446": "d6badcc7e884146faae08a1f7f74a5736752db748aebbcb7d5a8647ba698eee5",
+    "10448": "9fc0df775e8460d3f909ed8220238fa65d653568f71698107dc6c4625c852a5d",
+    "10454": "296de4ff3065a0d7f69e94c8a3d4547e86b2dab0ea5427ae7671e63e53784a83",
+    "10460": "030ea3252f3c348aa5944e7496d6ab67a7543341aa2c44c8977a4a13c51913cb",
+    "10467": "2f69200f46a6540ba9356b7966371774306a8d9472fabbff04827b30b2f9227a",
+    "10472": "10c849b816da65961c9635dc913ea405c3ac6c6d19bad2b8051ab4fd73044e8b",
+    "10475": "6861d923cdf0aabbbdfcc0dad4c6d872d28208ddf45a6443e61f6c5ecd1d8814",
+    "10476": "a37121f301835458366753fd6f38130dcd8cd214e081a627de5a4125740c2786",
+    "10484": "d106a645b8dd9f41d1f691f7e02ab8ffed9761d9c1ad04f86f6e26103f54124e",
+    "10494": "165eb8cba19e4f3dc3e6d6e2c115545f4e85cc4872e294e8c1288794c3801559",
+    "10497": "c1343265161a17cda7ce6770a3ffd93aeb7734b3d7e471d1c40f475243576eb4",
+    "10498": "c2bd9e1b6507532c85631dea686770eb750e0373569328cfd88074d8c9e37a77",
+    "10499": "adb8ade9ac664fabcba73374640c9219617d0a430b69a861cec041f582c9115d"
+  },
+  "validation_preflight_sha256": "67f73348917e996572bc159a1affac099716a82701904a4181a3874c98d9c20b",
+  "no_test_used_for_preflight_or_selection": true,
+  "held_out_file_identity_hashing_only_before_frozen_evaluation": true
+}

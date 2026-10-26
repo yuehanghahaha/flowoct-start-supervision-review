@@ -1,0 +1,43 @@
+{
+  "experiment_id": "exp010_20261025_3dfm_start70_test50",
+  "parent_experiments": [
+    "exp001_20261024_3dfm_start_100e",
+    "exp003_20261025_3dfm_start100e_validation"
+  ],
+  "mode": "test_evaluation_only",
+  "checkpoint_epoch": 70,
+  "original_checkpoint_sha256": "69c3f984e86b3dc702822cfb35a492d412f8116262b2f6e31a555792071798c1",
+  "split": "test",
+  "expected_patients": 50,
+  "axis_order": "ZYX",
+  "intensity_scale": 255.0,
+  "volume_shape": [
+    256,
+    304,
+    304
+  ],
+  "patch": [
+    256,
+    64,
+    64
+  ],
+  "ode_steps": 8,
+  "overlap": 0.5,
+  "amp": false,
+  "tf32": false,
+  "inference_batch_candidates_validation_only": [
+    4,
+    2,
+    1
+  ],
+  "validation_preflight_case": "10302",
+  "preflight_projection_max_absolute_tolerance": 0.0001,
+  "preflight_metric_absolute_tolerance": 0.0001,
+  "intensity_diagnostic_threshold": 0.1,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261025,
+  "save_full_volumes": false,
+  "checkpoint_or_hyperparameter_selection_on_test": false,
+  "full_training_started": false,
+  "validated_window_batch": 4
+}

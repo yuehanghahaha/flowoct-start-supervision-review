@@ -1,0 +1,12 @@
+{
+  "case_order": "fixed ascending case ID; show all 50 without selecting by quality",
+  "slab_window": [0, 0.5],
+  "mean_window": [0, 0.08],
+  "bscan_window": [0, 0.35],
+  "error_windows": {"slab": 0.2, "mean": 0.04, "bscan": 0.15},
+  "zoom": "fixed central128x128 of 304x304 projection",
+  "overview": "5 pages x 10 patients; GT and prediction same window",
+  "per_model_contrast_normalization": false,
+  "fine_vessel_segmentation_metrics_available": false,
+  "hyperparameter_decisions_from_report": false
+}

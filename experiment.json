@@ -1,0 +1,35 @@
+{
+  "experiment_id": "exp012_20261026_vessel_scale_review50",
+  "mode": "posthoc_saved_test_result_analysis",
+  "test_patients": 50,
+  "checkpoint_epoch": 70,
+  "slab": "ILM-OPL maximum projection, XY, 304x304",
+  "intensity_bins": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1.0
+  ],
+  "gaussian_sigmas_pixels": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "gaussian_mode": "reflect",
+  "fixed_visual_examples": [
+    "10305",
+    "10355"
+  ],
+  "example_selection": "10305 is the first fixed test case; 10355 is an explicitly qualitative overbright example, not selected as representative",
+  "display_limits": [
+    0.0,
+    0.5
+  ],
+  "segmentation_or_caliber_ground_truth_available": false,
+  "statistics_weighting": "equal patient mean over nonempty bins; no pooled-pixel model score",
+  "train_or_tune": false,
+  "source": "exp010_20261025_3dfm_start70_test50"
+}

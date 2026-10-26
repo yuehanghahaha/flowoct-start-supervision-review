@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.key
+*.pem
+*.zip
+*.tar
+*.tar.gz
+source/**/runs/
+source/**/checkpoints/
+logs/github_*.log
+/verification/github_delivery.local.json

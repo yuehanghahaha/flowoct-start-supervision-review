@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp012_20261026_vessel_scale_review50",
+  "parents": [
+    "exp001_20261024_3dfm_start_100e",
+    "exp010_20261025_3dfm_start70_test50"
+  ],
+  "created_at": "2026-10-26T21:10:10.427757+08:00",
+  "purpose": "Post-hoc brightness and spatial-scale diagnostics; public review copy of original complete report and related scientific code",
+  "scientific_training_changes": [],
+  "new_inference": false,
+  "test_based_model_or_hyperparameter_selection": false,
+  "original_report_copied_without_changes": true,
+  "source_code_copied_without_changes": true,
+  "checkpoint_epoch": 70,
+  "original_checkpoint_sha256": "69c3f984e86b3dc702822cfb35a492d412f8116262b2f6e31a555792071798c1",
+  "public_publication_authorized": true,
+  "authorization": "用户明确回复：公开仓库：确认这些图片可公开，允许任何人或AI通过链接查看",
+  "planned_github_owner": "yuehanghahaha",
+  "planned_github_repository": "flowoct-start-supervision-review"
+}

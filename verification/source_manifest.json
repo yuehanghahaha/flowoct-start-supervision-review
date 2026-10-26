@@ -1,0 +1,700 @@
+{
+  "files": [
+    {
+      "original": "exp001_20261024_3dfm_start_100e/experiment.json",
+      "shared": "source/training/experiment.json",
+      "sha256": "72ae5d76227f09c80aa6b57a8750e001dbf0a07c03222e1f6f289c49cbbc2183",
+      "bytes": 610
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/launch.sh",
+      "shared": "source/training/launch.sh",
+      "sha256": "d5a63fc0d994e0ffa406903629e8a0e4daff17bc1a9230b3b5b873e3b8c5052e",
+      "bytes": 414
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/provenance.json",
+      "shared": "source/training/provenance.json",
+      "sha256": "b211b55370fd7736a4923077c75a371c9fac4c3e7e87b44c1308cceccf97b705",
+      "bytes": 5970
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/README.md",
+      "shared": "source/training/README.md",
+      "sha256": "b3c1870575455f3dbaeee1b7a552be74b46db87d1373e0b1dc8a71ce77d5e6fe",
+      "bytes": 5140
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/requirements.txt",
+      "shared": "source/training/requirements.txt",
+      "sha256": "6ab31ceb6fee72049846a7771fd8f1fbd6644c4d2578f6070c7fc20db97abcae",
+      "bytes": 157
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/run.py",
+      "shared": "source/training/run.py",
+      "sha256": "ff03f0caab6fa2102577b0d0d729ef50dfa20ad787ab0ee0799233c73e37dcf4",
+      "bytes": 3051
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/verify.py",
+      "shared": "source/training/verify.py",
+      "sha256": "f98c170bec36da3ba542fe59c4a3c3510a3093de0c38a815029147f1cf73c457",
+      "bytes": 7918
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/__init__.py",
+      "shared": "source/training/fm3d/__init__.py",
+      "sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+      "bytes": 85
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/data.py",
+      "shared": "source/training/fm3d/data.py",
+      "sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+      "bytes": 10293
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/evaluate.py",
+      "shared": "source/training/fm3d/evaluate.py",
+      "sha256": "e9010dc80a08aad18158a16c4af727a02bd82c67a5b12e10f9df6eb45b765337",
+      "bytes": 2054
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/inference.py",
+      "shared": "source/training/fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "bytes": 3583
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/model.py",
+      "shared": "source/training/fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "bytes": 5531
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/projection_report.py",
+      "shared": "source/training/fm3d/projection_report.py",
+      "sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+      "bytes": 11991
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/test_core.py",
+      "shared": "source/training/fm3d/test_core.py",
+      "sha256": "3279433c5718944aeb666135a3bac18de5f14536183f9a913adaec0bc4ce0fb1",
+      "bytes": 11954
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/test_projection_report.py",
+      "shared": "source/training/fm3d/test_projection_report.py",
+      "sha256": "43209951b51d80cbeb4ad340545bec90e12542a58a558b8b1807ef8d41a532e5",
+      "bytes": 2163
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/test_start.py",
+      "shared": "source/training/fm3d/test_start.py",
+      "sha256": "bb737edb36658b21986cd49499cdc20490d22333f389bf777ef29f15f2d3430b",
+      "bytes": 8293
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/train.py",
+      "shared": "source/training/fm3d/train.py",
+      "sha256": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+      "bytes": 15959
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/train_start.py",
+      "shared": "source/training/fm3d/train_start.py",
+      "sha256": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93",
+      "bytes": 22002
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/visualize.py",
+      "shared": "source/training/fm3d/visualize.py",
+      "sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+      "bytes": 6614
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/fm3d/wavelets.py",
+      "shared": "source/training/fm3d/wavelets.py",
+      "sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+      "bytes": 2705
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/tools/__init__.py",
+      "shared": "source/training/tools/__init__.py",
+      "sha256": "389cb0599d180883bd515f2a73ce6228e94da2fd5d03c8fcddf71f2e98f0f2b2",
+      "bytes": 85
+    },
+    {
+      "original": "exp001_20261024_3dfm_start_100e/tools/prepare_common_octa500.py",
+      "shared": "source/training/tools/prepare_common_octa500.py",
+      "sha256": "70cdc65a6a33690d6c7799757b7ed3757328bbbe0478152f1c799be11eb78b49",
+      "bytes": 23171
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/aggregate.py",
+      "shared": "source/evaluation/aggregate.py",
+      "sha256": "4406d09315a250697d585126a1bf7806210cb462554a3db44c633583b62ada67",
+      "bytes": 3808
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/audit_split.py",
+      "shared": "source/evaluation/audit_split.py",
+      "sha256": "53ea8fe7775cdbd23ec16e5ef739502c863943d470756b01c203d1e351b3b724",
+      "bytes": 1857
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/build_report.py",
+      "shared": "source/evaluation/build_report.py",
+      "sha256": "6b1410ac4f3a5888a757f7907659ec099838b3590db36af66fb556441649ac2e",
+      "bytes": 21400
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/cleanup.py",
+      "shared": "source/evaluation/cleanup.py",
+      "sha256": "e0372c0e1bf9d21f84c5e8dc420f6e9338c099bd44ebfa745d33de3e5ccbb610",
+      "bytes": 1566
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/evaluation_metrics.py",
+      "shared": "source/evaluation/evaluation_metrics.py",
+      "sha256": "810a9927cd19637d6485e21db35c1a1b9a29238c8049abb2aeb4ae11c3604b6b",
+      "bytes": 3433
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/execution_plan.json",
+      "shared": "source/evaluation/execution_plan.json",
+      "sha256": "e0937cc67eaffac6d169c922a2e1f75afaee871ae7ce1deaa71e25bec403edea",
+      "bytes": 1272
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/experiment.json",
+      "shared": "source/evaluation/experiment.json",
+      "sha256": "d6bf95c49fa6f9bd503d4842c0ef0425c9d253ccb38263d8e43c465351db0d7e",
+      "bytes": 1119
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/inference_batched.py",
+      "shared": "source/evaluation/inference_batched.py",
+      "sha256": "760f71e44aec52b61c09422f8aaec15f81fe631f696cce12bde39642ecc7191c",
+      "bytes": 2194
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/preflight.py",
+      "shared": "source/evaluation/preflight.py",
+      "sha256": "b9894ec8ba7d308bc7bbf307561a3151175dcf43700f36dffc9fb755451e24dc",
+      "bytes": 4053
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/provenance.json",
+      "shared": "source/evaluation/provenance.json",
+      "sha256": "59a755279a57f6bf414772ea163b5b1c74d16f7767a7c64d98023df5de540f41",
+      "bytes": 3773
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/README.md",
+      "shared": "source/evaluation/README.md",
+      "sha256": "d8d1aa66c7901bd7ce8bc87c54ac5020b7c637d026dd73894c26a99283591f12",
+      "bytes": 5003
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/render_cases.py",
+      "shared": "source/evaluation/render_cases.py",
+      "sha256": "ae0e33f546eea12fbf3a02e72edefccc19335b752ea39abd1053c7bbcc0bdb75",
+      "bytes": 4959
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report_settings.json",
+      "shared": "source/evaluation/report_settings.json",
+      "sha256": "a2ab619f8de5b1a7ad252aafc1537bab598d32fc479bde2c9f9ad0e422a73e28",
+      "bytes": 510
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/run_test.py",
+      "shared": "source/evaluation/run_test.py",
+      "sha256": "4efccbd7f2b28e5ba22476b93a8888eaf206cd07d3b6b6cd43660f9df449a6ff",
+      "bytes": 7692
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verify_report.py",
+      "shared": "source/evaluation/verify_report.py",
+      "sha256": "e9040b2aa2aaefa7497dbbe7f21047d5a27ead0d0e8fe5373856d6e896630ab3",
+      "bytes": 6821
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/__init__.py",
+      "shared": "source/evaluation/fm3d/__init__.py",
+      "sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+      "bytes": 85
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/data.py",
+      "shared": "source/evaluation/fm3d/data.py",
+      "sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+      "bytes": 10293
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/inference.py",
+      "shared": "source/evaluation/fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "bytes": 3583
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/model.py",
+      "shared": "source/evaluation/fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "bytes": 5531
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/projection_report.py",
+      "shared": "source/evaluation/fm3d/projection_report.py",
+      "sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+      "bytes": 11991
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/train.py",
+      "shared": "source/evaluation/fm3d/train.py",
+      "sha256": "35e375d0e143b5727d2568799324e8818f5b6eb5db75d3a3f526fc36a80e69f0",
+      "bytes": 15959
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/train_start.py",
+      "shared": "source/evaluation/fm3d/train_start.py",
+      "sha256": "58c5914ddf2d021fdecb022812f90cc8b4c3420c0c9d94ad275674c61583aa93",
+      "bytes": 22002
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/visualize.py",
+      "shared": "source/evaluation/fm3d/visualize.py",
+      "sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+      "bytes": 6614
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/fm3d/wavelets.py",
+      "shared": "source/evaluation/fm3d/wavelets.py",
+      "sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+      "bytes": 2705
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/analysis_summary.json",
+      "shared": "report/test50/analysis_summary.json",
+      "sha256": "ac620426498f941d1e77aca65cdd08dacf242d219b14a5712d7b7c333899b428",
+      "bytes": 15176
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/case_provenance.csv",
+      "shared": "report/test50/case_provenance.csv",
+      "sha256": "1dab3c6dc0e0dd5e36803fac30cfd04c919ccdc4516a0016971aaba81b92398b",
+      "bytes": 14609
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10305_comparison.png",
+      "shared": "report/test50/figures/10305_comparison.png",
+      "sha256": "020ef4da2263bc8167e10682df26b77d8d9e16d600f1215d3f1f9bbbfe336533",
+      "bytes": 2893719
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10307_comparison.png",
+      "shared": "report/test50/figures/10307_comparison.png",
+      "sha256": "ca178381dfa76701d7f2267300e9f727b073706b4c1f62121fd21cdf955d9728",
+      "bytes": 2854821
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10317_comparison.png",
+      "shared": "report/test50/figures/10317_comparison.png",
+      "sha256": "45cd8d739e3aef6ec6b42af1032d300bcebfcffced53a84b864e9e3ca2cda348",
+      "bytes": 2649009
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10318_comparison.png",
+      "shared": "report/test50/figures/10318_comparison.png",
+      "sha256": "b93b6f2cf3dc920a3edf1cad29ec9bde50335abeee7dff702cf98cc27ccef5a0",
+      "bytes": 2916994
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10321_comparison.png",
+      "shared": "report/test50/figures/10321_comparison.png",
+      "sha256": "56a473157de7ef8ae7b5c5d3410d0c96d1623f2151db6a4ade62cd83a893a2e8",
+      "bytes": 2824542
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10322_comparison.png",
+      "shared": "report/test50/figures/10322_comparison.png",
+      "sha256": "15db0a4e435709cbda9197b70ad78c53823195a7bc1e7d72ef1bcec8ac0d3e19",
+      "bytes": 2808339
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10325_comparison.png",
+      "shared": "report/test50/figures/10325_comparison.png",
+      "sha256": "39ce3262e69d2ab82ad91f6b2cdfa6d9cac2c9335208d2d40d0cf49f1032f836",
+      "bytes": 2918363
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10326_comparison.png",
+      "shared": "report/test50/figures/10326_comparison.png",
+      "sha256": "37c0193ff9b53ed426d77acd3cbe8397d1276f59dfe109420bbf8f14dd1eb3f1",
+      "bytes": 2792596
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10327_comparison.png",
+      "shared": "report/test50/figures/10327_comparison.png",
+      "sha256": "d8034229a50f7a5b95de1919bcee137f18a27e811f75d3424e5d5cc815fb31d3",
+      "bytes": 2769239
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10328_comparison.png",
+      "shared": "report/test50/figures/10328_comparison.png",
+      "sha256": "0ae302d53ea37a7d1179db1eab80a003df82db97d8bac8754c75354fd8579116",
+      "bytes": 2876314
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10330_comparison.png",
+      "shared": "report/test50/figures/10330_comparison.png",
+      "sha256": "3f7a3d6f1a71934d7fba01aed7f47cc7ebf38fdfb904e744875771daedc363cc",
+      "bytes": 2855134
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10331_comparison.png",
+      "shared": "report/test50/figures/10331_comparison.png",
+      "sha256": "f3024f89ebaffcfd41d18eb7cd4bc7e018b2734225be2bece4d6ef76c07734d8",
+      "bytes": 2882154
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10332_comparison.png",
+      "shared": "report/test50/figures/10332_comparison.png",
+      "sha256": "31edf64a3993dc13631b76ec14511fc75721ddc53a7f7aa1346c92c70e97b011",
+      "bytes": 2690984
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10341_comparison.png",
+      "shared": "report/test50/figures/10341_comparison.png",
+      "sha256": "528eb16ea3ca53a8b95e44fe31fac635766138cab5fe238568d3834a150710d8",
+      "bytes": 2908608
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10342_comparison.png",
+      "shared": "report/test50/figures/10342_comparison.png",
+      "sha256": "5bdaa3322fe0d96abe59cb5b56a22e0a17cfd12f988ea1e9ac6830a8fb587c46",
+      "bytes": 2907656
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10347_comparison.png",
+      "shared": "report/test50/figures/10347_comparison.png",
+      "sha256": "46bfb0ea5c2090c660b015b717af54384091093b87492a11d7e12687587e1378",
+      "bytes": 2791467
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10351_comparison.png",
+      "shared": "report/test50/figures/10351_comparison.png",
+      "sha256": "129dfe626044502376e302f70ea6ee5dfe6875575ab49935e70bc02a7fb49a95",
+      "bytes": 2759480
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10355_comparison.png",
+      "shared": "report/test50/figures/10355_comparison.png",
+      "sha256": "63ada1250096c45df82fe60d1e44b1ee9f5921dbcd170c0e5472605d15be17c5",
+      "bytes": 2592422
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10356_comparison.png",
+      "shared": "report/test50/figures/10356_comparison.png",
+      "sha256": "8513c12c14fd5f2a980a20da5e91a3546e74cf4fbb27217920ded898b9370c09",
+      "bytes": 2729976
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10358_comparison.png",
+      "shared": "report/test50/figures/10358_comparison.png",
+      "sha256": "6f1ddd33067c8f70926c912b72591375259751848780120b715e997fd01bed98",
+      "bytes": 2895090
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10359_comparison.png",
+      "shared": "report/test50/figures/10359_comparison.png",
+      "sha256": "dccbb7df25a829e41edc45e2934d836ed4089cccdb7c8c6fed2101313b47eed6",
+      "bytes": 2818720
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10362_comparison.png",
+      "shared": "report/test50/figures/10362_comparison.png",
+      "sha256": "b3b1b58f187c9e62516609cb6481786d5d8700b191c0ecf6f8d8c02e1cd4c925",
+      "bytes": 2825728
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10363_comparison.png",
+      "shared": "report/test50/figures/10363_comparison.png",
+      "sha256": "d6cdd6a07e80a2c0a615ad8bbf1a620e11d84157002940b093671bf401acadca",
+      "bytes": 2746934
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10365_comparison.png",
+      "shared": "report/test50/figures/10365_comparison.png",
+      "sha256": "f11938a3883a0467e236c4a0d8cbec9198c3b2e3e7a28c51dfeec9a21f9c514b",
+      "bytes": 2832474
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10367_comparison.png",
+      "shared": "report/test50/figures/10367_comparison.png",
+      "sha256": "06c4164531d104ec3ee1fcd41d0555d99b642648d3849988eabb863caa216030",
+      "bytes": 2877171
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10379_comparison.png",
+      "shared": "report/test50/figures/10379_comparison.png",
+      "sha256": "126d4da90d9dd78f568178c95e78e71f89493a0cea3da4151feeb55b0fe4667d",
+      "bytes": 2757509
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10394_comparison.png",
+      "shared": "report/test50/figures/10394_comparison.png",
+      "sha256": "9a426d92fbd6719664ecdc0be9f81d5c8f8b9878fa44652ca43ece6a1b526b53",
+      "bytes": 2881043
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10395_comparison.png",
+      "shared": "report/test50/figures/10395_comparison.png",
+      "sha256": "def88479d5b1dbe0a692248f24649739e87a451977c3b115bef51753b1a80e8b",
+      "bytes": 2679869
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10404_comparison.png",
+      "shared": "report/test50/figures/10404_comparison.png",
+      "sha256": "ea66656d22d70af768715668194f1b474bfb1080a25785a64f7ad040ce7f2bb0",
+      "bytes": 2871576
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10410_comparison.png",
+      "shared": "report/test50/figures/10410_comparison.png",
+      "sha256": "67cc8edef995db74c0067628b944631a44bb15015b2ddb05dd14f7f38dd1745c",
+      "bytes": 2788379
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10415_comparison.png",
+      "shared": "report/test50/figures/10415_comparison.png",
+      "sha256": "32dc4a962adb45feebdb565bfc3569da57d1c1f9a9bbeee6ef184717e45bfe8b",
+      "bytes": 2640038
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10420_comparison.png",
+      "shared": "report/test50/figures/10420_comparison.png",
+      "sha256": "bd5f22b63b6d7ec92f41fed48aa8a5a57015bc7c5292834f6a8418368643e472",
+      "bytes": 2900436
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10421_comparison.png",
+      "shared": "report/test50/figures/10421_comparison.png",
+      "sha256": "5821ba8b174bda9bcdeb589de7224735e0a3a3036026207b842d18d25bdbbf2a",
+      "bytes": 2833954
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10423_comparison.png",
+      "shared": "report/test50/figures/10423_comparison.png",
+      "sha256": "0ea9957ee04835d5565214bf4d6edfdbfc1a23ac87d51ead3ec5f702bccdb2c3",
+      "bytes": 2882323
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10425_comparison.png",
+      "shared": "report/test50/figures/10425_comparison.png",
+      "sha256": "4bb742ee91f8645c8711d78d18813d13d377d62c2068f4f1e2b4dd19316e3aff",
+      "bytes": 2899454
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10430_comparison.png",
+      "shared": "report/test50/figures/10430_comparison.png",
+      "sha256": "a25ddc4f76000b910c53fb77689d36438f1a37b764335bd4306e4de3de12f43f",
+      "bytes": 2924953
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10433_comparison.png",
+      "shared": "report/test50/figures/10433_comparison.png",
+      "sha256": "f5578d654c41b23b8c86c98971345ee4dca6b5b5773d10a6682a6f1116366dea",
+      "bytes": 2820314
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10446_comparison.png",
+      "shared": "report/test50/figures/10446_comparison.png",
+      "sha256": "07d07e4d6c323a1999e7936851acdc6bcf1dd37f64df93edfb712e99ba20d3e1",
+      "bytes": 2892890
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10448_comparison.png",
+      "shared": "report/test50/figures/10448_comparison.png",
+      "sha256": "27e0f17e98a4bc338fa51d935b01cb987075dbca97449b3c4612a2887c04cda6",
+      "bytes": 2757600
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10454_comparison.png",
+      "shared": "report/test50/figures/10454_comparison.png",
+      "sha256": "7819f04cc38b4fb5540191afaa50c02d0f607df4262ef8cecf32a36a4c4cd801",
+      "bytes": 2565571
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10460_comparison.png",
+      "shared": "report/test50/figures/10460_comparison.png",
+      "sha256": "949fd99d9727190d65f6a33bea6df1bd01f0260cb623c3cd5b4def053e9b230d",
+      "bytes": 2797533
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10467_comparison.png",
+      "shared": "report/test50/figures/10467_comparison.png",
+      "sha256": "7c22b36e22a3f56dbd79fe6b060a16f5ba1cacf245949853963247b3d1d93043",
+      "bytes": 2810263
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10472_comparison.png",
+      "shared": "report/test50/figures/10472_comparison.png",
+      "sha256": "3d6cabf5aba9cdf211ef12fd636b7430b858e9cc21278dd8845405ac617b7edb",
+      "bytes": 2885451
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10475_comparison.png",
+      "shared": "report/test50/figures/10475_comparison.png",
+      "sha256": "544df13b79b034ee42934cca8e66ff510f8398c348413e7b7fd8b1d70b22da95",
+      "bytes": 2748617
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10476_comparison.png",
+      "shared": "report/test50/figures/10476_comparison.png",
+      "sha256": "4f1a9a06068a0f3b18162c559eb9d35a9ed6f6a1503c5a0753bde6a3e3500a4d",
+      "bytes": 2783111
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10484_comparison.png",
+      "shared": "report/test50/figures/10484_comparison.png",
+      "sha256": "9172c45510ee3e1479bccac0b771b1a56fcda90dcef1abd32810fb8e61886a07",
+      "bytes": 2904628
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10494_comparison.png",
+      "shared": "report/test50/figures/10494_comparison.png",
+      "sha256": "fe4f235055920b6b25e3a9217bda8025d53ec9f0e6bd42247fd9279904da65a6",
+      "bytes": 2790636
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10497_comparison.png",
+      "shared": "report/test50/figures/10497_comparison.png",
+      "sha256": "dd9e8858daaa58a76c7d30bef8f6e57386966ffb08415cf09dc41cebd5ece79e",
+      "bytes": 2930580
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10498_comparison.png",
+      "shared": "report/test50/figures/10498_comparison.png",
+      "sha256": "db227cf3031fb762dcfa575c27b4fea2280dbfd516341aa9934d83864f75e2ef",
+      "bytes": 2760379
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/10499_comparison.png",
+      "shared": "report/test50/figures/10499_comparison.png",
+      "sha256": "49ac1251d07d718e67d93426013583e5eb61fee2fdf3f736286424f99f774d46",
+      "bytes": 2761991
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_intensity_diagnostics.png",
+      "shared": "report/test50/figures/test_intensity_diagnostics.png",
+      "sha256": "7f6652daf43f07c8c393bd9cad1d48a49b16b6a799081795b6e443fbc7e78a2c",
+      "bytes": 298916
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_overview_1.png",
+      "shared": "report/test50/figures/test_overview_1.png",
+      "sha256": "3a81d17b730f54c164e2fc9e0aa38f93656c23fae406c02fcc0550235e086d67",
+      "bytes": 1957013
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_overview_2.png",
+      "shared": "report/test50/figures/test_overview_2.png",
+      "sha256": "d2efae59c1e16406aadb84e6f83b90e479a05b8d57e6ca61ab991210a0b6f645",
+      "bytes": 1939026
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_overview_3.png",
+      "shared": "report/test50/figures/test_overview_3.png",
+      "sha256": "046a02a1e0eef69227d597c86d5e5dbf838a6a1385435ea692f5df6df96465fc",
+      "bytes": 1919496
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_overview_4.png",
+      "shared": "report/test50/figures/test_overview_4.png",
+      "sha256": "c635bd2da577abae816e50a584ad24bbeb39c41f3de92b0da451f417b0662617",
+      "bytes": 1937870
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_overview_5.png",
+      "shared": "report/test50/figures/test_overview_5.png",
+      "sha256": "e5dbd722876c15d2f14db47df01745ab597ab09647ca0e7366147d84f51973fa",
+      "bytes": 1921343
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/test_patient_metrics.png",
+      "shared": "report/test50/figures/test_patient_metrics.png",
+      "sha256": "ca21350ffb0789478a48ef4047e30fb5a66a644cd940c0e5b9df0436097c328a",
+      "bytes": 392586
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/figures/validation_test_metrics.png",
+      "shared": "report/test50/figures/validation_test_metrics.png",
+      "sha256": "ed566caedd2fd7a6212e394845640faf8f2469e9d9013ef76d3b649485da3bfb",
+      "bytes": 124972
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/index.html",
+      "shared": "report/test50/index.html",
+      "sha256": "fc4ed50b625e2b1fe641e2bb7d6a0e1fc7feda26660ac02e60553f5bbc1eefdc",
+      "bytes": 23612
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/metrics_summary.csv",
+      "shared": "report/test50/metrics_summary.csv",
+      "sha256": "cf7abca3505add564d78e5fe62a54e88eb1ff92a3c664367e91b295f7bbf2fae",
+      "bytes": 5658
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/per_case_metrics.csv",
+      "shared": "report/test50/per_case_metrics.csv",
+      "sha256": "d4199f54fec45bec15fbdbeae588605f6daca3a051143458199b3ae0314c6de3",
+      "bytes": 41027
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/report/test_analysis.md",
+      "shared": "report/test50/test_analysis.md",
+      "sha256": "89be4186eb55ea547cc304b34aaa4bde6c03b13a78ba73500166db7b9a89ca39",
+      "bytes": 15958
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verification/frozen_contract.json",
+      "shared": "source/evaluation/verification/frozen_contract.json",
+      "sha256": "80570ebe9c84eb2c03972e7849cdba1b5cd03c0c5e59f2be6a1b6222016f808c",
+      "bytes": 35137
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verification/preflight.json",
+      "shared": "source/evaluation/verification/preflight.json",
+      "sha256": "67f73348917e996572bc159a1affac099716a82701904a4181a3874c98d9c20b",
+      "bytes": 3275
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verification/report_checks.json",
+      "shared": "source/evaluation/verification/report_checks.json",
+      "sha256": "805651af1221e9f0f8e2b30bedae906538b0b6a16f4b6013b86330d0951bfe4a",
+      "bytes": 9207
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verification/heldout_audit.json",
+      "shared": "source/evaluation/verification/heldout_audit.json",
+      "sha256": "ff401325d993bbf528726fd81164ca24a240f870905bc83ce72e0adc199ae93d",
+      "bytes": 1195
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/verification/visual_review.json",
+      "shared": "source/evaluation/verification/visual_review.json",
+      "sha256": "e89ede2ae0d60d9c14369ff4c1a9152e212eb0b6a374e9f02a0a1aa2686cb2ff",
+      "bytes": 2067
+    },
+    {
+      "original": "exp010_20261025_3dfm_start70_test50/results/metrics.json",
+      "shared": "source/evaluation/results/metrics.json",
+      "sha256": "87509a06efee301ded3ec5084665c108afb16d7c571f9ad36caddced6329b2b5",
+      "bytes": 246427
+    }
+  ]
+}

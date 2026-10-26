@@ -1,0 +1,16 @@
+{
+  "state": "passed",
+  "patients": 50,
+  "original_files_verified": 116,
+  "original_figures": 58,
+  "supplemental_figures": 2,
+  "derived_arrays_verified": true,
+  "derived_global_metric_max_delta": 0.0,
+  "intensity_partition_reconstructs_global_metrics": true,
+  "scale_csv_matches_summary": true,
+  "local_links_checked": 163,
+  "python_files_parsed": 40,
+  "no_credentials_or_delivery_archives": true,
+  "training_or_model_selection": false,
+  "public_publication_authorized": true
+}
