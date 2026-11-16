@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "generated": "2026-11-16T21:29:09.433825+08:00",
+  "report": "report/index.html",
+  "full_standard_groups": 9,
+  "all_three_metrics_explicit": true,
+  "missing_values_explicit": true,
+  "references": [
+    "https://docs.pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html",
+    "https://arxiv.org/html/2303.06807v2"
+  ]
+}

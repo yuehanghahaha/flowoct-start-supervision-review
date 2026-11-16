@@ -1,0 +1,14 @@
+{
+  "file": "models/TransPro_model.py",
+  "upstream_sha256": "1e65f70c3dfc511c8c518367a210bbf68e1df7154be839fadf44d570be28de3d",
+  "patched_sha256": "d6ca3da89d19d57317e43ec5e1973e25bfe38ea3684dc77a8a18eb604399bf42",
+  "paper_equations": [
+    "1",
+    "4",
+    "7",
+    "10",
+    "13"
+  ],
+  "unchanged_core_source_files": 64,
+  "D_loss_half_factor_preserved": true
+}

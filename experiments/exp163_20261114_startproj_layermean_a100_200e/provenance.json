@@ -1,0 +1,33 @@
+{
+  "experiment": "exp163_20261114_startproj_layermean_a100_200e",
+  "parent_experiment": "exp018_20261027_3dfm_start_zproj_200e",
+  "implementation_parent": "exp102_20261106_start_alltproj_150e",
+  "shared_initialization_and_sampling": true,
+  "training": "from scratch, seed2026, 200x200",
+  "declared_on": "2026-11-14",
+  "construction_continued_on": "2026-11-15",
+  "changes_from_exp018": [
+    "Control retains the velocity MSE and exact-t0 ILM-OPL maximum projection L1.",
+    "Layer arm adds ILM-OPL/OPL-BM/ILM-BM mean projection L1, coefficient0.1 each.",
+    "Both arms select best by equal mean of ILM-OPL max SSIM and three layer-mean SSIMs.",
+    "Both use float32 tensors, TF32 allowed, benchmark on, AMP/scaler off.",
+    "Both retain validation metrics and 2D evidence, releasing intermediate validation 3D arrays."
+  ],
+  "implementation_reuse": [
+    "fm3d from exp102, same exp018 base16 generator and Euler8 stitched inference",
+    "training/checkpoint/evaluation orchestration adapted from exp102",
+    "halo-blocked exact-neighborhood SSIM reused from exp156"
+  ],
+  "reference": {
+    "title": "XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning",
+    "url": "https://arxiv.org/html/2509.07455v1#S3.SS1",
+    "basis": "Section3.1 Eq1 layer-specific mean projection. Project uses paired FM and L1 supervision.",
+    "project_choices": "per-mean coefficient0.1, exact-t0 timing, Z256 center rasterization, four-view selection, fixed split"
+  },
+  "delivery": "self-contained source and annotations, directory sync, no training launch or upload",
+  "split": "fixed 140train/10validation/50test",
+  "peer_experiments": [
+    "exp162_20261114_startproj_control_a100_200e",
+    "exp163_20261114_startproj_layermean_a100_200e"
+  ]
+}

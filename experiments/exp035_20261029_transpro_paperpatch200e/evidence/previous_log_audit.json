@@ -1,0 +1,36 @@
+{
+  "loss_window": [
+    101,
+    150
+  ],
+  "printed_loss_samples": 70,
+  "weighted_VPG_loss_sample_mean": 13.993685714285714,
+  "weighted_volume_L1_sample_mean": 0.2541714285714286,
+  "weighted_projection_L1_sample_mean": 1.4539142857142857,
+  "weighted_HCG_loss_sample_mean": 1.4762285714285714,
+  "VPG_to_volume_magnitude_ratio": 55.056092625899275,
+  "VPG_share_of_four_positive_supervision_magnitudes": 0.8146283452256208,
+  "both_G_adversarial_terms_printed_as_zero_samples": 70,
+  "all_four_D_terms_printed_as_zero_samples": 70,
+  "learning_rate_used_epochs_1_200": 0.0002,
+  "limitations": "Sparse rounded 3-decimal printed values, not complete per-epoch means. Value ratios are not gradient ratios. Printed zero does not prove exact zero or vanishing gradients.",
+  "recent_runtime": {
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "float_tensor_dtype": "torch.float32",
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "amp": false,
+    "gradient_scaling": false,
+    "precision_policy": "author_and_framework_defaults"
+  },
+  "recent_best": {
+    "path": "checkpoints/author_log/transpro_3M/best_net_G.pth",
+    "epoch": 194,
+    "MAE_author_minus1_plus1": 0.023479321040213108,
+    "sha256": "b7c2dd4d0f039954f8732b067972785a71c89a4a4dc1897a1e1efc34664a6142",
+    "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+  }
+}

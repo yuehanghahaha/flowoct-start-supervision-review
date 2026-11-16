@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "time": "2026-11-15T13:54:35+08:00",
+  "source_upload_verified": true,
+  "scientific_code_frozen": true,
+  "synthetic_groups": 8,
+  "real_training_cases": 7,
+  "full_training_case_shape": [
+    256,
+    304,
+    304
+  ],
+  "full_training_case_euler_steps": 8,
+  "formal_training_started": true,
+  "formal_training_complete": false,
+  "status_at_observation": {
+    "time": "2026-11-15T13:52:34+08:00",
+    "status": {
+      "state": "training",
+      "epoch": 2,
+      "step": 140,
+      "completed_epoch": 1,
+      "epochs": 200,
+      "updates": 340,
+      "best": null,
+      "pid": 2234822,
+      "time": "2026-11-15T13:52:05+08:00"
+    },
+    "latest_committed_epoch": 1,
+    "generator_optimizer_steps": [
+      200
+    ],
+    "discriminator_optimizer_steps": [
+      100
+    ],
+    "latest_complete_resume_state_verified": true,
+    "training_budget_complete": false
+  },
+  "formal_training_confirmation": {
+    "passed": true,
+    "time": "2026-11-15T13:46:11.365999",
+    "formal_status": {
+      "state": "training",
+      "epoch": 1,
+      "step": 80,
+      "completed_epoch": 0,
+      "epochs": 200,
+      "updates": 80,
+      "best": null,
+      "pid": 2234822,
+      "time": "2026-11-15T13:45:54+08:00"
+    },
+    "observed_formal_updates": 93,
+    "observed_cds_updates": 48,
+    "first_epoch_case_time_crop_sequences_match_exp018": true,
+    "all_nine_cds_components_present": true,
+    "one_G_forward_per_update": true,
+    "generator_initialization_matches_preflight": true,
+    "generator_parameters": 2097521,
+    "discriminator_parameters": {
+      "ILM_OPL": 2764609,
+      "OPL_BM": 2764609,
+      "OTHER": 2764609
+    },
+    "source_contract_matches_all_checks": true,
+    "preflight_peak_reserved_gib": 2.947265625,
+    "precision": {
+      "tensor_dtype": "torch.float32",
+      "model_parameter_dtype": "torch.float32",
+      "autocast_configured": false,
+      "autocast_dtype": null,
+      "loss_and_ode_state_dtype": "float32",
+      "autocast_enabled_at_recording": false,
+      "gradient_scaling": false,
+      "matmul_allow_tf32": true,
+      "cudnn_allow_tf32": true,
+      "float32_matmul_precision": "high",
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false,
+      "deterministic_algorithms": false,
+      "environment": {
+        "NVIDIA_TF32_OVERRIDE": null,
+        "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+      }
+    },
+    "gradient_diagnostics": {
+      "fm_output_gradient_rms": 1.0923661193373846e-06,
+      "cds_output_gradient_rms": 0.0009457773994654417,
+      "fm_cds_output_gradient_cosine": 0.059606295078992844
+    },
+    "parents": [
+      {
+        "experiment": "exp154_20261113_xoct_no_msff_240e",
+        "state": "complete",
+        "epoch": 240,
+        "step": 140
+      },
+      {
+        "experiment": "exp155_20261113_xoct_no_cds_240e",
+        "state": "complete",
+        "epoch": 240,
+        "step": 140
+      }
+    ],
+    "training_complete": false,
+    "planned_epochs": 200,
+    "test_used": false
+  },
+  "planned_epochs": 200,
+  "planned_generator_updates": 40000,
+  "planned_cds_updates": 20000,
+  "test_started": false,
+  "validation_every": 5,
+  "initial_output_gradient_ratio": 865.8062372340313,
+  "gradient_ratio_scope": "one initialization training crop, output space, not parameter gradients or whole-training contribution",
+  "numerical_settings": {
+    "tensor_dtype": "torch.float32",
+    "model_parameter_dtype": "torch.float32",
+    "autocast_configured": false,
+    "autocast_dtype": null,
+    "loss_and_ode_state_dtype": "float32",
+    "autocast_enabled_at_recording": false,
+    "gradient_scaling": false,
+    "matmul_allow_tf32": true,
+    "cudnn_allow_tf32": true,
+    "float32_matmul_precision": "high",
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "environment": {
+      "NVIDIA_TF32_OVERRIDE": null,
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+    }
+  },
+  "archives_created": false,
+  "initial_unused_monai_metadata_issue_resolved_before_formal_start": true,
+  "cleanup": "Synthetic commit test checkpoints removed after successful readback; no temporary smoke3D predictions written"
+}

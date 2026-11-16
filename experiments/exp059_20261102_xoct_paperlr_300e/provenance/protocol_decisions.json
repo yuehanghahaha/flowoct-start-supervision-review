@@ -1,0 +1,100 @@
+{
+  "author_repository": "https://github.com/uci-cbcl/XOCT",
+  "author_commit": "4bf151bee591880a28556fa18e0a79aee63ade93",
+  "paper": "https://papers.miccai.org/miccai-2025/paper/4977_paper.pdf",
+  "author_source_changes": [],
+  "paper_supported_overrides": [
+    {
+      "setting": "initial_learning_rate",
+      "paper_section": "4.1 Implementation Details",
+      "original_public_code": 0.0002,
+      "executed": 0.0001,
+      "effect": "Changes G and D optimization step scale; retains author scheduler formula and call order."
+    }
+  ],
+  "preserved_author_behaviors": [
+    "MSFF/grouped-5x5x5 implementation",
+    "base64/max512/GroupNorm/add_scale",
+    "LSGAN despite paper equation (4) log form",
+    "VGG19 relu3_3 L1 without ImageNet mean/std normalization",
+    "2D auxiliary feature branches and original D_other gradient toggling",
+    "Adam beta1=0.5 beta2=0.999, epsilon and other defaults",
+    "300 epochs, one random crop per training patient per epoch, batch1",
+    "depth256/x96/y96/no_flip",
+    "epoch-start scheduler call",
+    "each-epoch central crop validation, three projection SSIM average, best eligible only after epoch200",
+    "4x4 uniform-overlap average 96x96 inference windows",
+    "uint8 quantization and GT-range normalized reference evaluation"
+  ],
+  "project_supplements": [
+    {
+      "setting": "patient_split",
+      "author": "140/20/40 with published IDs",
+      "executed": "existing project fixed 140/10/50 with original patient IDs",
+      "unpublished_choice": true,
+      "consequence": "Fair project baseline, not same-split paper table reproduction; test IDs never reassigned."
+    },
+    {
+      "setting": "layer_rasterization",
+      "author": "expects ready-made 0/1/2 NPY masks; generator absent from release",
+      "executed": "native640 MATLAB-one-based boundaries at voxel centers: ILM<=z<OPL label1; OPL<=z<=BM label2; complement0; Layer[6,Y,X] no transpose",
+      "unpublished_choice": true,
+      "consequence": "Boundary conventions can differ from authors original preprocessing; cannot claim identical preprocessing."
+    },
+    {
+      "setting": "precision",
+      "author": "float32 tensors, AMP absent, TF32 not explicitly restricted, cudnn benchmark true",
+      "executed": "float32, AMP/GradScaler/TF32 off, cudnn benchmark retained, no forced deterministic convolution",
+      "unpublished_choice": true,
+      "consequence": "May differ numerically and be slower than author framework defaults."
+    },
+    {
+      "setting": "random_seed",
+      "author": "random.randint at startup; CLI seed not controlling it",
+      "executed": "fixed2026 with Python/NumPy/Torch/CUDA state saved",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "resume",
+      "author": "network weight-only continuation",
+      "executed": "complete networks+Adam+schedulers+main RNG+source/config/input identity, resume from completed epoch",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "full_validation",
+      "author": "center crop only each epoch",
+      "executed": "additional all10 full256x304x304 every5 epochs, preserve RNG, never used for primary/best choice",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "metrics",
+      "author": "GT-range normalized uint8; lacks 3D Perp implementation",
+      "executed": "preserved reference protocol with float-safe operands, plus separately named fixed-range float32 and maximum projection diagnostics; patient equal-weight macro",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "retention",
+      "author": "weight saves every50 epochs and at5000 steps",
+      "executed": "retain author files; add initial/latest/full best/full numbered50 checkpoints, metrics/projections/figures; no per-validation 3D files",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "environment_build",
+      "author": "Python3.11, pinned requirements",
+      "executed": "same requirements, setuptools80.9.0 and no build isolation for visdom pkg_resources compatibility",
+      "unpublished_choice": true
+    },
+    {
+      "setting": "package_download",
+      "author": "pinned versions unchanged",
+      "executed": "official PyTorch CDN and Tsinghua PyPI mirror, ranged retrieval with published SHA256 verification; wheelhouse temporary and removed after install/acceptance",
+      "unpublished_choice": true
+    }
+  ],
+  "primary_test_checkpoint": "precommitted final epoch300; author best201-300 supplementary only; test never selects checkpoint",
+  "missing_metric": "3D Perp not invented; exact slice direction/aggregation not released",
+  "new_training_initialization": true,
+  "pretrained_xoct_used": false,
+  "data_parent": "exp049 annotations and existing OCTA500_common_v1 fixed 3M Z256 NPZ",
+  "output_policy": "all files in this experiment; no ZIP/tar; useful evidence retained, temporary smoke checkpoint removed after verification"
+}

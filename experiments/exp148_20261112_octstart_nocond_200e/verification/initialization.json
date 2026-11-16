@@ -1,0 +1,6 @@
+{
+  "seed": 2026,
+  "external_checkpoint": null,
+  "input_channels": 1,
+  "model_tensor_sha256": "605c9de38a4224fab036f98eb8f33de9d7a04deec86672a48b0e9ddfc44b8d84"
+}

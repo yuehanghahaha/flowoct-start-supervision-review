@@ -1,0 +1,112 @@
+{
+  "10305": {
+    "ilm_opl_max": "figures/10305_ilm_opl_max.png",
+    "opl_bm_max": "figures/10305_opl_bm_max.png",
+    "full_max": "figures/10305_full_max.png",
+    "ilm_opl_mean": "figures/10305_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10305_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10305_ilm_bm_mean.png",
+    "full_mean": "figures/10305_full_mean.png",
+    "bscan2d": "figures/10305_bscan2d.png",
+    "central_zoom": "figures/10305_central_zoom.png"
+  },
+  "10307": {
+    "ilm_opl_max": "figures/10307_ilm_opl_max.png",
+    "opl_bm_max": "figures/10307_opl_bm_max.png",
+    "full_max": "figures/10307_full_max.png",
+    "ilm_opl_mean": "figures/10307_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10307_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10307_ilm_bm_mean.png",
+    "full_mean": "figures/10307_full_mean.png",
+    "bscan2d": "figures/10307_bscan2d.png",
+    "central_zoom": "figures/10307_central_zoom.png"
+  },
+  "10317": {
+    "ilm_opl_max": "figures/10317_ilm_opl_max.png",
+    "opl_bm_max": "figures/10317_opl_bm_max.png",
+    "full_max": "figures/10317_full_max.png",
+    "ilm_opl_mean": "figures/10317_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10317_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10317_ilm_bm_mean.png",
+    "full_mean": "figures/10317_full_mean.png",
+    "bscan2d": "figures/10317_bscan2d.png",
+    "central_zoom": "figures/10317_central_zoom.png"
+  },
+  "10318": {
+    "ilm_opl_max": "figures/10318_ilm_opl_max.png",
+    "opl_bm_max": "figures/10318_opl_bm_max.png",
+    "full_max": "figures/10318_full_max.png",
+    "ilm_opl_mean": "figures/10318_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10318_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10318_ilm_bm_mean.png",
+    "full_mean": "figures/10318_full_mean.png",
+    "bscan2d": "figures/10318_bscan2d.png",
+    "central_zoom": "figures/10318_central_zoom.png"
+  },
+  "10321": {
+    "ilm_opl_max": "figures/10321_ilm_opl_max.png",
+    "opl_bm_max": "figures/10321_opl_bm_max.png",
+    "full_max": "figures/10321_full_max.png",
+    "ilm_opl_mean": "figures/10321_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10321_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10321_ilm_bm_mean.png",
+    "full_mean": "figures/10321_full_mean.png",
+    "bscan2d": "figures/10321_bscan2d.png",
+    "central_zoom": "figures/10321_central_zoom.png"
+  },
+  "10322": {
+    "ilm_opl_max": "figures/10322_ilm_opl_max.png",
+    "opl_bm_max": "figures/10322_opl_bm_max.png",
+    "full_max": "figures/10322_full_max.png",
+    "ilm_opl_mean": "figures/10322_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10322_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10322_ilm_bm_mean.png",
+    "full_mean": "figures/10322_full_mean.png",
+    "bscan2d": "figures/10322_bscan2d.png",
+    "central_zoom": "figures/10322_central_zoom.png"
+  },
+  "10325": {
+    "ilm_opl_max": "figures/10325_ilm_opl_max.png",
+    "opl_bm_max": "figures/10325_opl_bm_max.png",
+    "full_max": "figures/10325_full_max.png",
+    "ilm_opl_mean": "figures/10325_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10325_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10325_ilm_bm_mean.png",
+    "full_mean": "figures/10325_full_mean.png",
+    "bscan2d": "figures/10325_bscan2d.png",
+    "central_zoom": "figures/10325_central_zoom.png"
+  },
+  "10326": {
+    "ilm_opl_max": "figures/10326_ilm_opl_max.png",
+    "opl_bm_max": "figures/10326_opl_bm_max.png",
+    "full_max": "figures/10326_full_max.png",
+    "ilm_opl_mean": "figures/10326_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10326_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10326_ilm_bm_mean.png",
+    "full_mean": "figures/10326_full_mean.png",
+    "bscan2d": "figures/10326_bscan2d.png",
+    "central_zoom": "figures/10326_central_zoom.png"
+  },
+  "10327": {
+    "ilm_opl_max": "figures/10327_ilm_opl_max.png",
+    "opl_bm_max": "figures/10327_opl_bm_max.png",
+    "full_max": "figures/10327_full_max.png",
+    "ilm_opl_mean": "figures/10327_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10327_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10327_ilm_bm_mean.png",
+    "full_mean": "figures/10327_full_mean.png",
+    "bscan2d": "figures/10327_bscan2d.png",
+    "central_zoom": "figures/10327_central_zoom.png"
+  },
+  "10328": {
+    "ilm_opl_max": "figures/10328_ilm_opl_max.png",
+    "opl_bm_max": "figures/10328_opl_bm_max.png",
+    "full_max": "figures/10328_full_max.png",
+    "ilm_opl_mean": "figures/10328_ilm_opl_mean.png",
+    "opl_bm_mean": "figures/10328_opl_bm_mean.png",
+    "ilm_bm_mean": "figures/10328_ilm_bm_mean.png",
+    "full_mean": "figures/10328_full_mean.png",
+    "bscan2d": "figures/10328_bscan2d.png",
+    "central_zoom": "figures/10328_central_zoom.png"
+  }
+}

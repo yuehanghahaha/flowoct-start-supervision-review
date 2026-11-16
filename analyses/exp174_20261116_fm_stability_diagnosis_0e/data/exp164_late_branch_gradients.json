@@ -1,0 +1,24 @@
+[
+  {
+    "branch": "t0",
+    "epochs": [
+      151,
+      200
+    ],
+    "updates": 5000,
+    "fm_mse": 0.0018833744714153,
+    "gradient_norm": 76.74009748015403,
+    "gradient_clip_fraction": 1.0
+  },
+  {
+    "branch": "random",
+    "epochs": [
+      151,
+      200
+    ],
+    "updates": 5000,
+    "fm_mse": 0.0005184279273176799,
+    "gradient_norm": 0.05537341401330195,
+    "gradient_clip_fraction": 0.0
+  }
+]

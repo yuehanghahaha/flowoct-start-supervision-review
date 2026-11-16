@@ -1,0 +1,9 @@
+{
+  "data_root": "/docsystem/niuke/lvyuehang/OCTA500_common_v1",
+  "manifest": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/split_3M_z256.csv",
+  "labels_root": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp102_20261106_start_alltproj_150e/annotations",
+  "cache_root": "/docsystem/niuke/lvyuehang/OCTA500_research_cache_3M_z256_v1",
+  "torch_home": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/weights",
+  "python": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/environment/bin/python",
+  "expected_gpu_uuid": "GPU-58b67969-49a6-611a-807b-e256f9ec4c31"
+}

@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-04T05:38:07.933063+08:00",
+  "epochs": 300,
+  "steps": 42000,
+  "primary": "checkpoints/epoch_300.pt",
+  "primary_sha256": "f2cede132a390b0e41c3527052a535129e863515d2f54b770dfbd33928b96c34",
+  "supplementary_best": {
+    "score": 0.48410716557441535,
+    "epoch": 213
+  },
+  "test_started": false
+}

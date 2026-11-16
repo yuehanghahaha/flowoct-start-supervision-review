@@ -1,0 +1,130 @@
+{
+  "patient_mean": {
+    "MAE": 0.013356794002309057,
+    "PSNR": 28.416682854693835,
+    "SSIM": 84.08778567681487,
+    "MAE-V": 0.04843667801303657,
+    "PSNR-V": 21.73097539370984,
+    "SSIM-V": 88.0171775199232,
+    "VDE": 0.017603012465373963,
+    "VDC": 75.03078155332916
+  },
+  "valid_patients": {
+    "MAE": 10,
+    "PSNR": 10,
+    "SSIM": 10,
+    "MAE-V": 10,
+    "PSNR-V": 10,
+    "SSIM-V": 10,
+    "VDE": 10,
+    "VDC": 10
+  },
+  "patients": 10,
+  "undefined_note": "Constant density arrays produce undefined VDC; these cases and counts are reported, not replaced with zero.",
+  "split": "validation",
+  "epoch": 83,
+  "protocol_id": "047290c6a0f06b822d0e032c278dfa130975522379d6135f36a5ea7038a61977",
+  "checkpoint_sha256": "8172591036fd8f0a669bbb06c5d588b2db8a027f94dbde959aba8303d0129bf6",
+  "complete_float_predictions_saved": true,
+  "frozen_test": false,
+  "strict_author_equivalence_verified": false,
+  "operational_settings": {
+    "experiment_id": "exp040_20261029_transpro_tf32bench200e",
+    "parent_experiment": "exp028_20261028_transpro_retention200e",
+    "fov": "3M",
+    "epochs": 200,
+    "batch_size": 1,
+    "ngf": 64,
+    "ndf": 64,
+    "crop_yzx": [
+      256,
+      256,
+      256
+    ],
+    "full_shape_zyx": [
+      256,
+      304,
+      304
+    ],
+    "optimizer": "Adam",
+    "learning_rate": 0.0002,
+    "betas": [
+      0.5,
+      0.999
+    ],
+    "weight_decay": 0.0,
+    "loss_weights": {
+      "volume": 10.0,
+      "projection": 10.0,
+      "vpg": 5.0,
+      "hcg": 5.0
+    },
+    "gan_objective": "paper_logarithmic_minimax",
+    "vpg_representation": "raw_logits",
+    "projection": "mean_depth_then_minmax_as_official_code",
+    "teachers_eval_frozen": true,
+    "amp": false,
+    "gradient_scaling": false,
+    "tf32": true,
+    "dtype": "float32",
+    "seed": 2026,
+    "validation_every": 1,
+    "checkpoint_selection": "minimum_full_validation_bscan_MAE",
+    "checkpoint_every": 0,
+    "lr_schedule": "explicit_100_constant_then_100_linear_decay",
+    "full_inference": "four_256_cubes_cover_304x304_view_with_uniform_overlap_average",
+    "training_normalization": "independent_minmax_after_paired_crop_to_minus1_plus1",
+    "volume_evaluation": "predicted_tanh_mapped_to_unit_range_vs_full_GT_minmax_unit_range",
+    "projection_evaluation": "independent_minmax_of_depth_mean_to_unit_range_as_source",
+    "metric_data_range": 1.0,
+    "ssim": {
+      "win_size": 11,
+      "gaussian_weights": true,
+      "sigma": 1.5,
+      "use_sample_covariance": false,
+      "K1": 0.01,
+      "K2": 0.03
+    },
+    "vessel_mask_source": "OCTA500_GT_Capillary",
+    "mask_image_orientation": "XY",
+    "background_gamma": 0.1,
+    "vdc_patch": 16,
+    "metric_aggregation": "Bscan_mean_within_patient_then_equal_patient_mean",
+    "save_full_predictions": "final_best_validation_and_frozen_test",
+    "run_test_automatically": false,
+    "torch_threads": 4,
+    "reference": {
+      "paper_url": "https://arxiv.org/html/2303.06807v2",
+      "repository_commit": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+      "paper_table3M": {
+        "MAE": 0.0782,
+        "PSNR": 32.56,
+        "SSIM": 88.22,
+        "MAE-V": 0.0658,
+        "PSNR-V": 20.42,
+        "SSIM-V": 91.79,
+        "VDE": 0.1304,
+        "VDC": 74.41
+      },
+      "not_claimed_author_exact": [
+        "GAN implementation differs from repository LSGAN",
+        "VPG logits differ from repository probabilities",
+        "full_view_tiling",
+        "metric_data_range_and_SSIM_options",
+        "public_capillary_mask_identity",
+        "teacher_patient_provenance",
+        "native_depth_interpolation",
+        "LR_schedule_correction",
+        "deterministic_eval_mode",
+        "seed"
+      ]
+    },
+    "best_retention": "two_atomic_selection_slots_and_resumable_latest; no numbered epoch archive",
+    "retention_basis": "paper section4.3 minimum-validation-MAE selected model; numbered snapshots in released code are not retained by this user-requested paper-focused storage policy",
+    "matmul_tf32": false,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "tf32_scope": "cuDNN convolutions only; general matmul remains disabled",
+    "precision_policy": "float32 tensors and optimizer state; cuDNN TF32 allowed; no AMP/scaling"
+  }
+}

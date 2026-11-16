@@ -1,0 +1,10 @@
+{
+  "experiments": [
+    "exp016_20261027_3dfm_start_200e",
+    "exp017_20261027_3dfm_uniform_150e",
+    "exp018_20261027_3dfm_start_zproj_200e",
+    "exp019_20261027_3dfm_start_regionproj_200e"
+  ],
+  "same_visible_gpu": true,
+  "auto_reduced_precision_or_patch": false
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "sources_verified": 109,
+  "validation_projection_pairs": 60,
+  "gt_constant_across_epochs_verified": true,
+  "mean_projection_MAE_and_SSIM_recalculated": true,
+  "mean_projection_bias_equals_volume_mean_bias": "linearity of full-depth mean; original code definition verified",
+  "positive_negative_MAE_decomposition": "P=(MAE+bias)/2, N=(MAE-bias)/2; signed bias from retained projections",
+  "scalar_dark_window_formula_verified": true,
+  "correlations_descriptive_only": true,
+  "new_inference": 0,
+  "test_data_used": false,
+  "epochs_are_diagnostic_examples_not_reselected_checkpoints": true,
+  "time": "2026-11-16T22:20:38.488903+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-11-02T22:45:01.614942+08:00",
+  "train": 140,
+  "validation": 10,
+  "test_arrays_opened": false,
+  "test_derived_files": 0,
+  "manifest_sha256": "24e12fdb4dece29f27c565b4515ba0b31417505b3af893f99e61a416b05ad4da",
+  "membership_sha256": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+  "volume_shape_ZYX": [
+    256,
+    304,
+    304
+  ],
+  "volume_dtype": "float32",
+  "stored_intensity_units": "0..255 unchanged from NPZ",
+  "label_protocol": "Unpublished adaptation: center sampling, MATLAB 1-based native boundaries.\n\n    Layer is [6,Y,X]. Label 1: ILM <= z < OPL. Label 2: OPL <= z <= BM.\n    This makes labels disjoint; zero is the complement. No lateral transpose.\n    ",
+  "identities_sha256": "bfd66602c9e56c397ce490a509fc700b0eecc337d397a032694fc1aeda66ef1b",
+  "original_author_layer_preprocessing_available": false,
+  "status": "passed"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "source_contract": {
+    "checks.py": "e42d9cd48b31ce54b1ba65bd524fed9470ef8e3abebf4f99f514ed32ea002c79",
+    "common.py": "f0021bbaa4895e889c2b98ee3af9181da5ab43614d43549bebc9374c2ecaedfa",
+    "evaluate.py": "872ede0d7ba06381319d82357ef8488de7157af40dad484c2ce992316b9bf8c7",
+    "method.py": "ba7fcf384451a1b236219e9c919a906ebe3037a2ec440838bc9c6629eb1c80a1",
+    "metrics.py": "adf3595e13a8c488313c6c91bae069f801f9a536bd6243c9dd67acf8dc757a20",
+    "run.py": "4b45ff39cfe678dbd2f511ff23bb14feafecc16a0bd839f1ba7e7b2409938853",
+    "experiment.json": "ab1457cf1773a92764bc5d2c39a011444c5898ae1db5230de1880f8308c3da9e",
+    "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+    "requirements.txt": "cffb9ac510b8b4178a99d71be9fc4d2a1a7a3b26870c0f4dd299f4ea7c9e3ead",
+    "fm3d/__init__.py": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+    "fm3d/data.py": "d931bfa03c564793ffae7aa047e21a88458372e32f68b46a12d34259d39cbecc",
+    "fm3d/inference.py": "868b9182641718d54b794a2dc7e95f9181f5609a1b1b76db0fa5c5da56e0164e",
+    "fm3d/model.py": "eab503a8d37e5ab6a1d5f7bfb8c6543be39b825530555c6327857eebea6f1d67",
+    "fm3d/projection_report.py": "fdd19601898a2731931e8ea15c8178d7f2be047704adfe359d76c9c68eb28693"
+  },
+  "stem_input_channels": 1,
+  "model_parameters": 2097089,
+  "removed_parameters": 432,
+  "same_fresh_parent_weights_except_removed_channel": true,
+  "single_input_forward_and_pure_mse": true,
+  "optimizer_step": {
+    "fm_mse": 0.2522546947002411,
+    "gradient_norm": 8.502827644348145,
+    "velocity_dtype": "torch.float32"
+  },
+  "global_euler8": true,
+  "uniform_time_all_epochs": true
+}

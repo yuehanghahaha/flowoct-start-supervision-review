@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-15T13:52:34+08:00",
+  "status": {
+    "state": "training",
+    "epoch": 2,
+    "step": 140,
+    "completed_epoch": 1,
+    "epochs": 200,
+    "updates": 340,
+    "best": null,
+    "pid": 2234822,
+    "time": "2026-11-15T13:52:05+08:00"
+  },
+  "latest_committed_epoch": 1,
+  "generator_optimizer_steps": [
+    200
+  ],
+  "discriminator_optimizer_steps": [
+    100
+  ],
+  "latest_complete_resume_state_verified": true,
+  "training_budget_complete": false
+}

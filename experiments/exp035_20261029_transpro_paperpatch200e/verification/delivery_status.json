@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-10-29T15:06:08.191486+08:00",
+  "experiment_id": "exp035_20261029_transpro_paperpatch200e",
+  "baseline_commit": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+  "modified_upstream_files": 1,
+  "unchanged_upstream_files": 64,
+  "paper_patch_ids": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "source_configuration_identity": "c430c11e19cb462bc38f5870872807a1a4f9f7686d6835699537ff5849103c69",
+  "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a",
+  "local_tests_passed": 11,
+  "uploaded": true,
+  "remote_experiment": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp035_20261029_transpro_paperpatch200e",
+  "prepare_status": "passed",
+  "GPU_full256_update_status": "passed",
+  "actual_gpu": "NVIDIA A800 80GB PCIe",
+  "max_allocated_GiB": 22.84803533554077,
+  "max_reserved_GiB": 23.466796875,
+  "precision": {
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "amp": false,
+    "gradient_scaling": false
+  },
+  "storage_required_GiB": 193.21437477692962,
+  "formal_training_started": true,
+  "patient_test_arrays_opened": false,
+  "server_byte_manifest_verification": "passed",
+  "server_files_verified": 295,
+  "training_tmux_session": "transpro_exp035",
+  "training_observed_epoch": 1,
+  "training_observed_at": "2026-10-29T15:38:01.108215+08:00"
+}

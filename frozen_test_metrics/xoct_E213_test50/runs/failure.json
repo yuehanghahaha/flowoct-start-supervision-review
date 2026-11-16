@@ -1,0 +1,6 @@
+{
+  "time": "2026-11-04T10:07:28.000618+08:00",
+  "action": "test",
+  "traceback": "Traceback (most recent call last):\n  File \"/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp074_20261104_xoct_best250300_fm_test50/run_test.py\", line 368, in <module>\n    formal_test()\n  File \"/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp074_20261104_xoct_best250300_fm_test50/run_test.py\", line 306, in formal_test\n    with evpath.with_suffix('.npz.tmp').open('wb') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/environment/lib/python3.11/pathlib.py\", line 1044, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp074_20261104_xoct_best250300_fm_test50/results/xoct_E213/evidence/10305.npz.tmp'\n",
+  "parent_training_untouched": true
+}

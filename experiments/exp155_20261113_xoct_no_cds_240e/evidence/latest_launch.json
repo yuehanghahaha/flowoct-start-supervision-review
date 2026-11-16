@@ -1,0 +1,32 @@
+{
+  "time": "2026-11-14T00:19:23+08:00",
+  "pid": 2216539,
+  "completed_epoch": 0,
+  "resumed": false,
+  "environment": {
+    "python": "3.11.18 (main, Oct 26 2026, 18:19:35) [GCC 14.3.0]",
+    "executable": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/environment/bin/python",
+    "versions": {
+      "torch": "2.7.0+cu126",
+      "torchvision": "0.22.0+cu126",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-image": "0.25.2",
+      "Pillow": "11.0.0",
+      "torchio": "0.20.8",
+      "natsort": "8.4.0"
+    },
+    "gpu": "NVIDIA A800 80GB PCIe",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "tensor_dtype": "torch.float32",
+    "amp": false,
+    "scaler": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "cuda_visible_devices": "0"
+  }
+}

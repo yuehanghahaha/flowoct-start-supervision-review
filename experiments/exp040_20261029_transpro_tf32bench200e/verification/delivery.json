@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-29T16:51:33.270585+08:00",
+  "experiment_id": "exp040_20261029_transpro_tf32bench200e",
+  "source_configuration_identity": "5494f907ff09bcf0d346edd3fe3008f2d725eb6c3a8b55dc24e62a50b21dc6a4",
+  "local_tests_passed": 17,
+  "local_full_width_GPU_update_verified": false,
+  "original_source_files_verified": 65,
+  "protected_modules_identical": [
+    "run.py",
+    "network.py",
+    "dataset.py",
+    "metrics.py",
+    "evaluation.py",
+    "retention.py"
+  ],
+  "weights_sha256": {
+    "hcg": "973fdffd67be0807f6dbc7246b9cf25b25d06733d63bd5b3232836ef14fa88bc",
+    "vpg": "4d440e77a916231ce9316a26e4cbbd62893d5e696b39fd0c6af7edcf97ffb3c8"
+  },
+  "fixed_patient_membership_unchanged": true,
+  "uploaded_by_assistant": false,
+  "A100_benchmark_run": false,
+  "formal_training_started": false,
+  "old_A100_or_A800_jobs_modified": false,
+  "clinical_test_arrays_opened": false,
+  "archives_created": false,
+  "benchmark_CLI_help_verified": true,
+  "shell_scripts_LF_verified": true,
+  "completed_temporary_smoke_artifacts_removed": true
+}

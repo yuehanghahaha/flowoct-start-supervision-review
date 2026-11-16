@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "committed_first_epoch": {
+    "epoch": 1,
+    "updates": 200,
+    "mean_fm_mse": 0.006880811916780658,
+    "train_seconds": 149.36834287201054,
+    "peak_allocated_gib": 2.231743335723877,
+    "step_evidence": "runs/train/steps_epoch_0001_1794471133464051302.jsonl",
+    "validation": null,
+    "report": null,
+    "best": null,
+    "time": "2026-11-12T16:14:42+08:00"
+  },
+  "all200_schedule_matches_exp017": true,
+  "checkpoint_epoch_at_audit": 1,
+  "checkpoint_updates_at_audit": 200,
+  "optimizer_and_rng_present": true,
+  "validation_planned_first_epoch": 5,
+  "current_status": {
+    "state": "training",
+    "epoch": 2,
+    "completed_epoch": 1,
+    "updates": 320,
+    "epochs": 200,
+    "best": null,
+    "pid": 2133413,
+    "time": "2026-11-12T16:15:37+08:00",
+    "step": 120
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "offset": 0.0,
+    "SSIM_constant_dark_window": 1.0,
+    "MAE": 0.0,
+    "PSNR": null
+  },
+  {
+    "offset": 0.005,
+    "SSIM_constant_dark_window": 0.8000000000000002,
+    "MAE": 0.005,
+    "PSNR": 46.020599913279625
+  },
+  {
+    "offset": 0.01,
+    "SSIM_constant_dark_window": 0.5,
+    "MAE": 0.01,
+    "PSNR": 40.0
+  },
+  {
+    "offset": 0.015,
+    "SSIM_constant_dark_window": 0.30769230769230776,
+    "MAE": 0.015,
+    "PSNR": 36.47817481888638
+  },
+  {
+    "offset": 0.02,
+    "SSIM_constant_dark_window": 0.2,
+    "MAE": 0.02,
+    "PSNR": 33.979400086720375
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "data_root": "/workspace/flowoct_work/data/OCTA500_v1",
+  "manifest": "/workspace/experience/exp004_20261025_a100_prior_direct_residualfm_100e100e/data/manifest.csv",
+  "labels_root": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/annotations",
+  "test_labels_root": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/test_annotations",
+  "cache_root": "/workspace/experience/exp004_20261025_a100_prior_direct_residualfm_100e100e/cache/train_validation",
+  "manifest_sha256": "09b21d107c51fcf9a198b2823333ee550e3849443312d1db582d3c9fa6c61261",
+  "cache_metadata_sha256": "b55b82ae1443238cb341614277b33d463bbb948126218b1ea97f56ffaafc3ffc"
+}

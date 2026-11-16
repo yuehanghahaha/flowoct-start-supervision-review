@@ -1,0 +1,7 @@
+# Install matching torch==2.5.1 and torchvision==0.20.1 CUDA wheels separately.
+numpy==1.26.4
+Pillow==12.2.0
+torchsummary==1.5.1
+scipy==1.15.3
+scikit-image==0.25.2
+matplotlib==3.10.9

@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-02T23:01:52.413786+08:00",
+  "documentation_sha256": {
+    "README.md": "c30cbd2e510fbeecbfaf5c89a333369ec2e8543f350bbd04b5029ce645f7cb0a",
+    "DELIVERY.md": "a930cda80aadf583441f62c487ac1f6b792c284afa594f3d8a521b224df40b51",
+    "verification/local_cleanup.json": "48e4e7e2dc14d8c17dbceb9e84e221e23aeaf0083c1c177470a730c52fdbf879"
+  },
+  "scientific_sources_and_configuration_modified": false,
+  "server_index_includes_experiment_059": true
+}

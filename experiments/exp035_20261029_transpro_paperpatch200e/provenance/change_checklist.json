@@ -1,0 +1,95 @@
+{
+  "experiment_id": "exp035_20261029_transpro_paperpatch200e",
+  "date": "2026-10-29",
+  "baseline": {
+    "repository": "https://github.com/ustlsh/TransPro",
+    "commit": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+    "paper": "https://arxiv.org/html/2303.06807v2"
+  },
+  "paper_changes": [
+    {
+      "id": "P1",
+      "file": "source/models/TransPro_model.py",
+      "before": "LSGAN",
+      "after": "log minimax via BCEWithLogits; keep original D half coefficient",
+      "paper": [
+        "Eq1",
+        "Eq4",
+        "Eq13"
+      ]
+    },
+    {
+      "id": "P2",
+      "file": "source/models/TransPro_model.py",
+      "before": "projection L1 * lambda_C5",
+      "after": "projection L1 * lambda_A10; volume10/HCG5/VPG5 unchanged",
+      "paper": [
+        "Eq7",
+        "Eq12"
+      ]
+    },
+    {
+      "id": "P3",
+      "file": "source/models/TransPro_model.py",
+      "before": "VPG softmax probabilities",
+      "after": "raw two-class logits L1",
+      "paper": [
+        "Eq10",
+        "Eq11"
+      ]
+    }
+  ],
+  "unchanged_author_source_files": 64,
+  "training_not_changed": [
+    "network layers/width",
+    "G/D optimizer and update order",
+    "D half coefficient",
+    "LR scheduler and call timing",
+    "teacher BN modes",
+    "single crop validation MAE",
+    "4 DataLoader workers",
+    "no_flip",
+    "TF32 and cuDNN author/framework settings",
+    "best/latest/numbered save implementation"
+  ],
+  "supplement_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "evaluation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7"
+  ],
+  "full_human_checklist": "CHANGES_CHECKLIST.md",
+  "unpublished_choices_not_author_verified": [
+    "native depth interpolation",
+    "historical environment and teacher training patients",
+    "final full-view stitching",
+    "data_range and SSIM parameters",
+    "identity of public GT_Capillary vs author expert masks"
+  ],
+  "source_configuration_identity": "c430c11e19cb462bc38f5870872807a1a4f9f7686d6835699537ff5849103c69",
+  "local_tests": {
+    "integration": 8,
+    "actual_paper_loss_methods": 3
+  },
+  "formal_training_started": false,
+  "parent_exp033_modified": false,
+  "old_exp026_028_modified": false
+}

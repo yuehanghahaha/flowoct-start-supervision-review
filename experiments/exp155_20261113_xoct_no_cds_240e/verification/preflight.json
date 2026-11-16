@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "time": "2026-11-14T00:08:13+08:00",
+  "contract": {
+    "source": {
+      "common.py": "dd7bed746c030e3a1b3f9991becf1d210e8cff224349d647a3d52bf197a33e1e",
+      "evaluate.py": "d49b2f02aafe4970cbfa72e5a8b9e224c8f925d1ad7db717b868f99ec4779009",
+      "inputs.py": "09931ba529eb5a173ca0da88edb610240e8d46e5a009e9af033783097886f96d",
+      "preflight.py": "d3badc5c93bfbffe7e1daaaf8c4f84bbffb66e611ba2fc90be7d901a19976750",
+      "run.py": "b75dd678de73d589bd66a897dc6d82a50c39e2724df4a4c8b907f797ef398dab",
+      "schedule.py": "53d147050d5501569263e53fdd32c6c089a9512d52c64689e0dc4912211bfa53",
+      "launch.sh": "7b5ddb5f34d2faa9b5a3049ca08934d3d845fba86cd62ad8fbd9e8a8cde603a2",
+      "experiment.json": "0f29b4c8610872acca418b073dc85e93c35092d97f0fe91afe99dcfe4b0f45bf",
+      "deployment.json": "e4dea42dcacf18f311741cbff947452a65dcb250f545b90d23f5265e8439a3ba",
+      "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+      "requirements.txt": "10084f4f93ff7d9db10029decf8a512743eea79311d1b61d33f68b0fd0c1c7a8",
+      "source/author_files.json": "579a6634c9a833faaf7495331589bb9dcdcc82e14219ddef1a0c0aa153c1d110",
+      "source/schedule.csv": "89395b4360d05153e51df05eaf421feef0a4f3a8b992f63b150bb4996972c1b6",
+      "source/input_identity.json": "bfd66602c9e56c397ce490a509fc700b0eecc337d397a032694fc1aeda66ef1b"
+    },
+    "versions": {
+      "torch": "2.7.0+cu126",
+      "torchvision": "0.22.0+cu126",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-image": "0.25.2",
+      "Pillow": "11.0.0",
+      "torchio": "0.20.8",
+      "natsort": "8.4.0"
+    },
+    "config": {
+      "experiment_id": "exp155_20261113_xoct_no_cds_240e",
+      "parent_experiment": "exp059_20261102_xoct_paperlr_300e",
+      "paired_experiment": "exp154_20261113_xoct_no_msff_240e",
+      "author_commit": "4bf151bee591880a28556fa18e0a79aee63ade93",
+      "author_model": "UNet3DMSFF",
+      "msff_cam": true,
+      "cds": false,
+      "seed": 2026,
+      "epochs": 240,
+      "updates_per_epoch": 140,
+      "split": [
+        140,
+        10,
+        50
+      ],
+      "patch_ZYX": [
+        256,
+        96,
+        96
+      ],
+      "output_ZYX": [
+        256,
+        304,
+        304
+      ],
+      "channels": [
+        64,
+        128,
+        256,
+        512,
+        512,
+        512
+      ],
+      "learning_rate": 0.0001,
+      "author_schedule_constant": 200,
+      "author_schedule_decay": 100,
+      "schedule_used_through": 240,
+      "optimizer": "Adam G and D, betas 0.5/0.999",
+      "losses": {
+        "3D_LSGAN": 1,
+        "3D_voxel_L1": 10
+      },
+      "validation_every": 30,
+      "validation_policies": [
+        "10 fixed patients",
+        "full 256x304x304",
+        "author uniform 4x4 tiles",
+        "no extra center-crop validation"
+      ],
+      "selection": "maximum full validation ILM-OPL MIP SSIM, retain earliest tie",
+      "fixed_budget_parent_epoch": 240,
+      "numeric_protocol": {
+        "dtype": "float32",
+        "amp": false,
+        "grad_scaler": false,
+        "matmul_tf32": false,
+        "cudnn_tf32": false,
+        "benchmark": true,
+        "cudnn_deterministic": false,
+        "deterministic_algorithms": false
+      },
+      "save_validation_volumes": false,
+      "automatic_test": false
+    }
+  },
+  "environment": {
+    "python": "3.11.18 (main, Oct 26 2026, 18:19:35) [GCC 14.3.0]",
+    "executable": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/environment/bin/python",
+    "versions": {
+      "torch": "2.7.0+cu126",
+      "torchvision": "0.22.0+cu126",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-image": "0.25.2",
+      "Pillow": "11.0.0",
+      "torchio": "0.20.8",
+      "natsort": "8.4.0"
+    },
+    "gpu": "NVIDIA A800 80GB PCIe",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "tensor_dtype": "torch.float32",
+    "amp": false,
+    "scaler": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "cuda_visible_devices": null
+  },
+  "initial": {
+    "parent_initial_sha256": "75d2ee7aa8f8fac2dfebae541d0d1f2b7c74917bb0537077cfc3c5f35d8976d9",
+    "parent_epoch": 0,
+    "reused_random_initialization": [
+      "3D generator",
+      "3D discriminator"
+    ],
+    "trained_weights_loaded": false,
+    "adam_states_empty": true,
+    "network_tensor_sha256": {
+      "G": "3106db4657a9e294c447e8102a981bf3e2ef7a57e62109b91aabaa9979bbd5d3",
+      "D": "f4a30e69c609fbc9ef3b467e00b2a6b65e3f58431e5902d7c7f1c81d1616f578"
+    }
+  },
+  "generator_3d_parameters": 52615169,
+  "exact_author_crop_checked": true,
+  "training_cases": [
+    "10463",
+    "10470",
+    "10449",
+    "10408",
+    "10459",
+    "10376",
+    "10411"
+  ],
+  "only_training_cases_in_preflight": true,
+  "train_peak_allocated_gib": 33.91212844848633,
+  "train_peak_reserved_gib": 34.173828125,
+  "validation_peak_reserved_gib": 9.369140625,
+  "median_training_update_seconds": 2.106281536165625,
+  "finite_gradients_and_updates": true,
+  "whole_grid_report": "verification/whole_grid_1794585880959819549/metrics.json",
+  "all_input_hashes_verified_here": false,
+  "test_used": false
+}

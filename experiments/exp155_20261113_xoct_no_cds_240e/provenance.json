@@ -1,0 +1,14 @@
+{
+  "scientific_parent": "exp059_20261102_xoct_paperlr_300e",
+  "design_parent": "exp153_20261113_xoct_ablation_plan_0e",
+  "author_commit": "4bf151bee591880a28556fa18e0a79aee63ade93",
+  "author_url": "https://github.com/uci-cbcl/XOCT",
+  "paper": "https://papers.miccai.org/miccai-2025/paper/4977_paper.pdf",
+  "author_files": "source/author_files.json",
+  "scientific_change": "Released UNet3DMSFF model, preserving MSFF plus CAM backbone and 3D-only LSGAN/L1 training.",
+  "initialization": "Frozen epoch-zero parent MSFF plus CAM 3D generator and 3D discriminator, empty Adam states.",
+  "schedule": "Matched historical case order and replayed original worker crop RNG, 240 epoch prefix.",
+  "validation": "Complete fixed validation every 30 epochs. Select shallow MIP SSIM, compare E240 to retained parent E240 metrics.",
+  "runtime_changes": ["Read-only reference raw NPY and VGG cache", "mmap paired crops with original arithmetic", "Skip unused segmentation and projections from 3D-only training path", "Atomic complete and pending checkpoint states", "Independent tmux session"],
+  "status_records": ["verification/preflight.json", "verification/latest_launch.json", "runs/status.json", "runs/training_complete.json"]
+}

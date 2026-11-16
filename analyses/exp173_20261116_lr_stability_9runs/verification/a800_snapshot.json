@@ -1,0 +1,128 @@
+{
+  "time": "2026-11-16T21:13:45.027346+08:00",
+  "user": "root",
+  "home": "/root",
+  "cwd": "/root",
+  "allowed_base": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience",
+  "inventory": [
+    {
+      "name": "exp148_20261112_octstart_nocond_200e",
+      "runs/train/training_complete.json": {
+        "state": "complete",
+        "epochs": 200,
+        "updates": 40000,
+        "time": "2026-11-13T07:46:11+08:00"
+      },
+      "runs/train/status.json": {
+        "state": "complete",
+        "epoch": 200,
+        "epochs": 200,
+        "completed_epoch": 200,
+        "updates": 40000,
+        "time": "2026-11-13T07:46:11+08:00"
+      }
+    },
+    {
+      "name": "exp154_20261113_xoct_no_msff_240e",
+      "runs/training_complete.json": {
+        "epochs": 240,
+        "updates": 33600,
+        "time": "2026-11-15T03:52:22+08:00"
+      },
+      "runs/status.json": {
+        "state": "complete",
+        "epoch": 240,
+        "epochs": 240,
+        "completed_epoch": 240,
+        "steps": 33600,
+        "time": "2026-11-15T03:52:22+08:00"
+      }
+    },
+    {
+      "name": "exp155_20261113_xoct_no_cds_240e",
+      "runs/training_complete.json": {
+        "epochs": 240,
+        "updates": 33600,
+        "time": "2026-11-15T11:40:07+08:00"
+      },
+      "runs/status.json": {
+        "state": "complete",
+        "epoch": 240,
+        "epochs": 240,
+        "completed_epoch": 240,
+        "steps": 33600,
+        "time": "2026-11-15T11:40:07+08:00"
+      }
+    },
+    {
+      "name": "exp160_20261114_xoct_ablation_currentbest_test10",
+      "runs/status.json": {
+        "state": "complete",
+        "time": "2026-11-14T23:07:32+08:00"
+      }
+    },
+    {
+      "name": "exp164_20261115_startproj_fullcds_200e",
+      "runs/train/training_complete.json": {
+        "epochs": 200,
+        "updates": 40000,
+        "time": "2026-11-16T00:53:52+08:00"
+      },
+      "runs/train/status.json": {
+        "state": "complete",
+        "epoch": 200,
+        "epochs": 200,
+        "completed_epoch": 200,
+        "updates": 40000,
+        "time": "2026-11-16T00:53:52+08:00"
+      }
+    },
+    {
+      "name": "exp165_20261115_xoct_ablation_finalbest_test10",
+      "runs/status.json": {
+        "state": "complete",
+        "time": "2026-11-15T13:56:26+08:00"
+      }
+    },
+    {
+      "name": "exp166_20261116_exp164_fullcds_best_test50",
+      "runs/status.json": {
+        "state": "complete",
+        "time": "2026-11-16T13:59:08+08:00"
+      }
+    },
+    {
+      "name": "exp168_20261116_startproj_nocond_200e",
+      "runs/train/status.json": {
+        "state": "stopped",
+        "epoch": 10,
+        "epochs": 200,
+        "completed_epoch": 9,
+        "updates": 2000,
+        "time": "2026-11-16T15:51:11+08:00"
+      }
+    },
+    {
+      "name": "exp170_20261116_startproj_nocond_tf32_200e",
+      "runs/train/status.json": {
+        "state": "validating",
+        "epoch": 85,
+        "epochs": 200,
+        "completed_epoch": 84,
+        "updates": 17000,
+        "time": "2026-11-16T21:04:56+08:00"
+      }
+    },
+    {
+      "name": "exp171_20261116_startproj_octcond_tf32_200e",
+      "runs/train/status.json": {
+        "state": "validating",
+        "epoch": 85,
+        "epochs": 200,
+        "completed_epoch": 84,
+        "updates": 17000,
+        "time": "2026-11-16T21:04:56+08:00"
+      }
+    }
+  ]
+}

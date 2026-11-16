@@ -1,0 +1,14 @@
+{
+  "parent_initial_sha256": "75d2ee7aa8f8fac2dfebae541d0d1f2b7c74917bb0537077cfc3c5f35d8976d9",
+  "parent_epoch": 0,
+  "reused_random_initialization": [
+    "3D generator",
+    "3D discriminator"
+  ],
+  "trained_weights_loaded": false,
+  "adam_states_empty": true,
+  "network_tensor_sha256": {
+    "G": "3106db4657a9e294c447e8102a981bf3e2ef7a57e62109b91aabaa9979bbd5d3",
+    "D": "f4a30e69c609fbc9ef3b467e00b2a6b65e3f58431e5902d7c7f1c81d1616f578"
+  }
+}

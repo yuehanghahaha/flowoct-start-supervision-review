@@ -1,0 +1,10 @@
+{
+  "status": "automatic_approval_denied",
+  "action": "remove locally generated Python bytecode cache files under this experiment __pycache__",
+  "reason_returned": "blocked by policy",
+  "safer_attempt": "explicitly named three generated .pyc files without recursion; also denied",
+  "files_retained": true,
+  "scientific_sources_preserved": true,
+  "scientific_evidence_preserved": true,
+  "remote_cleanup_record": "verification/installation_cleanup.json"
+}

@@ -1,0 +1,51 @@
+{
+  "time": "2026-11-16T21:13:48.334169+08:00",
+  "user": "lvyuehang",
+  "home": "/home/lvyuehang",
+  "cwd": "/home/lvyuehang",
+  "allowed_base": "/home/lvyuehang/experience",
+  "inventory": [
+    {
+      "name": "exp163_20261114_startproj_layermean_a100_200e",
+      "runs/train/training_complete.json": {
+        "epochs": 200,
+        "updates": 40000,
+        "time": "2026-11-15T21:32:24.975290+08:00"
+      },
+      "runs/train/status.json": {
+        "state": "complete",
+        "epoch": 200,
+        "epochs": 200,
+        "completed_epoch": 200,
+        "updates": 40000,
+        "time": "2026-11-15T21:32:24.970220+08:00"
+      }
+    },
+    {
+      "name": "exp167_20261116_exp163_best_test50",
+      "runs/train/training_complete.json": {
+        "epochs": 200,
+        "updates": 40000,
+        "time": "2026-11-15T21:32:24.975290+08:00"
+      }
+    },
+    {
+      "name": "exp169_20261116_startproj_rolloutbalance_200e",
+      "runs/status.json": {
+        "state": "validating",
+        "epoch": 180,
+        "epochs": 200,
+        "updates": 36000,
+        "time": "2026-11-16T21:13:34.597336+08:00"
+      }
+    },
+    {
+      "name": "exp172_20261116_fullvolume_rms_mamba_bf16_200e",
+      "runs/status.json": {
+        "state": "training",
+        "epoch": 20,
+        "time": "2026-11-16T21:12:34+08:00"
+      }
+    }
+  ]
+}

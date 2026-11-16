@@ -1,0 +1,20 @@
+PHASE delivery_verify
+Delivery verified, 627 files.
+PHASE input_preparation
+Audited 25/150 train/validation inputs
+Audited 50/150 train/validation inputs
+Audited 75/150 train/validation inputs
+Audited 100/150 train/validation inputs
+Audited 125/150 train/validation inputs
+Audited 150/150 train/validation inputs
+Input preparation complete. Formal training has not started.
+PHASE synthetic_and_resume_checks
+Traceback (most recent call last):
+  File "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/checks.py", line 326, in <module>
+    main()
+  File "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/checks.py", line 315, in main
+    checks = mathematical_checks(cfg)
+  File "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/checks.py", line 117, in mathematical_checks
+    assert torch.equal(total, expected)
+AssertionError
+EXP163_PREPARATION_EXIT=1

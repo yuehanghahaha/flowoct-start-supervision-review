@@ -1,0 +1,8 @@
+{
+  "delivery_archives_created": 0,
+  "short_training_jobs_created": 0,
+  "temporary_smoke_artifacts_created": 0,
+  "formal_checkpoints_removed": 0,
+  "full_resolution_output_policy": "preserve",
+  "bytecode_cache_present": false
+}

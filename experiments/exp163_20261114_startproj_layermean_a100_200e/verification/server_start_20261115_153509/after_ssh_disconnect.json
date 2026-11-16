@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-15T15:49:47.236783+08:00",
+  "status": {
+    "state": "validating",
+    "epoch": 5,
+    "completed_epoch": 4,
+    "updates": 1000,
+    "pid": 1364,
+    "time": "2026-11-15T15:47:06.492105+08:00",
+    "best": null
+  },
+  "training_exit_file_absent": true,
+  "launch_ssh_connection_closed": true,
+  "log_tail": [
+    "E5/200 step 120/200 updates=920 {\"loss\": 0.0010350748198106885, \"gradient_norm\": 0.3440202474594116, \"time\": 0.5880473256111145, \"exact_start\": 0.0, \"fm\": 0.0010350748198106885, \"weighted_fm\": 0.0010350748198106885, \"projection_max_ilm_opl\": -0.0, \"weighted_projection_max_ilm_opl\": -0.0, \"projection_mean_ilm_opl\": -0.0, \"weighted_projection_mean_ilm_opl\": -0.0, \"projection_mean_opl_bm\": -0.0, \"weighted_projection_mean_opl_bm\": -0.0, \"projection_mean_ilm_bm\": -0.0, \"weighted_projection_mean_ilm_bm\": -0.0, \"projection_max_ilm_opl_valid_rays\": 0.0, \"projection_mean_ilm_opl_valid_rays\": 0.0, \"projection_mean_opl_bm_valid_rays\": 0.0, \"projection_mean_ilm_bm_valid_rays\": 0.0}",
+    "E5/200 step 140/200 updates=940 {\"loss\": 0.0017345716478303075, \"gradient_norm\": 0.5841479897499084, \"time\": 0.2553970217704773, \"exact_start\": 0.0, \"fm\": 0.0017345716478303075, \"weighted_fm\": 0.0017345716478303075, \"projection_max_ilm_opl\": -0.0, \"weighted_projection_max_ilm_opl\": -0.0, \"projection_mean_ilm_opl\": -0.0, \"weighted_projection_mean_ilm_opl\": -0.0, \"projection_mean_opl_bm\": -0.0, \"weighted_projection_mean_opl_bm\": -0.0, \"projection_mean_ilm_bm\": -0.0, \"weighted_projection_mean_ilm_bm\": -0.0, \"projection_max_ilm_opl_valid_rays\": 0.0, \"projection_mean_ilm_opl_valid_rays\": 0.0, \"projection_mean_opl_bm_valid_rays\": 0.0, \"projection_mean_ilm_bm_valid_rays\": 0.0}",
+    "E5/200 step 160/200 updates=960 {\"loss\": 0.009614856913685799, \"gradient_norm\": 1.249227523803711, \"time\": 0.0, \"exact_start\": 1.0, \"fm\": 0.0007072294829413295, \"weighted_fm\": 0.0007072294829413295, \"projection_max_ilm_opl\": 0.04013783112168312, \"weighted_projection_max_ilm_opl\": 0.004013783112168312, \"projection_mean_ilm_opl\": 0.019276436418294907, \"weighted_projection_mean_ilm_opl\": 0.0019276436418294907, \"projection_mean_opl_bm\": 0.015226868912577629, \"weighted_projection_mean_opl_bm\": 0.001522686891257763, \"projection_mean_ilm_bm\": 0.014435138553380966, \"weighted_projection_mean_ilm_bm\": 0.0014435138553380968, \"projection_max_ilm_opl_valid_rays\": 4096.0, \"projection_mean_ilm_opl_valid_rays\": 4096.0, \"projection_mean_opl_bm_valid_rays\": 4096.0, \"projection_mean_ilm_bm_valid_rays\": 4096.0}",
+    "E5/200 step 180/200 updates=980 {\"loss\": 0.0013168281875550747, \"gradient_norm\": 0.4671327471733093, \"time\": 0.9964150786399841, \"exact_start\": 0.0, \"fm\": 0.0013168281875550747, \"weighted_fm\": 0.0013168281875550747, \"projection_max_ilm_opl\": -0.0, \"weighted_projection_max_ilm_opl\": -0.0, \"projection_mean_ilm_opl\": -0.0, \"weighted_projection_mean_ilm_opl\": -0.0, \"projection_mean_opl_bm\": -0.0, \"weighted_projection_mean_opl_bm\": -0.0, \"projection_mean_ilm_bm\": -0.0, \"weighted_projection_mean_ilm_bm\": -0.0, \"projection_max_ilm_opl_valid_rays\": 0.0, \"projection_mean_ilm_opl_valid_rays\": 0.0, \"projection_mean_opl_bm_valid_rays\": 0.0, \"projection_mean_ilm_bm_valid_rays\": 0.0}",
+    "E5/200 step 200/200 updates=1000 {\"loss\": 0.014326941221952438, \"gradient_norm\": 0.888992190361023, \"time\": 0.0, \"exact_start\": 1.0, \"fm\": 0.0020497662480920553, \"weighted_fm\": 0.0020497662480920553, \"projection_max_ilm_opl\": 0.05448327213525772, \"weighted_projection_max_ilm_opl\": 0.005448327213525773, \"projection_mean_ilm_opl\": 0.026157237589359283, \"weighted_projection_mean_ilm_opl\": 0.0026157237589359283, \"projection_mean_opl_bm\": 0.022418640553951263, \"weighted_projection_mean_opl_bm\": 0.0022418640553951265, \"projection_mean_ilm_bm\": 0.019712595269083977, \"weighted_projection_mean_ilm_bm\": 0.001971259526908398, \"projection_max_ilm_opl_valid_rays\": 4096.0, \"projection_mean_ilm_opl_valid_rays\": 4096.0, \"projection_mean_opl_bm_valid_rays\": 4096.0, \"projection_mean_ilm_bm_valid_rays\": 4096.0}",
+    "validation 1/10 10302: volume MAE=0.022725, PSNR=27.055, 3D SSIM=0.4606",
+    "validation 2/10 10319: volume MAE=0.018159, PSNR=27.907, 3D SSIM=0.6706",
+    "validation 3/10 10338: volume MAE=0.027168, PSNR=26.571, 3D SSIM=0.3389"
+  ]
+}

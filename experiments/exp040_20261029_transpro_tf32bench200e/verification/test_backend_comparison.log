@@ -1,0 +1,8 @@
+test_no_speedup_claim_without_successful_baseline (__main__.BackendComparisonTests) ... ok
+test_only_precision_and_runtime_helpers_changed (__main__.BackendComparisonTests) ... ok
+test_tf32_scope_and_profile_settings (__main__.BackendComparisonTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.035s
+
+OK

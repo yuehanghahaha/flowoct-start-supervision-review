@@ -1,0 +1,121 @@
+{
+  "case_id": "10307",
+  "patient_id": "10307",
+  "split": "test",
+  "epoch": 180,
+  "checkpoint_sha256": "a39e9a8bad92e84118f519372273cfab80b0e8be6a908aa35ce813825673287a",
+  "standard": {
+    "volume": {
+      "mae": 0.01295379137979102,
+      "psnr": 29.13327735960554,
+      "ssim": 0.86773450127081
+    },
+    "ilm_opl_mean": {
+      "mae": 0.029108074962513743,
+      "psnr": 28.373413566161588,
+      "ssim": 0.687785790590808
+    },
+    "opl_bm_mean": {
+      "mae": 0.02809952502601722,
+      "psnr": 28.559400376546208,
+      "ssim": 0.6675400485013926
+    },
+    "ilm_bm_mean": {
+      "mae": 0.02464649746840712,
+      "psnr": 29.84692004990125,
+      "ssim": 0.7409050766000927
+    },
+    "full_mean": {
+      "mae": 0.0065010137304172605,
+      "psnr": 41.7538904260997,
+      "ssim": 0.9447839149508808
+    },
+    "ilm_opl_max": {
+      "mae": 0.0766127220265685,
+      "psnr": 20.010353861742082,
+      "ssim": 0.5108603206594673
+    },
+    "opl_bm_max": {
+      "mae": 0.07233963801117475,
+      "psnr": 20.38838052363807,
+      "ssim": 0.4957946732581813
+    },
+    "full_max": {
+      "mae": 0.08375688826681729,
+      "psnr": 19.576860059243582,
+      "ssim": 0.342593343489722
+    },
+    "bscan2d": {
+      "mae": 0.01295379137979102,
+      "psnr": 29.194368489584225,
+      "ssim": 0.8632752037064195
+    }
+  },
+  "reference": {
+    "volume": {
+      "mae": 3.3538031578063965,
+      "psnr": 29.009936198403,
+      "ssim": 0.8613223686426966
+    },
+    "ilm_opl_mean": {
+      "mae": 20.251930236816406,
+      "psnr": 19.66989739356354,
+      "ssim": 0.5816304998768467,
+      "perp": 0.611088216304779
+    },
+    "opl_bm_mean": {
+      "mae": 21.89414405822754,
+      "psnr": 18.917446904847335,
+      "ssim": 0.5165299111128043,
+      "perp": 0.6142268776893616
+    },
+    "ilm_bm_mean": {
+      "mae": 22.02958106994629,
+      "psnr": 18.99919207111725,
+      "ssim": 0.5967723209868173,
+      "perp": 0.5865304470062256
+    },
+    "full_mean": {
+      "mae": 24.479713439941406,
+      "psnr": 18.472548883219154,
+      "ssim": 0.5741755486209162,
+      "perp": 0.5697107315063477
+    }
+  },
+  "seconds": 32.22740800306201,
+  "artifacts": [
+    {
+      "path": "predictions/exp154/10307.npy",
+      "sha256": "dda4534e0fb264cc4e47ee19e5dc23d5061389f2cdc37c9366861c12a36dccf3",
+      "bytes": 94634112
+    },
+    {
+      "path": "targets/10307.npy",
+      "sha256": "b0af4c80c844d9a721b5d5838e533887c22d263c5bbd80d2fa4bd8b437c27854",
+      "bytes": 94634112
+    },
+    {
+      "path": "reports/exp154/10307_projections.npz",
+      "sha256": "9d419bc0a6713e5145637a28251728eb40a727dc9d9d017c3f861210ccdc8ddc",
+      "bytes": 3971529
+    },
+    {
+      "path": "reports/exp154/10307_bscans.csv",
+      "sha256": "b53bc2dc00e07cfa8cfcbe07d8a7294d88a99a2f203c5662886a8b1181f381e8",
+      "bytes": 19136
+    },
+    {
+      "path": "reports/exp154/10307.png",
+      "sha256": "d08ecf5b878cb0d65bc25f253889957fbd9961024a6ef18aa50ad165319a4860",
+      "bytes": 1699833
+    }
+  ],
+  "time": "2026-11-14T22:53:58+08:00",
+  "reused_from": {
+    "source_experiment": "exp160_20261114_xoct_ablation_currentbest_test10",
+    "source_record": "reports/exp154/10307.json",
+    "source_record_sha256": "5e0759bf491dab4e000db1ff58951461475758fa71ec05219da6fa6ceb12a945",
+    "reason": "Identical final-best checkpoint file and tensor hashes",
+    "time": "2026-11-15T13:50:32+08:00"
+  }
+}

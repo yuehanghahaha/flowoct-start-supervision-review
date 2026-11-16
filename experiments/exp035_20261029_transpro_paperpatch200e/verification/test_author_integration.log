@@ -1,0 +1,20 @@
+test_author_loop_only_has_declared_integration_edits (__main__.IntegrationTests) ... ok
+test_author_options_and_worker_count (__main__.IntegrationTests) ... ok
+[timing] epoch 1/200 train=0.1s validation=0.0s total=0.1s
+[timing] epoch 2/200 train=0.0s validation=0.0s total=0.0s
+[timing] epoch 3/200 train=0.0s validation=0.0s total=0.0s
+[timing] epoch 4/200 train=0.0s validation=0.0s total=0.0s
+[timing] epoch 5/200 train=0.0s validation=0.0s total=0.0s
+[timing] epoch 6/200 train=0.0s validation=0.0s total=0.0s
+[timing] epoch 7/200 train=0.0s validation=0.0s total=0.0s
+test_best_and_resume_survive_later_best_overwrites (__main__.IntegrationTests) ... ok
+test_cached_crop_matches_released_torchio_transform (__main__.IntegrationTests) ... ok
+test_only_declared_paper_model_patch_differs (__main__.IntegrationTests) ... ok
+test_precision_does_not_override_framework_flags (__main__.IntegrationTests) ... ok
+test_released_scheduler_timing (__main__.IntegrationTests) ... ok
+test_test_patients_not_exposed_to_training (__main__.IntegrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.915s
+
+OK

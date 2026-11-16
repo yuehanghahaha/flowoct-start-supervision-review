@@ -1,0 +1,46 @@
+{
+  "requested_and_launched_at": "2026-10-29T15:36:23.830679+08:00",
+  "experiment_id": "exp035_20261029_transpro_paperpatch200e",
+  "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a",
+  "tmux_session": "transpro_exp035",
+  "command": "bash START.sh",
+  "epochs": 200,
+  "launch_status": "training",
+  "scientific_source_or_configuration_modified": false,
+  "log": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp035_20261029_transpro_paperpatch200e/logs/train_console.log",
+  "user_explicitly_authorized_training": true,
+  "startup_observation": {
+    "observed_at": "2026-10-29T15:38:01.108215+08:00",
+    "status": {
+      "state": "training",
+      "epoch": 1,
+      "completed_epoch": 0,
+      "epochs": 200,
+      "best": null,
+      "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+    },
+    "tmux": "transpro_exp035 pane=%0 pid=26667 dead=0\n",
+    "training_processes": "26673 /docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python -B -u run.py train\n26920 /docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python -B -u run.py train\n26981 /docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python -B -u run.py train\n27046 /docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python -B -u run.py train\n27109 /docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python -B -u run.py train\n",
+    "gpu": "name, memory.used [MiB], utilization.gpu [%]\nNVIDIA A800 80GB PCIe, 9285 MiB, 100 %\n",
+    "last_console_lines": [
+      "      (4): LeakyReLU(negative_slope=0.2, inplace=True)",
+      "      (5): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)",
+      "      (6): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)",
+      "      (7): LeakyReLU(negative_slope=0.2, inplace=True)",
+      "      (8): Conv2d(256, 512, kernel_size=(4, 4), stride=(1, 1), padding=(1, 1), bias=False)",
+      "      (9): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)",
+      "      (10): LeakyReLU(negative_slope=0.2, inplace=True)",
+      "      (11): Conv2d(512, 1, kernel_size=(4, 4), stride=(1, 1), padding=(1, 1))",
+      "    )",
+      "  )",
+      ")",
+      "Total number of parameters: 2764609",
+      "-----------------------------------------------",
+      "model [TransProModel] was created",
+      "---------- Networks initialized -------------",
+      "-----------------------------------------------"
+    ],
+    "entered_training_loop": true
+  },
+  "formal_training_started": true
+}

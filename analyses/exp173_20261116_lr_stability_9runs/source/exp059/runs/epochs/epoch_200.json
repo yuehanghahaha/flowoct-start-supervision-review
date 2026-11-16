@@ -1,0 +1,40 @@
+{
+  "epoch": 200,
+  "steps": 28000,
+  "learning_rate": 9.900990099009902e-05,
+  "author_validation": {
+    "score": 0.44416802961132884,
+    "ilm_opl_ssim": 0.4359560591789872,
+    "opl_bm_ssim": 0.40834848091889553,
+    "mean_ssim": 0.4881995487361038
+  },
+  "best": {
+    "score": 0.0,
+    "epoch": null
+  },
+  "loss_mean": {
+    "G_GAN": 0.25133265565548624,
+    "G_GAN_3d2d_ilm_opl": 0.26730997913650106,
+    "G_GAN_3d2d_opl_bm": 0.272992895756449,
+    "G_GAN_3d2d_other": 0.2500053140733923,
+    "G_L1": 0.19360326512583664,
+    "G_L1_3d2d_ilm_opl": 0.46618023663759234,
+    "G_L1_3d2d_opl_bm": 0.4349013060863529,
+    "G_L1_3d2d_other": 0.047207007251147716,
+    "G_Perceptual_3d2d_ilm_opl": 0.5750646080289569,
+    "G_Perceptual_3d2d_opl_bm": 0.576428876391479,
+    "G_Perceptual_3d2d_other": 0.09021003778491701,
+    "D_real": 0.24980835297277995,
+    "D_real_ilm_opl": 0.2479104237364871,
+    "D_real_opl_bm": 0.2468349956774286,
+    "D_real_other": 0.2500036607895579,
+    "D_fake": 0.24950979160411016,
+    "D_fake_3d2d_ilm_opl": 0.24661450146564415,
+    "D_fake_3d2d_opl_bm": 0.24467155933380128,
+    "D_fake_3d2d_other": 0.24999786732452256
+  },
+  "time": "2026-11-03T19:31:14.358331+08:00",
+  "train_and_crop_validation_seconds": 324.48572079488076,
+  "full_validation_report": "reports/validation/epoch_200/metrics.json",
+  "full_volume_seconds": 199.10374889103696
+}

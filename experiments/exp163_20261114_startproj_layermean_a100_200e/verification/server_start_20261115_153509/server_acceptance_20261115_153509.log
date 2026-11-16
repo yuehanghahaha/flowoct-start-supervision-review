@@ -1,0 +1,179 @@
+PHASE independent_float32_sum_and_remaining_regressions
+E1/2 step 1/2 updates=1 {"loss": 0.1733146458864212, "gradient_norm": 5.665754318237305, "time": 0.632999062538147, "exact_start": 0.0, "fm": 0.1733146458864212, "weighted_fm": 0.1733146458864212, "projection_max_ilm_opl": -0.0, "weighted_projection_max_ilm_opl": -0.0, "projection_mean_ilm_opl": -0.0, "weighted_projection_mean_ilm_opl": -0.0, "projection_mean_opl_bm": -0.0, "weighted_projection_mean_opl_bm": -0.0, "projection_mean_ilm_bm": -0.0, "weighted_projection_mean_ilm_bm": -0.0, "projection_max_ilm_opl_valid_rays": 0.0, "projection_mean_ilm_opl_valid_rays": 0.0, "projection_mean_opl_bm_valid_rays": 0.0, "projection_mean_ilm_bm_valid_rays": 0.0}
+E1/2 step 2/2 updates=2 {"loss": 0.20559197664260864, "gradient_norm": 3.847139358520508, "time": 0.0, "exact_start": 1.0, "fm": 0.1340009868144989, "weighted_fm": 0.1340009868144989, "projection_max_ilm_opl": 0.1641102433204651, "weighted_projection_max_ilm_opl": 0.016411024332046508, "projection_mean_ilm_opl": 0.15072304010391235, "weighted_projection_mean_ilm_opl": 0.015072304010391236, "projection_mean_opl_bm": 0.2171032428741455, "weighted_projection_mean_opl_bm": 0.021710324287414554, "projection_mean_ilm_bm": 0.1839735209941864, "weighted_projection_mean_ilm_bm": 0.018397352099418642, "projection_max_ilm_opl_valid_rays": 64.0, "projection_mean_ilm_opl_valid_rays": 64.0, "projection_mean_opl_bm_valid_rays": 64.0, "projection_mean_ilm_bm_valid_rays": 64.0}
+Epoch 1 committed; best={'epoch': 1, 'metric': 'selection_projection_ssim', 'value': 0.1, 'report': 'generated_fixture', 'model_tensor_sha256': 'bfd1a71f7b632c33684c766af3d7f2def705964783806d740c1a50a6ca029633', 'archive': 'best_epoch_0001_bfd1a71f7b63.pt'}
+E2/2 step 1/2 updates=3 {"loss": 0.10945519059896469, "gradient_norm": 3.179788589477539, "time": 0.6408339142799377, "exact_start": 0.0, "fm": 0.10945519059896469, "weighted_fm": 0.10945519059896469, "projection_max_ilm_opl": -0.0, "weighted_projection_max_ilm_opl": -0.0, "projection_mean_ilm_opl": -0.0, "weighted_projection_mean_ilm_opl": -0.0, "projection_mean_opl_bm": -0.0, "weighted_projection_mean_opl_bm": -0.0, "projection_mean_ilm_bm": -0.0, "weighted_projection_mean_ilm_bm": -0.0, "projection_max_ilm_opl_valid_rays": 0.0, "projection_mean_ilm_opl_valid_rays": 0.0, "projection_mean_opl_bm_valid_rays": 0.0, "projection_mean_ilm_bm_valid_rays": 0.0}
+E2/2 step 2/2 updates=4 {"loss": 0.14566510915756226, "gradient_norm": 2.3575439453125, "time": 0.0, "exact_start": 1.0, "fm": 0.0903436690568924, "weighted_fm": 0.0903436690568924, "projection_max_ilm_opl": 0.12051243335008621, "weighted_projection_max_ilm_opl": 0.012051243335008621, "projection_mean_ilm_opl": 0.10604551434516907, "weighted_projection_mean_ilm_opl": 0.010604551434516907, "projection_mean_opl_bm": 0.18855270743370056, "weighted_projection_mean_opl_bm": 0.018855270743370057, "projection_mean_ilm_bm": 0.1381038874387741, "weighted_projection_mean_ilm_bm": 0.013810388743877411, "projection_max_ilm_opl_valid_rays": 64.0, "projection_mean_ilm_opl_valid_rays": 64.0, "projection_mean_opl_bm_valid_rays": 64.0, "projection_mean_ilm_bm_valid_rays": 64.0}
+Epoch 2 committed; best={'epoch': 2, 'metric': 'selection_projection_ssim', 'value': 0.2, 'report': 'generated_fixture', 'model_tensor_sha256': '18f0c31d6c958bb6adbb75026d4fe76507b3bc1a95cbed26b48ada0dcaad8419', 'archive': 'best_epoch_0002_18f0c31d6c95.pt'}
+E1/2 step 1/2 updates=1 {"loss": 0.1733146458864212, "gradient_norm": 5.665754318237305, "time": 0.632999062538147, "exact_start": 0.0, "fm": 0.1733146458864212, "weighted_fm": 0.1733146458864212, "projection_max_ilm_opl": -0.0, "weighted_projection_max_ilm_opl": -0.0, "projection_mean_ilm_opl": -0.0, "weighted_projection_mean_ilm_opl": -0.0, "projection_mean_opl_bm": -0.0, "weighted_projection_mean_opl_bm": -0.0, "projection_mean_ilm_bm": -0.0, "weighted_projection_mean_ilm_bm": -0.0, "projection_max_ilm_opl_valid_rays": 0.0, "projection_mean_ilm_opl_valid_rays": 0.0, "projection_mean_opl_bm_valid_rays": 0.0, "projection_mean_ilm_bm_valid_rays": 0.0}
+E1/2 step 2/2 updates=2 {"loss": 0.20559197664260864, "gradient_norm": 3.847139358520508, "time": 0.0, "exact_start": 1.0, "fm": 0.1340009868144989, "weighted_fm": 0.1340009868144989, "projection_max_ilm_opl": 0.1641102433204651, "weighted_projection_max_ilm_opl": 0.016411024332046508, "projection_mean_ilm_opl": 0.15072304010391235, "weighted_projection_mean_ilm_opl": 0.015072304010391236, "projection_mean_opl_bm": 0.2171032428741455, "weighted_projection_mean_opl_bm": 0.021710324287414554, "projection_mean_ilm_bm": 0.1839735209941864, "weighted_projection_mean_ilm_bm": 0.018397352099418642, "projection_max_ilm_opl_valid_rays": 64.0, "projection_mean_ilm_opl_valid_rays": 64.0, "projection_mean_opl_bm_valid_rays": 64.0, "projection_mean_ilm_bm_valid_rays": 64.0}
+Epoch 1 committed; best={'epoch': 1, 'metric': 'selection_projection_ssim', 'value': 0.1, 'report': 'generated_fixture', 'model_tensor_sha256': 'bfd1a71f7b632c33684c766af3d7f2def705964783806d740c1a50a6ca029633', 'archive': 'best_epoch_0001_bfd1a71f7b63.pt'}
+E2/2 step 1/2 updates=3 {"loss": 0.10945519059896469, "gradient_norm": 3.179788589477539, "time": 0.6408339142799377, "exact_start": 0.0, "fm": 0.10945519059896469, "weighted_fm": 0.10945519059896469, "projection_max_ilm_opl": -0.0, "weighted_projection_max_ilm_opl": -0.0, "projection_mean_ilm_opl": -0.0, "weighted_projection_mean_ilm_opl": -0.0, "projection_mean_opl_bm": -0.0, "weighted_projection_mean_opl_bm": -0.0, "projection_mean_ilm_bm": -0.0, "weighted_projection_mean_ilm_bm": -0.0, "projection_max_ilm_opl_valid_rays": 0.0, "projection_mean_ilm_opl_valid_rays": 0.0, "projection_mean_opl_bm_valid_rays": 0.0, "projection_mean_ilm_bm_valid_rays": 0.0}
+E2/2 step 2/2 updates=4 {"loss": 0.14566510915756226, "gradient_norm": 2.3575439453125, "time": 0.0, "exact_start": 1.0, "fm": 0.0903436690568924, "weighted_fm": 0.0903436690568924, "projection_max_ilm_opl": 0.12051243335008621, "weighted_projection_max_ilm_opl": 0.012051243335008621, "projection_mean_ilm_opl": 0.10604551434516907, "weighted_projection_mean_ilm_opl": 0.010604551434516907, "projection_mean_opl_bm": 0.18855270743370056, "weighted_projection_mean_opl_bm": 0.018855270743370057, "projection_mean_ilm_bm": 0.1381038874387741, "weighted_projection_mean_ilm_bm": 0.013810388743877411, "projection_max_ilm_opl_valid_rays": 64.0, "projection_mean_ilm_opl_valid_rays": 64.0, "projection_mean_opl_bm_valid_rays": 64.0, "projection_mean_ilm_bm_valid_rays": 64.0}
+Epoch 2 committed; best={'epoch': 2, 'metric': 'selection_projection_ssim', 'value': 0.2, 'report': 'generated_fixture', 'model_tensor_sha256': '18f0c31d6c958bb6adbb75026d4fe76507b3bc1a95cbed26b48ada0dcaad8419', 'archive': 'best_epoch_0002_18f0c31d6c95.pt'}
+Passed 9 scientific regression groups.
+{
+  "runner": "verification/server_start_20261115_153509/synthetic_acceptance.py",
+  "original_check_source_sha256": "9383d0d2b30e814bf4a7b4742592f390e3d3ad9c275e879236b41b277023ac8a",
+  "source_file_unmodified": true,
+  "original_failure": "checks.py:117 required bitwise equality for differently grouped float32 sums",
+  "original_failure_log": "logs/server_prepare_20261115_153509.log",
+  "assertion_replaced_in_memory_only": [
+    117
+  ],
+  "replacement": "Both groupings within IEEE float32 forward summation error bound; all parameter gradients bitwise equal",
+  "audits": [
+    {
+      "actual": 0.5036923289299011,
+      "regrouped": 0.5036923885345459,
+      "absolute_difference": 5.960464477539063e-08,
+      "float64_sum_of_float32_weighted_terms": 0.5036923475563526,
+      "float32_sum_rounding_bound": 2.401793421438669e-07,
+      "gradients_bitwise_equal": true
+    }
+  ],
+  "other_assertions_unmodified": true,
+  "scientific_training_code_or_settings_changed": false
+}
+PHASE original_real_training_case_full_grid_acceptance
+{
+  "passed": true,
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-image": "0.25.2",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.10.1"
+  },
+  "precision_flags": {
+    "tensor_dtype": "torch.float32",
+    "autocast_enabled": false,
+    "gradient_scaling": false,
+    "matmul_allow_tf32": true,
+    "cudnn_allow_tf32": true,
+    "float32_matmul_precision": "high",
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "environment": {
+      "NVIDIA_TF32_OVERRIDE": null,
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+    }
+  },
+  "case_id": "10301",
+  "source_split": "train",
+  "tensor_shape": [
+    1,
+    1,
+    256,
+    304,
+    304
+  ],
+  "patch": [
+    256,
+    64,
+    64
+  ],
+  "updates": [
+    {
+      "loss": 0.697304904460907,
+      "gradient_norm": 51.012535095214844,
+      "time": 0.0,
+      "exact_start": 1.0,
+      "fm": 0.32800018787384033,
+      "weighted_fm": 0.32800018787384033,
+      "projection_max_ilm_opl": 0.8838924169540405,
+      "weighted_projection_max_ilm_opl": 0.08838924169540406,
+      "projection_mean_ilm_opl": 0.6594582200050354,
+      "weighted_projection_mean_ilm_opl": 0.06594582200050354,
+      "projection_mean_opl_bm": 1.1423916816711426,
+      "weighted_projection_mean_opl_bm": 0.11423916816711427,
+      "projection_mean_ilm_bm": 1.0073045492172241,
+      "weighted_projection_mean_ilm_bm": 0.10073045492172242,
+      "projection_max_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_opl_bm_valid_rays": 4096.0,
+      "projection_mean_ilm_bm_valid_rays": 4096.0
+    },
+    {
+      "loss": 0.15387865900993347,
+      "gradient_norm": 18.059709548950195,
+      "time": 0.37,
+      "exact_start": 0.0,
+      "fm": 0.15387865900993347,
+      "weighted_fm": 0.15387865900993347,
+      "projection_max_ilm_opl": -0.0,
+      "weighted_projection_max_ilm_opl": -0.0,
+      "projection_mean_ilm_opl": -0.0,
+      "weighted_projection_mean_ilm_opl": -0.0,
+      "projection_mean_opl_bm": -0.0,
+      "weighted_projection_mean_opl_bm": -0.0,
+      "projection_mean_ilm_bm": -0.0,
+      "weighted_projection_mean_ilm_bm": -0.0,
+      "projection_max_ilm_opl_valid_rays": 0.0,
+      "projection_mean_ilm_opl_valid_rays": 0.0,
+      "projection_mean_opl_bm_valid_rays": 0.0,
+      "projection_mean_ilm_bm_valid_rays": 0.0
+    }
+  ],
+  "gradient_diagnostics": {
+    "terms": {
+      "fm": {
+        "raw": 0.32800018787384033,
+        "weight": 1.0,
+        "gradient_l2": 28.712894439697266
+      },
+      "projection_max_ilm_opl": {
+        "raw": 0.8838924169540405,
+        "weight": 0.1,
+        "gradient_l2": 6.7904953956604
+      },
+      "projection_mean_ilm_opl": {
+        "raw": 0.6594582200050354,
+        "weight": 0.1,
+        "gradient_l2": 6.1038007736206055
+      },
+      "projection_mean_opl_bm": {
+        "raw": 1.1423916816711426,
+        "weight": 0.1,
+        "gradient_l2": 8.188618659973145
+      },
+      "projection_mean_ilm_bm": {
+        "raw": 1.0073045492172241,
+        "weight": 0.1,
+        "gradient_l2": 6.94858980178833
+      }
+    },
+    "valid_rays": {
+      "projection_max_ilm_opl": 4096,
+      "projection_mean_ilm_opl": 4096,
+      "projection_mean_opl_bm": 4096,
+      "projection_mean_ilm_bm": 4096
+    },
+    "weights_changed": false
+  },
+  "full_euler8_seconds": 33.34913149476051,
+  "parameters": 2097521,
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "peak_allocated_gib": 2.986945152282715,
+  "peak_reserved_gib": 3.15234375,
+  "scored_groups": [
+    "volume",
+    "bscan2d",
+    "projection_ilm_opl",
+    "projection_opl_bm",
+    "projection_ilm_bm_mean",
+    "projection_ilm_opl_mean",
+    "projection_opl_bm_mean",
+    "projection_full",
+    "projection_zmax"
+  ],
+  "validation_patients_used": 0,
+  "test_patients_used": 0,
+  "formal_training_started": false,
+  "temporary_checkpoint_removed": true,
+  "formal_checkpoints_written": 0
+}
+EXP163_ACCEPTANCE_PASSED
+EXP163_ACCEPTANCE_EXIT=0

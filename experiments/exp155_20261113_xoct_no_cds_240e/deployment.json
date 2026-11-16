@@ -1,0 +1,10 @@
+{
+  "reference_root": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e",
+  "data_root": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/data",
+  "torch_home": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/weights",
+  "manifest": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/split_3M_z256.csv",
+  "manifest_sha256": "24e12fdb4dece29f27c565b4515ba0b31417505b3af893f99e61a416b05ad4da",
+  "parent_initial_sha256": "75d2ee7aa8f8fac2dfebae541d0d1f2b7c74917bb0537077cfc3c5f35d8976d9",
+  "input_identity_sha256": "bfd66602c9e56c397ce490a509fc700b0eecc337d397a032694fc1aeda66ef1b",
+  "vgg19_sha256": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44"
+}

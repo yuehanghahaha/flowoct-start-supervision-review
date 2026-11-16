@@ -1,0 +1,743 @@
+{
+  "files": [
+    {
+      "retained": "source/code/exp018/experiment.json",
+      "sha256": "bf5c963ad54387d49e765c226d38903483111c899a00cb31554416b63cf45d04",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp018_20261027_3dfm_start_zproj_200e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp018/fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp018_20261027_3dfm_start_zproj_200e\\fm3d\\inference.py"
+    },
+    {
+      "retained": "source/code/exp018/fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp018_20261027_3dfm_start_zproj_200e\\fm3d\\model.py"
+    },
+    {
+      "retained": "source/code/exp018/run.py",
+      "sha256": "df919bc44ff2ef00ba344ee39ec657c27f3b7cbec982825fe8d5799f6bb2cfaa",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp018_20261027_3dfm_start_zproj_200e\\run.py"
+    },
+    {
+      "retained": "source/code/exp059/author/models/msff3d_generator.py",
+      "sha256": "0a2cc478fb95aba052b10f1d287d6d64e7cd87c8b0775e9699bc490e4d493bdb",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\source\\author\\models\\msff3d_generator.py"
+    },
+    {
+      "retained": "source/code/exp059/author/models/XOCT_model.py",
+      "sha256": "d190e3e0a3490da9378f9576b2a4856eb960de9e111fa260229f43ccbe7b9d1d",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\source\\author\\models\\XOCT_model.py"
+    },
+    {
+      "retained": "source/code/exp059/common.py",
+      "sha256": "8e02bef51e4a3273f52899a59af4a2740ffc441f76bd1b90125f7f82a6496813",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\common.py"
+    },
+    {
+      "retained": "source/code/exp059/evaluate.py",
+      "sha256": "a9661381bdfe1f1157afff85887d974bbbaff15e3203b54abd94445e7d522448",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\evaluate.py"
+    },
+    {
+      "retained": "source/code/exp059/experiment.json",
+      "sha256": "926cad50e58e2d6194898cbf90d15e3675c5825234356626fe7725496f101563",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp059/run.py",
+      "sha256": "c5f450379dc9d1eabbfd90beb25532a1bfe3ff175dfaca09b14fae1929238095",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp059_20261102_xoct_paperlr_300e\\run.py"
+    },
+    {
+      "retained": "source/code/exp148/common.py",
+      "sha256": "f0021bbaa4895e889c2b98ee3af9181da5ab43614d43549bebc9374c2ecaedfa",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\common.py"
+    },
+    {
+      "retained": "source/code/exp148/evaluate.py",
+      "sha256": "872ede0d7ba06381319d82357ef8488de7157af40dad484c2ce992316b9bf8c7",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\evaluate.py"
+    },
+    {
+      "retained": "source/code/exp148/experiment.json",
+      "sha256": "ab1457cf1773a92764bc5d2c39a011444c5898ae1db5230de1880f8308c3da9e",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp148/fm3d/inference.py",
+      "sha256": "868b9182641718d54b794a2dc7e95f9181f5609a1b1b76db0fa5c5da56e0164e",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\fm3d\\inference.py"
+    },
+    {
+      "retained": "source/code/exp148/fm3d/model.py",
+      "sha256": "eab503a8d37e5ab6a1d5f7bfb8c6543be39b825530555c6327857eebea6f1d67",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\fm3d\\model.py"
+    },
+    {
+      "retained": "source/code/exp148/method.py",
+      "sha256": "ba7fcf384451a1b236219e9c919a906ebe3037a2ec440838bc9c6629eb1c80a1",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\method.py"
+    },
+    {
+      "retained": "source/code/exp148/run.py",
+      "sha256": "4b45ff39cfe678dbd2f511ff23bb14feafecc16a0bd839f1ba7e7b2409938853",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp148_20261112_octstart_nocond_200e\\run.py"
+    },
+    {
+      "retained": "source/code/exp154/common.py",
+      "sha256": "dd7bed746c030e3a1b3f9991becf1d210e8cff224349d647a3d52bf197a33e1e",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp154_20261113_xoct_no_msff_240e\\common.py"
+    },
+    {
+      "retained": "source/code/exp154/evaluate.py",
+      "sha256": "d49b2f02aafe4970cbfa72e5a8b9e224c8f925d1ad7db717b868f99ec4779009",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp154_20261113_xoct_no_msff_240e\\evaluate.py"
+    },
+    {
+      "retained": "source/code/exp154/experiment.json",
+      "sha256": "0489cb4a68581cefcdef2a9f2db0e98062ab3e988709c3f48d5b223be6a978d4",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp154_20261113_xoct_no_msff_240e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp154/run.py",
+      "sha256": "b75dd678de73d589bd66a897dc6d82a50c39e2724df4a4c8b907f797ef398dab",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp154_20261113_xoct_no_msff_240e\\run.py"
+    },
+    {
+      "retained": "source/code/exp155/common.py",
+      "sha256": "dd7bed746c030e3a1b3f9991becf1d210e8cff224349d647a3d52bf197a33e1e",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp155_20261113_xoct_no_cds_240e\\common.py"
+    },
+    {
+      "retained": "source/code/exp155/evaluate.py",
+      "sha256": "d49b2f02aafe4970cbfa72e5a8b9e224c8f925d1ad7db717b868f99ec4779009",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp155_20261113_xoct_no_cds_240e\\evaluate.py"
+    },
+    {
+      "retained": "source/code/exp155/experiment.json",
+      "sha256": "0f29b4c8610872acca418b073dc85e93c35092d97f0fe91afe99dcfe4b0f45bf",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp155_20261113_xoct_no_cds_240e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp155/run.py",
+      "sha256": "b75dd678de73d589bd66a897dc6d82a50c39e2724df4a4c8b907f797ef398dab",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp155_20261113_xoct_no_cds_240e\\run.py"
+    },
+    {
+      "retained": "source/code/exp163/common.py",
+      "sha256": "4ceaadb5cbd1c17b2c72ecbdec3a9b04e71705a3d2f164fe44278a7db9f6752c",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\common.py"
+    },
+    {
+      "retained": "source/code/exp163/experiment.json",
+      "sha256": "ace70e1fac5cb6ec522e12cec2bccf493592380dcbd393ca08b9ee9f25d4cfc1",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp163/fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\fm3d\\inference.py"
+    },
+    {
+      "retained": "source/code/exp163/fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\fm3d\\model.py"
+    },
+    {
+      "retained": "source/code/exp163/method.py",
+      "sha256": "e743b51be5812701bab6060a5360225a0005a7ab99288d8d84ac8cf979fbdccc",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\method.py"
+    },
+    {
+      "retained": "source/code/exp163/run.py",
+      "sha256": "a44d8da46ac7c0377b703a101f4ebba11d8597a2c77953a57176230abc01f1bc",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp163_20261114_startproj_layermean_a100_200e\\run.py"
+    },
+    {
+      "retained": "source/code/exp164/common.py",
+      "sha256": "61598648069525af7c22d814c7f799d99797b54db1b0691ba2a68796076c766a",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\common.py"
+    },
+    {
+      "retained": "source/code/exp164/experiment.json",
+      "sha256": "e9c5880b3ee4e939c06b709f6ee7f4f555b97f72f22d07b193db078adf562d80",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\experiment.json"
+    },
+    {
+      "retained": "source/code/exp164/fm3d/inference.py",
+      "sha256": "f49f3bc1ab230e9c9bdb1ee355f6de6c430f2e164ccd7b063712ca792f6b196b",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\fm3d\\inference.py"
+    },
+    {
+      "retained": "source/code/exp164/fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\fm3d\\model.py"
+    },
+    {
+      "retained": "source/code/exp164/method.py",
+      "sha256": "e2c0b4d5de59db6deb6fda45bdacfcf9be5cbb6b0245e4f666b3e806e09220aa",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\method.py"
+    },
+    {
+      "retained": "source/code/exp164/run.py",
+      "sha256": "7a4fca4172302711a18ba3f6d6df49e312308f5edd40379a6177c13cb68ef5c2",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp164_20261115_startproj_fullcds_200e\\run.py"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10302.npz",
+      "sha256": "c9b15082075d52da5d131f74b58f19332cc180e66870cde22af382b2b8c224b6",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10302.npz",
+      "source_sha256": "35b1fc68e661f0570b8c092af1d41ed480627b83a2186ce45bab1fc5a42327ea",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10319.npz",
+      "sha256": "263ca943204a837d79dc6060b377538025ac820ce80cac9ea2e8af005c5fdf62",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10319.npz",
+      "source_sha256": "6f7c8f9242636ce41183ca961642cc79f1b710ee489b9f2252d27edeacee0f06",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10338.npz",
+      "sha256": "4141aee5f4e547e037ff0e67ee0c8adc7c9ecc493780ab2cc47ed695d11599b8",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10338.npz",
+      "source_sha256": "c889d0a27a81e4adbbdd81a645891ea8892a07c72b67c86a238e0167a48fcecf",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10357.npz",
+      "sha256": "5f471d12f9efdb051554d33e96a43f7d6bf3bd0cc182c06d30ac4456ed25d0bb",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10357.npz",
+      "source_sha256": "6296db841903a010518cd3f0e7594258ef95ed44e19f76b20a23ee40ae9e9f57",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10396.npz",
+      "sha256": "5bcb117a852533c8862593cb35f62f6a557b0167e47e6a925e84a6266499318d",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10396.npz",
+      "source_sha256": "750e7426ae6ff60a8ab02272c69359ea079233d3732fce1ab46226cae05b9146",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10422.npz",
+      "sha256": "23426abad96f48250b052dcf369f1284542832eb5c1c285f79fc17009563e557",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10422.npz",
+      "source_sha256": "f4d3e3f4c78a5d5e3efeda12a4bbbbafdd5173b575d828c981bd577b334c5cb1",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10447.npz",
+      "sha256": "79aa904662d27206292788b028d4c1df89de98b4c17aa8c9ba6980be378e5d7d",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10447.npz",
+      "source_sha256": "99f22e7314f3e64e7714786ee7fae86027d628fdec0739546c77679bc5bb06a4",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10456.npz",
+      "sha256": "f590094cee8665f541f8e8488c4642805c1c5b5d7505d7b5ff5eee0d3a3b3042",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10456.npz",
+      "source_sha256": "8b4bbc6617603aacf571e6258989918f2e051a72e6ccb35a0cb6b41ccf0060d3",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10495.npz",
+      "sha256": "8b054704839f2d0c19e4c1fa4913b83110f07f0cc580580cc5494a8669826f5c",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10495.npz",
+      "source_sha256": "e3780040e1d7c5ad8d2382e3f7cd2fe1973f51b50e1dc20f4714c62053d10d6a",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/10500.npz",
+      "sha256": "36ad44e647238795ff5b080598ea9c25f39e6b5364b78856ff606a70ae992202",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\views\\10500.npz",
+      "source_sha256": "34694db9a5b290e3aa18b7e4411f39121d6413308a15c57cf12ae4006c8c992d",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0190/metrics.json",
+      "sha256": "67f0ac458a80f248983c935582ee8fc22fa5bcdc93aa53992b76bd212eaca47a",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0190_d4afb2e7f568\\metrics.json",
+      "source_sha256": "67f0ac458a80f248983c935582ee8fc22fa5bcdc93aa53992b76bd212eaca47a"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10302.npz",
+      "sha256": "d617d4cd87bca9dcda40bb787e1ccbfd71ac5daeba8ef59812ab85c1cebfb655",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10302.npz",
+      "source_sha256": "19645d887cf793ac05431cfc8952abe58a647953dd6dfa14437cc62ffc501013",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10319.npz",
+      "sha256": "11183aa61437bf611cf037f5f607743065347978d0d45ef11ffc2a589aeb6024",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10319.npz",
+      "source_sha256": "78ed88d8e684fb63c4185b413922573d2c088c89d9acab2abdd18fb67cf04d55",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10338.npz",
+      "sha256": "496e53a6fc0a249fbaf2474ad04e2fc9fff089a8eb398bf6e91cc8cbd60ed8ff",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10338.npz",
+      "source_sha256": "447c342be14f46044933e3f9d3fb721bad629a562700dfed5c94b7c87b95af41",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10357.npz",
+      "sha256": "a2d77c6525353cc9803fa3a26cdd7d043794a916ab022898a49b0515356f4cf0",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10357.npz",
+      "source_sha256": "b867af5974742900ff95050ecc31492d8cf3dcc632a840b575b09affa419522e",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10396.npz",
+      "sha256": "0d750628e9604c0237a71b54cb7e4b329dc1292ea35ba79fbb99d942d48cab2e",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10396.npz",
+      "source_sha256": "f5595f3cf0fda8ca6a0c62ea68f2ab0d5176161c8b71120d7597ebcd417189c8",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10422.npz",
+      "sha256": "87cbd3d5c727636bddd4e7f0fc08afd9576ca7358ef8a0feb9a166369e24dd85",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10422.npz",
+      "source_sha256": "b40be34286a4776e84618f2f1165316f9583b7ad9e7dc074038df7b098fad5f7",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10447.npz",
+      "sha256": "57093444f1f2149c3b90988c8a99fce97dc3d4fb5a33bbf20747760cc0128d85",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10447.npz",
+      "source_sha256": "c4d2921b6b08e60126ab01f3c351ec79560bfd73fb41b2454998505d4fd5e3de",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10456.npz",
+      "sha256": "246e5720ab422c511c9ad0a89dfbe90f4db6a7be4edd5c49317ff6bd3c9067de",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10456.npz",
+      "source_sha256": "ca5fd7556d08a9f059f32704b276c880e1454863db71b307881b9f9c53f464eb",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10495.npz",
+      "sha256": "c9420ef689ed1e58c11b7c5829dcb041e68a640d6777de6c9f26c14122faaddb",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10495.npz",
+      "source_sha256": "26110ae61f430699cf0d4a639f823659f71b4b2749af4491e25ef7fee33cfcb9",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/10500.npz",
+      "sha256": "51228e7bf139143a7380ee521435a1bc09d6d0aac60c9027de133ad9b275f430",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\views\\10500.npz",
+      "source_sha256": "ed79842e5b43134eb4bcfca9903bf3764f46dba9d37b8a03e13f78c9688cd506",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0195/metrics.json",
+      "sha256": "5df74ec13ae15e8a3b535ea78483ebd6755482c98bbeae34e2d111347251fccf",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0195_76351fd1bca2\\metrics.json",
+      "source_sha256": "5df74ec13ae15e8a3b535ea78483ebd6755482c98bbeae34e2d111347251fccf"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10302.npz",
+      "sha256": "9ab75f4ac36da17fadebb20e73207bac6333ede12feb8b27ccfacaad35226d68",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10302.npz",
+      "source_sha256": "bdb678bda3de88ddb5b0133dc3b55ce1dfeccb8cb7e530818f73419fb5d9e4b7",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10319.npz",
+      "sha256": "74a0fddbe69f22137a951e45eb32d1b2bafeb04599e77d6fa15bc83966ead153",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10319.npz",
+      "source_sha256": "fa69ee1ce98c55debf54462f30fdd2ca934d9f0038f116ac22eafebe0a4f6bbd",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10338.npz",
+      "sha256": "65901618547e43dfea9cea1b8178ef365985059a1dc721cb9007e3f39ce0bdfa",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10338.npz",
+      "source_sha256": "849e00260d5fde19f9befa3c72124481da2704611c8e4664c418ebff3285816c",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10357.npz",
+      "sha256": "a294f366e515151b65577df0b416018d07f358f171cd455c33e15cd2c9d541cf",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10357.npz",
+      "source_sha256": "13cebabb79dd1b8c5c8083bdc5a99d8bfaede44bb519fd6445bfd0b6e119b862",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10396.npz",
+      "sha256": "23af23c69c683efa50825fe20cbf0a57a4ebdb7efe0daba3db6f7995ca20e24b",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10396.npz",
+      "source_sha256": "ada8d8ec42352bc0fa8d229d3d1431948443c262d1b4cfdafc2992d721e7cf64",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10422.npz",
+      "sha256": "b358d59cc6fed67b378e99f3b2d657b5b1e38dfe749a5db26c1d0b70e9a11642",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10422.npz",
+      "source_sha256": "e17a434b46b31cf03c4f07d09b885e361c423e3b3a2236217ff398b4ef23136e",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10447.npz",
+      "sha256": "ae363d7b0e6c54b2424fdfbf3989b0a784f7b9122b3b9f8445c05739d735344c",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10447.npz",
+      "source_sha256": "0c2d655ec16a081cfad0dc2254cdbb6a6d9842152bc9079e8493ce4294500248",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10456.npz",
+      "sha256": "8c09c1046f680c40f63340972835082ef5cdaae6b8c4c262ecff73207d0ec9dc",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10456.npz",
+      "source_sha256": "a7fc8b42370b95a77c9c1e2c391f9962f8ae03211aec21a61455aabebffcd583",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10495.npz",
+      "sha256": "98afe9305832377dac1b17caacc319be08ad166b6707c4eeecd2211616a032b0",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10495.npz",
+      "source_sha256": "16acdea7da75c190b0e93e490e20e273758417b1c5be51c8290e1e24d37ab5dd",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/10500.npz",
+      "sha256": "48d7d1fb8e18da73e7fae745c5601831a0cc02cae9aa0085e57d757413b3bdb6",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\views\\10500.npz",
+      "source_sha256": "2de8bd759e24782a12022cef0687544106e74e2da70880258c7215d4d8530d42",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp018/epoch_0200/metrics.json",
+      "sha256": "0506ac54649955ef190c30b8154b14e5bc0284ceaa857870b3dae296b867e1dc",
+      "source": "D:\\data\\FSdata\\exp018_20261027_3dfm_start_zproj_200e\\reports\\validation\\epoch_0200_7d665d28beed\\metrics.json",
+      "source_sha256": "0506ac54649955ef190c30b8154b14e5bc0284ceaa857870b3dae296b867e1dc"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10302.npz",
+      "sha256": "c6644b5b4914c913d24bf2c58bb92563663088ef45abfda1cde27c9172157abc",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10302.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "794a3b8a48aae231e2eef318b056bb7f741f9f21a44608fa2b63932901b92d2a",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10319.npz",
+      "sha256": "c403e642d4a6de1a16a0111f69d5199032e25106b014f490296467e0b7a308ce",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10319.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "16c51c85d023c4214fd734eaeb3d3819227931aa75a4169af9e52ce4fa651a20",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10338.npz",
+      "sha256": "ab4654d2b9a4b78ec2ceb691cd16c1b9193e703213a1e0942f0c434268cb4b4c",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10338.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "b0a500055cc95a78310f929065c95b6d19cc8b51d0e9079567d89c123e3bdc50",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10357.npz",
+      "sha256": "dd563b3a8391c533cd141cfc234d54ca946970e237c2f29eafbf28c4a8c5fa99",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10357.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "987bb19ad227e4633589a3a4214b0f47e4e0d81991cfdad0ab8354bca75a3b7a",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10396.npz",
+      "sha256": "b4211fcf5afc0a5ea7fe784e8dc1340feca47211a7a560a00649adae4f6251a0",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10396.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "f3d59ff393b90d0e861aeb4ace27bdd0146ec7601dcc60087e94e9568bc40e35",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10422.npz",
+      "sha256": "acb0dabc6b729138ef9ec0aba987a34fbaa7279d9cf540fcfa68deb29f1ba967",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10422.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "fc045d2b5c1e006ffe3b1ee2aae5a51526ec6bdc5fa881853f40ed61318a0401",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10447.npz",
+      "sha256": "baca47f3e75dd8bcd9fc610f333a73a9d3dea66ad45e83be182877383a18354d",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10447.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "8233b0f6792c8085a2965ead75283e623a7c5a690b2afbd08722a8c784f58d97",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10456.npz",
+      "sha256": "64c4da283c87b73537b20c472492b69369eea8a363d92290c91b2e3aab7a16f8",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10456.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "ab0ed7c7753076780a49e7b53c61a7a93888bc11afdacf8d4342cb68c3835f75",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10495.npz",
+      "sha256": "baf10db1d8995f7db2f046e22214fa106a9e7d777250828e24312d88269eff98",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10495.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "c1adf36238dabfe937f3b16ae81587982e7d2aa547bfc8534657cc6757c60cc5",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/10500.npz",
+      "sha256": "83bce73cdcccfa291ef1e3d8f8e6a572612e8f29f7d95ba510e623b89542b535",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/views/10500.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "e0ee10dd0a631accf93208b0938d1ccf5f57e327fdb381c605b9cd335f77c4cc",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0120/metrics.json",
+      "sha256": "5fbe208ebbb87198bc0382576187dd9195dd07c98fe98863c07f51bd91456e24",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0120_48f7db5187f2/metrics.json",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "5fbe208ebbb87198bc0382576187dd9195dd07c98fe98863c07f51bd91456e24"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10302.npz",
+      "sha256": "4bcd9bd30a0d61caf004cfd92f3ee58e84d952054b8fef63fd3de4dffedebe3f",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10302.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "ce374376854b30f52ef07f88c4b0eabca0c760e63d3f05d027ce347feadef1b0",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10319.npz",
+      "sha256": "f578c76b2ff65077b03a6b0afe4874267a32d069b20c756b1f2cc435cec9ab7a",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10319.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "8fca4e902f3de2a3619bde4629b5d796778c77116b6c76675e8d3fecff411ab2",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10338.npz",
+      "sha256": "e7bbfe2b0929dbb2429045ba93a0e4b2dca755cac159168ac26483e07e62835e",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10338.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "1462197caef0ac6adab4dac175969b2edbfc64cf06377275d4e466c43ab9b2d7",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10357.npz",
+      "sha256": "359f0d42925a3fa1f5ea446556e9e6283486e0804b3a67a00c0fd5be644a362e",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10357.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "ba4b1ae1024c039184ba1d4e22a077290b4d2c9d19775b66ab95f24ba883254c",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10396.npz",
+      "sha256": "066fa637bdd4c492c61091e26ab4ca2cba822cc1d3519abc42341515a54bebfa",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10396.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "547802d435d05a53381c66675bbf5a9d438755f1bc9849b6fe9ac4366d62dbf1",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10422.npz",
+      "sha256": "886dd7a63a923e8a71f9b3e92d657674bc6643451061e2eecdde102cce2210b0",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10422.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "70f011b24a2b47df6d2fbd554e1175cc4e53f1478256682ea802bda4a6ddfdd9",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10447.npz",
+      "sha256": "175faa59e30d201ff0c0f4bf7848d28c75fba5f178c21594ec78b0e5b2bc19f3",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10447.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "284f5c88b31c765cf80a8b0419556dd291bad936165db66487d2aa2d4fb36ff3",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10456.npz",
+      "sha256": "43103844ce91d06b2538ce68fb40f7371591217477f8bd1900ad9f1270d88afd",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10456.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "2eeb94207b19b68b5fa04f84b75980af2a8e81f2fcf936e49a63925c1ecb0ae6",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10495.npz",
+      "sha256": "cf78f81dee9deb0f2222d5ba4c356cabf3df10dc703b85c730b99254df6cbfd6",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10495.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "d70a1c4b7394541ab1a1314ef3fbee97250602c7c39cf1d58af1a382bfaa6f9b",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/10500.npz",
+      "sha256": "5b67f42ec0f29918fb1c4a3b9bffd11c6710e86690c5246020d22502ff2f92ac",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/views/10500.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "3997c476eb5878690550a4c74896d65120748a1c2c746d9be66c6f538a44c466",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0125/metrics.json",
+      "sha256": "70b1f0d77e700da7b8f24da565c92375168bed873e0d9ca2084b769df420a602",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0125_c3c47ad66dd2/metrics.json",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "70b1f0d77e700da7b8f24da565c92375168bed873e0d9ca2084b769df420a602"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10302.npz",
+      "sha256": "357dd2d60e8bcc18a60460afeaf79081243e38d55a42b56f5a697b8a5c759352",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10302.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "adf0fc11dea84d782ba1be44c9578569c5bb6ee548f009e0aae451e691901154",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10319.npz",
+      "sha256": "a582389c5b9b3fbba3ab00953e525628439652e9ebdce0ff23513fbdff7c52a6",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10319.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "94c7dfbbff4fb468100a29558e7440fc5bb9922410d3d5b108f14bd0fa4c3d15",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10338.npz",
+      "sha256": "7ae75bb42481987df45e6dcde4fa1e0aeb29a9e4e93c8a5dfe3f62835efe58cf",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10338.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "c8e3f2328b84442f6a4abbbfdbb5e7f3493c1f7bf4a6e0e7eda7be51a98e28f9",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10357.npz",
+      "sha256": "747073701379b8b942b9a4dd5d95e109ee28380bc90140e248d3e090e10d0ec0",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10357.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "da9264631c711c156c781b49c1b3adbbca961f38f5f6fbbfe75a1d65d08d1344",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10396.npz",
+      "sha256": "a11fb3299a1bef4c4152fef80a6b18a1b2e75b57b3f3eca7057e6e59b6591f9b",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10396.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "a685bc895aea6f2b7cca71ec925e0de8d3ba4941cf962bb871b38379ccfcc3fc",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10422.npz",
+      "sha256": "5b5a4c644be9fb822a2c080d775b8ef9ee6b6b127e4250937c7f7aa7c01f700e",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10422.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "87af2ae0744d9aaa3296f4f0304b696c632a4bf05d1a2023df17b4a44e8d3dc8",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10447.npz",
+      "sha256": "5065448b214894a869c62ed39680713be607e0ca033a3f50a829683bb9cc54d2",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10447.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "f68962398a64fff24da8b15672d65a29e4fac74a49a434a51675675ff63d6306",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10456.npz",
+      "sha256": "edfbbbfda5b521db6b82129f12d9399f1fc7b09376917506c22dec6684c8ec17",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10456.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "8472f5eddff9ce16a5524b2148dcc1d0bc4adfc8bc8f07c3aec6d36d3ee09be6",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10495.npz",
+      "sha256": "f95e59722b68bfbcba73f06ec9e8fc32c43be9fe9a5a3fbbb63233f32ba4b23f",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10495.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "e9066d02f262e20b1ee47d7d21d6aa8e6bc79b45def8fb37ac41a2cc0a730f25",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/10500.npz",
+      "sha256": "932886262ffcebdc0f3878f43d2545d0c0e0390f58e45345d6e23e02c4a111da",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/views/10500.npz",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "d5af01c015f383a5c2a5f5d88ca506d0b0262872cb6c6ef4e6bef590bc6dced1",
+      "source_hash_evidence": "original immutable per-case report_files manifest",
+      "transformation": "retain original FULL projection pair; first patient also retains ILM-OPL MIP pair; no 3D arrays"
+    },
+    {
+      "retained": "source/exp163/epoch_0130/metrics.json",
+      "sha256": "071eb94723d428c8e56c44906aa4f00863bd873ee434c11693966ec569003085",
+      "source": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/reports/validation/epoch_0130_7bd2f231e9cd/metrics.json",
+      "host": "lvyuehang@10.10.101.35",
+      "source_sha256": "071eb94723d428c8e56c44906aa4f00863bd873ee434c11693966ec569003085"
+    },
+    {
+      "retained": "source/exp164_training_branch_summary.json",
+      "sha256": "7534409bfdf541f2868d36473b82812eee49304528324aed2b54f0f3b1f29908",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\source\\exp164\\training_branch_summary.json"
+    },
+    {
+      "retained": "source/prior_analysis/learning_rates.csv",
+      "sha256": "51a72813b1f03531c7fdb86b22835a5b2754a85c2a7fc8f1199e653ff1d4583a",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\data\\learning_rates.csv"
+    },
+    {
+      "retained": "source/prior_analysis/original_checkpoint_selection.json",
+      "sha256": "0a1bff62f167a2027e53e8866579039deeb8b9a27f3382165ab64c44aef37c31",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\data\\original_checkpoint_selection.json"
+    },
+    {
+      "retained": "source/prior_analysis/patient_validation_metrics.csv",
+      "sha256": "c016dc0753b50609902a62c51f7b2e4c80ef6a0f21e54aad78dcdf1c851a21fa",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\data\\patient_validation_metrics.csv"
+    },
+    {
+      "retained": "source/prior_analysis/training_losses.csv",
+      "sha256": "82ac0fd3302c93807bd5271cfa740a6c87400c1b6959e10f456f5995794966eb",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\data\\training_losses.csv"
+    },
+    {
+      "retained": "source/prior_analysis/validation_metrics.csv",
+      "sha256": "de43d87f16946808c555fb47e623f26f422b9b5be0475ae0f55c33ee38d64745",
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp173_20261116_lr_stability_9runs\\data\\validation_metrics.csv"
+    }
+  ],
+  "patient_arrays_read": "60 existing 2D validation projection pairs only",
+  "new_inference": 0,
+  "new_training": 0,
+  "test_data_used": false,
+  "remote_writes": 0
+}

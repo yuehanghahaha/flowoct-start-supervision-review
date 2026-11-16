@@ -1,0 +1,12 @@
+{
+  "parent": "experience\\exp102_20261106_start_alltproj_150e",
+  "fm3d": {
+    "fm3d/data.py": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54",
+    "fm3d/inference.py": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+    "fm3d/model.py": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+    "fm3d/projection_report.py": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40",
+    "fm3d/visualize.py": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe",
+    "fm3d/wavelets.py": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98",
+    "fm3d/__init__.py": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93"
+  }
+}

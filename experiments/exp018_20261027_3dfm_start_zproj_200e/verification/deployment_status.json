@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-27T13:23:33.151591+08:00",
+  "destination": "lvyuehang@10.10.101.35",
+  "remote_experience": "/workspace/experience",
+  "SSH_result": "Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+  "source_uploaded": false,
+  "formal_training_started": false,
+  "scope": "local research code delivered; remote authentication unavailable"
+}

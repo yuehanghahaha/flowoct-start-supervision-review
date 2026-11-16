@@ -1,0 +1,15 @@
+test_bscan_psnr_and_eight_metric_contract (__main__.PipelineTests) ... ok
+test_complete_update_and_optimizer_resume_on_synthetic_fixture (__main__.PipelineTests) ... ok
+test_explicit_lr_schedule_and_synthetic_figure (__main__.PipelineTests) ... ok
+test_full_view_coverage_and_float_prediction (__main__.PipelineTests) ... ok
+test_heldout_arrays_and_labels_are_guarded (__main__.PipelineTests) ... ok
+test_log_minimax_gradient_and_frozen_teacher_input_gradient (__main__.PipelineTests) ... ok
+test_original_architecture_meta_shape (__main__.PipelineTests) ... ok
+test_separate_paper_weights_and_gradient (__main__.PipelineTests) ... ok
+test_vdc_undefined_and_patient_macro (__main__.PipelineTests) ... ok
+test_weighted_images_square_background_scaling (__main__.PipelineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.461s
+
+OK

@@ -1,0 +1,9 @@
+{
+  "state": "validating",
+  "epoch": 5,
+  "completed_epoch": 4,
+  "updates": 1000,
+  "pid": 1364,
+  "time": "2026-11-15T15:47:06.492105+08:00",
+  "best": null
+}

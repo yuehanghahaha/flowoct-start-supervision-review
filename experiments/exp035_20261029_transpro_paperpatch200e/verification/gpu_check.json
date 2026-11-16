@@ -1,0 +1,49 @@
+{
+  "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a",
+  "synthetic_only": true,
+  "training_started": false,
+  "runtime": {
+    "time_unix": 1793257121.9089582,
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "device": "cuda:0",
+    "gpu": "NVIDIA A800 80GB PCIe",
+    "gpu_total_bytes": 85094825984,
+    "gpu_free_bytes": 83294617600,
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "amp": false,
+    "gradient_scaling": false,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "precision_policy": "author_framework_defaults; float32 tensors; TF32 not forced off"
+  },
+  "losses": {
+    "G_GAN": -1.8427022695541382,
+    "G_L1": 5.454113006591797,
+    "G_GAN_proj": -0.5942479968070984,
+    "G_L1_pm": 4.313578128814697,
+    "G_L1_pm_st": 2.688816785812378,
+    "G_L1_seg": 21.961650848388672,
+    "D_real_proj": 1.204410195350647,
+    "D_fake_proj": 0.5523725748062134,
+    "D_real": 2.128366231918335,
+    "D_fake": 0.5528625249862671
+  },
+  "gpu_step_passed": true,
+  "seconds": 82.66069529589731,
+  "max_allocated_bytes": 24532891136,
+  "max_reserved_bytes": 25197281280,
+  "storage_budget": {
+    "required_bytes": 207462355196,
+    "phase_bytes": {
+      "atomic_resume": 195091794064,
+      "final_outputs": 196724936956
+    },
+    "margin_bytes": 10737418240,
+    "numbered_epoch_sets": 200,
+    "scope": "Author numbered/best/latest weights, resume and 60 final predictions; first complete run, existing replay attempts excluded"
+  },
+  "filesystem_free_bytes": 217052694446080,
+  "status": "passed"
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "retained_projection_pairs": 60,
+  "experiments": [
+    18,
+    163
+  ],
+  "epochs": {
+    "18": [
+      190,
+      195,
+      200
+    ],
+    "163": [
+      120,
+      125,
+      130
+    ]
+  },
+  "optional_a800_bundle": "timed out at 180 seconds; no files from that failed bundle used",
+  "hpc_original_projection_source_hashes": "retained from immutable report_files metadata",
+  "source_data_modified": false,
+  "remote_mutations": 0
+}

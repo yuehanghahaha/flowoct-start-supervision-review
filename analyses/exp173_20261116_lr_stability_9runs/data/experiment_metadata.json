@@ -1,0 +1,74 @@
+{
+  "exp059": {
+    "label": "XOCT完整 · exp059",
+    "epochs": 300,
+    "updates": 140,
+    "best": 213,
+    "every": 5,
+    "color": "#267893"
+  },
+  "exp035": {
+    "label": "TransPro · exp035",
+    "epochs": 200,
+    "updates": 140,
+    "best": 194,
+    "every": 1,
+    "color": "#8a6599"
+  },
+  "exp018": {
+    "label": "exp018 · 起点＋MIP",
+    "epochs": 200,
+    "updates": 200,
+    "best": 170,
+    "every": 5,
+    "color": "#323f5d"
+  },
+  "exp148": {
+    "label": "exp148 · 无条件纯FM",
+    "epochs": 200,
+    "updates": 200,
+    "best": 130,
+    "every": 5,
+    "color": "#b58c2e"
+  },
+  "exp154": {
+    "label": "exp154 · XOCT无MSFF",
+    "epochs": 240,
+    "updates": 140,
+    "best": 180,
+    "every": 30,
+    "color": "#519a7a"
+  },
+  "exp155": {
+    "label": "exp155 · XOCT无CDS",
+    "epochs": 240,
+    "updates": 140,
+    "best": 180,
+    "every": 30,
+    "color": "#d18b37"
+  },
+  "exp163": {
+    "label": "exp163 · 分层均值L1",
+    "epochs": 200,
+    "updates": 200,
+    "best": 190,
+    "every": 5,
+    "color": "#b55a66"
+  },
+  "exp164": {
+    "label": "exp164 · 完整CDS",
+    "epochs": 200,
+    "updates": 200,
+    "best": 150,
+    "every": 5,
+    "color": "#7759a4"
+  },
+  "exp040": {
+    "label": "TransPro · exp040（补充）",
+    "epochs": 200,
+    "updates": 140,
+    "best": 83,
+    "every": 1,
+    "color": "#666666"
+  }
+}

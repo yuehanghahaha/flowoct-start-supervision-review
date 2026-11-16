@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-02T22:54:28.759156+08:00",
+  "tmux_session": "xoct_exp059",
+  "user_authorized": true,
+  "preflight_status": "passed",
+  "training_launch_record_pending_until_initial_checkpoint": true
+}

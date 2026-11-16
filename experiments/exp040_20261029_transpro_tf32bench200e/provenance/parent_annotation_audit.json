@@ -1,0 +1,1823 @@
+{
+  "checked_at": "2026-10-28T15:06:23.308914+08:00",
+  "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp016_20261027_3dfm_start_200e\\annotations",
+  "patients": 150,
+  "test_patients_read": 0,
+  "sample_10301": {
+    "case_id": "10301",
+    "split": "train",
+    "shape": [
+      304,
+      304
+    ],
+    "capillary_sha256": "3bb92bbeac0a2787e4e6c76dd3db4f5dfd4edf86879918fa17da115bbf8bab80",
+    "capillary_fraction": 0.4745715027700831,
+    "large_fraction": 0.08260474376731301,
+    "large_covered": 1.0
+  },
+  "minimum_large_covered": 0.9995636998254799,
+  "mean_large_covered": 0.9999932865639327,
+  "interpretation": "GT_Capillary is used directly as the public vessel mask; not assumed to be mutually exclusive capillary-only labels or author-identical masks",
+  "cases": [
+    {
+      "case_id": "10301",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "3bb92bbeac0a2787e4e6c76dd3db4f5dfd4edf86879918fa17da115bbf8bab80",
+      "capillary_fraction": 0.4745715027700831,
+      "large_fraction": 0.08260474376731301,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10302",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "42dbbae2f80b3cb0fb959e91dc2cc39719b8ece4ac630f59fbdbfee13259ea00",
+      "capillary_fraction": 0.4707951004155125,
+      "large_fraction": 0.06180747922437673,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10303",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c85167a563e3e1428f1fe4b616847d30118ad289608d3e2dcf06c32c7175ae15",
+      "capillary_fraction": 0.45834054709141275,
+      "large_fraction": 0.06341975415512466,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10304",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "768f27eac461763a4939db7707c9664bee902467c8fec7284ad2040dc3904029",
+      "capillary_fraction": 0.4221887984764543,
+      "large_fraction": 0.06537828947368421,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10306",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c8dd762dad14b35e543232a8946935c2906145d4901c30619b146e8c52ca1bd8",
+      "capillary_fraction": 0.25556180747922436,
+      "large_fraction": 0.04709141274238227,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10308",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d1927e32cb107de7bef657cb485790d3358c9fc6f4aded50080e0586423e89f4",
+      "capillary_fraction": 0.42886513157894735,
+      "large_fraction": 0.060141101108033244,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10309",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "11bc20924be7e9bf22e57c08026be27650581fb49c72ea91bbe9677a63f6ad43",
+      "capillary_fraction": 0.4382899065096953,
+      "large_fraction": 0.06801852493074792,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10310",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "eb64da69e003d3cbf96c4831c7ea39686901bc96d0b2cc0fcc2d0424ce6e56a0",
+      "capillary_fraction": 0.40707236842105265,
+      "large_fraction": 0.06519433864265928,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10311",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "59cdc71e7bf0a0207743ce23236f22dceccc595fdd9eed0f9c3f4df1f8f39550",
+      "capillary_fraction": 0.36275103878116344,
+      "large_fraction": 0.053865131578947366,
+      "large_covered": 0.9995982322217758
+    },
+    {
+      "case_id": "10312",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "31615ef81f6e5c91a3a949f20b7f75595508ba48ae86f1229c983b1ae09960a1",
+      "capillary_fraction": 0.4515235457063712,
+      "large_fraction": 0.06228358725761773,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10313",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "4039c6953dcb0df817d1062f79cc1cb4dda263af51f7f02caf9df0c4313b7703",
+      "capillary_fraction": 0.4644325657894737,
+      "large_fraction": 0.06115824099722992,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10314",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "2d3ed8b4b406afda99b3378c7d7b21a39d73ce9cc813b8047441dffba66bcfea",
+      "capillary_fraction": 0.41819598337950137,
+      "large_fraction": 0.06353878116343491,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10315",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e8deda1d0d2ad66dfbbef102473c714b0c8a6e586123ade29ae989a763883375",
+      "capillary_fraction": 0.42613833102493076,
+      "large_fraction": 0.06754241689750692,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10316",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "bf64e86134b18a7b2ff616247d21adaba87ac33b09105e69682f7d8f20c4b1ca",
+      "capillary_fraction": 0.3527852319944598,
+      "large_fraction": 0.053789387119113574,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10319",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "20d732f97a5a021da5d16848a0b8dd7cc8dec7c6e3e98ad750bd3860fd92513e",
+      "capillary_fraction": 0.4602990824099723,
+      "large_fraction": 0.06779129155124654,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10320",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "75420d668b75457e3443dac1af8c5217422881cd89b60ae15b60acbbea1a3dd3",
+      "capillary_fraction": 0.470275709833795,
+      "large_fraction": 0.07065876038781163,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10323",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5b6cfdb9b3f0fd7a03109dfe285203f920c0774736ebf16d13ab895492a425d7",
+      "capillary_fraction": 0.4043239265927978,
+      "large_fraction": 0.06335483033240998,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10324",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "8ed3d82c963407ed6eafb5f47909308a9262693abfe36e729a9cee603e252186",
+      "capillary_fraction": 0.3875952216066482,
+      "large_fraction": 0.06710959141274238,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10329",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "7fbd3b43de51d645a91ee7491cc56f356b877aecd4396a7e6f06ea3a13d2aeb1",
+      "capillary_fraction": 0.4233898891966759,
+      "large_fraction": 0.05070550554016621,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10333",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5abd1b764d1998fbc596e1d00d719833fd1cbb384f3ed82f3482a8f01249a12a",
+      "capillary_fraction": 0.4101778912742382,
+      "large_fraction": 0.07462993421052631,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10334",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e7aad2b5b065a95bfb7385cfa9b1c6441164d372312ae41c649c99db4e2df2db",
+      "capillary_fraction": 0.5118485976454293,
+      "large_fraction": 0.05489309210526316,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10335",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "13fab6c3fa6ec8e33a4f75fc535e7b2859695152c3fc3473e9436fe549891b84",
+      "capillary_fraction": 0.2382920706371191,
+      "large_fraction": 0.053551333102493076,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10336",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "4c112678a25668acba36909a1d9bed7d3a2300ac6c1ac2858aad5042a3bf2a2f",
+      "capillary_fraction": 0.4277614265927978,
+      "large_fraction": 0.07275796398891966,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10337",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "33a1354fe20321a1628a8550397410e7d073c42be1a08ccaaed0290c3dbc8840",
+      "capillary_fraction": 0.3939685768698061,
+      "large_fraction": 0.06888417590027701,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10338",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "1ecd43e8b4d8a8cc8ccbb1b474cff20c5c81421d8b79ae10776f3aa70bb7f867",
+      "capillary_fraction": 0.4356604916897507,
+      "large_fraction": 0.07543066135734072,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10339",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "cfd32021ea66bc3c1a74297366ed1316c99e3dda8e3b7b72b8fff43453c0cec7",
+      "capillary_fraction": 0.43226281163434904,
+      "large_fraction": 0.0739806959833795,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10340",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "6ffb37be2689154f9ed88422945bf72c29f25e34656d5fa174b8c1738a2d2f62",
+      "capillary_fraction": 0.44006449099722994,
+      "large_fraction": 0.06199143005540166,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10343",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "1422dbb13a7a5c83926deb792546bdedc716fbd0e528a0a6ecd9f267e19d36a6",
+      "capillary_fraction": 0.45148026315789475,
+      "large_fraction": 0.07075614612188366,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10344",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "06512a46f63d2045b11c5265fc24012a697018c7cb61cf298668707d65ac1a61",
+      "capillary_fraction": 0.4363854743767313,
+      "large_fraction": 0.06071459487534626,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10345",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "cbfd18ef5ab81d45983626cceb7464653f4834f33696674c7db3e605cd632516",
+      "capillary_fraction": 0.37992338988919666,
+      "large_fraction": 0.05128981994459834,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10346",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "0ceed0a20a92ee47b72cafe5275bae90c38b76b37d02c204d884b0d2d17b19a3",
+      "capillary_fraction": 0.4587733725761773,
+      "large_fraction": 0.06913305055401663,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10348",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b25a2a14254b988a36c41c24423024d1d05c22b60ab4687a440ac2c7558c3c60",
+      "capillary_fraction": 0.4050056267313019,
+      "large_fraction": 0.07026921745152355,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10349",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5b16609575fa4aa6a9ee0bdce065ea742b1f5649a5d840a64896b9de12a96354",
+      "capillary_fraction": 0.3962409106648199,
+      "large_fraction": 0.05273978531855956,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10350",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a652c96032ac8ccded046c2aec3aa1e716476052d683167b7781ee542b451159",
+      "capillary_fraction": 0.3317931959833795,
+      "large_fraction": 0.061493680747922434,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10352",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a3a47890ccb1286f262f72f668bc545b3d9245eea1bc18b9da180aea8dcbaa84",
+      "capillary_fraction": 0.4084249480609418,
+      "large_fraction": 0.07259565443213296,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10353",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "6a29aec7adb593a5209166855b1c5c027e845c3245912692c3b6209096545a9c",
+      "capillary_fraction": 0.4169299688365651,
+      "large_fraction": 0.07780038088642659,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10354",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a8b31dc73a98c7b80533dcdbf42ab35656add3e362774e1a29be68b61908ba50",
+      "capillary_fraction": 0.4354440789473684,
+      "large_fraction": 0.07274714335180055,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10357",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a143e53ea386da277f9b7a193914410367b9a7fe1b9999333853b443480025e7",
+      "capillary_fraction": 0.4472277527700831,
+      "large_fraction": 0.06953341412742382,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10360",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "095fa4cf6e67e44b5015ec624baaedc9ff79d1e72465ce92c7bbd4d5537515a2",
+      "capillary_fraction": 0.41015625,
+      "large_fraction": 0.05833405470914128,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10361",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "bea03899e8ce58e29220b6f3979c2bf99ce46f26c75d70242f9f23d704c1dfe9",
+      "capillary_fraction": 0.4512638504155125,
+      "large_fraction": 0.06657938019390582,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10364",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "efa8c06f580ba7399f96339d46838ea0c2ec4e59817c8116a9d624ddf026e382",
+      "capillary_fraction": 0.3867403912742382,
+      "large_fraction": 0.059416118421052634,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10366",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "4dbc7abdf9b43889ea2bc9fb8abff810cc3fea7337bcb82e676be4209e8e5a44",
+      "capillary_fraction": 0.43308518005540164,
+      "large_fraction": 0.06188322368421053,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10368",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b9354e6f4830286553f80a76dd52f2a28708cec3d7fa3739b84f52bd1c5b1176",
+      "capillary_fraction": 0.49240391274238227,
+      "large_fraction": 0.07825484764542937,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10369",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "4f93e0f5e30a0d5897df73dd3327acb4db7adffefc3bdd4c83c58d6271e92c02",
+      "capillary_fraction": 0.4245693386426593,
+      "large_fraction": 0.06404735110803324,
+      "large_covered": 0.9998310525426592
+    },
+    {
+      "case_id": "10370",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "cbf877f46170fdee68790f2b686ff0ee72426b91179d4c343aa2743cf8b32afd",
+      "capillary_fraction": 0.4422827216066482,
+      "large_fraction": 0.06423130193905817,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10371",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5c55cb6e32160eb8cd00f18f032e4f5fe1920e54b36b71aadf76219029774fd0",
+      "capillary_fraction": 0.4148632271468144,
+      "large_fraction": 0.04630150623268698,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10372",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "1eda178dc892c3cac6c9a7c61a2a0d8fb7c99794c3a5bd1de462cde7d9afad44",
+      "capillary_fraction": 0.41834747229916897,
+      "large_fraction": 0.06279215720221606,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10373",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "0fd7568daa08cb8d10c356ded0e055d709f69544475f1c31b3da8d0a2554049c",
+      "capillary_fraction": 0.24109461565096954,
+      "large_fraction": 0.06783457409972299,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10374",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ac3a23c284d2aee235bc401eeed650659ce67a24a62ad52b5399cb65fe402198",
+      "capillary_fraction": 0.38254198407202217,
+      "large_fraction": 0.07691308864265928,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10375",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b23786d7e12f10fcab8a85223ad44062aa19080f6aa6c7348e6d922e00f5308d",
+      "capillary_fraction": 0.452172783933518,
+      "large_fraction": 0.053670360110803325,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10376",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "bc69c427b7f3ec30d3b6bf557f9df319b82e73bfaf2836182d5564d3849528c7",
+      "capillary_fraction": 0.4196675900277008,
+      "large_fraction": 0.06357124307479224,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10377",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "3c3e8e6438b2590f3ec7bbcf9ff838ee29e99f26482c79843312fda08e3cb76a",
+      "capillary_fraction": 0.4568797610803324,
+      "large_fraction": 0.07780038088642659,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10378",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c15f2b1339a7746671bf8ace805bb69e11765f880790a34e49dc76d9efce8b54",
+      "capillary_fraction": 0.4865932306094183,
+      "large_fraction": 0.06541075138504156,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10380",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d9548879000d1dec6f37175e9a63ad77f767ed9175dbfd9820ca82e28746f06d",
+      "capillary_fraction": 0.2806007617728532,
+      "large_fraction": 0.06493464335180055,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10381",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "1932b2b92741e04852259cd87cb917dd35ae195faccddf80418244f1aa45e054",
+      "capillary_fraction": 0.45708535318559557,
+      "large_fraction": 0.06706630886426593,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10382",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "92cbe81f31255238e9685c882e5eff61485cbf7001d5acaeb8c9c029e0db91cc",
+      "capillary_fraction": 0.43368031509695293,
+      "large_fraction": 0.07953168282548477,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10383",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a5ebf3cdb98fc12d1decbf5d2a1a6f2a650444c8f1c4a32c5a240636e4611735",
+      "capillary_fraction": 0.43346390235457066,
+      "large_fraction": 0.0625,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10384",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "9c258ad21deed2da5fce7cda00fa9ea5abb642490b96e7a161dd55bd86faae8d",
+      "capillary_fraction": 0.39902181440443213,
+      "large_fraction": 0.05263157894736842,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10385",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b4a1a4cbec0786c24e50b897837427ebd378698f5c2c77a6d9b516ab91015301",
+      "capillary_fraction": 0.46481128808864264,
+      "large_fraction": 0.07220611149584487,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10386",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ad62c2ea659e2bf59ac76aec5ac8aa531ba294004da4e757c755e808212709e2",
+      "capillary_fraction": 0.3875086565096953,
+      "large_fraction": 0.055964335180055405,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10387",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "206f1da08e47a7329d02f7778bddbaa84a5252e7070761ce5346a999ca10fc95",
+      "capillary_fraction": 0.4713036703601108,
+      "large_fraction": 0.07736755540166206,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10388",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "83094e660e7c2b62c24f6966955c5945f49bcc9d4d6b5e470113959c082bfc09",
+      "capillary_fraction": 0.4117468836565097,
+      "large_fraction": 0.0774974030470914,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10389",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "bdfe9837c6c5166499d1d3be2b68ffb89f3fd2226aa0cf503b2be1f911f642e6",
+      "capillary_fraction": 0.4196784106648199,
+      "large_fraction": 0.07572281855955679,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10390",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d3871c08fead36ee3f7c9c9f48c06a0aabd27aef831573e5d4787a07539333ee",
+      "capillary_fraction": 0.47331630886426596,
+      "large_fraction": 0.06307349376731301,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10391",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b4878192b3877553b3438aa0e5bb60a1c524b646772717b132a5dec288f5a9fe",
+      "capillary_fraction": 0.45521338296398894,
+      "large_fraction": 0.07068040166204986,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10392",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "0282a757f3c57e4c3d5713085d9c6d04c376675cff17d8484dd338319b848322",
+      "capillary_fraction": 0.3972147680055402,
+      "large_fraction": 0.07194641620498615,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10393",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c1e17ef1c6f44f13c196866468878c596266023c5a47eca35a2ca473e1ae691c",
+      "capillary_fraction": 0.4551484591412742,
+      "large_fraction": 0.05088945637119113,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10396",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c9658e9c3c3c40544e6ea5b3b9c4ecd425a339fb6d66407709cae7313f94b35f",
+      "capillary_fraction": 0.41131405817174516,
+      "large_fraction": 0.06731518351800554,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10397",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e036fd9eeadb23f71742a7f5d941dc0a67348eba210f9d31da59fe45f2c93af2",
+      "capillary_fraction": 0.4572693040166205,
+      "large_fraction": 0.06770472645429362,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10398",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "029af587195053abddf661395d095137b68c70037f4565393cadfc41566cb627",
+      "capillary_fraction": 0.46449748961218834,
+      "large_fraction": 0.05674342105263158,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10399",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "42125f46f6005e5110be17f9b5df39de237dc60aafc6fe4352609b0a76f3293f",
+      "capillary_fraction": 0.3401575484764543,
+      "large_fraction": 0.05737101800554017,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10400",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "04bb95b2d401891236d109c0fe68c67c4530bfb5bbe9cda2d6d74880e5ee035d",
+      "capillary_fraction": 0.4538499826869806,
+      "large_fraction": 0.07752986495844875,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10401",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "f91ddd4a58b785af8ce6a002b276f27d454d489cc901e09025a44c374842b888",
+      "capillary_fraction": 0.3951696675900277,
+      "large_fraction": 0.053096866343490305,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10402",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "eca7e2db9352dd715f397aa72453ad3c9a19c50c26c804a12d1bdd94a172b7ee",
+      "capillary_fraction": 0.4598229743767313,
+      "large_fraction": 0.06752077562326869,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10403",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "3e064beebca1c2a478bb03c0ab00f8dee8e73f65036aa892ef7285453016286d",
+      "capillary_fraction": 0.4614244286703601,
+      "large_fraction": 0.0760474376731302,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10405",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "cb9e3d08fa464122aa05fba635f7284da92d52e3edfa54a45a320a38e3c6fd1d",
+      "capillary_fraction": 0.447314317867036,
+      "large_fraction": 0.06159106648199446,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10406",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "85a560c52351c0620780422afabfe7cfe1de608bdaa9a2d0f4501be6d37816d0",
+      "capillary_fraction": 0.3958946502770083,
+      "large_fraction": 0.06318170013850416,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10407",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "f9a935895d259956583331ef6075589a7920c668d68684608b9125eb89c31f70",
+      "capillary_fraction": 0.4601475934903047,
+      "large_fraction": 0.07332063711911357,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10408",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5661f67d71ae6babec7095ee7dfca6fea83d61c03b9911981985d27dd059d50f",
+      "capillary_fraction": 0.4499545533240997,
+      "large_fraction": 0.0740564404432133,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10409",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c7fb4f19ec4116c11d2e10b817b27dcce4a5f2a0525d3d9b090f1727340838c5",
+      "capillary_fraction": 0.46776532202216065,
+      "large_fraction": 0.07116733033240998,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10411",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "86e962b553b242f48a11ac5ea798dfd90f680b3d86687637d9412349e29e35b4",
+      "capillary_fraction": 0.34758050554016623,
+      "large_fraction": 0.06892745844875346,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10412",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d1a1e9fa6675170315a13345e26c524bf4f642eb0c9530036b5091a5499df521",
+      "capillary_fraction": 0.4483314577562327,
+      "large_fraction": 0.06708795013850416,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10413",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "fc035cdf0e15373ee1ec299e6f6bd4af6b341afdd0ff07b00145bf69eab94669",
+      "capillary_fraction": 0.45945507271468145,
+      "large_fraction": 0.06392832409972299,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10414",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "2d2f2ac10edf0683c61b3fc070065cc7a71483b98665578b56aced807f062742",
+      "capillary_fraction": 0.44287785664819945,
+      "large_fraction": 0.06834314404432133,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10416",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "160b76f79a51c04e1651b743a67fa8ec9911ea7c22635d3de03b792c4536b15e",
+      "capillary_fraction": 0.3493226281163435,
+      "large_fraction": 0.07440270083102493,
+      "large_covered": 0.9995636998254799
+    },
+    {
+      "case_id": "10417",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "10c83c69a878b1c37c0637d479f9d1426afc57d471fd89a95f1764e8c9820aeb",
+      "capillary_fraction": 0.4174060768698061,
+      "large_fraction": 0.05877770083102493,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10418",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "16b200acd451c232ee212397be102677ddd4bc4bb4024b93e3a82f43a1109d06",
+      "capillary_fraction": 0.44397074099722994,
+      "large_fraction": 0.07276878462603878,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10419",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "3eff1323081d64c164f932729a26ab98c35f20a24fa30e2eae9e91ebf25bf5e0",
+      "capillary_fraction": 0.4433972472299169,
+      "large_fraction": 0.07863356994459834,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10422",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "80e78d85815a73616be8bf9d7e7bc9471a4d608dcac40438f13438735cf06d23",
+      "capillary_fraction": 0.4547264542936288,
+      "large_fraction": 0.06945766966759002,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10424",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d93adf7ff2813a2d87d724e59341aae9d52cfb87c10eafd639e9767c0bde62fc",
+      "capillary_fraction": 0.44792027354570635,
+      "large_fraction": 0.07517096606648199,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10426",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5ffcb439a835a42fdc27cdd15bec915f662e71900de99aca753e4eefd16aff06",
+      "capillary_fraction": 0.46983206371191133,
+      "large_fraction": 0.06389586218836565,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10427",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a7de32e0fa0b7570f901c08b6daa2e496ba14085441e7c4552b0e9361c4c1e5f",
+      "capillary_fraction": 0.46073190789473684,
+      "large_fraction": 0.08149021814404432,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10428",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "edd709d106e6d87192ee8b598908a930b622f3c95642d25e6885efede8d2f948",
+      "capillary_fraction": 0.4865715893351801,
+      "large_fraction": 0.07288781163434903,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10429",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "18dcc54c3dc8e292677cb8781a9ecbf658add811b8fa4a57cee21fe386fe728f",
+      "capillary_fraction": 0.47024324792243766,
+      "large_fraction": 0.06380929709141274,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10431",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "89cd45fe14251127dfdb9eb9374721bede2541416bdd86c6db0b238fca4c87b6",
+      "capillary_fraction": 0.432165425900277,
+      "large_fraction": 0.060757877423822715,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10432",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "81de07875ace59fabf47443b6565899579eacd71a075dd2e3b60486295b27a30",
+      "capillary_fraction": 0.34977709487534625,
+      "large_fraction": 0.060487361495844875,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10434",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "db4a08293bc546a2a9ab82a121aa205f4ab56c961d332b55f478c25de3f71056",
+      "capillary_fraction": 0.44543152700831024,
+      "large_fraction": 0.08472558864265928,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10435",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5cd117fb89b2ba97ade628eb6fd0836b86bf84bddd7f53a6e4dc1f2d23ea85d7",
+      "capillary_fraction": 0.4460915858725762,
+      "large_fraction": 0.0666443040166205,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10436",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a229184a0781c75aa9d9b8ab36dc9e53b2201083295b2fe7c6f42a9405828970",
+      "capillary_fraction": 0.2551614439058172,
+      "large_fraction": 0.06955505540166206,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10437",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "668939e136b782229529c5599c75c95d766a51a90cc58c6510d8b2ae356af9e1",
+      "capillary_fraction": 0.4164538608033241,
+      "large_fraction": 0.08629458102493075,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10438",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "77419315480af3fde9ed9bd5b657cf0e23364346072cf9060338756ac7c3c01d",
+      "capillary_fraction": 0.45928194252077564,
+      "large_fraction": 0.06360370498614959,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10439",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "2468556a9139af215e5f947895ac923a68dd8b89235b900c21a83ca4770725c5",
+      "capillary_fraction": 0.296398891966759,
+      "large_fraction": 0.06498874653739613,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10440",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a3d75c7afc6f4a5313cadfb567cb7f1987c840b568dd761283ff82f0ebbc72ac",
+      "capillary_fraction": 0.42552155470914127,
+      "large_fraction": 0.061753376038781164,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10441",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "64e8383bda3cdb76f01ea3f0ac881065f8006f875b81e307ad0add51d0c65fb0",
+      "capillary_fraction": 0.4819836391966759,
+      "large_fraction": 0.07651272506925208,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10442",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "944125a71ac62ba026dcad7143f16c84ea0327d28fe025c04973bf7505458929",
+      "capillary_fraction": 0.4637400450138504,
+      "large_fraction": 0.06358206371191136,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10443",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "a33332f5b1794c198df78069b1f61072f328e8879fdce7456988f476fe63ec54",
+      "capillary_fraction": 0.4359201869806094,
+      "large_fraction": 0.06986885387811634,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10444",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c9152f2f3c060202cca9ada5c85c1a94549ea2a263d5610c96dd995e80c5c67d",
+      "capillary_fraction": 0.43896078601108035,
+      "large_fraction": 0.07709703947368421,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10445",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "8520cfa22ccfedd7b9ab7f302d93182d04b2f7bee3337488f09f82dd12a332cc",
+      "capillary_fraction": 0.4207604743767313,
+      "large_fraction": 0.055585612880886426,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10447",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "01a4819542a71000c5882149c24a3cbcf1731e67e2d0b84fb7c3b9d910e8de8f",
+      "capillary_fraction": 0.3297264542936288,
+      "large_fraction": 0.0588318040166205,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10449",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "285722e7e8dbc3724c40784d6a714e8d7b92ca73aaee9c80949c68e0705944f2",
+      "capillary_fraction": 0.4194078947368421,
+      "large_fraction": 0.05105176592797784,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10450",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "cfda5916733e6ba95a15f0b67c8ffcc14f54cb4f3764389a4276162f123fccca",
+      "capillary_fraction": 0.4529410491689751,
+      "large_fraction": 0.043975069252077566,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10451",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "16158c9bbf7b97216815345a4b13d6fbc1e2322fa9815f041cf2f9e76e601c15",
+      "capillary_fraction": 0.44916464681440443,
+      "large_fraction": 0.06468576869806095,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10452",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "fc4954a79ee48f80650c3049d5a1e88b40d6e0bb0bce10667ea097fcc2207e9d",
+      "capillary_fraction": 0.42290296052631576,
+      "large_fraction": 0.0699987015235457,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10453",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "c18f37b1ac3ec125a61228146e013f431f3fb4ded1f084dc3480f9eb81d147ec",
+      "capillary_fraction": 0.42225372229916897,
+      "large_fraction": 0.07545230263157894,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10455",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "15b11a6ecb06404eee0239baedd04cfeeea413f64df94b9b6adf6f9c1c626e0f",
+      "capillary_fraction": 0.42416897506925205,
+      "large_fraction": 0.06587603878116344,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10456",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d2acafad4443a5b16f18e124b73a794af2b1301da33bd1f90226883c9c767585",
+      "capillary_fraction": 0.4400428497229917,
+      "large_fraction": 0.07777873961218837,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10457",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "9750cd92aec5b8702094ca1a82ca0b1dedd99868f349c92ed4074d14f8efc6f3",
+      "capillary_fraction": 0.4084357686980609,
+      "large_fraction": 0.05384349030470914,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10458",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ab0f2267ad4f4513eeb256d8fdb2a9fae89c3f9024926371ad84a96d704d8782",
+      "capillary_fraction": 0.3819252077562327,
+      "large_fraction": 0.04940702908587258,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10459",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "6924ea8648a3ae622c7f1c3f0451da178e456f617081356eff34f5b017ac5bee",
+      "capillary_fraction": 0.41245022506925205,
+      "large_fraction": 0.06420966066481995,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10461",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "96ee65d83635a527ca45bce154f3388ea6dda57f51c7ff11ac134bee9cd4de42",
+      "capillary_fraction": 0.46074272853185594,
+      "large_fraction": 0.07790858725761773,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10462",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "2dd9db49973e2034996bf9fd5080d92b10c712aaea523b7da59606d554686daf",
+      "capillary_fraction": 0.4250670879501385,
+      "large_fraction": 0.06956587603878116,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10463",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e4700819683ba1e43fdeedefa07fe564cd4d0b0c5b7544b9a47e390587ecb8bf",
+      "capillary_fraction": 0.42540252770083103,
+      "large_fraction": 0.055087863573407204,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10464",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d8200ab34fa69903c64df64a74c4a2044774dbea2631a3458e9e4cedb423e707",
+      "capillary_fraction": 0.31822411703601106,
+      "large_fraction": 0.0566027527700831,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10465",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b18d9c70db9ed60a1a73ae9c4e155c486a582c8a5b1e1ec1ede27919e5227a0f",
+      "capillary_fraction": 0.4723424515235457,
+      "large_fraction": 0.07440270083102493,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10466",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "228f1df1a95ea687ca98852c63293bc232f7b6b9e5c7bfa6f9bfe03b108ea5ce",
+      "capillary_fraction": 0.4478553497229917,
+      "large_fraction": 0.08403306786703602,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10468",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d816f0d65623b3aac2548045abdac2b4a653185560e83b72c051a8908599fc7a",
+      "capillary_fraction": 0.4448580332409972,
+      "large_fraction": 0.06338729224376731,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10469",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e3c29a6e3a2db44bcfd710f86271e42ae5b0ba8f61aa8f51a9d0152cec556eb8",
+      "capillary_fraction": 0.4422177977839335,
+      "large_fraction": 0.06416637811634349,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10470",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d5f613584a12431d3c440156b2c25c662502a352b70bdedff54d0680c02d6c2c",
+      "capillary_fraction": 0.3974744632963989,
+      "large_fraction": 0.07412136426592798,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10471",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "f56d1491680e22103238c6ac9022c278a2dea6dbe7c5c3fdb4c206207fb38545",
+      "capillary_fraction": 0.42979570637119113,
+      "large_fraction": 0.06944684903047091,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10473",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "8b518779fbd5c949e2afa8541d6fa4bea4b6cbba38512b392baf0f458599c1f0",
+      "capillary_fraction": 0.4293953427977839,
+      "large_fraction": 0.07126471606648199,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10474",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "f32ec17ad80dded74f9bcd00bcd5355464bc7fac7737c453cf82fcc24b8df640",
+      "capillary_fraction": 0.4453341412742382,
+      "large_fraction": 0.0525341932132964,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10477",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "9c8e758e4cc3840e721d909c8e30f06e52ad083bdfe6a735cf1898df89c46319",
+      "capillary_fraction": 0.42990391274238227,
+      "large_fraction": 0.062088815789473686,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10478",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ec5f9f6dcb5dfc160d21a00a3f3990809b20b68888339a0a05a6ca8110625c57",
+      "capillary_fraction": 0.46368594182825484,
+      "large_fraction": 0.06344139542936288,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10479",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e882abf6ad909fa16287008722ac67f2d72796b553820bcdd5095db7f0822365",
+      "capillary_fraction": 0.3801181613573407,
+      "large_fraction": 0.06105003462603878,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10480",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "792de5df0ac951ddaaed53f0eab884a85900c151c655082fd577a3cfdc791c5b",
+      "capillary_fraction": 0.41276402354570635,
+      "large_fraction": 0.06348467797783934,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10481",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "7be9a46b50930164e138b9c0965ba2474d2ded5566a8b37334be33ba23d49d42",
+      "capillary_fraction": 0.3588123268698061,
+      "large_fraction": 0.06238097299168975,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10482",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "062ae7104f2619bde39b7032601004ea9303c91988f030507030f8f73421b841",
+      "capillary_fraction": 0.4196892313019391,
+      "large_fraction": 0.06638460872576177,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10483",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "fd04d6db6a40cb95a647d7558b12cea7b7e1747158594201348023cef2251bdb",
+      "capillary_fraction": 0.37072584833795014,
+      "large_fraction": 0.04713469529085872,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10485",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "1f541256ee2645f3c279414b5e686c2386ff52591e28b67ce4c54a8b7449c43e",
+      "capillary_fraction": 0.47977622922437674,
+      "large_fraction": 0.0646533067867036,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10486",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ea82af0b2dea68d5742d4f88d538526f2fecad4a976fb554024ed25d808039f8",
+      "capillary_fraction": 0.4279886599722992,
+      "large_fraction": 0.05599679709141274,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10487",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "d711cb20fd3befcf1991f8b6010201eb49a807893c39100e0d207d46bd083f00",
+      "capillary_fraction": 0.46399974030470914,
+      "large_fraction": 0.07715114265927978,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10488",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b91c623bd84b4c932f01338d25fa46db3fb7e1dfae24e53db0780d2fee671a59",
+      "capillary_fraction": 0.4045619806094183,
+      "large_fraction": 0.06127726800554017,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10489",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "b0e296ce66bef7c32a1c3b8ec30f417600d750b45c18d6229d827fe0253654dc",
+      "capillary_fraction": 0.330981648199446,
+      "large_fraction": 0.06442607340720222,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10490",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "282bc3d75ef6da52bcce772574c86d83ac8a8c57c0a89c20a63be8af2f8ce853",
+      "capillary_fraction": 0.4339941135734072,
+      "large_fraction": 0.0728553497229917,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10491",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "ab4aff7eedf264495b2e979306149c698d6ded586e5721faed21ed674ca2f816",
+      "capillary_fraction": 0.4650168801939058,
+      "large_fraction": 0.07650190443213296,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10492",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "6d956d2a9eb3b5796c5c5f23e7e4b7690c76d2a280a911da34626d030fcda975",
+      "capillary_fraction": 0.4497056786703601,
+      "large_fraction": 0.08244243421052631,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10493",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "68b099ec69c46c3f989d82a5d1b663afdc15692e7e776068c3898e240df29b2b",
+      "capillary_fraction": 0.4592061980609418,
+      "large_fraction": 0.06366862880886427,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10495",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "e274911994a825af78122592d669aa9aa3cf8deda4f8cfa1e09ebf642d8b9f54",
+      "capillary_fraction": 0.39761513157894735,
+      "large_fraction": 0.07343966412742382,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10496",
+      "split": "train",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "5084b5a9a153df58cbb64cf6063a89a225633dd306abbd5cb85e0a411c3b91f0",
+      "capillary_fraction": 0.4484072022160665,
+      "large_fraction": 0.073742641966759,
+      "large_covered": 1.0
+    },
+    {
+      "case_id": "10500",
+      "split": "validation",
+      "shape": [
+        304,
+        304
+      ],
+      "capillary_sha256": "188741d53988b4ef23d23dfac91e0f16d8f0b3689c58f23d13e45ecd5548cc47",
+      "capillary_fraction": 0.43602839335180055,
+      "large_fraction": 0.07306094182825484,
+      "large_covered": 1.0
+    }
+  ]
+}

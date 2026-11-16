@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "time": "2026-11-16T21:23:26.978913+08:00",
+  "source_sha256_verified": 846,
+  "epoch_counts": [
+    {
+      "experiment": "exp059",
+      "committed_epochs": 300,
+      "updates": 42000
+    },
+    {
+      "experiment": "exp035",
+      "committed_epochs": 200,
+      "updates": 28000
+    },
+    {
+      "experiment": "exp018",
+      "committed_epochs": 200,
+      "updates": 40000
+    },
+    {
+      "experiment": "exp148",
+      "committed_epochs": 200,
+      "updates": 40000
+    },
+    {
+      "experiment": "exp154",
+      "committed_epochs": 240,
+      "updates": 33600
+    },
+    {
+      "experiment": "exp155",
+      "committed_epochs": 240,
+      "updates": 33600
+    },
+    {
+      "experiment": "exp163",
+      "committed_epochs": 200,
+      "updates": 40000
+    },
+    {
+      "experiment": "exp164",
+      "committed_epochs": 200,
+      "updates": 40000
+    },
+    {
+      "experiment": "exp040",
+      "committed_epochs": 200,
+      "updates": 28000
+    }
+  ],
+  "validation_records": 236,
+  "standard_metric_values": 5532,
+  "patient_metric_values": 55320,
+  "fixed_validation_patients": [
+    "10302",
+    "10319",
+    "10338",
+    "10357",
+    "10396",
+    "10422",
+    "10447",
+    "10456",
+    "10495",
+    "10500"
+  ],
+  "original_best_selection_verified": 9,
+  "patient_macro_reaggregation_verified": true,
+  "actual_learning_rate_semantics_verified": true,
+  "new_inference": 0,
+  "test_data_used": false
+}

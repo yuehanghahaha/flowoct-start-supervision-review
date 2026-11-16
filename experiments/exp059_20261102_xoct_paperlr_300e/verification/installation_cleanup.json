@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-02T22:54:28.759156+08:00",
+  "removed": [
+    {
+      "directory": "runs/wheelhouse",
+      "bytes_removed": 3404153381
+    },
+    {
+      "directory": "runs/install_tmp",
+      "bytes_removed": 2263553214
+    }
+  ],
+  "preserved": [
+    "environment",
+    "source",
+    "provenance",
+    "data",
+    "weights",
+    "verification",
+    "logs"
+  ],
+  "formal_checkpoints_removed": false,
+  "archives_created": false
+}

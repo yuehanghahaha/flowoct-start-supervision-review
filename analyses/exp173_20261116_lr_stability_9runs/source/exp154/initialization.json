@@ -1,0 +1,20 @@
+{
+  "parent_initial_sha256": "75d2ee7aa8f8fac2dfebae541d0d1f2b7c74917bb0537077cfc3c5f35d8976d9",
+  "parent_epoch": 0,
+  "reused_random_initialization": [
+    "2D feature heads",
+    "D_3d",
+    "D_ilm_opl",
+    "D_opl_bm",
+    "D_other"
+  ],
+  "trained_weights_loaded": false,
+  "adam_states_empty": true,
+  "network_tensor_sha256": {
+    "G": "311cac5ea091224b93523576b099c85e978f6aae971aef32a9379aaabb5b4ad4",
+    "D_3d": "f4a30e69c609fbc9ef3b467e00b2a6b65e3f58431e5902d7c7f1c81d1616f578",
+    "D_ilm_opl": "053bd597deb010276636ff467a74a651a34a92779f7b4597fc3c72ff96b12b06",
+    "D_opl_bm": "607ed6272beb260b616f42b2a4226b190e9b70179fc42d871339ac7b06053643",
+    "D_other": "511b093008ca04514a4d2f52eed30daf364aa39d297e9ddfb094654fa1914473"
+  }
+}

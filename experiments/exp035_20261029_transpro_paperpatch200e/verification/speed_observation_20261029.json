@@ -1,0 +1,108 @@
+{
+  "observed_at_utc": "2026-10-29 08:23:06 UTC",
+  "experiment": "exp035_20261029_transpro_paperpatch200e",
+  "current_status": {
+    "state": "training",
+    "epoch": 48,
+    "completed_epoch": 47,
+    "epochs": 200,
+    "best": {
+      "path": "checkpoints/author_log/transpro_3M/best_net_G.pth",
+      "epoch": 42,
+      "MAE_author_minus1_plus1": 0.02545227762311697,
+      "sha256": "93f638a427cff858b4d6d24cf16596ce3630201eda31161615af761fe6664c8e",
+      "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+    },
+    "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+  },
+  "current_runtime": {
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "float_tensor_dtype": "torch.float32",
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "amp": false,
+    "gradient_scaling": false,
+    "precision_policy": "author_and_framework_defaults"
+  },
+  "current_gpu": "name, memory.total [MiB], memory.used [MiB], utilization.gpu [%], power.draw [W]\nNVIDIA A800 80GB PCIe, 81920 MiB, 15167 MiB, 93 %, 344.35 W\n",
+  "completed_epochs": 47,
+  "recent_eight_epochs": [
+    {
+      "epoch": 40,
+      "training_seconds": 41.39890171296429,
+      "validation_seconds": 2.4789959689369425,
+      "total_seconds": 62.74379980401136,
+      "saving_and_other_seconds": 18.86590212211013
+    },
+    {
+      "epoch": 41,
+      "training_seconds": 41.476560253999196,
+      "validation_seconds": 2.5053484690142795,
+      "total_seconds": 43.98241601290647,
+      "saving_and_other_seconds": 0.0005072898929938674
+    },
+    {
+      "epoch": 42,
+      "training_seconds": 65.67387871607207,
+      "validation_seconds": 6.868107118993066,
+      "total_seconds": 79.03176052903291,
+      "saving_and_other_seconds": 6.4897746939677745
+    },
+    {
+      "epoch": 43,
+      "training_seconds": 56.01043548504822,
+      "validation_seconds": 3.767851824988611,
+      "total_seconds": 59.7787639060989,
+      "saving_and_other_seconds": 0.0004765960620716214
+    },
+    {
+      "epoch": 44,
+      "training_seconds": 42.55980654398445,
+      "validation_seconds": 2.4694716109661385,
+      "total_seconds": 45.02957214601338,
+      "saving_and_other_seconds": 0.0002939910627901554
+    },
+    {
+      "epoch": 45,
+      "training_seconds": 41.1290007380303,
+      "validation_seconds": 2.6093291259603575,
+      "total_seconds": 64.59199598897249,
+      "saving_and_other_seconds": 20.853666124981828
+    },
+    {
+      "epoch": 46,
+      "training_seconds": 41.383788984967396,
+      "validation_seconds": 2.4689396009780467,
+      "total_seconds": 43.85324794589542,
+      "saving_and_other_seconds": 0.0005193599499762058
+    },
+    {
+      "epoch": 47,
+      "training_seconds": 40.97030180890579,
+      "validation_seconds": 2.40273793193046,
+      "total_seconds": 43.37331663200166,
+      "saving_and_other_seconds": 0.00027689116541296244
+    }
+  ],
+  "recent_eight_mean_seconds": {
+    "training": 46.32533428049646,
+    "validation": 3.1963477064709878,
+    "total": 55.29810912061657
+  },
+  "comparison_target": "Earlier assistant-delivered exp026/exp028 on A100",
+  "historical_A100_stage_timings_available": false,
+  "causes_supported_by_code_comparison": [
+    "cuDNN TF32 allowed now vs explicitly disabled before",
+    "author benchmark=True and deterministic=False vs earlier restrictions",
+    "4 DataLoader workers vs earlier serial loading",
+    "no per-parameter gradient scans",
+    "single-crop MAE validation vs full-field 4-window eight-metric validation",
+    "large resumable state at epoch1/every5 rather than every epoch"
+  ],
+  "causal_factor_contributions_measured": false,
+  "source_or_configuration_modified": false,
+  "formal_training_interrupted": false
+}

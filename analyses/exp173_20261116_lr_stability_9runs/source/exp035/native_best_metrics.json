@@ -1,0 +1,150 @@
+{
+  "patient_mean": {
+    "MAE": 0.014183726820938363,
+    "PSNR": 28.767764130878373,
+    "SSIM": 83.77289707959278,
+    "MAE-V": 0.05387632338497943,
+    "PSNR-V": 21.604871666469755,
+    "SSIM-V": 88.47990213965521,
+    "VDE": 0.0160827129501385,
+    "VDC": 77.43020267224162
+  },
+  "valid_patients": {
+    "MAE": 10,
+    "PSNR": 10,
+    "SSIM": 10,
+    "MAE-V": 10,
+    "PSNR-V": 10,
+    "SSIM-V": 10,
+    "VDE": 10,
+    "VDC": 10
+  },
+  "patients": 10,
+  "undefined_note": "Constant density arrays produce undefined VDC; these cases and counts are reported, not replaced with zero.",
+  "split": "validation",
+  "epoch": 194,
+  "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a",
+  "checkpoint_sha256": "b7c2dd4d0f039954f8732b067972785a71c89a4a4dc1897a1e1efc34664a6142",
+  "complete_float_predictions_saved": true,
+  "frozen_test": false,
+  "strict_author_equivalence_verified": false,
+  "operational_settings": {
+    "experiment_id": "exp035_20261029_transpro_paperpatch200e",
+    "parent_experiment": "exp033_20261028_transpro_author200e",
+    "fov": "3M",
+    "epochs": 200,
+    "batch_size": 1,
+    "ngf": 64,
+    "ndf": 64,
+    "crop_yzx": [
+      256,
+      256,
+      256
+    ],
+    "full_shape_zyx": [
+      256,
+      304,
+      304
+    ],
+    "optimizer": "Adam",
+    "learning_rate": 0.0002,
+    "betas": [
+      0.5,
+      0.999
+    ],
+    "weight_decay": 0.0,
+    "loss_weights": {
+      "volume": 10.0,
+      "projection": 10.0,
+      "vpg": 5.0,
+      "hcg": 5.0
+    },
+    "gan_objective": "paper_logarithmic_minimax_keep_author_D_half",
+    "vpg_representation": "paper_raw_logits",
+    "projection": "mean_depth_then_minmax_as_official_code",
+    "teachers_eval_frozen": false,
+    "amp": false,
+    "gradient_scaling": false,
+    "tf32": "author_framework_defaults",
+    "dtype": "float32",
+    "seed": 20,
+    "validation_every": 1,
+    "checkpoint_selection": "official_random_crop_MAE_minus1_plus1_G_in_training_mode",
+    "checkpoint_every": 5,
+    "lr_schedule": "released_train3d_and_LambdaLR_call_timing_unchanged",
+    "full_inference": "four_256_cubes_cover_304x304_view_with_uniform_overlap_average",
+    "training_normalization": "independent_minmax_after_paired_crop_to_minus1_plus1",
+    "volume_evaluation": "predicted_tanh_mapped_to_unit_range_vs_full_GT_minmax_unit_range",
+    "projection_evaluation": "independent_minmax_of_depth_mean_to_unit_range_as_source",
+    "metric_data_range": 1.0,
+    "ssim": {
+      "win_size": 11,
+      "gaussian_weights": true,
+      "sigma": 1.5,
+      "use_sample_covariance": false,
+      "K1": 0.01,
+      "K2": 0.03
+    },
+    "vessel_mask_source": "OCTA500_GT_Capillary",
+    "mask_image_orientation": "XY",
+    "background_gamma": 0.1,
+    "vdc_patch": 16,
+    "metric_aggregation": "Bscan_mean_within_patient_then_equal_patient_mean",
+    "save_full_predictions": "final_best_validation_and_frozen_test",
+    "run_test_automatically": false,
+    "torch_threads": "framework_default",
+    "reference": {
+      "paper_url": "https://arxiv.org/html/2303.06807v2",
+      "repository_commit": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+      "paper_table3M": {
+        "MAE": 0.0782,
+        "PSNR": 32.56,
+        "SSIM": 88.22,
+        "MAE-V": 0.0658,
+        "PSNR-V": 20.42,
+        "SSIM-V": 91.79,
+        "VDE": 0.1304,
+        "VDC": 74.41
+      },
+      "not_claimed_author_exact": [
+        "three_explicit_paper_loss_patches",
+        "cached_depth_interpolation_and_input_identity",
+        "original_torch_version_unknown",
+        "headless_visualization_only",
+        "extended_resume_checkpoint_including_teacher_buffers",
+        "final_report_full_view_tiling",
+        "metric_data_range_and_SSIM_options",
+        "public_capillary_mask_identity",
+        "teacher_patient_provenance"
+      ]
+    },
+    "best_retention": "Original author best/latest/numbered .pth files; extra resumable checkpoint at epoch1 and every5",
+    "retention_basis": "Keep released checkpoint triggers and implementation; no intermediate full 3D prediction retention",
+    "validation_metrics": "MAE_only_on_author_256_crop",
+    "num_workers": 4,
+    "precision_policy": "float32_tensors_no_AMP_or_scaling; leave_TF32_and_cuDNN_to_author_framework_defaults",
+    "sample_seed_policy": "released_code_default; no new seed or deterministic constraints",
+    "server_paths": {
+      "cache": "/docsystem/niuke/lvyuehang/OCTA500_research_cache_3M_z256_v1",
+      "manifest": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/split_3M_z256.csv",
+      "data_dir": "/docsystem/niuke/lvyuehang/OCTA500_common_v1",
+      "labels_root": "annotations"
+    },
+    "server": {
+      "ssh_host": "eias-member.eitech.edu.cn",
+      "ssh_port": 42060,
+      "user": "root",
+      "observed_gpu": "NVIDIA A800 80GB PCIe",
+      "python": "/docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python",
+      "remote_experiment": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp035_20261029_transpro_paperpatch200e"
+    }
+  },
+  "author_selection": {
+    "path": "checkpoints/author_log/transpro_3M/best_net_G.pth",
+    "epoch": 194,
+    "MAE_author_minus1_plus1": 0.023479321040213108,
+    "sha256": "b7c2dd4d0f039954f8732b067972785a71c89a4a4dc1897a1e1efc34664a6142",
+    "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+  },
+  "formal_metrics_differ_from_random_crop_training_validation": true
+}

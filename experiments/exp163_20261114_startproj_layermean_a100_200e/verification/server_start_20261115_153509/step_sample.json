@@ -1,0 +1,138 @@
+{
+  "first": [
+    {
+      "epoch": 1,
+      "step": 1,
+      "update": 1,
+      "case_id": "10431",
+      "patient_id": "10431",
+      "geometry": {
+        "time": 0.0,
+        "origin_ZYX": [
+          0,
+          237,
+          118
+        ]
+      },
+      "loss": 0.7333933115005493,
+      "gradient_norm": 51.70473861694336,
+      "time": 0.0,
+      "exact_start": 1.0,
+      "fm": 0.3538918197154999,
+      "weighted_fm": 0.3538918197154999,
+      "projection_max_ilm_opl": 1.081906795501709,
+      "weighted_projection_max_ilm_opl": 0.1081906795501709,
+      "projection_mean_ilm_opl": 0.6026290655136108,
+      "weighted_projection_mean_ilm_opl": 0.06026290655136109,
+      "projection_mean_opl_bm": 1.2365972995758057,
+      "weighted_projection_mean_opl_bm": 0.12365972995758057,
+      "projection_mean_ilm_bm": 0.8738813996315002,
+      "weighted_projection_mean_ilm_bm": 0.08738813996315004,
+      "projection_max_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_opl_bm_valid_rays": 4096.0,
+      "projection_mean_ilm_bm_valid_rays": 4096.0
+    },
+    {
+      "epoch": 1,
+      "step": 2,
+      "update": 2,
+      "case_id": "10303",
+      "patient_id": "10303",
+      "geometry": {
+        "time": 0.18438977003097534,
+        "origin_ZYX": [
+          0,
+          3,
+          167
+        ]
+      },
+      "loss": 0.21115706861019135,
+      "gradient_norm": 19.532955169677734,
+      "time": 0.18438977003097534,
+      "exact_start": 0.0,
+      "fm": 0.21115706861019135,
+      "weighted_fm": 0.21115706861019135,
+      "projection_max_ilm_opl": -0.0,
+      "weighted_projection_max_ilm_opl": -0.0,
+      "projection_mean_ilm_opl": -0.0,
+      "weighted_projection_mean_ilm_opl": -0.0,
+      "projection_mean_opl_bm": -0.0,
+      "weighted_projection_mean_opl_bm": -0.0,
+      "projection_mean_ilm_bm": -0.0,
+      "weighted_projection_mean_ilm_bm": -0.0,
+      "projection_max_ilm_opl_valid_rays": 0.0,
+      "projection_mean_ilm_opl_valid_rays": 0.0,
+      "projection_mean_opl_bm_valid_rays": 0.0,
+      "projection_mean_ilm_bm_valid_rays": 0.0
+    }
+  ],
+  "last": [
+    {
+      "epoch": 5,
+      "step": 199,
+      "update": 999,
+      "case_id": "10313",
+      "patient_id": "10313",
+      "geometry": {
+        "time": 0.0,
+        "origin_ZYX": [
+          0,
+          126,
+          192
+        ]
+      },
+      "loss": 0.02653968334197998,
+      "gradient_norm": 3.2147512435913086,
+      "time": 0.0,
+      "exact_start": 1.0,
+      "fm": 0.0027434146031737328,
+      "weighted_fm": 0.0027434146031737328,
+      "projection_max_ilm_opl": 0.0815746858716011,
+      "weighted_projection_max_ilm_opl": 0.008157468587160112,
+      "projection_mean_ilm_opl": 0.05096447840332985,
+      "weighted_projection_mean_ilm_opl": 0.005096447840332985,
+      "projection_mean_opl_bm": 0.05510395020246506,
+      "weighted_projection_mean_opl_bm": 0.005510395020246506,
+      "projection_mean_ilm_bm": 0.05031955987215042,
+      "weighted_projection_mean_ilm_bm": 0.005031955987215043,
+      "projection_max_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_opl_bm_valid_rays": 4096.0,
+      "projection_mean_ilm_bm_valid_rays": 4096.0
+    },
+    {
+      "epoch": 5,
+      "step": 200,
+      "update": 1000,
+      "case_id": "10368",
+      "patient_id": "10368",
+      "geometry": {
+        "time": 0.0,
+        "origin_ZYX": [
+          0,
+          107,
+          119
+        ]
+      },
+      "loss": 0.014326941221952438,
+      "gradient_norm": 0.888992190361023,
+      "time": 0.0,
+      "exact_start": 1.0,
+      "fm": 0.0020497662480920553,
+      "weighted_fm": 0.0020497662480920553,
+      "projection_max_ilm_opl": 0.05448327213525772,
+      "weighted_projection_max_ilm_opl": 0.005448327213525773,
+      "projection_mean_ilm_opl": 0.026157237589359283,
+      "weighted_projection_mean_ilm_opl": 0.0026157237589359283,
+      "projection_mean_opl_bm": 0.022418640553951263,
+      "weighted_projection_mean_opl_bm": 0.0022418640553951265,
+      "projection_mean_ilm_bm": 0.019712595269083977,
+      "weighted_projection_mean_ilm_bm": 0.001971259526908398,
+      "projection_max_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_ilm_opl_valid_rays": 4096.0,
+      "projection_mean_opl_bm_valid_rays": 4096.0,
+      "projection_mean_ilm_bm_valid_rays": 4096.0
+    }
+  ]
+}

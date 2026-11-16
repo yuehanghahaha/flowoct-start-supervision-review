@@ -1,0 +1,22 @@
+{
+  "python": "/docsystem/niuke/lvyuehang/conda_envs/lyh_flowoct/bin/python",
+  "python_version": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1",
+    "numpy": "1.26.4",
+    "Pillow": "12.3.0",
+    "scipy": "1.15.3",
+    "scikit-image": "0.25.2",
+    "matplotlib": "3.10.1",
+    "torchio": "0.20.4",
+    "torchsummary": "1.5.1",
+    "dominate": "2.9.1"
+  },
+  "source_configuration_identity": "c430c11e19cb462bc38f5870872807a1a4f9f7686d6835699537ff5849103c69",
+  "tmux": "/usr/bin/tmux",
+  "experiment_filesystem": "Filesystem      Size  Used Avail Use% Mounted on\nhpc             2.1P  1.9P  198T  91% /docsystem/niuke\n",
+  "formal_training_complete_record_exists": false,
+  "train_console_exists": false,
+  "check_status": "passed"
+}

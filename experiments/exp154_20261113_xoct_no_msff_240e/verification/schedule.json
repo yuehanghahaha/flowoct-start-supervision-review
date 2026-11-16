@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "epochs": 240,
+  "steps": 33600,
+  "same_parent_case_order_verified": 33600,
+  "crop_origins_replayed_from_original_worker_rng": true,
+  "parent_logged_origins": false,
+  "parent_initial_sha256": "75d2ee7aa8f8fac2dfebae541d0d1f2b7c74917bb0537077cfc3c5f35d8976d9",
+  "schedule_sha256": "89395b4360d05153e51df05eaf421feef0a4f3a8b992f63b150bb4996972c1b6",
+  "patient_volumes_opened": false
+}

@@ -1,0 +1,9 @@
+test_budget_is_bounded_even_if_every_epoch_improves (__main__.RetentionTests) ... ok
+test_interrupted_index_commit_preserves_selected_best (__main__.RetentionTests) ... ok
+test_training_science_unchanged (__main__.RetentionTests) ... ok
+test_two_slots_and_completed_epoch_recovery (__main__.RetentionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.039s
+
+OK

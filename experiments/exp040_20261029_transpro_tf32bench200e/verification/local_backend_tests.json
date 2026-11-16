@@ -1,0 +1,7 @@
+{
+  "tests": 3,
+  "success": true,
+  "CPU_only": true,
+  "GPU_benchmark_executed": false,
+  "patient_arrays_opened": false
+}

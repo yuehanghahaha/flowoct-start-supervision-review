@@ -1,0 +1,47 @@
+[
+  {
+    "experiment": "exp059",
+    "original_best_epoch": 213,
+    "original_selection_value": 0.48410716557441535
+  },
+  {
+    "experiment": "exp018",
+    "original_best_epoch": 170,
+    "original_selection_value": 0.49249447142360614
+  },
+  {
+    "experiment": "exp148",
+    "original_best_epoch": 130,
+    "original_selection_value": 0.4187355217369591
+  },
+  {
+    "experiment": "exp154",
+    "original_best_epoch": 180,
+    "original_selection_value": 0.49077878901706545
+  },
+  {
+    "experiment": "exp155",
+    "original_best_epoch": 180,
+    "original_selection_value": 0.5092909021305492
+  },
+  {
+    "experiment": "exp163",
+    "original_best_epoch": 190,
+    "original_selection_value": 0.6474904034815101
+  },
+  {
+    "experiment": "exp164",
+    "original_best_epoch": 150,
+    "original_selection_value": 0.44677546990681477
+  },
+  {
+    "experiment": "exp035",
+    "original_best_epoch": 194,
+    "original_selection_value": 0.023479321040213108
+  },
+  {
+    "experiment": "exp040",
+    "original_best_epoch": 83,
+    "original_selection_value": 0.01335679400220397
+  }
+]

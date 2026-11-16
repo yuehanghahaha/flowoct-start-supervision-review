@@ -1,0 +1,20 @@
+[
+  {
+    "package": "torch",
+    "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.7.0%2Bcu126-cp311-cp311-manylinux_2_28_x86_64.whl#sha256=f809911c9a3b2933ac3acc3a446a208292758dba0412a92dff953d03df415137",
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/runs/wheelhouse/torch-2.7.0+cu126-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "sha256": "f809911c9a3b2933ac3acc3a446a208292758dba0412a92dff953d03df415137"
+  },
+  {
+    "package": "torchvision",
+    "url": "https://download-r2.pytorch.org/whl/cu126/torchvision-0.22.0%2Bcu126-cp311-cp311-manylinux_2_28_x86_64.whl#sha256=57ce909127bdb5643e15da9433527f61bce82cf722ae721d2f7726f89f70e2b7",
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/runs/wheelhouse/torchvision-0.22.0+cu126-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "sha256": "57ce909127bdb5643e15da9433527f61bce82cf722ae721d2f7726f89f70e2b7"
+  },
+  {
+    "package": "torchaudio",
+    "url": "https://download-r2.pytorch.org/whl/cu126/torchaudio-2.7.0%2Bcu126-cp311-cp311-manylinux_2_28_x86_64.whl#sha256=eb39b716d905ef23c0c3199d1266d7d711197c1d6275bd2cd034584169d20cd0",
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp059_20261102_xoct_paperlr_300e/runs/wheelhouse/torchaudio-2.7.0+cu126-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "sha256": "eb39b716d905ef23c0c3199d1266d7d711197c1d6275bd2cd034584169d20cd0"
+  }
+]

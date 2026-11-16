@@ -1,0 +1,22 @@
+{
+  "epochs": 200,
+  "updates": 40000,
+  "best": {
+    "epoch": 190,
+    "metric": "selection_projection_ssim",
+    "value": 0.64749040348151,
+    "report": "reports/validation/epoch_0190_64e40fd733c0",
+    "model_tensor_sha256": "64e40fd733c0c3be100990c1ff6bfe39ce5ab6c1d402133d7754afebd964f8a0",
+    "archive": "best_epoch_0190_64e40fd733c0.pt"
+  },
+  "reference_best": {
+    "epoch": 185,
+    "metric": "reference_volume_psnr",
+    "value": 30.16087002431625,
+    "report": "reports/validation/epoch_0185_b83d85dbdb28",
+    "model_tensor_sha256": "b83d85dbdb28c8c6c78998e7522ed954aaca4ace20bddabbe3991a8f179f5a4a",
+    "archive": "reference_best_epoch_0185_b83d85dbdb28.pt"
+  },
+  "time": "2026-11-15T21:32:24.975290+08:00",
+  "test_started": false
+}

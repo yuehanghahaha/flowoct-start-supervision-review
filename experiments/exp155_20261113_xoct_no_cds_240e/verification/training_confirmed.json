@@ -1,0 +1,47 @@
+{
+  "verified_at": "2026-11-14T00:27:10+08:00",
+  "source_bytes_verified": true,
+  "formal_training_started": true,
+  "tmux": "exp155_xoct_ablation",
+  "pid": 2216539,
+  "observed_updates": 29,
+  "status": {
+    "state": "training",
+    "epoch": 1,
+    "step": 20,
+    "completed_epoch": 0,
+    "steps": 20,
+    "epochs": 240,
+    "pid": 2216539,
+    "time": "2026-11-14T00:26:26+08:00",
+    "best": null
+  },
+  "first_losses": {
+    "G_GAN": 310.2831115722656,
+    "G_L1": 13.184775352478027,
+    "D_real": 16.32111167907715,
+    "D_fake": 8.88908576965332
+  },
+  "last_losses": {
+    "G_GAN": 0.25497159361839294,
+    "G_L1": 0.5260168313980103,
+    "D_real": 0.41151162981987,
+    "D_fake": 0.20908913016319275
+  },
+  "exact_paired_crop_ledger_checked": true,
+  "learning_rate_checked": true,
+  "full_budget_completed": false,
+  "validation_epochs": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240
+  ],
+  "train_peak_reserved_gib_preflight": 34.173828125,
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "test_started": false
+}

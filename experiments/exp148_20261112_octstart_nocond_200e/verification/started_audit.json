@@ -1,0 +1,41 @@
+{
+  "verified_at": "2026-11-12T16:13:58+08:00",
+  "source_upload_checked": true,
+  "source_manifest_sha256": "d898b3854fa21bec81099d566e18213ed25aeb50037399dda1c9f50e6308beb7",
+  "tmux": "exp148_octstart_nocond",
+  "formal_training_started": true,
+  "pid": 2133413,
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "status": {
+    "state": "training",
+    "epoch": 1,
+    "completed_epoch": 0,
+    "updates": 80,
+    "epochs": 200,
+    "best": null,
+    "pid": 2133413,
+    "time": "2026-11-12T16:13:43+08:00",
+    "step": 80
+  },
+  "observed_first_epoch_updates": 99,
+  "first_step": {
+    "epoch": 1,
+    "step": 1,
+    "update": 1,
+    "case_id": "10431",
+    "patient_id": "10431",
+    "origin_ZYX": [
+      0,
+      237,
+      118
+    ],
+    "time": 0.632999062538147,
+    "fm_mse": 0.28722649812698364,
+    "gradient_norm": 24.632850646972656,
+    "velocity_dtype": "torch.bfloat16"
+  },
+  "exp017_sampling_rule_verified": true,
+  "nonfinite_updates_observed": 0,
+  "full_3d_smoke_files_created": false,
+  "test_data_used": false
+}

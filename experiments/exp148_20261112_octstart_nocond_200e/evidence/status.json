@@ -1,0 +1,16 @@
+{
+  "state": "complete",
+  "epoch": 200,
+  "completed_epoch": 200,
+  "updates": 40000,
+  "epochs": 200,
+  "best": {
+    "epoch": 130,
+    "metric": "projection_ilm_opl_ssim",
+    "value": 0.4187355217369591,
+    "report": "reports/validation/epoch_0130_c667e4863aee",
+    "model_tensor_sha256": "c667e4863aee06f674d8ade2f99d9f66c1cf329398c9170e5cbbfbddd91068c0"
+  },
+  "pid": 2133413,
+  "time": "2026-11-13T07:46:11+08:00"
+}

@@ -1,0 +1,14 @@
+{
+  "required_bytes": 207462355196,
+  "phase_bytes": {
+    "atomic_resume": 195091794064,
+    "final_outputs": 196724936956
+  },
+  "margin_bytes": 10737418240,
+  "numbered_epoch_sets": 200,
+  "scope": "Author numbered/best/latest weights, resume and 60 final predictions; first complete run, existing replay attempts excluded",
+  "required_GiB": 193.21437477692962,
+  "trained_model_bytes": 925752484,
+  "teacher_bytes": 341886212,
+  "clinical_data_opened": false
+}

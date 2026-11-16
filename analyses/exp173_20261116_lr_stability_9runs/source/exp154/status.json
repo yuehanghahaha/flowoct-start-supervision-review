@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "epoch": 240,
+  "step": 140,
+  "completed_epoch": 240,
+  "steps": 33600,
+  "epochs": 240,
+  "pid": 2216527,
+  "time": "2026-11-15T03:52:22+08:00",
+  "best": {
+    "epoch": 180,
+    "value": 0.49077878901706545,
+    "metric": "standard_ilm_opl_max_ssim",
+    "report": "reports/validation/epoch_180/metrics.json",
+    "generator_tensor_sha256": "268d15b021dd7c1b1fdbbca59d032695bda5a8a48e3f9eed522b07c6907ed7cb"
+  }
+}

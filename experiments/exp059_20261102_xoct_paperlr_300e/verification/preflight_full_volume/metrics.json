@@ -1,0 +1,176 @@
+{
+  "epoch": 0,
+  "phase": "train",
+  "time": "2026-11-02T22:52:58.987492+08:00",
+  "shape_ZYX": [
+    256,
+    304,
+    304
+  ],
+  "cases": [
+    {
+      "case_id": "10301",
+      "patient_id": "10301",
+      "reference_volume": {
+        "mae": 122.99420166015625,
+        "mse": 17753.01953125,
+        "psnr": 5.638083130217463,
+        "ssim": 0.014234484018308765
+      },
+      "fixed_volume": {
+        "mae": 0.4690017481697972,
+        "mse": 0.258362765274807,
+        "psnr": 5.8777007582118355,
+        "ssim": 0.013967436724363064
+      },
+      "reference_full": {
+        "mae": 181.58277893066406,
+        "mse": 34572.5078125,
+        "psnr": 2.7434942695907245,
+        "ssim": 0.033139967185731936,
+        "perceptual": 0.9648292064666748
+      },
+      "fixed_full": {
+        "mae": 0.7841675078610495,
+        "mse": 0.6179864721018962,
+        "psnr": 2.090210316171307,
+        "ssim": 0.04772401529237834
+      },
+      "reference_mean": {
+        "mae": 161.61170959472656,
+        "mse": 27439.4296875,
+        "psnr": 3.7470529990172485,
+        "ssim": 0.05365877812144977,
+        "perceptual": 0.8868855834007263
+      },
+      "fixed_mean": {
+        "mae": 0.46900171330366336,
+        "mse": 0.22432457997810046,
+        "psnr": 6.491231367832478,
+        "ssim": 0.02646882246392564
+      },
+      "reference_ilm_opl": {
+        "mae": 187.98309326171875,
+        "mse": 36997.51953125,
+        "psnr": 2.4490773289601004,
+        "ssim": 0.029675294379075925,
+        "perceptual": 1.0032445192337036
+      },
+      "fixed_ilm_opl": {
+        "mae": 0.8164212049337858,
+        "mse": 0.6702800914803348,
+        "psnr": 1.737436796804583,
+        "ssim": 0.04959617300037629
+      },
+      "reference_opl_bm": {
+        "mae": 193.56991577148438,
+        "mse": 38610.58984375,
+        "psnr": 2.2637397274526583,
+        "ssim": 0.032902403190255204,
+        "perceptual": 0.8933708667755127
+      },
+      "fixed_opl_bm": {
+        "mae": 0.7464553045748715,
+        "mse": 0.5614192371021137,
+        "psnr": 2.507127102659829,
+        "ssim": 0.04249587245655439
+      },
+      "diagnostic_max_ilm_opl": {
+        "mae": 0.7614701360079055,
+        "mse": 0.5908439963201112,
+        "psnr": 2.285271730494732,
+        "ssim": 0.04631462054714521
+      },
+      "diagnostic_max_opl_bm": {
+        "mae": 0.8134069419933555,
+        "mse": 0.6720982117847639,
+        "psnr": 1.7256726009805328,
+        "ssim": 0.038824806732705136
+      }
+    }
+  ],
+  "patient_macro": {
+    "reference_volume": {
+      "mae": 122.99420166015625,
+      "mse": 17753.01953125,
+      "psnr": 5.638083130217463,
+      "ssim": 0.014234484018308765
+    },
+    "fixed_volume": {
+      "mae": 0.4690017481697972,
+      "mse": 0.258362765274807,
+      "psnr": 5.8777007582118355,
+      "ssim": 0.013967436724363064
+    },
+    "reference_full": {
+      "mae": 181.58277893066406,
+      "mse": 34572.5078125,
+      "perceptual": 0.9648292064666748,
+      "psnr": 2.7434942695907245,
+      "ssim": 0.033139967185731936
+    },
+    "reference_mean": {
+      "mae": 161.61170959472656,
+      "mse": 27439.4296875,
+      "perceptual": 0.8868855834007263,
+      "psnr": 3.7470529990172485,
+      "ssim": 0.05365877812144977
+    },
+    "reference_ilm_opl": {
+      "mae": 187.98309326171875,
+      "mse": 36997.51953125,
+      "perceptual": 1.0032445192337036,
+      "psnr": 2.4490773289601004,
+      "ssim": 0.029675294379075925
+    },
+    "reference_opl_bm": {
+      "mae": 193.56991577148438,
+      "mse": 38610.58984375,
+      "perceptual": 0.8933708667755127,
+      "psnr": 2.2637397274526583,
+      "ssim": 0.032902403190255204
+    },
+    "fixed_full": {
+      "mae": 0.7841675078610495,
+      "mse": 0.6179864721018962,
+      "psnr": 2.090210316171307,
+      "ssim": 0.04772401529237834
+    },
+    "fixed_mean": {
+      "mae": 0.46900171330366336,
+      "mse": 0.22432457997810046,
+      "psnr": 6.491231367832478,
+      "ssim": 0.02646882246392564
+    },
+    "fixed_ilm_opl": {
+      "mae": 0.8164212049337858,
+      "mse": 0.6702800914803348,
+      "psnr": 1.737436796804583,
+      "ssim": 0.04959617300037629
+    },
+    "fixed_opl_bm": {
+      "mae": 0.7464553045748715,
+      "mse": 0.5614192371021137,
+      "psnr": 2.507127102659829,
+      "ssim": 0.04249587245655439
+    },
+    "diagnostic_max_ilm_opl": {
+      "mae": 0.7614701360079055,
+      "mse": 0.5908439963201112,
+      "psnr": 2.285271730494732,
+      "ssim": 0.04631462054714521
+    },
+    "diagnostic_max_opl_bm": {
+      "mae": 0.8134069419933555,
+      "mse": 0.6720982117847639,
+      "psnr": 1.7256726009805328,
+      "ssim": 0.038824806732705136
+    }
+  },
+  "intermediate_3d_saved": false,
+  "reference_protocol": "uint8 prediction; GT-range normalization and clipping separately per patient/object; MAE in 0..255 units; PSNR/SSIM data_range=normalized GT range; scalar arithmetic in float32",
+  "fixed_protocol": "float32 predictions; fixed /255 GT; data_range=1; volume SSIM in 3D, projection SSIM in 2D; patient equal-weight macro",
+  "projection_protocol": "full=ILM-BM mask-weighted mean; mean=all-depth mean; ilm_opl/opl_bm=mask-weighted mean; maximum slabs explicitly diagnostic",
+  "missing_reference_metric": "3D Perp.: no public implementation or specified slice aggregation; not invented",
+  "zero_or_infinite_metric_policy": "undefined quantities stored null, never replaced with invented finite numbers"
+}

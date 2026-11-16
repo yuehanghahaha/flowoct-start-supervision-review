@@ -1,0 +1,81 @@
+{
+  "case_id": "10498",
+  "patient_id": "10498",
+  "scores": {
+    "reference_volume": {
+      "mae": 6.355448246002197,
+      "mse": 94.05501556396484,
+      "psnr": 28.396986862142622,
+      "ssim": 0.3609316919728016
+    },
+    "reference_ilm_bm_mean": {
+      "mae": 24.146387100219727,
+      "mse": 783.4811401367188,
+      "psnr": 19.190518082059405,
+      "ssim": 0.5086961850187,
+      "perceptual": 0.5647723078727722
+    },
+    "reference_all_depth_mean": {
+      "mae": 54.488433837890625,
+      "mse": 3216.8037109375,
+      "psnr": 13.056557764440829,
+      "ssim": 0.4298383264589659,
+      "perceptual": 0.5552099943161011
+    },
+    "reference_ilm_opl_mean": {
+      "mae": 30.085180282592773,
+      "mse": 1260.8043212890625,
+      "psnr": 17.124326799732025,
+      "ssim": 0.4529705443747327,
+      "perceptual": 0.6384066939353943
+    },
+    "reference_opl_bm_mean": {
+      "mae": 19.56487464904785,
+      "mse": 559.9714965820312,
+      "psnr": 20.649144816680803,
+      "ssim": 0.47602691390639246,
+      "perceptual": 0.5875690579414368
+    }
+  },
+  "diagnostic": {
+    "ilm_opl": {
+      "voxels": 2183842,
+      "pred_mean": 0.11993741053202617,
+      "gt_mean": 0.07240468497051447,
+      "mae": 0.06611189967146791,
+      "bias": 0.047532725561511696,
+      "pred_above005_fraction": 0.8649261256079881
+    },
+    "opl_bm": {
+      "voxels": 1923306,
+      "pred_mean": 0.08452422141867169,
+      "gt_mean": 0.057125895881641145,
+      "mae": 0.046893999936473155,
+      "bias": 0.02739832553703054,
+      "pred_above005_fraction": 0.7134116983984867
+    },
+    "other": {
+      "voxels": 19551348,
+      "pred_mean": 0.02881828384671453,
+      "gt_mean": 0.011887776808917172,
+      "mae": 0.02011364204106562,
+      "bias": 0.016930507037797356,
+      "pred_above005_fraction": 0.08704075033598706
+    },
+    "gt_low_intensity": {
+      "voxels": 17903585,
+      "pred_mean": 0.019598545277760247,
+      "gt_mean": 0.00027069708361892323,
+      "mae": 0.01933493899198027,
+      "bias": 0.019327848194141326,
+      "pred_above005_fraction": 0.027510467875567938
+    },
+    "scope": "Supplemental intensity diagnostics; GT<=0.01 and prediction>0.05 are predeclared diagnostic levels, not clinical segmentation thresholds."
+  },
+  "prediction_sha256": "1c9e517668ec1ad599ef92ee4893455d5924ac3acb48987c462a14c12f4ebcbc",
+  "input_sha256": "4ca5dfb8fb709225161b48a1b81c8e816ca3be91e6ff666b93a52b220ac2ac99",
+  "layer_sha256": "c5babcca5565cc6d426ad5127058a9bad5c625d8a8da118ab8d68e96cda0160c",
+  "checkpoint_tensor_sha256": "51aeb08f67331aa34cda3eb649a0d3bd79634614d1af97eef35daab59f22f21c",
+  "protocol": "Original retained exp074/exp059 reference functions: uint8 prediction only; raw float32 GT0..255; shared per-GT-object minmax; donor masked means; VGG19 relu3_3 on normalized projection pairs.3D Perp undefined in released code.",
+  "numerical_profile": "float32,AMP off,TF32 matmul/cuDNN off for reference VGG; generator prediction remains original TF32-on result"
+}

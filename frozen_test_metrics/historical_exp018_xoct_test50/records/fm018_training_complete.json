@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "epoch": 200,
+  "completed_epoch": 200,
+  "epochs": 200,
+  "updates": 40000,
+  "best": {
+    "epoch": 170,
+    "metric": "projection_ilm_opl_ssim",
+    "value": 0.49249447142360614,
+    "report": "reports/validation/epoch_0170_0a7d28864f27",
+    "model_tensor_sha256": "0a7d28864f27ae42f487c456073845814059b441329a2a91c28021115061d0b2"
+  },
+  "peak_allocated_gib": 1.9436826705932617,
+  "peak_reserved_gib": 2.978515625,
+  "pid": 842
+}

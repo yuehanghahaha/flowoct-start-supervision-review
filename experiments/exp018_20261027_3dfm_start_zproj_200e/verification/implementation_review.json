@@ -1,0 +1,34 @@
+{
+  "state": "static_review_passed",
+  "recorded_at": "2026-10-27T13:23:33.151067+08:00",
+  "python_files_parsed": 9,
+  "inherited_model_and_inference_bytes_match": true,
+  "suite_engine_bytes_match": true,
+  "scientific_config_relation_verified": true,
+  "fixed_patient_membership": {
+    "train": 140,
+    "validation": 10,
+    "test": 50
+  },
+  "test_images_read": 0,
+  "GPU_training_or_smoke_executed": false,
+  "A100_execution_verified": false,
+  "delivery_archives_created": false,
+  "training_status": "not_started",
+  "upload_status": "not_uploaded_ssh_authentication_failed",
+  "reviewed_properties": [
+    "source-only exact-t0 projection branch",
+    "shared case/crop/time RNG design",
+    "no AMP/autocast/GradScaler in training",
+    "full-volume float32 predictions saved",
+    "3D SSIM and distinct reference range columns",
+    "same primary selection rule for all groups",
+    "nonlarge label minus large, XY-to-YX crop",
+    "separate process locks and output paths",
+    "epoch-boundary checkpoint recovery",
+    "frozen test requires completed budget"
+  ],
+  "first_epoch_interruption_recovery": "resume from own initial.pt if latest absent",
+  "CLI_entry_help_checked": true,
+  "checkpoint_validation": "static review, no training execution"
+}

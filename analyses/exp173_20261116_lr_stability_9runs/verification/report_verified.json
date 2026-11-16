@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_hashes": 846,
+  "local_links_verified": 15,
+  "figures_verified": 5,
+  "best_final_metric_slots": 486,
+  "metric_groups": 9,
+  "missing_metric_slots": 165,
+  "standard_values": 5532,
+  "new_inference": 0,
+  "test_data_used": false
+}

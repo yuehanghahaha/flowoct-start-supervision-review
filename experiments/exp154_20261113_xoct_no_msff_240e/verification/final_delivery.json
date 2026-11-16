@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "time": "2026-11-14T00:31:01+08:00",
+  "source_upload_verified": true,
+  "target_gpu_preflight_passed": true,
+  "both_jobs_in_independent_tmux": true,
+  "observed_updates": 111,
+  "full_budget_completed": false,
+  "validation_interval": 30,
+  "planned_epochs": 240,
+  "retained_training_precision": {
+    "dtype": "float32",
+    "amp": false,
+    "grad_scaler": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false
+  }
+}

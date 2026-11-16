@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-02T22:52:58.991057+08:00",
+  "removed": [
+    "runs/preflight_temporary"
+  ],
+  "preserved": [
+    "verification/preflight_full_volume",
+    "verification/preflight.json",
+    "logs/preflight.log"
+  ],
+  "temporary_checkpoint_sha256": "3619512b68aeb9e6c081c0e49209f838cbe6f33be09edfee45367305943f81d8",
+  "archives_created": false,
+  "formal_checkpoints_untouched": true
+}

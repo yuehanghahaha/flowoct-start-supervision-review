@@ -1,0 +1,1407 @@
+{
+  "source": "E:\\研一\\OCTA-500\\Label\\GT_Capillary",
+  "purpose": "Raw file synchronization for later formal evaluation; no test label images decoded or scored",
+  "training_uses_vessel_masks": false,
+  "files": [
+    {
+      "case_id": "10301",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10301.bmp",
+      "bytes": 93494,
+      "sha256": "3bb92bbeac0a2787e4e6c76dd3db4f5dfd4edf86879918fa17da115bbf8bab80"
+    },
+    {
+      "case_id": "10302",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10302.bmp",
+      "bytes": 93494,
+      "sha256": "42dbbae2f80b3cb0fb959e91dc2cc39719b8ece4ac630f59fbdbfee13259ea00"
+    },
+    {
+      "case_id": "10303",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10303.bmp",
+      "bytes": 93494,
+      "sha256": "c85167a563e3e1428f1fe4b616847d30118ad289608d3e2dcf06c32c7175ae15"
+    },
+    {
+      "case_id": "10304",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10304.bmp",
+      "bytes": 93494,
+      "sha256": "768f27eac461763a4939db7707c9664bee902467c8fec7284ad2040dc3904029"
+    },
+    {
+      "case_id": "10305",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10305.bmp",
+      "bytes": 93494,
+      "sha256": "3ef7adeccda19c68d76130480924ccd14e185d00de6960d29bc6aba4da399183"
+    },
+    {
+      "case_id": "10306",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10306.bmp",
+      "bytes": 93494,
+      "sha256": "c8dd762dad14b35e543232a8946935c2906145d4901c30619b146e8c52ca1bd8"
+    },
+    {
+      "case_id": "10307",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10307.bmp",
+      "bytes": 93494,
+      "sha256": "12b97c05e2e7909444296ce6b2a6b38972a5ab9af910235096928c79bb90e4ba"
+    },
+    {
+      "case_id": "10308",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10308.bmp",
+      "bytes": 93494,
+      "sha256": "d1927e32cb107de7bef657cb485790d3358c9fc6f4aded50080e0586423e89f4"
+    },
+    {
+      "case_id": "10309",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10309.bmp",
+      "bytes": 93494,
+      "sha256": "11bc20924be7e9bf22e57c08026be27650581fb49c72ea91bbe9677a63f6ad43"
+    },
+    {
+      "case_id": "10310",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10310.bmp",
+      "bytes": 93494,
+      "sha256": "eb64da69e003d3cbf96c4831c7ea39686901bc96d0b2cc0fcc2d0424ce6e56a0"
+    },
+    {
+      "case_id": "10311",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10311.bmp",
+      "bytes": 93494,
+      "sha256": "59cdc71e7bf0a0207743ce23236f22dceccc595fdd9eed0f9c3f4df1f8f39550"
+    },
+    {
+      "case_id": "10312",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10312.bmp",
+      "bytes": 93494,
+      "sha256": "31615ef81f6e5c91a3a949f20b7f75595508ba48ae86f1229c983b1ae09960a1"
+    },
+    {
+      "case_id": "10313",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10313.bmp",
+      "bytes": 93494,
+      "sha256": "4039c6953dcb0df817d1062f79cc1cb4dda263af51f7f02caf9df0c4313b7703"
+    },
+    {
+      "case_id": "10314",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10314.bmp",
+      "bytes": 93494,
+      "sha256": "2d3ed8b4b406afda99b3378c7d7b21a39d73ce9cc813b8047441dffba66bcfea"
+    },
+    {
+      "case_id": "10315",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10315.bmp",
+      "bytes": 93494,
+      "sha256": "e8deda1d0d2ad66dfbbef102473c714b0c8a6e586123ade29ae989a763883375"
+    },
+    {
+      "case_id": "10316",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10316.bmp",
+      "bytes": 93494,
+      "sha256": "bf64e86134b18a7b2ff616247d21adaba87ac33b09105e69682f7d8f20c4b1ca"
+    },
+    {
+      "case_id": "10317",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10317.bmp",
+      "bytes": 93494,
+      "sha256": "9cda9d3878a97d931c9100fa0e7dd5f39066fe31e6e78e1b3e97c0e9a3078d31"
+    },
+    {
+      "case_id": "10318",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10318.bmp",
+      "bytes": 93494,
+      "sha256": "22a33ecc67a1bd621af2ae9365f91f1d7b3926b36927368b3d8d9826239ee945"
+    },
+    {
+      "case_id": "10319",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10319.bmp",
+      "bytes": 93494,
+      "sha256": "20d732f97a5a021da5d16848a0b8dd7cc8dec7c6e3e98ad750bd3860fd92513e"
+    },
+    {
+      "case_id": "10320",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10320.bmp",
+      "bytes": 93494,
+      "sha256": "75420d668b75457e3443dac1af8c5217422881cd89b60ae15b60acbbea1a3dd3"
+    },
+    {
+      "case_id": "10321",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10321.bmp",
+      "bytes": 93494,
+      "sha256": "c2a0577f40ac6dd2bf714a2f1d84792c36ae783f82d8a3e58fe4ac2c4f04a388"
+    },
+    {
+      "case_id": "10322",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10322.bmp",
+      "bytes": 93494,
+      "sha256": "696a0a75733eede1f20681bbd1c27e6f637f01a11cde51838bfac7a15e80e1c5"
+    },
+    {
+      "case_id": "10323",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10323.bmp",
+      "bytes": 93494,
+      "sha256": "5b6cfdb9b3f0fd7a03109dfe285203f920c0774736ebf16d13ab895492a425d7"
+    },
+    {
+      "case_id": "10324",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10324.bmp",
+      "bytes": 93494,
+      "sha256": "8ed3d82c963407ed6eafb5f47909308a9262693abfe36e729a9cee603e252186"
+    },
+    {
+      "case_id": "10325",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10325.bmp",
+      "bytes": 93494,
+      "sha256": "4ea42e9d42189cebdf2d328e713ef0074f0b19716dcf739b9a8111806f99f503"
+    },
+    {
+      "case_id": "10326",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10326.bmp",
+      "bytes": 93494,
+      "sha256": "221e5161446e79417be60e61ebce1fe7c4548e437635c5ab8e78e771e528a3fc"
+    },
+    {
+      "case_id": "10327",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10327.bmp",
+      "bytes": 93494,
+      "sha256": "866ef2a327fa796296d9c54f39428cc80548eb134165d7a487abba0e9c9e1ac8"
+    },
+    {
+      "case_id": "10328",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10328.bmp",
+      "bytes": 93494,
+      "sha256": "270029aa4454067b7741d9fe5be476e6ddbbcfbe6b5aa1eecf58da8a6ca3b3f6"
+    },
+    {
+      "case_id": "10329",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10329.bmp",
+      "bytes": 93494,
+      "sha256": "7fbd3b43de51d645a91ee7491cc56f356b877aecd4396a7e6f06ea3a13d2aeb1"
+    },
+    {
+      "case_id": "10330",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10330.bmp",
+      "bytes": 93494,
+      "sha256": "ed1e8bf3fcbded4b5f1407092662ff1a6de1dabb4fc5f576929968eeaca68e80"
+    },
+    {
+      "case_id": "10331",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10331.bmp",
+      "bytes": 93494,
+      "sha256": "7d83c2f9ab233585bd93698cd11d45583d3a67462c3c3faced58561561587561"
+    },
+    {
+      "case_id": "10332",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10332.bmp",
+      "bytes": 93494,
+      "sha256": "0cbcb936706e9855bd213c59d579b75fd5e0a44ca41fe422e089799ecb1b64cc"
+    },
+    {
+      "case_id": "10333",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10333.bmp",
+      "bytes": 93494,
+      "sha256": "5abd1b764d1998fbc596e1d00d719833fd1cbb384f3ed82f3482a8f01249a12a"
+    },
+    {
+      "case_id": "10334",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10334.bmp",
+      "bytes": 93494,
+      "sha256": "e7aad2b5b065a95bfb7385cfa9b1c6441164d372312ae41c649c99db4e2df2db"
+    },
+    {
+      "case_id": "10335",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10335.bmp",
+      "bytes": 93494,
+      "sha256": "13fab6c3fa6ec8e33a4f75fc535e7b2859695152c3fc3473e9436fe549891b84"
+    },
+    {
+      "case_id": "10336",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10336.bmp",
+      "bytes": 93494,
+      "sha256": "4c112678a25668acba36909a1d9bed7d3a2300ac6c1ac2858aad5042a3bf2a2f"
+    },
+    {
+      "case_id": "10337",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10337.bmp",
+      "bytes": 93494,
+      "sha256": "33a1354fe20321a1628a8550397410e7d073c42be1a08ccaaed0290c3dbc8840"
+    },
+    {
+      "case_id": "10338",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10338.bmp",
+      "bytes": 93494,
+      "sha256": "1ecd43e8b4d8a8cc8ccbb1b474cff20c5c81421d8b79ae10776f3aa70bb7f867"
+    },
+    {
+      "case_id": "10339",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10339.bmp",
+      "bytes": 93494,
+      "sha256": "cfd32021ea66bc3c1a74297366ed1316c99e3dda8e3b7b72b8fff43453c0cec7"
+    },
+    {
+      "case_id": "10340",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10340.bmp",
+      "bytes": 93494,
+      "sha256": "6ffb37be2689154f9ed88422945bf72c29f25e34656d5fa174b8c1738a2d2f62"
+    },
+    {
+      "case_id": "10341",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10341.bmp",
+      "bytes": 93494,
+      "sha256": "56b6722bbe841fe00ec9c0ccb9482b707fedb1121dad5f226e801423dc32fc45"
+    },
+    {
+      "case_id": "10342",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10342.bmp",
+      "bytes": 93494,
+      "sha256": "44b9686f11c28f2648359f12f8b5cc5835df371559119e1cde4c4978a6767c46"
+    },
+    {
+      "case_id": "10343",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10343.bmp",
+      "bytes": 93494,
+      "sha256": "1422dbb13a7a5c83926deb792546bdedc716fbd0e528a0a6ecd9f267e19d36a6"
+    },
+    {
+      "case_id": "10344",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10344.bmp",
+      "bytes": 93494,
+      "sha256": "06512a46f63d2045b11c5265fc24012a697018c7cb61cf298668707d65ac1a61"
+    },
+    {
+      "case_id": "10345",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10345.bmp",
+      "bytes": 93494,
+      "sha256": "cbfd18ef5ab81d45983626cceb7464653f4834f33696674c7db3e605cd632516"
+    },
+    {
+      "case_id": "10346",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10346.bmp",
+      "bytes": 93494,
+      "sha256": "0ceed0a20a92ee47b72cafe5275bae90c38b76b37d02c204d884b0d2d17b19a3"
+    },
+    {
+      "case_id": "10347",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10347.bmp",
+      "bytes": 93494,
+      "sha256": "d5e7b7467e586b05116025aa934e0b20de8d55af70fd3263ef66694c14d7f29e"
+    },
+    {
+      "case_id": "10348",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10348.bmp",
+      "bytes": 93494,
+      "sha256": "b25a2a14254b988a36c41c24423024d1d05c22b60ab4687a440ac2c7558c3c60"
+    },
+    {
+      "case_id": "10349",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10349.bmp",
+      "bytes": 93494,
+      "sha256": "5b16609575fa4aa6a9ee0bdce065ea742b1f5649a5d840a64896b9de12a96354"
+    },
+    {
+      "case_id": "10350",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10350.bmp",
+      "bytes": 93494,
+      "sha256": "a652c96032ac8ccded046c2aec3aa1e716476052d683167b7781ee542b451159"
+    },
+    {
+      "case_id": "10351",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10351.bmp",
+      "bytes": 93494,
+      "sha256": "d540e9c49d12f7d9e322fe639c01606fd1fbf6d07bdc7c257b0898ad5008fa5e"
+    },
+    {
+      "case_id": "10352",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10352.bmp",
+      "bytes": 93494,
+      "sha256": "a3a47890ccb1286f262f72f668bc545b3d9245eea1bc18b9da180aea8dcbaa84"
+    },
+    {
+      "case_id": "10353",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10353.bmp",
+      "bytes": 93494,
+      "sha256": "6a29aec7adb593a5209166855b1c5c027e845c3245912692c3b6209096545a9c"
+    },
+    {
+      "case_id": "10354",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10354.bmp",
+      "bytes": 93494,
+      "sha256": "a8b31dc73a98c7b80533dcdbf42ab35656add3e362774e1a29be68b61908ba50"
+    },
+    {
+      "case_id": "10355",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10355.bmp",
+      "bytes": 93494,
+      "sha256": "6defaa9d2ddd153de92454e5fb508bc23d6db11218a1ba93357915617454d480"
+    },
+    {
+      "case_id": "10356",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10356.bmp",
+      "bytes": 93494,
+      "sha256": "3c43381109aed5e0688c0f4059bd65d4f40cd91cb834eee730b38cf452228dd2"
+    },
+    {
+      "case_id": "10357",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10357.bmp",
+      "bytes": 93494,
+      "sha256": "a143e53ea386da277f9b7a193914410367b9a7fe1b9999333853b443480025e7"
+    },
+    {
+      "case_id": "10358",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10358.bmp",
+      "bytes": 93494,
+      "sha256": "cb200bfad8a5be79e953f7f754a48fb227e435ffae0c865f5f1316574926ce09"
+    },
+    {
+      "case_id": "10359",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10359.bmp",
+      "bytes": 93494,
+      "sha256": "216dcf01f5fcab40f946c7e023da3809ef1660da3a66863c2532f28eb0158f9a"
+    },
+    {
+      "case_id": "10360",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10360.bmp",
+      "bytes": 93494,
+      "sha256": "095fa4cf6e67e44b5015ec624baaedc9ff79d1e72465ce92c7bbd4d5537515a2"
+    },
+    {
+      "case_id": "10361",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10361.bmp",
+      "bytes": 93494,
+      "sha256": "bea03899e8ce58e29220b6f3979c2bf99ce46f26c75d70242f9f23d704c1dfe9"
+    },
+    {
+      "case_id": "10362",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10362.bmp",
+      "bytes": 93494,
+      "sha256": "900f97963b4f01ce8e32d2e2bb4b113d2e88b595f9ccc1cc01dbdf4c4964130d"
+    },
+    {
+      "case_id": "10363",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10363.bmp",
+      "bytes": 93494,
+      "sha256": "aafcdad9bce8f43e674aeb1e714efd1d2a8a2cb3ff15c60592499708001cece5"
+    },
+    {
+      "case_id": "10364",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10364.bmp",
+      "bytes": 93494,
+      "sha256": "efa8c06f580ba7399f96339d46838ea0c2ec4e59817c8116a9d624ddf026e382"
+    },
+    {
+      "case_id": "10365",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10365.bmp",
+      "bytes": 93494,
+      "sha256": "bfb48c720c45afd7e079bfb72971e889597acd6b44b6f2b1388659577436fb0a"
+    },
+    {
+      "case_id": "10366",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10366.bmp",
+      "bytes": 93494,
+      "sha256": "4dbc7abdf9b43889ea2bc9fb8abff810cc3fea7337bcb82e676be4209e8e5a44"
+    },
+    {
+      "case_id": "10367",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10367.bmp",
+      "bytes": 93494,
+      "sha256": "2312fad0dbb61f9a00996320b23de975b620954d1c7da324ab4f8c9684aecee7"
+    },
+    {
+      "case_id": "10368",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10368.bmp",
+      "bytes": 93494,
+      "sha256": "b9354e6f4830286553f80a76dd52f2a28708cec3d7fa3739b84f52bd1c5b1176"
+    },
+    {
+      "case_id": "10369",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10369.bmp",
+      "bytes": 93494,
+      "sha256": "4f93e0f5e30a0d5897df73dd3327acb4db7adffefc3bdd4c83c58d6271e92c02"
+    },
+    {
+      "case_id": "10370",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10370.bmp",
+      "bytes": 93494,
+      "sha256": "cbf877f46170fdee68790f2b686ff0ee72426b91179d4c343aa2743cf8b32afd"
+    },
+    {
+      "case_id": "10371",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10371.bmp",
+      "bytes": 93494,
+      "sha256": "5c55cb6e32160eb8cd00f18f032e4f5fe1920e54b36b71aadf76219029774fd0"
+    },
+    {
+      "case_id": "10372",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10372.bmp",
+      "bytes": 93494,
+      "sha256": "1eda178dc892c3cac6c9a7c61a2a0d8fb7c99794c3a5bd1de462cde7d9afad44"
+    },
+    {
+      "case_id": "10373",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10373.bmp",
+      "bytes": 93494,
+      "sha256": "0fd7568daa08cb8d10c356ded0e055d709f69544475f1c31b3da8d0a2554049c"
+    },
+    {
+      "case_id": "10374",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10374.bmp",
+      "bytes": 93494,
+      "sha256": "ac3a23c284d2aee235bc401eeed650659ce67a24a62ad52b5399cb65fe402198"
+    },
+    {
+      "case_id": "10375",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10375.bmp",
+      "bytes": 93494,
+      "sha256": "b23786d7e12f10fcab8a85223ad44062aa19080f6aa6c7348e6d922e00f5308d"
+    },
+    {
+      "case_id": "10376",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10376.bmp",
+      "bytes": 93494,
+      "sha256": "bc69c427b7f3ec30d3b6bf557f9df319b82e73bfaf2836182d5564d3849528c7"
+    },
+    {
+      "case_id": "10377",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10377.bmp",
+      "bytes": 93494,
+      "sha256": "3c3e8e6438b2590f3ec7bbcf9ff838ee29e99f26482c79843312fda08e3cb76a"
+    },
+    {
+      "case_id": "10378",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10378.bmp",
+      "bytes": 93494,
+      "sha256": "c15f2b1339a7746671bf8ace805bb69e11765f880790a34e49dc76d9efce8b54"
+    },
+    {
+      "case_id": "10379",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10379.bmp",
+      "bytes": 93494,
+      "sha256": "c407c7320ee3117b69827eaf13c76da7e55d031263523edba42c7623210da2cb"
+    },
+    {
+      "case_id": "10380",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10380.bmp",
+      "bytes": 93494,
+      "sha256": "d9548879000d1dec6f37175e9a63ad77f767ed9175dbfd9820ca82e28746f06d"
+    },
+    {
+      "case_id": "10381",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10381.bmp",
+      "bytes": 93494,
+      "sha256": "1932b2b92741e04852259cd87cb917dd35ae195faccddf80418244f1aa45e054"
+    },
+    {
+      "case_id": "10382",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10382.bmp",
+      "bytes": 93494,
+      "sha256": "92cbe81f31255238e9685c882e5eff61485cbf7001d5acaeb8c9c029e0db91cc"
+    },
+    {
+      "case_id": "10383",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10383.bmp",
+      "bytes": 93494,
+      "sha256": "a5ebf3cdb98fc12d1decbf5d2a1a6f2a650444c8f1c4a32c5a240636e4611735"
+    },
+    {
+      "case_id": "10384",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10384.bmp",
+      "bytes": 93494,
+      "sha256": "9c258ad21deed2da5fce7cda00fa9ea5abb642490b96e7a161dd55bd86faae8d"
+    },
+    {
+      "case_id": "10385",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10385.bmp",
+      "bytes": 93494,
+      "sha256": "b4a1a4cbec0786c24e50b897837427ebd378698f5c2c77a6d9b516ab91015301"
+    },
+    {
+      "case_id": "10386",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10386.bmp",
+      "bytes": 93494,
+      "sha256": "ad62c2ea659e2bf59ac76aec5ac8aa531ba294004da4e757c755e808212709e2"
+    },
+    {
+      "case_id": "10387",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10387.bmp",
+      "bytes": 93494,
+      "sha256": "206f1da08e47a7329d02f7778bddbaa84a5252e7070761ce5346a999ca10fc95"
+    },
+    {
+      "case_id": "10388",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10388.bmp",
+      "bytes": 93494,
+      "sha256": "83094e660e7c2b62c24f6966955c5945f49bcc9d4d6b5e470113959c082bfc09"
+    },
+    {
+      "case_id": "10389",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10389.bmp",
+      "bytes": 93494,
+      "sha256": "bdfe9837c6c5166499d1d3be2b68ffb89f3fd2226aa0cf503b2be1f911f642e6"
+    },
+    {
+      "case_id": "10390",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10390.bmp",
+      "bytes": 93494,
+      "sha256": "d3871c08fead36ee3f7c9c9f48c06a0aabd27aef831573e5d4787a07539333ee"
+    },
+    {
+      "case_id": "10391",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10391.bmp",
+      "bytes": 93494,
+      "sha256": "b4878192b3877553b3438aa0e5bb60a1c524b646772717b132a5dec288f5a9fe"
+    },
+    {
+      "case_id": "10392",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10392.bmp",
+      "bytes": 93494,
+      "sha256": "0282a757f3c57e4c3d5713085d9c6d04c376675cff17d8484dd338319b848322"
+    },
+    {
+      "case_id": "10393",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10393.bmp",
+      "bytes": 93494,
+      "sha256": "c1e17ef1c6f44f13c196866468878c596266023c5a47eca35a2ca473e1ae691c"
+    },
+    {
+      "case_id": "10394",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10394.bmp",
+      "bytes": 93494,
+      "sha256": "68df25dbce5630896743b83dc81cc93ada82f45494407deae1e6fd478743dc05"
+    },
+    {
+      "case_id": "10395",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10395.bmp",
+      "bytes": 93494,
+      "sha256": "cf634512ea01e58beabae1c95f56ca2a7e18887c96196d01980e62ce7e41576e"
+    },
+    {
+      "case_id": "10396",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10396.bmp",
+      "bytes": 93494,
+      "sha256": "c9658e9c3c3c40544e6ea5b3b9c4ecd425a339fb6d66407709cae7313f94b35f"
+    },
+    {
+      "case_id": "10397",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10397.bmp",
+      "bytes": 93494,
+      "sha256": "e036fd9eeadb23f71742a7f5d941dc0a67348eba210f9d31da59fe45f2c93af2"
+    },
+    {
+      "case_id": "10398",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10398.bmp",
+      "bytes": 93494,
+      "sha256": "029af587195053abddf661395d095137b68c70037f4565393cadfc41566cb627"
+    },
+    {
+      "case_id": "10399",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10399.bmp",
+      "bytes": 93494,
+      "sha256": "42125f46f6005e5110be17f9b5df39de237dc60aafc6fe4352609b0a76f3293f"
+    },
+    {
+      "case_id": "10400",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10400.bmp",
+      "bytes": 93494,
+      "sha256": "04bb95b2d401891236d109c0fe68c67c4530bfb5bbe9cda2d6d74880e5ee035d"
+    },
+    {
+      "case_id": "10401",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10401.bmp",
+      "bytes": 93494,
+      "sha256": "f91ddd4a58b785af8ce6a002b276f27d454d489cc901e09025a44c374842b888"
+    },
+    {
+      "case_id": "10402",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10402.bmp",
+      "bytes": 93494,
+      "sha256": "eca7e2db9352dd715f397aa72453ad3c9a19c50c26c804a12d1bdd94a172b7ee"
+    },
+    {
+      "case_id": "10403",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10403.bmp",
+      "bytes": 93494,
+      "sha256": "3e064beebca1c2a478bb03c0ab00f8dee8e73f65036aa892ef7285453016286d"
+    },
+    {
+      "case_id": "10404",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10404.bmp",
+      "bytes": 93494,
+      "sha256": "6c5136addd23d4ca1bbbd30d44210b6ab60af933924a7866fef915bc00c33c21"
+    },
+    {
+      "case_id": "10405",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10405.bmp",
+      "bytes": 93494,
+      "sha256": "cb9e3d08fa464122aa05fba635f7284da92d52e3edfa54a45a320a38e3c6fd1d"
+    },
+    {
+      "case_id": "10406",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10406.bmp",
+      "bytes": 93494,
+      "sha256": "85a560c52351c0620780422afabfe7cfe1de608bdaa9a2d0f4501be6d37816d0"
+    },
+    {
+      "case_id": "10407",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10407.bmp",
+      "bytes": 93494,
+      "sha256": "f9a935895d259956583331ef6075589a7920c668d68684608b9125eb89c31f70"
+    },
+    {
+      "case_id": "10408",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10408.bmp",
+      "bytes": 93494,
+      "sha256": "5661f67d71ae6babec7095ee7dfca6fea83d61c03b9911981985d27dd059d50f"
+    },
+    {
+      "case_id": "10409",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10409.bmp",
+      "bytes": 93494,
+      "sha256": "c7fb4f19ec4116c11d2e10b817b27dcce4a5f2a0525d3d9b090f1727340838c5"
+    },
+    {
+      "case_id": "10410",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10410.bmp",
+      "bytes": 93494,
+      "sha256": "4948d11aa39cbb4cf5db76c7a6f7680efb7c076b4fad6fcf8e4be7f627f20427"
+    },
+    {
+      "case_id": "10411",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10411.bmp",
+      "bytes": 93494,
+      "sha256": "86e962b553b242f48a11ac5ea798dfd90f680b3d86687637d9412349e29e35b4"
+    },
+    {
+      "case_id": "10412",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10412.bmp",
+      "bytes": 93494,
+      "sha256": "d1a1e9fa6675170315a13345e26c524bf4f642eb0c9530036b5091a5499df521"
+    },
+    {
+      "case_id": "10413",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10413.bmp",
+      "bytes": 93494,
+      "sha256": "fc035cdf0e15373ee1ec299e6f6bd4af6b341afdd0ff07b00145bf69eab94669"
+    },
+    {
+      "case_id": "10414",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10414.bmp",
+      "bytes": 93494,
+      "sha256": "2d2f2ac10edf0683c61b3fc070065cc7a71483b98665578b56aced807f062742"
+    },
+    {
+      "case_id": "10415",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10415.bmp",
+      "bytes": 93494,
+      "sha256": "176ed899fe74ad78611f07fb8c3572d55edd958ed51e5e7b56bdc20044a2fe51"
+    },
+    {
+      "case_id": "10416",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10416.bmp",
+      "bytes": 93494,
+      "sha256": "160b76f79a51c04e1651b743a67fa8ec9911ea7c22635d3de03b792c4536b15e"
+    },
+    {
+      "case_id": "10417",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10417.bmp",
+      "bytes": 93494,
+      "sha256": "10c83c69a878b1c37c0637d479f9d1426afc57d471fd89a95f1764e8c9820aeb"
+    },
+    {
+      "case_id": "10418",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10418.bmp",
+      "bytes": 93494,
+      "sha256": "16b200acd451c232ee212397be102677ddd4bc4bb4024b93e3a82f43a1109d06"
+    },
+    {
+      "case_id": "10419",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10419.bmp",
+      "bytes": 93494,
+      "sha256": "3eff1323081d64c164f932729a26ab98c35f20a24fa30e2eae9e91ebf25bf5e0"
+    },
+    {
+      "case_id": "10420",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10420.bmp",
+      "bytes": 93494,
+      "sha256": "32e02ae49a58210a9c1a147688205c3f886ae4bcc646dc7e939095318ca6d879"
+    },
+    {
+      "case_id": "10421",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10421.bmp",
+      "bytes": 93494,
+      "sha256": "ca2aefe8e07728d6d06b9e08cf7d100ce3b0c159a96ad0313bb3cc97b495516c"
+    },
+    {
+      "case_id": "10422",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10422.bmp",
+      "bytes": 93494,
+      "sha256": "80e78d85815a73616be8bf9d7e7bc9471a4d608dcac40438f13438735cf06d23"
+    },
+    {
+      "case_id": "10423",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10423.bmp",
+      "bytes": 93494,
+      "sha256": "520942fafd6714470532001981c95e41f9ed1536782b3236bbc0121acbda4ee4"
+    },
+    {
+      "case_id": "10424",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10424.bmp",
+      "bytes": 93494,
+      "sha256": "d93adf7ff2813a2d87d724e59341aae9d52cfb87c10eafd639e9767c0bde62fc"
+    },
+    {
+      "case_id": "10425",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10425.bmp",
+      "bytes": 93494,
+      "sha256": "caff9dccabc12c9a2931b57d3fd37a0b912073a18148810d6ddda9e7db2e851b"
+    },
+    {
+      "case_id": "10426",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10426.bmp",
+      "bytes": 93494,
+      "sha256": "5ffcb439a835a42fdc27cdd15bec915f662e71900de99aca753e4eefd16aff06"
+    },
+    {
+      "case_id": "10427",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10427.bmp",
+      "bytes": 93494,
+      "sha256": "a7de32e0fa0b7570f901c08b6daa2e496ba14085441e7c4552b0e9361c4c1e5f"
+    },
+    {
+      "case_id": "10428",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10428.bmp",
+      "bytes": 93494,
+      "sha256": "edd709d106e6d87192ee8b598908a930b622f3c95642d25e6885efede8d2f948"
+    },
+    {
+      "case_id": "10429",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10429.bmp",
+      "bytes": 93494,
+      "sha256": "18dcc54c3dc8e292677cb8781a9ecbf658add811b8fa4a57cee21fe386fe728f"
+    },
+    {
+      "case_id": "10430",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10430.bmp",
+      "bytes": 93494,
+      "sha256": "32e6a0a34c0ec455064ec0958dea69466268d5e0fb639ad5acefbc0289a78cc8"
+    },
+    {
+      "case_id": "10431",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10431.bmp",
+      "bytes": 93494,
+      "sha256": "89cd45fe14251127dfdb9eb9374721bede2541416bdd86c6db0b238fca4c87b6"
+    },
+    {
+      "case_id": "10432",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10432.bmp",
+      "bytes": 93494,
+      "sha256": "81de07875ace59fabf47443b6565899579eacd71a075dd2e3b60486295b27a30"
+    },
+    {
+      "case_id": "10433",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10433.bmp",
+      "bytes": 93494,
+      "sha256": "1b211087e843bf5bb72d966ef51bc0069e15ab723db1a9598e9b705d3b22e0cf"
+    },
+    {
+      "case_id": "10434",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10434.bmp",
+      "bytes": 93494,
+      "sha256": "db4a08293bc546a2a9ab82a121aa205f4ab56c961d332b55f478c25de3f71056"
+    },
+    {
+      "case_id": "10435",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10435.bmp",
+      "bytes": 93494,
+      "sha256": "5cd117fb89b2ba97ade628eb6fd0836b86bf84bddd7f53a6e4dc1f2d23ea85d7"
+    },
+    {
+      "case_id": "10436",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10436.bmp",
+      "bytes": 93494,
+      "sha256": "a229184a0781c75aa9d9b8ab36dc9e53b2201083295b2fe7c6f42a9405828970"
+    },
+    {
+      "case_id": "10437",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10437.bmp",
+      "bytes": 93494,
+      "sha256": "668939e136b782229529c5599c75c95d766a51a90cc58c6510d8b2ae356af9e1"
+    },
+    {
+      "case_id": "10438",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10438.bmp",
+      "bytes": 93494,
+      "sha256": "77419315480af3fde9ed9bd5b657cf0e23364346072cf9060338756ac7c3c01d"
+    },
+    {
+      "case_id": "10439",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10439.bmp",
+      "bytes": 93494,
+      "sha256": "2468556a9139af215e5f947895ac923a68dd8b89235b900c21a83ca4770725c5"
+    },
+    {
+      "case_id": "10440",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10440.bmp",
+      "bytes": 93494,
+      "sha256": "a3d75c7afc6f4a5313cadfb567cb7f1987c840b568dd761283ff82f0ebbc72ac"
+    },
+    {
+      "case_id": "10441",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10441.bmp",
+      "bytes": 93494,
+      "sha256": "64e8383bda3cdb76f01ea3f0ac881065f8006f875b81e307ad0add51d0c65fb0"
+    },
+    {
+      "case_id": "10442",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10442.bmp",
+      "bytes": 93494,
+      "sha256": "944125a71ac62ba026dcad7143f16c84ea0327d28fe025c04973bf7505458929"
+    },
+    {
+      "case_id": "10443",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10443.bmp",
+      "bytes": 93494,
+      "sha256": "a33332f5b1794c198df78069b1f61072f328e8879fdce7456988f476fe63ec54"
+    },
+    {
+      "case_id": "10444",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10444.bmp",
+      "bytes": 93494,
+      "sha256": "c9152f2f3c060202cca9ada5c85c1a94549ea2a263d5610c96dd995e80c5c67d"
+    },
+    {
+      "case_id": "10445",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10445.bmp",
+      "bytes": 93494,
+      "sha256": "8520cfa22ccfedd7b9ab7f302d93182d04b2f7bee3337488f09f82dd12a332cc"
+    },
+    {
+      "case_id": "10446",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10446.bmp",
+      "bytes": 93494,
+      "sha256": "5fe06dc91f4d1a0acdd5b5db12f46909db3dce91de7dc6fc41ed8e9e21e279b3"
+    },
+    {
+      "case_id": "10447",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10447.bmp",
+      "bytes": 93494,
+      "sha256": "01a4819542a71000c5882149c24a3cbcf1731e67e2d0b84fb7c3b9d910e8de8f"
+    },
+    {
+      "case_id": "10448",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10448.bmp",
+      "bytes": 93494,
+      "sha256": "9d237bbb13fbbbc56923cabd73a7742fc769ca1e9c995a005aa483b87c176e05"
+    },
+    {
+      "case_id": "10449",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10449.bmp",
+      "bytes": 93494,
+      "sha256": "285722e7e8dbc3724c40784d6a714e8d7b92ca73aaee9c80949c68e0705944f2"
+    },
+    {
+      "case_id": "10450",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10450.bmp",
+      "bytes": 93494,
+      "sha256": "cfda5916733e6ba95a15f0b67c8ffcc14f54cb4f3764389a4276162f123fccca"
+    },
+    {
+      "case_id": "10451",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10451.bmp",
+      "bytes": 93494,
+      "sha256": "16158c9bbf7b97216815345a4b13d6fbc1e2322fa9815f041cf2f9e76e601c15"
+    },
+    {
+      "case_id": "10452",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10452.bmp",
+      "bytes": 93494,
+      "sha256": "fc4954a79ee48f80650c3049d5a1e88b40d6e0bb0bce10667ea097fcc2207e9d"
+    },
+    {
+      "case_id": "10453",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10453.bmp",
+      "bytes": 93494,
+      "sha256": "c18f37b1ac3ec125a61228146e013f431f3fb4ded1f084dc3480f9eb81d147ec"
+    },
+    {
+      "case_id": "10454",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10454.bmp",
+      "bytes": 93494,
+      "sha256": "1583ea71768724fcfbaddbd7fda9f74cf08da22a936c3057c184e8809df840a5"
+    },
+    {
+      "case_id": "10455",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10455.bmp",
+      "bytes": 93494,
+      "sha256": "15b11a6ecb06404eee0239baedd04cfeeea413f64df94b9b6adf6f9c1c626e0f"
+    },
+    {
+      "case_id": "10456",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10456.bmp",
+      "bytes": 93494,
+      "sha256": "d2acafad4443a5b16f18e124b73a794af2b1301da33bd1f90226883c9c767585"
+    },
+    {
+      "case_id": "10457",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10457.bmp",
+      "bytes": 93494,
+      "sha256": "9750cd92aec5b8702094ca1a82ca0b1dedd99868f349c92ed4074d14f8efc6f3"
+    },
+    {
+      "case_id": "10458",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10458.bmp",
+      "bytes": 93494,
+      "sha256": "ab0f2267ad4f4513eeb256d8fdb2a9fae89c3f9024926371ad84a96d704d8782"
+    },
+    {
+      "case_id": "10459",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10459.bmp",
+      "bytes": 93494,
+      "sha256": "6924ea8648a3ae622c7f1c3f0451da178e456f617081356eff34f5b017ac5bee"
+    },
+    {
+      "case_id": "10460",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10460.bmp",
+      "bytes": 93494,
+      "sha256": "4bac85a1ee572ed4359f2a6f27909357d6ec0c40370b0195b3f57ad3d045fb9f"
+    },
+    {
+      "case_id": "10461",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10461.bmp",
+      "bytes": 93494,
+      "sha256": "96ee65d83635a527ca45bce154f3388ea6dda57f51c7ff11ac134bee9cd4de42"
+    },
+    {
+      "case_id": "10462",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10462.bmp",
+      "bytes": 93494,
+      "sha256": "2dd9db49973e2034996bf9fd5080d92b10c712aaea523b7da59606d554686daf"
+    },
+    {
+      "case_id": "10463",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10463.bmp",
+      "bytes": 93494,
+      "sha256": "e4700819683ba1e43fdeedefa07fe564cd4d0b0c5b7544b9a47e390587ecb8bf"
+    },
+    {
+      "case_id": "10464",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10464.bmp",
+      "bytes": 93494,
+      "sha256": "d8200ab34fa69903c64df64a74c4a2044774dbea2631a3458e9e4cedb423e707"
+    },
+    {
+      "case_id": "10465",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10465.bmp",
+      "bytes": 93494,
+      "sha256": "b18d9c70db9ed60a1a73ae9c4e155c486a582c8a5b1e1ec1ede27919e5227a0f"
+    },
+    {
+      "case_id": "10466",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10466.bmp",
+      "bytes": 93494,
+      "sha256": "228f1df1a95ea687ca98852c63293bc232f7b6b9e5c7bfa6f9bfe03b108ea5ce"
+    },
+    {
+      "case_id": "10467",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10467.bmp",
+      "bytes": 93494,
+      "sha256": "a5445fde4da50a4a2d58d1a0ea8c8d897fde0c596b2ce6a5df6fb6f730ee2361"
+    },
+    {
+      "case_id": "10468",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10468.bmp",
+      "bytes": 93494,
+      "sha256": "d816f0d65623b3aac2548045abdac2b4a653185560e83b72c051a8908599fc7a"
+    },
+    {
+      "case_id": "10469",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10469.bmp",
+      "bytes": 93494,
+      "sha256": "e3c29a6e3a2db44bcfd710f86271e42ae5b0ba8f61aa8f51a9d0152cec556eb8"
+    },
+    {
+      "case_id": "10470",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10470.bmp",
+      "bytes": 93494,
+      "sha256": "d5f613584a12431d3c440156b2c25c662502a352b70bdedff54d0680c02d6c2c"
+    },
+    {
+      "case_id": "10471",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10471.bmp",
+      "bytes": 93494,
+      "sha256": "f56d1491680e22103238c6ac9022c278a2dea6dbe7c5c3fdb4c206207fb38545"
+    },
+    {
+      "case_id": "10472",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10472.bmp",
+      "bytes": 93494,
+      "sha256": "b2162e9d0c494bd6f0db964488cc6466f08d63f39b3ef4839e411d1527a67e66"
+    },
+    {
+      "case_id": "10473",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10473.bmp",
+      "bytes": 93494,
+      "sha256": "8b518779fbd5c949e2afa8541d6fa4bea4b6cbba38512b392baf0f458599c1f0"
+    },
+    {
+      "case_id": "10474",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10474.bmp",
+      "bytes": 93494,
+      "sha256": "f32ec17ad80dded74f9bcd00bcd5355464bc7fac7737c453cf82fcc24b8df640"
+    },
+    {
+      "case_id": "10475",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10475.bmp",
+      "bytes": 93494,
+      "sha256": "df5add3d00cddec86601de5fb4eaf73ca0af2fc6aa24e36f93654a17a5bdc9e0"
+    },
+    {
+      "case_id": "10476",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10476.bmp",
+      "bytes": 93494,
+      "sha256": "80da2039affd6e24d1659f8866862ac80079c6a4d34cedb26e9aa6da66d31def"
+    },
+    {
+      "case_id": "10477",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10477.bmp",
+      "bytes": 93494,
+      "sha256": "9c8e758e4cc3840e721d909c8e30f06e52ad083bdfe6a735cf1898df89c46319"
+    },
+    {
+      "case_id": "10478",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10478.bmp",
+      "bytes": 93494,
+      "sha256": "ec5f9f6dcb5dfc160d21a00a3f3990809b20b68888339a0a05a6ca8110625c57"
+    },
+    {
+      "case_id": "10479",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10479.bmp",
+      "bytes": 93494,
+      "sha256": "e882abf6ad909fa16287008722ac67f2d72796b553820bcdd5095db7f0822365"
+    },
+    {
+      "case_id": "10480",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10480.bmp",
+      "bytes": 93494,
+      "sha256": "792de5df0ac951ddaaed53f0eab884a85900c151c655082fd577a3cfdc791c5b"
+    },
+    {
+      "case_id": "10481",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10481.bmp",
+      "bytes": 93494,
+      "sha256": "7be9a46b50930164e138b9c0965ba2474d2ded5566a8b37334be33ba23d49d42"
+    },
+    {
+      "case_id": "10482",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10482.bmp",
+      "bytes": 93494,
+      "sha256": "062ae7104f2619bde39b7032601004ea9303c91988f030507030f8f73421b841"
+    },
+    {
+      "case_id": "10483",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10483.bmp",
+      "bytes": 93494,
+      "sha256": "fd04d6db6a40cb95a647d7558b12cea7b7e1747158594201348023cef2251bdb"
+    },
+    {
+      "case_id": "10484",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10484.bmp",
+      "bytes": 93494,
+      "sha256": "83215f4c1145829e341e60d3922251f8957cc87c1b4b5c4fa3c2aaf98c574de4"
+    },
+    {
+      "case_id": "10485",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10485.bmp",
+      "bytes": 93494,
+      "sha256": "1f541256ee2645f3c279414b5e686c2386ff52591e28b67ce4c54a8b7449c43e"
+    },
+    {
+      "case_id": "10486",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10486.bmp",
+      "bytes": 93494,
+      "sha256": "ea82af0b2dea68d5742d4f88d538526f2fecad4a976fb554024ed25d808039f8"
+    },
+    {
+      "case_id": "10487",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10487.bmp",
+      "bytes": 93494,
+      "sha256": "d711cb20fd3befcf1991f8b6010201eb49a807893c39100e0d207d46bd083f00"
+    },
+    {
+      "case_id": "10488",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10488.bmp",
+      "bytes": 93494,
+      "sha256": "b91c623bd84b4c932f01338d25fa46db3fb7e1dfae24e53db0780d2fee671a59"
+    },
+    {
+      "case_id": "10489",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10489.bmp",
+      "bytes": 93494,
+      "sha256": "b0e296ce66bef7c32a1c3b8ec30f417600d750b45c18d6229d827fe0253654dc"
+    },
+    {
+      "case_id": "10490",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10490.bmp",
+      "bytes": 93494,
+      "sha256": "282bc3d75ef6da52bcce772574c86d83ac8a8c57c0a89c20a63be8af2f8ce853"
+    },
+    {
+      "case_id": "10491",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10491.bmp",
+      "bytes": 93494,
+      "sha256": "ab4aff7eedf264495b2e979306149c698d6ded586e5721faed21ed674ca2f816"
+    },
+    {
+      "case_id": "10492",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10492.bmp",
+      "bytes": 93494,
+      "sha256": "6d956d2a9eb3b5796c5c5f23e7e4b7690c76d2a280a911da34626d030fcda975"
+    },
+    {
+      "case_id": "10493",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10493.bmp",
+      "bytes": 93494,
+      "sha256": "68b099ec69c46c3f989d82a5d1b663afdc15692e7e776068c3898e240df29b2b"
+    },
+    {
+      "case_id": "10494",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10494.bmp",
+      "bytes": 93494,
+      "sha256": "351e401f57f1e64e308d396837d1a2f1ff079344ae470589528e980f9f71e4c5"
+    },
+    {
+      "case_id": "10495",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10495.bmp",
+      "bytes": 93494,
+      "sha256": "e274911994a825af78122592d669aa9aa3cf8deda4f8cfa1e09ebf642d8b9f54"
+    },
+    {
+      "case_id": "10496",
+      "split": "train",
+      "path": "annotations/GT_Capillary/10496.bmp",
+      "bytes": 93494,
+      "sha256": "5084b5a9a153df58cbb64cf6063a89a225633dd306abbd5cb85e0a411c3b91f0"
+    },
+    {
+      "case_id": "10497",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10497.bmp",
+      "bytes": 93494,
+      "sha256": "d735546e0b7a2df4900af634f83a0d0b18bd9e07d5bc3e21cded6a604d95f0cd"
+    },
+    {
+      "case_id": "10498",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10498.bmp",
+      "bytes": 93494,
+      "sha256": "a54d46421ac46bc626d40b056d6d49c3fbaac493826994c9013ef77c93b3d88c"
+    },
+    {
+      "case_id": "10499",
+      "split": "test",
+      "path": "annotations/GT_Capillary/10499.bmp",
+      "bytes": 93494,
+      "sha256": "4e0c9bcd50bf965961a67bbe19b528878f6909b35d97c237c02c1c12f4241e1f"
+    },
+    {
+      "case_id": "10500",
+      "split": "validation",
+      "path": "annotations/GT_Capillary/10500.bmp",
+      "bytes": 93494,
+      "sha256": "188741d53988b4ef23d23dfac91e0f16d8f0b3689c58f23d13e45ecd5548cc47"
+    }
+  ]
+}

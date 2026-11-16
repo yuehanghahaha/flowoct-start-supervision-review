@@ -1,0 +1,4502 @@
+{
+  "10301": {
+    "split": "train",
+    "patient_id": "10301",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10301.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10301.mat",
+    "original": {
+      "source_npz_sha256": "ff57c09f868f763b6099805b37a066e9dbc357386972791134f0888aae0291ce",
+      "native_layers_sha256": "aee0b5c40215ff86db105375413d13ac843085e3e68ebb7096b3ea0caeeb90fc"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10301.npy": {
+        "sha256": "5e23ddca28c127cbcc20e5b8cf81522a20cb00f9c884b6842118c08885fa1dd0",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10301.npy": {
+        "sha256": "f672f06f0c46a3762765f77b2d806acb8f1ed21fafa1a91247aba4b1bb5c61b4",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10301.npy": {
+        "sha256": "0733bb0aa120fc5b8d1442bf1553866b3c2b18ae9f5da0f5eb0c43874f981d93",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19816482,
+      "1": 1971321,
+      "2": 1870693
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10302": {
+    "split": "validation",
+    "patient_id": "10302",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10302.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10302.mat",
+    "original": {
+      "source_npz_sha256": "e743d1cf8ae5fcf5228498b07aa89a733abd9c121517d48f4f131c7996effb84",
+      "native_layers_sha256": "ce9a01d3dd98c8f0b19672c02386ca7c24bbfd8915298a72fe5e69aed62d9def"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10302.npy": {
+        "sha256": "20c2662f8e9557c1cd1675324d1c9a3dc9fb163751aaf063de8740a267a7fd0f",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10302.npy": {
+        "sha256": "f48a3fb4f5dcb1f9913ace0b7c0bbe3a7ff7a836d1a504b1ce004e020a1ab02e",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10302.npy": {
+        "sha256": "5b56efe923696d74bb36d12947bc1b922acb81e6f841250f21466984a2b28fb8",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19696967,
+      "1": 2138028,
+      "2": 1823501
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10303": {
+    "split": "train",
+    "patient_id": "10303",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10303.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10303.mat",
+    "original": {
+      "source_npz_sha256": "2b347a7df9e1f0c38553a4e34fda551f972cffb7574d7f9a57ccb0c03f89b561",
+      "native_layers_sha256": "927fc461ac18fb75c638d36af06278d68777131adfb112c1a2a30ccd45cada9f"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10303.npy": {
+        "sha256": "38c5e49b8f1861d431b47f698da2114c17c387ce1724d9c088abca6e2e2e8fce",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10303.npy": {
+        "sha256": "f240f584ea597c8d4746c08c41953d65d81582f804e84ee958fbb2e1f89e2b8f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10303.npy": {
+        "sha256": "0f38569e266380bd8fa13f0637bfcd0783fd1613b90c8d0fda3059ff66f831e3",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19934867,
+      "1": 1907535,
+      "2": 1816094
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10304": {
+    "split": "train",
+    "patient_id": "10304",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10304.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10304.mat",
+    "original": {
+      "source_npz_sha256": "677823db824771e578121a42b12c3b9f3cc93a72bb2f91b12a8d8dc673e35ebd",
+      "native_layers_sha256": "14dc8d19d312835864593aa1c1a46762dae02a220c0a62a0e510abdfad6d05d0"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10304.npy": {
+        "sha256": "f9a61cbc0c141c37309f955b90a068ce50624a1cf6f3c8bc3fb39e4507c46d4d",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10304.npy": {
+        "sha256": "de1ce16b61c58c8dbceff75324085dfdf20a027b677f2cc36e908de1933d6b00",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10304.npy": {
+        "sha256": "d922293ec2fec688559b298364956e853f252ceff9c9196698d0654c80d116c9",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19791030,
+      "1": 2063232,
+      "2": 1804234
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10306": {
+    "split": "train",
+    "patient_id": "10306",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10306.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10306.mat",
+    "original": {
+      "source_npz_sha256": "32e9c9d01ecd59e23c90bcca1591135ba1d72fef8dddb9d73dc34433a39ba26e",
+      "native_layers_sha256": "edaeb731876295373e30a02ca3b8b67a7ec030fe4b388782586bca8efa553b8c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10306.npy": {
+        "sha256": "7604251d0a3a26a504de4f355037a38bdd0593a6f49fd0652440b4a42e9082c3",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10306.npy": {
+        "sha256": "2e702db128b88e639f4d4d60a4df3ce686b02a010b73fab1a8badb6da8d4b94d",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10306.npy": {
+        "sha256": "2b9f5b6eeee9885fa9393901dd533df13d9fced6947d7cc6bb685e1cddf64d6b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 18212037,
+      "1": 2739645,
+      "2": 2706814
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10308": {
+    "split": "train",
+    "patient_id": "10308",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10308.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10308.mat",
+    "original": {
+      "source_npz_sha256": "23d3d32698eee38dad7b308fd0cbf91e35b90438e90868d9bdb33cc73bc6e31c",
+      "native_layers_sha256": "15b030b36a05c669016bad3a959a5de075c037608d2877b4df13a27552a10001"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10308.npy": {
+        "sha256": "203491fa46db9ddd7e4d285ba360a2b3e19e6e4750d39a91cc55b31d2570b53b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10308.npy": {
+        "sha256": "061d119455302a86a31691ca5bdce47a98de49ae2d89ea12bec2cb6585118b5b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10308.npy": {
+        "sha256": "6d927eddde48ca8faf9112f4e1700831eff26cca9eff417aa9872ff343606796",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19374099,
+      "1": 2252048,
+      "2": 2032349
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10309": {
+    "split": "train",
+    "patient_id": "10309",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10309.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10309.mat",
+    "original": {
+      "source_npz_sha256": "1130219dbcebc2a540dc3b926eb2146593369cb2c492c859a1450b5431f5eca1",
+      "native_layers_sha256": "d5d8db02f4c6d52f8c7cbc9fb5fd5a057148d0b6739c3ef236e6e92cb50de46b"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10309.npy": {
+        "sha256": "60c603a4756b587b317153619bda26317b80873e67b6a87fc0e2c5fc0add3052",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10309.npy": {
+        "sha256": "df1b76e80e2d63d0c74b2ff92da367a20fe19dff4b556651c35bd66dfddcc405",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10309.npy": {
+        "sha256": "f6d75ba06fa9ebdb24d31dfff48190515b1d014c32a102866b8edf021f96f0f3",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19769679,
+      "1": 2119304,
+      "2": 1769513
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10310": {
+    "split": "train",
+    "patient_id": "10310",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10310.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10310.mat",
+    "original": {
+      "source_npz_sha256": "9541a267ad553dbdfb4e79637f2361ce423136ebc93c9d1da09071db497ba578",
+      "native_layers_sha256": "ba171754709fde9eefa05762a45fa760696b4df029bd7ff126f959676a6ca1d2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10310.npy": {
+        "sha256": "c4d25f1fb7912fe5a91e62ae388c93ea5fb73fbcca56a5fa9d9da03bb39bc654",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10310.npy": {
+        "sha256": "faa8e3a2a74672626c05c715ce8518cc5828bd6be40e0581e61c50c602edbb04",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10310.npy": {
+        "sha256": "8ecf2a7b940b20acfe96239897d1cd6ddb6dfea80037afa8b88f4128d3413be0",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20379580,
+      "1": 1782613,
+      "2": 1496303
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10311": {
+    "split": "train",
+    "patient_id": "10311",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10311.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10311.mat",
+    "original": {
+      "source_npz_sha256": "92d1e023bb40136c20d8b0de62322002f6373b940a91ea26e6850ebacc0a8c00",
+      "native_layers_sha256": "b7b80cdab9512aaee5353300440c23ac66199f6953854ba952a981b0c927d6f3"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10311.npy": {
+        "sha256": "53c7d3ddcba5f5ec6efa8480ca9ba939cb8414d83664e37e021dc5db50359d64",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10311.npy": {
+        "sha256": "afc89a4310c067c2bf41f19c38ce09df7b3baa2d9a82362bc88a37a13e850029",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10311.npy": {
+        "sha256": "83941029747b354e8c6ed5d65d42473137d5eb0803c5c9564b5e2f4f3f7fbd6e",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19526979,
+      "1": 2321617,
+      "2": 1809900
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10312": {
+    "split": "train",
+    "patient_id": "10312",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10312.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10312.mat",
+    "original": {
+      "source_npz_sha256": "896eb3e5559736f4019f45f38f63d304aa22bab3b8b1e14f1ac41b2161dae11f",
+      "native_layers_sha256": "04f294e3cbed79ee9babd388218c089719cdd3bc72b0bdf5741d1f7fe95ad6d5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10312.npy": {
+        "sha256": "bf128d9b8217fd4fbe6c051378eb83ca63a795c4f4692519aa1a58b2d2f23e37",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10312.npy": {
+        "sha256": "c5817b1c49c9236383faa06c48a487916ce1bc6dabc87f0d487613b26c9f247b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10312.npy": {
+        "sha256": "8a3c7a9ba298c1479712e8ab867268ecf70e179d75b0cb073e9c02b1cb4fec83",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19879810,
+      "1": 2060871,
+      "2": 1717815
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10313": {
+    "split": "train",
+    "patient_id": "10313",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10313.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10313.mat",
+    "original": {
+      "source_npz_sha256": "59b34e62d0e15b018e44022c60c3f05781349b5df3db16af08ba108281f53c81",
+      "native_layers_sha256": "61cd7f5d656903fa34bd0521bb4b23735b8a83263f413f6f4c7e90dcb9724493"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10313.npy": {
+        "sha256": "94cdfff70acd60c1a93f040cdb12fbee5a0e0e185572bb98a578c646684e3168",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10313.npy": {
+        "sha256": "a4ebe108726ca8e374d0f45710f3e25093e207861a3747aae6c335c823cce07a",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10313.npy": {
+        "sha256": "3d86a5281048bc0aecdb0db41bd12e889c8419adc9c9655d15230267618379ef",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19921518,
+      "1": 2119379,
+      "2": 1617599
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10314": {
+    "split": "train",
+    "patient_id": "10314",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10314.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10314.mat",
+    "original": {
+      "source_npz_sha256": "c20890444e0e73792233088c727798bcdc5033e429b03e49d29adaf6f41c5caf",
+      "native_layers_sha256": "e4561517f01b5515d2d2ce9c05e93accb53060dd15c1280823fae614ccd64045"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10314.npy": {
+        "sha256": "1b7aee1f890fd7bc66b5f7735cab1a0af10909de79e8122d932c6c1f7e681b10",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10314.npy": {
+        "sha256": "c297a5c421e45f649218ac92dab0f95c72f236738ef65ebfe61b5876e2357ab9",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10314.npy": {
+        "sha256": "e1e7656ce0af189280e2164e36edac82e1d1a63b6f0162844f96bf767dc1aed6",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19870245,
+      "1": 1912254,
+      "2": 1875997
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10315": {
+    "split": "train",
+    "patient_id": "10315",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10315.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10315.mat",
+    "original": {
+      "source_npz_sha256": "4b8ebc60e3a5f5972736f7df07d481db6e927c31713d66adfaef471c6de24661",
+      "native_layers_sha256": "fdb636b24828f19533ef79ec4a7171327adf6a9a0bfce49315617fc590209840"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10315.npy": {
+        "sha256": "01d3d6662238d03585d536b40d39a15d49b1db88a55d0cfca7aedf1aca2be990",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10315.npy": {
+        "sha256": "aa21c6e795a40bddd00b74156f070721fbb46c1df3cb8f407f1d544c5af8e58f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10315.npy": {
+        "sha256": "66b66f89e65a2c6cb86b66cfc993e07b9cbb09ea878b178cdb43b293ed620198",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19839305,
+      "1": 2005619,
+      "2": 1813572
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10316": {
+    "split": "train",
+    "patient_id": "10316",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10316.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10316.mat",
+    "original": {
+      "source_npz_sha256": "3e0490565e9bda4585b713628a2e0497448127a629d4cd5e48c8bb92355ca2f4",
+      "native_layers_sha256": "4520edfe10168668b2be87cfe1cd362c10688372f9a884c638fc3d48e5ae1f95"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10316.npy": {
+        "sha256": "a17e770568b36603b7bea09cef485a7d60a30847e2a3ccf6e5c73e4da132dd41",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10316.npy": {
+        "sha256": "19a21c363067fde77688315939fd9470019af6bc69d62f5bf5eb6a0440177adb",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10316.npy": {
+        "sha256": "e0916732c494cc3b82579e72579eae77341bdf72a2a2ae44a19441f7b4fa7fde",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19841935,
+      "1": 1933156,
+      "2": 1883405
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10319": {
+    "split": "validation",
+    "patient_id": "10319",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10319.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10319.mat",
+    "original": {
+      "source_npz_sha256": "3d20046bcd6229302b4ba8cf0548c08893fc3524d6215882609ec5c94ca0b7d2",
+      "native_layers_sha256": "3e04634f2c5bbd5e8f4e32424ffc22ab214496a3dc2b764d6d8b04be110ea0f5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10319.npy": {
+        "sha256": "7e4bb78365c8ae73f522282288d8c83affa33951da45299efaa293726cf57c37",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10319.npy": {
+        "sha256": "aa1908b09b9cbe6eeb0463675bdc01fc525973c04b1c63edca7a8bf659a3dc2f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10319.npy": {
+        "sha256": "34aabe42d07fcb05a80be2e421ea13862c80d3faf8dfe603d1400a5e87a70590",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19606824,
+      "1": 2334873,
+      "2": 1716799
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10320": {
+    "split": "train",
+    "patient_id": "10320",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10320.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10320.mat",
+    "original": {
+      "source_npz_sha256": "4c1f536bf8ffb91fb3a1d89fbd2237fafc2a36ab6c862a64a53b8d149473fd78",
+      "native_layers_sha256": "67f308747adf0ad04fe3eb466ac5e98559e17e6131e0889c4dd3ee4563167114"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10320.npy": {
+        "sha256": "9d893c6500162215d38058848db93e650031ff6db8973d3db7a09b5b55512b5e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10320.npy": {
+        "sha256": "f5c3136e9cf5decb6b129b1f7e09a676f151ea3d9501f7f88f0469f8bddef1ee",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10320.npy": {
+        "sha256": "7648c4ed3f9aef5cc063ecefae0db7b8cf7ad5c97e39980575fd10cedd67ac6f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19955618,
+      "1": 2016384,
+      "2": 1686494
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10323": {
+    "split": "train",
+    "patient_id": "10323",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10323.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10323.mat",
+    "original": {
+      "source_npz_sha256": "6b93438bc9bbad4fc0755ad30423c5ccfd36b8f17dc23e19610c7e940fdcb75f",
+      "native_layers_sha256": "85d83f5a233481ce3fd093fd6f811b1da96c79b385a555b58cf7f6f583d2f1a4"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10323.npy": {
+        "sha256": "1ae368deabc3f94ca21f72af25aaa00c5b641383cc740c67811cb7797f2195cf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10323.npy": {
+        "sha256": "1505b1ced1f7cb5726e8e10ed790815103ff1817596c991d31df55ce3a038cf3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10323.npy": {
+        "sha256": "02c96a78ccbdf4508214089b4b9f0e13a0f569bc01da01d3beff6bff775ac9d7",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19864451,
+      "1": 2017860,
+      "2": 1776185
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10324": {
+    "split": "train",
+    "patient_id": "10324",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10324.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10324.mat",
+    "original": {
+      "source_npz_sha256": "4ba6036f0f94d788a4a6099310b8d40e5af7e84b81f210f8fe357b68b3e97796",
+      "native_layers_sha256": "b8cb8c2db8aef3efd920a9b4113dbe0ff2134e0fea1b2cc059cbd2223044818c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10324.npy": {
+        "sha256": "3e02fe8109abf5668457d4708bdea394e6237ef8a84222855d1d0bde23d23760",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10324.npy": {
+        "sha256": "1116628d746402fe0ff86ffad9ac7a731ee1dd1e46b3703b345a7171ea114b7f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10324.npy": {
+        "sha256": "9979fecc90d488ba9931c6af3571a5e1c80f36212dd6e8d68997d73a0af7b7e1",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19693762,
+      "1": 2195131,
+      "2": 1769603
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10329": {
+    "split": "train",
+    "patient_id": "10329",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10329.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10329.mat",
+    "original": {
+      "source_npz_sha256": "20c13122758d46fee4504b68a35b98bb322160e0804c4313e4cbc7549d2a6742",
+      "native_layers_sha256": "7114d4faa175ea44bbe15b4031f6da1a13eada5721f0f33e7ae196e312c337f2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10329.npy": {
+        "sha256": "7a189057e2a40d35974dba3abe4f35cc10a269550501050051bb7848647aa21e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10329.npy": {
+        "sha256": "26d24aa89b881a58969c8fa9261e0cf66f0016aa00b624f90152f7c41d202e11",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10329.npy": {
+        "sha256": "3effd0a1210f4c10e04b7088802a1b68691d67c62a2548673213631dbe08ff69",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19707749,
+      "1": 2042064,
+      "2": 1908683
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10333": {
+    "split": "train",
+    "patient_id": "10333",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10333.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10333.mat",
+    "original": {
+      "source_npz_sha256": "033883c2afc684f836b6279afe494f3c829d71faf72f740eec1dbce930542569",
+      "native_layers_sha256": "02f018b913a5796f3c10b91f773cca7ab71ec5e0da3d9b1b1923884a25e2de82"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10333.npy": {
+        "sha256": "3d74172fbc796ce711d7a2b2cae18785a9f3ae082bbb3b8c011debb6bbdbc44e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10333.npy": {
+        "sha256": "ddddb0e068f72ddfed3741f9b6eca0ee7f1eeffcc77339d23c2002092a4a3c89",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10333.npy": {
+        "sha256": "5bb9ae43ef1f0c70690ee52d677ea749d9166bd379390e8f21550f5db6589e8f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19617068,
+      "1": 2368729,
+      "2": 1672699
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10334": {
+    "split": "train",
+    "patient_id": "10334",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10334.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10334.mat",
+    "original": {
+      "source_npz_sha256": "3780b254631e5b6652e807d86178011da1c77fb57ced4d12cf2fc01090450cd8",
+      "native_layers_sha256": "83b580adacc079d614d8b1ff5459e61fe966037c404eadcd1b049a9207408b05"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10334.npy": {
+        "sha256": "1fda4c0b98782bc19efae1e04d0b2983f40cbc68bc44e30d9e4837de5f8db0cf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10334.npy": {
+        "sha256": "dab23e899a2bc3a864d1c2888bee61ce1f2842105854d83f975ddade721aabf3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10334.npy": {
+        "sha256": "b6bcf4984acaf6c40ca7a3457f5225a6a1e73f5cbe099976ff44f08617907ded",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20003863,
+      "1": 2014778,
+      "2": 1639855
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10335": {
+    "split": "train",
+    "patient_id": "10335",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10335.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10335.mat",
+    "original": {
+      "source_npz_sha256": "ad3eddc914ededa11646d861b3a3410ee881782afd11c42d2970b1f7437d9b0d",
+      "native_layers_sha256": "0dc5940d2d0c49691a137d99d1981175b9191072ef8b559b4685475fa893238d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10335.npy": {
+        "sha256": "01ee23f57dcb342d862b3bc9338859eaa8818c3ab8d100773ecfa80ee060a8a1",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10335.npy": {
+        "sha256": "6044fb7c598a06bfced08a57b84bdb5913a80f30e7293b4c67116c11732a59e0",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10335.npy": {
+        "sha256": "64eb1521607fb0a0f7e64d76b4aa80daae43631e629f7c8f3a66cae3ef533416",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19157110,
+      "1": 1946969,
+      "2": 2554417
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10336": {
+    "split": "train",
+    "patient_id": "10336",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10336.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10336.mat",
+    "original": {
+      "source_npz_sha256": "972e81512719ad06375aae93a8115a44c35a88617cfdfbab8105fc83ba2176f1",
+      "native_layers_sha256": "80926803262789db297c366fcb509eb1327352b0a5670a44ea7f2c0a61ec4129"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10336.npy": {
+        "sha256": "a7baf0f471301274055cc22e994bb6ac2d616e5be3a4fcdf73c8fc181b215893",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10336.npy": {
+        "sha256": "62bf41da8d59da31be1e845f7abdfaaf2bdd934aa44868982c8702df360baed3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10336.npy": {
+        "sha256": "9c042fb4f03d58667e96e3bb82c5a4c2f8704742cc941a3f28171a70da65e3b4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19869386,
+      "1": 2064494,
+      "2": 1724616
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10337": {
+    "split": "train",
+    "patient_id": "10337",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10337.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10337.mat",
+    "original": {
+      "source_npz_sha256": "3bcbaa80f3eede0743a177c6d4eab3d8cdfc0fecb7dc774f7bc2728d309c63b5",
+      "native_layers_sha256": "337309f812033dd9576ac10be5fd7c443ec46097fad007b405bef093d9598b56"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10337.npy": {
+        "sha256": "42b99f165732e5105f1d78532af49e352f80b15cf9066445c1a2faa607c04112",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10337.npy": {
+        "sha256": "cef271878ef40ed3d2c778a9b925d09d30eb18450c9f883fd696402f97485817",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10337.npy": {
+        "sha256": "9728a7b3e6cd5235f0401d9d256f52f63add0270e42d8f7f7049a984b57afa30",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19946861,
+      "1": 2063410,
+      "2": 1648225
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10338": {
+    "split": "validation",
+    "patient_id": "10338",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10338.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10338.mat",
+    "original": {
+      "source_npz_sha256": "a2f2bc233ffc85ae0ffca2c4bb2cb30de1566db32e67c77b272652a46660de93",
+      "native_layers_sha256": "7ea3d9a7909156327d8a0754f2ecfa3c8428a79922e6296acbfe5b1bfe7158d5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10338.npy": {
+        "sha256": "6d09f062944f946e0cc205d3556af119b6ee15f5152a4d3d4106e3769201d245",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10338.npy": {
+        "sha256": "0f009e93d429883f71092c46be310f72e6df82373a9a871333964c11f7c994de",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10338.npy": {
+        "sha256": "b751d61a69dc5e91bd9969dff6f38d2ffe3ca1e8d54c4886cb121070cdeab7f1",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19694086,
+      "1": 2213144,
+      "2": 1751266
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10339": {
+    "split": "train",
+    "patient_id": "10339",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10339.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10339.mat",
+    "original": {
+      "source_npz_sha256": "df21279d8be43379c61c8191dd7c4e3f0cf62c651a3277cdf70ab2005a748050",
+      "native_layers_sha256": "84338262fed7cecb42ac0de35ebee93db0004c72a8a4ce1e686327f4d8a28262"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10339.npy": {
+        "sha256": "8e4f0466bf119b8fe55efecb729ff13ab4320c8800eccb9c3b6fc0fd6b6918d2",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10339.npy": {
+        "sha256": "6ad7a4af5fa0767f58710b969accbb8678cd8797647e544c43e42be64dd3eba3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10339.npy": {
+        "sha256": "b651f556a8fcfd4c1c1f1d2278864c86087c9bcbd64648205bc09b69e076d849",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19964007,
+      "1": 1924521,
+      "2": 1769968
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10340": {
+    "split": "train",
+    "patient_id": "10340",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10340.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10340.mat",
+    "original": {
+      "source_npz_sha256": "62837d63f4e8b10ea4dbe4881ff7f275b761e31c074df9b7efcf5d743031f44f",
+      "native_layers_sha256": "883872fc83b4b1deea510efba1c3c38930d86f69d7c10afa5475ef229512409c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10340.npy": {
+        "sha256": "12da2d684778e3496dbfeb757a167bab453bfe8a782bb1e930756283c9dc5f1c",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10340.npy": {
+        "sha256": "b6a0ce83488355c721469c746e36ed055bae64b669272464f0378bb5f2d080f1",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10340.npy": {
+        "sha256": "605dbb5580f98a2080ae40080108c5d2f133324fd70bd8325cb099d4178aa836",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19866329,
+      "1": 1961353,
+      "2": 1830814
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10343": {
+    "split": "train",
+    "patient_id": "10343",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10343.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10343.mat",
+    "original": {
+      "source_npz_sha256": "091bcf85a9488f91606aff9f6fe206c37607e4ca1cc5fdba56f646c80197a5d7",
+      "native_layers_sha256": "643dfc0641b412ac303e8085eeddf425ff216ea593b8008e1f5bbf9c53011a19"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10343.npy": {
+        "sha256": "cec51d9ea67fe3023e4d3f929a0ac84bb92f220e9ed873e628a50465b8baf0db",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10343.npy": {
+        "sha256": "d6c328bbcef9fbbf6972cc08d5a77b1a9abccd8eadb937c86d2ffab2b44582da",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10343.npy": {
+        "sha256": "9a1012c8e1d71e4714bf799d8dfaa46341e06ba8b18f943c0e40e9fdb8edb837",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19984735,
+      "1": 1977970,
+      "2": 1695791
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10344": {
+    "split": "train",
+    "patient_id": "10344",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10344.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10344.mat",
+    "original": {
+      "source_npz_sha256": "5a043699564656c18146e31c1cd1f498a3d90d83bd2504a9cc3065eae5362ecf",
+      "native_layers_sha256": "c124850ff76fca23e05c81810409b39f65af9d48ff4b963236552129d061e619"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10344.npy": {
+        "sha256": "172e384bfacfa5889cbf84632ce831c405eaeea7567fef4df17252946201f8c1",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10344.npy": {
+        "sha256": "c92e20b78d7ff8f45c876b25d0737ea8cdfa5d19cc586eae0e97145b9a322a1d",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10344.npy": {
+        "sha256": "51eef55e563ac4cadafdaf4ad33d7856a868f5e219cd03af01052165cfdfbd18",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19567416,
+      "1": 2197890,
+      "2": 1893190
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10345": {
+    "split": "train",
+    "patient_id": "10345",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10345.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10345.mat",
+    "original": {
+      "source_npz_sha256": "d878bbca47ad264b24e474326e16358c43f4f3695a4245c060bc0e241de9559a",
+      "native_layers_sha256": "9995647519c5b490b8b6055a2155141158ee363cf3bcae9b48649c91d562429d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10345.npy": {
+        "sha256": "6e74dfb174274dd4b5a2a5d87c17f946384f618f72ff70d870c6fe7f9fae8ba1",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10345.npy": {
+        "sha256": "0b552260daf49cee276ba2a089b838d985d4c8b6b3b725fec48abac445f8733b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10345.npy": {
+        "sha256": "f5d86fbb553f1c211654a3cd90b530784d0e639554def49d80e8a813fa6cda4d",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19719223,
+      "1": 2026144,
+      "2": 1913129
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10346": {
+    "split": "train",
+    "patient_id": "10346",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10346.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10346.mat",
+    "original": {
+      "source_npz_sha256": "f628fbfe8370d9c2735b4f9afd1d62dc36274904dabcecc7f6bc60aced5ada22",
+      "native_layers_sha256": "402b90cdc1504b5a8ccafed0fc27f0f9fa9b79f7ce7b42d74a804660672875f6"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10346.npy": {
+        "sha256": "c9f34d484f042fdc2410a3c98fbf64adb76913b516ffd3955a6e40ba30c7ec8c",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10346.npy": {
+        "sha256": "6893d7bf0f70e53e575123f43e083c583096b34c261e1362083de7b57e133011",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10346.npy": {
+        "sha256": "c3201087bdaebc77d0dc44b46d3dfd8db01d1a2261dab8fc1d29d908b92e451a",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19766350,
+      "1": 1995809,
+      "2": 1896337
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10348": {
+    "split": "train",
+    "patient_id": "10348",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10348.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10348.mat",
+    "original": {
+      "source_npz_sha256": "32cb50b5055683e5dce7518ce0ebc0eb71f9f1fd4e65e1205cc3bf66ad4dae9e",
+      "native_layers_sha256": "fd3bb409a81572512db900bec9a64468f1abc16df6511e71661ebf8dd931c24a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10348.npy": {
+        "sha256": "b5ad48d2b0d49a1084ae5d443d3d003f7baeb105aef1485fc67cb2f2939ef101",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10348.npy": {
+        "sha256": "ecf318caa342e53172cef7f62d6720248caa444bf07fa88732cc28ff0f6f29a1",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10348.npy": {
+        "sha256": "7ccfe7b2b1e32dfd838cd15ab9163f8b4bd880e682b766c1e6c3501a49b18784",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19688110,
+      "1": 2142893,
+      "2": 1827493
+    },
+    "zero_length_ilm_opl_rays": 5
+  },
+  "10349": {
+    "split": "train",
+    "patient_id": "10349",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10349.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10349.mat",
+    "original": {
+      "source_npz_sha256": "7f96724ba9e62b326d54198380d433f0d1b7e3d4c74f6bed0b0df358dc0eabf3",
+      "native_layers_sha256": "5279a25c928331abdeb97efc97f2e7d0d27f26cf73092693e23b350349bb79eb"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10349.npy": {
+        "sha256": "501102be9dd9b138895e04f00a1de277b0135e136dc62fa514469cea667a10f8",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10349.npy": {
+        "sha256": "52ff2704df9a380ea12f0d2bbf33b1f39d3e9698f64c2bfb7067cb7eaea1f7ac",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10349.npy": {
+        "sha256": "ef6e5a9bf62073b60daa63c2b9d49d618e536bdafde8f7749cd802d1835b9dfe",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19861758,
+      "1": 2019283,
+      "2": 1777455
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10350": {
+    "split": "train",
+    "patient_id": "10350",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10350.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10350.mat",
+    "original": {
+      "source_npz_sha256": "7676acc7b7319704b52e6b07087e38c60b40bb8d812eefeae3a3f30e27bc04b5",
+      "native_layers_sha256": "453ce9dc9db578166d4605f8b4c28a2e6f372a9d4604e2466bed0e033cd5a315"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10350.npy": {
+        "sha256": "a312270d1016b9c83b12f11e2459c8c212acda14006e571508b7ba8d96d69249",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10350.npy": {
+        "sha256": "fbfb8fe929df46912af9c87d0fb5834ac52e00bc068b833399fc94a66968e593",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10350.npy": {
+        "sha256": "4219698963b9fd0febb06a1821776282fb3270f2248d830cbd9057b706ac28a8",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20016798,
+      "1": 2008593,
+      "2": 1633105
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10352": {
+    "split": "train",
+    "patient_id": "10352",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10352.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10352.mat",
+    "original": {
+      "source_npz_sha256": "aa7ae212e7d980799618791822ee2c1a847bc20f625180c5e927e84187b0fbdb",
+      "native_layers_sha256": "7bb9ef17b48d9d0a32679cabfc577e4616f5e80017deeff8c4c505552fab096b"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10352.npy": {
+        "sha256": "69bcfe6f3ae5a19f91a7e80c0303dc8c1690a9af66f7233151925abe915128bd",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10352.npy": {
+        "sha256": "b576a58d216852388da3f44e349f130f39cc338cf407c25c368f67025f78073c",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10352.npy": {
+        "sha256": "80bde2442a83a514b69e4d52b06af733d652aaf060be746bdf5e693418897b5b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19831274,
+      "1": 2052916,
+      "2": 1774306
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10353": {
+    "split": "train",
+    "patient_id": "10353",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10353.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10353.mat",
+    "original": {
+      "source_npz_sha256": "86a565bf541143486b3bb06daaa54b6540330c57dd0125736a535147b4ee3059",
+      "native_layers_sha256": "957c884e2d79008878e57e9c54c290708579f421a979de039b7e2e7400dfe0d2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10353.npy": {
+        "sha256": "2dbd93dcd8e3c6f44ccc49e8d35761f1a62f4b4f55c69bc69f01b2cde6d3dedd",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10353.npy": {
+        "sha256": "a5ade70bff97399e2778114b8905d431cd5621111c80be674c8ab3e821a97bf1",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10353.npy": {
+        "sha256": "9a56788c892e6bd104b0ce3bb344719aedd00dc6f61aebfb53056d4eb273009a",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19676554,
+      "1": 2191262,
+      "2": 1790680
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10354": {
+    "split": "train",
+    "patient_id": "10354",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10354.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10354.mat",
+    "original": {
+      "source_npz_sha256": "f8fd0394dbcd11c6f3b9669e556bc06528ee6e1707101d9efb9bac1fa7cb0956",
+      "native_layers_sha256": "89aa44ea07c52bed1e5892c207c167e09b9a2d4b3c8ae7d60dd493c01c7bb48e"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10354.npy": {
+        "sha256": "9b63fcd11d6a4229baafebbd1d8eeb08979b640cb2e851d679988c7cac3405af",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10354.npy": {
+        "sha256": "2c5449aa9197d59538504fc0f609346e1dc5022d5d9ca72c51cab9d23cb8dc05",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10354.npy": {
+        "sha256": "725ad745e55f9226193e89c931d7185bc503a3c7687821d6dc6afa3b08167100",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19758027,
+      "1": 2324834,
+      "2": 1575635
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10357": {
+    "split": "validation",
+    "patient_id": "10357",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10357.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10357.mat",
+    "original": {
+      "source_npz_sha256": "7d959eca8cc4cf6d94e8a24f318ace02960b4559067ddb2caf15612699db02b6",
+      "native_layers_sha256": "1dd403f6c4b49b75e8078f4f08d8be3c5686bde9894b0c040b8770eb3b09a07a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10357.npy": {
+        "sha256": "1dc884369cdde658d1c58eafc96a911be4e03f4b0657f94e0e0fa8510e133877",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10357.npy": {
+        "sha256": "96f573a3a72f4ecda53d8c2abf982d0ffbf1ab8ce905438142c8348bbd560cc3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10357.npy": {
+        "sha256": "a9f4e9f720ec3c0cc5def1b64b4ab5e2e1cec18ad0e426b08191c14dccadb117",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19810066,
+      "1": 2045135,
+      "2": 1803295
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10360": {
+    "split": "train",
+    "patient_id": "10360",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10360.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10360.mat",
+    "original": {
+      "source_npz_sha256": "d95046d48f49008bb4d11a9bff9d24e4da044a7cc446b6ccc792ef8c1b96bdee",
+      "native_layers_sha256": "9600c592d3257f955b5519a2af1e854ae62847b60f64f0b39c6ab3102c42960b"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10360.npy": {
+        "sha256": "ae5052a5cfeaf79ad2fb36f1ff676a6ec3958704c5d0dac99c9266233f98705b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10360.npy": {
+        "sha256": "52be4cdca2c71fd99e7d3463ad588fb9d7fdd663536440eaaada5cc713f860ce",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10360.npy": {
+        "sha256": "c1e52ab894ef9283698bc416568c121f74a6a18b85d83726654588b8c25e87e2",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19725360,
+      "1": 2129032,
+      "2": 1804104
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10361": {
+    "split": "train",
+    "patient_id": "10361",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10361.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10361.mat",
+    "original": {
+      "source_npz_sha256": "da92823f2bf341e5ff681995fa3aded9f4318092f2cedc8020e99365bb17053e",
+      "native_layers_sha256": "64766b6e224159511c0d9b0c477711589c2f0d4a6b66061dced48bbe6f4a8c49"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10361.npy": {
+        "sha256": "fbaf0e18c98dab329cb63955cb5df5118dda5f3a5897b2dcd5521007e5f24bd0",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10361.npy": {
+        "sha256": "67a414bff94339660f1be0148cee93113ac325053e42192d5a6ad7f964940aa5",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10361.npy": {
+        "sha256": "f0428f0083d6e77e684db4a45add031f316dc8259387662ec8755dea347c4ab5",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19738650,
+      "1": 2016942,
+      "2": 1902904
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10364": {
+    "split": "train",
+    "patient_id": "10364",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10364.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10364.mat",
+    "original": {
+      "source_npz_sha256": "422a88ba8df50b442edc235c8e3c1a9ed13e121cee17bd057e5ed4ab1a9a0657",
+      "native_layers_sha256": "552c454dcca91894036ec349a8199e7770de70d0de99504f94140215e7d63492"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10364.npy": {
+        "sha256": "07ed2255dcc41ce2164f56162d59d0fc1d61e916866ca05d7efc4d702522cc9c",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10364.npy": {
+        "sha256": "5f41fe09403f627a112bc09c94d8b35ae8d3e99026f21efcb9b8a914f04041ce",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10364.npy": {
+        "sha256": "a2d3830e190b7e47b453faa4c1fc0b256d2b05300a4519947ec63c314cb55c96",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19813687,
+      "1": 2015183,
+      "2": 1829626
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10366": {
+    "split": "train",
+    "patient_id": "10366",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10366.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10366.mat",
+    "original": {
+      "source_npz_sha256": "af271d635ea4921c0a3aaa9349d61132d7556ac155ad885b4924a3594c21a525",
+      "native_layers_sha256": "f6d9a45c4948abd1c00adedabcbacc45aefcc88d822252ac686c8177e1ca848f"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10366.npy": {
+        "sha256": "cae86e46b8000cc26cb2bc00f4ed366a709368c9a632a691887cc488be631a2f",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10366.npy": {
+        "sha256": "aa8e7c5280b0f8140a798bd8d877d95cce1fa5a47d510bef25e5996c128c1a4e",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10366.npy": {
+        "sha256": "f37d779eea7b1bb8fc30a8bbf401967c3352f9fafbd8b15dbfc1a61719a26cbd",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19839640,
+      "1": 1952741,
+      "2": 1866115
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10368": {
+    "split": "train",
+    "patient_id": "10368",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10368.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10368.mat",
+    "original": {
+      "source_npz_sha256": "2a563e171c25cdcfa6bbafaed4001eeeaa2f308e29d22d83603445eefe3d0a79",
+      "native_layers_sha256": "c7e52aa7dfb5fdd543482b3db0b6c5ae2cc915531a13fa4831dd36fdc3bb958d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10368.npy": {
+        "sha256": "6dce68af45b9b2e49c896c48455c7373c576c909b99975f1a18c7ee040d7c64b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10368.npy": {
+        "sha256": "1c981eabfb33ae9cf685788efacf2fca7602ee647e0e07f2c3c644cb9bc996a1",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10368.npy": {
+        "sha256": "1df6a182fda5883566e28c996a7b27cf122999fd0ce28d085da8009b5b52ff92",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20171273,
+      "1": 1972681,
+      "2": 1514542
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10369": {
+    "split": "train",
+    "patient_id": "10369",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10369.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10369.mat",
+    "original": {
+      "source_npz_sha256": "c3674dbaca6857b05628a4dfc0e20a4871bead6e4ce839a20907314f02f1ebf2",
+      "native_layers_sha256": "1991c91587cba14c78f6a5c9bbb76d278335b8319b706da0693ca83aa0063a0c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10369.npy": {
+        "sha256": "22020c2303517f27d68b29304e62f86f3aa31c67f018db12b0a04924bce41b72",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10369.npy": {
+        "sha256": "2ccf8bbd5191b77a9bc330e82d1ec50f6d3ee53b06790ac93afed6baab547da0",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10369.npy": {
+        "sha256": "ff4b0aeccabfda6dac0f8f54cc083ebe4803d5b3d623806d1c681820e0f5b4c7",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19985224,
+      "1": 1963792,
+      "2": 1709480
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10370": {
+    "split": "train",
+    "patient_id": "10370",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10370.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10370.mat",
+    "original": {
+      "source_npz_sha256": "2a71c02b10f7b64435cd025eaea9aca4f01489cfbada9c1f90fd1333d53a4deb",
+      "native_layers_sha256": "0d6b40797e833b00265a81ff369a201fec8b2f45c05df0e7536bbc3f97995d24"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10370.npy": {
+        "sha256": "9fcfc7f20519ce387f0ba33dbbd29397b17bb9a7edae6a06dc1d87aa73d2e542",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10370.npy": {
+        "sha256": "cc08e58a14e64e47bd680748ff60014e0627cbc5a9c9aa1dbdd7a23ec6dbca98",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10370.npy": {
+        "sha256": "341076278769e56ea5ddd0399ce0f8da80ed9bbe682f980eaf89669048be2401",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19789655,
+      "1": 2177868,
+      "2": 1690973
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10371": {
+    "split": "train",
+    "patient_id": "10371",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10371.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10371.mat",
+    "original": {
+      "source_npz_sha256": "34e036996caa4e5d9fd3e8accc996c6fcb61251cbb144ccb7fd1812abf264116",
+      "native_layers_sha256": "39131e60fc50c3c668a8fd2250531c4886a894787eca8bd680671c60883929b9"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10371.npy": {
+        "sha256": "6d9e7989d50a45fad43ec04c1cb0fd748e7204717fb5a6553d3810de69b71433",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10371.npy": {
+        "sha256": "2059695e3148d14a6e12008913d2622a67d916f2223fa017509f53fc89563a53",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10371.npy": {
+        "sha256": "adde55f0572998b8a5ec6a3d290ec5e2a1e23946809e3de0683baf3f2028188b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20068326,
+      "1": 1940019,
+      "2": 1650151
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10372": {
+    "split": "train",
+    "patient_id": "10372",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10372.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10372.mat",
+    "original": {
+      "source_npz_sha256": "cd877236b9828e46f591433106d4ad30ebc5035ab09c14740b6e98107fdea992",
+      "native_layers_sha256": "4c839a6510462eb89985b8e6e2e95144089b32cbb86005fc42f65aebec674830"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10372.npy": {
+        "sha256": "7076dce0bde5b0286b5aeed8d470f36a7b08705d0dbbc7b7d3caedc012da9645",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10372.npy": {
+        "sha256": "987b5d93451d1d085a82a3cb3224277013600749260be65c4ffbad2c165f891a",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10372.npy": {
+        "sha256": "8eaad2b000ca3b728a5afba31ac611412514b2f380fc63067669ef1f81fb41f4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19880540,
+      "1": 1900194,
+      "2": 1877762
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10373": {
+    "split": "train",
+    "patient_id": "10373",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10373.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10373.mat",
+    "original": {
+      "source_npz_sha256": "b7e36921df04fe06ddcd051818e4582a05c4ea79cbfb0226030c9d87215aaaaa",
+      "native_layers_sha256": "4cfa2a0bba654abbac8fbb5779085a9d42bd0707b54b28a6affe55fb10cfdbe1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10373.npy": {
+        "sha256": "a8d4cc69eff26ded8562de44fb92a3b4a0a0776dacc0441255a24e926fee5940",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10373.npy": {
+        "sha256": "97e8b71b791f3d7129a84044fd25271b7992973a4cbd985cbfea82debfed998d",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10373.npy": {
+        "sha256": "8072534381ae91b36861402c0b5d4cc39d123acd149ee949b302c2323a98e88c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19152079,
+      "1": 2330705,
+      "2": 2175712
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10374": {
+    "split": "train",
+    "patient_id": "10374",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10374.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10374.mat",
+    "original": {
+      "source_npz_sha256": "51e2ec0ac0b99c36501b8072881f12d561a630b913f00dcfe439670cfffdd0ab",
+      "native_layers_sha256": "bdf47b440113b9d6f0fbca80f1e1053836cb277ecbbd6c0402c7cb30f09d1e0e"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10374.npy": {
+        "sha256": "1bca255fe6342ab977ffdfdada2542b13cd17fef634b30ee477125f3b0b08138",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10374.npy": {
+        "sha256": "ded0775a72b3ca524e69d64fd0f558e6907e705b1d3e3e561b8eeb0b5134d9db",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10374.npy": {
+        "sha256": "a167b82dc36fabcabccd4951bdbe663adcff9cafe68d65aecadcc7e6eee9d986",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19835509,
+      "1": 2130668,
+      "2": 1692319
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10375": {
+    "split": "train",
+    "patient_id": "10375",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10375.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10375.mat",
+    "original": {
+      "source_npz_sha256": "0ebedd6d2b582b2c931313114adee2e0e55c6293d57cdc20ebe9cd236dacc8e3",
+      "native_layers_sha256": "bbb544ca6e66f3990cdc1c4b0ff343477585a0ee5c360ca18a6c5cc34fda6e05"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10375.npy": {
+        "sha256": "904da1b51ecf49137b897a2569c60bcaddf66c4d0fb0b2aaefd3c08484dec1a9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10375.npy": {
+        "sha256": "4c3be5b3df50c6a809fe1392b486766b4a4df29679dc4d0600f50afc6e953705",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10375.npy": {
+        "sha256": "f5c563ebbd436143ca6f39b1cdc5d406dcf84ee0177cbaf6c71d460683df365c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19940976,
+      "1": 2014782,
+      "2": 1702738
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10376": {
+    "split": "train",
+    "patient_id": "10376",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10376.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10376.mat",
+    "original": {
+      "source_npz_sha256": "a763ff87dec1f092891752c80733057bb01fa66595e7d50a6ea1ecf7db7fd9ea",
+      "native_layers_sha256": "54198d8ad55471fd5aeee52b0b6e3fa2e2b56a70c3fc178e32cf5c0f5a6c26ab"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10376.npy": {
+        "sha256": "be68f90e2a250137eb88763b9f5cb1daba27945003bf6d8606b00f035da3a9cf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10376.npy": {
+        "sha256": "335f4d83e8589e7ade710d07149b34a5ca17d3c5c456cc7cdeb38e13a661dc72",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10376.npy": {
+        "sha256": "29eb1b0e1f202526c59c51931237d46341acf1dcdf083dde955d351fc4fbf303",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19811598,
+      "1": 2233957,
+      "2": 1612941
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10377": {
+    "split": "train",
+    "patient_id": "10377",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10377.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10377.mat",
+    "original": {
+      "source_npz_sha256": "af708d312d103a89dcae323460f2cb8cfdb7e970a57ecfc69ba3704d3a564933",
+      "native_layers_sha256": "b83d83c3f6d5b3fef184312d4d67a21b4741b0e686606866d13c7aba4b535ac0"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10377.npy": {
+        "sha256": "20b8c53aee85eb6db2c7860c2a680b10de0a6840b99cedf61a1fdf5b01859c3b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10377.npy": {
+        "sha256": "a5e5a36f37248e27fd171befd9e3eeb5dc0262dd49b33593a6f52df4c6130128",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10377.npy": {
+        "sha256": "92c834c7f5a9469f99e17e9ce5dfdcde92897422ac48192f0915d7dcc5dc7d4b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20027957,
+      "1": 1961919,
+      "2": 1668620
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10378": {
+    "split": "train",
+    "patient_id": "10378",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10378.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10378.mat",
+    "original": {
+      "source_npz_sha256": "0ec36c2c253b34598a67671a82d445487155d0cde7aaeea21817a087f6e166c3",
+      "native_layers_sha256": "dea0b346cc20cb59fe7823773784274e47071580e377f5d2d9a68c5f40ae44dc"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10378.npy": {
+        "sha256": "32229283e4785eed0360a1a1f26e4384e92540520bf3ea141c2b5032772923f0",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10378.npy": {
+        "sha256": "82c3c9802f5fe0150cec69c0f3f1b6be0bf2ea26afadc8d3a0678a9deba0b13c",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10378.npy": {
+        "sha256": "c47aa586d8002728f6cb09b804498ea0fddb32b5e08d7ba16760a2a8ea089ef6",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19762064,
+      "1": 2109236,
+      "2": 1787196
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10380": {
+    "split": "train",
+    "patient_id": "10380",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10380.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10380.mat",
+    "original": {
+      "source_npz_sha256": "9e6d4dd3514e69846ef37d6f386b87492c8e420d11b57a4434b57b80224c74fb",
+      "native_layers_sha256": "350b53daeee62ecca8a812ea55b94dd41a6995df323f06187a9c3db73a8be153"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10380.npy": {
+        "sha256": "748045a60910672e8f778b422f7dbda920fc9c02adaa5d6c4607e51009133326",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10380.npy": {
+        "sha256": "e65072334a2df463e32515a65a5acd5d38e36c61f1b1fe922be1e1467b39ea2d",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10380.npy": {
+        "sha256": "029a45344c930323cc249b989d2e466e33204a5c19909e431707ccc574c20029",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 18353654,
+      "1": 2678386,
+      "2": 2626456
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10381": {
+    "split": "train",
+    "patient_id": "10381",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10381.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10381.mat",
+    "original": {
+      "source_npz_sha256": "785e4f94b711d4e557cf93ce7c6977cd3f4ea9a520c0f81c5a8d726300e6cf40",
+      "native_layers_sha256": "af182e69331ff90c7318ee436c1ee9f0d640f3844f5dd96f618085f734330738"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10381.npy": {
+        "sha256": "e2a076a5d01c4f9bce2acdacecd2e48b4b6f6b8c914f8a908755de348353b935",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10381.npy": {
+        "sha256": "076ce7365721aed8cafc18472438a58110888ddbff2d2bb4368dd892187fb6ef",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10381.npy": {
+        "sha256": "529f0b2bddf5ebe1d20e8b9298d9ad318b110dcbe36e44f7290a91eb8b186c40",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19986935,
+      "1": 1959000,
+      "2": 1712561
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10382": {
+    "split": "train",
+    "patient_id": "10382",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10382.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10382.mat",
+    "original": {
+      "source_npz_sha256": "2361c8a59adb925e519c9290bce2c242b3a16cc53b017b667d5d0e4e0f0d11e4",
+      "native_layers_sha256": "53de5cf0e2c913098734ec73d8ef43f0da525abbadca8bdc15ffa457ee34d028"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10382.npy": {
+        "sha256": "b4e7ee24a66eea573729489c272de2e926dbe8b1c09b9f9eaa53c798cd394bf3",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10382.npy": {
+        "sha256": "1c2241f2e6fb6da53d233cf0b154d0b26dd344f6d42ccd01607c6cf138d2b2ba",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10382.npy": {
+        "sha256": "1cf554554e85cbbf9fcdad4d766b250d1ad242fe4707bbcaeccd7536970d8818",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19921392,
+      "1": 2074910,
+      "2": 1662194
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10383": {
+    "split": "train",
+    "patient_id": "10383",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10383.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10383.mat",
+    "original": {
+      "source_npz_sha256": "5e31b187e95a6d55b59e0d401423babc1ecc53440489f7015ddd8712a2f8fa58",
+      "native_layers_sha256": "ab45ea7ca2b93ae94edb269f3fcc6fc05d0b1e198d9e995944acf6b919097541"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10383.npy": {
+        "sha256": "941e464b952c1046459d04a5bb5f2460fa98a4e1e88f2da426cfdae8a65775b8",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10383.npy": {
+        "sha256": "71b5f0a714347a4c9a62e96ac312513ec8a76922a747823640f17ab08786bb62",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10383.npy": {
+        "sha256": "715cf299005c523aca15bb3eb428b4788c172abc4d5c0df4bd0ed6f390104c90",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19887925,
+      "1": 1995579,
+      "2": 1774992
+    },
+    "zero_length_ilm_opl_rays": 28
+  },
+  "10384": {
+    "split": "train",
+    "patient_id": "10384",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10384.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10384.mat",
+    "original": {
+      "source_npz_sha256": "b80962ca1c0eace1743ca62c2e4c90de29dfbcf8932fa6b40f569608306045db",
+      "native_layers_sha256": "f1607fea0a70dad88d0e107f5c28132e094cef5e57bfe19122dac4ebf1217602"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10384.npy": {
+        "sha256": "7349b97fe747813e21836211040b655fed9076f5f80f3ee7fb135d1306ea2a93",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10384.npy": {
+        "sha256": "fe3485cd4ab581f8e8d0bb4b759e43ee7dd81189c001a9d2f571df43d36b3b77",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10384.npy": {
+        "sha256": "952cf866d11fefe3263ae41dd66b14299a6624c3eb4eae3fdbff71775c3181a3",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19877159,
+      "1": 1970384,
+      "2": 1810953
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10385": {
+    "split": "train",
+    "patient_id": "10385",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10385.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10385.mat",
+    "original": {
+      "source_npz_sha256": "3ce46f2ae20a0808fdcc14ae449714a56ddcfa0e393c22e820930c42b8f62b82",
+      "native_layers_sha256": "861403eb80a9705c8b9ba33ab42813bda2054b7003f22df0547cffb72333a766"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10385.npy": {
+        "sha256": "692c10f0eb7f846912181759538d06d132dfbe7b768ea2a8cb7eca3b0a754024",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10385.npy": {
+        "sha256": "ca246906654543394b31ff022e0c1ceb4ab45851c1c9d552ff1c81957f08bbb0",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10385.npy": {
+        "sha256": "7762fc1a62225fd1a6147527a371802da65abaf9ecb1e9ce8cf11805f91b1f5d",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19619057,
+      "1": 2241023,
+      "2": 1798416
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10386": {
+    "split": "train",
+    "patient_id": "10386",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10386.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10386.mat",
+    "original": {
+      "source_npz_sha256": "cdfbcc46702c8e34a91c81e956032aa2ca6f473572d2091575c6835e5e478c05",
+      "native_layers_sha256": "79c05f1e6da52f0bb1b3c77ba471aa867e011e3a22622ced758a3bf02cf3059a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10386.npy": {
+        "sha256": "088f5b7bef3e2fb11a2a2a70a8920bee4b6d6e4f87a98e51446b9e236620daf6",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10386.npy": {
+        "sha256": "c477462921b005a468078963d56a997e57c267466f37c808e7af7ae5d59345d0",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10386.npy": {
+        "sha256": "7d20edc898172d050d0bffbd58c763bc5ebf3397c36d2a9deded08e2e1c20a99",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20102557,
+      "1": 1754093,
+      "2": 1801846
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10387": {
+    "split": "train",
+    "patient_id": "10387",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10387.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10387.mat",
+    "original": {
+      "source_npz_sha256": "b63c3d2fd58a645a69763fdccc2ec4c0c30867f721ed54396d873102ede1fea8",
+      "native_layers_sha256": "cb6bdff497e37e1a50ca8a8cf9732a92f3252b5a6dc1aaca6020be405695969d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10387.npy": {
+        "sha256": "53b8532dadc426347eb8113ae789b9e2c9eeeb48f2cff2ff40e5352889eada53",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10387.npy": {
+        "sha256": "0e15f021307910962ac87d0e05f3bdda4287d6c7437cdb4a930b39a165a9d489",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10387.npy": {
+        "sha256": "85bf2fc3ff056365e5056cb087877b53c3c2cef24390561aeb81619c6a744837",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20084889,
+      "1": 1931859,
+      "2": 1641748
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10388": {
+    "split": "train",
+    "patient_id": "10388",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10388.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10388.mat",
+    "original": {
+      "source_npz_sha256": "be08f4d0f1deeae75f4ed7dcfb0632c9d7479846ae3dbfd06be1b67ad4f27dc6",
+      "native_layers_sha256": "b72fe4c36cf637231d1b388b219868694210c5435ec0380f8247311ee53faa73"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10388.npy": {
+        "sha256": "3d74172fbc796ce711d7a2b2cae18785a9f3ae082bbb3b8c011debb6bbdbc44e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10388.npy": {
+        "sha256": "ddddb0e068f72ddfed3741f9b6eca0ee7f1eeffcc77339d23c2002092a4a3c89",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10388.npy": {
+        "sha256": "5bb9ae43ef1f0c70690ee52d677ea749d9166bd379390e8f21550f5db6589e8f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19617068,
+      "1": 2368729,
+      "2": 1672699
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10389": {
+    "split": "train",
+    "patient_id": "10389",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10389.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10389.mat",
+    "original": {
+      "source_npz_sha256": "53bb365520862229c8be8a66ee755c6c4d0746ac961ada25ff3094b8eb726323",
+      "native_layers_sha256": "8b40e29f2358ab8ef0902f45ac70987401cc86a44e5e113e735908ebec216cbd"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10389.npy": {
+        "sha256": "f1a0a35411bd5c8a1bd66e0beb8624c6529a31c6af446080def6dda92ac4b90b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10389.npy": {
+        "sha256": "82b82742f8fe15905f2d99679e579a2656a0d27c4be37d404cb119b9a2ef15cc",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10389.npy": {
+        "sha256": "43b8038f8c3ddc48f6e9d97bfbf7f1080818f7bfaa8f4a5d8d7f32db84d370dc",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19949735,
+      "1": 2083974,
+      "2": 1624787
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10390": {
+    "split": "train",
+    "patient_id": "10390",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10390.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10390.mat",
+    "original": {
+      "source_npz_sha256": "d73e40114722b024e5e79052241fde83ed5946355a4b6d1285f23f36a905db61",
+      "native_layers_sha256": "4f1a0e750d564a9aa99e45516905b90d8591cc8320a4ef80186ea930005c1bb7"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10390.npy": {
+        "sha256": "ea1f0bb042bba9c36799c3d694a0d4b7f941eaaadb266fc3b1e7d3f50c8c09f6",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10390.npy": {
+        "sha256": "50c5848223ad4fb5ce4b95ea1e0779d4418f3ac1e5b7e52449333f3b71e5f1c9",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10390.npy": {
+        "sha256": "4b1aac959ac76b5069f2d2535da3d170af30d4490309d32e249cb4b83bb7f456",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19857108,
+      "1": 2069554,
+      "2": 1731834
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10391": {
+    "split": "train",
+    "patient_id": "10391",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10391.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10391.mat",
+    "original": {
+      "source_npz_sha256": "bbf108c6b4c7070ccb661d03e37bf454da7d06dbf1b57cd46f1cfc56e3a19827",
+      "native_layers_sha256": "ca0edb40e67a855f06d55113ec51f3a00d05753004cb34c9a3c0190235ccfe7a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10391.npy": {
+        "sha256": "77c591bf0e4c048423ae17a169aea6c209ecca4c01aa05663d00149011599b6e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10391.npy": {
+        "sha256": "f6230b27be103127e2e20e5226cbb45e3cc7f428faf3cebd2f93945abe405d9a",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10391.npy": {
+        "sha256": "7085b016458cc07d1b903e6b422b65cd2bc573624e19e520d865807f98081a2b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19768907,
+      "1": 2093499,
+      "2": 1796090
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10392": {
+    "split": "train",
+    "patient_id": "10392",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10392.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10392.mat",
+    "original": {
+      "source_npz_sha256": "4aa1b4879809234c71fa44cefefba5bf4fbee594e91017e35d1fc821d143cf38",
+      "native_layers_sha256": "5e3ca0d30fc95e3c8c069c1b645938509d88cfb772c896b905959bbe3f59ab19"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10392.npy": {
+        "sha256": "947c8eae6e60f775c1d8a812448454eecfcdacda3ca792128f6187fa30c093f5",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10392.npy": {
+        "sha256": "471174d45ffe98e242d5d2ad57d40476095f393d19bb379a0d25491658b1d7c6",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10392.npy": {
+        "sha256": "70a074aec10dd576be2a2c08c5276e8d5ae2052a5b65f06a9ff8589829bfe365",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20223788,
+      "1": 1917846,
+      "2": 1516862
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10393": {
+    "split": "train",
+    "patient_id": "10393",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10393.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10393.mat",
+    "original": {
+      "source_npz_sha256": "88e29ab42b9a36e1f76dcb20b3d78805e27d4849454c04ca2d60889b72c2a6be",
+      "native_layers_sha256": "b4107bde3bc7ff267fb66f416d1dc1924b72ff28cac4756d384f61c44ef514f7"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10393.npy": {
+        "sha256": "2b60f2423a950732949573f5a47c3b2c74dccf921682f969012cae29834c6051",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10393.npy": {
+        "sha256": "cf3cbbcc7d0c5fa38bf7c1d4665e915868c584cb70bd26a3f7bbef8b72a16259",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10393.npy": {
+        "sha256": "52b657a6beee9b59db9af93c62c8954b46959f5a3c09455a8a3c81415669b575",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19995282,
+      "1": 1912602,
+      "2": 1750612
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10396": {
+    "split": "validation",
+    "patient_id": "10396",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10396.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10396.mat",
+    "original": {
+      "source_npz_sha256": "19885695670559d4e86ac0f9e4210ebaeb5c196f28243959a513f93a1885be4c",
+      "native_layers_sha256": "8803e4a99be3a298f4a42a8cc485b8a81380b4342828c68c755da766a6fe307d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10396.npy": {
+        "sha256": "b780394d15fff9472e60c97f1ae8efa04bef6c9ab894d83b71bbb22fb21cb931",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10396.npy": {
+        "sha256": "1c37ce2008d7c081f50896f7f9be5170c69184ee42503967f78818d459b95c12",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10396.npy": {
+        "sha256": "08b51ed9f78aff5d23042ade7314e745d453efdde11c0f18e5188e32725e437a",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19783041,
+      "1": 2145889,
+      "2": 1729566
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10397": {
+    "split": "train",
+    "patient_id": "10397",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10397.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10397.mat",
+    "original": {
+      "source_npz_sha256": "fc60bc10fe19ae240440bdc35d3fa3eba79b757015a9c5fd84332d7e15704436",
+      "native_layers_sha256": "3ca68c7b556f83172c5140fab7d2b276637f11be01a95da0967aaf3cd914f8ed"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10397.npy": {
+        "sha256": "9db9b5ac226270adf393d08471a33dade827089c8ac15f30d4ba15556941088f",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10397.npy": {
+        "sha256": "08548af819963005d539dcd4895a28664c7ffc7ece7dd1278639516c31c960fe",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10397.npy": {
+        "sha256": "aff1aefa122feaa2e925d4b74eee036c4c47471965ac32e69c2be5032820d564",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19630195,
+      "1": 2142234,
+      "2": 1886067
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10398": {
+    "split": "train",
+    "patient_id": "10398",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10398.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10398.mat",
+    "original": {
+      "source_npz_sha256": "eb1281f79b1a4065fdfdf382ce9635d28f7f7523c355186674426c6f6bf8bed3",
+      "native_layers_sha256": "e600cbff3da7d3e5b6c4dd5bae1c7fe5b05c8dcc94e6825f7f7a66ee0e722bda"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10398.npy": {
+        "sha256": "287f05053adefe18686c9514560c55c61becac351d5a0bb923e8cdd4d4a5cfcf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10398.npy": {
+        "sha256": "43333a3e899bd90faf53ff4fe073263a4d64e5a22f09b45af2b6834431610162",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10398.npy": {
+        "sha256": "7afed4f81f506ee674910562f70ae2f227c24e85820427f3698d79027dfc14de",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20079209,
+      "1": 1878969,
+      "2": 1700318
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10399": {
+    "split": "train",
+    "patient_id": "10399",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10399.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10399.mat",
+    "original": {
+      "source_npz_sha256": "0b5a6a66c2a5df11d6db46f8541114a11d2ab107bab89e36fff5197d36d094c5",
+      "native_layers_sha256": "e8ab588c35fe181ad6b7cf52b8e2c7731362ca1c7fa8aac48572418348ee1522"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10399.npy": {
+        "sha256": "9fb45ad476b9fb5cdfc76e5ff3c7fe0a68740a8787d467c4302c37c29bbf1f14",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10399.npy": {
+        "sha256": "2ef45b2566def686f463d91609f6e4f98256501e67cbb41bedd47147e9b32aff",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10399.npy": {
+        "sha256": "2f4ee3927e02fb247c83d80ca081ead838bc7aa322d9733f25d7b9f3fb78df65",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19983094,
+      "1": 1840328,
+      "2": 1835074
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10400": {
+    "split": "train",
+    "patient_id": "10400",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10400.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10400.mat",
+    "original": {
+      "source_npz_sha256": "efc293df67eedbd8e0ac4f5ed31bf6da516be9f1437c24084f1b369ff381b5d6",
+      "native_layers_sha256": "d524449e64f970d369a500a32ccbd70b4917ff753c316eb38799c4cad0f620fa"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10400.npy": {
+        "sha256": "7d43ea4ed17129bcdcfda62c58b4c763c2cecd021006656e561ff5d8e75518b9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10400.npy": {
+        "sha256": "d2b26d8532e1a14533a57881a9317f120e8090d171d4561a16e184c6656ef390",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10400.npy": {
+        "sha256": "5fdb598ca51ef1c792dbef3d6cca1c1db3b359699a7c599713c51db55d7d74f6",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19992415,
+      "1": 1957878,
+      "2": 1708203
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10401": {
+    "split": "train",
+    "patient_id": "10401",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10401.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10401.mat",
+    "original": {
+      "source_npz_sha256": "8da4aaf0f3d2357d361cd4472de8fb08fb980cbb915d18eb641fe78bc6653712",
+      "native_layers_sha256": "4a756f68e112d3886857b6b547cb0c730a824e2cd1d6b9298ebdba92998af473"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10401.npy": {
+        "sha256": "c7ba2722a4808a14a51720097c7b0c1119a56c5298d9917eeb6cb616b9394722",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10401.npy": {
+        "sha256": "1a1f0c4e6bf244f6459c0b5bf01acf87a414d305e00c25808ccff1728406b4c8",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10401.npy": {
+        "sha256": "7f82e3b0393aa16d2ef44b7fce4b7af2ca5fbd9de6d4cf415ffe291e84369982",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20394624,
+      "1": 1906834,
+      "2": 1357038
+    },
+    "zero_length_ilm_opl_rays": 8
+  },
+  "10402": {
+    "split": "train",
+    "patient_id": "10402",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10402.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10402.mat",
+    "original": {
+      "source_npz_sha256": "99e2335c1bc459422c7f65ae344728d5304a008ea5e0bfa70a039309dacf9a09",
+      "native_layers_sha256": "0f4c552873c28e350796d9d781dbc59cfb0e77687af1911bccccc0ae97cf71f1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10402.npy": {
+        "sha256": "06569173354aeaa7fb7714226e2b37520a0fbcf0b25a8f10b9d970bf883c6081",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10402.npy": {
+        "sha256": "83fafad633ab4a7e114b80e837ec1b1e830bcc9a07c53b00838db4bac55f0833",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10402.npy": {
+        "sha256": "c21ee2c92b878e0f9cebe27290f9448f359491b5244b2b650d491535f5ffb08d",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19883575,
+      "1": 2128882,
+      "2": 1646039
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10403": {
+    "split": "train",
+    "patient_id": "10403",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10403.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10403.mat",
+    "original": {
+      "source_npz_sha256": "555b674e8c7d49ff64d980d7318316a6e2010d9847eb3a79bacd602e8f2bb455",
+      "native_layers_sha256": "90fc20b0bf08f736d02580b40312e7a6bf90675c74be24a4ae66f242059d63ff"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10403.npy": {
+        "sha256": "fdd5c80a53e501005f86e8d7d7539bd4d10726712b889cd8c65ee574159df3ba",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10403.npy": {
+        "sha256": "1b50bf7dbd043008350df2116d2bf14a51a85374679c20b7a261e9dd0a3240ea",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10403.npy": {
+        "sha256": "42b9ac6e942a42cec5a1ea1eaf7b8e7eff0ef5cbf5d2333dbe2e081595d647a0",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19634933,
+      "1": 2182829,
+      "2": 1840734
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10405": {
+    "split": "train",
+    "patient_id": "10405",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10405.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10405.mat",
+    "original": {
+      "source_npz_sha256": "98512a3c99fc0055605834b0802ee36157cf688759cf7f782e16b499189e450d",
+      "native_layers_sha256": "1193b5f6a9c7e3af135b4f164557023c119aa1c18fe6322a4b083273e266c641"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10405.npy": {
+        "sha256": "bd094a5dedf3e614d5b3f7c0f3ed090266b823a156f2a0043c7d93f3cf3289e0",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10405.npy": {
+        "sha256": "0c48b632f30544820c5f6991c35d5639a4abc59fa96ed18ee035d152bbe58394",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10405.npy": {
+        "sha256": "78ed95234a1e098c3f69e3470bbbde82465844ff84c811d2d94f2cae0a7cfccf",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19833988,
+      "1": 1996360,
+      "2": 1828148
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10406": {
+    "split": "train",
+    "patient_id": "10406",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10406.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10406.mat",
+    "original": {
+      "source_npz_sha256": "59391ef57663f54ae23d14bfb83ce69d2223e08cc7792328d87e717932962761",
+      "native_layers_sha256": "605ec72ba86125ae849fb4ec18d60690ec56665b31178d92dba2f64d2101f164"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10406.npy": {
+        "sha256": "d66330f0d66068552e77e6341afc29a9735b0655af7c51c119a560931d92e559",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10406.npy": {
+        "sha256": "019e7865c43d6dbb7f092139488bb3b847bb85a78ee5ea26b649b6e2a08b7859",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10406.npy": {
+        "sha256": "ca1a88e8d0ce2e1245e502013f30a2b895c57ccbdb82cd40c1d2ef36620cc68b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19899221,
+      "1": 1993820,
+      "2": 1765455
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10407": {
+    "split": "train",
+    "patient_id": "10407",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10407.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10407.mat",
+    "original": {
+      "source_npz_sha256": "954d9c3775212f73b9a2e87a47851ba35450451e23aa09c982eddf47283e8bf7",
+      "native_layers_sha256": "1e607bf5b46ad395a37224414eaa3f2a2053a28810ada6d5bb9a0781e3920df2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10407.npy": {
+        "sha256": "923cca0c00f5006143fb3f6e2baee6fcf5e38dde8e537d4c88a0d7199a29686a",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10407.npy": {
+        "sha256": "25cc1db6679858bb09f7adb17d81ddf17794384613271067cc91a7b8bb8a8588",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10407.npy": {
+        "sha256": "647632c068d2da714b013ab2d24b064bcf5a0cbdf76c701b56c5d77c8b7eb70c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19464096,
+      "1": 2290363,
+      "2": 1904037
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10408": {
+    "split": "train",
+    "patient_id": "10408",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10408.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10408.mat",
+    "original": {
+      "source_npz_sha256": "d9580f31a10e4d07646e23f2aa188d52281af2fe985ee8f7edd16b6ed0298902",
+      "native_layers_sha256": "ad52df492cb7a4b6c1ffdf8822cd7c6b4294109974cae14b3171c5cfab4c2064"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10408.npy": {
+        "sha256": "8630633f23e65a6f93f48141a013c57424e17be8299b1e861014698b6fd059a8",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10408.npy": {
+        "sha256": "fa8df31f1d931098ad7d0e1e3132cf4412a536a0b4c72b70b3cfae074bdf7b09",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10408.npy": {
+        "sha256": "c51a5e7bf2ad094a0d5fb4cc369833b02cde011d3b36d292b1de71ed7e430fc2",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19507544,
+      "1": 2323557,
+      "2": 1827395
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10409": {
+    "split": "train",
+    "patient_id": "10409",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10409.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10409.mat",
+    "original": {
+      "source_npz_sha256": "865cea4e2f839b812498f8f3aa5dc4e45ae475d8fbaf19761c0f8705c6521b17",
+      "native_layers_sha256": "c79f28abd4e6c3f6f02a31e3c99f39f5594f2f3d9c84de64051df68b072dfee9"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10409.npy": {
+        "sha256": "984bcf4ae6b56a3fbb10163f10dabb48612b59695583bcf0a7dfaf86e7b849ac",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10409.npy": {
+        "sha256": "3961a09e3a8370967c5584cd92751c63050503c6bca7ad89e8d14120b0dfeaac",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10409.npy": {
+        "sha256": "d55b662933e66acdb8e243f98f8c06363cdec0670d5a3fad95d22ebbc238b4f4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19762223,
+      "1": 2195959,
+      "2": 1700314
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10411": {
+    "split": "train",
+    "patient_id": "10411",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10411.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10411.mat",
+    "original": {
+      "source_npz_sha256": "24a4f419fabc9242c6df295a4ba57186bc2b5746e187610874fc60a107021bd7",
+      "native_layers_sha256": "8c30337e326ad9647dbf48802aa3792cc84c638c7c7bc05b2b7ff1848993f17f"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10411.npy": {
+        "sha256": "9a883c6e81e0e5075c8b336d0243efa45a01359e8dccccba2c5e0e82246a0a09",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10411.npy": {
+        "sha256": "8a865298e92e6cb3f99a19d0102659ceeeba8696380502b3455f4f4b355d9e63",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10411.npy": {
+        "sha256": "66ede87073e2b539d8497592f02e46c86a8a8d0e0a044878b4d6a6b5c0177a4a",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20063527,
+      "1": 1996766,
+      "2": 1598203
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10412": {
+    "split": "train",
+    "patient_id": "10412",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10412.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10412.mat",
+    "original": {
+      "source_npz_sha256": "7cd9a69028d257f9f9c61a33068ccc3d0d2e81657694aa92a7561fa168cc8ac1",
+      "native_layers_sha256": "01596f78d52e5a923727e64e94150f5a870ffec48fe47d9cd48079461d4ee14d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10412.npy": {
+        "sha256": "be593b52b3b5fa6eab23e0b5d93b6bdb89b9b026e6a41be583ab4a48d0d2fb2d",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10412.npy": {
+        "sha256": "462639be73f8937d146e14b47e591b6b57c37fac12fb26cf390b890d4f993000",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10412.npy": {
+        "sha256": "ad7746921b80f1b683bdb3b26053de8e4d28a2b0d9b3b1b31c7936567f474dcd",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20006351,
+      "1": 1857683,
+      "2": 1794462
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10413": {
+    "split": "train",
+    "patient_id": "10413",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10413.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10413.mat",
+    "original": {
+      "source_npz_sha256": "ae4ee7d5d4cdbc05dfd33c12dd23958d1cd714ba838f6726e4256d2998bd95b7",
+      "native_layers_sha256": "7cc5ed720b62d3b8abd2f60dd3bbc81ec68d280966e7249d47f643ccf4fcd219"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10413.npy": {
+        "sha256": "2e8bfbbb54f419f6e0f7ec5e961f214c635843a18501bf6b0c9ec048875366f6",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10413.npy": {
+        "sha256": "e7ba22c1a40f6969d744182921fe77e3d7ddca21b25c9331c7e7138591217c61",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10413.npy": {
+        "sha256": "69311044b34086130a10a37615f52304edd6014641a0c1702aaa98067707b5a6",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19787960,
+      "1": 1985896,
+      "2": 1884640
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10414": {
+    "split": "train",
+    "patient_id": "10414",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10414.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10414.mat",
+    "original": {
+      "source_npz_sha256": "0452ec7058e1ee27617826036c855988da974f13a20e31f7d11ce3cc09167d36",
+      "native_layers_sha256": "a0804574c59f3298dd5ad395c97fba96e9c6faa5ef52c7bda0755c5ef1eeeada"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10414.npy": {
+        "sha256": "dbf63be89d90f03f5776d695409c7c2fba339866543cf8c5a695507b8c7516dc",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10414.npy": {
+        "sha256": "329d739d28f824c4b864d28cd2b219cfeda5d11c03c16a177e8b0b655e509f2f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10414.npy": {
+        "sha256": "7d85eb9bf04f48423659121b0b27fa5e43868216388b2cc923626efb94e6ec6c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19618415,
+      "1": 2163476,
+      "2": 1876605
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10416": {
+    "split": "train",
+    "patient_id": "10416",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10416.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10416.mat",
+    "original": {
+      "source_npz_sha256": "ab398fe85a600e53ea27c2642087ff30647d757073bc522b25931d14976a66fc",
+      "native_layers_sha256": "2410df4ba596e6413129e2acc16d37ec7966e384353df24bf12ba8dbbb82a0a5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10416.npy": {
+        "sha256": "73ad32a96ba8825e4b3cb42e60934d29b2253b14f12b6a80ca4eaef506479ffe",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10416.npy": {
+        "sha256": "25332f2e12a8bdd74d8442729ca3d7e76a6e1ea2186d39be4bf216f30e97a45d",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10416.npy": {
+        "sha256": "9908838aa0e12c39a3b96220d269e1195d07556c66bd47c46f35559c9bed1008",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19695987,
+      "1": 2082192,
+      "2": 1880317
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10417": {
+    "split": "train",
+    "patient_id": "10417",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10417.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10417.mat",
+    "original": {
+      "source_npz_sha256": "db558d8238ae9cc9252d1c7d9e05200bb5abf1af326343aa69dec2204dc11e8a",
+      "native_layers_sha256": "12798f2e26dcf0d7ee5af36c84a457b3ce922e91bc0a23047f76b6793303db8a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10417.npy": {
+        "sha256": "103b859eb0f4da1c6fbb89a095a60ba0e0b57704d0a327adddc4c7ae1f509851",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10417.npy": {
+        "sha256": "d9f59a58725ee6a541735b1ef1f3d6898b9b793b23cfa9f401b165f65b193eed",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10417.npy": {
+        "sha256": "6a6e984631e8b1a1ec1f56b0088b594ee3923350bbac3e32f3834c31ef73b5d5",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20162178,
+      "1": 1715627,
+      "2": 1780691
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10418": {
+    "split": "train",
+    "patient_id": "10418",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10418.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10418.mat",
+    "original": {
+      "source_npz_sha256": "cc7be4f63439ffce84f399b165b0add4176d1f945d2339eeca05a8ea1e9df083",
+      "native_layers_sha256": "8a25c330600d43e13f02584b406c24946339b55680efbe2c1d00eae6be0e0ba1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10418.npy": {
+        "sha256": "a382a12ec56856b224ecf3115c0958939ebb02fd70de5ee5076d43849d64ef20",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10418.npy": {
+        "sha256": "d5a02da492b661d2546340cb6f2044994461d93c755d6dcb0aaa53c8360a45e5",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10418.npy": {
+        "sha256": "465dc54774595d3fe14a2da49bfaf76ce0f584d29afd480f88f00eb8f4402da8",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19961518,
+      "1": 1983930,
+      "2": 1713048
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10419": {
+    "split": "train",
+    "patient_id": "10419",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10419.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10419.mat",
+    "original": {
+      "source_npz_sha256": "ab916e8a2247019972134ff2cade9e5353906698fb707c1459ae3f822aea7162",
+      "native_layers_sha256": "fa7b8500a014895d54eac1ca5a9412f59c7a4171d6614c7573c4ff4e20b54793"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10419.npy": {
+        "sha256": "a8a35c4c2bcfb427ef979d5d137283931c54391838ce2ebaade2833ac04a07d7",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10419.npy": {
+        "sha256": "4f93746fcac40268eeae6d55a2835a03ffb78ff7999d17fb84494944d220d661",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10419.npy": {
+        "sha256": "530d622544a3f71413e6443b27fd1e50529e0036387556eafaf2f80a62e4eede",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19811082,
+      "1": 2030104,
+      "2": 1817310
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10422": {
+    "split": "validation",
+    "patient_id": "10422",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10422.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10422.mat",
+    "original": {
+      "source_npz_sha256": "e8762a54a227181060771988c7415a3fb54970fc78f1d231b687414a1892c7c2",
+      "native_layers_sha256": "04c27dc7d6fda6aa0ef4a884241d8263192402a02e2bffc5984db1c75ba742e2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10422.npy": {
+        "sha256": "b0702bd578c98f81b25ef32457bea29245d35ffae4e9fec961d18b9e4a3347e2",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10422.npy": {
+        "sha256": "8153ad28765dbd8b28ea7f747fa23f1ced657a753eb7eb402c00391e585742f0",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10422.npy": {
+        "sha256": "5868574abfc64f9871e8db7a5e4d9c8b2f2e28715a5393604ac4abf215457d6f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19632275,
+      "1": 2120379,
+      "2": 1905842
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10424": {
+    "split": "train",
+    "patient_id": "10424",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10424.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10424.mat",
+    "original": {
+      "source_npz_sha256": "494dc56a45f747e78342e1fe3ab6c350549a020f48c0b8fdd38c5a9f9fb06422",
+      "native_layers_sha256": "9fc14168ce6e89f2392f1a2e6618e97da47d688a1fe5c079ea4d67e0db0aa99c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10424.npy": {
+        "sha256": "bd0f251d4c84b367a15683f395f209766028efe0146b873aeb34f749d8877c60",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10424.npy": {
+        "sha256": "f1d00544895ee09c4008e19de8777efbde7b582f7cb9718c22dca9502a770ee3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10424.npy": {
+        "sha256": "d00267dd20d14aceaf41ec64b5e015bbadd65ba9410f29fea78e9186da455748",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19972606,
+      "1": 1884702,
+      "2": 1801188
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10426": {
+    "split": "train",
+    "patient_id": "10426",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10426.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10426.mat",
+    "original": {
+      "source_npz_sha256": "4972ed6831e5a5ddd3b13ad5b7233762bc168b7c8954c2876da28239f3c5e870",
+      "native_layers_sha256": "178a3a8d935be607061455d5568577d0f621dfc4f643f7163bc7ade0b56003c0"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10426.npy": {
+        "sha256": "2f12b06ab186338e5a1243f584e64e8c29045eef540d4da7b3bb9b17d87b2451",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10426.npy": {
+        "sha256": "e5ab5c5696fd2654207918d504384cfe801034280ef141c29ae9036d0d74202a",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10426.npy": {
+        "sha256": "21062224fe314dd7f90370ac9d219c41a95282a0e608b5376550ec1bf085d365",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19811801,
+      "1": 2063598,
+      "2": 1783097
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10427": {
+    "split": "train",
+    "patient_id": "10427",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10427.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10427.mat",
+    "original": {
+      "source_npz_sha256": "c25c8575dd57738834dd450319d035c476024efc861624fd986250a1c3eae894",
+      "native_layers_sha256": "7e4670e245dc14f474671ca2d0530905663c09b57a71a1c744eb15d12ea5d876"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10427.npy": {
+        "sha256": "7d8a2e2acf9532d53b0177a568d0b0f881d3c78e9f69ab746f87710a7c31384e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10427.npy": {
+        "sha256": "892c005038bd2e772bddd6da3f21377beb5fa60e6133e57518c3293840d74559",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10427.npy": {
+        "sha256": "bd1e8310ac9be65e7703b4edec1c7703df1d6830b1289075b74118ee8fe3d237",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19611857,
+      "1": 2328696,
+      "2": 1717943
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10428": {
+    "split": "train",
+    "patient_id": "10428",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10428.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10428.mat",
+    "original": {
+      "source_npz_sha256": "499d5d06d08b1d80ac893e187fa7053e633b4efcebcf2c45c85b2618d46c3c69",
+      "native_layers_sha256": "4b19b0a59c3c1b4e1be33d64c3e33448cb8957b8254444c00de5a28bed5dfcce"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10428.npy": {
+        "sha256": "8dbb5a6c8958189de83fa0198426821b27618410ba3372e28ab53d3076b2eef9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10428.npy": {
+        "sha256": "c613ccbe58986b831b53ab0d4bfafdb6348cb04fd5e8c92da3919072e655eb69",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10428.npy": {
+        "sha256": "89097e2210738efa638fb2801ae1d54413f05267143dc4f69a33313419176ddb",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20024623,
+      "1": 1964076,
+      "2": 1669797
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10429": {
+    "split": "train",
+    "patient_id": "10429",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10429.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10429.mat",
+    "original": {
+      "source_npz_sha256": "c8cc9f884bc1f1209ec8f633de49d99df76c3bc8dbfad4514568786f163f4482",
+      "native_layers_sha256": "bb0a5a152ea2d1b0f519b334434c1344371ced0eaadc66ef84b23c09407d4566"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10429.npy": {
+        "sha256": "000b2d1914fe37d2471835cfbcdae24cc32705d706884dbfed336882ed4d53d9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10429.npy": {
+        "sha256": "e828e3c10f9b64b2b09c48a2434b7b21d21d5effd1c18b51caa9d8afa01aa12c",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10429.npy": {
+        "sha256": "c757cbff6a57bb96843ae5632126ef4847b9829570d86babd15b5db601b1bff7",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19706390,
+      "1": 2301693,
+      "2": 1650413
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10431": {
+    "split": "train",
+    "patient_id": "10431",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10431.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10431.mat",
+    "original": {
+      "source_npz_sha256": "66dcc176c8fa8542958840a5a948dc7a427af6701f1135c957d4da9282ad760c",
+      "native_layers_sha256": "dae6e903a57f620170124f85867724c250d9a3ad5a97c51c999f796cc2a83748"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10431.npy": {
+        "sha256": "f65473ba42710acfce26683fdb9bcd552d0c41b04a24b26b2270e879becdb408",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10431.npy": {
+        "sha256": "dda736d67dbc91cffed13308dd1fd633c00093a77c0e79a7ce767de85db155cb",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10431.npy": {
+        "sha256": "70748c48636d19217afde94be272a1b994e85c239bfe6509e122915abd8f4bda",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19918593,
+      "1": 1923288,
+      "2": 1816615
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10432": {
+    "split": "train",
+    "patient_id": "10432",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10432.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10432.mat",
+    "original": {
+      "source_npz_sha256": "fd5a024579420a2c339c6783f6c13bfc50f6ccc75b4fb05ca31bd51befb52e7f",
+      "native_layers_sha256": "648e90b8ded5ec3e3b2bb9e31cdc391df5938e59ae6c110e2fc8e86d2b7ec39a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10432.npy": {
+        "sha256": "88d877ed3f3cd90c906f5e654332659391ac5cbb35a4772fb46ffe8414f768cf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10432.npy": {
+        "sha256": "0afbff59c88f0f82d68f566d262eb84cb4cd455e815e9857bf2931760434e89f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10432.npy": {
+        "sha256": "abdc9e934617c5d8f18b01526d174335518c35176f08bd424e9112aaf73dd2bf",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19321287,
+      "1": 2379735,
+      "2": 1957474
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10434": {
+    "split": "train",
+    "patient_id": "10434",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10434.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10434.mat",
+    "original": {
+      "source_npz_sha256": "a65f8feab14ea74f4c131732877e95a8ee26c5c87519b1613a3ff8806e9b04d4",
+      "native_layers_sha256": "1e2aa63ecfe39977c9f70dc2d2eb055c32399da31d0edebce7a585ce47c8ad7b"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10434.npy": {
+        "sha256": "f68725815b4f1f8e0b1f265cd1710cc28d9156bff16f5bb0c3789ff7f2eaa936",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10434.npy": {
+        "sha256": "1f06e433df9e7c4c146e279c808e308f134672c9717cc673b8e9280f959a2a27",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10434.npy": {
+        "sha256": "bc157e9d2047f6b4576ac83ade0d7e4427255aae875902a5716f91dc2d810a7f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19476760,
+      "1": 2405937,
+      "2": 1775799
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10435": {
+    "split": "train",
+    "patient_id": "10435",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10435.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10435.mat",
+    "original": {
+      "source_npz_sha256": "b79bbcc2dc7df587ab1c5bf94199fa2985abf2e7f2f4cb31231326a753abfbe1",
+      "native_layers_sha256": "b4a592787d19fc7e6d660532e7b0256903f00df114c7594de917d05371c34ad0"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10435.npy": {
+        "sha256": "bb55f393a7c6d5fa2c4124b26240cedb5182b769823e6fc66735455ac7a2cf1c",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10435.npy": {
+        "sha256": "d1adb236e15624c21cab8114176fb6006f4eeabca8aa65f2547a68c68bb75b34",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10435.npy": {
+        "sha256": "c68dc772f9e087eb20c3c65e1bd2960927dadbb8d5af54d541d024d500beebaf",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20000533,
+      "1": 1994641,
+      "2": 1663322
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10436": {
+    "split": "train",
+    "patient_id": "10436",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10436.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10436.mat",
+    "original": {
+      "source_npz_sha256": "b5f7968a3a1e8436dfc949d5c616c29bdc397e118b415db0701f7e135ad0ab52",
+      "native_layers_sha256": "ecc218285ae7b2daa5ac0012157fab3938dd81444f556d686cf970ef155291a6"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10436.npy": {
+        "sha256": "c0f31bba76ffb0fb6134bb4afc0626a3b157e1a99356d01ae35fac5883e55f01",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10436.npy": {
+        "sha256": "f0b736c67c5bcd3db54797dea6e6732299fdd0ac7e754fb5067323f1d4b181eb",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10436.npy": {
+        "sha256": "057161781516ea0ae05906387fcee564c64f328bedd9e0267b19110ef0846c7b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19292960,
+      "1": 2108216,
+      "2": 2257320
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10437": {
+    "split": "train",
+    "patient_id": "10437",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10437.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10437.mat",
+    "original": {
+      "source_npz_sha256": "4f4d44bbda4976f3926b2a09dcc3fea0d499163366f5a78f2def5871bccf5703",
+      "native_layers_sha256": "6257740c4baff59cf4b291c5bdde0f3f763991bf6a0b5d2f37c4ca55e3e5e6a3"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10437.npy": {
+        "sha256": "89c811155cd8897f837f3574d8d4510a50ba6263d29cb282ada38b7eacc66add",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10437.npy": {
+        "sha256": "26151cbb282a5eaa8a68c1c14457ea54801e8fe1c8063bf14bf737bc224b7155",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10437.npy": {
+        "sha256": "f399258d6bb9fbc4d9960f68cf934104e678da60d39a39a6b78ae4142c0cbc69",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19584751,
+      "1": 2224233,
+      "2": 1849512
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10438": {
+    "split": "train",
+    "patient_id": "10438",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10438.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10438.mat",
+    "original": {
+      "source_npz_sha256": "88e72a3e0aeafd5de1383cf2676d9f955c04bf8790773aeba4c9a45c7ac425d7",
+      "native_layers_sha256": "7668e4b37917fced59ba1880086f185750770ce4f3fb01db7b5a8219a6ac1f4e"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10438.npy": {
+        "sha256": "d612d04b4fc8f83205510359f27d5efe36809db28ff735921cdc67aa5fa6e31c",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10438.npy": {
+        "sha256": "773590268921db6d5f029165e87a02e5d0806cc80349501daa5e75fb8d5cfa22",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10438.npy": {
+        "sha256": "1ad3840dae6c6bbe6b4233ed090de51ede083b3a953386c1b81eb442a072daaa",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19676571,
+      "1": 2119244,
+      "2": 1862681
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10439": {
+    "split": "train",
+    "patient_id": "10439",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10439.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10439.mat",
+    "original": {
+      "source_npz_sha256": "1f40f154f7c7607ef2a47b4f2054f4a3a4ff11e63b182efadbc0f160c20628e1",
+      "native_layers_sha256": "afffada453dbf519ef58c79e67d8179aadc6f441b9b09ea7f3bdd7b985c473d7"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10439.npy": {
+        "sha256": "046dbfd86834a4a2cc3dfeae928c67ed47838802f98d054f250e6fcd006a64cb",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10439.npy": {
+        "sha256": "e0680778e59e324973d67f43e0ed856c69d21b869dea762893541450eb538ba2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10439.npy": {
+        "sha256": "1c4ceed4127b6a5b56922531fd184d8af8f73112b938c8b1310e9441b56b0866",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19604280,
+      "1": 2189466,
+      "2": 1864750
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10440": {
+    "split": "train",
+    "patient_id": "10440",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10440.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10440.mat",
+    "original": {
+      "source_npz_sha256": "a4b9e2a55c236de03d59446af919e26a77504954029b078c672a442f54694e6d",
+      "native_layers_sha256": "431ccd1305dce6030709503a37f5068b520c8c769f3c537324940cb326e1afa5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10440.npy": {
+        "sha256": "ff36632b7c689a36400dad7cd3e443da25bb9a4a261ea123085d5906d5d5cc49",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10440.npy": {
+        "sha256": "f4e4c142cfb2928f49077a1bc2ba3166e6d8f7ff3f95a502cd50d4cbc5a50544",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10440.npy": {
+        "sha256": "48f421598abed947ff4ee92f4f52920a8b594dbc2d0af28e3caaf853a02f47e7",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19896165,
+      "1": 1959915,
+      "2": 1802416
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10441": {
+    "split": "train",
+    "patient_id": "10441",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10441.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10441.mat",
+    "original": {
+      "source_npz_sha256": "0a47124f6d50e8379c9a0f0b8677066064b6f5ae2e4631600502bbad8ec56030",
+      "native_layers_sha256": "47ebe3cede14685c9ccd81637302a0f9aad97659b1089a197e186eed2e0da410"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10441.npy": {
+        "sha256": "0e5b41538469e46be809b94990f3c5b8c81bbf7bf7d79441f4f25f5e49c1e716",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10441.npy": {
+        "sha256": "ce8231b5c095409ba505c258ddd2f1e07cebeff0e7ec2910b824099dba5647b3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10441.npy": {
+        "sha256": "c34b52525da7701163b18d88e1c4d6cd6c042cf5a797115b71804d31df3fd73b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19998581,
+      "1": 2104217,
+      "2": 1555698
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10442": {
+    "split": "train",
+    "patient_id": "10442",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10442.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10442.mat",
+    "original": {
+      "source_npz_sha256": "c4973cc214bb9995036779096fc76cb5a678e63d13262a1d24fc1be14eb4714b",
+      "native_layers_sha256": "bf7b6b9119dd6a26530edd5c64989f0a4e71f9560896bade166f6359b69dac25"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10442.npy": {
+        "sha256": "267ed8ffb097d4e8ada5d735d654c8dfee6bf8c5584d13080922b627869dffc9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10442.npy": {
+        "sha256": "4f0d43bfedb71dce77da38a50df2b1f2d09970bead6c7a6cb8c5a3c6d015f003",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10442.npy": {
+        "sha256": "1bad6c312afd7efcb3b199f497c2af4fae4bc54cade255b52499265dcf5d2217",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19908343,
+      "1": 1957881,
+      "2": 1792272
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10443": {
+    "split": "train",
+    "patient_id": "10443",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10443.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10443.mat",
+    "original": {
+      "source_npz_sha256": "d7f789efba386038c40ab3404a749392395a1ae2899a321c478666bcf9dee2bf",
+      "native_layers_sha256": "c3e99312a430997ef6725850fe01de49a22ed10fb41e19c151e6d1d8f573dc17"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10443.npy": {
+        "sha256": "6250ab1b198623aaa2c9faac78eea972b669442a701db784a1b1c7098de8ce2f",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10443.npy": {
+        "sha256": "cb576aaada1ed0ec17ab095a1d5fd28d025e470cefb84b650785d3377880ec39",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10443.npy": {
+        "sha256": "b421283dcba3da2b906fb40e89a3d7ccdc6bb44792a1be7738c42f90b0ba4bce",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19812890,
+      "1": 2041421,
+      "2": 1804185
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10444": {
+    "split": "train",
+    "patient_id": "10444",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10444.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10444.mat",
+    "original": {
+      "source_npz_sha256": "9663282164d41919a53371818acaab815694b573e2dca5fb0b066c88a1909c02",
+      "native_layers_sha256": "9127cadfe10d83ca9dc0b62fc3a0dcb2268b4824032a462a649c87e01d8858a5"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10444.npy": {
+        "sha256": "f9318733c77c46e7928d07b186296a5b79ee55c77ca65eea3b1510bd17b29daf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10444.npy": {
+        "sha256": "587da14ec98e1217275cdbc91fb0e6b73c40b1126d2e78c817e0a6f18299d879",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10444.npy": {
+        "sha256": "874f11603f976a0b6e89b62f9ae7760a253339c5b3d0a247f514fab0a27f669f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20027062,
+      "1": 1898186,
+      "2": 1733248
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10445": {
+    "split": "train",
+    "patient_id": "10445",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10445.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10445.mat",
+    "original": {
+      "source_npz_sha256": "7df4c1557e6122d6b57bae65512587c3d496836e8af7bc7d0b3f91c854c8b230",
+      "native_layers_sha256": "6cd6cb28714ca3363cea302df39be2e12cdb5f7eb07c168f52de968d35b70a65"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10445.npy": {
+        "sha256": "a294e6a1ec8a4c93f26ab8ce74fc26c5886caf02118c0e0742308fc2849f4881",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10445.npy": {
+        "sha256": "e14faeb7065732a67f67ae743d4d15cdc3495a08d960a62762d26de6e27389fd",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10445.npy": {
+        "sha256": "93e84e73f9c8b6d2b0bf7b57ff2054bd7a778dfea6ce10557a95f063dde6985e",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20016049,
+      "1": 2016285,
+      "2": 1626162
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10447": {
+    "split": "validation",
+    "patient_id": "10447",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10447.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10447.mat",
+    "original": {
+      "source_npz_sha256": "4ba0dae6b65632f2404a716f045aeceb3bc7b1c1cbcda3df6738d33875d832ff",
+      "native_layers_sha256": "515c4dc7e2995d3b39987d7b5a038b2b796ade4756bd9405adc5a34857dddf40"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10447.npy": {
+        "sha256": "f7bfe5e16996583585702d52fcf35cbe025bc889cf0a13c240cae80fd40b415a",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10447.npy": {
+        "sha256": "60876f37dc1de0e314b6a4ae34a59b2751560473f4c88cd88abc7edb14c3b668",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10447.npy": {
+        "sha256": "6b7c137e08b43ee4b0f527d1793ac59abb562422d0e0915390155b689dfa59cc",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19673796,
+      "1": 2212293,
+      "2": 1772407
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10449": {
+    "split": "train",
+    "patient_id": "10449",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10449.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10449.mat",
+    "original": {
+      "source_npz_sha256": "a901ffc1f0c556d0037bec3f1bb21a26c3ac613e76c7d65c6e0bed616ac21040",
+      "native_layers_sha256": "7c2a9dc52caa0c5d31ea26e4b2fc510e6e77749e9543a79e56f5c9c6caf09106"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10449.npy": {
+        "sha256": "3a37d38a8e745d20eab5055f33e9e4cce6ded1fad33ab737c07692235afbbc7e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10449.npy": {
+        "sha256": "f0b0f0332ee44ea465329ab4c448b00b822803b7faa0a9bf558c142e0e7ee0ae",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10449.npy": {
+        "sha256": "0533e8af48214bdd1935dae2b0191dc249ea29cf401d19a14a6228844d88174c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19801754,
+      "1": 2026483,
+      "2": 1830259
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10450": {
+    "split": "train",
+    "patient_id": "10450",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10450.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10450.mat",
+    "original": {
+      "source_npz_sha256": "a22940d955dccda515b517a887e5b15d22b9e7756fe4212f5f49292b64278dc0",
+      "native_layers_sha256": "5cc91936572fa1b29bf7758d22a4807efd2ddf8eba5f65e2c91180b0ccd8d700"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10450.npy": {
+        "sha256": "80f80b877539649ac1d646e05dacdcb823aca10e727d2ea29d1bee4119f67ff8",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10450.npy": {
+        "sha256": "33ac9dc2ac89f2747c5594ae09daad579d984e47cbbaaeee2e28e2d209f71672",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10450.npy": {
+        "sha256": "6bd4a9cccfc1bf645ee3bc5f6e732b9fca33bdf94c579ebeff6321865112c1c5",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19659082,
+      "1": 2158471,
+      "2": 1840943
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10451": {
+    "split": "train",
+    "patient_id": "10451",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10451.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10451.mat",
+    "original": {
+      "source_npz_sha256": "7bebea8e604efb24dc92152961d436eec26cf3c06f87cbd5768fd385b726b4ba",
+      "native_layers_sha256": "dfa6524c7111f1403255c4d270f5c7090441526a74ac250b73989ab4002a8b5e"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10451.npy": {
+        "sha256": "2ab71c9bac45b425808e96573debf1ddf85be3950ea779a941a8c1fe834bf714",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10451.npy": {
+        "sha256": "e01f4126a9a063a977772a91ebe0a96a6e9c9f341688dad995c84caac7a69190",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10451.npy": {
+        "sha256": "e49abea4dafcab6d2f0c668d9d5de236eea1eda8bc164bc716eb0db3350b3b96",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19904998,
+      "1": 2018860,
+      "2": 1734638
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10452": {
+    "split": "train",
+    "patient_id": "10452",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10452.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10452.mat",
+    "original": {
+      "source_npz_sha256": "1d55f38d11e34eb1c4ef4d9ebc556da5a394d5b593fc130fd7923b147c39efb0",
+      "native_layers_sha256": "62b4152b040ed0abfb6de7c036ca8ca23d3040feaec101283a495b2a9b59be75"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10452.npy": {
+        "sha256": "a654cc9987a9092e0d0ce9409a9fe758eb5c9aceca08d66a710691d7e46b7730",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10452.npy": {
+        "sha256": "5f8d888d7409529fac062d6343b9337851710c58b0444a84521edd54df37c0a2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10452.npy": {
+        "sha256": "ce04bd50b4dfd7cb8d43ef4398b1534f635d04b3247876c17ab94994a0d4d93e",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19743353,
+      "1": 2093018,
+      "2": 1822125
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10453": {
+    "split": "train",
+    "patient_id": "10453",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10453.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10453.mat",
+    "original": {
+      "source_npz_sha256": "15b738ccdc8ba9fd3e86a790a6078a3762f8a71a9f2cc266ac32ba8df1758104",
+      "native_layers_sha256": "98aee4dd3fe7956dac24180b4bb6810bd01d0fd44604e85b0cf59ba7e9747136"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10453.npy": {
+        "sha256": "9bef5166b6fbfb891311cb5c97881e5daad24755015a0a725cf8a8c73048bc24",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10453.npy": {
+        "sha256": "e98f01c5a6896882bdbe20872749ff7870b59a6530f0f894e581a2111436c9c6",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10453.npy": {
+        "sha256": "4b639ea911cb7983120a2140f45473986ff81b11cf34479721747a3ce0b62d62",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19862177,
+      "1": 2183932,
+      "2": 1612387
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10455": {
+    "split": "train",
+    "patient_id": "10455",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10455.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10455.mat",
+    "original": {
+      "source_npz_sha256": "def0820293b214d121c9110ccd382c9ee17a5f39a3f3ebb79ee94e7f1806243d",
+      "native_layers_sha256": "e8dcd3db8f82e91783b36613a730d4eb6e604719307a98c493105cb5cef77376"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10455.npy": {
+        "sha256": "27c6601db6059048f34fa7ecadce7d05171693348cfd63655437cd8d20b51494",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10455.npy": {
+        "sha256": "d1e6fa33188a185967b42308b55160c6a44a7e734402ea9bbe4a5a6c180c919b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10455.npy": {
+        "sha256": "31096906a9fb016e7bb7929dd0437927cb297987c496206dd2ca2771376a864e",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19714445,
+      "1": 2110992,
+      "2": 1833059
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10456": {
+    "split": "validation",
+    "patient_id": "10456",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10456.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10456.mat",
+    "original": {
+      "source_npz_sha256": "5b7a95860c0080a9a6228b959d5c77f0b23d5afba249ac9f6e39e508611128d1",
+      "native_layers_sha256": "708d0e8a0b79af0f1d514c15222f760c3c9afc1f24eafd6280dd480443592b50"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10456.npy": {
+        "sha256": "af5ae66669f134b96211ffe74b3003c301977a268f7206bf701abd321f9b343b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10456.npy": {
+        "sha256": "8a36888e94836d686c6aa6114a33de05a8c69599c46f7eacde90772bf279b42e",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10456.npy": {
+        "sha256": "9e7c43544cba4247c18ba738432cce35d7a6612e740f8717dff88014a33a211f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19870021,
+      "1": 2131142,
+      "2": 1657333
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10457": {
+    "split": "train",
+    "patient_id": "10457",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10457.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10457.mat",
+    "original": {
+      "source_npz_sha256": "3a0c77f673b0f13e1bd9027c71f85019d1ed4a430f1e820410558332577ceefe",
+      "native_layers_sha256": "fc479cd84f18d89243d9c80d376bdd031c82a65ec3ec2ff8c159137913678c6d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10457.npy": {
+        "sha256": "3f50ba95a436ce9123482e365de72e5baafc8b1517de399319310d64e675b71a",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10457.npy": {
+        "sha256": "6ce1d3d8d5d26f5956eb8f87b625b09e6f87c08831e3c265e1e5db49a1d3b938",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10457.npy": {
+        "sha256": "3a2a73f88ba47100a1b75b75de2928532408d9ba3a3f27ef5644e2e5b5f2b5b0",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19789887,
+      "1": 2015182,
+      "2": 1853427
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10458": {
+    "split": "train",
+    "patient_id": "10458",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10458.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10458.mat",
+    "original": {
+      "source_npz_sha256": "f175c904d6179e497180c796bb29b93a82e67ac3c64a5c0d95fbd60d7cdfd6be",
+      "native_layers_sha256": "629c0791134daa35d2da0b098fc00f615497e9c55c21afaf5202decd20dab4bb"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10458.npy": {
+        "sha256": "a2524062173284dc7f95a1bc3420a0b8da0be5a7b141f39947bdce34fd511b98",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10458.npy": {
+        "sha256": "e2a51ffd98e9c9446c8ba5bd1c00c5555d08de4fa8124e716dad76483ce7e411",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10458.npy": {
+        "sha256": "6e9dce15771d91ff14ee80ace9feecaa1a3a0e6c6794f21412f530dcdc60e860",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19736960,
+      "1": 2066841,
+      "2": 1854695
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10459": {
+    "split": "train",
+    "patient_id": "10459",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10459.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10459.mat",
+    "original": {
+      "source_npz_sha256": "7ddcb66b97c7924ee287d057728f4d19e50ecb2f35e095ec515376e489fb22a6",
+      "native_layers_sha256": "0ce27722bf0b9e58e0e62d2cd376067e496862d102b36be1f9032c90a8debff1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10459.npy": {
+        "sha256": "911a7369afed32e62e65cf920ce7623e235cd7ddea8620c643ac24dc89ea0b59",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10459.npy": {
+        "sha256": "4a93f016c808fd865a77637a0da4a3014532b58501c0b4eccd2da87326ea0816",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10459.npy": {
+        "sha256": "57ce26df716b81023d867c0ea9cf73c299071803cc63ffb66238e6fa8d9a4cbf",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19711316,
+      "1": 2069170,
+      "2": 1878010
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10461": {
+    "split": "train",
+    "patient_id": "10461",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10461.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10461.mat",
+    "original": {
+      "source_npz_sha256": "aa585a1dd0eb0588e150b964d32e7cf94e19c691fbb4c6d9f9966407fc9d748d",
+      "native_layers_sha256": "4b1e73e19ac7c38240ea684222cbb70df0e65d46585f9988df6c0db2ba4be736"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10461.npy": {
+        "sha256": "2ceff1256089a0e3ef473eccaabc4b3bab089cb64e1eb4d5dbc1aac9630206f1",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10461.npy": {
+        "sha256": "60aae20a83180d89780754435f86849c65f605fc8ba51a1b576f52007a6b117b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10461.npy": {
+        "sha256": "e5043c61f92addf53db2a380c43afc428c549755b06a1329b3a02b6210b6bde7",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19880551,
+      "1": 1911504,
+      "2": 1866441
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10462": {
+    "split": "train",
+    "patient_id": "10462",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10462.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10462.mat",
+    "original": {
+      "source_npz_sha256": "2102b126de9b1d1ef3837b0c1c2301dab3ad39cd951e77ffde0e427b5b7673d8",
+      "native_layers_sha256": "4aacad33d78bf93bf2307ee841ade79d42ebf0f5af129368db1fcd5c43307ec2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10462.npy": {
+        "sha256": "c308536338f5174f27d26fb865ef436592259e56ec1f1fcc2264658fded6fa80",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10462.npy": {
+        "sha256": "0d46849de1610239261011689e7af659c85011a96999647ba6d6f37a5ea081e5",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10462.npy": {
+        "sha256": "be99e34d20cbffdcb16cbb0f8941789982a2fce0302c4e6e0ea89a4187b556b8",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19785230,
+      "1": 1969043,
+      "2": 1904223
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10463": {
+    "split": "train",
+    "patient_id": "10463",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10463.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10463.mat",
+    "original": {
+      "source_npz_sha256": "03ee6736cdbd7bc171fcbee1a561a0b9e21c8ae60ebd24af18f00246be66b8f0",
+      "native_layers_sha256": "304e76b76c767d5c0e729b8e5eda8f49ef316b16803676a8100ee1f21d873cca"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10463.npy": {
+        "sha256": "b14e1318d759d3aa63d02d599f2c5b4000690b735dd3c76606a445ec0f1decaf",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10463.npy": {
+        "sha256": "da5043f192c0174c46ef0ff90d0e605b5bd518a012c720d0062797969611099a",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10463.npy": {
+        "sha256": "835a0de1208455afddd4c0c38c0347e7e7cc7ab4a29d6e0cc094a79a031ecf1b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19688303,
+      "1": 2128298,
+      "2": 1841895
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10464": {
+    "split": "train",
+    "patient_id": "10464",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10464.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10464.mat",
+    "original": {
+      "source_npz_sha256": "7524bc42e71a56f55713ffa32f04e0252920af34ae0b640e396a463203e2a32f",
+      "native_layers_sha256": "a8a9aa5acac778eb2ba7f48b3931cecae9e6d78bb5334bd684a228c62c956769"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10464.npy": {
+        "sha256": "5b281d39242d8cafe1fa2870d529aa16c8de4f52a818bb9b4a32b126966604e8",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10464.npy": {
+        "sha256": "fcbab938dcc43cf5f8f67dd8c96c94c223338bbc51f4e6230bcf7ba2125b97db",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10464.npy": {
+        "sha256": "bc59336ec88e2a65c8c91ad1eccd1a2c8d7119bc85135ff41ae6e5604f7652e0",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19795587,
+      "1": 2233044,
+      "2": 1629865
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10465": {
+    "split": "train",
+    "patient_id": "10465",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10465.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10465.mat",
+    "original": {
+      "source_npz_sha256": "324245b0cdd69f51bfec7d4bcf70921644c8d41690bb89d0b32e1aa2e38ffefb",
+      "native_layers_sha256": "da1bdbbc804949218ccace20635382a6cec58a1f0fb5a27a33d6f4791507a9de"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10465.npy": {
+        "sha256": "1a91fa8cf6f105bc6574394ec302d61247e793d4d8d5bb45650575d20d053619",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10465.npy": {
+        "sha256": "15ddef2326425298942d95eaccd862418a3968826e7868525d4407612387cad3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10465.npy": {
+        "sha256": "1ffec7ba99a96b200ac74c4683c9f6a12f5277397cff660e27beb48124f0c63c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19945176,
+      "1": 2061041,
+      "2": 1652279
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10466": {
+    "split": "train",
+    "patient_id": "10466",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10466.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10466.mat",
+    "original": {
+      "source_npz_sha256": "e4ece517cfb6c07872455ca1dc308818ebab564dab316b4523fcc8952995f378",
+      "native_layers_sha256": "3e106810e4bbaaac53797564128c5fb72caad672be6cbb07b6366a4bfb5a5184"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10466.npy": {
+        "sha256": "5ecdd3178bfadb232a934270d90bdd23fb197768b4ba1a87c34c2e1753ad1630",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10466.npy": {
+        "sha256": "cc2ec7b573d26577421b9da9bfa0384ee58eb565d061f6c6359b4edb7a94c385",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10466.npy": {
+        "sha256": "2b5840ecfe8db2f6df682f9863afb27b841c034dad93f77ac775cfb829775ad4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19795855,
+      "1": 2238207,
+      "2": 1624434
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10468": {
+    "split": "train",
+    "patient_id": "10468",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10468.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10468.mat",
+    "original": {
+      "source_npz_sha256": "bf4bcfd5dff39b0874ba9f61c32e6b069dd9dc5964473c904fa865f96a729738",
+      "native_layers_sha256": "738ef362c8fc7b36990138e8655ac3280da2fc54ba5c152844a8c0f0e78e24b1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10468.npy": {
+        "sha256": "a635eb3a580a2e59675131955b5d01f04e4aca8ce435122a0918ee0d961b9f0a",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10468.npy": {
+        "sha256": "401cb0b403252059a828e3e72a77c00cc1600481941912d65a789ccc683d20ac",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10468.npy": {
+        "sha256": "84f96835454a0a6ad9a3e51ee8abbe5333032378c6b97b231c2be9ac33626988",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19861273,
+      "1": 2078425,
+      "2": 1718798
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10469": {
+    "split": "train",
+    "patient_id": "10469",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10469.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10469.mat",
+    "original": {
+      "source_npz_sha256": "43f22f498fdfc44b0c6c1076bd93282fc6452fb478848e0781c64db59c6b2a94",
+      "native_layers_sha256": "8a6c1307d50631f4289ef09e74aca7496e25b7f64390a37aee3be0ce272f3405"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10469.npy": {
+        "sha256": "19744ad8b4b7d9c92bd92ee5858dce312c5aee98a1ea6cc34f2add87853738a9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10469.npy": {
+        "sha256": "5d9ee6bb476d68c0b6ac5816936afbae485f52be8e8c4f755231148bfa211e22",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10469.npy": {
+        "sha256": "bd90fe5008227c3cad07030ae7fdc22685da0a98b57c4f9e6c138c6854216bf9",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19790277,
+      "1": 2015552,
+      "2": 1852667
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10470": {
+    "split": "train",
+    "patient_id": "10470",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10470.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10470.mat",
+    "original": {
+      "source_npz_sha256": "e8d0c5e0fc72127e4d00af5912a3e77ad4a068550b05dda1e294afb2debd6aed",
+      "native_layers_sha256": "a7cf43e52c1e1b3cf8d588e5e14d0fdd942e31ec8089dab331f5823360b08a0a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10470.npy": {
+        "sha256": "3e82b28c2d8dc15600ce5082be9eae977cf86d811e2ac0a88104acb8275720d3",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10470.npy": {
+        "sha256": "d63e9a4c07e9fca275b858fd5bdf9c80284b1a5d255590f0ddc4b6ee5bca8932",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10470.npy": {
+        "sha256": "41640befc7b6a10bb86d5df95aafa0627ab395e1339f547b600781ee655d7796",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19754755,
+      "1": 2043199,
+      "2": 1860542
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10471": {
+    "split": "train",
+    "patient_id": "10471",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10471.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10471.mat",
+    "original": {
+      "source_npz_sha256": "34dd2c9672f813224e26fa79c16a785be0e53f796c51f102480208d2ff1c37f4",
+      "native_layers_sha256": "e4b5f759fff56fea5e335cbc5261c2db7dbcc1ef824a1b851e42215b0a5d00d2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10471.npy": {
+        "sha256": "8bba6259ceee825e5b3c2e091eb82d9af9cb441a79b5105b5b983a5defa9e09d",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10471.npy": {
+        "sha256": "b0f60913e000fff1b1cc497304a9d5041cf22be9811e34f361e8d3e96f2cd9b2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10471.npy": {
+        "sha256": "ab68f159aa14e5e7794e26edf296b09147afcbfc892836dc6be18c5cf4e62446",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19855214,
+      "1": 2016780,
+      "2": 1786502
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10473": {
+    "split": "train",
+    "patient_id": "10473",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10473.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10473.mat",
+    "original": {
+      "source_npz_sha256": "98e0c60a8afe31cc4ee8d3c708a655686447467dba9439079a82b3bac9a6c91a",
+      "native_layers_sha256": "f75ca8ef466fe6c8ad1cae6882fd52166eb6923df6431afeee5d7e98f0d68250"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10473.npy": {
+        "sha256": "6c352d64e97d59bec706b4d030d516b4e4c64e6e660028f07f1b8e51dd727152",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10473.npy": {
+        "sha256": "b40ee39052b993b4c0012853f269537eebf4ba70c011ef5c1f06cc1a5a206ad4",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10473.npy": {
+        "sha256": "9915ba54b47e0241213ecd9b2da926fd129c5ebe47a68426320e2fa3f172f265",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19972732,
+      "1": 1912096,
+      "2": 1773668
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10474": {
+    "split": "train",
+    "patient_id": "10474",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10474.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10474.mat",
+    "original": {
+      "source_npz_sha256": "94804d8fd7513c5d451ef0df8019808fef434e111542cea62ca97964b82fc3e2",
+      "native_layers_sha256": "4cd2786cb9a41da05060c677cc92c0ecfe210ae262a0debda39a4d1032649389"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10474.npy": {
+        "sha256": "f2afe5e95d3b1a7c823a0e30c182e9099bb1dc20bc41a1e15301cc33d1651fe6",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10474.npy": {
+        "sha256": "f3a87ccb02a763bcb918ff8ab775f9954882c5506b28ddbc803579876b8611ea",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10474.npy": {
+        "sha256": "733aee60ee21518546d2b41a3f007b00df7417030336fed090078f4ddb7b7715",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19559700,
+      "1": 2242682,
+      "2": 1856114
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10477": {
+    "split": "train",
+    "patient_id": "10477",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10477.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10477.mat",
+    "original": {
+      "source_npz_sha256": "83d02f7c188bb3d6641d2bb1e145f6a71dad0a4afded9b246cfbf30e5c558d06",
+      "native_layers_sha256": "b856c934c3b6b016597e45f1612f81b6779be4065d9dae5f5b225b1357879d8f"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10477.npy": {
+        "sha256": "afb555b5adbe952fc3c56553a05925defd0c7314956d846d331b09097ab60920",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10477.npy": {
+        "sha256": "73a6013268280c0cb22f41ed109135c73b5201301d160904323b2be5b9d1b187",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10477.npy": {
+        "sha256": "b21fb4f6b3f6a2e41e34559d00a87e97789c7a7535c3389d958b4bf065984697",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19785260,
+      "1": 2086770,
+      "2": 1786466
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10478": {
+    "split": "train",
+    "patient_id": "10478",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10478.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10478.mat",
+    "original": {
+      "source_npz_sha256": "465b42e3bfde275807039f73d170f5b14bc7e3caf55ce440f07689921cf9b1a6",
+      "native_layers_sha256": "dbe9cbc889038b29474595e5eff1e6bb3f2091cdf1c00f7eaed80f7e546cd782"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10478.npy": {
+        "sha256": "96242b706850316319e48d7803c2824eefbd863b4d75fad90589386ce7031725",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10478.npy": {
+        "sha256": "4a32b73e6a3195346c4b088620c0bc8fcd359b3b7b5bb440884f9fe45c0f4ea2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10478.npy": {
+        "sha256": "8885401e28779d2a2fc4ecc838108a68af7031427b8ab0ad401dfc4786f847ec",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19983086,
+      "1": 2102102,
+      "2": 1573308
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10479": {
+    "split": "train",
+    "patient_id": "10479",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10479.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10479.mat",
+    "original": {
+      "source_npz_sha256": "a9b8ee284c0e83229133707d58c260bb1640a67143c6e1849967c7c57454c56e",
+      "native_layers_sha256": "bdb6f6ce2cbcb5d807d5d31f54aa29e8e1b34f9471d1b3a8e7a462e6d0352d0a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10479.npy": {
+        "sha256": "afd49e09d66b43de9e8219563684937ad31d01433108954bc0b8e6476aad0d9e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10479.npy": {
+        "sha256": "98179aaa5e71b818c2d958d8ce4fe0b7ccaea97a22de34290ba54dabd8c491dd",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10479.npy": {
+        "sha256": "62f08e524c7352a55af614b4bc0f4b8d39763dc9db3f69a37ec576f23028ce45",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19389767,
+      "1": 2381014,
+      "2": 1887715
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10480": {
+    "split": "train",
+    "patient_id": "10480",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10480.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10480.mat",
+    "original": {
+      "source_npz_sha256": "1cd22809f90c00389f88fa94c6a49f5f80e8876200b236701f8916d05ccc89c1",
+      "native_layers_sha256": "8d8b7de1355f662cfb833a86996c6276f21521b692fefb0ebfd95fe2f3e450ea"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10480.npy": {
+        "sha256": "ede2e1b49538a3b6b41be0a6cda187b22ac55e2bb1b29601a6c57d74d916a768",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10480.npy": {
+        "sha256": "a3bc1dced9adc522dd72dc9876b4b025579eb674f696511af0ca4468d84a169b",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10480.npy": {
+        "sha256": "eb1fcd5e60b08484b49355d438f144a30acbe2710f14eb2deb625443c5f11c69",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19753610,
+      "1": 2129749,
+      "2": 1775137
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10481": {
+    "split": "train",
+    "patient_id": "10481",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10481.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10481.mat",
+    "original": {
+      "source_npz_sha256": "5f4e0c08003fe16a632b4a5d8515f11d7d898207c3b8c873301643814a61aac0",
+      "native_layers_sha256": "0745a2323d98ba9bc359dc8039faa63e502eb715284b3b686da8471832d6ba29"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10481.npy": {
+        "sha256": "59397e2de5c1a6820aa5e385d6c7fcab9549fc2b15eea192fe1755452eed80b0",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10481.npy": {
+        "sha256": "c236e85399ca9cb430e55a504fb3a7e66800f8543f44851043810b86f433f3ff",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10481.npy": {
+        "sha256": "cbd16f985e46b61cbc1b67c389b36414661303c23c6d61242fd323be2ccf99ae",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19995480,
+      "1": 1938058,
+      "2": 1724958
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10482": {
+    "split": "train",
+    "patient_id": "10482",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10482.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10482.mat",
+    "original": {
+      "source_npz_sha256": "7e9e199180ed645dbf9890dcd6ca4873e37946abe6a49a334c628536e14c2b6c",
+      "native_layers_sha256": "aa1817a2d7d1f476fce8edaf6edc5751ecf5e0a104c31b972ea16d4ff86e7f7b"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10482.npy": {
+        "sha256": "029c9f6fb2a56b52eb1d93bee6296a5b3ebe9c2094d44e6331e190d98de9d7d6",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10482.npy": {
+        "sha256": "70bd3d8d994fd3b98f78a409b988098191003e990069481934ae8c7544ddf5ce",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10482.npy": {
+        "sha256": "ccb0cb17e428ada160843c1534a9f70738c122bca05e241041dc974d552446d4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19907513,
+      "1": 1947471,
+      "2": 1803512
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10483": {
+    "split": "train",
+    "patient_id": "10483",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10483.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10483.mat",
+    "original": {
+      "source_npz_sha256": "803dbffdf600fded0e71cb7d3c137ccd916829e1da71df44da236f888b9cfde9",
+      "native_layers_sha256": "a34d532c3a2c926aebb6936541b6347f89fc5a8f500bb71a6738e7a8a4336c6d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10483.npy": {
+        "sha256": "c3c66d09d71de25b083b4fb01de497faf77dac1fe8b6772e7b469217671fd96d",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10483.npy": {
+        "sha256": "74911b99817c0c179f2e2f754c35f771b7af66764e243cfad9366138cc7e3d5c",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10483.npy": {
+        "sha256": "0a7f725488e3912b435c841bbb0afd35e3c37c8c0da1330c7e837bb00f77367b",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19815884,
+      "1": 2185768,
+      "2": 1656844
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10485": {
+    "split": "train",
+    "patient_id": "10485",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10485.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10485.mat",
+    "original": {
+      "source_npz_sha256": "7820c258b9a4fc28cd7c69ea9e84a2aaf5233f68fe34b2f5adc77734dc40ec43",
+      "native_layers_sha256": "c6dab0ad12749ceb2404d08b330ffaacf8afd9704ccbe7849e2dd4d37c76ef1c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10485.npy": {
+        "sha256": "419111c1e2372f7e8b31da3a231439f9ba29d837d4af56e4b4b765164f532592",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10485.npy": {
+        "sha256": "7528bb636b425b84d78eb2a3bfc8f148fe6e958f76376ccb562be691d0108335",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10485.npy": {
+        "sha256": "223e94e253798d814a6eea5bc5aba1a146edfbb38848f63b210ef5cd36ff460f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19762994,
+      "1": 2071893,
+      "2": 1823609
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10486": {
+    "split": "train",
+    "patient_id": "10486",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10486.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10486.mat",
+    "original": {
+      "source_npz_sha256": "5a7981351bc711bee9156cdfb7faa268289932083419d1f15d72a96a98ab668b",
+      "native_layers_sha256": "ac16b547c3990b2ce3f298aa163cbaf0897e7834160efe95d3445bd9b8bf2fbe"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10486.npy": {
+        "sha256": "e059164a4c60386f830852d24f5e9faa998d17a8ddb689ac7a59acb9ad6a7603",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10486.npy": {
+        "sha256": "bbf75215b0f2bd6aa0b38c7e2272d2987526d3c2dd0a10329b486916d6a4d4b2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10486.npy": {
+        "sha256": "dbf3bbb2dba86b5d972c3604cb689b63fbf74515dbe5d49cfc5d05aa53ddd111",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19891206,
+      "1": 1918204,
+      "2": 1849086
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10487": {
+    "split": "train",
+    "patient_id": "10487",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10487.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10487.mat",
+    "original": {
+      "source_npz_sha256": "04bc6e8e2154fb7c6807cd9ffda83a62ce738145ef1e62dfda963bcb85374439",
+      "native_layers_sha256": "129a0d01bb3569155e2a688cc46e601c6d56768cb6bb98a26a171cb413c6c2a1"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10487.npy": {
+        "sha256": "edb7095db23ad107bf467d727955a4476f6eca473866b4c997587fd0eebcc701",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10487.npy": {
+        "sha256": "03a776d1a2a0c725610af10fe975a88cfd7b0d5d240bc5ee6066c0e568099db2",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10487.npy": {
+        "sha256": "351c611f118684da211513f1da1de5e8930aff0dde21277172c169a9ff17e237",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19615432,
+      "1": 2175228,
+      "2": 1867836
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10488": {
+    "split": "train",
+    "patient_id": "10488",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10488.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10488.mat",
+    "original": {
+      "source_npz_sha256": "dfaec84922f59960d0a65b0114ce492810f4897d8bdeb0d04707f7d7cc36e580",
+      "native_layers_sha256": "4b507ad190bd2016be571e3ff0f3854b66a91f299ebc117a0bb35b180f0dd675"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10488.npy": {
+        "sha256": "3faff96b24bfc34276e6c92397d070847bdafcdd26ba909db30f7ad28e9326a9",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10488.npy": {
+        "sha256": "4fe065736aa5e215fbb63b26068022898142cc0726132e38d00cd342315f40f8",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10488.npy": {
+        "sha256": "0056511bf0c9ffba7b4f122a342b0d8426edffab2eb4b7c94def982c05900705",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19836223,
+      "1": 2055915,
+      "2": 1766358
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10489": {
+    "split": "train",
+    "patient_id": "10489",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10489.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10489.mat",
+    "original": {
+      "source_npz_sha256": "47d58e8c49f25020f74e718f9aa7305b9f8c01b1868023bed62e42dc366688c3",
+      "native_layers_sha256": "cce4f63e3a81296f7e944a1230a7dfab983e1589ca6aecbe4fab4be3e8bb2a8c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10489.npy": {
+        "sha256": "d4dea6bae6c68f2796436014d85203dee00f79a0c2b27350b4ca6e0b6bccef3e",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10489.npy": {
+        "sha256": "8f2c92b10b7581491992a8772c4d606b1a724f3569c7e261632a39f8653c6824",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10489.npy": {
+        "sha256": "6c0dfcfa276bd1fdafc7b61730addd211d81f86253321c4adc3a95f11ecc795d",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 18217854,
+      "1": 2770208,
+      "2": 2670434
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10490": {
+    "split": "train",
+    "patient_id": "10490",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10490.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10490.mat",
+    "original": {
+      "source_npz_sha256": "fe105a4e4c189a092b9bf95f3cb6c0a9081181ec01349191ec2e0a3995d837de",
+      "native_layers_sha256": "5f8d9534e53b35d0547cbe711c2109db6bd0f6481fc8f0e7bd347518074fedc2"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10490.npy": {
+        "sha256": "e42665823a96a378603d6cba416987ac045d37e8a499788ec51779e57ff5f0dd",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10490.npy": {
+        "sha256": "b6eeccb04b48a08cfb0c7e11018c54782d3821269c4e1495bfdcc2bc73bcb53f",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10490.npy": {
+        "sha256": "39403380cc9ca659e55a6cce17199804a5d6990e1ff4a9a086473271f408ef1c",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 20148185,
+      "1": 1721651,
+      "2": 1788660
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10491": {
+    "split": "train",
+    "patient_id": "10491",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10491.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10491.mat",
+    "original": {
+      "source_npz_sha256": "651f4b194a9948a9bbc0deb92eedc987ac419a2010e0e56a94fcab6652d005a9",
+      "native_layers_sha256": "e02eb24af4085b6d2f77fba960504279a77d3220759afce7223f99053fde6023"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10491.npy": {
+        "sha256": "b896fa0a951e9199926894165d3cbe4c502165921db4218cc3a3b12be3366f70",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10491.npy": {
+        "sha256": "ce52f4f413ce9205895fff7d903189b205f31594eac414f36247ae447f8bf653",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10491.npy": {
+        "sha256": "cda6dea3893edf1a2770e848e552bbe1fd07c86805466b5372605274c173000f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19654588,
+      "1": 2039372,
+      "2": 1964536
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10492": {
+    "split": "train",
+    "patient_id": "10492",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10492.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10492.mat",
+    "original": {
+      "source_npz_sha256": "ebb26449380593917cb16f78fce47310d159c16206aaf48e0b7f048621b866be",
+      "native_layers_sha256": "03462bb824a11179f3518d4252743e342e97f2a088de41f5b1b92cc850fb1b1a"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10492.npy": {
+        "sha256": "cf1e0ab55679324ced52a1129d697f7ca1763bd7cb5f0af1e00a3f84b9ecf131",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10492.npy": {
+        "sha256": "0c3e4dd7f82078f47127ac3d646869ba27ab65285456ca5b1ec36ed90b503d49",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10492.npy": {
+        "sha256": "1a5b763234c4aa3e61a4a25387e580cec5f9aa36171906358cfb279fca6d45d2",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19605578,
+      "1": 2213662,
+      "2": 1839256
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10493": {
+    "split": "train",
+    "patient_id": "10493",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10493.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10493.mat",
+    "original": {
+      "source_npz_sha256": "dc58c5e80ade65106f899290182108ef7d769cb0f7c8ea7b4f7f98b046e8afc6",
+      "native_layers_sha256": "f8aeacebb5cf2276bf6bd42440c47b24153e2e433360615a7d913feba0e40fb0"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10493.npy": {
+        "sha256": "2b684716369c361ee5a89e89273572e1709342db3f9df4d9cbd7f6615aac1b88",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10493.npy": {
+        "sha256": "29a8f2091e2aede020e36bf2e8356d7549aa70185a446f76bf6ce8c66f03659c",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10493.npy": {
+        "sha256": "8707a0a5a782ba88f443930e9f582a4971bb852efe7cf49ab89bac90105194cd",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19627512,
+      "1": 2177391,
+      "2": 1853593
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10495": {
+    "split": "validation",
+    "patient_id": "10495",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10495.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10495.mat",
+    "original": {
+      "source_npz_sha256": "fd724cf2a5e8aaf1eaf5c5deb5aca3ba954f5f29154e99560d39e54caa79f3c5",
+      "native_layers_sha256": "66b9cb1b52087c9c1638b15e91756c1190521a771bb79e6934f27b15c0dd8e8c"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10495.npy": {
+        "sha256": "2634e180ca5ab9b375eb7486bfb995e5a110ce945a4c886d8e63496fc096570d",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10495.npy": {
+        "sha256": "58abac0491224abed582287857c33191313a472b92b223e8be11a2c39c7457bb",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10495.npy": {
+        "sha256": "ac8e59532de4fcd52b9116484b6783ff3dbdc5fffe3f13ce3069f8a32e006ee4",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19595269,
+      "1": 2184967,
+      "2": 1878260
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10496": {
+    "split": "train",
+    "patient_id": "10496",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10496.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10496.mat",
+    "original": {
+      "source_npz_sha256": "cbedae82d6620cf0456f1fc7d4c569d803ffc4d7f286a8f794ce968f303980fc",
+      "native_layers_sha256": "4175592b291e88f2fda6f735d3e9653c4651659f90dc4cba6f1bad26242eba1d"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10496.npy": {
+        "sha256": "31219542e88f420626b97377505d99525f810d31d3a459e23e3d2d15b25bd383",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10496.npy": {
+        "sha256": "79567bb3fdd94435c418b6d192009458608f43f00544811e4aa4fdd277b22db3",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10496.npy": {
+        "sha256": "dd9d5dd4432f4211498719482a9d5f243ca29d9010cb31ebf74c5f7fe7254b4f",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19573264,
+      "1": 2251582,
+      "2": 1833650
+    },
+    "zero_length_ilm_opl_rays": 0
+  },
+  "10500": {
+    "split": "validation",
+    "patient_id": "10500",
+    "source_npz": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/z256/3M/10500.npz",
+    "native_layers": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp049_20261031_startzproj96_fast_200e/annotations/GT_Layers/10500.mat",
+    "original": {
+      "source_npz_sha256": "fa63dfa74f1864851d65ff63a4357e56857bc1b2035900d6dd03487bbd817b4d",
+      "native_layers_sha256": "5359630b284f54c6ca5286b048b23075b99b19856d2f0a99c9d72db525a31c63"
+    },
+    "derived": {
+      "data/OCT2OCTA3M_3D/A/10500.npy": {
+        "sha256": "bf1175c0d6fdf2b42a4f410b538fc5aac8a99aaf952c5cac0ee0419a9968d47b",
+        "bytes": 94634112
+      },
+      "data/OCT2OCTA3M_3D/B/10500.npy": {
+        "sha256": "1978e244912dd3c59141292eecd24af3ea6a4be88f75a9b0a177436d0c428280",
+        "bytes": 94634112
+      },
+      "data/Label/GT_Layers_npy/10500.npy": {
+        "sha256": "e9d4db92bb0909aa5c48e84966cc7f38fbbfc600c7c328c765b11313745c1267",
+        "bytes": 23658624
+      }
+    },
+    "label_voxels": {
+      "0": 19684446,
+      "1": 2073985,
+      "2": 1900065
+    },
+    "zero_length_ilm_opl_rays": 0
+  }
+}

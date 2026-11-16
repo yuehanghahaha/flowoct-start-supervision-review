@@ -1,0 +1,11 @@
+# Deployment dependency record. SETUP_SERVER.sh installs only the two missing imports locally.
+# Existing server: torch==2.5.1+cu121, torchvision==0.20.1; do not replace a shared running environment.
+numpy==1.26.4
+Pillow==12.3.0
+torchsummary==1.5.1
+scipy==1.15.3
+scikit-image==0.25.2
+matplotlib==3.10.1
+torchio==0.20.4
+dominate==2.9.1
+# Visdom display is disabled; visdom is not needed for the headless entry point.

@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "source_contract": {
+    "checks.py": "e42d9cd48b31ce54b1ba65bd524fed9470ef8e3abebf4f99f514ed32ea002c79",
+    "common.py": "f0021bbaa4895e889c2b98ee3af9181da5ab43614d43549bebc9374c2ecaedfa",
+    "evaluate.py": "872ede0d7ba06381319d82357ef8488de7157af40dad484c2ce992316b9bf8c7",
+    "method.py": "ba7fcf384451a1b236219e9c919a906ebe3037a2ec440838bc9c6629eb1c80a1",
+    "metrics.py": "adf3595e13a8c488313c6c91bae069f801f9a536bd6243c9dd67acf8dc757a20",
+    "run.py": "4b45ff39cfe678dbd2f511ff23bb14feafecc16a0bd839f1ba7e7b2409938853",
+    "experiment.json": "ab1457cf1773a92764bc5d2c39a011444c5898ae1db5230de1880f8308c3da9e",
+    "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+    "requirements.txt": "cffb9ac510b8b4178a99d71be9fc4d2a1a7a3b26870c0f4dd299f4ea7c9e3ead",
+    "fm3d/__init__.py": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93",
+    "fm3d/data.py": "d931bfa03c564793ffae7aa047e21a88458372e32f68b46a12d34259d39cbecc",
+    "fm3d/inference.py": "868b9182641718d54b794a2dc7e95f9181f5609a1b1b76db0fa5c5da56e0164e",
+    "fm3d/model.py": "eab503a8d37e5ab6a1d5f7bfb8c6543be39b825530555c6327857eebea6f1d67",
+    "fm3d/projection_report.py": "fdd19601898a2731931e8ea15c8178d7f2be047704adfe359d76c9c68eb28693"
+  },
+  "case_id": "10301",
+  "split": "train",
+  "origin_ZYX": [
+    0,
+    81,
+    128
+  ],
+  "patch": [
+    256,
+    64,
+    64
+  ],
+  "warmup_updates_per_profile": 4,
+  "timed_updates_per_profile": 12,
+  "timing_scope": "forward/backward/optimizer, inputs already on GPU; shared card",
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "precision": {
+    "tensor_dtype": "torch.float32",
+    "model_parameter_dtype": "torch.float32",
+    "autocast_configured": true,
+    "autocast_dtype": "bfloat16",
+    "loss_and_ode_state_dtype": "float32",
+    "optimizer_state_dtype": "float32",
+    "autocast_enabled_at_recording": false,
+    "gradient_scaling": false,
+    "matmul_allow_tf32": true,
+    "cudnn_allow_tf32": true,
+    "float32_matmul_precision": "high",
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "environment": {
+      "NVIDIA_TF32_OVERRIDE": null,
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+    }
+  },
+  "profiles": {
+    "tf32_allowed": {
+      "median_step_seconds": 0.082084184512496,
+      "step_seconds": [
+        0.08211867301724851,
+        0.0822162579279393,
+        0.08208094094879925,
+        0.08194449311122298,
+        0.08194724307395518,
+        0.08211970888078213,
+        0.08204743592068553,
+        0.0822018280159682,
+        0.08208742807619274,
+        0.08207710296846926,
+        0.08201235788874328,
+        0.30096576595678926
+      ],
+      "first_mse": 0.2209344059228897,
+      "last": {
+        "fm_mse": 0.005273180082440376,
+        "gradient_norm": 0.5630672574043274,
+        "velocity_dtype": "torch.float32"
+      }
+    },
+    "bf16_autocast": {
+      "median_step_seconds": 0.07362200901843607,
+      "step_seconds": [
+        0.07370287692174315,
+        0.07360077602788806,
+        0.07399451592937112,
+        0.07350513595156372,
+        0.07357680704444647,
+        0.0736793118994683,
+        0.07363617396913469,
+        0.07401375006884336,
+        0.07384071708656847,
+        0.07359676202759147,
+        0.0735705359838903,
+        0.07360784406773746
+      ],
+      "first_mse": 0.22167783975601196,
+      "last": {
+        "fm_mse": 0.005418440327048302,
+        "gradient_norm": 0.4172506332397461,
+        "velocity_dtype": "torch.bfloat16"
+      }
+    }
+  },
+  "initial_velocity_relative_l2_bf16_vs_tf32": 0.022007035091519356,
+  "speedup": 1.1149408391170208,
+  "peak_allocated_gib": 2.62221097946167
+}

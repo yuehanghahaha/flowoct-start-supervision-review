@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-27T12:55:58.542501+08:00",
+  "parent": "exp001_20261024_3dfm_start_100e",
+  "inherited_files": [
+    {
+      "file": "fm3d/__init__.py",
+      "sha256": "b7a5e3f1150f7a71f4f2273fdf7e5c63ebc5243f3eb582ff33cc0f7466e82c93"
+    },
+    {
+      "file": "fm3d/model.py",
+      "sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af"
+    },
+    {
+      "file": "fm3d/data.py",
+      "sha256": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54"
+    },
+    {
+      "file": "fm3d/inference.py",
+      "sha256": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac"
+    },
+    {
+      "file": "fm3d/wavelets.py",
+      "sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98"
+    },
+    {
+      "file": "fm3d/projection_report.py",
+      "sha256": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40"
+    },
+    {
+      "file": "fm3d/visualize.py",
+      "sha256": "71f3c7b27f19001896840c7310561cdc3032f6e163c2349f8fbaaf1e2dc3adbe"
+    }
+  ],
+  "scientific_changes": [
+    "FP32 training with AMP/gradient scaling/TF32 disabled",
+    "budget 200 epochs x 200 updates",
+    "exact t0 fraction 0.5",
+    "projection objective global",
+    "save all complete full-field float32 validation/test predictions",
+    "standard volume MAE/PSNR/3D SSIM plus explicitly labeled reference-range and projection diagnostics"
+  ],
+  "shared_initialization_seed": 2026,
+  "cases_and_crops_shared_between_experiments": true,
+  "shortened_training_or_small_model_substitution": false,
+  "delivered_scope": "formal research training code; no mandatory smoke run",
+  "comparison_control": "exp016_20261027_3dfm_start_200e",
+  "suite_experiments": [
+    "exp016_20261027_3dfm_start_200e",
+    "exp017_20261027_3dfm_uniform_150e",
+    "exp018_20261027_3dfm_start_zproj_200e",
+    "exp019_20261027_3dfm_start_regionproj_200e"
+  ],
+  "projection_control": null,
+  "precision_parent_difference": "Parent AMP training -> new FP32 from common seeded initialization",
+  "test_cases_read_for_code_checks": 0
+}

@@ -1,0 +1,5756 @@
+[
+  {
+    "epoch": 1,
+    "steps": 140,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 2.971292732549565,
+      "G_L1": 0.9140584766864777,
+      "D_real": 3.619074078117098,
+      "D_fake": 2.158655075156795
+    },
+    "seconds": 968.7780258096755,
+    "peak_reserved_gib": 34.173828125,
+    "ledger": "logs/epochs/epoch_001_1794586764233794965.jsonl",
+    "best": null,
+    "time": "2026-11-14T00:35:33+08:00"
+  },
+  {
+    "epoch": 2,
+    "steps": 280,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.3474136040546,
+      "G_L1": 0.2958547811423029,
+      "D_real": 0.35826683077695115,
+      "D_fake": 0.3530849029842232
+    },
+    "seconds": 649.7197097409517,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_002_1794587741288570337.jsonl",
+    "best": null,
+    "time": "2026-11-14T00:46:31+08:00"
+  },
+  {
+    "epoch": 3,
+    "steps": 420,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.3390515683019268,
+      "G_L1": 0.26109794793384417,
+      "D_real": 0.3507796341287238,
+      "D_fake": 0.34711908205811465
+    },
+    "seconds": 635.658108945936,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_003_1794588406255769388.jsonl",
+    "best": null,
+    "time": "2026-11-14T00:57:21+08:00"
+  },
+  {
+    "epoch": 4,
+    "steps": 560,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.3057521585774209,
+      "G_L1": 0.2490221323179347,
+      "D_real": 0.31639246923316805,
+      "D_fake": 0.313737588402416
+    },
+    "seconds": 649.6646888116375,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_004_1794589053940866268.jsonl",
+    "best": null,
+    "time": "2026-11-14T01:08:23+08:00"
+  },
+  {
+    "epoch": 5,
+    "steps": 700,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.3064536350380097,
+      "G_L1": 0.24877671322652273,
+      "D_real": 0.3178928290094648,
+      "D_fake": 0.3160362875621234
+    },
+    "seconds": 627.6547096837312,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_005_1794589712365336016.jsonl",
+    "best": null,
+    "time": "2026-11-14T01:19:00+08:00"
+  },
+  {
+    "epoch": 6,
+    "steps": 840,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2907592987641692,
+      "G_L1": 0.23499459017600333,
+      "D_real": 0.3013417230253773,
+      "D_fake": 0.29908706097464477
+    },
+    "seconds": 646.6205029590055,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_006_1794590346383930560.jsonl",
+    "best": null,
+    "time": "2026-11-14T01:29:53+08:00"
+  },
+  {
+    "epoch": 7,
+    "steps": 980,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.29922263360183154,
+      "G_L1": 0.23139120867209775,
+      "D_real": 0.3068902939624552,
+      "D_fake": 0.3056919861651425
+    },
+    "seconds": 641.5997737180442,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_007_1794591004982156754.jsonl",
+    "best": null,
+    "time": "2026-11-14T01:40:46+08:00"
+  },
+  {
+    "epoch": 8,
+    "steps": 1120,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27433204746672085,
+      "G_L1": 0.23046577029994555,
+      "D_real": 0.2807923346757889,
+      "D_fake": 0.27891114476536
+    },
+    "seconds": 630.0432037622668,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_008_1794591658720948350.jsonl",
+    "best": null,
+    "time": "2026-11-14T01:51:28+08:00"
+  },
+  {
+    "epoch": 9,
+    "steps": 1260,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2857288827520928,
+      "G_L1": 0.22566078432968684,
+      "D_real": 0.2901151164235281,
+      "D_fake": 0.2888446243679417
+    },
+    "seconds": 640.8731393832713,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_009_1794592297883621163.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:02:18+08:00"
+  },
+  {
+    "epoch": 10,
+    "steps": 1400,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.282169429132981,
+      "G_L1": 0.22136150406939642,
+      "D_real": 0.28669884975201315,
+      "D_fake": 0.2841989858741207
+    },
+    "seconds": 622.9091134080663,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_010_1794592953270293653.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:12:56+08:00"
+  },
+  {
+    "epoch": 11,
+    "steps": 1540,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.275794772138553,
+      "G_L1": 0.22008748623941626,
+      "D_real": 0.2769415488998805,
+      "D_fake": 0.27774794987801993
+    },
+    "seconds": 652.5485974163748,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_011_1794593584553288134.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:23:57+08:00"
+  },
+  {
+    "epoch": 12,
+    "steps": 1680,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.28387192914794596,
+      "G_L1": 0.21896664713110242,
+      "D_real": 0.28388476403696195,
+      "D_fake": 0.2837106908871127
+    },
+    "seconds": 625.5218934058212,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_012_1794594255566476845.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:34:41+08:00"
+  },
+  {
+    "epoch": 13,
+    "steps": 1820,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2734775627697153,
+      "G_L1": 0.21571856545550483,
+      "D_real": 0.27579980380833147,
+      "D_fake": 0.273053517232516
+    },
+    "seconds": 623.8822627742775,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_013_1794594891686057203.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:45:15+08:00"
+  },
+  {
+    "epoch": 14,
+    "steps": 1960,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2706282133236527,
+      "G_L1": 0.21235360806541784,
+      "D_real": 0.2695138644959245,
+      "D_fake": 0.2706109118248735
+    },
+    "seconds": 650.441243909765,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_014_1794595525631262659.jsonl",
+    "best": null,
+    "time": "2026-11-14T02:56:16+08:00"
+  },
+  {
+    "epoch": 15,
+    "steps": 2100,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.28374941290489264,
+      "G_L1": 0.21426284217408725,
+      "D_real": 0.2827575506775507,
+      "D_fake": 0.2832118935483907
+    },
+    "seconds": 639.299836716149,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_015_1794596185167019534.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:07:04+08:00"
+  },
+  {
+    "epoch": 16,
+    "steps": 2240,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2708882473143084,
+      "G_L1": 0.2090771071612835,
+      "D_real": 0.27275539977209906,
+      "D_fake": 0.26978856538023266
+    },
+    "seconds": 650.362009447068,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_016_1794596838083346073.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:18:08+08:00"
+  },
+  {
+    "epoch": 17,
+    "steps": 2380,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27727864400616714,
+      "G_L1": 0.2091694414615631,
+      "D_real": 0.2736156735037054,
+      "D_fake": 0.2757989599502512
+    },
+    "seconds": 629.1516309031285,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_017_1794597494747111407.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:28:43+08:00"
+  },
+  {
+    "epoch": 18,
+    "steps": 2520,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27559749872556755,
+      "G_L1": 0.20946838797203132,
+      "D_real": 0.275303259984191,
+      "D_fake": 0.2739212369147156
+    },
+    "seconds": 640.6989282290451,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_018_1794598140152003026.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:39:40+08:00"
+  },
+  {
+    "epoch": 19,
+    "steps": 2660,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2606910204248769,
+      "G_L1": 0.21061556866126402,
+      "D_real": 0.2597833534968751,
+      "D_fake": 0.25877218448690004
+    },
+    "seconds": 554.9346246751957,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_019_1794598791081181099.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:49:06+08:00"
+  },
+  {
+    "epoch": 20,
+    "steps": 2800,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27704254760007774,
+      "G_L1": 0.207007884606719,
+      "D_real": 0.27540310939241736,
+      "D_fake": 0.2744802491739392
+    },
+    "seconds": 609.0640636319295,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_020_1794599356675095350.jsonl",
+    "best": null,
+    "time": "2026-11-14T03:59:25+08:00"
+  },
+  {
+    "epoch": 21,
+    "steps": 2940,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2689324108351554,
+      "G_L1": 0.20390317897711482,
+      "D_real": 0.26699210860367334,
+      "D_fake": 0.26656134205737286
+    },
+    "seconds": 661.4521927647293,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_021_1794599973546544871.jsonl",
+    "best": null,
+    "time": "2026-11-14T04:10:34+08:00"
+  },
+  {
+    "epoch": 22,
+    "steps": 3080,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27168247888662983,
+      "G_L1": 0.20708770278309072,
+      "D_real": 0.268775111330407,
+      "D_fake": 0.26828004236200026
+    },
+    "seconds": 649.9490554812364,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_022_1794600645305521000.jsonl",
+    "best": null,
+    "time": "2026-11-14T04:21:35+08:00"
+  },
+  {
+    "epoch": 23,
+    "steps": 3220,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27062023114413025,
+      "G_L1": 0.2074776648410729,
+      "D_real": 0.26694450716355017,
+      "D_fake": 0.26758202058928354
+    },
+    "seconds": 641.8528193598613,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_023_1794601306009314978.jsonl",
+    "best": null,
+    "time": "2026-11-14T04:32:27+08:00"
+  },
+  {
+    "epoch": 24,
+    "steps": 3360,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2678842311192836,
+      "G_L1": 0.20583338939717838,
+      "D_real": 0.26304404831358363,
+      "D_fake": 0.2639288787596992
+    },
+    "seconds": 645.0738630499691,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_024_1794601955772394157.jsonl",
+    "best": null,
+    "time": "2026-11-14T04:43:20+08:00"
+  },
+  {
+    "epoch": 25,
+    "steps": 3500,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27306683169943946,
+      "G_L1": 0.20368355501975333,
+      "D_real": 0.2692069510264056,
+      "D_fake": 0.2682935522869229
+    },
+    "seconds": 638.9990146532655,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_025_1794602613804870687.jsonl",
+    "best": null,
+    "time": "2026-11-14T04:54:12+08:00"
+  },
+  {
+    "epoch": 26,
+    "steps": 3640,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27098229032542026,
+      "G_L1": 0.2033392589007105,
+      "D_real": 0.26566332770245416,
+      "D_fake": 0.26453325306730613
+    },
+    "seconds": 637.6376470550895,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_026_1794603265156366673.jsonl",
+    "best": null,
+    "time": "2026-11-14T05:05:02+08:00"
+  },
+  {
+    "epoch": 27,
+    "steps": 3780,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2743302306958607,
+      "G_L1": 0.20290403568318913,
+      "D_real": 0.26741351203194685,
+      "D_fake": 0.2663678283670119
+    },
+    "seconds": 643.1666956059635,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_027_1794603916793038178.jsonl",
+    "best": null,
+    "time": "2026-11-14T05:15:59+08:00"
+  },
+  {
+    "epoch": 28,
+    "steps": 3920,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27505209227757793,
+      "G_L1": 0.20600456249501023,
+      "D_real": 0.2638973070042474,
+      "D_fake": 0.2658926896218743
+    },
+    "seconds": 627.9750556661747,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_028_1794604567762172809.jsonl",
+    "best": null,
+    "time": "2026-11-14T05:26:35+08:00"
+  },
+  {
+    "epoch": 29,
+    "steps": 4060,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27152011181627,
+      "G_L1": 0.2061163630336523,
+      "D_real": 0.265994579238551,
+      "D_fake": 0.26267980289246357
+    },
+    "seconds": 647.9687333991751,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_029_1794605205032250056.jsonl",
+    "best": null,
+    "time": "2026-11-14T05:37:32+08:00"
+  },
+  {
+    "epoch": 30,
+    "steps": 4200,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.27535163357055614,
+      "G_L1": 0.20279581834162985,
+      "D_real": 0.26262729947588276,
+      "D_fake": 0.2646168781178338
+    },
+    "seconds": 634.989151049871,
+    "peak_reserved_gib": 26.18359375,
+    "ledger": "logs/epochs/epoch_030_1794605860726985007.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.011105947504573098,
+          "psnr": 29.481707908852513,
+          "ssim": 0.8679773278173359
+        },
+        "ilm_opl_mean": {
+          "mae": 0.037513902438298496,
+          "psnr": 26.316388841710495,
+          "ssim": 0.5287173560545199
+        },
+        "opl_bm_mean": {
+          "mae": 0.031055876233166253,
+          "psnr": 27.941570247752367,
+          "ssim": 0.5408100278995869
+        },
+        "ilm_bm_mean": {
+          "mae": 0.03330978964053907,
+          "psnr": 27.6571959425956,
+          "ssim": 0.58251080084775
+        },
+        "full_mean": {
+          "mae": 0.007842064904841795,
+          "psnr": 40.736450921315836,
+          "ssim": 0.8968323247742047
+        },
+        "ilm_opl_max": {
+          "mae": 0.10483934734117102,
+          "psnr": 17.724365424219272,
+          "ssim": 0.3002548834548596
+        },
+        "opl_bm_max": {
+          "mae": 0.08976838663000514,
+          "psnr": 18.78091455028794,
+          "ssim": 0.276933034404676
+        },
+        "full_max": {
+          "mae": 0.09069898792902807,
+          "psnr": 19.04729903689917,
+          "ssim": 0.2853219191800631
+        },
+        "bscan2d": {
+          "mae": 0.0111059475045731,
+          "psnr": 29.58290341250708,
+          "ssim": 0.8722306560615806
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.9012065052986147,
+          "psnr": 29.239685030283454,
+          "ssim": 0.8619703066016156
+        },
+        "ilm_opl_mean": {
+          "mae": 28.367113018035887,
+          "psnr": 17.049817474290755,
+          "ssim": 0.31734918023114145,
+          "perp": 0.7530671179294586
+        },
+        "opl_bm_mean": {
+          "mae": 27.04215908050537,
+          "psnr": 17.178802264405544,
+          "ssim": 0.2463370840126311,
+          "perp": 0.707765930891037
+        },
+        "ilm_bm_mean": {
+          "mae": 31.26382360458374,
+          "psnr": 16.402579810138267,
+          "ssim": 0.3066036387260287,
+          "perp": 0.7172961533069611
+        },
+        "full_mean": {
+          "mae": 34.093003273010254,
+          "psnr": 16.199486841192574,
+          "ssim": 0.3237005985083973,
+          "perp": 0.6719608962535858
+        }
+      }
+    },
+    "report": "reports/validation/epoch_030/metrics.json",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T05:54:25+08:00"
+  },
+  {
+    "epoch": 31,
+    "steps": 4340,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2649045918935112,
+      "G_L1": 0.19872508655701365,
+      "D_real": 0.26211524509957856,
+      "D_fake": 0.2594927749330444
+    },
+    "seconds": 624.7123435898684,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_031_1794606876617706066.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:05:01+08:00"
+  },
+  {
+    "epoch": 32,
+    "steps": 4480,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2694056465955717,
+      "G_L1": 0.21017045101949147,
+      "D_real": 0.2612193071150354,
+      "D_fake": 0.2620310280205948
+    },
+    "seconds": 662.3844933221117,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_032_1794607510450347989.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:16:12+08:00"
+  },
+  {
+    "epoch": 33,
+    "steps": 4620,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.26287264507263897,
+      "G_L1": 0.2038600036076137,
+      "D_real": 0.25852030100567003,
+      "D_fake": 0.2588806497731379
+    },
+    "seconds": 642.0093143847771,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_033_1794608185538371142.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:27:07+08:00"
+  },
+  {
+    "epoch": 34,
+    "steps": 4760,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2663529152848891,
+      "G_L1": 0.20195850229689052,
+      "D_real": 0.26327208607856717,
+      "D_fake": 0.2601196790912322
+    },
+    "seconds": 624.70999117475,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_034_1794608836807977047.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:37:41+08:00"
+  },
+  {
+    "epoch": 35,
+    "steps": 4900,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2658574784972838,
+      "G_L1": 0.20546357184648514,
+      "D_real": 0.2612831597881658,
+      "D_fake": 0.2602438162746174
+    },
+    "seconds": 657.5466398899443,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_035_1794609472411145010.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:48:49+08:00"
+  },
+  {
+    "epoch": 36,
+    "steps": 5040,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2637104720409427,
+      "G_L1": 0.2100218374814306,
+      "D_real": 0.2605493934825063,
+      "D_fake": 0.2595619606918522
+    },
+    "seconds": 639.112460333854,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_036_1794610143933462939.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T06:59:43+08:00"
+  },
+  {
+    "epoch": 37,
+    "steps": 5180,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2634711071848869,
+      "G_L1": 0.20829001372413977,
+      "D_real": 0.25772567854395934,
+      "D_fake": 0.2591730957584722
+    },
+    "seconds": 644.8979753549211,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_037_1794610793260726362.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T07:10:38+08:00"
+  },
+  {
+    "epoch": 38,
+    "steps": 5320,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2670730411740286,
+      "G_L1": 0.2137387033019747,
+      "D_real": 0.262393373703318,
+      "D_fake": 0.26110986375382966
+    },
+    "seconds": 515.4262337973341,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_038_1794611444036893930.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T07:19:19+08:00"
+  },
+  {
+    "epoch": 39,
+    "steps": 5460,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.265848517205034,
+      "G_L1": 0.2133631004818848,
+      "D_real": 0.2605904097003596,
+      "D_fake": 0.26006467776106934
+    },
+    "seconds": 635.0932289832272,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_039_1794611968951088986.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T07:30:04+08:00"
+  },
+  {
+    "epoch": 40,
+    "steps": 5600,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2622105470193284,
+      "G_L1": 0.2118573329278401,
+      "D_real": 0.2581306684230055,
+      "D_fake": 0.25821081862917966
+    },
+    "seconds": 656.398933510296,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_040_1794612611008246544.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T07:41:07+08:00"
+  },
+  {
+    "epoch": 41,
+    "steps": 5740,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2614536104457719,
+      "G_L1": 0.20596264510282447,
+      "D_real": 0.2576006528522287,
+      "D_fake": 0.25605559029749464
+    },
+    "seconds": 634.2355816382915,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_041_1794613276764311049.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T07:51:50+08:00"
+  },
+  {
+    "epoch": 42,
+    "steps": 5880,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2650835118655648,
+      "G_L1": 0.2014609138880457,
+      "D_real": 0.26082478083137955,
+      "D_fake": 0.26100190138178214
+    },
+    "seconds": 642.2115994081832,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_042_1794613918891569541.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:02:41+08:00"
+  },
+  {
+    "epoch": 43,
+    "steps": 6020,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.26540485995688606,
+      "G_L1": 0.20819160714745522,
+      "D_real": 0.26063506919890644,
+      "D_fake": 0.25930970473481074
+    },
+    "seconds": 646.1077745142393,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_043_1794614575773084291.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:13:41+08:00"
+  },
+  {
+    "epoch": 44,
+    "steps": 6160,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.5284353744238615,
+      "G_L1": 0.1991126196725028,
+      "D_real": 0.5275154708219426,
+      "D_fake": 0.5212652681029535
+    },
+    "seconds": 620.5282259737141,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_044_1794615227301066081.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:24:07+08:00"
+  },
+  {
+    "epoch": 45,
+    "steps": 6300,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25108281703931945,
+      "G_L1": 0.18880833983421325,
+      "D_real": 0.25090489174638475,
+      "D_fake": 0.24940948369247573
+    },
+    "seconds": 652.1402284130454,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_045_1794615858486346044.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:35:10+08:00"
+  },
+  {
+    "epoch": 46,
+    "steps": 6440,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507166554885251,
+      "G_L1": 0.19213278836437633,
+      "D_real": 0.2500123661543642,
+      "D_fake": 0.24956434699041502
+    },
+    "seconds": 648.9889423642308,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_046_1794616538670315858.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:46:27+08:00"
+  },
+  {
+    "epoch": 47,
+    "steps": 6580,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509246692061424,
+      "G_L1": 0.19088951413120542,
+      "D_real": 0.24947797815714565,
+      "D_fake": 0.2494478407715048
+    },
+    "seconds": 637.5799718620256,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_047_1794617202730292636.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T08:57:20+08:00"
+  },
+  {
+    "epoch": 48,
+    "steps": 6720,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25158875180142265,
+      "G_L1": 0.18865347850535596,
+      "D_real": 0.24880068632108823,
+      "D_fake": 0.24902420373899595
+    },
+    "seconds": 646.4889392880723,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_048_1794617852696045797.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T09:08:19+08:00"
+  },
+  {
+    "epoch": 49,
+    "steps": 6860,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2593418536973851,
+      "G_L1": 0.19647600070706436,
+      "D_real": 0.2504214743418353,
+      "D_fake": 0.25143753375325884
+    },
+    "seconds": 641.2765364022925,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_049_1794618509514622923.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T09:19:10+08:00"
+  },
+  {
+    "epoch": 50,
+    "steps": 7000,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2569787964757,
+      "G_L1": 0.2049021145062787,
+      "D_real": 0.25335290181849685,
+      "D_fake": 0.25252255254558154
+    },
+    "seconds": 647.3298807311803,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_050_1794619161582566685.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T09:30:08+08:00"
+  },
+  {
+    "epoch": 51,
+    "steps": 7140,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25812188748802456,
+      "G_L1": 0.20446032275046622,
+      "D_real": 0.2532515606177705,
+      "D_fake": 0.25275147913822105
+    },
+    "seconds": 653.6830827076919,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_051_1794619817654670399.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T09:41:11+08:00"
+  },
+  {
+    "epoch": 52,
+    "steps": 7280,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25887220038899356,
+      "G_L1": 0.19969386085867882,
+      "D_real": 0.25448756899152486,
+      "D_fake": 0.2537729557071413
+    },
+    "seconds": 646.4006503410637,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_052_1794620483671525502.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T09:52:10+08:00"
+  },
+  {
+    "epoch": 53,
+    "steps": 7420,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25688582243663927,
+      "G_L1": 0.20268441034214837,
+      "D_real": 0.2529062227479049,
+      "D_fake": 0.2526447998093707
+    },
+    "seconds": 655.7088384889066,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_053_1794621137474923483.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:03:13+08:00"
+  },
+  {
+    "epoch": 54,
+    "steps": 7560,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2579613670174565,
+      "G_L1": 0.20366383104452065,
+      "D_real": 0.25312916125570023,
+      "D_fake": 0.2525767175214631
+    },
+    "seconds": 633.329449289944,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_054_1794621805545694472.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:13:58+08:00"
+  },
+  {
+    "epoch": 55,
+    "steps": 7700,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25607467953647883,
+      "G_L1": 0.19078528556440558,
+      "D_real": 0.25342253505119255,
+      "D_fake": 0.2528848403000406
+    },
+    "seconds": 636.0549645032734,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_055_1794622449440201548.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:24:45+08:00"
+  },
+  {
+    "epoch": 56,
+    "steps": 7840,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2570441657943385,
+      "G_L1": 0.19003281252724782,
+      "D_real": 0.2533556981278317,
+      "D_fake": 0.2533329373757754
+    },
+    "seconds": 654.7123254300095,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_056_1794623093704847999.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:35:48+08:00"
+  },
+  {
+    "epoch": 57,
+    "steps": 7980,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.26112894187016145,
+      "G_L1": 0.20004684829286168,
+      "D_real": 0.25534568737660135,
+      "D_fake": 0.2551978357402342
+    },
+    "seconds": 504.2131140427664,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_057_1794623756626022813.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:44:20+08:00"
+  },
+  {
+    "epoch": 58,
+    "steps": 8120,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.3803029924365027,
+      "G_L1": 0.19790610064353262,
+      "D_real": 0.3798357625358871,
+      "D_fake": 0.37236942056832567
+    },
+    "seconds": 652.5078077372164,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_058_1794624270211341000.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T10:55:22+08:00"
+  },
+  {
+    "epoch": 59,
+    "steps": 8260,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25089010745286944,
+      "G_L1": 0.18929131541933333,
+      "D_real": 0.25082892647811345,
+      "D_fake": 0.24957038685679436
+    },
+    "seconds": 649.5110083278269,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_059_1794624940749327588.jsonl",
+    "best": {
+      "epoch": 30,
+      "value": 0.3002548834548596,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_030/metrics.json",
+      "generator_tensor_sha256": "49b2b8493fedeb9ddff9305407328ff95f75d36000e87ff97c4298dca79f0bd0"
+    },
+    "time": "2026-11-14T11:06:30+08:00"
+  },
+  {
+    "epoch": 60,
+    "steps": 8400,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25045261085033416,
+      "G_L1": 0.18590945340692996,
+      "D_real": 0.2500949517956802,
+      "D_fake": 0.2498248539865017
+    },
+    "seconds": 634.1073649819009,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_060_1794625597862793349.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.010070478775133316,
+          "psnr": 30.68161195419529,
+          "ssim": 0.8933985522633542
+        },
+        "ilm_opl_mean": {
+          "mae": 0.026168856907289696,
+          "psnr": 29.196880302411767,
+          "ssim": 0.6609388339588277
+        },
+        "opl_bm_mean": {
+          "mae": 0.024667162178450577,
+          "psnr": 29.955845675898946,
+          "ssim": 0.6478716732451525
+        },
+        "ilm_bm_mean": {
+          "mae": 0.022409915584326458,
+          "psnr": 30.80211172346214,
+          "ssim": 0.7167467378161357
+        },
+        "full_mean": {
+          "mae": 0.005131788406821352,
+          "psnr": 43.94803909459618,
+          "ssim": 0.9563879751298247
+        },
+        "ilm_opl_max": {
+          "mae": 0.07504466216934598,
+          "psnr": 20.106343812528962,
+          "ssim": 0.4129322874118092
+        },
+        "opl_bm_max": {
+          "mae": 0.06802919377443277,
+          "psnr": 20.83631499757754,
+          "ssim": 0.38976391816278866
+        },
+        "full_max": {
+          "mae": 0.07727437412763001,
+          "psnr": 20.24540273240347,
+          "ssim": 0.32231322057694883
+        },
+        "bscan2d": {
+          "mae": 0.010070478775133316,
+          "psnr": 30.76432695723465,
+          "ssim": 0.8931079316592223
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.594265651702881,
+          "psnr": 30.52776728950114,
+          "ssim": 0.8909872836071795
+        },
+        "ilm_opl_mean": {
+          "mae": 19.186338233947755,
+          "psnr": 20.0458374563296,
+          "ssim": 0.45933383134700845,
+          "perp": 0.701242983341217
+        },
+        "opl_bm_mean": {
+          "mae": 21.015217781066895,
+          "psnr": 19.418476070481454,
+          "ssim": 0.39275873192539723,
+          "perp": 0.6883393824100494
+        },
+        "ilm_bm_mean": {
+          "mae": 20.38618106842041,
+          "psnr": 19.711490092509127,
+          "ssim": 0.4720534442823274,
+          "perp": 0.6744815051555634
+        },
+        "full_mean": {
+          "mae": 21.28009376525879,
+          "psnr": 19.65033850033742,
+          "ssim": 0.47201453336524424,
+          "perp": 0.6452453970909119
+        }
+      }
+    },
+    "report": "reports/validation/epoch_060/metrics.json",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T11:23:18+08:00"
+  },
+  {
+    "epoch": 61,
+    "steps": 8540,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.251074327315603,
+      "G_L1": 0.18621873046670642,
+      "D_real": 0.25073356575199535,
+      "D_fake": 0.25061931258865766
+    },
+    "seconds": 637.9519197060727,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_061_1794626605804300631.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T11:34:03+08:00"
+  },
+  {
+    "epoch": 62,
+    "steps": 8680,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25173038691282273,
+      "G_L1": 0.18696484411401407,
+      "D_real": 0.251515042675393,
+      "D_fake": 0.2512299830360072
+    },
+    "seconds": 654.7716466770507,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_062_1794627255780748326.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T11:45:10+08:00"
+  },
+  {
+    "epoch": 63,
+    "steps": 8820,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2523597004158156,
+      "G_L1": 0.18821029365062714,
+      "D_real": 0.2520289220980236,
+      "D_fake": 0.25179760498659953
+    },
+    "seconds": 635.5690607349388,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_063_1794627918197365054.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T11:55:53+08:00"
+  },
+  {
+    "epoch": 64,
+    "steps": 8960,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25284445360302926,
+      "G_L1": 0.18322970675570624,
+      "D_real": 0.25165829850094656,
+      "D_fake": 0.25228157745940344
+    },
+    "seconds": 652.8697383212857,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_064_1794628565103856099.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T12:06:57+08:00"
+  },
+  {
+    "epoch": 65,
+    "steps": 9100,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2523050092160702,
+      "G_L1": 0.18490489471171584,
+      "D_real": 0.25133386488471715,
+      "D_fake": 0.2515616164675781
+    },
+    "seconds": 645.6347560109571,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_065_1794629232491008488.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T12:17:58+08:00"
+  },
+  {
+    "epoch": 66,
+    "steps": 9240,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25346332234995705,
+      "G_L1": 0.18335047396165985,
+      "D_real": 0.25283974898712974,
+      "D_fake": 0.2527535906327622
+    },
+    "seconds": 633.6460017240606,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_066_1794629890369468106.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T12:28:44+08:00"
+  },
+  {
+    "epoch": 67,
+    "steps": 9380,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2540154832814421,
+      "G_L1": 0.1836018953472376,
+      "D_real": 0.2537136597292764,
+      "D_fake": 0.25316633081861906
+    },
+    "seconds": 656.0925844470039,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_067_1794630531859517159.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T12:39:47+08:00"
+  },
+  {
+    "epoch": 68,
+    "steps": 9520,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2531684665807656,
+      "G_L1": 0.18461712066616331,
+      "D_real": 0.25133084314210075,
+      "D_fake": 0.25226492189935273
+    },
+    "seconds": 641.7286935029551,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_068_1794631197814558520.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T12:50:39+08:00"
+  },
+  {
+    "epoch": 69,
+    "steps": 9660,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25442300832697323,
+      "G_L1": 0.183786009943911,
+      "D_real": 0.25338888040610724,
+      "D_fake": 0.2534113229385444
+    },
+    "seconds": 639.5587230599485,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_069_1794631846986650754.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:01:26+08:00"
+  },
+  {
+    "epoch": 70,
+    "steps": 9800,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25284890378160135,
+      "G_L1": 0.18900140625025544,
+      "D_real": 0.25200778405581203,
+      "D_fake": 0.2516322135925293
+    },
+    "seconds": 652.6002303762361,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_070_1794632497744041473.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:12:30+08:00"
+  },
+  {
+    "epoch": 71,
+    "steps": 9940,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25448366573878695,
+      "G_L1": 0.184735950880817,
+      "D_real": 0.2532611504197121,
+      "D_fake": 0.2532402648457459
+    },
+    "seconds": 628.2358761946671,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_071_1794633156257566376.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:23:04+08:00"
+  },
+  {
+    "epoch": 72,
+    "steps": 10080,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.254083631879517,
+      "G_L1": 0.1852089250194175,
+      "D_real": 0.2527772321764912,
+      "D_fake": 0.25264266654849055
+    },
+    "seconds": 649.6397745031863,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_072_1794633799643772188.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:34:09+08:00"
+  },
+  {
+    "epoch": 73,
+    "steps": 10220,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25538473746606283,
+      "G_L1": 0.18739938634846892,
+      "D_real": 0.2543268924845116,
+      "D_fake": 0.2540319085653339
+    },
+    "seconds": 641.7813415550627,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_073_1794634457409773337.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:44:59+08:00"
+  },
+  {
+    "epoch": 74,
+    "steps": 10360,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2540639217942953,
+      "G_L1": 0.19005735026938575,
+      "D_real": 0.25278981652643,
+      "D_fake": 0.25251936348421233
+    },
+    "seconds": 640.9532975526527,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_074_1794635106928356463.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T13:55:47+08:00"
+  },
+  {
+    "epoch": 75,
+    "steps": 10500,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2551113732691322,
+      "G_L1": 0.18553545384534767,
+      "D_real": 0.25395668489592416,
+      "D_fake": 0.2535658283425229
+    },
+    "seconds": 563.2240925952792,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_075_1794635763446062763.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T14:05:26+08:00"
+  },
+  {
+    "epoch": 76,
+    "steps": 10640,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2551746551479612,
+      "G_L1": 0.18211620854479926,
+      "D_real": 0.2523532741836139,
+      "D_fake": 0.25363404804042405
+    },
+    "seconds": 617.6673219213262,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_076_1794636333974547578.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T14:15:51+08:00"
+  },
+  {
+    "epoch": 77,
+    "steps": 10780,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2567522196897439,
+      "G_L1": 0.18690783019576754,
+      "D_real": 0.2546966996576105,
+      "D_fake": 0.25402590579220224
+    },
+    "seconds": 656.2720956467092,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_077_1794636957496207975.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T14:26:53+08:00"
+  },
+  {
+    "epoch": 78,
+    "steps": 10920,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.259024185740522,
+      "G_L1": 0.1799774374280657,
+      "D_real": 0.2554778976099832,
+      "D_fake": 0.2555198909448726
+    },
+    "seconds": 661.6480332398787,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_078_1794637619774778707.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T14:38:01+08:00"
+  },
+  {
+    "epoch": 79,
+    "steps": 11060,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.259509749976652,
+      "G_L1": 0.18863634201032775,
+      "D_real": 0.2550887999790055,
+      "D_fake": 0.2550594161663737
+    },
+    "seconds": 651.110246272292,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_079_1794638286517299194.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T14:48:57+08:00"
+  },
+  {
+    "epoch": 80,
+    "steps": 11200,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25584123749285936,
+      "G_L1": 0.18791564011148043,
+      "D_real": 0.25381572049643314,
+      "D_fake": 0.2529399478541953
+    },
+    "seconds": 659.9684588820674,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_080_1794638943389124962.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:00:03+08:00"
+  },
+  {
+    "epoch": 81,
+    "steps": 11340,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2585330810131771,
+      "G_L1": 0.18573605849274566,
+      "D_real": 0.25459206165479764,
+      "D_fake": 0.2554396943588342
+    },
+    "seconds": 649.0823751278222,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_081_1794639608016795306.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:10:57+08:00"
+  },
+  {
+    "epoch": 82,
+    "steps": 11480,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25863486134580205,
+      "G_L1": 0.18791198618710042,
+      "D_real": 0.2546236574117626,
+      "D_fake": 0.25389573273382016
+    },
+    "seconds": 649.0437067309394,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_082_1794640262498966783.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:21:51+08:00"
+  },
+  {
+    "epoch": 83,
+    "steps": 11620,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.26355219362303617,
+      "G_L1": 0.19552766691361154,
+      "D_real": 0.259347233495542,
+      "D_fake": 0.2578202873634707
+    },
+    "seconds": 661.3644288792275,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_083_1794640917892000553.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:32:59+08:00"
+  },
+  {
+    "epoch": 84,
+    "steps": 11760,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507813135428088,
+      "G_L1": 0.18661942136074816,
+      "D_real": 0.249625035907541,
+      "D_fake": 0.24944064830030713
+    },
+    "seconds": 650.1012034527957,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_084_1794641584674270526.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:43:54+08:00"
+  },
+  {
+    "epoch": 85,
+    "steps": 11900,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.26454363726079466,
+      "G_L1": 0.19213650088225093,
+      "D_real": 0.2584785629063845,
+      "D_fake": 0.2577019020249801
+    },
+    "seconds": 651.3723432309926,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_085_1794642241050645501.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T15:54:52+08:00"
+  },
+  {
+    "epoch": 86,
+    "steps": 12040,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2562975163970675,
+      "G_L1": 0.1920666807996375,
+      "D_real": 0.25323646872171335,
+      "D_fake": 0.25355350816888467
+    },
+    "seconds": 657.9792832611129,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_086_1794642898200509640.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T16:05:56+08:00"
+  },
+  {
+    "epoch": 87,
+    "steps": 12180,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2613184439151415,
+      "G_L1": 0.18765471838414668,
+      "D_real": 0.25781976589933037,
+      "D_fake": 0.2575485528712826
+    },
+    "seconds": 649.5457462030463,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_087_1794643562948704218.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T16:16:52+08:00"
+  },
+  {
+    "epoch": 88,
+    "steps": 12320,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25321607781308036,
+      "G_L1": 0.1859433435435806,
+      "D_real": 0.2508285611867905,
+      "D_fake": 0.25092845718775475
+    },
+    "seconds": 652.3265661331825,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_088_1794644218723334009.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T16:27:51+08:00"
+  },
+  {
+    "epoch": 89,
+    "steps": 12460,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2561992034316063,
+      "G_L1": 0.19041926328624997,
+      "D_real": 0.2529259680105107,
+      "D_fake": 0.2528744600713253
+    },
+    "seconds": 656.3752452959307,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_089_1794644876745960035.jsonl",
+    "best": {
+      "epoch": 60,
+      "value": 0.4129322874118092,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_060/metrics.json",
+      "generator_tensor_sha256": "b6185a6c55afa271835304b998ce897179722eadaaff5bd0a6bc39e0cbcf8f2d"
+    },
+    "time": "2026-11-14T16:38:53+08:00"
+  },
+  {
+    "epoch": 90,
+    "steps": 12600,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2608152094563203,
+      "G_L1": 0.1864271276231323,
+      "D_real": 0.25459059605907114,
+      "D_fake": 0.25455672287249137
+    },
+    "seconds": 645.738162424881,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_090_1794645540672988976.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.010568229594278503,
+          "psnr": 30.09549198248734,
+          "ssim": 0.8974453990998958
+        },
+        "ilm_opl_mean": {
+          "mae": 0.028120412666632028,
+          "psnr": 28.679751693157424,
+          "ssim": 0.6641723767999174
+        },
+        "opl_bm_mean": {
+          "mae": 0.02550938824311096,
+          "psnr": 29.569280331257197,
+          "ssim": 0.6589206964137333
+        },
+        "ilm_bm_mean": {
+          "mae": 0.023010491786334766,
+          "psnr": 30.602180044976034,
+          "ssim": 0.7343251177719096
+        },
+        "full_mean": {
+          "mae": 0.0052303754748697796,
+          "psnr": 43.66308787762203,
+          "ssim": 0.9538690599207029
+        },
+        "ilm_opl_max": {
+          "mae": 0.07228750955045839,
+          "psnr": 20.418660147222656,
+          "ssim": 0.48686362973478375
+        },
+        "opl_bm_max": {
+          "mae": 0.07087935849662763,
+          "psnr": 20.56183196860792,
+          "ssim": 0.45181877077172705
+        },
+        "full_max": {
+          "mae": 0.07640462925403596,
+          "psnr": 20.30742584674177,
+          "ssim": 0.3770945849561672
+        },
+        "bscan2d": {
+          "mae": 0.010568229594278503,
+          "psnr": 30.173625552981957,
+          "ssim": 0.8937260398112598
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.7320971965789793,
+          "psnr": 29.94581407758893,
+          "ssim": 0.8949515397389602
+        },
+        "ilm_opl_mean": {
+          "mae": 20.302034854888916,
+          "psnr": 19.654145001930623,
+          "ssim": 0.5184806286644565,
+          "perp": 0.7108692348003387
+        },
+        "opl_bm_mean": {
+          "mae": 21.666718101501466,
+          "psnr": 19.065813922785185,
+          "ssim": 0.46808587049640193,
+          "perp": 0.7044402599334717
+        },
+        "ilm_bm_mean": {
+          "mae": 20.686618900299074,
+          "psnr": 19.636612817720472,
+          "ssim": 0.5592911429710189,
+          "perp": 0.6751714229583741
+        },
+        "full_mean": {
+          "mae": 21.739702033996583,
+          "psnr": 19.38950847628429,
+          "ssim": 0.5483797981712006,
+          "perp": 0.6533501327037812
+        }
+      }
+    },
+    "report": "reports/validation/epoch_090/metrics.json",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T16:55:33+08:00"
+  },
+  {
+    "epoch": 91,
+    "steps": 12740,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2589999497468982,
+      "G_L1": 0.1977680009922811,
+      "D_real": 0.2552985541522503,
+      "D_fake": 0.2545046329232199
+    },
+    "seconds": 648.8314093872905,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_091_1794646539591811505.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:06:28+08:00"
+  },
+  {
+    "epoch": 92,
+    "steps": 12880,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2566473551626716,
+      "G_L1": 0.20305843651294708,
+      "D_real": 0.2532923514289515,
+      "D_fake": 0.25194417254201
+    },
+    "seconds": 658.2916820859537,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_092_1794647194280866775.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:17:32+08:00"
+  },
+  {
+    "epoch": 93,
+    "steps": 13020,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25861209609678815,
+      "G_L1": 0.2049981775028365,
+      "D_real": 0.2517400407897575,
+      "D_fake": 0.25375393027705806
+    },
+    "seconds": 601.3329494567588,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_093_1794647860695144673.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:27:42+08:00"
+  },
+  {
+    "epoch": 94,
+    "steps": 13160,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25668069534003735,
+      "G_L1": 0.20421802178025245,
+      "D_real": 0.2537970184747662,
+      "D_fake": 0.25288355935897144
+    },
+    "seconds": 563.0544988871552,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_094_1794648469409869703.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:37:12+08:00"
+  },
+  {
+    "epoch": 95,
+    "steps": 13300,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25865581381533825,
+      "G_L1": 0.20086148168359483,
+      "D_real": 0.25470098980835504,
+      "D_fake": 0.2529592121818236
+    },
+    "seconds": 643.1439132457599,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_095_1794649041801419416.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:48:04+08:00"
+  },
+  {
+    "epoch": 96,
+    "steps": 13440,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2594093902834824,
+      "G_L1": 0.19954256984804358,
+      "D_real": 0.2543881827167102,
+      "D_fake": 0.2540197948259967
+    },
+    "seconds": 641.6259303092957,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_096_1794649691023156353.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T17:58:52+08:00"
+  },
+  {
+    "epoch": 97,
+    "steps": 13580,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2871562681027821,
+      "G_L1": 0.19960406571626663,
+      "D_real": 0.2758736326226166,
+      "D_fake": 0.26630863158830576
+    },
+    "seconds": 655.4921766696498,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_097_1794650340007530362.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T18:09:55+08:00"
+  },
+  {
+    "epoch": 98,
+    "steps": 13720,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.7008353397250175,
+      "G_L1": 0.18961458802223205,
+      "D_real": 0.730136979584183,
+      "D_fake": 0.7257613399997354
+    },
+    "seconds": 647.0779129839502,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_098_1794651003357841571.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T18:20:50+08:00"
+  },
+  {
+    "epoch": 99,
+    "steps": 13860,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25120202909622874,
+      "G_L1": 0.18384593155767237,
+      "D_real": 0.2515424621956689,
+      "D_fake": 0.2500149534216949
+    },
+    "seconds": 647.3798098429106,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_099_1794651656101318510.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T18:31:43+08:00"
+  },
+  {
+    "epoch": 100,
+    "steps": 14000,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509425562407289,
+      "G_L1": 0.18338177209453924,
+      "D_real": 0.2511907894696508,
+      "D_fake": 0.2499691866338253
+    },
+    "seconds": 659.2674008440226,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_100_1794652314795348918.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T18:42:54+08:00"
+  },
+  {
+    "epoch": 101,
+    "steps": 14140,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507757928754602,
+      "G_L1": 0.18196571612996715,
+      "D_real": 0.25092526578477453,
+      "D_fake": 0.24993204495736532
+    },
+    "seconds": 642.8051323741674,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_101_1794652985217764490.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T18:53:48+08:00"
+  },
+  {
+    "epoch": 102,
+    "steps": 14280,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25085914560726713,
+      "G_L1": 0.18062064754111426,
+      "D_real": 0.2508362811590944,
+      "D_fake": 0.24984786861709185
+    },
+    "seconds": 655.1960667353123,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_102_1794653636070400390.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:04:51+08:00"
+  },
+  {
+    "epoch": 103,
+    "steps": 14420,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2508143946528435,
+      "G_L1": 0.1787896846554109,
+      "D_real": 0.2507435012076582,
+      "D_fake": 0.24977778057966912
+    },
+    "seconds": 648.0692133507691,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_103_1794654298497421047.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:15:46+08:00"
+  },
+  {
+    "epoch": 104,
+    "steps": 14560,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507675899990967,
+      "G_L1": 0.18262582171176162,
+      "D_real": 0.2506829482104097,
+      "D_fake": 0.24978030909385
+    },
+    "seconds": 640.9127673599869,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_104_1794654955341253380.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:26:36+08:00"
+  },
+  {
+    "epoch": 105,
+    "steps": 14700,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507486878761223,
+      "G_L1": 0.18225513265601226,
+      "D_real": 0.2505027272871562,
+      "D_fake": 0.24985485790031298
+    },
+    "seconds": 660.0093317399733,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_105_1794655603356008417.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:37:43+08:00"
+  },
+  {
+    "epoch": 106,
+    "steps": 14840,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25077495606882233,
+      "G_L1": 0.17817810997366906,
+      "D_real": 0.25064491938267436,
+      "D_fake": 0.24971422755292483
+    },
+    "seconds": 648.6560988086276,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_106_1794656270966130164.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:48:39+08:00"
+  },
+  {
+    "epoch": 107,
+    "steps": 14980,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509030582649367,
+      "G_L1": 0.1800923818456275,
+      "D_real": 0.2504734167030879,
+      "D_fake": 0.24993695499641555
+    },
+    "seconds": 637.2634638343006,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_107_1794656927489136462.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T19:59:24+08:00"
+  },
+  {
+    "epoch": 108,
+    "steps": 15120,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509197833282607,
+      "G_L1": 0.1776951031493289,
+      "D_real": 0.2506482423416206,
+      "D_fake": 0.24979160502552986
+    },
+    "seconds": 655.8613834916614,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_108_1794657570851530927.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T20:10:26+08:00"
+  },
+  {
+    "epoch": 109,
+    "steps": 15260,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509567994092192,
+      "G_L1": 0.17893867210618086,
+      "D_real": 0.2509544813207218,
+      "D_fake": 0.25008520803281237
+    },
+    "seconds": 641.9499972308986,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_109_1794658233443700983.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T20:21:15+08:00"
+  },
+  {
+    "epoch": 110,
+    "steps": 15400,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2515911521656173,
+      "G_L1": 0.17970037460327148,
+      "D_real": 0.2510771683284215,
+      "D_fake": 0.2507226863077709
+    },
+    "seconds": 652.2651478247717,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_110_1794658884676303268.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T20:32:16+08:00"
+  },
+  {
+    "epoch": 111,
+    "steps": 15540,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25151778225387844,
+      "G_L1": 0.17991838471165725,
+      "D_real": 0.2512201234698296,
+      "D_fake": 0.2505703815392086
+    },
+    "seconds": 638.163642284926,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_111_1794659546298799472.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T20:43:04+08:00"
+  },
+  {
+    "epoch": 112,
+    "steps": 15680,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2520758791693619,
+      "G_L1": 0.17603920378855298,
+      "D_real": 0.25169694146939686,
+      "D_fake": 0.25111460834741595
+    },
+    "seconds": 627.3454326214269,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_112_1794660193283733243.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T20:53:40+08:00"
+  },
+  {
+    "epoch": 113,
+    "steps": 15820,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2519062566970076,
+      "G_L1": 0.17767454933907303,
+      "D_real": 0.2516919511769499,
+      "D_fake": 0.25090841044272694
+    },
+    "seconds": 532.9359564543702,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_113_1794660827977047062.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:02:40+08:00"
+  },
+  {
+    "epoch": 114,
+    "steps": 15960,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25230142878634587,
+      "G_L1": 0.18018905243703298,
+      "D_real": 0.25206178267087254,
+      "D_fake": 0.2516169350062098
+    },
+    "seconds": 639.7401000959799,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_114_1794661373188720520.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:13:32+08:00"
+  },
+  {
+    "epoch": 115,
+    "steps": 16100,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25238559277994294,
+      "G_L1": 0.1763462903776339,
+      "D_real": 0.252156391952719,
+      "D_fake": 0.25140151817883766
+    },
+    "seconds": 657.2802279456519,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_115_1794662020120775351.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:24:37+08:00"
+  },
+  {
+    "epoch": 116,
+    "steps": 16240,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25322642528585027,
+      "G_L1": 0.17603990169508116,
+      "D_real": 0.2517121734363692,
+      "D_fake": 0.2521184050611087
+    },
+    "seconds": 652.1542955101468,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_116_1794662689053480425.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:35:41+08:00"
+  },
+  {
+    "epoch": 117,
+    "steps": 16380,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25166358681661744,
+      "G_L1": 0.17794976463275297,
+      "D_real": 0.25269916515265195,
+      "D_fake": 0.2510235800274781
+    },
+    "seconds": 636.6413959348574,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_117_1794663353764601847.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:46:30+08:00"
+  },
+  {
+    "epoch": 118,
+    "steps": 16520,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2520106806286744,
+      "G_L1": 0.17752473482063838,
+      "D_real": 0.2513300012264933,
+      "D_fake": 0.25118486040404864
+    },
+    "seconds": 651.5952752758749,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_118_1794663999175014908.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T21:57:30+08:00"
+  },
+  {
+    "epoch": 119,
+    "steps": 16660,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2520580144865172,
+      "G_L1": 0.18125245736113615,
+      "D_real": 0.2520830589745726,
+      "D_fake": 0.2512945402945791
+    },
+    "seconds": 641.3743325560354,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_119_1794664656882359736.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T22:08:18+08:00"
+  },
+  {
+    "epoch": 120,
+    "steps": 16800,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25242580931101527,
+      "G_L1": 0.17632150602127825,
+      "D_real": 0.25197073189275604,
+      "D_fake": 0.25129948939595903
+    },
+    "seconds": 652.3020466938615,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_120_1794665305296317264.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.009931770391714771,
+          "psnr": 30.48120484164307,
+          "ssim": 0.887657004018368
+        },
+        "ilm_opl_mean": {
+          "mae": 0.028537624517559194,
+          "psnr": 28.489130382464385,
+          "ssim": 0.6517803175173235
+        },
+        "opl_bm_mean": {
+          "mae": 0.025987026923169926,
+          "psnr": 29.313957769592037,
+          "ssim": 0.6342252875959409
+        },
+        "ilm_bm_mean": {
+          "mae": 0.025575906442883066,
+          "psnr": 29.72828780198022,
+          "ssim": 0.6971019799085829
+        },
+        "full_mean": {
+          "mae": 0.006313486393159301,
+          "psnr": 42.377382082339636,
+          "ssim": 0.9323985713999404
+        },
+        "ilm_opl_max": {
+          "mae": 0.0899686291599677,
+          "psnr": 18.936450893526978,
+          "ssim": 0.40722962807883656
+        },
+        "opl_bm_max": {
+          "mae": 0.0829560849236977,
+          "psnr": 19.422547901115312,
+          "ssim": 0.36162887234414703
+        },
+        "full_max": {
+          "mae": 0.10608606258479551,
+          "psnr": 18.22693275808067,
+          "ssim": 0.3098589146784647
+        },
+        "bscan2d": {
+          "mae": 0.009931770391714771,
+          "psnr": 30.58442346752301,
+          "ssim": 0.8894922915176796
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.593020439147949,
+          "psnr": 30.249112945162864,
+          "ssim": 0.883664109451044
+        },
+        "ilm_opl_mean": {
+          "mae": 21.393717956542968,
+          "psnr": 19.23856102985419,
+          "ssim": 0.4575331117095881,
+          "perp": 0.684241795539856
+        },
+        "opl_bm_mean": {
+          "mae": 22.573098945617676,
+          "psnr": 18.56876069008151,
+          "ssim": 0.3772888034861511,
+          "perp": 0.6749968945980072
+        },
+        "ilm_bm_mean": {
+          "mae": 23.907495784759522,
+          "psnr": 18.487820605035804,
+          "ssim": 0.4566374292440657,
+          "perp": 0.6622118413448334
+        },
+        "full_mean": {
+          "mae": 27.34638023376465,
+          "psnr": 17.867340614144563,
+          "ssim": 0.45074789148777955,
+          "perp": 0.6402935683727264
+        }
+      }
+    },
+    "report": "reports/validation/epoch_120/metrics.json",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T22:26:18+08:00"
+  },
+  {
+    "epoch": 121,
+    "steps": 16940,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2532364643045834,
+      "G_L1": 0.17756731126989636,
+      "D_real": 0.25214009125317843,
+      "D_fake": 0.25197979116014074
+    },
+    "seconds": 638.1984198358841,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_121_1794666388407598798.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T22:37:06+08:00"
+  },
+  {
+    "epoch": 122,
+    "steps": 17080,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2525891240153994,
+      "G_L1": 0.17667131860341345,
+      "D_real": 0.2527794227004051,
+      "D_fake": 0.2520889277969088
+    },
+    "seconds": 654.9060676810332,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_122_1794667045950001648.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T22:48:20+08:00"
+  },
+  {
+    "epoch": 123,
+    "steps": 17220,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2526582456060818,
+      "G_L1": 0.1797018384827035,
+      "D_real": 0.25197543331554956,
+      "D_fake": 0.25208484306931495
+    },
+    "seconds": 798.950012138579,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_123_1794667713866564710.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:01:52+08:00"
+  },
+  {
+    "epoch": 124,
+    "steps": 17360,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2523649080523423,
+      "G_L1": 0.17708278543182782,
+      "D_real": 0.25209538180913243,
+      "D_fake": 0.2515343488327095
+    },
+    "seconds": 720.652960695792,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_124_1794668524126226075.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:14:04+08:00"
+  },
+  {
+    "epoch": 125,
+    "steps": 17500,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2522694959172181,
+      "G_L1": 0.1797170748135873,
+      "D_real": 0.25221317325319564,
+      "D_fake": 0.25114278825266023
+    },
+    "seconds": 655.8476378680207,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_125_1794669258806591322.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:25:14+08:00"
+  },
+  {
+    "epoch": 126,
+    "steps": 17640,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.253011222503015,
+      "G_L1": 0.17504527254828384,
+      "D_real": 0.25239585818988935,
+      "D_fake": 0.25239978336862157
+    },
+    "seconds": 640.2800060058944,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_126_1794669925145645146.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:36:05+08:00"
+  },
+  {
+    "epoch": 127,
+    "steps": 17780,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.253203725282635,
+      "G_L1": 0.17752525684024606,
+      "D_real": 0.25182180915560043,
+      "D_fake": 0.2524625022496496
+    },
+    "seconds": 638.6118394848891,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_127_1794670575790293115.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:46:54+08:00"
+  },
+  {
+    "epoch": 128,
+    "steps": 17920,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2533966849957194,
+      "G_L1": 0.1765353573752301,
+      "D_real": 0.25380098771836074,
+      "D_fake": 0.2527612080531461
+    },
+    "seconds": 653.4559493069537,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_128_1794671227580821347.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-14T23:58:01+08:00"
+  },
+  {
+    "epoch": 129,
+    "steps": 18060,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2524172705199037,
+      "G_L1": 0.17783820480108262,
+      "D_real": 0.2518683327095849,
+      "D_fake": 0.25181309527584483
+    },
+    "seconds": 637.1920381020755,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_129_1794671890617331519.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T00:08:47+08:00"
+  },
+  {
+    "epoch": 130,
+    "steps": 18200,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2534356705844402,
+      "G_L1": 0.1809082230286939,
+      "D_real": 0.25270069667271206,
+      "D_fake": 0.25283612608909606
+    },
+    "seconds": 653.4841859550215,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_130_1794672537380236263.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T00:19:50+08:00"
+  },
+  {
+    "epoch": 131,
+    "steps": 18340,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25368795692920687,
+      "G_L1": 0.17906385431332247,
+      "D_real": 0.2525783753820828,
+      "D_fake": 0.2529565275247608
+    },
+    "seconds": 481.428968813736,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_131_1794673202790611907.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T00:28:04+08:00"
+  },
+  {
+    "epoch": 132,
+    "steps": 18480,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2526202709547111,
+      "G_L1": 0.17782918017889773,
+      "D_real": 0.253357031834977,
+      "D_fake": 0.25243002346583776
+    },
+    "seconds": 638.1519366200082,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_132_1794673701216120981.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T00:38:59+08:00"
+  },
+  {
+    "epoch": 133,
+    "steps": 18620,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2531011435602393,
+      "G_L1": 0.17601064087024756,
+      "D_real": 0.2523080347904137,
+      "D_fake": 0.2523917622332062
+    },
+    "seconds": 651.0395992393605,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_133_1794674349905296128.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T00:50:00+08:00"
+  },
+  {
+    "epoch": 134,
+    "steps": 18760,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2534315941589219,
+      "G_L1": 0.1815342253340142,
+      "D_real": 0.2531252172908613,
+      "D_fake": 0.25313443722469464
+    },
+    "seconds": 645.32543610828,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_134_1794675011115982372.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:00:56+08:00"
+  },
+  {
+    "epoch": 135,
+    "steps": 18900,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25256783100111146,
+      "G_L1": 0.17658264567809445,
+      "D_real": 0.2517937272787094,
+      "D_fake": 0.2514147032584463
+    },
+    "seconds": 648.5169044998474,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_135_1794675666482326726.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:11:54+08:00"
+  },
+  {
+    "epoch": 136,
+    "steps": 19040,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25422026844961304,
+      "G_L1": 0.17745367921888827,
+      "D_real": 0.25364727399178916,
+      "D_fake": 0.25402568940605436
+    },
+    "seconds": 638.5943554500118,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_136_1794676323776340767.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:22:42+08:00"
+  },
+  {
+    "epoch": 137,
+    "steps": 19180,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25272421602691925,
+      "G_L1": 0.17788077071309089,
+      "D_real": 0.2532761943127428,
+      "D_fake": 0.25183954451765334
+    },
+    "seconds": 631.7178150988184,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_137_1794676972654289787.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:33:24+08:00"
+  },
+  {
+    "epoch": 138,
+    "steps": 19320,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2532014081520694,
+      "G_L1": 0.18155262236084257,
+      "D_real": 0.25192571825214793,
+      "D_fake": 0.25280203271125046
+    },
+    "seconds": 655.3256940240972,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_138_1794677617026657772.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:44:32+08:00"
+  },
+  {
+    "epoch": 139,
+    "steps": 19460,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2531110378248351,
+      "G_L1": 0.17537262998521327,
+      "D_real": 0.25234815808279176,
+      "D_fake": 0.2521785821233477
+    },
+    "seconds": 629.2846023649909,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_139_1794678285020530603.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T01:55:14+08:00"
+  },
+  {
+    "epoch": 140,
+    "steps": 19600,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2534734207072428,
+      "G_L1": 0.17892179286905696,
+      "D_real": 0.2539298148559673,
+      "D_fake": 0.2530075095061745
+    },
+    "seconds": 657.2166255130433,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_140_1794678922320359959.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T02:06:19+08:00"
+  },
+  {
+    "epoch": 141,
+    "steps": 19740,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2540789571723768,
+      "G_L1": 0.17789538060980184,
+      "D_real": 0.2528619437345437,
+      "D_fake": 0.25334086684244017
+    },
+    "seconds": 634.8910672417842,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_141_1794679588491367675.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T02:17:03+08:00"
+  },
+  {
+    "epoch": 142,
+    "steps": 19880,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2532931053212711,
+      "G_L1": 0.1804894223277058,
+      "D_real": 0.25243652420384544,
+      "D_fake": 0.25266314265983447
+    },
+    "seconds": 639.4655105769634,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_142_1794680232792890319.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T02:27:52+08:00"
+  },
+  {
+    "epoch": 143,
+    "steps": 20020,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25355798900127413,
+      "G_L1": 0.17796395692442143,
+      "D_real": 0.2531595512692417,
+      "D_fake": 0.2528390684830291
+    },
+    "seconds": 647.7681685318239,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_143_1794680882048231600.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T02:38:49+08:00"
+  },
+  {
+    "epoch": 144,
+    "steps": 20160,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.254782619114433,
+      "G_L1": 0.17833486114229474,
+      "D_real": 0.2537166300096682,
+      "D_fake": 0.2533808660294328
+    },
+    "seconds": 630.2505136528052,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_144_1794681539607890025.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T02:49:29+08:00"
+  },
+  {
+    "epoch": 145,
+    "steps": 20300,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2524852624961308,
+      "G_L1": 0.1806894164532423,
+      "D_real": 0.25178417127047265,
+      "D_fake": 0.2516501175505774
+    },
+    "seconds": 652.4436324420385,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_145_1794682179098891963.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:00:31+08:00"
+  },
+  {
+    "epoch": 146,
+    "steps": 20440,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25363199455397467,
+      "G_L1": 0.17791501187852451,
+      "D_real": 0.2528134194335767,
+      "D_fake": 0.2524530239935432
+    },
+    "seconds": 638.2932601049542,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_146_1794682838524413338.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:11:16+08:00"
+  },
+  {
+    "epoch": 147,
+    "steps": 20580,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.254994991847447,
+      "G_L1": 0.17852490235652244,
+      "D_real": 0.2535292116659028,
+      "D_fake": 0.253521833888122
+    },
+    "seconds": 637.5406538480893,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_147_1794683488907400373.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:22:06+08:00"
+  },
+  {
+    "epoch": 148,
+    "steps": 20720,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25564521226499765,
+      "G_L1": 0.17896180972456932,
+      "D_real": 0.25409036869449275,
+      "D_fake": 0.2530318115970918
+    },
+    "seconds": 652.6934487032704,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_148_1794684138596626547.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:33:11+08:00"
+  },
+  {
+    "epoch": 149,
+    "steps": 20860,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.7491610800581319,
+      "G_L1": 0.17914760687521525,
+      "D_real": 0.7490629137626716,
+      "D_fake": 0.7557384895426886
+    },
+    "seconds": 637.2619892740622,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_149_1794684798641380784.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:43:55+08:00"
+  },
+  {
+    "epoch": 150,
+    "steps": 21000,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507029845246247,
+      "G_L1": 0.17437452604728085,
+      "D_real": 0.2507822167660509,
+      "D_fake": 0.24994733120713916
+    },
+    "seconds": 504.76042898884043,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_150_1794685445084919225.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.009727950043719746,
+          "psnr": 30.73707362990684,
+          "ssim": 0.8882285032590935
+        },
+        "ilm_opl_mean": {
+          "mae": 0.02859953780335859,
+          "psnr": 28.51359565019552,
+          "ssim": 0.6551034179368419
+        },
+        "opl_bm_mean": {
+          "mae": 0.024772129589085097,
+          "psnr": 29.714099971432944,
+          "ssim": 0.6477389757277598
+        },
+        "ilm_bm_mean": {
+          "mae": 0.02501087777748582,
+          "psnr": 29.935175385387055,
+          "ssim": 0.7036074059142828
+        },
+        "full_mean": {
+          "mae": 0.0061134070288271615,
+          "psnr": 42.61916543837868,
+          "ssim": 0.9350035369968737
+        },
+        "ilm_opl_max": {
+          "mae": 0.08938851647931541,
+          "psnr": 19.024210407686084,
+          "ssim": 0.41719652841551635
+        },
+        "opl_bm_max": {
+          "mae": 0.07744628778428073,
+          "psnr": 19.97016350748535,
+          "ssim": 0.3812812216757986
+        },
+        "full_max": {
+          "mae": 0.09425072621654831,
+          "psnr": 19.0605353942454,
+          "ssim": 0.33582533205114234
+        },
+        "bscan2d": {
+          "mae": 0.009727950043719746,
+          "psnr": 30.82914641284962,
+          "ssim": 0.8901341279703789
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.5460760235786437,
+          "psnr": 30.50320359531876,
+          "ssim": 0.883331391833919
+        },
+        "ilm_opl_mean": {
+          "mae": 21.599486827850342,
+          "psnr": 19.244328095402633,
+          "ssim": 0.46619176370055077,
+          "perp": 0.6870445251464844
+        },
+        "opl_bm_mean": {
+          "mae": 21.509896564483643,
+          "psnr": 18.976715128365104,
+          "ssim": 0.39785090809921386,
+          "perp": 0.6768533945083618
+        },
+        "ilm_bm_mean": {
+          "mae": 23.511845207214357,
+          "psnr": 18.679374524610154,
+          "ssim": 0.46933454342548914,
+          "perp": 0.6643432915210724
+        },
+        "full_mean": {
+          "mae": 26.609324359893797,
+          "psnr": 18.110144186888057,
+          "ssim": 0.4674191325255513,
+          "perp": 0.6415724098682404
+        }
+      }
+    },
+    "report": "reports/validation/epoch_150/metrics.json",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T03:55:52+08:00"
+  },
+  {
+    "epoch": 151,
+    "steps": 21140,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2506533929279872,
+      "G_L1": 0.17640661783516406,
+      "D_real": 0.25050947623593467,
+      "D_fake": 0.24979687726923397
+    },
+    "seconds": 298.57693344866857,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_151_1794686163439279906.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:01:02+08:00"
+  },
+  {
+    "epoch": 152,
+    "steps": 21280,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25058966012937683,
+      "G_L1": 0.17331295620117868,
+      "D_real": 0.25042999397431104,
+      "D_fake": 0.24972893702132362
+    },
+    "seconds": 297.459898208268,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_152_1794686472224426346.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:06:09+08:00"
+  },
+  {
+    "epoch": 153,
+    "steps": 21420,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2507282165544374,
+      "G_L1": 0.17213550295148577,
+      "D_real": 0.2503339586513383,
+      "D_fake": 0.24968067301171168
+    },
+    "seconds": 299.15095291193575,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_153_1794686776953074162.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:11:16+08:00"
+  },
+  {
+    "epoch": 154,
+    "steps": 21560,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25075920224189757,
+      "G_L1": 0.1723013178578445,
+      "D_real": 0.2502033103789602,
+      "D_fake": 0.24978174663015773
+    },
+    "seconds": 297.3335657226853,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_154_1794687082044155738.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:16:19+08:00"
+  },
+  {
+    "epoch": 155,
+    "steps": 21700,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25073439893977983,
+      "G_L1": 0.17344193027487823,
+      "D_real": 0.2502458393573761,
+      "D_fake": 0.2497216020311628
+    },
+    "seconds": 297.5608828170225,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_155_1794687385698482364.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:21:23+08:00"
+  },
+  {
+    "epoch": 156,
+    "steps": 21840,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.250827840502773,
+      "G_L1": 0.1742471916867154,
+      "D_real": 0.25036569046122686,
+      "D_fake": 0.24969672060438564
+    },
+    "seconds": 298.1957689928822,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_156_1794687688766697872.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:26:26+08:00"
+  },
+  {
+    "epoch": 157,
+    "steps": 21980,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2509571698095117,
+      "G_L1": 0.17556649941418853,
+      "D_real": 0.2502824386315686,
+      "D_fake": 0.24979485550097058
+    },
+    "seconds": 297.38243932509795,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_157_1794687992167865586.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:31:29+08:00"
+  },
+  {
+    "epoch": 158,
+    "steps": 22120,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2511586175433227,
+      "G_L1": 0.17098346347255367,
+      "D_real": 0.2502314100308078,
+      "D_fake": 0.25020469554833
+    },
+    "seconds": 298.54915786208585,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_158_1794688294951061910.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:36:33+08:00"
+  },
+  {
+    "epoch": 159,
+    "steps": 22260,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2513491454933371,
+      "G_L1": 0.17724132335611753,
+      "D_real": 0.251020506556545,
+      "D_fake": 0.2500160884644304
+    },
+    "seconds": 298.54235097998753,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_159_1794688598912325617.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:41:37+08:00"
+  },
+  {
+    "epoch": 160,
+    "steps": 22400,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25146800077387266,
+      "G_L1": 0.17562481532139437,
+      "D_real": 0.2510735777871949,
+      "D_fake": 0.25040557703801564
+    },
+    "seconds": 298.05612743319944,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_160_1794688903788656474.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:46:41+08:00"
+  },
+  {
+    "epoch": 161,
+    "steps": 22540,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25205721748726706,
+      "G_L1": 0.17472170910664966,
+      "D_real": 0.2517603642174176,
+      "D_fake": 0.2509789962853704
+    },
+    "seconds": 297.3133381549269,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_161_1794689208931706669.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:51:46+08:00"
+  },
+  {
+    "epoch": 162,
+    "steps": 22680,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2523529428456511,
+      "G_L1": 0.1746442163097007,
+      "D_real": 0.2508765350495066,
+      "D_fake": 0.2512107842734882
+    },
+    "seconds": 297.0643508727662,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_162_1794689512721008581.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T04:56:49+08:00"
+  },
+  {
+    "epoch": 163,
+    "steps": 22820,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2520772624228682,
+      "G_L1": 0.174485475144216,
+      "D_real": 0.2518276962850775,
+      "D_fake": 0.2507725031248161
+    },
+    "seconds": 297.54434334719554,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_163_1794689815289534613.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:01:52+08:00"
+  },
+  {
+    "epoch": 164,
+    "steps": 22960,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2524986517216478,
+      "G_L1": 0.17044881571616446,
+      "D_real": 0.2519091713641371,
+      "D_fake": 0.25126745168651854
+    },
+    "seconds": 298.9352264199406,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_164_1794690118844457509.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:06:57+08:00"
+  },
+  {
+    "epoch": 165,
+    "steps": 23100,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2527528471180371,
+      "G_L1": 0.17550851633506162,
+      "D_real": 0.25218768220927035,
+      "D_fake": 0.25115281056080546
+    },
+    "seconds": 299.40570816071704,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_165_1794690423246316602.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:12:02+08:00"
+  },
+  {
+    "epoch": 166,
+    "steps": 23240,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2529527267175061,
+      "G_L1": 0.1742128249257803,
+      "D_real": 0.2522603492651667,
+      "D_fake": 0.2513107663818768
+    },
+    "seconds": 298.8980473950505,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_166_1794690727484710113.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:17:06+08:00"
+  },
+  {
+    "epoch": 167,
+    "steps": 23380,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2536242443536009,
+      "G_L1": 0.17435000985860824,
+      "D_real": 0.25172618201800756,
+      "D_fake": 0.2519004114504371
+    },
+    "seconds": 297.1668740371242,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_167_1794691030494456579.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:22:07+08:00"
+  },
+  {
+    "epoch": 168,
+    "steps": 23520,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2536053047648498,
+      "G_L1": 0.1757351104170084,
+      "D_real": 0.25337681302002496,
+      "D_fake": 0.2522813223302364
+    },
+    "seconds": 297.64032966736704,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_168_1794691331571944554.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:27:09+08:00"
+  },
+  {
+    "epoch": 169,
+    "steps": 23660,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2533304087817669,
+      "G_L1": 0.17406646790249006,
+      "D_real": 0.2515160781996591,
+      "D_fake": 0.2517378930534635
+    },
+    "seconds": 297.3344684680924,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_169_1794691633241687796.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:32:10+08:00"
+  },
+  {
+    "epoch": 170,
+    "steps": 23800,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2542480858308928,
+      "G_L1": 0.17287181722266334,
+      "D_real": 0.2534811688853162,
+      "D_fake": 0.25256077998450827
+    },
+    "seconds": 297.2024586950429,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_170_1794691934956171814.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:37:12+08:00"
+  },
+  {
+    "epoch": 171,
+    "steps": 23940,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2554443575441837,
+      "G_L1": 0.17918175597276007,
+      "D_real": 0.2525593014700072,
+      "D_fake": 0.2519624457295452
+    },
+    "seconds": 298.28569248504937,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_171_1794692237062186923.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:42:15+08:00"
+  },
+  {
+    "epoch": 172,
+    "steps": 24080,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25916202467467103,
+      "G_L1": 0.18202654288283415,
+      "D_real": 0.2547084188887051,
+      "D_fake": 0.25339353057954994
+    },
+    "seconds": 298.60825959872454,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_172_1794692540618386229.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:47:19+08:00"
+  },
+  {
+    "epoch": 173,
+    "steps": 24220,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2567036026290485,
+      "G_L1": 0.1832166307206665,
+      "D_real": 0.2541968426001923,
+      "D_fake": 0.25238972923585345
+    },
+    "seconds": 297.12021959386766,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_173_1794692844151604992.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:52:21+08:00"
+  },
+  {
+    "epoch": 174,
+    "steps": 24360,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25418137375797545,
+      "G_L1": 0.1897311263850757,
+      "D_real": 0.2518803721027715,
+      "D_fake": 0.2511376921619688
+    },
+    "seconds": 299.3213823088445,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_174_1794693146299458840.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T05:57:25+08:00"
+  },
+  {
+    "epoch": 175,
+    "steps": 24500,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25642711371183396,
+      "G_L1": 0.1893861425774438,
+      "D_real": 0.2517685594303267,
+      "D_fake": 0.25256912500730583
+    },
+    "seconds": 297.54079024121165,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_175_1794693450903978291.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T06:02:28+08:00"
+  },
+  {
+    "epoch": 176,
+    "steps": 24640,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25481787664549693,
+      "G_L1": 0.1902132323277848,
+      "D_real": 0.25314646161028315,
+      "D_fake": 0.2515384422881263
+    },
+    "seconds": 298.07675511809066,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_176_1794693753042903447.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T06:07:31+08:00"
+  },
+  {
+    "epoch": 177,
+    "steps": 24780,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.255491486244968,
+      "G_L1": 0.18695745462817806,
+      "D_real": 0.25228747017681596,
+      "D_fake": 0.25197769845170637
+    },
+    "seconds": 297.41329893423244,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_177_1794694055153795729.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T06:12:32+08:00"
+  },
+  {
+    "epoch": 178,
+    "steps": 24920,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2553061923810414,
+      "G_L1": 0.1912871108523437,
+      "D_real": 0.2530946078577212,
+      "D_fake": 0.2514710802052702
+    },
+    "seconds": 297.6907304748893,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_178_1794694356778472953.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T06:17:34+08:00"
+  },
+  {
+    "epoch": 179,
+    "steps": 25060,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25523771718144417,
+      "G_L1": 0.19258990064263343,
+      "D_real": 0.25222166968243465,
+      "D_fake": 0.2526015190673726
+    },
+    "seconds": 296.9386242739856,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_179_1794694659102146520.jsonl",
+    "best": {
+      "epoch": 90,
+      "value": 0.48686362973478375,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_090/metrics.json",
+      "generator_tensor_sha256": "0703ca628e96acea598b440d0f69bf0d040b0e463d767f4e6ce0f0054e8fdf51"
+    },
+    "time": "2026-11-15T06:22:36+08:00"
+  },
+  {
+    "epoch": 180,
+    "steps": 25200,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2544053304408278,
+      "G_L1": 0.19621067653809274,
+      "D_real": 0.2527909514095102,
+      "D_fake": 0.2508323309676988
+    },
+    "seconds": 298.2588873510249,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_180_1794694960453692759.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.010418566900717106,
+          "psnr": 30.147873255627207,
+          "ssim": 0.8978168579438096
+        },
+        "ilm_opl_mean": {
+          "mae": 0.02632432977478703,
+          "psnr": 29.113177854390823,
+          "ssim": 0.6878623593061348
+        },
+        "opl_bm_mean": {
+          "mae": 0.024988257169892295,
+          "psnr": 29.610867920198597,
+          "ssim": 0.6687896847930411
+        },
+        "ilm_bm_mean": {
+          "mae": 0.02192114572318391,
+          "psnr": 30.83954266731252,
+          "ssim": 0.7488216341508772
+        },
+        "full_mean": {
+          "mae": 0.005079986374316315,
+          "psnr": 43.74349753415984,
+          "ssim": 0.9564574938722034
+        },
+        "ilm_opl_max": {
+          "mae": 0.07241334527948463,
+          "psnr": 20.45851886038823,
+          "ssim": 0.5092909021305492
+        },
+        "opl_bm_max": {
+          "mae": 0.0708430155378337,
+          "psnr": 20.56869395218455,
+          "ssim": 0.4673232626541832
+        },
+        "full_max": {
+          "mae": 0.07533718836375682,
+          "psnr": 20.376078002375216,
+          "ssim": 0.3664860656201191
+        },
+        "bscan2d": {
+          "mae": 0.010418566900717104,
+          "psnr": 30.234658583218383,
+          "ssim": 0.8934550584394776
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.706842851638794,
+          "psnr": 29.980860990275268,
+          "ssim": 0.8951013679222075
+        },
+        "ilm_opl_mean": {
+          "mae": 19.357847690582275,
+          "psnr": 19.98690380411498,
+          "ssim": 0.5513106245648534,
+          "perp": 0.7006806492805481
+        },
+        "opl_bm_mean": {
+          "mae": 21.365056610107423,
+          "psnr": 19.03175035556567,
+          "ssim": 0.49117677755896444,
+          "perp": 0.6965160071849823
+        },
+        "ilm_bm_mean": {
+          "mae": 20.09593744277954,
+          "psnr": 19.748746177549485,
+          "ssim": 0.5850802268136268,
+          "perp": 0.6606761276721954
+        },
+        "full_mean": {
+          "mae": 21.459758377075197,
+          "psnr": 19.393701166749672,
+          "ssim": 0.5677042603643876,
+          "perp": 0.6365114629268647
+        }
+      }
+    },
+    "report": "reports/validation/epoch_180/metrics.json",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:31:03+08:00"
+  },
+  {
+    "epoch": 181,
+    "steps": 25340,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2555102950760296,
+      "G_L1": 0.1921017554721662,
+      "D_real": 0.25178434827498025,
+      "D_fake": 0.2525747484394482
+    },
+    "seconds": 296.9432765496895,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_181_1794695467539492835.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:36:04+08:00"
+  },
+  {
+    "epoch": 182,
+    "steps": 25480,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25603304361658435,
+      "G_L1": 0.1926473729844604,
+      "D_real": 0.2531663748834814,
+      "D_fake": 0.25166706570557185
+    },
+    "seconds": 296.793941590935,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_182_1794695768874494278.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:41:05+08:00"
+  },
+  {
+    "epoch": 183,
+    "steps": 25620,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25555514501673837,
+      "G_L1": 0.1969433484332902,
+      "D_real": 0.252685006495033,
+      "D_fake": 0.25181179946022375
+    },
+    "seconds": 297.00236862991005,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_183_1794696069659635582.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:46:06+08:00"
+  },
+  {
+    "epoch": 184,
+    "steps": 25760,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2559915123241288,
+      "G_L1": 0.19190759962158543,
+      "D_real": 0.25213989966682027,
+      "D_fake": 0.25235956332513265
+    },
+    "seconds": 297.79970794776455,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_184_1794696370492230422.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:51:08+08:00"
+  },
+  {
+    "epoch": 185,
+    "steps": 25900,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25528848213808875,
+      "G_L1": 0.19183470005435602,
+      "D_real": 0.2522213971508401,
+      "D_fake": 0.2516327727586031
+    },
+    "seconds": 297.2878793277778,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_185_1794696673188844321.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T06:56:10+08:00"
+  },
+  {
+    "epoch": 186,
+    "steps": 26040,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2543038874332394,
+      "G_L1": 0.19253143817186355,
+      "D_real": 0.25263152021382534,
+      "D_fake": 0.2517881056027753
+    },
+    "seconds": 297.2049906309694,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_186_1794696977238705600.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:01:14+08:00"
+  },
+  {
+    "epoch": 187,
+    "steps": 26180,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25568316036037037,
+      "G_L1": 0.1933633522263595,
+      "D_real": 0.2519627409321921,
+      "D_fake": 0.25190646233303204
+    },
+    "seconds": 297.0782570638694,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_187_1794697280570492909.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:06:17+08:00"
+  },
+  {
+    "epoch": 188,
+    "steps": 26320,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2553527267915862,
+      "G_L1": 0.19605583623051642,
+      "D_real": 0.2523669130035809,
+      "D_fake": 0.25170182500566757
+    },
+    "seconds": 298.0208900938742,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_188_1794697583507262744.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:11:21+08:00"
+  },
+  {
+    "epoch": 189,
+    "steps": 26460,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2561318845621177,
+      "G_L1": 0.19502623464379992,
+      "D_real": 0.25338295980223585,
+      "D_fake": 0.2517925906926394
+    },
+    "seconds": 298.545642463956,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_189_1794697887138719765.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:16:25+08:00"
+  },
+  {
+    "epoch": 190,
+    "steps": 26600,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2546767994761467,
+      "G_L1": 0.19404329540474075,
+      "D_real": 0.25232715287378854,
+      "D_fake": 0.2516084490077836
+    },
+    "seconds": 298.01817675773054,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_190_1794698192374713336.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:21:30+08:00"
+  },
+  {
+    "epoch": 191,
+    "steps": 26740,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.254647289535829,
+      "G_L1": 0.19406849470521723,
+      "D_real": 0.2510394484336887,
+      "D_fake": 0.2528622547430652
+    },
+    "seconds": 299.1372074270621,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_191_1794698495294126648.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:26:34+08:00"
+  },
+  {
+    "epoch": 192,
+    "steps": 26880,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2543048796909196,
+      "G_L1": 0.1940444629639387,
+      "D_real": 0.2526123084127903,
+      "D_fake": 0.25151195669812815
+    },
+    "seconds": 297.71649831719697,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_192_1794698798468149269.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:31:36+08:00"
+  },
+  {
+    "epoch": 193,
+    "steps": 27020,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2552248759993485,
+      "G_L1": 0.19097459571702138,
+      "D_real": 0.25185161137155126,
+      "D_fake": 0.25211487109107633
+    },
+    "seconds": 297.2043419731781,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_193_1794699101186223090.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:36:38+08:00"
+  },
+  {
+    "epoch": 194,
+    "steps": 27160,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25521546666111267,
+      "G_L1": 0.19664862932903426,
+      "D_real": 0.2527363281697035,
+      "D_fake": 0.2520521292729037
+    },
+    "seconds": 297.8691163510084,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_194_1794699404002402011.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:41:41+08:00"
+  },
+  {
+    "epoch": 195,
+    "steps": 27300,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2547175707561629,
+      "G_L1": 0.1951459542981216,
+      "D_real": 0.25223978885582515,
+      "D_fake": 0.2516703095819269
+    },
+    "seconds": 298.77588816313073,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_195_1794699706821849068.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:46:45+08:00"
+  },
+  {
+    "epoch": 196,
+    "steps": 27440,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.25444418553795134,
+      "G_L1": 0.19145596458443573,
+      "D_real": 0.25165019535592625,
+      "D_fake": 0.2515347126339163
+    },
+    "seconds": 297.2378312256187,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_196_1794700010426177298.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:51:47+08:00"
+  },
+  {
+    "epoch": 197,
+    "steps": 27580,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2564498370247228,
+      "G_L1": 0.19601453319191933,
+      "D_real": 0.2525074473449162,
+      "D_fake": 0.2520453333322491
+    },
+    "seconds": 297.90850424719974,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_197_1794700312746084451.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T07:56:50+08:00"
+  },
+  {
+    "epoch": 198,
+    "steps": 27720,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2538252920976707,
+      "G_L1": 0.19395659459488732,
+      "D_real": 0.25205986042107853,
+      "D_fake": 0.2519329548414264
+    },
+    "seconds": 297.1814493141137,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_198_1794700614297446469.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:01:51+08:00"
+  },
+  {
+    "epoch": 199,
+    "steps": 27860,
+    "learning_rate": 0.0001,
+    "mean_losses": {
+      "G_GAN": 0.2559309565595218,
+      "G_L1": 0.19232178612479142,
+      "D_real": 0.25235281719693115,
+      "D_fake": 0.2521264511027506
+    },
+    "seconds": 297.68838266376406,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_199_1794700914804638351.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:06:52+08:00"
+  },
+  {
+    "epoch": 200,
+    "steps": 28000,
+    "learning_rate": 9.900990099009902e-05,
+    "mean_losses": {
+      "G_GAN": 0.25563608961445944,
+      "G_L1": 0.19339236819318362,
+      "D_real": 0.2525554331817797,
+      "D_fake": 0.25185630385364804
+    },
+    "seconds": 297.202426425647,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_200_1794701216031276711.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:11:53+08:00"
+  },
+  {
+    "epoch": 201,
+    "steps": 28140,
+    "learning_rate": 9.801980198019803e-05,
+    "mean_losses": {
+      "G_GAN": 0.25366473336304934,
+      "G_L1": 0.19573324881494045,
+      "D_real": 0.2517523567591395,
+      "D_fake": 0.25136636740395
+    },
+    "seconds": 296.89574239077047,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_201_1794701516660688777.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:16:53+08:00"
+  },
+  {
+    "epoch": 202,
+    "steps": 28280,
+    "learning_rate": 9.702970297029703e-05,
+    "mean_losses": {
+      "G_GAN": 0.2551774044654199,
+      "G_L1": 0.19735719854278225,
+      "D_real": 0.2525357416697911,
+      "D_fake": 0.2520482922771147
+    },
+    "seconds": 296.87453606305644,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_202_1794701817039842922.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:21:53+08:00"
+  },
+  {
+    "epoch": 203,
+    "steps": 28420,
+    "learning_rate": 9.603960396039604e-05,
+    "mean_losses": {
+      "G_GAN": 0.25414871903402464,
+      "G_L1": 0.19075789275978292,
+      "D_real": 0.25174305928604945,
+      "D_fake": 0.2509347726191793
+    },
+    "seconds": 297.46724473917857,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_203_1794702118281174907.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:26:55+08:00"
+  },
+  {
+    "epoch": 204,
+    "steps": 28560,
+    "learning_rate": 9.504950495049505e-05,
+    "mean_losses": {
+      "G_GAN": 0.25509932647858347,
+      "G_L1": 0.1937578009707587,
+      "D_real": 0.252010923783694,
+      "D_fake": 0.2520393964435373
+    },
+    "seconds": 297.06589000998065,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_204_1794702420363449607.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:31:57+08:00"
+  },
+  {
+    "epoch": 205,
+    "steps": 28700,
+    "learning_rate": 9.405940594059406e-05,
+    "mean_losses": {
+      "G_GAN": 0.25527402556368284,
+      "G_L1": 0.19119770638644695,
+      "D_real": 0.25169801680105075,
+      "D_fake": 0.25121689939073155
+    },
+    "seconds": 297.4611276513897,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_205_1794702721996614106.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:36:59+08:00"
+  },
+  {
+    "epoch": 206,
+    "steps": 28840,
+    "learning_rate": 9.306930693069307e-05,
+    "mean_losses": {
+      "G_GAN": 0.2568030791623252,
+      "G_L1": 0.19497321439640863,
+      "D_real": 0.2530522299664361,
+      "D_fake": 0.2525148335312094
+    },
+    "seconds": 297.38794894423336,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_206_1794703023911041271.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:42:01+08:00"
+  },
+  {
+    "epoch": 207,
+    "steps": 28980,
+    "learning_rate": 9.207920792079209e-05,
+    "mean_losses": {
+      "G_GAN": 0.25374826597315925,
+      "G_L1": 0.192940373771957,
+      "D_real": 0.25117581848587306,
+      "D_fake": 0.25126495393259185
+    },
+    "seconds": 297.11323628760874,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_207_1794703325047313747.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:47:02+08:00"
+  },
+  {
+    "epoch": 208,
+    "steps": 29120,
+    "learning_rate": 9.10891089108911e-05,
+    "mean_losses": {
+      "G_GAN": 0.2524864871587072,
+      "G_L1": 0.19528616437954563,
+      "D_real": 0.2514999270439148,
+      "D_fake": 0.25084071127431734
+    },
+    "seconds": 296.97222415497527,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_208_1794703626915747124.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:52:03+08:00"
+  },
+  {
+    "epoch": 209,
+    "steps": 29260,
+    "learning_rate": 9.009900990099011e-05,
+    "mean_losses": {
+      "G_GAN": 0.2529546866459506,
+      "G_L1": 0.19509720573467867,
+      "D_real": 0.25077569484710693,
+      "D_fake": 0.2509335648800646
+    },
+    "seconds": 296.7383736479096,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_209_1794703927898929272.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T08:57:04+08:00"
+  },
+  {
+    "epoch": 210,
+    "steps": 29400,
+    "learning_rate": 8.910891089108912e-05,
+    "mean_losses": {
+      "G_GAN": 0.25361242017575675,
+      "G_L1": 0.1924187288752624,
+      "D_real": 0.2518974918872118,
+      "D_fake": 0.25112714661019186
+    },
+    "seconds": 297.22368130879477,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_210_1794704228684015666.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.010667854840713992,
+          "psnr": 29.507090969488736,
+          "ssim": 0.8874451169774652
+        },
+        "ilm_opl_mean": {
+          "mae": 0.02752795380893548,
+          "psnr": 28.681848537069584,
+          "ssim": 0.6624428814902206
+        },
+        "opl_bm_mean": {
+          "mae": 0.02487861250170349,
+          "psnr": 29.630612482391296,
+          "ssim": 0.6677814772453454
+        },
+        "ilm_bm_mean": {
+          "mae": 0.022809167262290684,
+          "psnr": 30.51272204667193,
+          "ssim": 0.7342491238580372
+        },
+        "full_mean": {
+          "mae": 0.0052204339477400314,
+          "psnr": 43.53322805939041,
+          "ssim": 0.9545205310597182
+        },
+        "ilm_opl_max": {
+          "mae": 0.09831014323150204,
+          "psnr": 16.701958072653685,
+          "ssim": 0.3547347091740872
+        },
+        "opl_bm_max": {
+          "mae": 0.07783735543105906,
+          "psnr": 19.386260218022134,
+          "ssim": 0.4084291736148023
+        },
+        "full_max": {
+          "mae": 0.10165087367784716,
+          "psnr": 16.900427280786154,
+          "ssim": 0.20994607604863305
+        },
+        "bscan2d": {
+          "mae": 0.010667854840713992,
+          "psnr": 29.595707584382872,
+          "ssim": 0.8871478724120143
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.7756051063537597,
+          "psnr": 29.328970877560966,
+          "ssim": 0.8851126726102251
+        },
+        "ilm_opl_mean": {
+          "mae": 20.39179620742798,
+          "psnr": 19.52976178672497,
+          "ssim": 0.5214323530903838,
+          "perp": 0.7214728474617005
+        },
+        "opl_bm_mean": {
+          "mae": 21.422934913635252,
+          "psnr": 18.982258280535326,
+          "ssim": 0.4790114004988335,
+          "perp": 0.6941932678222656
+        },
+        "ilm_bm_mean": {
+          "mae": 21.073783493041994,
+          "psnr": 19.370667893768562,
+          "ssim": 0.5598583237362326,
+          "perp": 0.6636942327022552
+        },
+        "full_mean": {
+          "mae": 22.286078453063965,
+          "psnr": 19.13888860073269,
+          "ssim": 0.5480092268621672,
+          "perp": 0.6259851217269897
+        }
+      }
+    },
+    "report": "reports/validation/epoch_210/metrics.json",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:05:28+08:00"
+  },
+  {
+    "epoch": 211,
+    "steps": 29540,
+    "learning_rate": 8.811881188118812e-05,
+    "mean_losses": {
+      "G_GAN": 0.2538659157497542,
+      "G_L1": 0.19413648215787752,
+      "D_real": 0.2508789644709655,
+      "D_fake": 0.25138029754161834
+    },
+    "seconds": 296.2956197177991,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_211_1794704733042754733.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:10:29+08:00"
+  },
+  {
+    "epoch": 212,
+    "steps": 29680,
+    "learning_rate": 8.712871287128713e-05,
+    "mean_losses": {
+      "G_GAN": 0.2527790514486177,
+      "G_L1": 0.18945632981402533,
+      "D_real": 0.2521976453917367,
+      "D_fake": 0.25164492247360093
+    },
+    "seconds": 297.4458687552251,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_212_1794705033884151559.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:15:31+08:00"
+  },
+  {
+    "epoch": 213,
+    "steps": 29820,
+    "learning_rate": 8.613861386138614e-05,
+    "mean_losses": {
+      "G_GAN": 0.25338550699608664,
+      "G_L1": 0.19204714431294373,
+      "D_real": 0.2509991376527718,
+      "D_fake": 0.25102975400430816
+    },
+    "seconds": 297.6547041251324,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_213_1794705335782255053.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:20:33+08:00"
+  },
+  {
+    "epoch": 214,
+    "steps": 29960,
+    "learning_rate": 8.514851485148515e-05,
+    "mean_losses": {
+      "G_GAN": 0.25305222123861315,
+      "G_L1": 0.19138265065848828,
+      "D_real": 0.25123023220470975,
+      "D_fake": 0.25098152831196785
+    },
+    "seconds": 296.95689835306257,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_214_1794705638578323760.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:25:35+08:00"
+  },
+  {
+    "epoch": 215,
+    "steps": 30100,
+    "learning_rate": 8.415841584158417e-05,
+    "mean_losses": {
+      "G_GAN": 0.25348213793975966,
+      "G_L1": 0.19100550929350513,
+      "D_real": 0.25113499271018164,
+      "D_fake": 0.2509555068399225
+    },
+    "seconds": 296.99096312280744,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_215_1794705939399177835.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:30:36+08:00"
+  },
+  {
+    "epoch": 216,
+    "steps": 30240,
+    "learning_rate": 8.316831683168316e-05,
+    "mean_losses": {
+      "G_GAN": 0.2532606287726334,
+      "G_L1": 0.1929128313171012,
+      "D_real": 0.25090264060667583,
+      "D_fake": 0.2510015409971986
+    },
+    "seconds": 297.34565030084923,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_216_1794706239625022261.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:35:36+08:00"
+  },
+  {
+    "epoch": 217,
+    "steps": 30380,
+    "learning_rate": 8.217821782178219e-05,
+    "mean_losses": {
+      "G_GAN": 0.2539745447891099,
+      "G_L1": 0.19508871228567193,
+      "D_real": 0.2515256183488028,
+      "D_fake": 0.2510442877454417
+    },
+    "seconds": 297.6867494462058,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_217_1794706542327866318.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:40:40+08:00"
+  },
+  {
+    "epoch": 218,
+    "steps": 30520,
+    "learning_rate": 8.11881188118812e-05,
+    "mean_losses": {
+      "G_GAN": 0.25462659427097867,
+      "G_L1": 0.18987601793238096,
+      "D_real": 0.2512811645333256,
+      "D_fake": 0.25113297663629053
+    },
+    "seconds": 296.92524772975594,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_218_1794706843532505722.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:45:40+08:00"
+  },
+  {
+    "epoch": 219,
+    "steps": 30660,
+    "learning_rate": 8.019801980198021e-05,
+    "mean_losses": {
+      "G_GAN": 0.2534641263740403,
+      "G_L1": 0.1896630932177816,
+      "D_real": 0.25079996969018664,
+      "D_fake": 0.25098424979618617
+    },
+    "seconds": 296.9659605030902,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_219_1794707144023801136.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:50:40+08:00"
+  },
+  {
+    "epoch": 220,
+    "steps": 30800,
+    "learning_rate": 7.920792079207921e-05,
+    "mean_losses": {
+      "G_GAN": 0.25304135382175447,
+      "G_L1": 0.1930036650704486,
+      "D_real": 0.25103891502533643,
+      "D_fake": 0.2502668291330338
+    },
+    "seconds": 297.42142536398023,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_220_1794707444328072986.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T09:55:41+08:00"
+  },
+  {
+    "epoch": 221,
+    "steps": 30940,
+    "learning_rate": 7.821782178217822e-05,
+    "mean_losses": {
+      "G_GAN": 0.2535819194146565,
+      "G_L1": 0.19207541351871832,
+      "D_real": 0.25101359486579894,
+      "D_fake": 0.2509325757622719
+    },
+    "seconds": 297.2472129599191,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_221_1794707745627397859.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:00:42+08:00"
+  },
+  {
+    "epoch": 222,
+    "steps": 31080,
+    "learning_rate": 7.722772277227723e-05,
+    "mean_losses": {
+      "G_GAN": 0.2546995284301894,
+      "G_L1": 0.19162929686052457,
+      "D_real": 0.25104204192757607,
+      "D_fake": 0.250809798602547
+    },
+    "seconds": 297.1361784590408,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_222_1794708046191163852.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:05:43+08:00"
+  },
+  {
+    "epoch": 223,
+    "steps": 31220,
+    "learning_rate": 7.623762376237625e-05,
+    "mean_losses": {
+      "G_GAN": 0.25317159752760615,
+      "G_L1": 0.1907913944550923,
+      "D_real": 0.2512483360511916,
+      "D_fake": 0.25083445103040763
+    },
+    "seconds": 297.11994755314663,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_223_1794708346931154201.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:10:44+08:00"
+  },
+  {
+    "epoch": 224,
+    "steps": 31360,
+    "learning_rate": 7.524752475247526e-05,
+    "mean_losses": {
+      "G_GAN": 0.2536365398871047,
+      "G_L1": 0.196459479576775,
+      "D_real": 0.25073141609983784,
+      "D_fake": 0.2511812487883227
+    },
+    "seconds": 297.31223534280434,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_224_1794708647659980902.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:15:44+08:00"
+  },
+  {
+    "epoch": 225,
+    "steps": 31500,
+    "learning_rate": 7.425742574257426e-05,
+    "mean_losses": {
+      "G_GAN": 0.2532154682491507,
+      "G_L1": 0.19300559035369327,
+      "D_real": 0.2508883727448327,
+      "D_fake": 0.25063071719237734
+    },
+    "seconds": 297.0902938800864,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_225_1794708948619196531.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:20:45+08:00"
+  },
+  {
+    "epoch": 226,
+    "steps": 31640,
+    "learning_rate": 7.326732673267327e-05,
+    "mean_losses": {
+      "G_GAN": 0.25421056087527955,
+      "G_L1": 0.19154814380620208,
+      "D_real": 0.2513173212962491,
+      "D_fake": 0.25029788347227233
+    },
+    "seconds": 297.4897007686086,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_226_1794709252642358738.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:25:50+08:00"
+  },
+  {
+    "epoch": 227,
+    "steps": 31780,
+    "learning_rate": 7.227722772277228e-05,
+    "mean_losses": {
+      "G_GAN": 0.2533212447805064,
+      "G_L1": 0.1945624039109264,
+      "D_real": 0.2505058306668486,
+      "D_fake": 0.2505375396992479
+    },
+    "seconds": 299.73634520964697,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_227_1794709556766608739.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:30:56+08:00"
+  },
+  {
+    "epoch": 228,
+    "steps": 31920,
+    "learning_rate": 7.128712871287129e-05,
+    "mean_losses": {
+      "G_GAN": 0.2531042407665934,
+      "G_L1": 0.19454982302018575,
+      "D_real": 0.2510265405688967,
+      "D_fake": 0.25061213533793175
+    },
+    "seconds": 297.3178819497116,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_228_1794709862994177346.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:36:00+08:00"
+  },
+  {
+    "epoch": 229,
+    "steps": 32060,
+    "learning_rate": 7.02970297029703e-05,
+    "mean_losses": {
+      "G_GAN": 0.2542789450713566,
+      "G_L1": 0.19076506809464522,
+      "D_real": 0.2505369478038379,
+      "D_fake": 0.25059333273342677
+    },
+    "seconds": 297.18319126730785,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_229_1794710165012696187.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:41:02+08:00"
+  },
+  {
+    "epoch": 230,
+    "steps": 32200,
+    "learning_rate": 6.93069306930693e-05,
+    "mean_losses": {
+      "G_GAN": 0.25340200247509137,
+      "G_L1": 0.1963877341576985,
+      "D_real": 0.25067294846688,
+      "D_fake": 0.25058180413075853
+    },
+    "seconds": 297.6932936338708,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_230_1794710466842965533.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:46:04+08:00"
+  },
+  {
+    "epoch": 231,
+    "steps": 32340,
+    "learning_rate": 6.831683168316831e-05,
+    "mean_losses": {
+      "G_GAN": 0.2531733159508024,
+      "G_L1": 0.1926671371396099,
+      "D_real": 0.25033505750553947,
+      "D_fake": 0.2505002610385418
+    },
+    "seconds": 298.14665186032653,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_231_1794710769780236806.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:51:07+08:00"
+  },
+  {
+    "epoch": 232,
+    "steps": 32480,
+    "learning_rate": 6.732673267326732e-05,
+    "mean_losses": {
+      "G_GAN": 0.2542298829981259,
+      "G_L1": 0.19416632364903177,
+      "D_real": 0.25074802924479755,
+      "D_fake": 0.2505150534212589
+    },
+    "seconds": 299.0951321651228,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_232_1794711073351806804.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T10:56:12+08:00"
+  },
+  {
+    "epoch": 233,
+    "steps": 32620,
+    "learning_rate": 6.633663366336634e-05,
+    "mean_losses": {
+      "G_GAN": 0.2531746602484158,
+      "G_L1": 0.19705437341971058,
+      "D_real": 0.25087431967258456,
+      "D_fake": 0.2503297146941934
+    },
+    "seconds": 297.2284398288466,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_233_1794711377816562861.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:01:15+08:00"
+  },
+  {
+    "epoch": 234,
+    "steps": 32760,
+    "learning_rate": 6.534653465346535e-05,
+    "mean_losses": {
+      "G_GAN": 0.25327958932944705,
+      "G_L1": 0.19274237246385642,
+      "D_real": 0.25047942463840756,
+      "D_fake": 0.2501457984958376
+    },
+    "seconds": 297.18550146277994,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_234_1794711680448686156.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:06:17+08:00"
+  },
+  {
+    "epoch": 235,
+    "steps": 32900,
+    "learning_rate": 6.435643564356436e-05,
+    "mean_losses": {
+      "G_GAN": 0.2535649517817157,
+      "G_L1": 0.19565724852894034,
+      "D_real": 0.25080312426601137,
+      "D_fake": 0.250621836738927
+    },
+    "seconds": 297.571539030876,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_235_1794711982923721466.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:11:20+08:00"
+  },
+  {
+    "epoch": 236,
+    "steps": 33040,
+    "learning_rate": 6.336633663366337e-05,
+    "mean_losses": {
+      "G_GAN": 0.25373517562236103,
+      "G_L1": 0.19585323120866502,
+      "D_real": 0.25018411736403195,
+      "D_fake": 0.2505746875490461
+    },
+    "seconds": 297.742913922295,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_236_1794712286102234250.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:16:23+08:00"
+  },
+  {
+    "epoch": 237,
+    "steps": 33180,
+    "learning_rate": 6.237623762376238e-05,
+    "mean_losses": {
+      "G_GAN": 0.2533206767269543,
+      "G_L1": 0.19260899243610247,
+      "D_real": 0.25114322496312,
+      "D_fake": 0.2499888489288943
+    },
+    "seconds": 297.2216472569853,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_237_1794712588824205378.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:21:26+08:00"
+  },
+  {
+    "epoch": 238,
+    "steps": 33320,
+    "learning_rate": 6.13861386138614e-05,
+    "mean_losses": {
+      "G_GAN": 0.25409339038389067,
+      "G_L1": 0.19158896362142905,
+      "D_real": 0.2500385582447052,
+      "D_fake": 0.2504376887210778
+    },
+    "seconds": 298.0005196672864,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_238_1794712889886404251.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:26:27+08:00"
+  },
+  {
+    "epoch": 239,
+    "steps": 33460,
+    "learning_rate": 6.03960396039604e-05,
+    "mean_losses": {
+      "G_GAN": 0.25364010483026506,
+      "G_L1": 0.19500388215695108,
+      "D_real": 0.25079702554004535,
+      "D_fake": 0.25048978509647507
+    },
+    "seconds": 297.451333058998,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_239_1794713192570170995.jsonl",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:31:30+08:00"
+  },
+  {
+    "epoch": 240,
+    "steps": 33600,
+    "learning_rate": 5.9405940594059404e-05,
+    "mean_losses": {
+      "G_GAN": 0.2542681363012109,
+      "G_L1": 0.19637112750538757,
+      "D_real": 0.2502554350665637,
+      "D_fake": 0.25055273308285647
+    },
+    "seconds": 297.7245751461014,
+    "peak_reserved_gib": 24.76953125,
+    "ledger": "logs/epochs/epoch_240_1794713494922786913.jsonl",
+    "validation": {
+      "standard": {
+        "volume": {
+          "mae": 0.010223989140949439,
+          "psnr": 30.255901547404125,
+          "ssim": 0.8939054895316891
+        },
+        "ilm_opl_mean": {
+          "mae": 0.025072307776833096,
+          "psnr": 29.563482171889945,
+          "ssim": 0.7039433011461617
+        },
+        "opl_bm_mean": {
+          "mae": 0.023756139754567644,
+          "psnr": 30.086528715248352,
+          "ssim": 0.688072642532265
+        },
+        "ilm_bm_mean": {
+          "mae": 0.02103262955153448,
+          "psnr": 31.224383506088735,
+          "ssim": 0.7602170652300566
+        },
+        "full_mean": {
+          "mae": 0.004948557344662094,
+          "psnr": 44.05858665808029,
+          "ssim": 0.9570208306492655
+        },
+        "ilm_opl_max": {
+          "mae": 0.07697957310883932,
+          "psnr": 19.322360752412408,
+          "ssim": 0.4377471843978106
+        },
+        "opl_bm_max": {
+          "mae": 0.06864373228049785,
+          "psnr": 20.75710861084538,
+          "ssim": 0.4602275747770183
+        },
+        "full_max": {
+          "mae": 0.08402698015809233,
+          "psnr": 19.058938530275952,
+          "ssim": 0.27863298848985074
+        },
+        "bscan2d": {
+          "mae": 0.010223989140949437,
+          "psnr": 30.34271175193365,
+          "ssim": 0.891147124158735
+        }
+      },
+      "reference": {
+        "volume": {
+          "mae": 2.659816229343414,
+          "psnr": 30.077022515530064,
+          "ssim": 0.8910933885096085
+        },
+        "ilm_opl_mean": {
+          "mae": 18.520886611938476,
+          "psnr": 20.436384726571866,
+          "ssim": 0.5623718960908822,
+          "perp": 0.6677519977092743
+        },
+        "opl_bm_mean": {
+          "mae": 20.320290184020998,
+          "psnr": 19.4790973189993,
+          "ssim": 0.5039214953898324,
+          "perp": 0.6728873372077941
+        },
+        "ilm_bm_mean": {
+          "mae": 19.359229850769044,
+          "psnr": 20.123207847927183,
+          "ssim": 0.5899885831627706,
+          "perp": 0.6374058663845062
+        },
+        "full_mean": {
+          "mae": 21.247940635681154,
+          "psnr": 19.67523496051098,
+          "ssim": 0.5736378290272326,
+          "perp": 0.6136470437049866
+        }
+      }
+    },
+    "report": "reports/validation/epoch_240/metrics.json",
+    "best": {
+      "epoch": 180,
+      "value": 0.5092909021305492,
+      "metric": "standard_ilm_opl_max_ssim",
+      "report": "reports/validation/epoch_180/metrics.json",
+      "generator_tensor_sha256": "8f2f5772cdf5ce7d46ebb46c59bdf372fcb4ae83e6cc60d0b379e15b1dad6468"
+    },
+    "time": "2026-11-15T11:40:01+08:00"
+  }
+]

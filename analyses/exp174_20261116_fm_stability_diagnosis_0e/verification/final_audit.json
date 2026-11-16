@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_hashes": 109,
+  "validation_projection_pairs": 60,
+  "figures_verified": 2,
+  "raw_and_diagnostic_metrics_distinguished": true,
+  "causal_claims_labeled": true,
+  "checkpoints_reselected": false,
+  "new_training": 0,
+  "new_inference": 0,
+  "test_data_used": false
+}

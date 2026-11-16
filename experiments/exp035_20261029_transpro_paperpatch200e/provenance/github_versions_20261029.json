@@ -1,0 +1,194 @@
+{
+  "checked_date": "2026-10-29",
+  "official_repository": "https://github.com/ustlsh/TransPro",
+  "branches": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+        "url": "https://api.github.com/repos/ustlsh/TransPro/commits/dc748eac63ebffadfe191e96ef85e45e5d3539a0"
+      },
+      "protected": false
+    }
+  ],
+  "tags": [],
+  "tags_verification": "git ls-remote --heads --tags returned only refs/heads/main; GitHub tags page also checked",
+  "releases": [],
+  "commit_count": 31,
+  "latest_commit": {
+    "sha": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+    "date": "2023-03-14T02:05:39Z",
+    "message": "Merge pull request #2 from dongzhang89/main\n\nupdate readme"
+  },
+  "commits": [
+    {
+      "sha": "dc748eac63ebffadfe191e96ef85e45e5d3539a0",
+      "date": "2023-03-14T02:05:39Z",
+      "message": "Merge pull request #2 from dongzhang89/main\n\nupdate readme"
+    },
+    {
+      "sha": "639cbc4ea7b32a700fc53133325aea607b7f0593",
+      "date": "2023-03-14T00:50:55Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "e53bc1fefddb671b2227ffa25b7a7d0721c2713d",
+      "date": "2023-03-14T00:48:20Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "9a9d85e8725c75e4957d3b4a07525f9117d0a912",
+      "date": "2023-03-13T10:56:54Z",
+      "message": "Merge pull request #1 from dongzhang89/main\n\nupdate readme"
+    },
+    {
+      "sha": "adb9c5dba8d605b861a2a0fc0f9ddcca69a463ce",
+      "date": "2023-03-13T09:42:33Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "2d6cb7544a62a9c1f788c57956b8962f0bcc1537",
+      "date": "2023-03-13T09:36:29Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "f550f3776deae57ea8ce711ca176ae822b5987ba",
+      "date": "2023-03-13T09:35:29Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "76031ac4347233f46d939b0c409b4dbfdc3ab837",
+      "date": "2023-03-13T09:35:06Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "33d0d27d8e8f11dc5efb5f64dbff690506dd80dd",
+      "date": "2023-03-13T09:34:00Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "77d2088cba094d22250915331a8bd54f3334cc3c",
+      "date": "2023-03-13T09:31:52Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "bee51f7ff8b33832c265f086eb03d4c98c04127f",
+      "date": "2023-03-13T09:28:44Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "fa0e966335c659735ea4a9faa112a98151c8ea46",
+      "date": "2023-03-13T09:26:53Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "4b7473219e6a7c3e6381fa377bdfe1e09f5a8949",
+      "date": "2023-03-13T02:02:23Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "52f19315681a8f72fd1334ca6ec8507fbb679692",
+      "date": "2023-03-13T01:53:12Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "64633aabcf9fdcdbbd5b27f1bc71ba2d6a24363a",
+      "date": "2023-03-13T01:46:12Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "57948ef2722638c646b9bab0e5864af64aa5ef5b",
+      "date": "2023-03-13T01:44:09Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "f98bf9961ee5d015ab89da59da11f011f054725c",
+      "date": "2023-03-13T01:40:28Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "3e838f5546dcd59b44a9feba9cf53e8937ee3183",
+      "date": "2023-03-13T01:36:50Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "ae83603f520f7a96a16644da8f7bd3cf34d000d2",
+      "date": "2023-03-13T01:32:35Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "7adfd3525dab1e2f170016a243db93f15f886583",
+      "date": "2023-03-13T01:23:28Z",
+      "message": "Merge branch 'main' of https://github.com/ustlsh/TransPro into main"
+    },
+    {
+      "sha": "ae17c630cca90abbcfa0b0845679f2786bdd9657",
+      "date": "2023-03-13T01:14:55Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "940b50812e97750bdb9357cbf73b2d171459fcc1",
+      "date": "2023-03-13T01:12:00Z",
+      "message": "add img"
+    },
+    {
+      "sha": "8e975e0fc53303719ba83cb2fca28b886767ffac",
+      "date": "2023-03-13T01:02:54Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "2ad4499b7257e6c0f6c0afeb2034801be64f8e8f",
+      "date": "2023-03-13T00:59:37Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "48374c1315be0a8af9dbd636fd2412497b69512c",
+      "date": "2023-03-13T00:26:39Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "72a69fc3c12c5c2eab5e46cfe083586d74843360",
+      "date": "2023-03-12T13:29:33Z",
+      "message": "update imgs"
+    },
+    {
+      "sha": "89dfa56b0fa337b8390062fb84c904e5842330c6",
+      "date": "2023-03-12T13:27:42Z",
+      "message": "update imgs"
+    },
+    {
+      "sha": "e9e07a1f823375eb2c6e48a9bafd12d14908ee5e",
+      "date": "2023-03-12T13:16:26Z",
+      "message": "update readme"
+    },
+    {
+      "sha": "a93d60e233a32d17d13e38432906c80a203c068b",
+      "date": "2023-03-12T13:14:24Z",
+      "message": "first commit"
+    },
+    {
+      "sha": "f1be291c3a2a995bc40a5301521637b094a14e7b",
+      "date": "2023-03-12T13:10:52Z",
+      "message": "first commit"
+    },
+    {
+      "sha": "8ab0da082abf388b994a7daf63ff7db3b6e664d9",
+      "date": "2023-03-11T09:45:19Z",
+      "message": "Initial commit"
+    }
+  ],
+  "core_files_single_commit_history": {
+    "models/TransPro_model.py": "a93d60e233a32d17d13e38432906c80a203c068b",
+    "train3d.py": "a93d60e233a32d17d13e38432906c80a203c068b",
+    "models/networks_2g_st.py": "a93d60e233a32d17d13e38432906c80a203c068b",
+    "options/train_options.py": "a93d60e233a32d17d13e38432906c80a203c068b",
+    "options/base_options.py": "a93d60e233a32d17d13e38432906c80a203c068b"
+  },
+  "scope": "Public main, refs and API history in the paper-linked repository only. Local exp026/028/033 are not official author releases.",
+  "sources": [
+    "https://api.github.com/repos/ustlsh/TransPro/branches?per_page=100",
+    "https://api.github.com/repos/ustlsh/TransPro/releases?per_page=100",
+    "https://api.github.com/repos/ustlsh/TransPro/commits?per_page=100",
+    "https://github.com/ustlsh/TransPro/tags"
+  ]
+}

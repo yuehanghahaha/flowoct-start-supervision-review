@@ -1,0 +1,21 @@
+{
+  "total": 0.5036923289299011,
+  "regrouped": 0.5036923885345459,
+  "absolute_difference": 5.960464477539063e-08,
+  "ulp_difference": 1,
+  "weighted_terms": {
+    "fm": 0.3422582745552063,
+    "projection_max_ilm_opl": 0.04806758090853691,
+    "projection_mean_ilm_opl": 0.043835658580064774,
+    "projection_mean_opl_bm": 0.0337892584502697,
+    "projection_mean_ilm_bm": 0.03574157506227493
+  },
+  "float64_sum_of_float32_weighted_terms": 0.5036923475563526,
+  "sum_rounding_bound": 2.401793421438669e-07,
+  "total_oracle_error": 1.862645149230957e-08,
+  "regrouped_oracle_error": 4.0978193283081055e-08,
+  "gradient_max_abs_difference": 0.0,
+  "gradient_relative_l2": 0.0,
+  "gradients_bitwise_equal": true,
+  "scientific_source_modified": false
+}

@@ -1,0 +1,36 @@
+--- exp028/experiment.py
++++ exp040/experiment.py
+@@ -55,14 +55,14 @@
+ 
+ 
+ def precision(config, seed=None):
+-    if config["amp"] or config["gradient_scaling"] or config["tf32"] or config["dtype"] != "float32":
+-        raise ValueError("This experiment requires FP32 with AMP/scaling/TF32 disabled")
++    if config["amp"] or config["gradient_scaling"] or config["dtype"] != "float32":
++        raise ValueError("This comparison keeps float32 tensors with AMP/scaling disabled")
+     torch.set_default_dtype(torch.float32)
+     torch.set_float32_matmul_precision("highest")
+-    torch.backends.cuda.matmul.allow_tf32 = False
+-    torch.backends.cudnn.allow_tf32 = False
+-    torch.backends.cudnn.benchmark = False
+-    torch.backends.cudnn.deterministic = True
++    torch.backends.cuda.matmul.allow_tf32 = config["matmul_tf32"]
++    torch.backends.cudnn.allow_tf32 = config["tf32"]
++    torch.backends.cudnn.benchmark = config["cudnn_benchmark"]
++    torch.backends.cudnn.deterministic = config["cudnn_deterministic"]
+     torch.set_num_threads(config["torch_threads"])
+     if seed is not None:
+         random.seed(seed)
+@@ -99,7 +99,11 @@
+             "gpu_total_bytes": torch.cuda.get_device_properties(device).total_memory,
+             "gpu_free_bytes": torch.cuda.mem_get_info(device)[0],
+             "matmul_tf32": torch.backends.cuda.matmul.allow_tf32,
+-            "cudnn_tf32": torch.backends.cudnn.allow_tf32, "amp": False, "gradient_scaling": False}
++            "cudnn_tf32": torch.backends.cudnn.allow_tf32,
++            "cudnn_benchmark": torch.backends.cudnn.benchmark,
++            "cudnn_deterministic": torch.backends.cudnn.deterministic,
++            "float_tensor_dtype": str(torch.get_default_dtype()),
++            "amp": False, "gradient_scaling": False}
+ 
+ 
+ def append_event(event):

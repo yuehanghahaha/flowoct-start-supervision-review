@@ -1,0 +1,45 @@
+--- upstream/models/TransPro_model.py
++++ source/models/TransPro_model.py
+@@ -56,7 +56,8 @@
+         if self.isTrain:
+             self.fake_AB_pool = ImagePool(opt.pool_size)
+             # define loss functions
+-            self.criterionGAN = networks_2g_st.GANLoss(use_lsgan=not opt.no_lsgan).to(self.device)
++            self.criterionGAN = networks_2g_st.GANLoss(use_lsgan=False).to(self.device)
++            self.criterionGAN.loss = torch.nn.BCEWithLogitsLoss()  # Eq. (1)/(4): stable sigmoid + logarithm on raw scores.
+             self.criterionL1 = torch.nn.L1Loss()
+ 
+             # initialize optimizers
+@@ -140,20 +141,20 @@
+         # First, G(A) should fake the discriminator
+         fake_AB = torch.cat((self.real_A, self.fake_B), 1)
+         pred_fake = self.netD.forward(fake_AB)
+-        self.loss_G_GAN = self.criterionGAN(pred_fake, True)
++        self.loss_G_GAN = -self.criterionGAN(pred_fake, False)  # Eq. (13): minimize log(1-D(G(X))).
+ 
+         fake_AB_proj = torch.cat((self.real_A_proj, self.fake_B_proj_s), 1)
+         pred_fake_proj = self.netD_proj(fake_AB_proj)
+-        self.loss_G_GAN_proj = self.criterionGAN(pred_fake_proj, True)
++        self.loss_G_GAN_proj = -self.criterionGAN(pred_fake_proj, False)
+ 
+         # Second, G(A) = B
+         self.loss_G_L1 = self.criterionL1(self.fake_B, self.real_B) * self.opt.lambda_A
+ 
+-        self.fake_B_seg = F.softmax(self.net((self.fake_B_proj_s+1)/2), dim=1)[0] # 
+-        self.real_B_seg = F.softmax(self.net((self.real_B_proj+1)/2), dim=1)[0]
++        self.fake_B_seg = self.net((self.fake_B_proj_s+1)/2)[0]  # Eq. (10): raw segmentation logits.
++        self.real_B_seg = self.net((self.real_B_proj+1)/2)[0]
+ 
+         # Third, proj(G(A)) = proj(B)
+-        self.loss_G_L1_pm = self.criterionL1(self.fake_B_proj_s, self.real_B_proj) * self.opt.lambda_C
++        self.loss_G_L1_pm = self.criterionL1(self.fake_B_proj_s, self.real_B_proj) * self.opt.lambda_A  # Eq. (7): lambda1=lambda2=10.
+         self.loss_G_L1_pm_st = self.criterionL1(self.fake_B_proj_s, self.fake_B_proj_t) * self.opt.lambda_C
+         self.loss_G_L1_seg = self.criterionL1(self.fake_B_seg, self.real_B_seg) * self.opt.lambda_C
+         
+@@ -209,4 +210,4 @@
+         max_ = torch.max(a)
+         min_ = torch.min(a)
+         a_0_1 = (a-min_)/(max_-min_)
+-        return (a_0_1-0.5)*2
+\ No newline at end of file
++        return (a_0_1-0.5)*2

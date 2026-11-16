@@ -1,0 +1,1682 @@
+[
+  {
+    "epoch": 1,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_001_1794586764233794965.jsonl",
+    "sha256": "1c9b070724feecc67fe6875fe7c7433fb75bfda8bea380ee52fe1914ab6a6c76",
+    "updates": 140,
+    "summary_sha256": "074a960967d8b6efb9c9af65f7055a673440d01664714cc0fd7515b6ad5e44ee"
+  },
+  {
+    "epoch": 2,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_002_1794587741288570337.jsonl",
+    "sha256": "634bf0ec68867448737f8be35fe5f25d0c4503b28c705e81a4e05c7d5209d6b5",
+    "updates": 140,
+    "summary_sha256": "dfbc90c7dc45e3e2a5ecdfafbaf23a3a9f33fd774d2db466eb7b686faf6cc3bd"
+  },
+  {
+    "epoch": 3,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_003_1794588406255769388.jsonl",
+    "sha256": "12c9fdb43c6c6f3cd04d3c350a1f616185d478fb1a0d3a222895937a7fee263a",
+    "updates": 140,
+    "summary_sha256": "bd7c8733df9ed0861efc3b4aa9e5b220b13bfa84e0fafa424bc3b1e968020f61"
+  },
+  {
+    "epoch": 4,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_004_1794589053940866268.jsonl",
+    "sha256": "e2ff7f3aa262d79d1b93f0279dcc4199f19ed494160699c097cf6c0833954e29",
+    "updates": 140,
+    "summary_sha256": "ba46415c5d5d4027d0d499cb702b47f60a4f6ba33241dc0dfe9b790107060abf"
+  },
+  {
+    "epoch": 5,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_005_1794589712365336016.jsonl",
+    "sha256": "3ca58fa4a092dcaa9cc049f7f708fcacada3b50bf8098dc2e0f6f8184b81679f",
+    "updates": 140,
+    "summary_sha256": "fecce2a88aafd722adab7d04a8fb507608dddf3f3b60e723dee83f2b5bcf2e00"
+  },
+  {
+    "epoch": 6,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_006_1794590346383930560.jsonl",
+    "sha256": "4c00e08aa0773b3f6bbb74414224e3c7e46a5bde8c35d629e5fe5a405c79b864",
+    "updates": 140,
+    "summary_sha256": "608d8b3499370fdea9062a234d14fbfe5625c78071ead6c172f5184fc7e5db4e"
+  },
+  {
+    "epoch": 7,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_007_1794591004982156754.jsonl",
+    "sha256": "8d5f57198602ad0f7468196418f86c4151a31d7612c69b1ec574250a2d3b99cb",
+    "updates": 140,
+    "summary_sha256": "57cf7328ab0ee428fd273e4693724b6e8d4e51a1387a0d0fa57e8464d6ed658b"
+  },
+  {
+    "epoch": 8,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_008_1794591658720948350.jsonl",
+    "sha256": "48a8f8b1029edd3b09cb00a0ad789cf7309a9a2e74dc8cf46abfb01ce1abc4e3",
+    "updates": 140,
+    "summary_sha256": "49f7a35a5b64fb94fb14c280c35f57ad682a21988e6795d5a8da2367fca083af"
+  },
+  {
+    "epoch": 9,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_009_1794592297883621163.jsonl",
+    "sha256": "a55dc56620494b1f6971e7eef842ae05fb049a00f1f0baf2d40a264b34f963d3",
+    "updates": 140,
+    "summary_sha256": "02a17c609bca753695d340fad67ca818d74fcec7db49525834f19308bf987107"
+  },
+  {
+    "epoch": 10,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_010_1794592953270293653.jsonl",
+    "sha256": "575c372eb7c026454dd215bec8575229ad11bd8a3364c9f0849fae0cd67ce54b",
+    "updates": 140,
+    "summary_sha256": "db6bf4d2daec07756c819e19f3b032331ec3b4608814c868d783cdd7a0e3b96f"
+  },
+  {
+    "epoch": 11,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_011_1794593584553288134.jsonl",
+    "sha256": "c275267b4b01f8979d963572c089ac42dcba62c9ceb0a429b4658862fc848354",
+    "updates": 140,
+    "summary_sha256": "5bef071053900448bbe49362d8b53d05bf9e918df2b9336987abd9ca92832ba9"
+  },
+  {
+    "epoch": 12,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_012_1794594255566476845.jsonl",
+    "sha256": "fc4eb07b2f55400709a707728e8215bf2f461a8d9fda000bbc65a651ee9a0668",
+    "updates": 140,
+    "summary_sha256": "50664acebf7ed50e02e867255eb3fa03174e1b6f805bf87e2ea0710b01723ff2"
+  },
+  {
+    "epoch": 13,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_013_1794594891686057203.jsonl",
+    "sha256": "bf0c6313f308b1036442cd50c5f4b0bdf3536ddcb1d291787a45b91fcabd5a20",
+    "updates": 140,
+    "summary_sha256": "86329c4322a6478021435e02bf17d94f2b9034ebc724b6d74022036e99d43015"
+  },
+  {
+    "epoch": 14,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_014_1794595525631262659.jsonl",
+    "sha256": "36cb78cd8d8864cd836df6c30411c4aa605938e60e6b047ea0566f2d7a7f31b5",
+    "updates": 140,
+    "summary_sha256": "00a46fcf5eda92215b9a844865d4e2f4acb30220a617c710626259af2e8c4022"
+  },
+  {
+    "epoch": 15,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_015_1794596185167019534.jsonl",
+    "sha256": "3b3ecc7777a9131bfca96ff5b5ee02f32c56e9f063df6385d24475bea20add96",
+    "updates": 140,
+    "summary_sha256": "fd1588ea95a2ddd7609e329fec1397b24f3a14c94e42d18c5899033c713e8d0a"
+  },
+  {
+    "epoch": 16,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_016_1794596838083346073.jsonl",
+    "sha256": "961aca46f46f6d1104049a3195de4a55551c208268183c6858452e6c7e8f3264",
+    "updates": 140,
+    "summary_sha256": "dd7a6865c52b6ed201221687a7b849815c0e7ccdf8e0cd3e8d492ea2e954c6e8"
+  },
+  {
+    "epoch": 17,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_017_1794597494747111407.jsonl",
+    "sha256": "d14748995501ff153ea1b9c4017c65b19b394b7ce4368c14279b2465e3a0f6a7",
+    "updates": 140,
+    "summary_sha256": "dca83184975b423ddf5ad6782288a49c95597eaf6065dd0cbe37091de6eaf3ce"
+  },
+  {
+    "epoch": 18,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_018_1794598140152003026.jsonl",
+    "sha256": "fe637599c19f846e4f76658d28f2c395dcf83201806cd6ef133128fd85198a33",
+    "updates": 140,
+    "summary_sha256": "cda7a9f91dac69ab901a548bf6b6e4a45ccc9a4a21025cd99d5d6f13842a857c"
+  },
+  {
+    "epoch": 19,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_019_1794598791081181099.jsonl",
+    "sha256": "f3a57737ddc86b521ae1cdaccc0300f33327b790bce88eedf19f8a783e5140c2",
+    "updates": 140,
+    "summary_sha256": "f35a426180b916ae18120fcbcaa706875c441eedac3e8ab8ca5802df7e7436ce"
+  },
+  {
+    "epoch": 20,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_020_1794599356675095350.jsonl",
+    "sha256": "7cbb4da77ed3c58556f0f83a4f0157419d09a82a495b7dab7d5f187e323d4d5b",
+    "updates": 140,
+    "summary_sha256": "8cd7a10a754935b6237cf011ab15b68ae3f278f12959062ce92df67d7fb45171"
+  },
+  {
+    "epoch": 21,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_021_1794599973546544871.jsonl",
+    "sha256": "934183096edc128b010fbc1e2eb065f1d7b84a1a0e07bd1490736338cb096457",
+    "updates": 140,
+    "summary_sha256": "559b1b9c280d73e135376a8cad1f38e18a08f2a87aa88d1840504460707c1358"
+  },
+  {
+    "epoch": 22,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_022_1794600645305521000.jsonl",
+    "sha256": "b37238eb71b1546c9799cab61097aeb0c03a216c77301f962aedb59c36f8b0a4",
+    "updates": 140,
+    "summary_sha256": "86cbfa2edae035c2e39de8e823623f1ae90757749e74d8cc267dbc92236c70f1"
+  },
+  {
+    "epoch": 23,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_023_1794601306009314978.jsonl",
+    "sha256": "95f6a6d5b12151522b1ebec9e7ba0724cd76d259d7449400d29dd130f6e763cb",
+    "updates": 140,
+    "summary_sha256": "b32ed6ffef71d4f3bb283de3eaa611c21880ba92a021e8bae49bf264d9635ae8"
+  },
+  {
+    "epoch": 24,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_024_1794601955772394157.jsonl",
+    "sha256": "15712de6ff0d7f4840ccfc61728575816594849862a9c8c97f0c8702464ac9fc",
+    "updates": 140,
+    "summary_sha256": "3d59a329d90ceeb6b9b94066496f4bfb943ab5fed158aedbd8ad733799d3da2b"
+  },
+  {
+    "epoch": 25,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_025_1794602613804870687.jsonl",
+    "sha256": "bea5c8f11be59cf62393d36d42f23d5775de97cc390945c1d61390abcdae125f",
+    "updates": 140,
+    "summary_sha256": "0e9d8e6869b2270bdb9b52deff100730c18466a0f2da67e5d5723313e61a2f62"
+  },
+  {
+    "epoch": 26,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_026_1794603265156366673.jsonl",
+    "sha256": "4e9f63ccbe25fd29e05b995910e3ca1b0511becad122d8163aefed0264e49730",
+    "updates": 140,
+    "summary_sha256": "9f20eefcdb13ceb3b88d40a1571b7fab897b6b4334fc5e41a9b2e797ea33b4a2"
+  },
+  {
+    "epoch": 27,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_027_1794603916793038178.jsonl",
+    "sha256": "5b7c9f3b4f501b163c443ecaf0ae1e36c17749059a0a88967ae86368775b40ad",
+    "updates": 140,
+    "summary_sha256": "8a5791395e2ee8534b1e098e89c4162f5ba8740e67e941b698d4902c39d5beb6"
+  },
+  {
+    "epoch": 28,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_028_1794604567762172809.jsonl",
+    "sha256": "66e58b94588b0b4f24fb88da4a848de14575bbe1034ea331ecae707fbe30ffcc",
+    "updates": 140,
+    "summary_sha256": "e52194ba82bc5801144c958fcb0dbb33fb51fca2a5c704616aa65327decc4ef8"
+  },
+  {
+    "epoch": 29,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_029_1794605205032250056.jsonl",
+    "sha256": "af6c98179f8a8c8d544b031f833891d0784b809480b439a4cda1e5d017b9d3af",
+    "updates": 140,
+    "summary_sha256": "31d21fec781cc4f1727168d5e0ececf627d49a129d6c8809e3863bdf028152e2"
+  },
+  {
+    "epoch": 30,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_030_1794605860726985007.jsonl",
+    "sha256": "cf4ee35e10abdfa1a4da5b31800e2a8fa8acd40b02b514d4ba5e9eab823b5860",
+    "updates": 140,
+    "summary_sha256": "79e9cb3084902f925b6a0dc7b240d6e5454324dd5ba254b738cd6b4869e48b32"
+  },
+  {
+    "epoch": 31,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_031_1794606876617706066.jsonl",
+    "sha256": "1889ef22ad7652ddcf993624ccf84f352bbdcc9bb77c1388b9b4d082cb5afd3b",
+    "updates": 140,
+    "summary_sha256": "861aa5ed2e9245e1edee42590bc77d48c4e842be2b083c3c7262a8cce5a41ae2"
+  },
+  {
+    "epoch": 32,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_032_1794607510450347989.jsonl",
+    "sha256": "94981d349cd038502ee7518b35ae3e639b4e1e4c867c7490a4276d863419dfb0",
+    "updates": 140,
+    "summary_sha256": "6985bf174f0ae4b78d5f3210c2391794377d78e85e51fa52aa01dd9dfc4d25ab"
+  },
+  {
+    "epoch": 33,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_033_1794608185538371142.jsonl",
+    "sha256": "cb4f94fb8e5202489321afd248cef20b156e297abfec65e6919ff37b2a5f46df",
+    "updates": 140,
+    "summary_sha256": "8c03b04628c76e326fcd568c7790246914639773748a0ba8e94bb10d45b6909e"
+  },
+  {
+    "epoch": 34,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_034_1794608836807977047.jsonl",
+    "sha256": "ead8f4acf23ff297c810ccc790d7934479121d4262b7bf93edb7bc72bd22db7d",
+    "updates": 140,
+    "summary_sha256": "60d626a4c31f95035147aad7e6de9a12dfa8e3b02c9f8a71600790f70017c0d7"
+  },
+  {
+    "epoch": 35,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_035_1794609472411145010.jsonl",
+    "sha256": "17ddc211b3bf4e915c1aaeed0fe5c7083bca07133d10cf4639b1deaedbb5154a",
+    "updates": 140,
+    "summary_sha256": "db5a0461edb9f9343833d8364610f7649a5879fa3698bbee99475e87ecfb3542"
+  },
+  {
+    "epoch": 36,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_036_1794610143933462939.jsonl",
+    "sha256": "b193c4aab555a1896a7a65a5c5fe2d93f8415988d36e3422eb7e7f8b92f0473d",
+    "updates": 140,
+    "summary_sha256": "92c4e73649329766bd13c18d4b4e9bf5ff8d31d477d0a6fb0c63d8da8f294edb"
+  },
+  {
+    "epoch": 37,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_037_1794610793260726362.jsonl",
+    "sha256": "284afc233df1f624667e425f532a39ea9c546aac9ca97ab744655d5ccd669e88",
+    "updates": 140,
+    "summary_sha256": "42b492236e460cc77f1f0b94ba1b5702f7a5b061ba8a6e1477cd8a9ab128e5b0"
+  },
+  {
+    "epoch": 38,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_038_1794611444036893930.jsonl",
+    "sha256": "dc6def3fe26a7e1f0a4c6d69cbb3e86b92b51a96776835887ecccb8d4bf836ea",
+    "updates": 140,
+    "summary_sha256": "ebc811c861172116824a9af8566fef072b67a1acc17c0dfcd0154015aae21c82"
+  },
+  {
+    "epoch": 39,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_039_1794611968951088986.jsonl",
+    "sha256": "a7782706fc9e5f5cc038c044d8e9bae2012604735341dd5141cebe1ecce366eb",
+    "updates": 140,
+    "summary_sha256": "c7152efd6495e98d9de417dc6e5b76469485e29c3864f915cf4da0505a74cf83"
+  },
+  {
+    "epoch": 40,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_040_1794612611008246544.jsonl",
+    "sha256": "55de06e58684821f5276c39c130c3bc69bda923a131099ceacdcf0ffeddeffb3",
+    "updates": 140,
+    "summary_sha256": "7de12f16a33e21427ffc3aec46c32e68a470b27d56b61cb742f51e122daa7295"
+  },
+  {
+    "epoch": 41,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_041_1794613276764311049.jsonl",
+    "sha256": "f8f16d368062008beea647aa9d202b312fdde6a0d3713e27f152386d84236f3f",
+    "updates": 140,
+    "summary_sha256": "d4d08ff04be62e7046b59c17e85ec3c8dc2fae48efdac966237cbc4b88ba296f"
+  },
+  {
+    "epoch": 42,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_042_1794613918891569541.jsonl",
+    "sha256": "4056d828bade32302f9106e5bdadca1f2e96ef77164ff5c570af2f9c26b2f8a6",
+    "updates": 140,
+    "summary_sha256": "d596c767cd78f6bd793d8c2850b8038cc9ede2b2f91db3c51b39ee98632ecc97"
+  },
+  {
+    "epoch": 43,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_043_1794614575773084291.jsonl",
+    "sha256": "070ff20ad76485720b0f78a7fe3e5bf7f87b82bdadc6e1d00f112d5278143241",
+    "updates": 140,
+    "summary_sha256": "eb1be877d759325f414e20c6121a57d29308a35fa3ecd58f9ddcb172b52d213f"
+  },
+  {
+    "epoch": 44,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_044_1794615227301066081.jsonl",
+    "sha256": "0f4542de19e267deaf121f7f4e6a430d3e474df2214ceaeb862ea9ee82146e7e",
+    "updates": 140,
+    "summary_sha256": "6abfc65687f00cc68788f1f460469bba906cb7e37e4c77d8d9664f4a20a30728"
+  },
+  {
+    "epoch": 45,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_045_1794615858486346044.jsonl",
+    "sha256": "664accbc2c3aa153b44ca2466eaa1a7e7200a2c0c917f86b691d9ee6c31aa5d5",
+    "updates": 140,
+    "summary_sha256": "bb2e5e7ba7b0579da171f07a613c8d0ffc9845295e8b475dffee7dd1aa42f804"
+  },
+  {
+    "epoch": 46,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_046_1794616538670315858.jsonl",
+    "sha256": "f1f026c2eb464a9b2b95a05591d0b26de17eeff5e441831cca2ce8e7a904cce6",
+    "updates": 140,
+    "summary_sha256": "cf33039e35b530d6f9a1840212bae5e7079ce290aa8b97d37a9a34b4a514425d"
+  },
+  {
+    "epoch": 47,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_047_1794617202730292636.jsonl",
+    "sha256": "4a135043d2d5c88132107fdb5c400592b29f226bd667b046c1ebdc66e9a24ebb",
+    "updates": 140,
+    "summary_sha256": "5d48183cddf244581d19cd65c05db9cfe82f3a98fb897bf83b9661ffc5f07120"
+  },
+  {
+    "epoch": 48,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_048_1794617852696045797.jsonl",
+    "sha256": "8712778258542eb7059e326cb3660d3a2ce1e933cf59fb5169227fc95fe15c10",
+    "updates": 140,
+    "summary_sha256": "3bf7c1719009769930d1e509e62fcbe317f0f16c33762437ae2e963a5a5f53b0"
+  },
+  {
+    "epoch": 49,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_049_1794618509514622923.jsonl",
+    "sha256": "8c2c6ea183defa2fbdfd7dde16a5c01ce52c4230cf7dc59ce6e40266ef55e32a",
+    "updates": 140,
+    "summary_sha256": "e311cc7d2526005ae7a85ba6f1837500ec3cc3b1d84437c064e2d39d4401cba3"
+  },
+  {
+    "epoch": 50,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_050_1794619161582566685.jsonl",
+    "sha256": "75862e55d6b4da53a15d112fc0b98866d9551b758b98c8a90ea9718bca2f9e2b",
+    "updates": 140,
+    "summary_sha256": "9929e10f0e2a00d3319230bc85eb14bbc6ca19b7129f27916bf38f58ab1f04c0"
+  },
+  {
+    "epoch": 51,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_051_1794619817654670399.jsonl",
+    "sha256": "67eb83da9e389ed23017a80faff04364a48777a14a7aa720c557613ce919651b",
+    "updates": 140,
+    "summary_sha256": "7556ac9a1eafc4681590610cd1f9db30f83dc65e9d5cd917387ca00ed4396c84"
+  },
+  {
+    "epoch": 52,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_052_1794620483671525502.jsonl",
+    "sha256": "019ebe2aa1bf10a1959529b440bd068f29915dab73208a7a5fe5b002aa3f2b11",
+    "updates": 140,
+    "summary_sha256": "86de200409cf7d24a90b2ca38469c7e2d9e23eec8390fe42a0bc5bc6abf51f09"
+  },
+  {
+    "epoch": 53,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_053_1794621137474923483.jsonl",
+    "sha256": "a0ded78c98b8bdbc5e17e8bbe9ab18bebc89cd958285c724063799a65612af8d",
+    "updates": 140,
+    "summary_sha256": "3316a651c7ec8ad8382611e2a58958f992fda0c2d818cf40133e87846dd51101"
+  },
+  {
+    "epoch": 54,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_054_1794621805545694472.jsonl",
+    "sha256": "d2244ffa67ceb3d37a7837ecf21da2e615e4ac4bdf2bf7d2665f3bc124cdad40",
+    "updates": 140,
+    "summary_sha256": "09e780fb4eb9d441d798f5431c139b2c8a2680815b9b18758bb12c1a1a5947a4"
+  },
+  {
+    "epoch": 55,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_055_1794622449440201548.jsonl",
+    "sha256": "594828e2e0d3f58dac47e516015d88457957766379003f81645fc5f04f13919a",
+    "updates": 140,
+    "summary_sha256": "f33c74b4932d346238e3814cd76401ced6720bc3b84074c326835412853975c6"
+  },
+  {
+    "epoch": 56,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_056_1794623093704847999.jsonl",
+    "sha256": "55242baf0dc159291dd77d07464eceb5fa94a645c4d7dcce5a7a74f4b3d5d257",
+    "updates": 140,
+    "summary_sha256": "d70272a4b641ad238e19aad151512db57405f881201885f69eb27af47795db1c"
+  },
+  {
+    "epoch": 57,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_057_1794623756626022813.jsonl",
+    "sha256": "e6772511db222134c56c719743c7ee8537821de52133022e436cf4a999e6ecf0",
+    "updates": 140,
+    "summary_sha256": "8e500e213e6f39c9963c5e6c5e213af31423fb145eef9c70940d4010020ba22f"
+  },
+  {
+    "epoch": 58,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_058_1794624270211341000.jsonl",
+    "sha256": "399ff79d0dc5fce04820c37378e82019d98d6ae557742592f25bdfa74439dbec",
+    "updates": 140,
+    "summary_sha256": "a062dedaa9629ad5932c1dad0821d4176c25b760f9fb0c58baf73ed0ae66ced4"
+  },
+  {
+    "epoch": 59,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_059_1794624940749327588.jsonl",
+    "sha256": "60fce587acee9f348582a90873a02fbbfd8043cd05f2b3394446927c30405748",
+    "updates": 140,
+    "summary_sha256": "4a8a06fc8fc13db0db720270ce0fcc7812cf0077a95d503e0e8c288d054f0083"
+  },
+  {
+    "epoch": 60,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_060_1794625597862793349.jsonl",
+    "sha256": "d0075f8f42d46e44afe6aeb1f768152dafc451f9d1f7a64f8e29895c646bd51b",
+    "updates": 140,
+    "summary_sha256": "c27236d05d6a298e0588b43c8c70124be556a9caa67b7c1da6deeff37521434b"
+  },
+  {
+    "epoch": 61,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_061_1794626605804300631.jsonl",
+    "sha256": "ae9a4db91b5e34d6ce091b363a39e7de6247d72129c282d8782a4f5ea1a93513",
+    "updates": 140,
+    "summary_sha256": "7406945cce3c9b0c3e2fba7d8ccad513dcf75b3ba03fbcd66ee4be91542b15b6"
+  },
+  {
+    "epoch": 62,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_062_1794627255780748326.jsonl",
+    "sha256": "79362a34ad06cf86a0d878d96342d32bba4bfbf43ab7215eca6290964699cf07",
+    "updates": 140,
+    "summary_sha256": "8ee6aea80b37c546cff3585b7061bf03adaf0101850c0ae026f97ac381bc6ec3"
+  },
+  {
+    "epoch": 63,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_063_1794627918197365054.jsonl",
+    "sha256": "60e88d8edb6c4483a8571149afc90cbfba713f7a57932dfeb9c81d173e2a06f5",
+    "updates": 140,
+    "summary_sha256": "52cb300e5718702368f060934ff076ddedcb487d370974533389ed14858f66da"
+  },
+  {
+    "epoch": 64,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_064_1794628565103856099.jsonl",
+    "sha256": "07affe062b27fae52e07772a2ad877bebfb6f893ee2d9194a16dfa6a03f8eb13",
+    "updates": 140,
+    "summary_sha256": "074c636c798de8d79263f7691e4c806ea7afb257f6f98d77d6ac5aa4dd0985d7"
+  },
+  {
+    "epoch": 65,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_065_1794629232491008488.jsonl",
+    "sha256": "d48afd7bfcaa51d6b6159871174ab119e75ab9022fd213bfdbac013321da1924",
+    "updates": 140,
+    "summary_sha256": "29a750cd907bb397fe535f4355d383a3dc6105435653f735a55709f5a35a3ea2"
+  },
+  {
+    "epoch": 66,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_066_1794629890369468106.jsonl",
+    "sha256": "c6fa499d944e41764500619f7c84f4e488a7886143b85a84b694f0269336dce2",
+    "updates": 140,
+    "summary_sha256": "0ce324dd1394b43477550e23779566a9a137a26342ea3271dd699ec0ef1bfad7"
+  },
+  {
+    "epoch": 67,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_067_1794630531859517159.jsonl",
+    "sha256": "e961012d95d04571452be88d160cca19500229be2ae5815d28c831ea5f5d36fb",
+    "updates": 140,
+    "summary_sha256": "f23ee789ce78e96707093407bf47a30040e5c008f0e45cc0293bec408f70b7ec"
+  },
+  {
+    "epoch": 68,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_068_1794631197814558520.jsonl",
+    "sha256": "d8e97f5e7f5e709f1f906108dabfa17ef8591f7579c14caef6c925cd81da1ee2",
+    "updates": 140,
+    "summary_sha256": "04663b91272c56a210232437d9e169598a0e4190986b21d14ab7ed9d51f60ad0"
+  },
+  {
+    "epoch": 69,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_069_1794631846986650754.jsonl",
+    "sha256": "98222d4a85e9b873e03de7a4af022842b2c501702e58401e433d9d40ffea8943",
+    "updates": 140,
+    "summary_sha256": "a27b0a4ffd5da03a3160ccf04d0781fb7325a4ab4da8288de46861d272f1322d"
+  },
+  {
+    "epoch": 70,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_070_1794632497744041473.jsonl",
+    "sha256": "9c1e593e8adf1c259ee42bf0b1f062962e8ad7d9cc2589dae7e3ec039062dbf0",
+    "updates": 140,
+    "summary_sha256": "05a767ef35218ccfcf05e036cd331a47bcf9a462c80ecc9c525c795eb11a3adb"
+  },
+  {
+    "epoch": 71,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_071_1794633156257566376.jsonl",
+    "sha256": "e5308df5e29d2315ba334ea7b87a6b0847f13d50ba6a699bbf6d8273647b77d0",
+    "updates": 140,
+    "summary_sha256": "6852494308a3628f90447a74d4181a6f1a5631565caf333fad9d94394806922d"
+  },
+  {
+    "epoch": 72,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_072_1794633799643772188.jsonl",
+    "sha256": "ad871379ec01c352cea620445f2b63d18118724adc8de4ce6c0128b90185a946",
+    "updates": 140,
+    "summary_sha256": "fa28588a1ca823979ebcd15d2b6ac2b800dc73b6bd29985714bcc63cd51068eb"
+  },
+  {
+    "epoch": 73,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_073_1794634457409773337.jsonl",
+    "sha256": "73c7bcadc1a84728c5757b70486e4b58216fff40052b7c67cc8c5eecbca4c488",
+    "updates": 140,
+    "summary_sha256": "151f633da68063429e13185944b7dde2e249aa2ad0ae69a2b0e524bdb506f848"
+  },
+  {
+    "epoch": 74,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_074_1794635106928356463.jsonl",
+    "sha256": "9ef943a594dd5674eed5c17cbd54714fc2f1759a50dae9b2b6f13e60ccc46ea3",
+    "updates": 140,
+    "summary_sha256": "79195190d02bd202bf9658fe1a1df79c58d06c7dfe642177812b7e7d9a4d295a"
+  },
+  {
+    "epoch": 75,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_075_1794635763446062763.jsonl",
+    "sha256": "8263446cf259ea62b6803d1a02d50a61f072b4c1c7032472e869068e27e32a03",
+    "updates": 140,
+    "summary_sha256": "baa0b0e843c0e09001927cf75077e0aa15c3b10f2c50f810ad01a5665e900c3a"
+  },
+  {
+    "epoch": 76,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_076_1794636333974547578.jsonl",
+    "sha256": "2eaba42da08730d3772a7f26c44e7cea41cc338ccab8ec58cadbdecc49629ac5",
+    "updates": 140,
+    "summary_sha256": "67969f70a84a474eeb24266d5aaee16907d2660facd4e9abe7482787628a1fb1"
+  },
+  {
+    "epoch": 77,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_077_1794636957496207975.jsonl",
+    "sha256": "b42d774048a3fb98947452fa381b990550bca0ae7f1e1f1ef1090dfd1c6c159d",
+    "updates": 140,
+    "summary_sha256": "5647336fde5508cb48c068251fc8aff40e25b4675ab144a6620e1670160bdfe1"
+  },
+  {
+    "epoch": 78,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_078_1794637619774778707.jsonl",
+    "sha256": "5ee21a45e53c90c5c13d198647775999b1245059a69f1a36b2ea1674f99b5822",
+    "updates": 140,
+    "summary_sha256": "da164a6aea3343d2d302723128eb93aeb6a1e290cd2c6b1a56056384840054e6"
+  },
+  {
+    "epoch": 79,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_079_1794638286517299194.jsonl",
+    "sha256": "017d493be61e3f173f4c4191f7425b9893d9a6d0fbb3b0b83119fd993e0b7802",
+    "updates": 140,
+    "summary_sha256": "82cc76ef0a0d9998a65387a64acf9f068f6df0096945062fde43e0fff976763b"
+  },
+  {
+    "epoch": 80,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_080_1794638943389124962.jsonl",
+    "sha256": "a5222eaf584ef994c9c44392ceb7c63f9605f3da4f2207a65c49dd6207ffdc98",
+    "updates": 140,
+    "summary_sha256": "79ec04b9b8a44e7a2c98f040caf04813eec89cd8e4018634922abc56da2730df"
+  },
+  {
+    "epoch": 81,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_081_1794639608016795306.jsonl",
+    "sha256": "7bf635bea2ad8f46ab85e09b1347ccb0a870024e0598d9f332f56fa036c41a2a",
+    "updates": 140,
+    "summary_sha256": "4bd2b091ed399885435b1f6b9b1f1711f027f0491162316ae96881b30b4ed0a8"
+  },
+  {
+    "epoch": 82,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_082_1794640262498966783.jsonl",
+    "sha256": "392cd33db7d0b50686f69ee2a5e8ae3dc31fe31c9ed7accf1e12d80f0d6ca934",
+    "updates": 140,
+    "summary_sha256": "dbd39b7925626db541e783cdcd13aa4c0fefb00061f8e3a7f4bcfb85333c512b"
+  },
+  {
+    "epoch": 83,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_083_1794640917892000553.jsonl",
+    "sha256": "aaf6e131f88b03d32f781a88ee7de0ac44a236b8afc092b7413d204423c859a5",
+    "updates": 140,
+    "summary_sha256": "d5a11aaa013c33582e40e8277359f5b3c3ae4e48e14cb0459bb13e5888da53bc"
+  },
+  {
+    "epoch": 84,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_084_1794641584674270526.jsonl",
+    "sha256": "072d68462b32553f050b4ac997c6112d8a19e7e3936be3e974ecfac9fc24caa6",
+    "updates": 140,
+    "summary_sha256": "a03e3b3ee2608a44bc9f33ab740537ac2e58c81c031b9bd18d44cea8b4d25679"
+  },
+  {
+    "epoch": 85,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_085_1794642241050645501.jsonl",
+    "sha256": "2fdf1447a1982dde6dd523768a94426cdcea6f1b6bd7fad1fb8f158c35582a34",
+    "updates": 140,
+    "summary_sha256": "4a0737945a66ed4511337eb2dd8c68c258c4c886633510abcd6af0e21e65b656"
+  },
+  {
+    "epoch": 86,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_086_1794642898200509640.jsonl",
+    "sha256": "b1c9eba78060542df8c2c3a1aba7dfa36f4d43941fb0ad5135473e8ece7ace60",
+    "updates": 140,
+    "summary_sha256": "86947583a09339279314f2c2df4a203499c7139dee3766b65cce7016880399f3"
+  },
+  {
+    "epoch": 87,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_087_1794643562948704218.jsonl",
+    "sha256": "bf1b8f533feac5e46f0a9551ea9062ee014afb985a5907cb42e2a2c2ff9d48ea",
+    "updates": 140,
+    "summary_sha256": "eb2562c1a82c9e5c52f84b5f6688d7635b775ceffc1edf83af168378f7b6739a"
+  },
+  {
+    "epoch": 88,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_088_1794644218723334009.jsonl",
+    "sha256": "39c05051429863c06881864849b75b96545a6967904aa7782c11b3119650f7b7",
+    "updates": 140,
+    "summary_sha256": "7bbfd5377f063cf14f156cf67e62960fe62ecafd70bd3ec4815a475767993125"
+  },
+  {
+    "epoch": 89,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_089_1794644876745960035.jsonl",
+    "sha256": "e46cbf6c0eb10d114fa31754669f8d338adcdb25f01331f9ab87bf5b8c8c25f8",
+    "updates": 140,
+    "summary_sha256": "d24d56a14624f7ced1a5a5be38a5b59fa9fcec930492a82e0525a511d207a180"
+  },
+  {
+    "epoch": 90,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_090_1794645540672988976.jsonl",
+    "sha256": "4f517bd3831970b81363488ee0c832b7d2564f2fa63efc0ff315df7feae7b82b",
+    "updates": 140,
+    "summary_sha256": "af8ff4446872e68069a0c554fc300b3de050904b4c65717aa0ebaec60d15a77a"
+  },
+  {
+    "epoch": 91,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_091_1794646539591811505.jsonl",
+    "sha256": "cda4f4b7d772004cb98cf221013e2cd1bc6aaabfdebfee2167c554d566d3ad4d",
+    "updates": 140,
+    "summary_sha256": "6ac335e62d30192830c01320c6323a8ca78d5c6f72c466b75c442dcf903ecdb4"
+  },
+  {
+    "epoch": 92,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_092_1794647194280866775.jsonl",
+    "sha256": "cffaa53e63f46384546ff6b8881aa26e22555071c5b2fdeaed4f58b9960df591",
+    "updates": 140,
+    "summary_sha256": "ccca7928ec11083d8e724f2882cb2842856c8fd7112a7fddfa14f10cacd3b3f0"
+  },
+  {
+    "epoch": 93,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_093_1794647860695144673.jsonl",
+    "sha256": "98dfdd2c0c375da48d1ccf7ce6d2d40c0d091722189c9bbfcf5da8d3644b0c05",
+    "updates": 140,
+    "summary_sha256": "05bbbbe67c986a4dcfe9775df23dd33113bf001aa8735343ac3e7303b4c974db"
+  },
+  {
+    "epoch": 94,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_094_1794648469409869703.jsonl",
+    "sha256": "682b85bc9aec679d89aa5b160a4c3b429e24f188d4843819b8e1de958173f767",
+    "updates": 140,
+    "summary_sha256": "884512189d7e2da5b37bb33d26cdd1cebd5a40522f4746bb8d80e1e5dfbd9be8"
+  },
+  {
+    "epoch": 95,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_095_1794649041801419416.jsonl",
+    "sha256": "8ac8d76216facd06995683492e7cd5c0b8ad8afd795fc0b0bab88802d8f4bd24",
+    "updates": 140,
+    "summary_sha256": "f9ff63c2f8dba95c6ede7d5d3884880257ecba125e42339101bb4a30f0d50ab3"
+  },
+  {
+    "epoch": 96,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_096_1794649691023156353.jsonl",
+    "sha256": "842c78f864e4d1bc77e8c31a8a23aca9d814724f70382312087cd8bc595f49b3",
+    "updates": 140,
+    "summary_sha256": "44cfc9f448293edc3ddbee1c7ec6a8dc16fe855b6e2174c0ddaaa26b077b3a59"
+  },
+  {
+    "epoch": 97,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_097_1794650340007530362.jsonl",
+    "sha256": "36e508b3a09dc0445ba8dcd8b74cc1b26307dee8f29468a606c407c937af8bdf",
+    "updates": 140,
+    "summary_sha256": "a99d1e70f8360a12f5ba810a1023cab8c427f8d1708c0e7e2ceb97eb8697eaf0"
+  },
+  {
+    "epoch": 98,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_098_1794651003357841571.jsonl",
+    "sha256": "9d92b456454d0561c5711f14221c52f4c346669b224eb93961b4fa3d9d6eb3e0",
+    "updates": 140,
+    "summary_sha256": "b0d3fd19fbc7d0efc172d3f9456a307d3fb93b3d3a9d269b5a7a75e00e1dd3dc"
+  },
+  {
+    "epoch": 99,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_099_1794651656101318510.jsonl",
+    "sha256": "88b88d8ebf06be1c77014303261de92c83f9836587140aaf4203326c86e65bdb",
+    "updates": 140,
+    "summary_sha256": "8ceb2b91708ba3175ac919d0648359f2c41aec102df6a6251dca309ba30fbcc4"
+  },
+  {
+    "epoch": 100,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_100_1794652314795348918.jsonl",
+    "sha256": "f1ddad343a65c95a02bd91f1e32e9392f8764bd380def0ab17dc6ec304a63ddc",
+    "updates": 140,
+    "summary_sha256": "ad5382b576058f88b7fa3a090f82aea1e9894047eb598ab11f0ee29c1792b998"
+  },
+  {
+    "epoch": 101,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_101_1794652985217764490.jsonl",
+    "sha256": "ecaac1d9ea27819fa7198555886408da66ae5e937fb9cf2d2018a613ae3bcb37",
+    "updates": 140,
+    "summary_sha256": "835f08d69cff704cf39b842cbada50b25285ff4cba02602e38eef0851f31a526"
+  },
+  {
+    "epoch": 102,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_102_1794653636070400390.jsonl",
+    "sha256": "cc27c00acb5a995ad9eaf9ef37d3a95b6c53c7019929f4c78813d1d7695848fb",
+    "updates": 140,
+    "summary_sha256": "6ca97fef621e6692662f66c1f28d967792db421e0cedf5857c7d83d98eccb8e5"
+  },
+  {
+    "epoch": 103,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_103_1794654298497421047.jsonl",
+    "sha256": "9b2fedb23ff759b801c25dc21d2553c902fe84ec970500134d6c5b0c79bbb9bc",
+    "updates": 140,
+    "summary_sha256": "8bee5cec9d42a2313e13e22a8e5733e2739d628efb9ca465d17f6b70d37e9dec"
+  },
+  {
+    "epoch": 104,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_104_1794654955341253380.jsonl",
+    "sha256": "b7c5ef641474b26939cf04a15e64968fc5070a24d0f20c6e93d1647a38045664",
+    "updates": 140,
+    "summary_sha256": "09dc067999268465dba80cca48810cb447f9f961473fe658d1314cf6eb4ca1d8"
+  },
+  {
+    "epoch": 105,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_105_1794655603356008417.jsonl",
+    "sha256": "a9b777e29546b7a828c49a8a28e69e77495e36e0765525513d1e518e7fe69677",
+    "updates": 140,
+    "summary_sha256": "ee52ed05d8d5382f99d925ec5d1375f2a7af69dc8b0b38030a79cb3ccd43f38b"
+  },
+  {
+    "epoch": 106,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_106_1794656270966130164.jsonl",
+    "sha256": "4093d234fb8f125fd66ba66fe6fa289da4a15bb2d0fe291a36ac80d629e8b77f",
+    "updates": 140,
+    "summary_sha256": "512b73925c1225898e9890ade78943395163aa7544ad4a2c2b580976128bcbbf"
+  },
+  {
+    "epoch": 107,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_107_1794656927489136462.jsonl",
+    "sha256": "0f4e30e9f86117f9c7e05424f1933e6e1822016e53729e1fb7df78287602e854",
+    "updates": 140,
+    "summary_sha256": "420786fd3fbacb71a7ec95030141aabee221e1b2f6ea6edc6be1c8f86b747971"
+  },
+  {
+    "epoch": 108,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_108_1794657570851530927.jsonl",
+    "sha256": "eecbec0fe8015bc7d5f7c84f07d342bda48a9b150c727e9e44f0b7188e1505f4",
+    "updates": 140,
+    "summary_sha256": "706e6c45ca9ce86c20b6b76480421f0d455aa3e7ca39ee851cfa03c545b83659"
+  },
+  {
+    "epoch": 109,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_109_1794658233443700983.jsonl",
+    "sha256": "a4464acdfc32361a8c72cf9126c3b243fb5c18ae49786e1267db026d6e3cbd47",
+    "updates": 140,
+    "summary_sha256": "0cc728731b16e7072698698de6357c0d9a3bb2ff6ea583486637a7ea65a520c2"
+  },
+  {
+    "epoch": 110,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_110_1794658884676303268.jsonl",
+    "sha256": "008312d8c8f5497da6435122ad300703b6c7a2615716248905445a1ac747463d",
+    "updates": 140,
+    "summary_sha256": "0fcf87773af56f199d2e3d54834f726f9b8d65c6ff7095d5e980a9b5701c7ba4"
+  },
+  {
+    "epoch": 111,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_111_1794659546298799472.jsonl",
+    "sha256": "6920fc43e1fdbf6dd8a04ad359ebcdae02046dc06634a2da0d9e7ed459dd96fb",
+    "updates": 140,
+    "summary_sha256": "e5ac7936fc8737b7c0fa6d67b83a05e2aac8ad52bd16be790f3911237bb01999"
+  },
+  {
+    "epoch": 112,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_112_1794660193283733243.jsonl",
+    "sha256": "9181f642d444afd1eb5e396fccfe86eeac21a54d980b0bd4affd221a11590bed",
+    "updates": 140,
+    "summary_sha256": "48530438feda13688bb12164ef54972c149ec4f51a5140f86cd958e780bce3fc"
+  },
+  {
+    "epoch": 113,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_113_1794660827977047062.jsonl",
+    "sha256": "85dc3184d3053171f9530f5c4cd8351ec6ae81d586ddcc0843f28a128ac18099",
+    "updates": 140,
+    "summary_sha256": "7755d56287a054e0253d38fe959b779342fcbc986bd1e4f4405ace37e3bb6b47"
+  },
+  {
+    "epoch": 114,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_114_1794661373188720520.jsonl",
+    "sha256": "4861d5ca948783854e9ce75a49a297660d97fa565f12103738d837fe2c1837e0",
+    "updates": 140,
+    "summary_sha256": "34d109e08a05643c7344fe99e5b87ff2b6ce31723af32c65e950b9c9b9085224"
+  },
+  {
+    "epoch": 115,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_115_1794662020120775351.jsonl",
+    "sha256": "86893206a113a2704ed4aaafd8fa5dc1110ea1d87057b8db603c1c36e2e14230",
+    "updates": 140,
+    "summary_sha256": "bb4acd8cd506d3c427cb4c36d85848595dd99ac904b53cc999bc3253d597a77d"
+  },
+  {
+    "epoch": 116,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_116_1794662689053480425.jsonl",
+    "sha256": "a917346058160dbec6c23b84314ecf33e056d094fddf6fbe4a49e4049daad6ba",
+    "updates": 140,
+    "summary_sha256": "ef0c32262d28ffa4d39ee5487df5a862cf70a713e7cf37f077c9ad01fe75273e"
+  },
+  {
+    "epoch": 117,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_117_1794663353764601847.jsonl",
+    "sha256": "b4496ee943aa0a3ecd432b5b376eaa7c5873cea197e73c5cd5b1671f75130cee",
+    "updates": 140,
+    "summary_sha256": "22c4b6f071c4b56f5afe2cb82c816ef2ef2131d28eccc7f4e316bdb741b8dcad"
+  },
+  {
+    "epoch": 118,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_118_1794663999175014908.jsonl",
+    "sha256": "be295f596518f87688db10b5772c9801545c802c22ae68a493828799bcd047ff",
+    "updates": 140,
+    "summary_sha256": "df861c59ac8a8e9f07811b418cb93420d5ade80d4dc3a8c61f25c29bc0837347"
+  },
+  {
+    "epoch": 119,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_119_1794664656882359736.jsonl",
+    "sha256": "c4cb438011f0e93facd9af61ad22dae5051ac7bc5093d99288ac637daea5e5b5",
+    "updates": 140,
+    "summary_sha256": "e081ade4e01f89d1c847df488ead95c7cb06efa8b1812aef6643426272628c9c"
+  },
+  {
+    "epoch": 120,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_120_1794665305296317264.jsonl",
+    "sha256": "04d1ae08683bc92c24a8b588c5e12377eee0d0db05b3a797daf12b4ead4f855d",
+    "updates": 140,
+    "summary_sha256": "e5408c5feef9510fcf9c492d57a4bc4621b19648910ebb128a4dd265762aa572"
+  },
+  {
+    "epoch": 121,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_121_1794666388407598798.jsonl",
+    "sha256": "b65d116723b62c4bf35a8e9117a2dc4b1c91c534e83d1bd50917d3557fd9f37e",
+    "updates": 140,
+    "summary_sha256": "aae805788bc8faedd8d321ce64b724a2b8cc5faeb984246de981f3ec9279646d"
+  },
+  {
+    "epoch": 122,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_122_1794667045950001648.jsonl",
+    "sha256": "a241c87deb249d1d4f4aa50d8649a0f9bece6915dd2e5ee6d267d37928137802",
+    "updates": 140,
+    "summary_sha256": "e03a85e3627029ec41cb5e51ca7c9b465709c90169339bdee64c4a543701de1a"
+  },
+  {
+    "epoch": 123,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_123_1794667713866564710.jsonl",
+    "sha256": "7e6c44f1f792b412c705e3aaab5a75a1bfd0b455e0aa29180703f1884e18aafd",
+    "updates": 140,
+    "summary_sha256": "f4a99fc4a620e69953a1ec004d4180614a3c3d12e61ee8794aa9a61a4057175c"
+  },
+  {
+    "epoch": 124,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_124_1794668524126226075.jsonl",
+    "sha256": "ca112ec4dd8f7afb67f081c1f5bcfbadb21cb1ca026c1d8ec2a1d0669ce162a0",
+    "updates": 140,
+    "summary_sha256": "9f7877620332d49dbe17432e5a4df98f953af5fe7c168334676ac621e504aec3"
+  },
+  {
+    "epoch": 125,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_125_1794669258806591322.jsonl",
+    "sha256": "a1c0c436331e473af736dc9ff35d3f27f84b894130973e39452c008a2a58eed3",
+    "updates": 140,
+    "summary_sha256": "f7fe43c90aa00c69f6aadb320759b5d3ba1483e9578a504e354c7302875d151d"
+  },
+  {
+    "epoch": 126,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_126_1794669925145645146.jsonl",
+    "sha256": "dcb8c9a955ca0de69228927e358abcbdfb1e1ae783c0ad6e798e6d89b2494699",
+    "updates": 140,
+    "summary_sha256": "0fb55404c7498950d6ea4de969fd64ca316566085c7397ab44026ad03bb8cdd4"
+  },
+  {
+    "epoch": 127,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_127_1794670575790293115.jsonl",
+    "sha256": "03db89eee253290b40a02f79843d60475e4927ad74a43c0bc0ce0b5938eccaf3",
+    "updates": 140,
+    "summary_sha256": "49b251e0fd83d6a9483f4f31382cc192056729525b04dd669a294f567fb462cc"
+  },
+  {
+    "epoch": 128,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_128_1794671227580821347.jsonl",
+    "sha256": "66eeacf49fb7b6a67c4d06b2535550321f8ee3865e1319a3909773d067221543",
+    "updates": 140,
+    "summary_sha256": "9e0657a37fe847d9f73fff7b0d4a419e7b0b0667083c7b4595960f446b49bd65"
+  },
+  {
+    "epoch": 129,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_129_1794671890617331519.jsonl",
+    "sha256": "ed0eb8c8ce8efc928da0aa6962129d14f60163e93f2c81fbbf20698258b4c46f",
+    "updates": 140,
+    "summary_sha256": "e3cb8e0ebd672498bd8166c34c363081ae3b9d1d78508cd70c104dc1318ca384"
+  },
+  {
+    "epoch": 130,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_130_1794672537380236263.jsonl",
+    "sha256": "ff11d5461be64e8e110b756023163c3a24646c56851533116afff9579ddca300",
+    "updates": 140,
+    "summary_sha256": "a17fde5f7b82b3c43bf16782a58585f1b9021d5252b012bf38d8f467610796b6"
+  },
+  {
+    "epoch": 131,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_131_1794673202790611907.jsonl",
+    "sha256": "40775f968880483e84ca045072afc7d0f3fc26e2a04ce003f6e2516f37d2f8c1",
+    "updates": 140,
+    "summary_sha256": "1b255787c70dcfb46d0a320b6f771c0a0143ba1afa1a693c48d46c7b54731eac"
+  },
+  {
+    "epoch": 132,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_132_1794673701216120981.jsonl",
+    "sha256": "de6853ae4c50d6c339161d5be575bb9a2f33fe83ddcdec7d5556f535a1bce117",
+    "updates": 140,
+    "summary_sha256": "6ec38cd65113e9f16fad940eecc0bb2fdde525e991e206bc94e233a81a60ade1"
+  },
+  {
+    "epoch": 133,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_133_1794674349905296128.jsonl",
+    "sha256": "932e46816ab0bbff0ec2b0526e6408d8e9c1afd6668ebfc31f83e6692662dcbb",
+    "updates": 140,
+    "summary_sha256": "9ef85f8d2df520958979c6992aa90783679a7d3a4655944e1ea8a30cb58ba53f"
+  },
+  {
+    "epoch": 134,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_134_1794675011115982372.jsonl",
+    "sha256": "469805de4da6573e46ea48ca95e6ab0d66a7a4fac9eba1f463130438a2ed388d",
+    "updates": 140,
+    "summary_sha256": "6ab8b8d6d83280fd455606f8f5d4c6d8cb12f12ae2003c327328f585095a7638"
+  },
+  {
+    "epoch": 135,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_135_1794675666482326726.jsonl",
+    "sha256": "d9644364471bf815225394cc33113cd19939fc8f04d2b53d38ee2bca273671a9",
+    "updates": 140,
+    "summary_sha256": "5816f402536d5b24e8678983fabb553d0c833c5245ecea7dc7fc232913476cd9"
+  },
+  {
+    "epoch": 136,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_136_1794676323776340767.jsonl",
+    "sha256": "67ff67e1ca987c1e7b8521654bbf6bc07316d16311a140ddbebb1b9183dcbe61",
+    "updates": 140,
+    "summary_sha256": "26599b1e8591920995afa735e830de9ac2c18f02caad23ac1f96487d27b9d099"
+  },
+  {
+    "epoch": 137,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_137_1794676972654289787.jsonl",
+    "sha256": "57c4c5016832ce34d92ece400d0d0daf57032da485953517aac4c530ad3fa428",
+    "updates": 140,
+    "summary_sha256": "4df357de9a7b876abcc49173ef4c856bbc0b3c0d95b6d7e654c377c361e7a040"
+  },
+  {
+    "epoch": 138,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_138_1794677617026657772.jsonl",
+    "sha256": "5601ad899e7cc700fa5cd3fd9ecec84506f409e6449109fc1003a07a71dc3d64",
+    "updates": 140,
+    "summary_sha256": "4a1ece57d7902c2eb359c662ef7db6ac4694037349c7fa362596c3360d2ad0e9"
+  },
+  {
+    "epoch": 139,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_139_1794678285020530603.jsonl",
+    "sha256": "5cd7492f9f19dcd3f7255776636f2e19289a632e2fe59317dbee8a4d41e5f842",
+    "updates": 140,
+    "summary_sha256": "f11310955222ff2e1eb5155bd58324c5079cecc4ac4e26355ab742c3750f1d87"
+  },
+  {
+    "epoch": 140,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_140_1794678922320359959.jsonl",
+    "sha256": "4c36aa23ebf622d33f94a988cf80ac583e0214e845569d32f75e8c25a2a0bc94",
+    "updates": 140,
+    "summary_sha256": "45c09e1aacd715b43b2d2a2729e28ffd109f84ea844d121a0aa1e5369e24b249"
+  },
+  {
+    "epoch": 141,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_141_1794679588491367675.jsonl",
+    "sha256": "5b8d0b646e621dde36ae46e753ea1bc791d731a963065faa3f547435c8af8a75",
+    "updates": 140,
+    "summary_sha256": "fca2073a78b3baf0ad234450fc50c057fd0e59ce7526e685cf3923acfc9fe156"
+  },
+  {
+    "epoch": 142,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_142_1794680232792890319.jsonl",
+    "sha256": "dcfc65cbdc7b78bce406ca59575360ab7f130d8cc4cf3cc0f090ceeced50d699",
+    "updates": 140,
+    "summary_sha256": "9345d2a453acd07103ffdb509d4d0bf2172a508a109ec1519cd7bd75ad6b7984"
+  },
+  {
+    "epoch": 143,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_143_1794680882048231600.jsonl",
+    "sha256": "ea364e281890cb15422691f3a1758aa45f01d45af23173e44e90f7d9b71745a9",
+    "updates": 140,
+    "summary_sha256": "ead9ade17ecba7edc173ffec255606098d3228b8c288f2a37451354243a5df66"
+  },
+  {
+    "epoch": 144,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_144_1794681539607890025.jsonl",
+    "sha256": "0af6f9ac2437113cd0ae2d178318c008074d915a8212518349c53c502fdce9d4",
+    "updates": 140,
+    "summary_sha256": "a4f70a743835749facacd76511ab27d67070da999dd16cba1101e45937d4111b"
+  },
+  {
+    "epoch": 145,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_145_1794682179098891963.jsonl",
+    "sha256": "6ddb5d6bb18d80e7f53504a33dc9318bd376942d703df5885aa294a88a4e544d",
+    "updates": 140,
+    "summary_sha256": "f14ad5b7e54587f00751d17470c32f5cdbb0c963bfec6708065aa04065f553da"
+  },
+  {
+    "epoch": 146,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_146_1794682838524413338.jsonl",
+    "sha256": "d13312ec4ee735ebdf53cafdce78a7847df495ae268fcee56f4fc4d8ce3369aa",
+    "updates": 140,
+    "summary_sha256": "31c63a7cda8e8735da619d14748590bb14ac7c67e8bec91b3eb72b38bbeeae09"
+  },
+  {
+    "epoch": 147,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_147_1794683488907400373.jsonl",
+    "sha256": "c75f47289d5a20597facb93fdd735afd18ea12d3d96bca394baf84c0a5c0641e",
+    "updates": 140,
+    "summary_sha256": "6e60a97f560c7e67158d154db91ad164c80edcb42591262b695bff5dae202a63"
+  },
+  {
+    "epoch": 148,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_148_1794684138596626547.jsonl",
+    "sha256": "2456cd0b6212ea25075c062cf31c5db3c288ded9b75128f74f6b2f37a1c91b87",
+    "updates": 140,
+    "summary_sha256": "7ee9f5695135b1598606a0f4111cb4c90c01311bade1cecb10fc28818ee0559b"
+  },
+  {
+    "epoch": 149,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_149_1794684798641380784.jsonl",
+    "sha256": "805dbcf00388289b64ab3b66c1a595908925ebe6afd912c32a4728747a03b3ab",
+    "updates": 140,
+    "summary_sha256": "5286485ad5cdf5c9f0f307fc3b8235db607554f51667596e140d02d21226b16b"
+  },
+  {
+    "epoch": 150,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_150_1794685445084919225.jsonl",
+    "sha256": "584faab9f12a2615421c07fee66bbb34ddd79281a12d9cb4c1f57a3aa10c0ae9",
+    "updates": 140,
+    "summary_sha256": "b21c82d1934dbfd9929f9f03288b095245d70bf7d32e4129016cebd29aba0e61"
+  },
+  {
+    "epoch": 151,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_151_1794686163439279906.jsonl",
+    "sha256": "e0a82a3f8b57b85cdbeb919725132e2218dfc6bfee4bdcf3055b687641a80d86",
+    "updates": 140,
+    "summary_sha256": "f260c2f1058dd8bea8d301ea862a94d392bcb18bda9c6acf44e8b8e1c340e438"
+  },
+  {
+    "epoch": 152,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_152_1794686472224426346.jsonl",
+    "sha256": "969ea04534036a9451acb4b952ab2b45d5bcb778e90ae89c3a2a89bfc9269734",
+    "updates": 140,
+    "summary_sha256": "6a8853ada27fda62ae3892b4d79db96428d01d2cb6515aa42a44209a40065601"
+  },
+  {
+    "epoch": 153,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_153_1794686776953074162.jsonl",
+    "sha256": "8ec72561038b3b551e628067445ca6e3efaf28d0d4d96ebe763b1b8fcdacba86",
+    "updates": 140,
+    "summary_sha256": "ab601054869aa338aeeabc75c4f7f9d18a40f1ae827e7911beb2b4d9a56f2fad"
+  },
+  {
+    "epoch": 154,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_154_1794687082044155738.jsonl",
+    "sha256": "9b205658d9574b7ffacd5d415bc6353cb1f52c2e33f5f9bbc1bf13527d7892f2",
+    "updates": 140,
+    "summary_sha256": "898332b0f4c96c544c558e7ba22c5a9e22335b81a2bcbe92f6c88768cf938418"
+  },
+  {
+    "epoch": 155,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_155_1794687385698482364.jsonl",
+    "sha256": "46bd0e312e4f4db4abfb366e2a85333906ea85b37b7aeaa2f4c6ffa90bd778f1",
+    "updates": 140,
+    "summary_sha256": "9d250cc91b0a5c0b4dd6b00682c7c7d9e76de7400f25a2b3c262c970416a72c1"
+  },
+  {
+    "epoch": 156,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_156_1794687688766697872.jsonl",
+    "sha256": "d2bdb00b8e7d057b7f1ab277162e5d1cae9be3b204f23072b19a4cd86911a21d",
+    "updates": 140,
+    "summary_sha256": "505c1bdb4b833d02489a9a8fa4b76d893f624eefdc326361076922a195d5fe70"
+  },
+  {
+    "epoch": 157,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_157_1794687992167865586.jsonl",
+    "sha256": "a2444e914946293d83969a2b1a5774f741e549d8c1f883adcf3078be32754fd6",
+    "updates": 140,
+    "summary_sha256": "ceab648285f4b15e045cd9fa10757deff2a8fe5a864be21d17d263beae1fff7a"
+  },
+  {
+    "epoch": 158,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_158_1794688294951061910.jsonl",
+    "sha256": "a5c4a7bb7db9ae4bbaabd8c9e290a3ba88096e11b7a2f25068e8f99b6f23a4c6",
+    "updates": 140,
+    "summary_sha256": "5c3c1ea380c5251dcf35d70cbd882e2a5a310913eb9941681d4f92ea34e55abe"
+  },
+  {
+    "epoch": 159,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_159_1794688598912325617.jsonl",
+    "sha256": "6e202364e27d98667fd77f6311972e46085cef088f643673b33c00b0c13d7c6c",
+    "updates": 140,
+    "summary_sha256": "d89a787d8fc768928021e4d6867d16fdc6e7c7988e1160627b71ffa38fbd896e"
+  },
+  {
+    "epoch": 160,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_160_1794688903788656474.jsonl",
+    "sha256": "783f645a566f36b88848c0a007180ad2791f403205e33d4eafbaf87c4e66dac3",
+    "updates": 140,
+    "summary_sha256": "2bb571f0b4e8a7ee505bd4651af1d8fccf94c24e99b57d2bae964d8b34cf6896"
+  },
+  {
+    "epoch": 161,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_161_1794689208931706669.jsonl",
+    "sha256": "32519b0c9044ff450f7593dfe72646547f44536e72b3e29d5525ae6f53585398",
+    "updates": 140,
+    "summary_sha256": "33d8f4f079c36380e1e4b34ec6e3ed85783c4d4345cce20b9dd2507c3c2d958e"
+  },
+  {
+    "epoch": 162,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_162_1794689512721008581.jsonl",
+    "sha256": "d8cc30a4c19d725c990e158f712e8bce6c84a2260d8a44e8e76a9d631d8fd117",
+    "updates": 140,
+    "summary_sha256": "7208b043dca9cab55888c187a248f17e1469d99afaec427cc4360b69af7b1de6"
+  },
+  {
+    "epoch": 163,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_163_1794689815289534613.jsonl",
+    "sha256": "26361f08cf432a887663c7eb21e4c566f8b06028ec74d5bbedab8dd056d2345e",
+    "updates": 140,
+    "summary_sha256": "de04987922acf00c21dc8b3a331dd2db7f503dbcfae465613f5a6ddcbd3485dc"
+  },
+  {
+    "epoch": 164,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_164_1794690118844457509.jsonl",
+    "sha256": "1c75bef367626372c98f7034c9262e38e9821397bf78d2a40ca4147656912d75",
+    "updates": 140,
+    "summary_sha256": "9738d981e9a26f7a2893098638ae6f1dc6dba125211f5da440414eb45b64f6c7"
+  },
+  {
+    "epoch": 165,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_165_1794690423246316602.jsonl",
+    "sha256": "0fd0bf621245ecfb8ae2f43ef3628ab083387ead1a8bc2ec98c8e8a08df310b6",
+    "updates": 140,
+    "summary_sha256": "2f937f4dba5dabb0fe6ebe2f07d4ee6d4f27e13a48ee50fab1b89bcab4e35efa"
+  },
+  {
+    "epoch": 166,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_166_1794690727484710113.jsonl",
+    "sha256": "9954616606d5809eb0b3ec5edf12575df60c742b99f170f73bcff27b33fe7551",
+    "updates": 140,
+    "summary_sha256": "3004277643ceba18e9bb6ae2a2f843099f8f4b2c526e6dd83916ba1130a588ed"
+  },
+  {
+    "epoch": 167,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_167_1794691030494456579.jsonl",
+    "sha256": "6f693e073073a1b29c9cfff57f423c63a60e5d6f3cbbb1c34f543c760bce7e8e",
+    "updates": 140,
+    "summary_sha256": "8a27d1e8eaab1b2eaebdc3f1b935b2d1e1ca6e0e59e6b7d6865f62ec0c9874c4"
+  },
+  {
+    "epoch": 168,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_168_1794691331571944554.jsonl",
+    "sha256": "0b121be4ad33e598d201f4071c76966c046fbb79389ab8107193dc622ff3d05e",
+    "updates": 140,
+    "summary_sha256": "35eed1876da5259b7151e2182e92348c70148370757b2e3a1452f4056a77b86d"
+  },
+  {
+    "epoch": 169,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_169_1794691633241687796.jsonl",
+    "sha256": "cfa6696203978f1e531c87e0e5bd62d5a45cdb63791307eca374bdd023cd4c9a",
+    "updates": 140,
+    "summary_sha256": "cd249c37966444b8ec2a2d4381f51fd363dc6a44c2b7634022fa76b88815e563"
+  },
+  {
+    "epoch": 170,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_170_1794691934956171814.jsonl",
+    "sha256": "278ccd55318668a17bad7c24014ded35aa27f41708cca160200305f68ff4ea0b",
+    "updates": 140,
+    "summary_sha256": "925715322b609645099f6b08da01971161c4832ecb48be17b51427dfe36b1ff8"
+  },
+  {
+    "epoch": 171,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_171_1794692237062186923.jsonl",
+    "sha256": "54e999eab3d02da06835fc63dfc883d674bdab5314adcf44119c08519de9955f",
+    "updates": 140,
+    "summary_sha256": "3bf0ad3dc2d9f4443f5733721d3f39d8a66aec5ca4633604d247bcd0c1f7f93d"
+  },
+  {
+    "epoch": 172,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_172_1794692540618386229.jsonl",
+    "sha256": "fd2a99cc6f3ba0bf27a01718656c001d2295e6a9ebb7dfd46042fbfa98076e8f",
+    "updates": 140,
+    "summary_sha256": "895f2337cd6a23585164398be4da733c7474577581696d861e71c638584d995b"
+  },
+  {
+    "epoch": 173,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_173_1794692844151604992.jsonl",
+    "sha256": "58d46a52f36f689c0b8d4f3b9055d9228cb31ab3bca1946633f24bba445aeb11",
+    "updates": 140,
+    "summary_sha256": "75198cf29813e73dff61c5fe222032ff7b9e97cede98e4aaeeabb71dd8b8ff29"
+  },
+  {
+    "epoch": 174,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_174_1794693146299458840.jsonl",
+    "sha256": "f8f0430af35a75fbc13bf96f110eccdac69850a36681d2f1c0ced11f9f997419",
+    "updates": 140,
+    "summary_sha256": "c55c922ada545587c1cec84ad02077704cb13f35d6b2cb9a01f7642ac39a52b0"
+  },
+  {
+    "epoch": 175,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_175_1794693450903978291.jsonl",
+    "sha256": "f29d0b5904c3ebbd13b4369d22295ea25b56e27e3e66baf6471a9b920fe8d2c4",
+    "updates": 140,
+    "summary_sha256": "c328e285add638b6070ce8d338ceddf3ff47a03fbfbcbb57c0a3e56c2519bda9"
+  },
+  {
+    "epoch": 176,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_176_1794693753042903447.jsonl",
+    "sha256": "7b35d8bf9453b919827bed7d1ab382d56c745ea6194662f186793c0099f6f70f",
+    "updates": 140,
+    "summary_sha256": "f533df10ecba92db6fbdc16b5aff34af7b70a7189b01d95344936a181f9d38fb"
+  },
+  {
+    "epoch": 177,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_177_1794694055153795729.jsonl",
+    "sha256": "6dfa9332ec0c0ba019c7f13ac5b4eeb99882fa15f24defc2279b70dc799918aa",
+    "updates": 140,
+    "summary_sha256": "ba9a20fe0e8d25d2df9daf268b3fbaf5b88526437412843ac3a4fc2bc43fadef"
+  },
+  {
+    "epoch": 178,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_178_1794694356778472953.jsonl",
+    "sha256": "11998cf7dcaca54e97f2797933339b5302827fabbc283bb091def606f24af220",
+    "updates": 140,
+    "summary_sha256": "d1ab51889abfcd7a7805c3f3deade5e40b7ca07bf96f78c9889b1e0b1cb4c531"
+  },
+  {
+    "epoch": 179,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_179_1794694659102146520.jsonl",
+    "sha256": "39e3858d1b8f380e0adca1a68d92641a141bdb59f8b6f7df391b7b9381ebc281",
+    "updates": 140,
+    "summary_sha256": "7796a844ec3a4e7a4852437eb4ae2c6c8eb8fbf8e8f0ca1d01fb33b833131cf9"
+  },
+  {
+    "epoch": 180,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_180_1794694960453692759.jsonl",
+    "sha256": "af85ce71a53a16b9b3f46b49265928a0eaf7a0ce32f5b9391648500054eb7032",
+    "updates": 140,
+    "summary_sha256": "94289b409d42a000a4c960344ba721b87289f94d476cd0167ec0b3528ca8ac18"
+  },
+  {
+    "epoch": 181,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_181_1794695467539492835.jsonl",
+    "sha256": "2a7b51b0fd6096d92efc59623f565022ce38a7e3d68f383105ccdc69020a1120",
+    "updates": 140,
+    "summary_sha256": "29bcba2dcefe5e81c8a3ce223f3dcc224099c9a6e8b0a82d5698a3ef8dfc109d"
+  },
+  {
+    "epoch": 182,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_182_1794695768874494278.jsonl",
+    "sha256": "41cd5330aa3dcfc50e0ef127061474791088bf80bd51d8f9bfeb2758f68b938c",
+    "updates": 140,
+    "summary_sha256": "89d06a00107e4548a2ca48c469184641460a3a8aabfff931457c3ee944c3293f"
+  },
+  {
+    "epoch": 183,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_183_1794696069659635582.jsonl",
+    "sha256": "f7516843df0a20cc5e424779d32022b23d19f981bb9a03f9b14a579128c48417",
+    "updates": 140,
+    "summary_sha256": "15084a7ea3951de88e637494db0c757140668bafebcf35230c42c04d22085fff"
+  },
+  {
+    "epoch": 184,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_184_1794696370492230422.jsonl",
+    "sha256": "ddfb2244adefcdd412419a19a3409ca06e3222c8d01a6c9458f7efe41cd49a02",
+    "updates": 140,
+    "summary_sha256": "8cec4d3f242d4c7406f8d5e7c22434e6c62ff39a4f91585b43882e7860d472d3"
+  },
+  {
+    "epoch": 185,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_185_1794696673188844321.jsonl",
+    "sha256": "82ac8d806871dd1f030534e9b9e3455644b82e13570550e914163fb0d672b3df",
+    "updates": 140,
+    "summary_sha256": "9fc25ce1ddd6aa19c83e05a6b59f282ab2bee7d23a961b747672fe4f592fe5ac"
+  },
+  {
+    "epoch": 186,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_186_1794696977238705600.jsonl",
+    "sha256": "e831972c4b39a4b06a2a6d642215379d3f1d174237032c9b523f709d65916595",
+    "updates": 140,
+    "summary_sha256": "bb731414c7878cce2f24181b74769772f8144a8a4fea10a668a9f7a40c454a1e"
+  },
+  {
+    "epoch": 187,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_187_1794697280570492909.jsonl",
+    "sha256": "535ec6d2290eb01350b81050c185cbec185bcdbdc6bbd6936694f54e1453e856",
+    "updates": 140,
+    "summary_sha256": "d5fa343bbc86d01c61bc68563f2c3addad002668140485e43a80b93e4e74477c"
+  },
+  {
+    "epoch": 188,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_188_1794697583507262744.jsonl",
+    "sha256": "e8c94476d33fae8c49757a6e51c6f00fa740b1c34c1507bebe87d87a6eecc0c5",
+    "updates": 140,
+    "summary_sha256": "2d8a519737bc238d190a444b55825198fce80eb15e87edad44a0e907886b6c30"
+  },
+  {
+    "epoch": 189,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_189_1794697887138719765.jsonl",
+    "sha256": "269e4773a9e3cb14c2213a83d5de6035517130c890c0fef7116fdb6dc23e7cc5",
+    "updates": 140,
+    "summary_sha256": "e489d3bc85d2cabde01fb4f0db32ad547870348bdaa1243951b502acf8caccb6"
+  },
+  {
+    "epoch": 190,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_190_1794698192374713336.jsonl",
+    "sha256": "a89c80607e22eb7a57ef6ad093caf2bb0826187c80781f602c19b111eccba27b",
+    "updates": 140,
+    "summary_sha256": "77907d484f58b37963dfebecad87dcaf2f4a507d1932201e7af6564db10c5a64"
+  },
+  {
+    "epoch": 191,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_191_1794698495294126648.jsonl",
+    "sha256": "f335b1ab7587493d46703c5d717771504cf9a92a0a8acc2d84de6e6e2773036e",
+    "updates": 140,
+    "summary_sha256": "ce739dca9a604a13120b7763a98c00f12824e98ab5606d394f82bff5a7fcb5e2"
+  },
+  {
+    "epoch": 192,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_192_1794698798468149269.jsonl",
+    "sha256": "02cdf67b3d2c0c0d77784a74f2392bf8b78ee045229d9c3e3c9af2ee02359d43",
+    "updates": 140,
+    "summary_sha256": "dbdf4535a706a7d61d5560683fd24ef14fcca0802c0690e14dcf4d08f67e050e"
+  },
+  {
+    "epoch": 193,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_193_1794699101186223090.jsonl",
+    "sha256": "fcb135955586c774c32a7e34febf1e7047fff89ec674391cf582668114bb06f1",
+    "updates": 140,
+    "summary_sha256": "1e01a5f73f7a6e2b233bd2eeccc6bb3427ecbdcb0212d8139cf5faaeae00699a"
+  },
+  {
+    "epoch": 194,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_194_1794699404002402011.jsonl",
+    "sha256": "962dca8d9fddf71222ff846d64f84d69479b42990752a1067d74f22e1faeaa5b",
+    "updates": 140,
+    "summary_sha256": "53808a551bf9240d8c7124f4b1ec0d4289c85bce14bbaf331b2cbab4f42f393b"
+  },
+  {
+    "epoch": 195,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_195_1794699706821849068.jsonl",
+    "sha256": "a240ed802b16581fae50bc5863ff40b835b15ba5c40d85fc13abdc2f72dca48c",
+    "updates": 140,
+    "summary_sha256": "8f9ed2f0e736f6ec73f7951a14d12c208dcac35af394ba69847cb922329cfe31"
+  },
+  {
+    "epoch": 196,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_196_1794700010426177298.jsonl",
+    "sha256": "203ab5bda121c9e83a03e9d42c0d38a1192435a8728e2bb597d8a4cbe62b061d",
+    "updates": 140,
+    "summary_sha256": "46581fa6ba802ae9168a6997926077b6e2340caa59055e1941dc4a97b1d63ae4"
+  },
+  {
+    "epoch": 197,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_197_1794700312746084451.jsonl",
+    "sha256": "7f31b0ccf02b0d9ea5eb7529d5cf607fdf2a27efa8cfc7a35a1b494de960c259",
+    "updates": 140,
+    "summary_sha256": "c388a55fa6228b85c810b4ed792ceb94501dbb00d17f6fc88cfa01b888b2b81e"
+  },
+  {
+    "epoch": 198,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_198_1794700614297446469.jsonl",
+    "sha256": "cb61735d83b275aead4702b05f30ffd60305713c8059437842a28fbdfc4138ba",
+    "updates": 140,
+    "summary_sha256": "46248016d70b192f00ff6fbe7976376423c0f4f686c971b9f0774d66af3ca075"
+  },
+  {
+    "epoch": 199,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_199_1794700914804638351.jsonl",
+    "sha256": "22c1b194decf8b4e4874c2ebfc86977a0f7649040ed08a6f20d0fa4a3270df82",
+    "updates": 140,
+    "summary_sha256": "f4852d8a3c618d8a133a5409d7952595b801a86ad0635ea6940f1f163d5b5432"
+  },
+  {
+    "epoch": 200,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_200_1794701216031276711.jsonl",
+    "sha256": "ebffcf6a806f7d9a5dc97cf5f65d85f404badcb4b81523064f0078a6689536a9",
+    "updates": 140,
+    "summary_sha256": "ac6e7f2596595bf07554feeb99a4779b24c041d24a2e2095f09f3ed33138c9d8"
+  },
+  {
+    "epoch": 201,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_201_1794701516660688777.jsonl",
+    "sha256": "abb9e76baf74360dc9da27ae50c6ec4fbb366179d7a78edcea28584c9de3e74f",
+    "updates": 140,
+    "summary_sha256": "4baf3fc13abfbfaab46c5d6ebc42f0dfb20721d04c19c627a702225d066b3fe0"
+  },
+  {
+    "epoch": 202,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_202_1794701817039842922.jsonl",
+    "sha256": "af61e23ef14cfe27a12fbdc0b522a40ae1fa73cde735eb1fa71fb2809db8e584",
+    "updates": 140,
+    "summary_sha256": "990a2c0b9d5004644b6213a71f477d621be1f605b0008ae0185f322c0a6c8350"
+  },
+  {
+    "epoch": 203,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_203_1794702118281174907.jsonl",
+    "sha256": "4e5f311f4686d369f25a0bb2d0d2c4820ea7811020506e88ddd3baaea2fe8618",
+    "updates": 140,
+    "summary_sha256": "f1d0eb52640c124f608475ea4b14db9140e85c01ef48c3468b5701064cf96c64"
+  },
+  {
+    "epoch": 204,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_204_1794702420363449607.jsonl",
+    "sha256": "1e775ee0c3109db8ae545784d682de22fbb4ccb4d135f6adc8827a8583eecdc7",
+    "updates": 140,
+    "summary_sha256": "20ba529fc7dbd41c60e67293b27d8fd8ec7a3a02f1b5628b54a650651a2d9030"
+  },
+  {
+    "epoch": 205,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_205_1794702721996614106.jsonl",
+    "sha256": "e0cf3d9de24a670eda969d96544f0ee2d1192d96840fe0abffde9b8f426d74f9",
+    "updates": 140,
+    "summary_sha256": "4e574f9ddd5ff320600baed8f99e8a1f58abc7c52b06dc0c14fe2126b161a7c3"
+  },
+  {
+    "epoch": 206,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_206_1794703023911041271.jsonl",
+    "sha256": "01899b8426ba57d7d9761120d113967329fe98921b5a30e05f2c36bbab20a751",
+    "updates": 140,
+    "summary_sha256": "f353b04edd7b87f802f323e940e72c3908fa8107b8a900da0db06507080c338f"
+  },
+  {
+    "epoch": 207,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_207_1794703325047313747.jsonl",
+    "sha256": "b6c73cc900570e943141dca92c925141ebba913acbc717b60880d5aed81c062c",
+    "updates": 140,
+    "summary_sha256": "722d45160a0a693c98d355549fb040a2b18f8fab9c2f8a9a94f59e9fb26b90d4"
+  },
+  {
+    "epoch": 208,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_208_1794703626915747124.jsonl",
+    "sha256": "1d41c6e9422063473500aa91b570ceb0bba05fc10723545ebc467f3cd9e41d69",
+    "updates": 140,
+    "summary_sha256": "61e2bf1b81c37c044cb2257829091483c0d0b1bdb1963246061bb535f4b60020"
+  },
+  {
+    "epoch": 209,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_209_1794703927898929272.jsonl",
+    "sha256": "fb4f812fdc3becb0bb4cd9bf0a2e15c72a0b39de742321954ff325f1c35433a0",
+    "updates": 140,
+    "summary_sha256": "a765dde0f179c879077f9e7fbaae94c7b8f580a73b8b1e1037ec08bf9b502034"
+  },
+  {
+    "epoch": 210,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_210_1794704228684015666.jsonl",
+    "sha256": "3bb9e9843514e673f1efb50028a8c005f99722958e32f4be06accc8366038292",
+    "updates": 140,
+    "summary_sha256": "fb9787ed586922c1b751f1e7904eb97c35cd02d8feb7dac3491a9e986c7808b0"
+  },
+  {
+    "epoch": 211,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_211_1794704733042754733.jsonl",
+    "sha256": "49ac903c2e1174d35cdc8e78fdb5cbc59abd941ecbf155e97d949759b5f4ed3f",
+    "updates": 140,
+    "summary_sha256": "1f705fe1e0b195dbf0b1176e3fd3c00c39dce60032edd7d520e6931e02a831b9"
+  },
+  {
+    "epoch": 212,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_212_1794705033884151559.jsonl",
+    "sha256": "0d168094826e8812e962e240e4b0ea9cff427783cab1a739e73f42bedf44002f",
+    "updates": 140,
+    "summary_sha256": "7d1ea66e7bae61ed8ffe3be644c5fa1aca681f5361b3035acb1872d0509d32e5"
+  },
+  {
+    "epoch": 213,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_213_1794705335782255053.jsonl",
+    "sha256": "ce0700a29fb26517b90ce1478c58a000c04f1341d516a507ab75763aab4a5f24",
+    "updates": 140,
+    "summary_sha256": "65b7e4c1e0ed546873b54062951e72c1cb73f0ab48114c60fadfd5e2e9796cd3"
+  },
+  {
+    "epoch": 214,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_214_1794705638578323760.jsonl",
+    "sha256": "b8427842646ff54182cd561bc8a519195fba33ff375b0163ff45b325a814a50c",
+    "updates": 140,
+    "summary_sha256": "cf753ca05e0ae90747af5b5d4536d12efda30454da3096a0218d908d8d2051a8"
+  },
+  {
+    "epoch": 215,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_215_1794705939399177835.jsonl",
+    "sha256": "e0f1be461b4d5e02fafd1dae9fb96778ca7eed0b4421a7f99aac6b57e67e8a42",
+    "updates": 140,
+    "summary_sha256": "3a9f15e99b65ae797c8b350c82eb2c17065dc530f795e2db3d2145a1f9a16e17"
+  },
+  {
+    "epoch": 216,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_216_1794706239625022261.jsonl",
+    "sha256": "902370e8184674607d778f783ff7d367a3d9a958ba1daf2b9af3ba91d327fee3",
+    "updates": 140,
+    "summary_sha256": "06c189ad102304d389f1d6c4a7f5f0f61571efdba2a64454fdd62990d4ac707d"
+  },
+  {
+    "epoch": 217,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_217_1794706542327866318.jsonl",
+    "sha256": "1e300fe156fc3b93f465b6e6f8e4ee70635488b11b22c891567b8ac771305d51",
+    "updates": 140,
+    "summary_sha256": "b8da89c68a01aa043b6ed3e9e10371bcf61f3ce5bd3aa6c10f77b6a8a46ffbb3"
+  },
+  {
+    "epoch": 218,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_218_1794706843532505722.jsonl",
+    "sha256": "3292364f120fcdc3422dbda7409f570bd7c83647e5052bfbdb76e09538b132c7",
+    "updates": 140,
+    "summary_sha256": "503514dc08fa8102bd5cd320492b3bd9b7069cee5bf77e0708518bc3d10e5f0a"
+  },
+  {
+    "epoch": 219,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_219_1794707144023801136.jsonl",
+    "sha256": "c0f520863b31d2d3298617c01a2241ee5016855d048b70235985ea5a251bee21",
+    "updates": 140,
+    "summary_sha256": "a5b35d01049718024b1c6449ccc7c64cead79fe48fcc37f61d4775c3806cab3d"
+  },
+  {
+    "epoch": 220,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_220_1794707444328072986.jsonl",
+    "sha256": "39219b414582123c6329e51e2bc269a76a72903c1193886ed7736ee061148067",
+    "updates": 140,
+    "summary_sha256": "f5698bc4b749aca8b720b011cfbfb4c6f23206ff5e44420ec49195d686ae00ec"
+  },
+  {
+    "epoch": 221,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_221_1794707745627397859.jsonl",
+    "sha256": "b80840d07959dfc4424dc5ad9b0bf0dfc8565aa14851d002f72e9a42ab16590c",
+    "updates": 140,
+    "summary_sha256": "653ecc70b717d0e087a64f38b73ea617e36fd7145fbcf1d72137e24fd7277c00"
+  },
+  {
+    "epoch": 222,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_222_1794708046191163852.jsonl",
+    "sha256": "32fecfc935cc7bf7e61843439f3b3511fd424a1cf4c80acaed2c73be301a5356",
+    "updates": 140,
+    "summary_sha256": "330a799e50e1d7925780966d8c3d7e4abeac0174f171560e769a2fdd384b4b6d"
+  },
+  {
+    "epoch": 223,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_223_1794708346931154201.jsonl",
+    "sha256": "57e8787d6d67aa27a102ed2e34461c608bb2c318848ac649ab880aa1ec65e001",
+    "updates": 140,
+    "summary_sha256": "e29452f6dca2796205f73de02b25f487e480789a77084f5478a87362454a810d"
+  },
+  {
+    "epoch": 224,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_224_1794708647659980902.jsonl",
+    "sha256": "102be6c5e489d488936a3c6a30ecafa8c9acb44e87553943889fa9d1e7e0963c",
+    "updates": 140,
+    "summary_sha256": "37ad830c3f71096cc00d47c1285155c59dcd855ba6318e4e3bc50a50d8e3646b"
+  },
+  {
+    "epoch": 225,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_225_1794708948619196531.jsonl",
+    "sha256": "f253df49a1b0c52194e7f7304fcd050eb6e8ce8c5df94ff6b69ebe7a6261bc22",
+    "updates": 140,
+    "summary_sha256": "d5c7ecd5e10061df82019c16d0b3b01c0bf2e702a789cad18f91fe5f60cc7927"
+  },
+  {
+    "epoch": 226,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_226_1794709252642358738.jsonl",
+    "sha256": "9370932075efbb6d29456d384af10c4eb7a7f7cb069535735c994ce38e55e2f6",
+    "updates": 140,
+    "summary_sha256": "d54850754519873919e04869275b1a514de04ce7e616b784a2e913c28ac4e670"
+  },
+  {
+    "epoch": 227,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_227_1794709556766608739.jsonl",
+    "sha256": "29ad8cc1570cebd65df48049d86ea32295b9785dd09c898ad0e3b5e5f6bd412b",
+    "updates": 140,
+    "summary_sha256": "1229c86fa9174f7d86d324dbd32c0123ba889f667cae715ca69b0180ae19d9e9"
+  },
+  {
+    "epoch": 228,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_228_1794709862994177346.jsonl",
+    "sha256": "e37a1fdfc8252e9fba67d461e237b5f3e0f0ebceab871c3377c3ac989f954ea4",
+    "updates": 140,
+    "summary_sha256": "0f5a174616942c392780ec28823801f6822073227ee5b6175c1cdc2110d8dbf2"
+  },
+  {
+    "epoch": 229,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_229_1794710165012696187.jsonl",
+    "sha256": "cc62699418923384bb3f0a06481a2852cce07374a9d99b4e3cd2804de81059f3",
+    "updates": 140,
+    "summary_sha256": "69700c50fc9c50b2baf5d8d590283cacb74e961110a77076f0e18aa9b1959df3"
+  },
+  {
+    "epoch": 230,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_230_1794710466842965533.jsonl",
+    "sha256": "6732c00ec1d70c33fc8fe2cb1dc7b5470b47cd17d8c74d743e4a3bbbfc1bb689",
+    "updates": 140,
+    "summary_sha256": "7be9d8482ac388c52fa768a42393564b49725a6fb9b35324973a1a37ecd64e98"
+  },
+  {
+    "epoch": 231,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_231_1794710769780236806.jsonl",
+    "sha256": "9e15e946f78ab123c2a449305784464d70b2b32dc490e1231367e6d402ecad46",
+    "updates": 140,
+    "summary_sha256": "c8e651f44f92f9d0125a2080a112432bea911d682d3363fc2959d289eff48b8f"
+  },
+  {
+    "epoch": 232,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_232_1794711073351806804.jsonl",
+    "sha256": "24c1fa31fce75f313187d5da9c6f0cdcd36854d49e0879cd199ce52f6d6be7e6",
+    "updates": 140,
+    "summary_sha256": "6a4c44f843b2e244aeb3f71c43b48ec43342f5df5a68a50c53fe76a5aaeda717"
+  },
+  {
+    "epoch": 233,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_233_1794711377816562861.jsonl",
+    "sha256": "490387ed3ea6333181f7e5c7865e102c62e5c92ef8d71adac1ac6b476b5efd52",
+    "updates": 140,
+    "summary_sha256": "5c5459299022df31a2ccbce1a3a3a3c9e2c2c60840f167764f95f60c1506b2d8"
+  },
+  {
+    "epoch": 234,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_234_1794711680448686156.jsonl",
+    "sha256": "e8350d23a7fbc76fdbd191864f70839b622c1f27af24e9edf9d758c3a89bc47c",
+    "updates": 140,
+    "summary_sha256": "581eab4ba55e69b458341d0c6fe03cb1b9385d7559eb31ad7674367dae925c13"
+  },
+  {
+    "epoch": 235,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_235_1794711982923721466.jsonl",
+    "sha256": "134080ba8a6b2db2de7cc993493deeec02d7e4bb2785337cae739c29efb0cbc3",
+    "updates": 140,
+    "summary_sha256": "0d6df1e895a1e25eec77f769c7e206112fd95ae440f2437e9994321994067958"
+  },
+  {
+    "epoch": 236,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_236_1794712286102234250.jsonl",
+    "sha256": "81c45cadd89ef1a51b1433bf1b4422446dc0539bc1ea3dcab9f760d5bf7dccd3",
+    "updates": 140,
+    "summary_sha256": "c667516bd03eb374605b85d76ba350e1923ac61591757c4b85b86011d92e1738"
+  },
+  {
+    "epoch": 237,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_237_1794712588824205378.jsonl",
+    "sha256": "b93b3c4f15b6fd2ff55a7c83b124a3becfb7ebe43b726732f4fe67ec8d7d932b",
+    "updates": 140,
+    "summary_sha256": "97313e0cab0ee21a3c25b1cefeb72db004ab1871f84ca9dfb7c6bdc3bd972448"
+  },
+  {
+    "epoch": 238,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_238_1794712889886404251.jsonl",
+    "sha256": "003c7094372eb16f755a5da9bb42eb7ec9cd40af82f5e155e3973d2248f8921d",
+    "updates": 140,
+    "summary_sha256": "93c77fb7a8678b14bd3ef791766db55f722fd798ac073437431293e4000d969f"
+  },
+  {
+    "epoch": 239,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_239_1794713192570170995.jsonl",
+    "sha256": "4a272d7cf7368cbbc64d7e881a9a2a6a65cd4b41f38d252a06d7cd0146ef8802",
+    "updates": 140,
+    "summary_sha256": "f1638aba84192855ec035b9cbd7902812b976e2f53137233a19cf9b694364449"
+  },
+  {
+    "epoch": 240,
+    "path": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp155_20261113_xoct_no_cds_240e/logs/epochs/epoch_240_1794713494922786913.jsonl",
+    "sha256": "deedfdee99ac101f289f4f9f788d7a6491ce71dd902ddae9262092aa360c5018",
+    "updates": 140,
+    "summary_sha256": "43dc2a9f7d77ca35aeff833cabc975e70e3fc2142939d2c8cb5c13f81b0e7441"
+  }
+]

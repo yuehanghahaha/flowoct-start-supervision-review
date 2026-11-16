@@ -1,0 +1,61 @@
+{
+  "confirmed_at": "2026-11-15T15:47:56.110678+08:00",
+  "status": {
+    "state": "validating",
+    "epoch": 5,
+    "completed_epoch": 4,
+    "updates": 1000,
+    "pid": 1364,
+    "time": "2026-11-15T15:47:06.492105+08:00",
+    "best": null
+  },
+  "launch": {
+    "session": "exp163_layerproj",
+    "action": "train",
+    "python": "/workspace/.conda/envs/lyh_flowoct/bin/python",
+    "conda_prefix": "/workspace/.conda/envs/lyh_flowoct",
+    "conda_source": "/opt/conda/etc/profile.d/conda.sh",
+    "tmux": "/workspace/.conda/envs/lyh_tmux/bin/tmux",
+    "gpu_environment": {
+      "CUDA_VISIBLE_DEVICES": null,
+      "CUDA_DEVICE_ORDER": null,
+      "NVIDIA_VISIBLE_DEVICES": "0",
+      "NVIDIA_TF32_OVERRIDE": null,
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+    },
+    "log": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/train_20261115_074436_759644.log",
+    "exit_file": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/train_20261115_074436_759644.exit",
+    "script": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/tmux_20261115_074436_759644.sh",
+    "session_created": true,
+    "training_steps_confirmed": true,
+    "confirmed_updates": 1000,
+    "confirmed_time": "2026-11-15T15:47:06.492105+08:00",
+    "scope": "exp163_only_no_control_no_formal_test"
+  },
+  "actual_successful_updates_observed": 1000,
+  "all_observed_cases_in_fixed_training_split": true,
+  "all_observed_losses_and_gradients_finite": true,
+  "source_contract_unchanged": true,
+  "initialized_from_scratch": true,
+  "completed_epochs": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "initial_checkpoint_bytes": 8567842,
+  "latest_checkpoint_bytes": 25426874,
+  "preparation_cases": 150,
+  "original_synthetic_assertion_failed": true,
+  "independent_sum_rounding_and_gradient_audit_passed": true,
+  "full_original_real_acceptance_passed": true,
+  "full_euler8_seconds": 33.34913149476051,
+  "training_environment": "lyh_flowoct",
+  "tmux_environment": "lyh_tmux",
+  "created_or_modified_conda_environments": false,
+  "gpu_request_or_release_performed": false,
+  "control_experiment_launched": false,
+  "formal_test_launched": false,
+  "disk_free_bytes": 22207004672,
+  "cleanup": "Check-generated TemporaryDirectory fixtures removed automatically; retained scientific logs and failure/audit evidence. Active training runtime temporary files retained until process exit; no archives created."
+}

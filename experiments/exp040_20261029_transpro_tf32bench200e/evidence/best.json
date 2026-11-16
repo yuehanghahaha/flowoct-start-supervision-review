@@ -1,0 +1,8 @@
+{
+  "path": "checkpoints/best_slot_1.pt",
+  "sha256": "8172591036fd8f0a669bbb06c5d588b2db8a027f94dbde959aba8303d0129bf6",
+  "slot": 1,
+  "MAE": 0.01335679400220397,
+  "epoch": 83,
+  "protocol_id": "047290c6a0f06b822d0e032c278dfa130975522379d6135f36a5ea7038a61977"
+}

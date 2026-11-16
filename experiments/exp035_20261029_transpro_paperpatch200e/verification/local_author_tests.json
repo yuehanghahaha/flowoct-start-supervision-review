@@ -1,0 +1,7 @@
+{
+  "tests": 8,
+  "success": true,
+  "synthetic_only": true,
+  "full_width_A100_backward_verified": false,
+  "patient_arrays_opened": false
+}

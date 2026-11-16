@@ -1,0 +1,41 @@
+{
+  "experiment_id": "exp164_20261115_startproj_fullcds_200e",
+  "date": "2026-11-15",
+  "scientific_parent": "exp018_20261027_3dfm_start_zproj_200e",
+  "runtime_parent": "exp143_20261112_startproj_endvoxl1_200e; endpoint voxel L1 disabled",
+  "donor": "XOCT official 4bf151bee591880a28556fa18e0a79aee63ade93",
+  "donor_urls": [
+    "https://papers.miccai.org/miccai-2025/paper/4977_paper.pdf",
+    "https://github.com/uci-cbcl/XOCT/blob/4bf151bee591880a28556fa18e0a79aee63ade93/models/UNet3D2D_model.py"
+  ],
+  "parent_generator_sha256": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+  "inherited_generator_byte_identical": true,
+  "fixed_split": [
+    140,
+    10,
+    50
+  ],
+  "generator_pretrained_weights": false,
+  "pretrained_supervisor": "ImageNet VGG19 relu3_3, author released implementation",
+  "novel_migration_choices": [
+    "Apply complete 2D CDS only to exp018 exact-t0 raw OCT+v endpoint; no training rollout",
+    "Retain exp018 velocity MSE and original shallow maximum-projection L1x0.1",
+    "Transform FM volume01 to2*volume-1 before regional means, matching donor signed image domain",
+    "FM endpoint remains unconstrained; donor generator uses tanh; no loss-time clipping",
+    "Use donor regional L1:LSGAN:VGG weights10:1:1 and sum3 regions, outer weight1; unvalidated research setting",
+    "G retains AdamW2e-4; three D share Adam1e-4 betas.5/.999, constant through200e",
+    "CDS VGG forward follows released code, including grayscale expansion and no added ImageNet mean/std preprocessing",
+    "Float32 with TF32 allowed, benchmark on, AMP/scaler off; historical exp018 TF32 off",
+    "BestG/latest full resume retained; temporary pending/candidate transactions; validation3D arrays released"
+  ],
+  "test_annotations_source": "exp062_20261103_transpro_a100_best83_test50/assets; reserved for explicit formal test only",
+  "server_upload": true,
+  "server_checks": true,
+  "formal_training_started": true,
+  "canonical_input_expectations": {
+    "parent": "exp143 completed fixed150 dataset",
+    "count": 621,
+    "sha256": "92926373077b77d88b0f6c846e29805fcd419ccae4aefeb7542f0bd69eb65afc",
+    "test_cases_included": false
+  }
+}

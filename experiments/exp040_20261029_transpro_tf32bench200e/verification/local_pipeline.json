@@ -1,0 +1,10 @@
+{
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "synthetic_only": true,
+  "no_clinical_test_data": true,
+  "actual_full_width_GPU_backward_verified": false,
+  "scope": "Numerical metrics, gradients, original architecture meta shapes and complete-view coverage; not A100 acceptance"
+}

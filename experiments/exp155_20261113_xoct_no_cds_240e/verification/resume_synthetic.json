@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "synthetic_CPU": true,
+  "validation_resume_reuses_trained_epoch": true,
+  "latest_and_best_interrupted_commit_recovered": true,
+  "optimizer_scheduler_rng_loaded": true,
+  "formal_training_affected": false,
+  "temporary_checkpoints_removed": true
+}

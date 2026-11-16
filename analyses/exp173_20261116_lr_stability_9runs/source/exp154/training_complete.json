@@ -1,0 +1,24 @@
+{
+  "epochs": 240,
+  "updates": 33600,
+  "validation_epochs": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240
+  ],
+  "best": {
+    "epoch": 180,
+    "value": 0.49077878901706545,
+    "metric": "standard_ilm_opl_max_ssim",
+    "report": "reports/validation/epoch_180/metrics.json",
+    "generator_tensor_sha256": "268d15b021dd7c1b1fdbbca59d032695bda5a8a48e3f9eed522b07c6907ed7cb"
+  },
+  "final_checkpoint": "checkpoints/latest.pt",
+  "test_started": false,
+  "time": "2026-11-15T03:52:22+08:00"
+}

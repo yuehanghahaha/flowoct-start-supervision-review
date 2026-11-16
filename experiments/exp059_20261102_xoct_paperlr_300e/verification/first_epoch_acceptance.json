@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-02T23:05:06.441906+08:00",
+  "first_epoch_complete": true,
+  "training_updates_first_epoch": 140,
+  "distinct_training_patients": 140,
+  "author_validation_patients": 10,
+  "author_validation_finite": true,
+  "full_checkpoint_bytes": 864459523,
+  "current_status": {
+    "stage": "training",
+    "epoch": 2,
+    "total_epochs": 300,
+    "completed_epoch": 1,
+    "steps": 170,
+    "pid": 286885,
+    "time": "2026-11-02T23:04:59.863930+08:00",
+    "step_in_epoch": 30,
+    "last_step_seconds": 2.160220838151872
+  },
+  "training_complete": false,
+  "test_started": false,
+  "steady_step_median_seconds": 2.157693739980459,
+  "epoch_record": "runs/epochs/epoch_001.json"
+}

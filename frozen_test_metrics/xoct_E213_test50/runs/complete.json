@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-04T10:32:37.807566+08:00",
+  "status": "complete",
+  "cases": 50,
+  "epoch": 213,
+  "checkpoint_sha256": "af9ecc7ffb47ae577240b6e4bff7cfc44e52554b77f4b4be467b51f30ea80188",
+  "full_float32_predictions": 50,
+  "full_uint8_predictions": 50,
+  "gpu_peak_allocated_GiB": 24.366487503051758,
+  "gpu_peak_reserved_GiB": 24.703125,
+  "parent_training_after": {
+    "stage": "training_complete",
+    "completed_epoch": 300,
+    "total_epochs": 300,
+    "steps": 42000,
+    "best": {
+      "score": 0.48410716557441535,
+      "epoch": 213
+    },
+    "time": "2026-11-04T05:38:09.393719+08:00"
+  },
+  "training_pause_or_signal_sent": false,
+  "report_status": "pending independent analysis"
+}

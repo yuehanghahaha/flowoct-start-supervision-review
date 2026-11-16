@@ -1,0 +1,62 @@
+{
+  "parent": "exp028_20261028_transpro_retention200e",
+  "parent_source_configuration_identity": "c992f0eff567e204f0bc973f5f0c0b77a9298fb38b6b0fd48884e4c8f54a3bba",
+  "parent_modified": false,
+  "changed_configuration": {
+    "cudnn_benchmark": {
+      "parent": null,
+      "current": true
+    },
+    "cudnn_deterministic": {
+      "parent": null,
+      "current": false
+    },
+    "experiment_id": {
+      "parent": "exp028_20261028_transpro_retention200e",
+      "current": "exp040_20261029_transpro_tf32bench200e"
+    },
+    "matmul_tf32": {
+      "parent": null,
+      "current": false
+    },
+    "parent_experiment": {
+      "parent": "exp026_20261028_transpro_paper200e",
+      "current": "exp028_20261028_transpro_retention200e"
+    },
+    "precision_policy": {
+      "parent": null,
+      "current": "float32 tensors and optimizer state; cuDNN TF32 allowed; no AMP/scaling"
+    },
+    "tf32": {
+      "parent": false,
+      "current": true
+    },
+    "tf32_scope": {
+      "parent": null,
+      "current": "cuDNN convolutions only; general matmul remains disabled"
+    }
+  },
+  "protected_modules_identical": [
+    "run.py",
+    "network.py",
+    "dataset.py",
+    "metrics.py",
+    "evaluation.py",
+    "retention.py"
+  ],
+  "original_source_files_verified": 65,
+  "weights_sha256": {
+    "hcg": "973fdffd67be0807f6dbc7246b9cf25b25d06733d63bd5b3232836ef14fa88bc",
+    "vpg": "4d440e77a916231ce9316a26e4cbbd62893d5e696b39fd0c6af7edcf97ffb3c8"
+  },
+  "changed_training_functions": [
+    "experiment.precision"
+  ],
+  "extra_runtime_logging": [
+    "experiment.runtime"
+  ],
+  "new_diagnostic_entry": "benchmark_speed.py",
+  "formal_budget_shortened": false,
+  "validation_protocol_changed": false,
+  "user_uploads_and_runs_on_A100": true
+}

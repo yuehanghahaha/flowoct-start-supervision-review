@@ -1,0 +1,11 @@
+{
+  "stage": "training_complete",
+  "completed_epoch": 300,
+  "total_epochs": 300,
+  "steps": 42000,
+  "best": {
+    "score": 0.48410716557441535,
+    "epoch": 213
+  },
+  "time": "2026-11-04T05:38:09.393719+08:00"
+}

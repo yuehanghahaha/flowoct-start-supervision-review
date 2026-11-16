@@ -1,0 +1,15 @@
+EXP163 detached training verification
+2026-11-15T07:49:08+00:00
+exp163_layerproj: 1 windows (created Sun Nov 15 07:44:36 2026)
+bash pane_pid=1361
+   PID ELAPSED COMMAND
+     1    3180 /dev/init -- /bin/bash -lc exec sleep infinity
+     6    3180 sleep infinity
+    14    3022 /bin/bash --noprofile --norc
+    27    1094 /bin/bash --noprofile --norc
+  1360     271 /workspace/.conda/envs/lyh_tmux/bin/tmux new-session -d -s exp163_layerproj -c /workspace/experience/exp163_20261114_startproj_layermean_a100_200e bash /workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/tmux_20261115_074436_759644.sh
+  1361     271 bash /workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/tmux_20261115_074436_759644.sh
+  1364     271 /workspace/.conda/envs/lyh_flowoct/bin/python -B -u run.py train
+  1574       0 ps -u 1007 -o pid,etimes,args
+name, uuid, memory.used [MiB], utilization.gpu [%]
+NVIDIA A100 80GB PCIe, GPU-1cc8990b-a1ff-68dc-3480-6340bddf7dcb, 3615 MiB, 0 %

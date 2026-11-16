@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "report": "report/diagnosis.md",
+  "figures": [
+    "report/figures/01_measured_intensity_drift.png",
+    "report/figures/02_same_window_validation_patient.png"
+  ],
+  "confirmed": "cross-checkpoint global intensity drift in selected validation windows",
+  "prioritized_hypothesis": "training objective versus integrated free-generation endpoint mismatch",
+  "causal_training_experiment": false,
+  "new_training": 0,
+  "new_inference": 0
+}

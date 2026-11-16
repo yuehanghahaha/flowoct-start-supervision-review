@@ -1,0 +1,8 @@
+test_log_minimax_values_and_gradients (__main__.PaperLossTests) ... ok
+test_patched_author_update_uses_projection10_and_raw_logits (__main__.PaperLossTests) ... ok
+test_unrelated_author_methods_are_structurally_identical (__main__.PaperLossTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.607s
+
+OK

@@ -1,0 +1,14 @@
+{
+  "state": "complete",
+  "epoch": 200,
+  "completed_epoch": 200,
+  "epochs": 200,
+  "best": {
+    "path": "checkpoints/author_log/transpro_3M/best_net_G.pth",
+    "epoch": 194,
+    "MAE_author_minus1_plus1": 0.023479321040213108,
+    "sha256": "b7c2dd4d0f039954f8732b067972785a71c89a4a4dc1897a1e1efc34664a6142",
+    "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+  },
+  "protocol_id": "5e690c4ec5abeb11bab031a52eaab729b8e718130c22bdeb4d5dfaff9621338a"
+}

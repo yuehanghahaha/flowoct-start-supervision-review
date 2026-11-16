@@ -1,0 +1,38 @@
+{
+  "scientific_parent": "exp017_20261027_3dfm_uniform_150e",
+  "scientific_parent_sha256": {
+    "experiment.json": "946a029866b67c6d0c83c2dd1f65a1fa4ab40ea3b0da0a2f941068b8847ac357",
+    "run.py": "df919bc44ff2ef00ba344ee39ec657c27f3b7cbec982825fe8d5799f6bb2cfaa",
+    "fm3d/model.py": "725d6907eaa89212d339436589fdb9323a014543ca8d84d2bcc899e9c66f74af",
+    "fm3d/inference.py": "cf043091231609a36cbe315a1b8f00790b797fdb08e4ba8608c73e79aa00ebac",
+    "fm3d/data.py": "692792101f3983cf6acf88a82b7057cd320c282eb813909e8c18192136abbe54"
+  },
+  "engineering_reference": "exp142_20261112_uniform_endvoxl1_150e",
+  "engineering_reference_sha256": {
+    "common.py": "21db394731d2e0949f8f2337b71d7a62d8234923b5d362dec94697de21b372b3",
+    "metrics.py": "adf3595e13a8c488313c6c91bae069f801f9a536bd6243c9dd67acf8dc757a20",
+    "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+    "fm3d/projection_report.py": "8901e7f18ef730bc573fe83fb6d3d49c2f6e346bca8a8c5f6d50e078ee402d40"
+  },
+  "new_model": "Same time-conditioned 3D U-Net and fresh seed, state half of stem retained; explicit OCT conditioning removed",
+  "training": "Paired OCT to OCTA linear path, uniform (0,1), all-voxel velocity MSE, 200 x 200",
+  "protocol_changes": [
+    "2 input image channels to 1",
+    "150 to 200 epochs",
+    "BF16 model autocast with TF32 allowed",
+    "mmap normalized cache and GPU float32 Euler stitching",
+    "validation only, metrics and 2D evidence"
+  ],
+  "comparison_window": {
+    "exp017": "E5-E150 every 5",
+    "exp148": "E5-E200 every 5",
+    "shared": "E5-E150 every 5"
+  },
+  "split": {
+    "train": 140,
+    "validation": 10,
+    "test_held_out": 50
+  },
+  "weights_loaded_for_initialization": null,
+  "data": "deployment.json contains actual data sources; input digests recorded as used"
+}

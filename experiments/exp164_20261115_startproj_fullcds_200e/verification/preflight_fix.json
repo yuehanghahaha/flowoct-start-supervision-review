@@ -1,0 +1,7 @@
+{
+  "reason": "Inherited unused MONAI metadata lookup failed after seven finite real training-crop updates",
+  "correction": "Remove unused MONAI from version recording and requirements; preserve existing server environment",
+  "scientific_config_changed": false,
+  "loss_or_model_changed": false,
+  "formal_training_started_before_fix": false
+}

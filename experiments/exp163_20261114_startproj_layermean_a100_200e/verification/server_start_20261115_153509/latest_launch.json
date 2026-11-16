@@ -1,0 +1,23 @@
+{
+  "session": "exp163_layerproj",
+  "action": "train",
+  "python": "/workspace/.conda/envs/lyh_flowoct/bin/python",
+  "conda_prefix": "/workspace/.conda/envs/lyh_flowoct",
+  "conda_source": "/opt/conda/etc/profile.d/conda.sh",
+  "tmux": "/workspace/.conda/envs/lyh_tmux/bin/tmux",
+  "gpu_environment": {
+    "CUDA_VISIBLE_DEVICES": null,
+    "CUDA_DEVICE_ORDER": null,
+    "NVIDIA_VISIBLE_DEVICES": "0",
+    "NVIDIA_TF32_OVERRIDE": null,
+    "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": null
+  },
+  "log": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/train_20261115_074436_759644.log",
+  "exit_file": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/train_20261115_074436_759644.exit",
+  "script": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/tmux_20261115_074436_759644.sh",
+  "session_created": true,
+  "training_steps_confirmed": true,
+  "confirmed_updates": 1000,
+  "confirmed_time": "2026-11-15T15:47:06.492105+08:00",
+  "scope": "exp163_only_no_control_no_formal_test"
+}

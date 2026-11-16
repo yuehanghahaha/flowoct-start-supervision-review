@@ -1,0 +1,13 @@
+{
+  "source_upload_verified": true,
+  "files": 290,
+  "training_started": true,
+  "preflight_started": true,
+  "preflight_session": "exp164_preflight",
+  "server_directory": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp164_20261115_startproj_fullcds_200e",
+  "other_jobs_modified": false,
+  "preflight_passed": true,
+  "tmux_session": "exp164_startproj_fullcds",
+  "pid": 2234822,
+  "training_complete": false
+}

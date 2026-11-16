@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp035_20261029_transpro_paperpatch200e\\pretrain_weights\\hcg.pth",
+      "bytes": 217721090,
+      "reason": "model/teacher checkpoint; analysis snapshot does not require it"
+    },
+    {
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp035_20261029_transpro_paperpatch200e\\pretrain_weights\\vpg.pth",
+      "bytes": 124234901,
+      "reason": "model/teacher checkpoint; analysis snapshot does not require it"
+    },
+    {
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp040_20261029_transpro_tf32bench200e\\pretrain_weights\\hcg.pth",
+      "bytes": 217721090,
+      "reason": "model/teacher checkpoint; analysis snapshot does not require it"
+    },
+    {
+      "source": "D:\\data\\code\\keyan_shiyan\\Flow_oct2octa\\experience\\exp040_20261029_transpro_tf32bench200e\\pretrain_weights\\vpg.pth",
+      "bytes": 124234901,
+      "reason": "model/teacher checkpoint; analysis snapshot does not require it"
+    }
+  ],
+  "raw_3d_images": "not part of this analysis snapshot",
+  "learned_model_checkpoints": "not part of this analysis snapshot",
+  "original_label_arrays": "not needed for replaying retained metrics and 2D diagnostics",
+  "full_formal_test_case_galleries": "numerical test records supplied; this snapshot focuses on training/validation stability and diagnostic 2D evidence",
+  "no_archives_created": true
+}

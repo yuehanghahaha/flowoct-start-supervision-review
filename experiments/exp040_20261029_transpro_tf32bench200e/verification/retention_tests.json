@@ -1,0 +1,7 @@
+{
+  "tests": 4,
+  "success": true,
+  "synthetic_only": true,
+  "no_existing_checkpoints_deleted": true,
+  "no_patient_images_opened": true
+}

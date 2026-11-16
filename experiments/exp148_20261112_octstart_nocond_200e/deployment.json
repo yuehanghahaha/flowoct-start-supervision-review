@@ -1,0 +1,5 @@
+{
+  "manifest": "/docsystem/niuke/lvyuehang/OCTA500_common_v1/split_3M_z256.csv",
+  "labels_root": "/docsystem/niuke/lvyuehang/Flow_oct2octa/experience/exp102_20261106_start_alltproj_150e/annotations",
+  "cache_root": "/docsystem/niuke/lvyuehang/OCTA500_research_cache_3M_z256_v1"
+}

@@ -1,0 +1,14 @@
+{
+  "from_scratch": true,
+  "seed": 2026,
+  "generator_tensor_sha256": "c2cbc9c87dbd5d3364ab5cce8545279b41216e684003a0d0f737f4cb0fcb863e",
+  "generator_parameters": 2097521,
+  "discriminator_parameters": {
+    "ILM_OPL": 2764609,
+    "OPL_BM": 2764609,
+    "OTHER": 2764609
+  },
+  "pretrained_generator_loaded": false,
+  "vgg_pretrained_only": true,
+  "optimizer_states_empty": true
+}

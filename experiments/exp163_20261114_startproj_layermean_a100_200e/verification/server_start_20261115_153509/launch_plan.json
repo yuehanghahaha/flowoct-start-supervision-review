@@ -1,0 +1,11 @@
+{
+  "stamp": "20261115_153509",
+  "record": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/verification/server_start_20261115_153509",
+  "container_record": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/verification/server_start_20261115_153509",
+  "script": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/logs/server_prepare_20261115_153509.sh",
+  "container_script": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e/logs/server_prepare_20261115_153509.sh",
+  "log": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e/logs/server_prepare_20261115_153509.log",
+  "container_root": "/workspace/experience/exp163_20261114_startproj_layermean_a100_200e",
+  "host_root": "/home/lvyuehang/experience/exp163_20261114_startproj_layermean_a100_200e",
+  "disk_free_bytes": 22279839744
+}

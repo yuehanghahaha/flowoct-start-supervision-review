@@ -1,0 +1,11 @@
+{
+  "inspected_at": "2026-10-27T13:14:01.163280+08:00",
+  "official_repository": "https://github.com/cnu-medilab/FlowOCT",
+  "files": {
+    "util\\util.py": "3cb1f625dc496c1f361f53f1ce46accc999c04c44f38d6dde879ff93d980f42d",
+    "util\\train_utils.py": "d5b05b1dbfda013e2313fce20d28c0b9f91ef0c7b681ffd3a63b2da19b90a451"
+  },
+  "observed_metrics": "full 3D PSNR and SSIM with GT.max-GT.min; window7; validation PSNR selection",
+  "current_primary": "parent exp001 validation ILM-OPL SSIM, same for all four; separate reference PSNR checkpoint",
+  "scope": "protocol inspection, no GPU smoke or short training"
+}

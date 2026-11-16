@@ -1,0 +1,481 @@
+================ Training Loss (Thu Oct 29 15:37:22 2026) ================
+(epoch: 1, iters: 100, time: 148.170) G_GAN: -0.594 G_L1: 0.778 G_GAN_proj: -0.025 G_L1_pm: 2.017 G_L1_pm_st: 1.671 G_L1_seg: 20.811 D_real_proj: 0.048 D_fake_proj: 0.025 D_real: 0.711 D_fake: 0.432 
+(epoch: 1, MAE: 0.0466269530) 
+(epoch: 2, iters: 60, time: 22.644) G_GAN: -0.682 G_L1: 0.388 G_GAN_proj: -0.007 G_L1_pm: 1.936 G_L1_pm_st: 1.462 G_L1_seg: 19.273 D_real_proj: 0.007 D_fake_proj: 0.007 D_real: 0.601 D_fake: 0.133 
+(epoch: 2, MAE: 0.0345551232) 
+(epoch: 3, iters: 20, time: 7.059) G_GAN: -2.504 G_L1: 0.355 G_GAN_proj: -0.008 G_L1_pm: 2.166 G_L1_pm_st: 1.804 G_L1_seg: 20.346 D_real_proj: 0.003 D_fake_proj: 0.008 D_real: 0.595 D_fake: 0.158 
+(epoch: 3, iters: 120, time: 36.204) G_GAN: -0.012 G_L1: 0.353 G_GAN_proj: -0.004 G_L1_pm: 1.811 G_L1_pm_st: 1.507 G_L1_seg: 19.082 D_real_proj: 0.003 D_fake_proj: 0.005 D_real: 0.019 D_fake: 0.012 
+(epoch: 3, MAE: 0.0364827618) 
+(epoch: 4, iters: 80, time: 24.326) G_GAN: -0.006 G_L1: 0.433 G_GAN_proj: -0.005 G_L1_pm: 1.956 G_L1_pm_st: 1.358 G_L1_seg: 17.034 D_real_proj: 0.003 D_fake_proj: 0.006 D_real: 0.004 D_fake: 0.009 
+(epoch: 4, MAE: 0.0366906717) 
+(epoch: 5, iters: 40, time: 13.262) G_GAN: -0.002 G_L1: 0.398 G_GAN_proj: -0.004 G_L1_pm: 1.694 G_L1_pm_st: 1.743 G_L1_seg: 16.056 D_real_proj: 0.003 D_fake_proj: 0.004 D_real: 0.002 D_fake: 0.002 
+(epoch: 5, iters: 140, time: 51.876) G_GAN: -0.012 G_L1: 0.357 G_GAN_proj: -0.001 G_L1_pm: 1.909 G_L1_pm_st: 1.652 G_L1_seg: 16.843 D_real_proj: 0.002 D_fake_proj: 0.001 D_real: 0.012 D_fake: 0.015 
+(epoch: 5, MAE: 0.0374378141) 
+(epoch: 6, iters: 100, time: 35.210) G_GAN: -0.002 G_L1: 0.365 G_GAN_proj: -0.002 G_L1_pm: 1.722 G_L1_pm_st: 1.403 G_L1_seg: 15.713 D_real_proj: 0.001 D_fake_proj: 0.002 D_real: 0.002 D_fake: 0.002 
+(epoch: 6, MAE: 0.0375353655) 
+(epoch: 7, iters: 60, time: 18.022) G_GAN: -0.013 G_L1: 0.370 G_GAN_proj: -0.001 G_L1_pm: 1.897 G_L1_pm_st: 1.735 G_L1_seg: 17.117 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.013 D_fake: 0.014 
+(epoch: 7, MAE: 0.0371748850) 
+(epoch: 8, iters: 20, time: 6.372) G_GAN: -0.062 G_L1: 0.348 G_GAN_proj: -0.001 G_L1_pm: 1.530 G_L1_pm_st: 1.481 G_L1_seg: 16.916 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.014 D_fake: 0.203 
+(epoch: 8, iters: 120, time: 36.549) G_GAN: -0.015 G_L1: 0.430 G_GAN_proj: -0.000 G_L1_pm: 1.874 G_L1_pm_st: 1.309 G_L1_seg: 16.096 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.002 D_fake: 0.019 
+(epoch: 8, MAE: 0.0364957765) 
+(epoch: 9, iters: 80, time: 25.064) G_GAN: -0.003 G_L1: 0.367 G_GAN_proj: -0.000 G_L1_pm: 2.253 G_L1_pm_st: 1.856 G_L1_seg: 18.870 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.005 D_fake: 0.003 
+(epoch: 9, MAE: 0.0359019145) 
+(epoch: 10, iters: 40, time: 12.814) G_GAN: -0.002 G_L1: 0.450 G_GAN_proj: -0.001 G_L1_pm: 1.699 G_L1_pm_st: 1.413 G_L1_seg: 16.870 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.001 D_fake: 0.002 
+(epoch: 10, iters: 140, time: 43.476) G_GAN: -0.002 G_L1: 0.420 G_GAN_proj: -0.000 G_L1_pm: 1.832 G_L1_pm_st: 1.367 G_L1_seg: 16.309 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.002 
+(epoch: 10, MAE: 0.0386248961) 
+(epoch: 11, iters: 100, time: 30.318) G_GAN: -0.001 G_L1: 0.264 G_GAN_proj: -0.000 G_L1_pm: 1.917 G_L1_pm_st: 1.535 G_L1_seg: 16.440 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.004 D_fake: 0.001 
+(epoch: 11, MAE: 0.0376316560) 
+(epoch: 12, iters: 60, time: 18.195) G_GAN: -0.002 G_L1: 0.424 G_GAN_proj: -0.000 G_L1_pm: 1.600 G_L1_pm_st: 1.363 G_L1_seg: 15.635 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.002 
+(epoch: 12, MAE: 0.0374106437) 
+(epoch: 13, iters: 20, time: 6.292) G_GAN: -0.004 G_L1: 0.486 G_GAN_proj: -0.002 G_L1_pm: 2.706 G_L1_pm_st: 2.205 G_L1_seg: 20.057 D_real_proj: 0.001 D_fake_proj: 0.004 D_real: 0.001 D_fake: 0.014 
+(epoch: 13, iters: 120, time: 35.065) G_GAN: -0.001 G_L1: 0.464 G_GAN_proj: -0.001 G_L1_pm: 1.714 G_L1_pm_st: 1.687 G_L1_seg: 16.240 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.001 
+(epoch: 13, MAE: 0.0366452053) 
+(epoch: 14, iters: 80, time: 23.511) G_GAN: -0.011 G_L1: 0.375 G_GAN_proj: -0.804 G_L1_pm: 1.695 G_L1_pm_st: 1.458 G_L1_seg: 16.270 D_real_proj: 0.759 D_fake_proj: 0.952 D_real: 0.007 D_fake: 0.012 
+(epoch: 14, MAE: 0.0379475955) 
+(epoch: 15, iters: 40, time: 12.271) G_GAN: -0.005 G_L1: 0.357 G_GAN_proj: -0.645 G_L1_pm: 1.661 G_L1_pm_st: 1.492 G_L1_seg: 16.248 D_real_proj: 0.526 D_fake_proj: 0.732 D_real: 0.002 D_fake: 0.005 
+(epoch: 15, iters: 140, time: 41.118) G_GAN: -0.002 G_L1: 0.379 G_GAN_proj: -0.631 G_L1_pm: 1.953 G_L1_pm_st: 1.461 G_L1_seg: 17.862 D_real_proj: 0.561 D_fake_proj: 0.430 D_real: 0.001 D_fake: 0.002 
+(epoch: 15, MAE: 0.0380043741) 
+(epoch: 16, iters: 100, time: 29.410) G_GAN: -0.001 G_L1: 0.359 G_GAN_proj: -0.061 G_L1_pm: 1.584 G_L1_pm_st: 1.652 G_L1_seg: 15.092 D_real_proj: 0.066 D_fake_proj: 0.171 D_real: 0.001 D_fake: 0.001 
+(epoch: 16, MAE: 0.0374807227) 
+(epoch: 17, iters: 60, time: 17.923) G_GAN: -0.001 G_L1: 0.506 G_GAN_proj: -0.005 G_L1_pm: 1.775 G_L1_pm_st: 1.370 G_L1_seg: 16.897 D_real_proj: 0.004 D_fake_proj: 0.005 D_real: 0.002 D_fake: 0.001 
+(epoch: 17, MAE: 0.0378488021) 
+(epoch: 18, iters: 20, time: 6.546) G_GAN: -0.001 G_L1: 0.347 G_GAN_proj: -0.003 G_L1_pm: 1.712 G_L1_pm_st: 1.513 G_L1_seg: 15.963 D_real_proj: 0.003 D_fake_proj: 0.003 D_real: 0.001 D_fake: 0.001 
+(epoch: 18, iters: 120, time: 35.610) G_GAN: -0.000 G_L1: 0.411 G_GAN_proj: -0.003 G_L1_pm: 1.854 G_L1_pm_st: 1.373 G_L1_seg: 15.303 D_real_proj: 0.002 D_fake_proj: 0.003 D_real: 0.000 D_fake: 0.000 
+(epoch: 18, MAE: 0.0364893455) 
+(epoch: 19, iters: 80, time: 23.690) G_GAN: -0.000 G_L1: 0.351 G_GAN_proj: -0.002 G_L1_pm: 1.998 G_L1_pm_st: 1.246 G_L1_seg: 15.769 D_real_proj: 0.001 D_fake_proj: 0.002 D_real: 0.000 D_fake: 0.000 
+(epoch: 19, MAE: 0.0378811846) 
+(epoch: 20, iters: 40, time: 12.117) G_GAN: -0.000 G_L1: 0.419 G_GAN_proj: -0.001 G_L1_pm: 1.673 G_L1_pm_st: 1.406 G_L1_seg: 15.117 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.000 
+(epoch: 20, iters: 140, time: 41.367) G_GAN: -0.001 G_L1: 0.330 G_GAN_proj: -0.001 G_L1_pm: 2.091 G_L1_pm_st: 1.437 G_L1_seg: 16.137 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.001 
+(epoch: 20, MAE: 0.0365978504) 
+(epoch: 21, iters: 100, time: 29.383) G_GAN: -0.000 G_L1: 0.449 G_GAN_proj: -0.001 G_L1_pm: 1.717 G_L1_pm_st: 1.334 G_L1_seg: 16.735 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.000 
+(epoch: 21, MAE: 0.0373459317) 
+(epoch: 22, iters: 60, time: 17.875) G_GAN: -0.000 G_L1: 0.383 G_GAN_proj: -0.001 G_L1_pm: 1.443 G_L1_pm_st: 1.573 G_L1_seg: 15.765 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.000 
+(epoch: 22, MAE: 0.0372705907) 
+(epoch: 23, iters: 20, time: 6.294) G_GAN: -0.000 G_L1: 0.485 G_GAN_proj: -0.000 G_L1_pm: 1.948 G_L1_pm_st: 1.620 G_L1_seg: 16.348 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 23, iters: 120, time: 35.554) G_GAN: -0.000 G_L1: 0.422 G_GAN_proj: -0.001 G_L1_pm: 1.758 G_L1_pm_st: 1.755 G_L1_seg: 16.743 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.000 
+(epoch: 23, MAE: 0.0365450593) 
+(epoch: 24, iters: 80, time: 23.721) G_GAN: -0.000 G_L1: 0.400 G_GAN_proj: -0.000 G_L1_pm: 1.499 G_L1_pm_st: 1.409 G_L1_seg: 15.782 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 24, MAE: 0.0487364992) 
+(epoch: 25, iters: 40, time: 12.051) G_GAN: -1.227 G_L1: 0.257 G_GAN_proj: -0.001 G_L1_pm: 2.211 G_L1_pm_st: 1.359 G_L1_seg: 18.134 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 5.743 D_fake: 0.022 
+(epoch: 25, iters: 140, time: 41.010) G_GAN: -0.297 G_L1: 0.310 G_GAN_proj: -0.000 G_L1_pm: 1.481 G_L1_pm_st: 1.435 G_L1_seg: 15.051 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.073 D_fake: 2.222 
+(epoch: 25, MAE: 0.0324041659) 
+(epoch: 26, iters: 100, time: 29.603) G_GAN: -0.263 G_L1: 0.282 G_GAN_proj: -0.000 G_L1_pm: 1.920 G_L1_pm_st: 1.399 G_L1_seg: 15.103 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.502 D_fake: 0.158 
+(epoch: 26, MAE: 0.0275098003) 
+(epoch: 27, iters: 60, time: 17.869) G_GAN: -0.508 G_L1: 0.243 G_GAN_proj: -0.000 G_L1_pm: 1.551 G_L1_pm_st: 1.746 G_L1_seg: 15.797 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.759 D_fake: 0.188 
+(epoch: 27, MAE: 0.0322913686) 
+(epoch: 28, iters: 20, time: 6.272) G_GAN: -0.651 G_L1: 0.289 G_GAN_proj: -0.000 G_L1_pm: 2.486 G_L1_pm_st: 1.415 G_L1_seg: 15.739 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.681 D_fake: 0.332 
+(epoch: 28, iters: 120, time: 35.244) G_GAN: -0.534 G_L1: 0.278 G_GAN_proj: -0.001 G_L1_pm: 1.986 G_L1_pm_st: 1.423 G_L1_seg: 14.766 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.510 D_fake: 0.608 
+(epoch: 28, MAE: 0.0289330665) 
+(epoch: 29, iters: 80, time: 24.092) G_GAN: -0.032 G_L1: 0.273 G_GAN_proj: -0.000 G_L1_pm: 1.530 G_L1_pm_st: 1.508 G_L1_seg: 15.087 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.038 D_fake: 0.345 
+(epoch: 29, MAE: 0.0280688306) 
+(epoch: 30, iters: 40, time: 12.089) G_GAN: -0.010 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.557 G_L1_pm_st: 1.353 G_L1_seg: 14.692 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.006 D_fake: 0.011 
+(epoch: 30, iters: 140, time: 41.108) G_GAN: -0.003 G_L1: 0.277 G_GAN_proj: -0.000 G_L1_pm: 1.823 G_L1_pm_st: 1.326 G_L1_seg: 14.187 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.004 D_fake: 0.003 
+(epoch: 30, MAE: 0.0265662145) 
+(epoch: 31, iters: 100, time: 29.233) G_GAN: -0.001 G_L1: 0.292 G_GAN_proj: -0.000 G_L1_pm: 1.621 G_L1_pm_st: 1.503 G_L1_seg: 15.668 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.001 
+(epoch: 31, MAE: 0.0273158479) 
+(epoch: 32, iters: 60, time: 18.145) G_GAN: -0.001 G_L1: 0.268 G_GAN_proj: -0.000 G_L1_pm: 1.670 G_L1_pm_st: 1.476 G_L1_seg: 14.784 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.004 D_fake: 0.001 
+(epoch: 32, MAE: 0.0281429937) 
+(epoch: 33, iters: 20, time: 6.284) G_GAN: -0.001 G_L1: 0.258 G_GAN_proj: -0.000 G_L1_pm: 1.774 G_L1_pm_st: 1.391 G_L1_seg: 14.494 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.001 
+(epoch: 33, iters: 120, time: 35.294) G_GAN: -0.001 G_L1: 0.286 G_GAN_proj: -0.000 G_L1_pm: 1.323 G_L1_pm_st: 1.400 G_L1_seg: 14.410 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.001 
+(epoch: 33, MAE: 0.0279515482) 
+(epoch: 34, iters: 80, time: 23.665) G_GAN: -0.000 G_L1: 0.291 G_GAN_proj: -0.007 G_L1_pm: 1.667 G_L1_pm_st: 1.392 G_L1_seg: 15.151 D_real_proj: 0.005 D_fake_proj: 0.007 D_real: 0.001 D_fake: 0.000 
+(epoch: 34, MAE: 0.0292474084) 
+(epoch: 35, iters: 40, time: 14.304) G_GAN: -0.001 G_L1: 0.270 G_GAN_proj: -0.002 G_L1_pm: 1.845 G_L1_pm_st: 1.305 G_L1_seg: 14.400 D_real_proj: 0.001 D_fake_proj: 0.002 D_real: 0.000 D_fake: 0.001 
+(epoch: 35, iters: 140, time: 65.350) G_GAN: -0.000 G_L1: 0.315 G_GAN_proj: -0.001 G_L1_pm: 1.787 G_L1_pm_st: 1.746 G_L1_seg: 14.992 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.000 
+(epoch: 35, MAE: 0.0268172737) 
+(epoch: 36, iters: 100, time: 29.225) G_GAN: -0.001 G_L1: 0.270 G_GAN_proj: -0.001 G_L1_pm: 1.854 G_L1_pm_st: 1.314 G_L1_seg: 14.889 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.001 
+(epoch: 36, MAE: 0.0281322993) 
+(epoch: 37, iters: 60, time: 17.742) G_GAN: -0.000 G_L1: 0.220 G_GAN_proj: -0.000 G_L1_pm: 1.433 G_L1_pm_st: 1.576 G_L1_seg: 14.416 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 37, MAE: 0.0265533766) 
+(epoch: 38, iters: 20, time: 6.641) G_GAN: -0.000 G_L1: 0.302 G_GAN_proj: -0.000 G_L1_pm: 1.433 G_L1_pm_st: 1.483 G_L1_seg: 15.231 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 38, iters: 120, time: 35.569) G_GAN: -0.000 G_L1: 0.259 G_GAN_proj: -0.000 G_L1_pm: 1.508 G_L1_pm_st: 1.465 G_L1_seg: 14.292 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 38, MAE: 0.0268271638) 
+(epoch: 39, iters: 80, time: 23.632) G_GAN: -0.000 G_L1: 0.337 G_GAN_proj: -0.000 G_L1_pm: 1.482 G_L1_pm_st: 1.421 G_L1_seg: 16.355 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 39, MAE: 0.0264729049) 
+(epoch: 40, iters: 40, time: 12.045) G_GAN: -0.000 G_L1: 0.259 G_GAN_proj: -0.000 G_L1_pm: 1.633 G_L1_pm_st: 1.351 G_L1_seg: 15.036 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 40, iters: 140, time: 41.269) G_GAN: -0.000 G_L1: 0.251 G_GAN_proj: -0.000 G_L1_pm: 1.460 G_L1_pm_st: 1.821 G_L1_seg: 14.276 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 40, MAE: 0.0298299816) 
+(epoch: 41, iters: 100, time: 30.021) G_GAN: -0.000 G_L1: 0.276 G_GAN_proj: -0.000 G_L1_pm: 1.651 G_L1_pm_st: 1.409 G_L1_seg: 15.028 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 41, MAE: 0.0266616980) 
+(epoch: 42, iters: 60, time: 17.876) G_GAN: -0.000 G_L1: 0.240 G_GAN_proj: -0.000 G_L1_pm: 1.770 G_L1_pm_st: 1.462 G_L1_seg: 14.083 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 42, MAE: 0.0254522776) 
+(epoch: 43, iters: 20, time: 7.065) G_GAN: -0.000 G_L1: 0.276 G_GAN_proj: -0.000 G_L1_pm: 1.300 G_L1_pm_st: 1.544 G_L1_seg: 14.598 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 43, iters: 120, time: 47.395) G_GAN: -0.000 G_L1: 0.295 G_GAN_proj: -0.000 G_L1_pm: 1.519 G_L1_pm_st: 1.400 G_L1_seg: 13.717 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 43, MAE: 0.0262983046) 
+(epoch: 44, iters: 80, time: 25.170) G_GAN: -0.000 G_L1: 0.311 G_GAN_proj: -0.000 G_L1_pm: 1.520 G_L1_pm_st: 1.492 G_L1_seg: 15.325 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 44, MAE: 0.0262600226) 
+(epoch: 45, iters: 40, time: 12.090) G_GAN: -0.000 G_L1: 0.278 G_GAN_proj: -0.000 G_L1_pm: 1.456 G_L1_pm_st: 1.465 G_L1_seg: 14.860 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 45, iters: 140, time: 41.067) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.577 G_L1_pm_st: 1.407 G_L1_seg: 13.478 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 45, MAE: 0.0258575430) 
+(epoch: 46, iters: 100, time: 29.778) G_GAN: -0.000 G_L1: 0.324 G_GAN_proj: -0.000 G_L1_pm: 1.486 G_L1_pm_st: 1.550 G_L1_seg: 15.035 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 46, MAE: 0.0264827637) 
+(epoch: 47, iters: 60, time: 17.872) G_GAN: -0.000 G_L1: 0.274 G_GAN_proj: -0.000 G_L1_pm: 1.745 G_L1_pm_st: 1.388 G_L1_seg: 13.267 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 47, MAE: 0.0269503154) 
+(epoch: 48, iters: 20, time: 6.281) G_GAN: -0.000 G_L1: 0.294 G_GAN_proj: -0.000 G_L1_pm: 1.387 G_L1_pm_st: 1.405 G_L1_seg: 14.048 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 48, iters: 120, time: 35.274) G_GAN: -0.000 G_L1: 0.336 G_GAN_proj: -0.000 G_L1_pm: 1.515 G_L1_pm_st: 1.383 G_L1_seg: 14.941 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 48, MAE: 0.0254441630) 
+(epoch: 49, iters: 80, time: 24.000) G_GAN: -0.000 G_L1: 0.235 G_GAN_proj: -0.000 G_L1_pm: 1.396 G_L1_pm_st: 1.549 G_L1_seg: 13.923 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 49, MAE: 0.0268080262) 
+(epoch: 50, iters: 40, time: 12.096) G_GAN: -0.000 G_L1: 0.232 G_GAN_proj: -0.000 G_L1_pm: 1.684 G_L1_pm_st: 1.324 G_L1_seg: 14.712 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 50, iters: 140, time: 41.084) G_GAN: -0.000 G_L1: 0.329 G_GAN_proj: -0.000 G_L1_pm: 1.556 G_L1_pm_st: 1.434 G_L1_seg: 14.241 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 50, MAE: 0.0262661472) 
+(epoch: 51, iters: 100, time: 29.451) G_GAN: -0.000 G_L1: 0.272 G_GAN_proj: -0.000 G_L1_pm: 1.538 G_L1_pm_st: 1.698 G_L1_seg: 14.879 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 51, MAE: 0.0261394303) 
+(epoch: 52, iters: 60, time: 18.209) G_GAN: -0.000 G_L1: 0.242 G_GAN_proj: -0.000 G_L1_pm: 1.549 G_L1_pm_st: 1.900 G_L1_seg: 15.720 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 52, MAE: 0.0250670813) 
+(epoch: 53, iters: 20, time: 6.299) G_GAN: -0.000 G_L1: 0.270 G_GAN_proj: -0.000 G_L1_pm: 1.497 G_L1_pm_st: 1.515 G_L1_seg: 14.470 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 53, iters: 120, time: 35.216) G_GAN: -0.000 G_L1: 0.252 G_GAN_proj: -0.000 G_L1_pm: 1.541 G_L1_pm_st: 1.411 G_L1_seg: 14.339 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 53, MAE: 0.0257092942) 
+(epoch: 54, iters: 80, time: 23.652) G_GAN: -0.000 G_L1: 0.247 G_GAN_proj: -0.000 G_L1_pm: 1.608 G_L1_pm_st: 1.506 G_L1_seg: 15.477 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 54, MAE: 0.0259785431) 
+(epoch: 55, iters: 40, time: 12.387) G_GAN: -0.000 G_L1: 0.311 G_GAN_proj: -0.805 G_L1_pm: 1.485 G_L1_pm_st: 1.450 G_L1_seg: 15.187 D_real_proj: 0.753 D_fake_proj: 1.516 D_real: 0.000 D_fake: 0.000 
+(epoch: 55, iters: 140, time: 42.121) G_GAN: -1.203 G_L1: 0.275 G_GAN_proj: -1.813 G_L1_pm: 1.541 G_L1_pm_st: 1.463 G_L1_seg: 15.049 D_real_proj: 1.475 D_fake_proj: 0.037 D_real: 1.147 D_fake: 0.685 
+(epoch: 55, MAE: 0.0266776027) 
+(epoch: 56, iters: 100, time: 29.655) G_GAN: -0.770 G_L1: 0.261 G_GAN_proj: -0.005 G_L1_pm: 1.551 G_L1_pm_st: 1.616 G_L1_seg: 14.892 D_real_proj: 0.037 D_fake_proj: 0.004 D_real: 0.702 D_fake: 0.709 
+(epoch: 56, MAE: 0.0258069567) 
+(epoch: 57, iters: 60, time: 17.825) G_GAN: -0.675 G_L1: 0.265 G_GAN_proj: -0.002 G_L1_pm: 1.390 G_L1_pm_st: 1.505 G_L1_seg: 13.309 D_real_proj: 0.002 D_fake_proj: 0.002 D_real: 0.649 D_fake: 0.708 
+(epoch: 57, MAE: 0.0245228220) 
+(epoch: 58, iters: 20, time: 6.696) G_GAN: -0.678 G_L1: 0.247 G_GAN_proj: -0.001 G_L1_pm: 1.411 G_L1_pm_st: 1.628 G_L1_seg: 14.672 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.658 D_fake: 0.696 
+(epoch: 58, iters: 120, time: 35.588) G_GAN: -0.706 G_L1: 0.269 G_GAN_proj: -0.001 G_L1_pm: 1.811 G_L1_pm_st: 1.253 G_L1_seg: 14.477 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.713 D_fake: 0.607 
+(epoch: 58, MAE: 0.0248084078) 
+(epoch: 59, iters: 80, time: 23.626) G_GAN: -0.989 G_L1: 0.246 G_GAN_proj: -0.003 G_L1_pm: 1.599 G_L1_pm_st: 1.302 G_L1_seg: 16.356 D_real_proj: 0.001 D_fake_proj: 0.003 D_real: 0.978 D_fake: 0.538 
+(epoch: 59, MAE: 0.0279872302) 
+(epoch: 60, iters: 40, time: 12.201) G_GAN: -0.095 G_L1: 0.275 G_GAN_proj: -0.000 G_L1_pm: 1.618 G_L1_pm_st: 1.358 G_L1_seg: 14.911 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.240 D_fake: 0.603 
+(epoch: 60, iters: 140, time: 41.363) G_GAN: -0.121 G_L1: 0.325 G_GAN_proj: -0.000 G_L1_pm: 1.734 G_L1_pm_st: 1.450 G_L1_seg: 15.491 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.145 D_fake: 0.223 
+(epoch: 60, MAE: 0.0270030893) 
+(epoch: 61, iters: 100, time: 29.286) G_GAN: -0.308 G_L1: 0.298 G_GAN_proj: -0.001 G_L1_pm: 1.676 G_L1_pm_st: 1.450 G_L1_seg: 15.327 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.423 D_fake: 0.841 
+(epoch: 61, MAE: 0.0285503205) 
+(epoch: 62, iters: 60, time: 18.092) G_GAN: -0.771 G_L1: 0.256 G_GAN_proj: -0.001 G_L1_pm: 1.625 G_L1_pm_st: 1.465 G_L1_seg: 14.369 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.784 D_fake: 0.250 
+(epoch: 62, MAE: 0.0286381816) 
+(epoch: 63, iters: 20, time: 6.428) G_GAN: -0.197 G_L1: 0.336 G_GAN_proj: -0.000 G_L1_pm: 1.789 G_L1_pm_st: 1.346 G_L1_seg: 15.653 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 1.836 D_fake: 0.046 
+(epoch: 63, iters: 120, time: 35.748) G_GAN: -0.396 G_L1: 0.322 G_GAN_proj: -0.001 G_L1_pm: 1.541 G_L1_pm_st: 1.435 G_L1_seg: 14.204 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.466 D_fake: 0.479 
+(epoch: 63, MAE: 0.0281262789) 
+(epoch: 64, iters: 80, time: 23.633) G_GAN: -0.106 G_L1: 0.362 G_GAN_proj: -0.032 G_L1_pm: 1.726 G_L1_pm_st: 1.641 G_L1_seg: 15.466 D_real_proj: 0.353 D_fake_proj: 0.095 D_real: 0.150 D_fake: 1.325 
+(epoch: 64, MAE: 0.0264711868) 
+(epoch: 65, iters: 40, time: 12.044) G_GAN: -0.046 G_L1: 0.303 G_GAN_proj: -0.556 G_L1_pm: 1.529 G_L1_pm_st: 1.529 G_L1_seg: 14.477 D_real_proj: 0.676 D_fake_proj: 0.531 D_real: 0.035 D_fake: 0.048 
+(epoch: 65, iters: 140, time: 40.976) G_GAN: -0.038 G_L1: 0.237 G_GAN_proj: -0.537 G_L1_pm: 1.560 G_L1_pm_st: 1.835 G_L1_seg: 14.096 D_real_proj: 0.581 D_fake_proj: 0.549 D_real: 0.062 D_fake: 0.205 
+(epoch: 65, MAE: 0.0263808655) 
+(epoch: 66, iters: 100, time: 29.641) G_GAN: -0.021 G_L1: 0.325 G_GAN_proj: -0.292 G_L1_pm: 1.651 G_L1_pm_st: 1.598 G_L1_seg: 14.867 D_real_proj: 0.193 D_fake_proj: 0.596 D_real: 0.025 D_fake: 0.025 
+(epoch: 66, MAE: 0.0263444733) 
+(epoch: 67, iters: 60, time: 17.842) G_GAN: -0.028 G_L1: 0.242 G_GAN_proj: -0.003 G_L1_pm: 1.668 G_L1_pm_st: 1.490 G_L1_seg: 15.214 D_real_proj: 0.000 D_fake_proj: 0.003 D_real: 0.050 D_fake: 0.030 
+(epoch: 67, MAE: 0.0254585873) 
+(epoch: 68, iters: 20, time: 6.281) G_GAN: -0.001 G_L1: 0.308 G_GAN_proj: -0.001 G_L1_pm: 1.549 G_L1_pm_st: 1.473 G_L1_seg: 14.572 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.005 D_fake: 0.001 
+(epoch: 68, iters: 120, time: 35.227) G_GAN: -0.002 G_L1: 0.240 G_GAN_proj: -0.001 G_L1_pm: 1.396 G_L1_pm_st: 1.328 G_L1_seg: 14.110 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.001 D_fake: 0.002 
+(epoch: 68, MAE: 0.0249611596) 
+(epoch: 69, iters: 80, time: 23.934) G_GAN: -0.003 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.518 G_L1_pm_st: 1.467 G_L1_seg: 14.468 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.003 
+(epoch: 69, MAE: 0.0260716885) 
+(epoch: 70, iters: 40, time: 12.064) G_GAN: -0.001 G_L1: 0.243 G_GAN_proj: -0.000 G_L1_pm: 1.487 G_L1_pm_st: 1.436 G_L1_seg: 14.891 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.001 
+(epoch: 70, iters: 140, time: 41.012) G_GAN: -0.132 G_L1: 0.283 G_GAN_proj: -0.002 G_L1_pm: 1.586 G_L1_pm_st: 1.467 G_L1_seg: 13.974 D_real_proj: 0.000 D_fake_proj: 0.002 D_real: 0.362 D_fake: 0.209 
+(epoch: 70, MAE: 0.0272282183) 
+(epoch: 71, iters: 100, time: 29.274) G_GAN: -0.004 G_L1: 0.232 G_GAN_proj: -0.000 G_L1_pm: 1.535 G_L1_pm_st: 1.617 G_L1_seg: 14.854 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.008 D_fake: 0.003 
+(epoch: 71, MAE: 0.0253227154) 
+(epoch: 72, iters: 60, time: 18.077) G_GAN: -0.002 G_L1: 0.271 G_GAN_proj: -0.000 G_L1_pm: 1.403 G_L1_pm_st: 1.638 G_L1_seg: 14.504 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.003 
+(epoch: 72, MAE: 0.0252439547) 
+(epoch: 73, iters: 20, time: 6.261) G_GAN: -0.001 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.412 G_L1_pm_st: 1.451 G_L1_seg: 13.029 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.001 
+(epoch: 73, iters: 120, time: 35.145) G_GAN: -0.000 G_L1: 0.253 G_GAN_proj: -0.000 G_L1_pm: 1.479 G_L1_pm_st: 1.455 G_L1_seg: 14.116 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 73, MAE: 0.0249313191) 
+(epoch: 74, iters: 80, time: 23.590) G_GAN: -0.000 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.460 G_L1_pm_st: 1.301 G_L1_seg: 14.398 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 74, MAE: 0.0247642187) 
+(epoch: 75, iters: 40, time: 12.366) G_GAN: -0.000 G_L1: 0.277 G_GAN_proj: -0.000 G_L1_pm: 1.443 G_L1_pm_st: 1.357 G_L1_seg: 14.775 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.000 
+(epoch: 75, iters: 140, time: 41.296) G_GAN: -0.001 G_L1: 0.275 G_GAN_proj: -0.000 G_L1_pm: 1.413 G_L1_pm_st: 1.554 G_L1_seg: 13.146 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.001 
+(epoch: 75, MAE: 0.0244452702) 
+(epoch: 76, iters: 100, time: 29.294) G_GAN: -0.000 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.492 G_L1_pm_st: 1.447 G_L1_seg: 14.106 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 76, MAE: 0.0247690905) 
+(epoch: 77, iters: 60, time: 17.840) G_GAN: -0.001 G_L1: 0.275 G_GAN_proj: -0.000 G_L1_pm: 1.617 G_L1_pm_st: 1.360 G_L1_seg: 14.848 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.001 
+(epoch: 77, MAE: 0.0243895827) 
+(epoch: 78, iters: 20, time: 12.166) G_GAN: -0.000 G_L1: 0.280 G_GAN_proj: -0.000 G_L1_pm: 1.445 G_L1_pm_st: 1.481 G_L1_seg: 15.491 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 78, iters: 120, time: 76.020) G_GAN: -0.000 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.691 G_L1_pm_st: 1.366 G_L1_seg: 16.012 D_real_proj: 0.001 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.000 
+(epoch: 78, MAE: 0.0244727755) 
+(epoch: 79, iters: 80, time: 23.595) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.573 G_L1_pm_st: 1.464 G_L1_seg: 13.975 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 79, MAE: 0.0245881172) 
+(epoch: 80, iters: 40, time: 12.019) G_GAN: -0.000 G_L1: 0.265 G_GAN_proj: -0.000 G_L1_pm: 1.364 G_L1_pm_st: 1.390 G_L1_seg: 13.850 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 80, iters: 140, time: 41.134) G_GAN: -0.001 G_L1: 0.189 G_GAN_proj: -0.001 G_L1_pm: 1.531 G_L1_pm_st: 1.646 G_L1_seg: 13.458 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.000 D_fake: 0.001 
+(epoch: 80, MAE: 0.0243343435) 
+(epoch: 81, iters: 100, time: 29.404) G_GAN: -0.000 G_L1: 0.257 G_GAN_proj: -0.000 G_L1_pm: 1.573 G_L1_pm_st: 1.471 G_L1_seg: 12.898 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 81, MAE: 0.0243873101) 
+(epoch: 82, iters: 60, time: 17.970) G_GAN: -0.000 G_L1: 0.267 G_GAN_proj: -0.000 G_L1_pm: 1.501 G_L1_pm_st: 1.319 G_L1_seg: 14.809 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 82, MAE: 0.0249146223) 
+(epoch: 83, iters: 20, time: 6.462) G_GAN: -0.000 G_L1: 0.291 G_GAN_proj: -0.000 G_L1_pm: 1.515 G_L1_pm_st: 1.427 G_L1_seg: 14.025 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 83, iters: 120, time: 35.601) G_GAN: -0.000 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.343 G_L1_pm_st: 1.580 G_L1_seg: 13.399 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 83, MAE: 0.0247740140) 
+(epoch: 84, iters: 80, time: 23.606) G_GAN: -0.000 G_L1: 0.221 G_GAN_proj: -0.000 G_L1_pm: 1.635 G_L1_pm_st: 1.305 G_L1_seg: 14.431 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 84, MAE: 0.0247819459) 
+(epoch: 85, iters: 40, time: 12.038) G_GAN: -0.000 G_L1: 0.275 G_GAN_proj: -0.000 G_L1_pm: 1.434 G_L1_pm_st: 1.498 G_L1_seg: 13.830 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 85, iters: 140, time: 40.998) G_GAN: -0.000 G_L1: 0.291 G_GAN_proj: -0.000 G_L1_pm: 1.590 G_L1_pm_st: 1.338 G_L1_seg: 13.822 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 85, MAE: 0.0243730254) 
+(epoch: 86, iters: 100, time: 29.648) G_GAN: -0.000 G_L1: 0.219 G_GAN_proj: -0.000 G_L1_pm: 1.553 G_L1_pm_st: 1.436 G_L1_seg: 14.682 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 86, MAE: 0.0245822197) 
+(epoch: 87, iters: 60, time: 17.836) G_GAN: -0.000 G_L1: 0.322 G_GAN_proj: -0.000 G_L1_pm: 1.414 G_L1_pm_st: 1.482 G_L1_seg: 15.827 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 87, MAE: 0.0241067056) 
+(epoch: 88, iters: 20, time: 6.308) G_GAN: -0.000 G_L1: 0.211 G_GAN_proj: -0.000 G_L1_pm: 1.495 G_L1_pm_st: 1.505 G_L1_seg: 13.946 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 88, iters: 120, time: 35.256) G_GAN: -0.000 G_L1: 0.218 G_GAN_proj: -0.000 G_L1_pm: 1.583 G_L1_pm_st: 1.366 G_L1_seg: 14.545 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 88, MAE: 0.0245413600) 
+(epoch: 89, iters: 80, time: 23.820) G_GAN: -0.000 G_L1: 0.327 G_GAN_proj: -0.000 G_L1_pm: 1.618 G_L1_pm_st: 1.537 G_L1_seg: 14.921 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 89, MAE: 0.0243434254) 
+(epoch: 90, iters: 40, time: 12.052) G_GAN: -0.000 G_L1: 0.256 G_GAN_proj: -0.000 G_L1_pm: 1.684 G_L1_pm_st: 1.390 G_L1_seg: 14.282 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 90, iters: 140, time: 40.991) G_GAN: -0.000 G_L1: 0.259 G_GAN_proj: -0.000 G_L1_pm: 1.548 G_L1_pm_st: 1.343 G_L1_seg: 14.804 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 90, MAE: 0.0244432919) 
+(epoch: 91, iters: 100, time: 29.424) G_GAN: -0.000 G_L1: 0.275 G_GAN_proj: -0.000 G_L1_pm: 1.472 G_L1_pm_st: 1.639 G_L1_seg: 14.722 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 91, MAE: 0.0242929975) 
+(epoch: 92, iters: 60, time: 18.060) G_GAN: -0.000 G_L1: 0.195 G_GAN_proj: -0.000 G_L1_pm: 1.340 G_L1_pm_st: 1.642 G_L1_seg: 13.988 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 92, MAE: 0.0243754402) 
+(epoch: 93, iters: 20, time: 6.273) G_GAN: -0.000 G_L1: 0.287 G_GAN_proj: -0.000 G_L1_pm: 1.509 G_L1_pm_st: 1.408 G_L1_seg: 14.992 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 93, iters: 120, time: 35.273) G_GAN: -0.000 G_L1: 0.225 G_GAN_proj: -0.000 G_L1_pm: 1.430 G_L1_pm_st: 1.437 G_L1_seg: 14.461 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 93, MAE: 0.0245130593) 
+(epoch: 94, iters: 80, time: 23.674) G_GAN: -0.000 G_L1: 0.255 G_GAN_proj: -0.000 G_L1_pm: 1.335 G_L1_pm_st: 1.423 G_L1_seg: 13.611 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 94, MAE: 0.0244124645) 
+(epoch: 95, iters: 40, time: 12.299) G_GAN: -0.000 G_L1: 0.221 G_GAN_proj: -0.000 G_L1_pm: 1.574 G_L1_pm_st: 1.374 G_L1_seg: 15.439 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 95, iters: 140, time: 41.378) G_GAN: -0.000 G_L1: 0.199 G_GAN_proj: -0.000 G_L1_pm: 1.279 G_L1_pm_st: 1.576 G_L1_seg: 13.597 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 95, MAE: 0.0247686872) 
+(epoch: 96, iters: 100, time: 29.197) G_GAN: -0.000 G_L1: 0.246 G_GAN_proj: -0.000 G_L1_pm: 1.232 G_L1_pm_st: 1.571 G_L1_seg: 14.070 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 96, MAE: 0.0240650872) 
+(epoch: 97, iters: 60, time: 17.910) G_GAN: -0.000 G_L1: 0.319 G_GAN_proj: -0.000 G_L1_pm: 1.367 G_L1_pm_st: 1.436 G_L1_seg: 13.783 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 97, MAE: 0.0241726460) 
+(epoch: 98, iters: 20, time: 6.666) G_GAN: -0.000 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.434 G_L1_pm_st: 1.410 G_L1_seg: 13.195 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 98, iters: 120, time: 35.607) G_GAN: -0.000 G_L1: 0.297 G_GAN_proj: -0.000 G_L1_pm: 1.304 G_L1_pm_st: 1.446 G_L1_seg: 13.728 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 98, MAE: 0.0244463213) 
+(epoch: 99, iters: 80, time: 24.732) G_GAN: -0.000 G_L1: 0.278 G_GAN_proj: -0.000 G_L1_pm: 1.362 G_L1_pm_st: 1.515 G_L1_seg: 13.154 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 99, MAE: 0.0240944549) 
+(epoch: 100, iters: 40, time: 19.176) G_GAN: -0.000 G_L1: 0.225 G_GAN_proj: -0.000 G_L1_pm: 1.348 G_L1_pm_st: 1.324 G_L1_seg: 14.213 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 100, iters: 140, time: 66.957) G_GAN: -0.000 G_L1: 0.235 G_GAN_proj: -0.000 G_L1_pm: 1.488 G_L1_pm_st: 1.518 G_L1_seg: 15.092 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 100, MAE: 0.0245578915) 
+(epoch: 101, iters: 100, time: 29.261) G_GAN: -0.000 G_L1: 0.261 G_GAN_proj: -0.000 G_L1_pm: 1.476 G_L1_pm_st: 1.510 G_L1_seg: 14.248 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 101, MAE: 0.0244515158) 
+(epoch: 102, iters: 60, time: 17.834) G_GAN: -0.000 G_L1: 0.235 G_GAN_proj: -0.000 G_L1_pm: 1.646 G_L1_pm_st: 1.406 G_L1_seg: 14.444 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 102, MAE: 0.0242271757) 
+(epoch: 103, iters: 20, time: 6.235) G_GAN: -0.000 G_L1: 0.287 G_GAN_proj: -0.000 G_L1_pm: 1.532 G_L1_pm_st: 1.407 G_L1_seg: 14.752 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 103, iters: 120, time: 35.367) G_GAN: -0.000 G_L1: 0.249 G_GAN_proj: -0.000 G_L1_pm: 1.400 G_L1_pm_st: 1.379 G_L1_seg: 13.545 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 103, MAE: 0.0250453480) 
+(epoch: 104, iters: 80, time: 23.629) G_GAN: -0.000 G_L1: 0.256 G_GAN_proj: -0.000 G_L1_pm: 1.587 G_L1_pm_st: 1.342 G_L1_seg: 13.726 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 104, MAE: 0.0248294702) 
+(epoch: 105, iters: 40, time: 12.041) G_GAN: -0.000 G_L1: 0.276 G_GAN_proj: -0.000 G_L1_pm: 1.332 G_L1_pm_st: 1.324 G_L1_seg: 14.870 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 105, iters: 140, time: 40.958) G_GAN: -0.000 G_L1: 0.302 G_GAN_proj: -0.000 G_L1_pm: 1.627 G_L1_pm_st: 1.386 G_L1_seg: 14.936 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 105, MAE: 0.0237932343) 
+(epoch: 106, iters: 100, time: 29.436) G_GAN: -0.000 G_L1: 0.237 G_GAN_proj: -0.000 G_L1_pm: 1.514 G_L1_pm_st: 1.712 G_L1_seg: 14.685 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 106, MAE: 0.0243932471) 
+(epoch: 107, iters: 60, time: 17.756) G_GAN: -0.000 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.327 G_L1_pm_st: 1.500 G_L1_seg: 13.813 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 107, MAE: 0.0241138183) 
+(epoch: 108, iters: 20, time: 6.229) G_GAN: -0.000 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.515 G_L1_pm_st: 1.340 G_L1_seg: 13.914 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 108, iters: 120, time: 36.867) G_GAN: -0.000 G_L1: 0.328 G_GAN_proj: -0.000 G_L1_pm: 1.558 G_L1_pm_st: 1.653 G_L1_seg: 15.019 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 108, MAE: 0.0243925259) 
+(epoch: 109, iters: 80, time: 23.802) G_GAN: -0.000 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.411 G_L1_pm_st: 1.441 G_L1_seg: 13.716 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 109, MAE: 0.0243763840) 
+(epoch: 110, iters: 40, time: 12.012) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.565 G_L1_pm_st: 1.485 G_L1_seg: 14.747 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 110, iters: 140, time: 40.891) G_GAN: -0.000 G_L1: 0.341 G_GAN_proj: -0.000 G_L1_pm: 1.225 G_L1_pm_st: 1.911 G_L1_seg: 14.897 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 110, MAE: 0.0243313186) 
+(epoch: 111, iters: 100, time: 29.287) G_GAN: -0.000 G_L1: 0.223 G_GAN_proj: -0.000 G_L1_pm: 1.452 G_L1_pm_st: 1.310 G_L1_seg: 13.485 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 111, MAE: 0.0245638611) 
+(epoch: 112, iters: 60, time: 18.068) G_GAN: -0.000 G_L1: 0.267 G_GAN_proj: -0.000 G_L1_pm: 1.401 G_L1_pm_st: 1.487 G_L1_seg: 13.173 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 112, MAE: 0.0242056238) 
+(epoch: 113, iters: 20, time: 6.288) G_GAN: -0.000 G_L1: 0.263 G_GAN_proj: -0.000 G_L1_pm: 1.783 G_L1_pm_st: 1.330 G_L1_seg: 13.192 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 113, iters: 120, time: 35.102) G_GAN: -0.000 G_L1: 0.251 G_GAN_proj: -0.000 G_L1_pm: 1.681 G_L1_pm_st: 1.394 G_L1_seg: 13.690 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 113, MAE: 0.0242858315) 
+(epoch: 114, iters: 80, time: 23.535) G_GAN: -0.000 G_L1: 0.274 G_GAN_proj: -0.000 G_L1_pm: 1.299 G_L1_pm_st: 1.613 G_L1_seg: 12.539 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 114, MAE: 0.0240920052) 
+(epoch: 115, iters: 40, time: 12.264) G_GAN: -0.000 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.539 G_L1_pm_st: 1.423 G_L1_seg: 13.823 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 115, iters: 140, time: 41.229) G_GAN: -0.000 G_L1: 0.224 G_GAN_proj: -0.000 G_L1_pm: 1.522 G_L1_pm_st: 1.465 G_L1_seg: 13.271 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 115, MAE: 0.0240362346) 
+(epoch: 116, iters: 100, time: 29.286) G_GAN: -0.000 G_L1: 0.289 G_GAN_proj: -0.000 G_L1_pm: 1.377 G_L1_pm_st: 1.455 G_L1_seg: 13.933 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 116, MAE: 0.0244387042) 
+(epoch: 117, iters: 60, time: 17.807) G_GAN: -0.000 G_L1: 0.181 G_GAN_proj: -0.000 G_L1_pm: 1.243 G_L1_pm_st: 1.607 G_L1_seg: 15.321 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 117, MAE: 0.0240987483) 
+(epoch: 118, iters: 20, time: 6.520) G_GAN: -0.000 G_L1: 0.268 G_GAN_proj: -0.000 G_L1_pm: 1.534 G_L1_pm_st: 1.494 G_L1_seg: 15.231 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 118, iters: 120, time: 35.449) G_GAN: -0.000 G_L1: 0.253 G_GAN_proj: -0.000 G_L1_pm: 1.494 G_L1_pm_st: 1.469 G_L1_seg: 14.536 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 118, MAE: 0.0242084637) 
+(epoch: 119, iters: 80, time: 23.589) G_GAN: -0.000 G_L1: 0.260 G_GAN_proj: -0.000 G_L1_pm: 1.481 G_L1_pm_st: 1.550 G_L1_seg: 14.775 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 119, MAE: 0.0242481073) 
+(epoch: 120, iters: 40, time: 13.371) G_GAN: -0.000 G_L1: 0.255 G_GAN_proj: -0.000 G_L1_pm: 1.457 G_L1_pm_st: 1.356 G_L1_seg: 13.641 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 120, iters: 140, time: 42.542) G_GAN: -0.000 G_L1: 0.215 G_GAN_proj: -0.000 G_L1_pm: 1.421 G_L1_pm_st: 1.445 G_L1_seg: 14.164 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 120, MAE: 0.0239854941) 
+(epoch: 121, iters: 100, time: 29.215) G_GAN: -0.000 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.465 G_L1_pm_st: 1.525 G_L1_seg: 14.058 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 121, MAE: 0.0244836528) 
+(epoch: 122, iters: 60, time: 18.587) G_GAN: -0.000 G_L1: 0.309 G_GAN_proj: -0.000 G_L1_pm: 1.353 G_L1_pm_st: 1.452 G_L1_seg: 15.517 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 122, MAE: 0.0249047473) 
+(epoch: 123, iters: 20, time: 6.274) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.457 G_L1_pm_st: 1.654 G_L1_seg: 14.295 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 123, iters: 120, time: 36.263) G_GAN: -0.000 G_L1: 0.256 G_GAN_proj: -0.000 G_L1_pm: 1.450 G_L1_pm_st: 1.572 G_L1_seg: 14.042 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 123, MAE: 0.0242070753) 
+(epoch: 124, iters: 80, time: 23.548) G_GAN: -0.000 G_L1: 0.244 G_GAN_proj: -0.000 G_L1_pm: 1.395 G_L1_pm_st: 1.427 G_L1_seg: 13.916 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 124, MAE: 0.0242487805) 
+(epoch: 125, iters: 40, time: 12.016) G_GAN: -0.000 G_L1: 0.250 G_GAN_proj: -0.000 G_L1_pm: 1.395 G_L1_pm_st: 1.379 G_L1_seg: 13.823 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 125, iters: 140, time: 40.899) G_GAN: -0.000 G_L1: 0.298 G_GAN_proj: -0.000 G_L1_pm: 1.744 G_L1_pm_st: 1.473 G_L1_seg: 15.200 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 125, MAE: 0.0241394844) 
+(epoch: 126, iters: 100, time: 29.504) G_GAN: -0.000 G_L1: 0.271 G_GAN_proj: -0.000 G_L1_pm: 1.323 G_L1_pm_st: 1.457 G_L1_seg: 13.561 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 126, MAE: 0.0241465071) 
+(epoch: 127, iters: 60, time: 17.805) G_GAN: -0.000 G_L1: 0.209 G_GAN_proj: -0.000 G_L1_pm: 1.575 G_L1_pm_st: 1.628 G_L1_seg: 13.422 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 127, MAE: 0.0243449891) 
+(epoch: 128, iters: 20, time: 6.296) G_GAN: -0.000 G_L1: 0.253 G_GAN_proj: -0.000 G_L1_pm: 1.560 G_L1_pm_st: 1.338 G_L1_seg: 14.009 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 128, iters: 120, time: 35.145) G_GAN: -0.000 G_L1: 0.288 G_GAN_proj: -0.000 G_L1_pm: 1.253 G_L1_pm_st: 1.754 G_L1_seg: 14.395 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 128, MAE: 0.0238640293) 
+(epoch: 129, iters: 80, time: 23.895) G_GAN: -0.000 G_L1: 0.333 G_GAN_proj: -0.000 G_L1_pm: 1.262 G_L1_pm_st: 1.771 G_L1_seg: 14.500 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 129, MAE: 0.0243336588) 
+(epoch: 130, iters: 40, time: 12.072) G_GAN: -0.000 G_L1: 0.199 G_GAN_proj: -0.000 G_L1_pm: 1.260 G_L1_pm_st: 1.398 G_L1_seg: 14.714 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 130, iters: 140, time: 41.318) G_GAN: -0.000 G_L1: 0.195 G_GAN_proj: -0.000 G_L1_pm: 1.388 G_L1_pm_st: 1.424 G_L1_seg: 13.804 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 130, MAE: 0.0242011501) 
+(epoch: 131, iters: 100, time: 29.288) G_GAN: -0.000 G_L1: 0.298 G_GAN_proj: -0.000 G_L1_pm: 1.338 G_L1_pm_st: 1.515 G_L1_seg: 13.621 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 131, MAE: 0.0242403392) 
+(epoch: 132, iters: 60, time: 18.057) G_GAN: -0.000 G_L1: 0.230 G_GAN_proj: -0.000 G_L1_pm: 1.442 G_L1_pm_st: 1.377 G_L1_seg: 14.009 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 132, MAE: 0.0242752831) 
+(epoch: 133, iters: 20, time: 6.248) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.670 G_L1_pm_st: 1.408 G_L1_seg: 13.658 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 133, iters: 120, time: 35.131) G_GAN: -0.000 G_L1: 0.221 G_GAN_proj: -0.000 G_L1_pm: 1.404 G_L1_pm_st: 1.512 G_L1_seg: 13.232 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 133, MAE: 0.0247474115) 
+(epoch: 134, iters: 80, time: 23.567) G_GAN: -0.000 G_L1: 0.285 G_GAN_proj: -0.000 G_L1_pm: 1.433 G_L1_pm_st: 1.508 G_L1_seg: 13.784 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 134, MAE: 0.0242865551) 
+(epoch: 135, iters: 40, time: 12.334) G_GAN: -0.000 G_L1: 0.229 G_GAN_proj: -0.000 G_L1_pm: 1.502 G_L1_pm_st: 1.561 G_L1_seg: 14.690 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 135, iters: 140, time: 41.294) G_GAN: -0.000 G_L1: 0.234 G_GAN_proj: -0.000 G_L1_pm: 1.348 G_L1_pm_st: 1.510 G_L1_seg: 14.593 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 135, MAE: 0.0238717681) 
+(epoch: 136, iters: 100, time: 29.155) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.611 G_L1_pm_st: 1.442 G_L1_seg: 13.814 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 136, MAE: 0.0238683734) 
+(epoch: 137, iters: 60, time: 17.806) G_GAN: -0.000 G_L1: 0.294 G_GAN_proj: -0.000 G_L1_pm: 1.428 G_L1_pm_st: 1.398 G_L1_seg: 13.236 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 137, MAE: 0.0235915465) 
+(epoch: 138, iters: 20, time: 6.517) G_GAN: -0.000 G_L1: 0.262 G_GAN_proj: -0.000 G_L1_pm: 1.479 G_L1_pm_st: 1.374 G_L1_seg: 14.282 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 138, iters: 120, time: 35.512) G_GAN: -0.000 G_L1: 0.223 G_GAN_proj: -0.000 G_L1_pm: 1.392 G_L1_pm_st: 1.366 G_L1_seg: 13.242 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 138, MAE: 0.0240345525) 
+(epoch: 139, iters: 80, time: 23.580) G_GAN: -0.000 G_L1: 0.186 G_GAN_proj: -0.000 G_L1_pm: 1.371 G_L1_pm_st: 1.436 G_L1_seg: 13.541 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 139, MAE: 0.0247110473) 
+(epoch: 140, iters: 40, time: 12.065) G_GAN: -0.000 G_L1: 0.309 G_GAN_proj: -0.000 G_L1_pm: 1.367 G_L1_pm_st: 1.450 G_L1_seg: 15.381 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 140, iters: 140, time: 41.400) G_GAN: -0.000 G_L1: 0.281 G_GAN_proj: -0.000 G_L1_pm: 1.521 G_L1_pm_st: 1.365 G_L1_seg: 14.013 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 140, MAE: 0.0242340775) 
+(epoch: 141, iters: 100, time: 29.314) G_GAN: -0.000 G_L1: 0.249 G_GAN_proj: -0.000 G_L1_pm: 1.442 G_L1_pm_st: 1.417 G_L1_seg: 13.189 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 141, MAE: 0.0236827604) 
+(epoch: 142, iters: 60, time: 17.789) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.512 G_L1_pm_st: 1.352 G_L1_seg: 12.760 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 142, MAE: 0.0240765112) 
+(epoch: 143, iters: 20, time: 6.255) G_GAN: -0.000 G_L1: 0.258 G_GAN_proj: -0.000 G_L1_pm: 1.534 G_L1_pm_st: 1.310 G_L1_seg: 12.968 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 143, iters: 120, time: 35.526) G_GAN: -0.000 G_L1: 0.262 G_GAN_proj: -0.000 G_L1_pm: 1.340 G_L1_pm_st: 1.503 G_L1_seg: 12.470 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 143, MAE: 0.0243790034) 
+(epoch: 144, iters: 80, time: 23.639) G_GAN: -0.000 G_L1: 0.291 G_GAN_proj: -0.000 G_L1_pm: 1.549 G_L1_pm_st: 1.366 G_L1_seg: 13.938 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 144, MAE: 0.0240389491) 
+(epoch: 145, iters: 40, time: 12.004) G_GAN: -0.000 G_L1: 0.231 G_GAN_proj: -0.000 G_L1_pm: 1.486 G_L1_pm_st: 1.450 G_L1_seg: 14.305 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 145, iters: 140, time: 40.879) G_GAN: -0.000 G_L1: 0.218 G_GAN_proj: -0.000 G_L1_pm: 1.339 G_L1_pm_st: 1.506 G_L1_seg: 13.648 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 145, MAE: 0.0241066689) 
+(epoch: 146, iters: 100, time: 29.490) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.494 G_L1_pm_st: 1.715 G_L1_seg: 13.797 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 146, MAE: 0.0240654007) 
+(epoch: 147, iters: 60, time: 17.791) G_GAN: -0.000 G_L1: 0.235 G_GAN_proj: -0.000 G_L1_pm: 1.454 G_L1_pm_st: 1.541 G_L1_seg: 13.554 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 147, MAE: 0.0244607447) 
+(epoch: 148, iters: 20, time: 6.283) G_GAN: -0.000 G_L1: 0.297 G_GAN_proj: -0.000 G_L1_pm: 1.416 G_L1_pm_st: 1.500 G_L1_seg: 13.823 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 148, iters: 120, time: 35.260) G_GAN: -0.000 G_L1: 0.255 G_GAN_proj: -0.000 G_L1_pm: 1.442 G_L1_pm_st: 1.640 G_L1_seg: 13.975 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 148, MAE: 0.0237817207) 
+(epoch: 149, iters: 80, time: 23.823) G_GAN: -0.000 G_L1: 0.262 G_GAN_proj: -0.000 G_L1_pm: 1.311 G_L1_pm_st: 1.393 G_L1_seg: 13.380 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 149, MAE: 0.0240516070) 
+(epoch: 150, iters: 40, time: 12.029) G_GAN: -0.000 G_L1: 0.207 G_GAN_proj: -0.000 G_L1_pm: 1.497 G_L1_pm_st: 1.476 G_L1_seg: 14.131 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 150, iters: 140, time: 40.936) G_GAN: -0.000 G_L1: 0.225 G_GAN_proj: -0.000 G_L1_pm: 1.373 G_L1_pm_st: 1.499 G_L1_seg: 13.182 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 150, MAE: 0.0243430400) 
+(epoch: 151, iters: 100, time: 29.308) G_GAN: -0.000 G_L1: 0.313 G_GAN_proj: -0.000 G_L1_pm: 1.813 G_L1_pm_st: 1.368 G_L1_seg: 14.602 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 151, MAE: 0.0239790736) 
+(epoch: 152, iters: 60, time: 18.149) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.628 G_L1_pm_st: 1.356 G_L1_seg: 13.379 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 152, MAE: 0.0240646726) 
+(epoch: 153, iters: 20, time: 6.249) G_GAN: -0.000 G_L1: 0.286 G_GAN_proj: -0.000 G_L1_pm: 1.499 G_L1_pm_st: 1.575 G_L1_seg: 14.620 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 153, iters: 120, time: 35.077) G_GAN: -0.000 G_L1: 0.261 G_GAN_proj: -0.000 G_L1_pm: 1.294 G_L1_pm_st: 1.770 G_L1_seg: 12.877 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 153, MAE: 0.0242699733) 
+(epoch: 154, iters: 80, time: 23.607) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.195 G_L1_pm_st: 1.368 G_L1_seg: 13.566 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 154, MAE: 0.0241008887) 
+(epoch: 155, iters: 40, time: 12.351) G_GAN: -0.000 G_L1: 0.288 G_GAN_proj: -0.000 G_L1_pm: 1.327 G_L1_pm_st: 1.457 G_L1_seg: 13.977 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 155, iters: 140, time: 41.345) G_GAN: -0.000 G_L1: 0.228 G_GAN_proj: -0.000 G_L1_pm: 1.441 G_L1_pm_st: 1.332 G_L1_seg: 14.820 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 155, MAE: 0.0240842048) 
+(epoch: 156, iters: 100, time: 29.387) G_GAN: -0.000 G_L1: 0.251 G_GAN_proj: -0.000 G_L1_pm: 1.444 G_L1_pm_st: 1.508 G_L1_seg: 13.924 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 156, MAE: 0.0241386987) 
+(epoch: 157, iters: 60, time: 17.831) G_GAN: -0.000 G_L1: 0.215 G_GAN_proj: -0.000 G_L1_pm: 1.523 G_L1_pm_st: 1.366 G_L1_seg: 14.283 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 157, MAE: 0.0240919963) 
+(epoch: 158, iters: 20, time: 6.546) G_GAN: -0.000 G_L1: 0.252 G_GAN_proj: -0.000 G_L1_pm: 1.372 G_L1_pm_st: 1.408 G_L1_seg: 13.884 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 158, iters: 120, time: 35.534) G_GAN: -0.000 G_L1: 0.240 G_GAN_proj: -0.000 G_L1_pm: 1.303 G_L1_pm_st: 1.436 G_L1_seg: 14.514 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 158, MAE: 0.0236773776) 
+(epoch: 159, iters: 80, time: 23.592) G_GAN: -0.000 G_L1: 0.256 G_GAN_proj: -0.000 G_L1_pm: 1.424 G_L1_pm_st: 1.531 G_L1_seg: 13.581 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 159, MAE: 0.0236647204) 
+(epoch: 160, iters: 40, time: 12.042) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.372 G_L1_pm_st: 1.551 G_L1_seg: 13.750 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 160, iters: 140, time: 41.244) G_GAN: -0.000 G_L1: 0.188 G_GAN_proj: -0.000 G_L1_pm: 1.386 G_L1_pm_st: 1.431 G_L1_seg: 12.800 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 160, MAE: 0.0243177576) 
+(epoch: 161, iters: 100, time: 29.322) G_GAN: -0.000 G_L1: 0.261 G_GAN_proj: -0.000 G_L1_pm: 1.533 G_L1_pm_st: 1.448 G_L1_seg: 14.015 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 161, MAE: 0.0236617198) 
+(epoch: 162, iters: 60, time: 17.850) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.661 G_L1_pm_st: 1.414 G_L1_seg: 13.562 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 162, MAE: 0.0239453362) 
+(epoch: 163, iters: 20, time: 6.306) G_GAN: -0.000 G_L1: 0.235 G_GAN_proj: -0.000 G_L1_pm: 1.542 G_L1_pm_st: 1.372 G_L1_seg: 14.214 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 163, iters: 120, time: 35.563) G_GAN: -0.000 G_L1: 0.271 G_GAN_proj: -0.000 G_L1_pm: 1.591 G_L1_pm_st: 1.559 G_L1_seg: 14.238 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 163, MAE: 0.0244670479) 
+(epoch: 164, iters: 80, time: 23.684) G_GAN: -0.000 G_L1: 0.291 G_GAN_proj: -0.000 G_L1_pm: 1.467 G_L1_pm_st: 1.401 G_L1_seg: 14.453 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 164, MAE: 0.0244560575) 
+(epoch: 165, iters: 40, time: 12.070) G_GAN: -0.000 G_L1: 0.281 G_GAN_proj: -0.000 G_L1_pm: 1.615 G_L1_pm_st: 1.410 G_L1_seg: 13.468 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 165, iters: 140, time: 41.029) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.337 G_L1_pm_st: 1.427 G_L1_seg: 12.952 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 165, MAE: 0.0237933831) 
+(epoch: 166, iters: 100, time: 29.424) G_GAN: -0.000 G_L1: 0.212 G_GAN_proj: -0.000 G_L1_pm: 1.492 G_L1_pm_st: 1.405 G_L1_seg: 13.375 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 166, MAE: 0.0242973140) 
+(epoch: 167, iters: 60, time: 17.840) G_GAN: -0.000 G_L1: 0.249 G_GAN_proj: -0.000 G_L1_pm: 1.655 G_L1_pm_st: 1.364 G_L1_seg: 13.853 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 167, MAE: 0.0237182060) 
+(epoch: 168, iters: 20, time: 6.275) G_GAN: -0.000 G_L1: 0.229 G_GAN_proj: -0.000 G_L1_pm: 1.261 G_L1_pm_st: 1.682 G_L1_seg: 14.313 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 168, iters: 120, time: 35.269) G_GAN: -0.000 G_L1: 0.321 G_GAN_proj: -0.000 G_L1_pm: 1.538 G_L1_pm_st: 1.624 G_L1_seg: 14.398 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 168, MAE: 0.0243801637) 
+(epoch: 169, iters: 80, time: 23.871) G_GAN: -0.000 G_L1: 0.242 G_GAN_proj: -0.000 G_L1_pm: 1.410 G_L1_pm_st: 1.491 G_L1_seg: 13.530 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 169, MAE: 0.0241301747) 
+(epoch: 170, iters: 40, time: 12.020) G_GAN: -0.000 G_L1: 0.296 G_GAN_proj: -0.000 G_L1_pm: 1.490 G_L1_pm_st: 1.370 G_L1_seg: 14.449 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 170, iters: 140, time: 40.895) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.479 G_L1_pm_st: 1.581 G_L1_seg: 13.640 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 170, MAE: 0.0239637440) 
+(epoch: 171, iters: 100, time: 29.333) G_GAN: -0.000 G_L1: 0.226 G_GAN_proj: -0.000 G_L1_pm: 1.359 G_L1_pm_st: 1.587 G_L1_seg: 14.265 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 171, MAE: 0.0242677649) 
+(epoch: 172, iters: 60, time: 18.097) G_GAN: -0.000 G_L1: 0.190 G_GAN_proj: -0.000 G_L1_pm: 1.471 G_L1_pm_st: 1.642 G_L1_seg: 12.360 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 172, MAE: 0.0242626375) 
+(epoch: 173, iters: 20, time: 6.260) G_GAN: -0.000 G_L1: 0.301 G_GAN_proj: -0.000 G_L1_pm: 1.521 G_L1_pm_st: 1.564 G_L1_seg: 14.804 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 173, iters: 120, time: 35.215) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.442 G_L1_pm_st: 1.414 G_L1_seg: 14.021 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 173, MAE: 0.0246353347) 
+(epoch: 174, iters: 80, time: 23.690) G_GAN: -0.000 G_L1: 0.228 G_GAN_proj: -0.000 G_L1_pm: 1.614 G_L1_pm_st: 1.466 G_L1_seg: 13.468 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 174, MAE: 0.0240091287) 
+(epoch: 175, iters: 40, time: 12.396) G_GAN: -0.000 G_L1: 0.200 G_GAN_proj: -0.000 G_L1_pm: 1.386 G_L1_pm_st: 1.549 G_L1_seg: 13.996 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 175, iters: 140, time: 41.350) G_GAN: -0.000 G_L1: 0.233 G_GAN_proj: -0.000 G_L1_pm: 1.397 G_L1_pm_st: 1.500 G_L1_seg: 13.104 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 175, MAE: 0.0241611714) 
+(epoch: 176, iters: 100, time: 29.259) G_GAN: -0.000 G_L1: 0.258 G_GAN_proj: -0.000 G_L1_pm: 1.354 G_L1_pm_st: 1.340 G_L1_seg: 13.339 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 176, MAE: 0.0244890060) 
+(epoch: 177, iters: 60, time: 17.815) G_GAN: -0.000 G_L1: 0.227 G_GAN_proj: -0.000 G_L1_pm: 1.316 G_L1_pm_st: 1.461 G_L1_seg: 12.482 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 177, MAE: 0.0240420239) 
+(epoch: 178, iters: 20, time: 6.623) G_GAN: -0.000 G_L1: 0.269 G_GAN_proj: -0.000 G_L1_pm: 1.459 G_L1_pm_st: 1.608 G_L1_seg: 14.776 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 178, iters: 120, time: 35.561) G_GAN: -0.000 G_L1: 0.258 G_GAN_proj: -0.000 G_L1_pm: 1.492 G_L1_pm_st: 1.374 G_L1_seg: 14.113 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 178, MAE: 0.0241229028) 
+(epoch: 179, iters: 80, time: 23.629) G_GAN: -0.000 G_L1: 0.239 G_GAN_proj: -0.000 G_L1_pm: 1.474 G_L1_pm_st: 1.418 G_L1_seg: 13.588 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 179, MAE: 0.0239313344) 
+(epoch: 180, iters: 40, time: 12.041) G_GAN: -0.000 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.363 G_L1_pm_st: 1.493 G_L1_seg: 14.262 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 180, iters: 140, time: 41.247) G_GAN: -0.000 G_L1: 0.285 G_GAN_proj: -0.075 G_L1_pm: 1.682 G_L1_pm_st: 1.301 G_L1_seg: 14.146 D_real_proj: 0.374 D_fake_proj: 0.060 D_real: 0.000 D_fake: 0.000 
+(epoch: 180, MAE: 0.0248069363) 
+(epoch: 181, iters: 100, time: 29.146) G_GAN: -0.625 G_L1: 0.249 G_GAN_proj: -0.001 G_L1_pm: 1.178 G_L1_pm_st: 1.485 G_L1_seg: 12.264 D_real_proj: 0.000 D_fake_proj: 0.001 D_real: 0.700 D_fake: 0.839 
+(epoch: 181, MAE: 0.0240239987) 
+(epoch: 182, iters: 60, time: 17.852) G_GAN: -0.671 G_L1: 0.276 G_GAN_proj: -0.000 G_L1_pm: 1.516 G_L1_pm_st: 1.548 G_L1_seg: 13.512 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.669 D_fake: 0.714 
+(epoch: 182, MAE: 0.0243679369) 
+(epoch: 183, iters: 20, time: 6.417) G_GAN: -0.574 G_L1: 0.260 G_GAN_proj: -0.000 G_L1_pm: 1.461 G_L1_pm_st: 1.339 G_L1_seg: 12.733 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.676 D_fake: 0.719 
+(epoch: 183, iters: 120, time: 35.613) G_GAN: -0.382 G_L1: 0.264 G_GAN_proj: -0.000 G_L1_pm: 1.291 G_L1_pm_st: 1.357 G_L1_seg: 14.538 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.458 D_fake: 0.886 
+(epoch: 183, MAE: 0.0234938797) 
+(epoch: 184, iters: 80, time: 23.655) G_GAN: -0.452 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.314 G_L1_pm_st: 1.377 G_L1_seg: 14.104 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.468 D_fake: 0.808 
+(epoch: 184, MAE: 0.0251407538) 
+(epoch: 185, iters: 40, time: 17.390) G_GAN: -0.153 G_L1: 0.291 G_GAN_proj: -0.000 G_L1_pm: 1.374 G_L1_pm_st: 1.468 G_L1_seg: 13.650 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.184 D_fake: 0.936 
+(epoch: 185, iters: 140, time: 79.039) G_GAN: -0.383 G_L1: 0.275 G_GAN_proj: -0.007 G_L1_pm: 1.486 G_L1_pm_st: 1.522 G_L1_seg: 14.288 D_real_proj: 0.003 D_fake_proj: 0.008 D_real: 0.628 D_fake: 0.689 
+(epoch: 185, MAE: 0.0255078753) 
+(epoch: 186, iters: 100, time: 102.614) G_GAN: -0.028 G_L1: 0.225 G_GAN_proj: -0.001 G_L1_pm: 1.315 G_L1_pm_st: 1.335 G_L1_seg: 13.097 D_real_proj: 0.002 D_fake_proj: 0.001 D_real: 0.016 D_fake: 0.032 
+(epoch: 186, MAE: 0.0241823511) 
+(epoch: 187, iters: 60, time: 17.807) G_GAN: -0.010 G_L1: 0.355 G_GAN_proj: -0.001 G_L1_pm: 1.711 G_L1_pm_st: 1.447 G_L1_seg: 16.254 D_real_proj: 0.001 D_fake_proj: 0.001 D_real: 0.007 D_fake: 0.065 
+(epoch: 187, MAE: 0.0247246966) 
+(epoch: 188, iters: 20, time: 6.482) G_GAN: -0.035 G_L1: 0.314 G_GAN_proj: -0.000 G_L1_pm: 1.579 G_L1_pm_st: 1.357 G_L1_seg: 13.985 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.129 D_fake: 0.023 
+(epoch: 188, iters: 120, time: 35.170) G_GAN: -0.066 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.539 G_L1_pm_st: 1.499 G_L1_seg: 14.112 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.187 D_fake: 0.573 
+(epoch: 188, MAE: 0.0255871784) 
+(epoch: 189, iters: 80, time: 23.812) G_GAN: -0.022 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.488 G_L1_pm_st: 1.620 G_L1_seg: 13.681 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.027 D_fake: 0.026 
+(epoch: 189, MAE: 0.0243847571) 
+(epoch: 190, iters: 40, time: 12.049) G_GAN: -0.005 G_L1: 0.229 G_GAN_proj: -0.000 G_L1_pm: 1.532 G_L1_pm_st: 1.366 G_L1_seg: 13.992 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.006 
+(epoch: 190, iters: 140, time: 40.906) G_GAN: -0.001 G_L1: 0.229 G_GAN_proj: -0.000 G_L1_pm: 1.245 G_L1_pm_st: 1.496 G_L1_seg: 13.665 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.001 
+(epoch: 190, MAE: 0.0240901897) 
+(epoch: 191, iters: 100, time: 29.603) G_GAN: -0.000 G_L1: 0.293 G_GAN_proj: -0.000 G_L1_pm: 1.337 G_L1_pm_st: 1.523 G_L1_seg: 13.754 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.000 
+(epoch: 191, MAE: 0.0241517628) 
+(epoch: 192, iters: 60, time: 18.171) G_GAN: -0.000 G_L1: 0.179 G_GAN_proj: -0.000 G_L1_pm: 1.143 G_L1_pm_st: 1.504 G_L1_seg: 12.379 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.002 D_fake: 0.000 
+(epoch: 192, MAE: 0.0239953017) 
+(epoch: 193, iters: 20, time: 6.485) G_GAN: -0.001 G_L1: 0.240 G_GAN_proj: -0.000 G_L1_pm: 1.451 G_L1_pm_st: 1.560 G_L1_seg: 13.557 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.001 
+(epoch: 193, iters: 120, time: 35.351) G_GAN: -0.002 G_L1: 0.206 G_GAN_proj: -0.000 G_L1_pm: 1.428 G_L1_pm_st: 1.391 G_L1_seg: 12.741 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.002 
+(epoch: 193, MAE: 0.0237323694) 
+(epoch: 194, iters: 80, time: 23.645) G_GAN: -0.000 G_L1: 0.245 G_GAN_proj: -0.000 G_L1_pm: 1.468 G_L1_pm_st: 1.475 G_L1_seg: 13.940 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.001 D_fake: 0.000 
+(epoch: 194, MAE: 0.0234793210) 
+(epoch: 195, iters: 40, time: 12.372) G_GAN: -0.001 G_L1: 0.360 G_GAN_proj: -0.000 G_L1_pm: 1.768 G_L1_pm_st: 1.700 G_L1_seg: 15.988 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.001 
+(epoch: 195, iters: 140, time: 41.429) G_GAN: -0.000 G_L1: 0.242 G_GAN_proj: -0.000 G_L1_pm: 1.290 G_L1_pm_st: 1.423 G_L1_seg: 13.912 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 195, MAE: 0.0243138533) 
+(epoch: 196, iters: 100, time: 29.399) G_GAN: -0.000 G_L1: 0.241 G_GAN_proj: -0.000 G_L1_pm: 1.391 G_L1_pm_st: 1.559 G_L1_seg: 13.336 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 196, MAE: 0.0235037938) 
+(epoch: 197, iters: 60, time: 17.918) G_GAN: -0.000 G_L1: 0.248 G_GAN_proj: -0.000 G_L1_pm: 1.367 G_L1_pm_st: 1.394 G_L1_seg: 12.978 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 197, MAE: 0.0238067472) 
+(epoch: 198, iters: 20, time: 6.707) G_GAN: -0.000 G_L1: 0.226 G_GAN_proj: -0.000 G_L1_pm: 1.538 G_L1_pm_st: 1.560 G_L1_seg: 14.196 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 198, iters: 120, time: 35.617) G_GAN: -0.000 G_L1: 0.247 G_GAN_proj: -0.000 G_L1_pm: 1.668 G_L1_pm_st: 1.787 G_L1_seg: 13.606 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 198, MAE: 0.0241558554) 
+(epoch: 199, iters: 80, time: 23.746) G_GAN: -0.000 G_L1: 0.296 G_GAN_proj: -0.000 G_L1_pm: 1.470 G_L1_pm_st: 1.406 G_L1_seg: 14.073 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 199, MAE: 0.0243059427) 
+(epoch: 200, iters: 40, time: 12.187) G_GAN: -0.000 G_L1: 0.213 G_GAN_proj: -0.000 G_L1_pm: 1.250 G_L1_pm_st: 1.717 G_L1_seg: 11.995 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 200, iters: 140, time: 41.355) G_GAN: -0.000 G_L1: 0.218 G_GAN_proj: -0.000 G_L1_pm: 1.130 G_L1_pm_st: 1.379 G_L1_seg: 13.212 D_real_proj: 0.000 D_fake_proj: 0.000 D_real: 0.000 D_fake: 0.000 
+(epoch: 200, MAE: 0.0240115833) 

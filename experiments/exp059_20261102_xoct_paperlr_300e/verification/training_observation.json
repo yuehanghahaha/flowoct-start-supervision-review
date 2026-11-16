@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-02T22:59:31.591453+08:00",
+  "status": {
+    "stage": "training",
+    "epoch": 1,
+    "total_epochs": 300,
+    "completed_epoch": 0,
+    "steps": 30,
+    "pid": 286885,
+    "time": "2026-11-02T22:59:26.787967+08:00",
+    "step_in_epoch": 30,
+    "last_step_seconds": 2.143372641177848
+  },
+  "actual_successful_updates_observed": 32,
+  "last_successful_step": 32,
+  "finite_losses": true,
+  "training_patients_only": true,
+  "no_test_images_opened": true,
+  "source_identity_unchanged": true,
+  "steady_step_median_seconds": 2.14203351479955,
+  "tmux_session": "xoct_exp059",
+  "primary_checkpoint": "epoch_300",
+  "training_complete": false
+}
