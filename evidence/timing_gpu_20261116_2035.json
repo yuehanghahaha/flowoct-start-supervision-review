@@ -1,0 +1,17 @@
+{
+  "fields": "name,memory.total,memory.used,utilization.gpu,utilization.memory,power.draw,clocks.current.sm,clocks.current.memory,temperature.gpu",
+  "samples": [
+    {
+      "time": "2026-11-16T20:35:36.815334+08:00",
+      "values": "NVIDIA A100 80GB PCIe, 81920 MiB, 24463 MiB, 100 %, 10 %, 260.21 W, 1395 MHz, 1512 MHz, 48"
+    },
+    {
+      "time": "2026-11-16T20:35:37.852603+08:00",
+      "values": "NVIDIA A100 80GB PCIe, 81920 MiB, 24463 MiB, 94 %, 32 %, 288.81 W, 1410 MHz, 1512 MHz, 46"
+    },
+    {
+      "time": "2026-11-16T20:35:38.890113+08:00",
+      "values": "NVIDIA A100 80GB PCIe, 81920 MiB, 24463 MiB, 100 %, 35 %, 218.38 W, 1410 MHz, 1512 MHz, 46"
+    }
+  ]
+}

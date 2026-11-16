@@ -1,0 +1,35 @@
+{
+  "state": "passed",
+  "time": "2026-11-16T16:24:57+08:00",
+  "paused_update": 57,
+  "committed_epoch": 0,
+  "partial_epoch": 1,
+  "partial_updates": 57,
+  "checkpoint_bytes": 610343903,
+  "checkpoint_sha256": "5bd27b2d2c927041d11afc9a8e556ed003ccbf0e9a1dc8aa4cd15f283f2ee8c9",
+  "source_input_statistics_signature_matches": true,
+  "optimizer_restored_fields": [
+    "step",
+    "exp_avg",
+    "exp_avg_sq"
+  ],
+  "model_ema_dtype": "float32",
+  "rng_cpu_saved": true,
+  "rng_cuda_saved": true,
+  "resumed_observed_at": "2026-11-16T16:28:40+08:00",
+  "resumed_update": 100,
+  "resumed_saved_update": 100,
+  "no_duplicate_or_reset_updates": true,
+  "source_checksums_passed": true,
+  "precision": {
+    "tensor_dtype": "float32",
+    "network_autocast_dtype": "bfloat16",
+    "state_loss_ode_dtype": "float32",
+    "tf32_matmul": true,
+    "tf32_cudnn": true,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "amp": true,
+    "gradient_scaling": false
+  }
+}

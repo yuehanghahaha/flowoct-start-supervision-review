@@ -1,0 +1,404 @@
+[2026-11-16T16:24:58+08:00] source_check
+[2026-11-16T16:24:58+08:00] cpu_correctness
+{
+  "state": "passed",
+  "time": "2026-11-16T16:25:04+08:00",
+  "parameters": {
+    "total": 38109512,
+    "trainable": 38109512,
+    "global_blocks": 36389376,
+    "global_tokens": 46208,
+    "global_scan_calls": 24
+  },
+  "synthetic_only": true,
+  "haar_roundtrip_energy": true,
+  "full_time_algebra": true,
+  "schedule_zero_fraction": 0.25,
+  "patient_visits_per_epoch": 400,
+  "no_test_access": true,
+  "microbatch_gradient_max_absolute_error": 5.960464477539063e-08,
+  "optimizer_ema_resume_exact": true,
+  "temporary_checkpoint_removed": true
+}
+[2026-11-16T16:25:04+08:00] training_only_statistics
+{
+  "identity": {
+    "membership_sha256": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+    "deployment_sha256": "44107f5d05fb1e6684b30d8dab6392e0dfd3d027ed0fbc8dafecf9d13864be75",
+    "case_ids": [
+      "10301",
+      "10303",
+      "10304",
+      "10306",
+      "10308",
+      "10309",
+      "10310",
+      "10311",
+      "10312",
+      "10313",
+      "10314",
+      "10315",
+      "10316",
+      "10320",
+      "10323",
+      "10324",
+      "10329",
+      "10333",
+      "10334",
+      "10335",
+      "10336",
+      "10337",
+      "10339",
+      "10340",
+      "10343",
+      "10344",
+      "10345",
+      "10346",
+      "10348",
+      "10349",
+      "10350",
+      "10352",
+      "10353",
+      "10354",
+      "10360",
+      "10361",
+      "10364",
+      "10366",
+      "10368",
+      "10369",
+      "10370",
+      "10371",
+      "10372",
+      "10373",
+      "10374",
+      "10375",
+      "10376",
+      "10377",
+      "10378",
+      "10380",
+      "10381",
+      "10382",
+      "10383",
+      "10384",
+      "10385",
+      "10386",
+      "10387",
+      "10388",
+      "10389",
+      "10390",
+      "10391",
+      "10392",
+      "10393",
+      "10397",
+      "10398",
+      "10399",
+      "10400",
+      "10401",
+      "10402",
+      "10403",
+      "10405",
+      "10406",
+      "10407",
+      "10408",
+      "10409",
+      "10411",
+      "10412",
+      "10413",
+      "10414",
+      "10416",
+      "10417",
+      "10418",
+      "10419",
+      "10424",
+      "10426",
+      "10427",
+      "10428",
+      "10429",
+      "10431",
+      "10432",
+      "10434",
+      "10435",
+      "10436",
+      "10437",
+      "10438",
+      "10439",
+      "10440",
+      "10441",
+      "10442",
+      "10443",
+      "10444",
+      "10445",
+      "10449",
+      "10450",
+      "10451",
+      "10452",
+      "10453",
+      "10455",
+      "10457",
+      "10458",
+      "10459",
+      "10461",
+      "10462",
+      "10463",
+      "10464",
+      "10465",
+      "10466",
+      "10468",
+      "10469",
+      "10470",
+      "10471",
+      "10473",
+      "10474",
+      "10477",
+      "10478",
+      "10479",
+      "10480",
+      "10481",
+      "10482",
+      "10483",
+      "10485",
+      "10486",
+      "10487",
+      "10488",
+      "10489",
+      "10490",
+      "10491",
+      "10492",
+      "10493",
+      "10496"
+    ],
+    "full_shape": [
+      256,
+      304,
+      304
+    ],
+    "intensity_scale": 255.0,
+    "scale_floor": 0.00392156862745098
+  },
+  "patients": 140,
+  "band_order": [
+    "LLL",
+    "LLH",
+    "LHL",
+    "LHH",
+    "HLL",
+    "HLH",
+    "HHL",
+    "HHH"
+  ],
+  "band_rms": [
+    0.16886323296663067,
+    0.03404362070657861,
+    0.03380107686942287,
+    0.02116287197219263,
+    0.02042752576498212,
+    0.009529768758483204,
+    0.00949565782019037,
+    0.0066849568902662216
+  ],
+  "volume_rms": 0.06315368083159628,
+  "ilm_opl_max_rms": 0.21516287837674541,
+  "opl_bm_max_rms": 0.19211075678616849,
+  "accumulation_dtype": "float64",
+  "transform_dtype": "float32",
+  "time": "2026-11-16T16:05:36+08:00",
+  "band_count": 414023680,
+  "counts": [
+    3312189440,
+    12938199,
+    12938240
+  ]
+}
+[2026-11-16T16:25:06+08:00] a100_probe
+Allocated GPU: NVIDIA A100 80GB PCIe
+[2026-11-16T16:25:10+08:00] training
+epoch 001 step 060 | loss=1.734403 | 4.19s
+epoch 001 step 080 | loss=1.149817 | 4.19s
+epoch 001 step 100 | loss=1.345787 | 4.19s
+epoch 001 step 120 | loss=1.207196 | 4.19s
+epoch 001 step 140 | loss=1.096971 | 4.19s
+epoch 001 step 160 | loss=1.558848 | 4.18s
+epoch 001 step 180 | loss=1.184686 | 4.19s
+epoch 001 step 200 | loss=1.954167 | 4.19s
+epoch 002 step 001 | loss=0.977473 | 4.20s
+epoch 002 step 020 | loss=1.271410 | 4.19s
+epoch 002 step 040 | loss=1.157400 | 4.20s
+epoch 002 step 060 | loss=0.946516 | 4.19s
+epoch 002 step 080 | loss=1.312593 | 4.19s
+epoch 002 step 100 | loss=1.445389 | 4.19s
+epoch 002 step 120 | loss=0.890171 | 4.19s
+epoch 002 step 140 | loss=1.533619 | 4.19s
+epoch 002 step 160 | loss=1.053637 | 4.19s
+epoch 002 step 180 | loss=1.186432 | 4.19s
+epoch 002 step 200 | loss=1.242703 | 4.18s
+epoch 003 step 001 | loss=1.570521 | 4.19s
+epoch 003 step 020 | loss=1.762020 | 4.19s
+epoch 003 step 040 | loss=1.309670 | 4.19s
+epoch 003 step 060 | loss=1.754906 | 4.19s
+epoch 003 step 080 | loss=1.447057 | 4.19s
+epoch 003 step 100 | loss=1.064294 | 4.19s
+epoch 003 step 120 | loss=1.346770 | 4.19s
+epoch 003 step 140 | loss=1.548383 | 4.19s
+epoch 003 step 160 | loss=1.062980 | 4.19s
+epoch 003 step 180 | loss=1.665543 | 4.19s
+epoch 003 step 200 | loss=1.592450 | 4.19s
+epoch 004 step 001 | loss=1.057134 | 4.19s
+epoch 004 step 020 | loss=1.526347 | 4.19s
+epoch 004 step 040 | loss=1.243854 | 4.20s
+epoch 004 step 060 | loss=1.571920 | 4.20s
+epoch 004 step 080 | loss=1.413163 | 4.20s
+epoch 004 step 100 | loss=0.899014 | 4.19s
+epoch 004 step 120 | loss=1.041757 | 4.19s
+epoch 004 step 140 | loss=1.478458 | 4.19s
+epoch 004 step 160 | loss=1.074319 | 4.20s
+epoch 004 step 180 | loss=0.961770 | 4.21s
+epoch 004 step 200 | loss=1.351222 | 4.19s
+epoch 005 step 001 | loss=1.522859 | 4.19s
+epoch 005 step 020 | loss=1.511589 | 4.19s
+epoch 005 step 040 | loss=1.547862 | 4.19s
+epoch 005 step 060 | loss=1.127306 | 4.19s
+epoch 005 step 080 | loss=1.775666 | 4.19s
+epoch 005 step 100 | loss=1.075943 | 4.20s
+epoch 005 step 120 | loss=1.033168 | 4.19s
+epoch 005 step 140 | loss=1.185033 | 4.19s
+epoch 005 step 160 | loss=1.313373 | 4.19s
+epoch 005 step 180 | loss=1.148084 | 4.19s
+epoch 005 step 200 | loss=1.098091 | 4.19s
+validation epoch 005 | ILM-OPL SSIM 0.097292 | best epoch 005
+epoch 006 step 001 | loss=0.978586 | 4.19s
+epoch 006 step 020 | loss=1.163574 | 4.19s
+epoch 006 step 040 | loss=1.278475 | 4.19s
+epoch 006 step 060 | loss=0.916412 | 4.19s
+epoch 006 step 080 | loss=1.174182 | 4.19s
+epoch 006 step 100 | loss=1.259087 | 4.19s
+epoch 006 step 120 | loss=1.183094 | 4.19s
+epoch 006 step 140 | loss=1.312679 | 4.19s
+epoch 006 step 160 | loss=1.327215 | 4.19s
+epoch 006 step 180 | loss=1.328289 | 4.19s
+epoch 006 step 200 | loss=0.958757 | 4.19s
+epoch 007 step 001 | loss=1.215269 | 4.19s
+epoch 007 step 020 | loss=1.271243 | 4.19s
+epoch 007 step 040 | loss=1.104534 | 4.19s
+epoch 007 step 060 | loss=1.083086 | 4.19s
+epoch 007 step 080 | loss=0.973558 | 4.19s
+epoch 007 step 100 | loss=0.879204 | 4.19s
+epoch 007 step 120 | loss=1.147200 | 4.19s
+epoch 007 step 140 | loss=1.023829 | 4.19s
+epoch 007 step 160 | loss=1.410643 | 4.19s
+epoch 007 step 180 | loss=1.078971 | 4.19s
+epoch 007 step 200 | loss=1.418909 | 4.19s
+epoch 008 step 001 | loss=1.917285 | 4.19s
+epoch 008 step 020 | loss=1.991621 | 4.19s
+epoch 008 step 040 | loss=0.948401 | 4.19s
+epoch 008 step 060 | loss=1.047947 | 4.19s
+epoch 008 step 080 | loss=1.334571 | 4.19s
+epoch 008 step 100 | loss=1.148703 | 4.19s
+epoch 008 step 120 | loss=1.351792 | 4.28s
+epoch 008 step 140 | loss=0.884650 | 4.20s
+epoch 008 step 160 | loss=2.032987 | 4.19s
+epoch 008 step 180 | loss=1.995843 | 4.19s
+epoch 008 step 200 | loss=1.339031 | 4.19s
+epoch 009 step 001 | loss=0.973308 | 4.20s
+epoch 009 step 020 | loss=1.462138 | 4.19s
+epoch 009 step 040 | loss=1.285713 | 4.19s
+epoch 009 step 060 | loss=1.355400 | 4.20s
+epoch 009 step 080 | loss=1.075971 | 4.19s
+epoch 009 step 100 | loss=1.247535 | 4.20s
+epoch 009 step 120 | loss=1.279281 | 4.20s
+epoch 009 step 140 | loss=1.075540 | 4.19s
+epoch 009 step 160 | loss=1.058567 | 4.20s
+epoch 009 step 180 | loss=1.149921 | 4.19s
+epoch 009 step 200 | loss=0.830401 | 4.21s
+epoch 010 step 001 | loss=1.228795 | 4.19s
+epoch 010 step 020 | loss=1.092785 | 4.20s
+epoch 010 step 040 | loss=1.313772 | 4.19s
+epoch 010 step 060 | loss=0.801320 | 4.19s
+epoch 010 step 080 | loss=0.903473 | 4.20s
+epoch 010 step 100 | loss=1.074161 | 4.20s
+epoch 010 step 120 | loss=0.866691 | 4.20s
+epoch 010 step 140 | loss=1.483998 | 4.20s
+epoch 010 step 160 | loss=0.926390 | 4.29s
+epoch 010 step 180 | loss=1.594334 | 4.20s
+epoch 010 step 200 | loss=0.937312 | 4.20s
+validation epoch 010 | ILM-OPL SSIM 0.103307 | best epoch 010
+epoch 011 step 001 | loss=1.586892 | 4.19s
+epoch 011 step 020 | loss=1.083782 | 4.19s
+epoch 011 step 040 | loss=0.899850 | 4.19s
+epoch 011 step 060 | loss=0.707101 | 4.19s
+epoch 011 step 080 | loss=1.117712 | 4.19s
+epoch 011 step 100 | loss=1.397809 | 4.19s
+epoch 011 step 120 | loss=1.046836 | 4.19s
+epoch 011 step 140 | loss=1.207727 | 4.19s
+epoch 011 step 160 | loss=0.815886 | 4.19s
+epoch 011 step 180 | loss=1.320999 | 4.19s
+epoch 011 step 200 | loss=1.278079 | 4.19s
+epoch 012 step 001 | loss=1.145458 | 4.19s
+epoch 012 step 020 | loss=2.143883 | 4.19s
+epoch 012 step 040 | loss=1.348300 | 4.19s
+epoch 012 step 060 | loss=1.455539 | 4.19s
+epoch 012 step 080 | loss=1.274038 | 4.19s
+epoch 012 step 100 | loss=1.334399 | 4.19s
+epoch 012 step 120 | loss=1.019723 | 4.19s
+epoch 012 step 140 | loss=0.990343 | 4.20s
+epoch 012 step 160 | loss=1.113598 | 4.19s
+epoch 012 step 180 | loss=1.570757 | 4.20s
+epoch 012 step 200 | loss=1.072721 | 4.19s
+epoch 013 step 001 | loss=1.156053 | 4.21s
+epoch 013 step 020 | loss=1.436388 | 4.19s
+epoch 013 step 040 | loss=0.610771 | 4.20s
+epoch 013 step 060 | loss=0.736490 | 4.19s
+epoch 013 step 080 | loss=0.969039 | 4.21s
+epoch 013 step 100 | loss=0.964677 | 4.19s
+epoch 013 step 120 | loss=0.993735 | 4.19s
+epoch 013 step 140 | loss=0.755892 | 4.19s
+epoch 013 step 160 | loss=0.962383 | 4.19s
+epoch 013 step 180 | loss=0.997840 | 4.20s
+epoch 013 step 200 | loss=0.688868 | 4.19s
+epoch 014 step 001 | loss=1.260333 | 4.20s
+epoch 014 step 020 | loss=0.722772 | 4.20s
+epoch 014 step 040 | loss=1.097235 | 4.20s
+epoch 014 step 060 | loss=0.764959 | 4.19s
+epoch 014 step 080 | loss=1.465084 | 4.20s
+epoch 014 step 100 | loss=1.267766 | 4.19s
+epoch 014 step 120 | loss=1.011873 | 4.19s
+epoch 014 step 140 | loss=0.723930 | 4.18s
+epoch 014 step 160 | loss=0.568565 | 4.19s
+epoch 014 step 180 | loss=1.279845 | 4.19s
+epoch 014 step 200 | loss=0.810135 | 4.19s
+epoch 015 step 001 | loss=0.815749 | 4.20s
+epoch 015 step 020 | loss=0.898089 | 4.19s
+epoch 015 step 040 | loss=0.745822 | 4.19s
+epoch 015 step 060 | loss=0.824159 | 4.20s
+epoch 015 step 080 | loss=1.238432 | 4.20s
+epoch 015 step 100 | loss=1.308257 | 4.20s
+epoch 015 step 120 | loss=1.120133 | 4.19s
+epoch 015 step 140 | loss=1.242053 | 4.19s
+epoch 015 step 160 | loss=1.353718 | 4.20s
+epoch 015 step 180 | loss=1.660393 | 4.19s
+epoch 015 step 200 | loss=0.883025 | 4.19s
+validation epoch 015 | ILM-OPL SSIM 0.106171 | best epoch 015
+epoch 016 step 001 | loss=0.622634 | 4.19s
+epoch 016 step 020 | loss=1.012103 | 4.20s
+epoch 016 step 040 | loss=0.703791 | 4.19s
+epoch 016 step 060 | loss=0.806220 | 4.19s
+epoch 016 step 080 | loss=1.463854 | 4.19s
+epoch 016 step 100 | loss=0.806712 | 4.19s
+epoch 016 step 120 | loss=0.878597 | 4.19s
+epoch 016 step 140 | loss=0.874359 | 4.19s
+epoch 016 step 160 | loss=0.971222 | 4.20s
+epoch 016 step 180 | loss=0.680354 | 4.20s
+epoch 016 step 200 | loss=1.398131 | 4.20s
+epoch 017 step 001 | loss=1.486661 | 4.19s
+epoch 017 step 020 | loss=1.025737 | 4.19s
+epoch 017 step 040 | loss=0.807498 | 4.19s
+epoch 017 step 060 | loss=1.119693 | 4.19s
+epoch 017 step 080 | loss=1.380832 | 4.19s
+epoch 017 step 100 | loss=0.979084 | 4.19s
+epoch 017 step 120 | loss=0.854974 | 4.20s
+epoch 017 step 140 | loss=0.895399 | 4.19s
+epoch 017 step 160 | loss=1.270530 | 4.19s
+epoch 017 step 180 | loss=1.029338 | 4.20s
+epoch 017 step 200 | loss=0.943631 | 4.19s
+epoch 018 step 001 | loss=1.373281 | 4.20s
+epoch 018 step 020 | loss=1.265462 | 4.19s
+epoch 018 step 040 | loss=0.993334 | 4.19s

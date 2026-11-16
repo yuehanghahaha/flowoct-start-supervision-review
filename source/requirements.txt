@@ -1,0 +1,6 @@
+numpy==1.26.4
+scipy==1.15.3
+scikit-image==0.25.2
+Pillow==11.3.0
+einops==0.8.1
+transformers==4.49.0

@@ -1,0 +1,20 @@
+{
+  "state": "passed",
+  "time": "2026-11-16T16:16:38+08:00",
+  "parameters": {
+    "total": 38109512,
+    "trainable": 38109512,
+    "global_blocks": 36389376,
+    "global_tokens": 46208,
+    "global_scan_calls": 24
+  },
+  "synthetic_only": true,
+  "haar_roundtrip_energy": true,
+  "full_time_algebra": true,
+  "schedule_zero_fraction": 0.25,
+  "patient_visits_per_epoch": 400,
+  "no_test_access": true,
+  "microbatch_gradient_max_absolute_error": 5.960464477539063e-08,
+  "optimizer_ema_resume_exact": true,
+  "temporary_checkpoint_removed": true
+}

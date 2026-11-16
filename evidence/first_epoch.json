@@ -1,0 +1,53 @@
+{
+  "completed_epochs": 1,
+  "last_epoch_update": 200,
+  "epoch_mean_loss": 1.4502916046977044,
+  "epoch_seconds": 872.2812621444464,
+  "warmup_inclusive_update_median_seconds": 4.190177261829376,
+  "epoch_peak_allocated_gib": 24.919075965881348,
+  "epoch_peak_reserved_gib": 26.345703125,
+  "valid_full_batch_updates": 200,
+  "zero_time_patient_visits": 100,
+  "all_step_losses_gradients_finite": true,
+  "handoff": {
+    "observed_at": "2026-11-16T16:36:12+08:00",
+    "status": {
+      "state": "training",
+      "time": "2026-11-16T16:35:40+08:00",
+      "epoch": 2,
+      "update": 201,
+      "committed_epoch": 1,
+      "loss": 0.9774730205535889,
+      "last_update_seconds": 4.200279265642166,
+      "precision": {
+        "tensor_dtype": "float32",
+        "network_autocast_dtype": "bfloat16",
+        "state_loss_ode_dtype": "float32",
+        "tf32_matmul": true,
+        "tf32_cudnn": true,
+        "cudnn_benchmark": true,
+        "cudnn_deterministic": false,
+        "amp": true,
+        "gradient_scaling": false
+      },
+      "execution": {
+        "checkpoint_mode": "selective",
+        "microbatch_size": 2,
+        "gradient_accumulation": 1,
+        "effective_batch": 2,
+        "steady_median_seconds": 4.187590770423412
+      },
+      "cuda_peak_allocated_bytes": 23349164032,
+      "cuda_peak_reserved_bytes": 25002246144
+    },
+    "device_sample": "NVIDIA A100 80GB PCIe, 81920 MiB, 24383 MiB, 100 %",
+    "pipeline": {
+      "action": "resume",
+      "phase": "training",
+      "state": "running",
+      "at": "2026-11-16T16:25:10+08:00"
+    },
+    "validation_started": false,
+    "test_started": false
+  }
+}

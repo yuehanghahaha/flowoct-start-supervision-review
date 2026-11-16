@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp172_20261116_fullvolume_rms_mamba_bf16_200e",
+  "parent": "exp131_20261111_haar_axialmamba_a100_200e",
+  "full_shape": [256, 304, 304],
+  "axis_order": "ZYX",
+  "intensity_scale": 255.0,
+  "native_layer_depth": 640,
+  "model": {
+    "token_patch": 4,
+    "global_width": 384,
+    "global_blocks": 12,
+    "global_mlp_ratio": 4,
+    "time_frequency_dim": 128,
+    "time_width": 384,
+    "ssm_state": 16,
+    "ssm_conv": 4,
+    "ssm_expand": 2,
+    "oct_channels": [32, 64, 96],
+    "state_channels": [48, 96, 128]
+  },
+  "epochs": 200,
+  "steps_per_epoch": 200,
+  "batch_size": 2,
+  "seed": 12920261111,
+  "time_sampling": {"zero_patient_fraction": 0.25, "uniform_patient_fraction": 0.75},
+  "optimizer": {
+    "name": "AdamW", "peak_lr": 0.0001, "min_lr": 0.00001,
+    "warmup_updates": 2000, "betas": [0.9, 0.999], "eps": 1e-8,
+    "weight_decay": 0.01, "clip_norm": 1.0
+  },
+  "ema_decay": 0.9995,
+  "loss": {
+    "velocity_low": 0.125, "velocity_detail": 0.875,
+    "endpoint_mae": 0.10, "endpoint_mip": 0.20,
+    "mip_shallow_fraction": 0.75, "auxiliary_ramp_updates": 1000,
+    "endpoint_supervision": "all_sampled_times",
+    "scale_floor": 0.00392156862745098
+  },
+  "validation_every": 5,
+  "selection_metric": "ilm_opl_max.ssim",
+  "solver": {"name": "heun", "steps": 16},
+  "infer_core_yx": null,
+  "retain_test_volumes": true,
+  "cpu_threads": 4,
+  "precision": {
+    "tensor_dtype": "float32", "network_autocast_dtype": "bfloat16",
+    "state_loss_ode_dtype": "float32",
+    "tf32_matmul": true, "tf32_cudnn": true,
+    "cudnn_benchmark": true, "cudnn_deterministic": false,
+    "amp": true, "gradient_scaling": false
+  }
+}

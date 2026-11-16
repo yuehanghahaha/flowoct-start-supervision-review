@@ -1,0 +1,503 @@
+{
+  "observed_at": "2026-11-16T20:34:59.557859+08:00",
+  "status": {
+    "state": "training",
+    "time": "2026-11-16T20:34:12+08:00",
+    "epoch": 18,
+    "update": 3401,
+    "committed_epoch": 17,
+    "loss": 1.373280644416809,
+    "last_update_seconds": 4.195402458310127,
+    "precision": {
+      "tensor_dtype": "float32",
+      "network_autocast_dtype": "bfloat16",
+      "state_loss_ode_dtype": "float32",
+      "tf32_matmul": true,
+      "tf32_cudnn": true,
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false,
+      "amp": true,
+      "gradient_scaling": false
+    },
+    "execution": {
+      "checkpoint_mode": "selective",
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "effective_batch": 2,
+      "steady_median_seconds": 4.187590770423412
+    },
+    "cuda_peak_allocated_bytes": 23353882624,
+    "cuda_peak_reserved_bytes": 25086132224
+  },
+  "pipeline": {
+    "action": "resume",
+    "phase": "training",
+    "state": "running",
+    "at": "2026-11-16T16:25:10+08:00"
+  },
+  "execution": {
+    "checkpoint_mode": "selective",
+    "microbatch_size": 2,
+    "gradient_accumulation": 1,
+    "effective_batch": 2,
+    "steady_median_seconds": 4.187590770423412
+  },
+  "launch": {
+    "session": "exp172_fullvolume_rms_mamba_bf16",
+    "action": "resume",
+    "slot": "slot2",
+    "python": "/workspace/.conda/envs/lyh_flowoct/bin/python",
+    "log": "/workspace/experience/exp172_20261116_fullvolume_rms_mamba_bf16_200e/runs/a100/logs/20261116_082458_165959_slot2.log",
+    "at": "2026-11-16T16:24:58+08:00",
+    "controller": "/workspace/experience/exp172_20261116_fullvolume_rms_mamba_bf16_200e/runs/slot2/control.py"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "updates": 200,
+      "seconds": 872.2812621444464,
+      "step_sum_seconds": 853.925578251481,
+      "step_median_seconds": 4.190177261829376,
+      "step_min_seconds": 4.183547869324684,
+      "step_max_seconds": 12.065365567803383,
+      "mean_loss": 1.4502916046977044,
+      "peak_allocated": 26756654080,
+      "peak_reserved": 28288483328,
+      "log_mtime": 1794818133.5017354
+    },
+    {
+      "epoch": 2,
+      "updates": 200,
+      "seconds": 852.1587012559175,
+      "step_sum_seconds": 838.2513466477394,
+      "step_median_seconds": 4.189956419169903,
+      "step_min_seconds": 4.182664439082146,
+      "step_max_seconds": 4.300426229834557,
+      "mean_loss": 1.4510169497132301,
+      "peak_allocated": 23349164032,
+      "peak_reserved": 25002246144,
+      "log_mtime": 1794818986.9323611
+    },
+    {
+      "epoch": 3,
+      "updates": 200,
+      "seconds": 852.988675236702,
+      "step_sum_seconds": 838.5754472911358,
+      "step_median_seconds": 4.1922802701592445,
+      "step_min_seconds": 4.185220256447792,
+      "step_max_seconds": 4.281485140323639,
+      "mean_loss": 1.4401221629977226,
+      "peak_allocated": 23349164032,
+      "peak_reserved": 25002246144,
+      "log_mtime": 1794819841.1986454
+    },
+    {
+      "epoch": 4,
+      "updates": 200,
+      "seconds": 853.3861335813999,
+      "step_sum_seconds": 839.1660853773355,
+      "step_median_seconds": 4.1942396983504295,
+      "step_min_seconds": 4.1880656480789185,
+      "step_max_seconds": 4.285553500056267,
+      "mean_loss": 1.3657216802239418,
+      "peak_allocated": 23349164032,
+      "peak_reserved": 25002246144,
+      "log_mtime": 1794820695.8546875
+    },
+    {
+      "epoch": 5,
+      "updates": 200,
+      "seconds": 852.9428734630346,
+      "step_sum_seconds": 838.8584759533405,
+      "step_median_seconds": 4.193483740091324,
+      "step_min_seconds": 4.185858562588692,
+      "step_max_seconds": 4.2861011773347855,
+      "mean_loss": 1.3392227101325989,
+      "peak_allocated": 23349164032,
+      "peak_reserved": 25002246144,
+      "log_mtime": 1794821550.093168
+    },
+    {
+      "epoch": 6,
+      "updates": 200,
+      "seconds": 852.1003058254719,
+      "step_sum_seconds": 838.0228645205498,
+      "step_median_seconds": 4.1899892538785934,
+      "step_min_seconds": 4.184034451842308,
+      "step_max_seconds": 4.20405113697052,
+      "mean_loss": 1.2656537628173827,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794822618.112513
+    },
+    {
+      "epoch": 7,
+      "updates": 200,
+      "seconds": 852.3577883988619,
+      "step_sum_seconds": 838.1563363075256,
+      "step_median_seconds": 4.18968940526247,
+      "step_min_seconds": 4.183871492743492,
+      "step_max_seconds": 4.283104851841927,
+      "mean_loss": 1.247393372952938,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794823471.748822
+    },
+    {
+      "epoch": 8,
+      "updates": 200,
+      "seconds": 851.9567450135946,
+      "step_sum_seconds": 838.2547982335091,
+      "step_median_seconds": 4.190605320036411,
+      "step_min_seconds": 4.1834734082221985,
+      "step_max_seconds": 4.281342908740044,
+      "mean_loss": 1.2043539616465568,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794824324.96599
+    },
+    {
+      "epoch": 9,
+      "updates": 200,
+      "seconds": 851.9038374722004,
+      "step_sum_seconds": 838.531067892909,
+      "step_median_seconds": 4.191940031945705,
+      "step_min_seconds": 4.185456499457359,
+      "step_max_seconds": 4.213109597563744,
+      "mean_loss": 1.1671309113502502,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794825178.234496
+    },
+    {
+      "epoch": 10,
+      "updates": 200,
+      "seconds": 853.9021395891905,
+      "step_sum_seconds": 839.3606570512056,
+      "step_median_seconds": 4.195717871189117,
+      "step_min_seconds": 4.186718314886093,
+      "step_max_seconds": 4.291637569665909,
+      "mean_loss": 1.1048453068733215,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794826033.4151337
+    },
+    {
+      "epoch": 11,
+      "updates": 200,
+      "seconds": 852.3097917586565,
+      "step_sum_seconds": 838.3916050195694,
+      "step_median_seconds": 4.191666141152382,
+      "step_min_seconds": 4.183878675103188,
+      "step_max_seconds": 4.207507520914078,
+      "mean_loss": 1.0861847746372222,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794827101.126344
+    },
+    {
+      "epoch": 12,
+      "updates": 200,
+      "seconds": 851.9685731977224,
+      "step_sum_seconds": 838.5872747302055,
+      "step_median_seconds": 4.192152604460716,
+      "step_min_seconds": 4.18534180521965,
+      "step_max_seconds": 4.295911207795143,
+      "mean_loss": 1.087505832016468,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794827954.3641763
+    },
+    {
+      "epoch": 13,
+      "updates": 200,
+      "seconds": 853.7261367291212,
+      "step_sum_seconds": 838.6868791133165,
+      "step_median_seconds": 4.192905850708485,
+      "step_min_seconds": 4.186960324645042,
+      "step_max_seconds": 4.210422903299332,
+      "mean_loss": 1.0568760684132577,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794828809.306661
+    },
+    {
+      "epoch": 14,
+      "updates": 200,
+      "seconds": 853.5676254481077,
+      "step_sum_seconds": 838.7126454412937,
+      "step_median_seconds": 4.1923351138830185,
+      "step_min_seconds": 4.18442265689373,
+      "step_max_seconds": 4.287325963377953,
+      "mean_loss": 1.0635759210586548,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794829664.220444
+    },
+    {
+      "epoch": 15,
+      "updates": 200,
+      "seconds": 854.351633310318,
+      "step_sum_seconds": 838.9413026869297,
+      "step_median_seconds": 4.193989723920822,
+      "step_min_seconds": 4.187002331018448,
+      "step_max_seconds": 4.212982624769211,
+      "mean_loss": 1.0404816994071007,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794830519.8847368
+    },
+    {
+      "epoch": 16,
+      "updates": 200,
+      "seconds": 853.7219629436731,
+      "step_sum_seconds": 838.5950570702553,
+      "step_median_seconds": 4.1927002519369125,
+      "step_min_seconds": 4.185379609465599,
+      "step_max_seconds": 4.2114724814891815,
+      "mean_loss": 1.049432294368744,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794831589.9188106
+    },
+    {
+      "epoch": 17,
+      "updates": 200,
+      "seconds": 853.4968934208155,
+      "step_sum_seconds": 838.9551281183958,
+      "step_median_seconds": 4.193512424826622,
+      "step_min_seconds": 4.187429428100586,
+      "step_max_seconds": 4.2906971126794815,
+      "mean_loss": 1.0224509608745576,
+      "peak_allocated": 23353882624,
+      "peak_reserved": 25086132224,
+      "log_mtime": 1794832444.776149
+    }
+  ],
+  "validations": [
+    {
+      "epoch": "e005",
+      "patients": 10,
+      "mean_seconds": 14.453565226495266,
+      "generation_seconds": 144.53565226495266,
+      "summary_mtime": 1794821764.3639557,
+      "mean": {
+        "volume": {
+          "mae": 0.04155805442324785,
+          "psnr": 23.07769315446051,
+          "ssim": 0.06796911477104656
+        },
+        "bscan2d": {
+          "mae": 0.04155805442324785,
+          "psnr": 23.10585468626639,
+          "ssim": 0.08826092568769531
+        },
+        "ilm_opl_max": {
+          "mae": 0.10134469521111729,
+          "psnr": 17.39406758498898,
+          "ssim": 0.09729179921762017
+        },
+        "opl_bm_max": {
+          "mae": 0.09005853311211032,
+          "psnr": 18.47435970958432,
+          "ssim": 0.10841765223461183
+        },
+        "full_mean": {
+          "mae": 0.010839581545032718,
+          "psnr": 38.18879269666617,
+          "ssim": 0.8582431166421431
+        },
+        "full_max": {
+          "mae": 0.13953350064705639,
+          "psnr": 16.061221477806498,
+          "ssim": 0.12211192845550185
+        },
+        "ilm_opl_mean": {
+          "mae": 0.049454980796116446,
+          "psnr": 23.66623486670514,
+          "ssim": 0.31475240561570117
+        },
+        "opl_bm_mean": {
+          "mae": 0.0378436567824561,
+          "psnr": 26.277652919902874,
+          "ssim": 0.4050972042319665
+        },
+        "ilm_bm_mean": {
+          "mae": 0.04244242332346075,
+          "psnr": 25.283789446129887,
+          "ssim": 0.40357215711026806
+        }
+      }
+    },
+    {
+      "epoch": "e010",
+      "patients": 10,
+      "mean_seconds": 14.414361375570298,
+      "generation_seconds": 144.14361375570297,
+      "summary_mtime": 1794826247.127916,
+      "mean": {
+        "volume": {
+          "mae": 0.04813273438424253,
+          "psnr": 22.75853329094984,
+          "ssim": 0.05232159887488129
+        },
+        "bscan2d": {
+          "mae": 0.04813273438424253,
+          "psnr": 22.778527861143015,
+          "ssim": 0.0620217170254054
+        },
+        "ilm_opl_max": {
+          "mae": 0.09309066500098374,
+          "psnr": 18.09843300515516,
+          "ssim": 0.10330700868909601
+        },
+        "opl_bm_max": {
+          "mae": 0.08434773254013428,
+          "psnr": 19.083154746594943,
+          "ssim": 0.11315662862417626
+        },
+        "full_mean": {
+          "mae": 0.02018965572127277,
+          "psnr": 33.34931559116341,
+          "ssim": 0.74754010508104
+        },
+        "full_max": {
+          "mae": 0.1324745308688477,
+          "psnr": 16.43763575837208,
+          "ssim": 0.1263421180224214
+        },
+        "ilm_opl_mean": {
+          "mae": 0.04069859858814849,
+          "psnr": 25.0460315229131,
+          "ssim": 0.3697523939566444
+        },
+        "opl_bm_mean": {
+          "mae": 0.03240075309761885,
+          "psnr": 27.534557545332056,
+          "ssim": 0.44116661700172954
+        },
+        "ilm_bm_mean": {
+          "mae": 0.033980005453423334,
+          "psnr": 26.918637435010435,
+          "ssim": 0.465100198789147
+        }
+      }
+    },
+    {
+      "epoch": "e015",
+      "patients": 10,
+      "mean_seconds": 14.416087682545186,
+      "generation_seconds": 144.16087682545185,
+      "summary_mtime": 1794830734.4353275,
+      "mean": {
+        "volume": {
+          "mae": 0.041530535178301374,
+          "psnr": 23.77526216446862,
+          "ssim": 0.07950629927499571
+        },
+        "bscan2d": {
+          "mae": 0.04153053517830137,
+          "psnr": 23.806332887307768,
+          "ssim": 0.09224826275575841
+        },
+        "ilm_opl_max": {
+          "mae": 0.10132471038834134,
+          "psnr": 17.380094232084307,
+          "ssim": 0.10617079713121544
+        },
+        "opl_bm_max": {
+          "mae": 0.08878828011711398,
+          "psnr": 18.56433426104133,
+          "ssim": 0.11582067994702998
+        },
+        "full_mean": {
+          "mae": 0.013526686398693344,
+          "psnr": 36.54878263166719,
+          "ssim": 0.8274867875588854
+        },
+        "full_max": {
+          "mae": 0.16137280458594666,
+          "psnr": 15.00957777739156,
+          "ssim": 0.11759645025073044
+        },
+        "ilm_opl_mean": {
+          "mae": 0.04389879693798567,
+          "psnr": 24.472748131640436,
+          "ssim": 0.35761043900126543
+        },
+        "opl_bm_mean": {
+          "mae": 0.03441998178192339,
+          "psnr": 26.980130952103025,
+          "ssim": 0.43839940942352956
+        },
+        "ilm_bm_mean": {
+          "mae": 0.03756409167166566,
+          "psnr": 26.13753040719349,
+          "ssim": 0.44598472843443926
+        }
+      }
+    }
+  ],
+  "gpu_acceptance": {
+    "execution": {
+      "checkpoint_mode": "selective",
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "effective_batch": 2,
+      "steady_median_seconds": 4.187590770423412
+    },
+    "inference": {
+      "seconds": 14.89046061038971,
+      "seed": 828278217627229600,
+      "clipped_fraction": 0.4992447533435769,
+      "cuda_peak_allocated_bytes": 6159714816,
+      "cuda_peak_reserved_bytes": 6513754112
+    },
+    "mamba_kernel_parity": {
+      "max_forward_error": 8.940696716308594e-08,
+      "max_input_gradient_error": 9.43837221711874e-08,
+      "bf16_output_dtype": "torch.bfloat16",
+      "bf16_input_gradient_finite": true
+    },
+    "trials": [
+      {
+        "state": "out_of_memory",
+        "checkpoint_mode": "none",
+        "microbatch_size": 2,
+        "cuda_peak_allocated_bytes": 83750929920,
+        "cuda_peak_reserved_bytes": 84376813568
+      },
+      {
+        "state": "passed",
+        "checkpoint_mode": "selective",
+        "microbatch_size": 2,
+        "gradient_accumulation": 1,
+        "effective_batch": 2,
+        "cuda_peak_allocated_bytes": 24761294848,
+        "cuda_peak_reserved_bytes": 26375880704,
+        "warmup_updates": 5,
+        "measured_updates": 20,
+        "seconds": 105.3140954375267,
+        "steady_median_seconds": 4.187590770423412
+      }
+    ]
+  },
+  "log_tail": [
+    "epoch 016 step 140 | loss=0.874359 | 4.19s",
+    "epoch 016 step 160 | loss=0.971222 | 4.20s",
+    "epoch 016 step 180 | loss=0.680354 | 4.20s",
+    "epoch 016 step 200 | loss=1.398131 | 4.20s",
+    "epoch 017 step 001 | loss=1.486661 | 4.19s",
+    "epoch 017 step 020 | loss=1.025737 | 4.19s",
+    "epoch 017 step 040 | loss=0.807498 | 4.19s",
+    "epoch 017 step 060 | loss=1.119693 | 4.19s",
+    "epoch 017 step 080 | loss=1.380832 | 4.19s",
+    "epoch 017 step 100 | loss=0.979084 | 4.19s",
+    "epoch 017 step 120 | loss=0.854974 | 4.20s",
+    "epoch 017 step 140 | loss=0.895399 | 4.19s",
+    "epoch 017 step 160 | loss=1.270530 | 4.19s",
+    "epoch 017 step 180 | loss=1.029338 | 4.20s",
+    "epoch 017 step 200 | loss=0.943631 | 4.19s",
+    "epoch 018 step 001 | loss=1.373281 | 4.20s"
+  ]
+}

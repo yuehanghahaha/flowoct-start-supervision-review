@@ -1,0 +1,53 @@
+{
+  "state": "training",
+  "observed_at": "2026-11-16T16:28:40+08:00",
+  "experiment": "exp172_20261116_fullvolume_rms_mamba_bf16_200e",
+  "server_host": "/home/HPC_USER/experience/exp172_20261116_fullvolume_rms_mamba_bf16_200e",
+  "container_root": "/workspace/experience/exp172_20261116_fullvolume_rms_mamba_bf16_200e",
+  "slot": "slot2",
+  "environment": "lyh_flowoct",
+  "tmux_environment": "lyh_tmux",
+  "session": "exp172_fullvolume_rms_mamba_bf16",
+  "initial_launch": "2026-11-16T16:16:32+08:00",
+  "formal_training_start": "2026-11-16T16:19:10+08:00",
+  "current_status": {
+    "state": "training",
+    "time": "2026-11-16T16:28:27+08:00",
+    "epoch": 1,
+    "update": 100,
+    "committed_epoch": 0,
+    "loss": 1.3457872867584229,
+    "last_update_seconds": 4.187754079699516,
+    "precision": {
+      "tensor_dtype": "float32",
+      "network_autocast_dtype": "bfloat16",
+      "state_loss_ode_dtype": "float32",
+      "tf32_matmul": true,
+      "tf32_cudnn": true,
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false,
+      "amp": true,
+      "gradient_scaling": false
+    },
+    "execution": {
+      "checkpoint_mode": "selective",
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "effective_batch": 2,
+      "steady_median_seconds": 4.187590770423412
+    },
+    "cuda_peak_allocated_bytes": 26756654080,
+    "cuda_peak_reserved_bytes": 28288483328
+  },
+  "latest_saved_update": 100,
+  "latest_checkpoint_bytes": 610356319,
+  "normalization_training_patients": 140,
+  "formal_validation_patients_completed": 0,
+  "formal_test_patients_completed": 0,
+  "full_gpu_check": "passed",
+  "cpu_correctness": "passed",
+  "gpu_pause_resume": "passed",
+  "previous_exp131_stays_stopped": true,
+  "planned_epochs": 200,
+  "planned_updates": 40000
+}

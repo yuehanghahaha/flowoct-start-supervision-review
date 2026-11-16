@@ -1,0 +1,866 @@
+{
+  "state": "passed",
+  "time": "2026-11-16T16:19:09+08:00",
+  "signature": {
+    "sources": {
+      "experiment.json": "20700c06da9df6b4ee43aaefe5d0a1b95a7f86badf5a3714d5075c66c39948cf",
+      "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+      "requirements.txt": "c5f181fd4e86daff6c1d982b1c158f75160906c4f0d6fe749b495f692a64f2dc",
+      "run.py": "bfbe504857015a9d9c69e33810915b947a79b3d42955ce4a31cac4be13d6ba17",
+      "runtime.py": "80668217a5bb2914fa1046d2dcca53b159aed5c60a1fc3f39cc2456532c870b9",
+      "dataset.py": "8cbdf0948e5c8ed86cfaa3cc47dd3de63caa4fbfa59951237911973ee2d06d9c",
+      "metrics.py": "0859c628ca5971ea0ca5e8f201863e9fcdf66f5e441aa4c936df4a8dbd5e9f82",
+      "report.py": "c808cacad0d7e9e6b9faf643c402ab03f77c59d34356f92d053aeb62c7d57fe4",
+      "train.py": "4a0e852ab717b9e66825d007e0f982be6b652a328e6c57501e0dca5cd12544d1",
+      "a100.py": "cbafc863c3f13442767f3e28fd47eaeaa62151c2415bc94c46d099c373bf9e7b",
+      "return_results.py": "aca06c94d7d10b32648bfec5a4c96cfc85ce34205cbb91b9ebb635ee0978ea93",
+      "normalization.py": "106bafeee2fc5e005c14b92afec7826e6b250c48c26ffa4742da07e8306a3996",
+      "diagnostics.py": "337b4543ee2ab4f28d050f12b0b7ef3247b037a64f7449456fd4d4ed81fc4e2f",
+      "runs/slot2/control.py": "09e45285e3a6e7c1e53f8e08cb021e2b3169a504a8c408d85ca08f635c49badf",
+      "verify.py": "c63811fe8a25257ce3c96749e38c6fb89f6dbc8d32f1a6e67932d08dd2bc6042",
+      "verification/reference_scan.py": "837f883bf7cfdf31fad0507d4f55fe263d338e213f331eaa76f27a0dfb25db1c",
+      "fm3d/__init__.py": "25da68c38a799230dfb61371ff570870d4a79b37119efaeefc88b0eb2a5da062",
+      "fm3d/flow.py": "7ee25699680da7f8810c4848769bfbcf0d1858f06f47fdf39ad8954751fe8c53",
+      "fm3d/model.py": "e6dbe4ef74b6d84d754c37c0da907703f199ae9850f2c243b869661493bbd655",
+      "fm3d/projection.py": "d32697f3ee9f41f2c073a9d4b89f9c0143adb0fcfcc56ca072f7e60fde7db233",
+      "fm3d/wavelet.py": "74c86beab41332db88aba707feec2dd09f280071f6573d6578ada75f637e9039"
+    },
+    "deployment_sha256": "44107f5d05fb1e6684b30d8dab6392e0dfd3d027ed0fbc8dafecf9d13864be75",
+    "normalization_sha256": "7f5d462f87545b8db3cb4519e65720d6e63571db31052aea5677fbba39dc70a0"
+  },
+  "runtime": {
+    "device": "cuda:0",
+    "gpu": "NVIDIA A100 80GB PCIe",
+    "memory_bytes": 84974239744,
+    "gpu_uuid": "bf4d4ab0-9a66-029c-9133-d18e80a671fa",
+    "python": "3.10.22",
+    "platform": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.35",
+    "cuda": "12.1",
+    "cudnn": 90100,
+    "deterministic_algorithms": false,
+    "precision": {
+      "tensor_dtype": "float32",
+      "network_autocast_dtype": "bfloat16",
+      "state_loss_ode_dtype": "float32",
+      "tf32_matmul": true,
+      "tf32_cudnn": true,
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false,
+      "amp": true,
+      "gradient_scaling": false
+    },
+    "packages": {
+      "torch": "2.5.1+cu121",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "scikit-image": "0.25.2",
+      "Pillow": "12.3.0",
+      "mamba-ssm": "2.2.4",
+      "causal-conv1d": "1.5.0.post8"
+    }
+  },
+  "case_ids": [
+    "10301",
+    "10303"
+  ],
+  "split": "train",
+  "parameters": {
+    "total": 38109512,
+    "trainable": 38109512,
+    "global_blocks": 36389376,
+    "global_tokens": 46208,
+    "global_scan_calls": 24
+  },
+  "mamba_kernel_parity": {
+    "max_forward_error": 8.940696716308594e-08,
+    "max_input_gradient_error": 9.43837221711874e-08,
+    "bf16_output_dtype": "torch.bfloat16",
+    "bf16_input_gradient_finite": true
+  },
+  "training_trials": [
+    {
+      "state": "out_of_memory",
+      "checkpoint_mode": "none",
+      "microbatch_size": 2,
+      "cuda_peak_allocated_bytes": 83750929920,
+      "cuda_peak_reserved_bytes": 84376813568
+    },
+    {
+      "state": "passed",
+      "checkpoint_mode": "selective",
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "effective_batch": 2,
+      "cuda_peak_allocated_bytes": 24761294848,
+      "cuda_peak_reserved_bytes": 26375880704,
+      "warmup_updates": 5,
+      "measured_updates": 20,
+      "seconds": 105.3140954375267,
+      "steady_median_seconds": 4.187590770423412,
+      "updates": [
+        {
+          "loss": 1.9864156246185303,
+          "velocity_low": 1.808932900428772,
+          "velocity_detail": 1.799492597579956,
+          "velocity": 1.8006726503372192,
+          "endpoint_mae": 0.47736188769340515,
+          "endpoint_ilm_opl_mip": 0.6985077857971191,
+          "endpoint_opl_bm_mip": 0.6646122336387634,
+          "update": 1,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            1878116749223355287,
+            6654788243226171461
+          ],
+          "lr": 5.0000000000000004e-08,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7107434868812561,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.758742406964302
+        },
+        {
+          "loss": 1.5649455785751343,
+          "velocity_low": 1.4471843242645264,
+          "velocity_detail": 1.4438090324401855,
+          "velocity": 1.4442309141159058,
+          "endpoint_mae": 0.302763968706131,
+          "endpoint_ilm_opl_mip": 0.4548795819282532,
+          "endpoint_opl_bm_mip": 0.44412559270858765,
+          "update": 2,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            8218736268102854312,
+            2336926194323507266
+          ],
+          "lr": 1.0000000000000001e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6037527322769165,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.204308822751045
+        },
+        {
+          "loss": 1.9369533061981201,
+          "velocity_low": 1.8157471418380737,
+          "velocity_detail": 1.8104850053787231,
+          "velocity": 1.8111428022384644,
+          "endpoint_mae": 0.40685492753982544,
+          "endpoint_ilm_opl_mip": 0.4297564625740051,
+          "endpoint_opl_bm_mip": 0.41323012113571167,
+          "update": 3,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            5556753950569988939,
+            7738789024228504030
+          ],
+          "lr": 1.5000000000000002e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6464059948921204,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.186573088169098
+        },
+        {
+          "loss": 1.0711923837661743,
+          "velocity_low": 1.0672616958618164,
+          "velocity_detail": 1.0669044256210327,
+          "velocity": 1.0669491291046143,
+          "endpoint_mae": 0.026558849960565567,
+          "endpoint_ilm_opl_mip": 0.007712130434811115,
+          "endpoint_opl_bm_mip": 0.008612571284174919,
+          "update": 4,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            7690970594443561467,
+            8767540858781617869
+          ],
+          "lr": 2.0000000000000002e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.018681099638342857,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187268778681755
+        },
+        {
+          "loss": 1.986517310142517,
+          "velocity_low": 1.8072149753570557,
+          "velocity_detail": 1.7998273372650146,
+          "velocity": 1.800750732421875,
+          "endpoint_mae": 0.4773353338241577,
+          "endpoint_ilm_opl_mip": 0.6985911726951599,
+          "endpoint_opl_bm_mip": 0.6648867130279541,
+          "update": 5,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            1186902128013424298,
+            1276805173762789772
+          ],
+          "lr": 2.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7103034853935242,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.184288680553436
+        },
+        {
+          "loss": 1.5650591850280762,
+          "velocity_low": 1.4465296268463135,
+          "velocity_detail": 1.4440478086471558,
+          "velocity": 1.444357991218567,
+          "endpoint_mae": 0.30274781584739685,
+          "endpoint_ilm_opl_mip": 0.4547826945781708,
+          "endpoint_opl_bm_mip": 0.444181352853775,
+          "update": 6,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            1065246886303400973,
+            3834285575935210168
+          ],
+          "lr": 3.0000000000000004e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.603978157043457,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.18601880967617
+        },
+        {
+          "loss": 1.9368598461151123,
+          "velocity_low": 1.8147501945495605,
+          "velocity_detail": 1.810598611831665,
+          "velocity": 1.8111175298690796,
+          "endpoint_mae": 0.4067395329475403,
+          "endpoint_ilm_opl_mip": 0.429325670003891,
+          "endpoint_opl_bm_mip": 0.4133896827697754,
+          "update": 7,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            2321773138399595566,
+            6816118025715290991
+          ],
+          "lr": 3.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6462946534156799,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187041416764259
+        },
+        {
+          "loss": 1.0709385871887207,
+          "velocity_low": 1.0669810771942139,
+          "velocity_detail": 1.0666553974151611,
+          "velocity": 1.0666961669921875,
+          "endpoint_mae": 0.026555195450782776,
+          "endpoint_ilm_opl_mip": 0.007722592446953058,
+          "endpoint_opl_bm_mip": 0.008569483645260334,
+          "update": 8,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            5283788142012861157,
+            6584314522407640184
+          ],
+          "lr": 4.0000000000000003e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.019801074638962746,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187784031033516
+        },
+        {
+          "loss": 1.986891508102417,
+          "velocity_low": 1.808652400970459,
+          "velocity_detail": 1.8001189231872559,
+          "velocity": 1.8011856079101562,
+          "endpoint_mae": 0.4772942066192627,
+          "endpoint_ilm_opl_mip": 0.698278546333313,
+          "endpoint_opl_bm_mip": 0.6646966934204102,
+          "update": 9,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            2978674949420574286,
+            3588153161651965341
+          ],
+          "lr": 4.5000000000000003e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7105935215950012,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.1874304711818695
+        },
+        {
+          "loss": 1.5648057460784912,
+          "velocity_low": 1.4474155902862549,
+          "velocity_detail": 1.4436144828796387,
+          "velocity": 1.444089651107788,
+          "endpoint_mae": 0.30275171995162964,
+          "endpoint_ilm_opl_mip": 0.45491257309913635,
+          "endpoint_opl_bm_mip": 0.44408145546913147,
+          "update": 10,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            866025806266825838,
+            4042773779768808942
+          ],
+          "lr": 5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6028851866722107,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.1868806183338165
+        },
+        {
+          "loss": 1.93645441532135,
+          "velocity_low": 1.814171552658081,
+          "velocity_detail": 1.8101723194122314,
+          "velocity": 1.8106722831726074,
+          "endpoint_mae": 0.40675634145736694,
+          "endpoint_ilm_opl_mip": 0.42975419759750366,
+          "endpoint_opl_bm_mip": 0.4128658175468445,
+          "update": 11,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            960553763987882982,
+            4536449669781050100
+          ],
+          "lr": 5.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6458697319030762,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.183940097689629
+        },
+        {
+          "loss": 1.071022391319275,
+          "velocity_low": 1.0668601989746094,
+          "velocity_detail": 1.066769003868103,
+          "velocity": 1.0667803287506104,
+          "endpoint_mae": 0.026557359844446182,
+          "endpoint_ilm_opl_mip": 0.007722535636276007,
+          "endpoint_opl_bm_mip": 0.008557168766856194,
+          "update": 12,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            3374967645472864953,
+            8771925481908118470
+          ],
+          "lr": 6.000000000000001e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.019073983654379845,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.186322703957558
+        },
+        {
+          "loss": 1.986890435218811,
+          "velocity_low": 1.8091654777526855,
+          "velocity_detail": 1.7999756336212158,
+          "velocity": 1.8011243343353271,
+          "endpoint_mae": 0.47745630145072937,
+          "endpoint_ilm_opl_mip": 0.6986649632453918,
+          "endpoint_opl_bm_mip": 0.6644159555435181,
+          "update": 13,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            8419256503619339304,
+            3483891419175590013
+          ],
+          "lr": 6.500000000000001e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7127234935760498,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187549293041229
+        },
+        {
+          "loss": 1.565071940422058,
+          "velocity_low": 1.4459714889526367,
+          "velocity_detail": 1.4441606998443604,
+          "velocity": 1.4443869590759277,
+          "endpoint_mae": 0.30272430181503296,
+          "endpoint_ilm_opl_mip": 0.45473232865333557,
+          "endpoint_opl_bm_mip": 0.44405263662338257,
+          "update": 14,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            7959075308867139891,
+            3665417050290695922
+          ],
+          "lr": 7e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.602741003036499,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.186319440603256
+        },
+        {
+          "loss": 1.9368561506271362,
+          "velocity_low": 1.8141396045684814,
+          "velocity_detail": 1.8106880187988281,
+          "velocity": 1.8111194372177124,
+          "endpoint_mae": 0.40680235624313354,
+          "endpoint_ilm_opl_mip": 0.4293111562728882,
+          "endpoint_opl_bm_mip": 0.41319596767425537,
+          "update": 15,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            3127069065151266612,
+            6156902643512935284
+          ],
+          "lr": 7.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6467189192771912,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187052965164185
+        },
+        {
+          "loss": 1.0718517303466797,
+          "velocity_low": 1.0681747198104858,
+          "velocity_detail": 1.0675245523452759,
+          "velocity": 1.06760573387146,
+          "endpoint_mae": 0.02657019905745983,
+          "endpoint_ilm_opl_mip": 0.007735542953014374,
+          "endpoint_opl_bm_mip": 0.008570332080125809,
+          "update": 16,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            6562979705476448355,
+            3888580839484362238
+          ],
+          "lr": 8.000000000000001e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.019279876723885536,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.1904022097587585
+        },
+        {
+          "loss": 1.986328125,
+          "velocity_low": 1.8078747987747192,
+          "velocity_detail": 1.7995481491088867,
+          "velocity": 1.8005889654159546,
+          "endpoint_mae": 0.4772603213787079,
+          "endpoint_ilm_opl_mip": 0.6985563039779663,
+          "endpoint_opl_bm_mip": 0.6645934581756592,
+          "update": 17,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            1985932614211460034,
+            2845433993014088733
+          ],
+          "lr": 8.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7107471823692322,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.188088193535805
+        },
+        {
+          "loss": 1.5647921562194824,
+          "velocity_low": 1.4468140602111816,
+          "velocity_detail": 1.4437172412872314,
+          "velocity": 1.4441043138504028,
+          "endpoint_mae": 0.3027355968952179,
+          "endpoint_ilm_opl_mip": 0.45474812388420105,
+          "endpoint_opl_bm_mip": 0.44404345750808716,
+          "update": 18,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            8403791668632084603,
+            6905063323918499669
+          ],
+          "lr": 9.000000000000001e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6044695377349854,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.187632247805595
+        },
+        {
+          "loss": 1.9375579357147217,
+          "velocity_low": 1.8148603439331055,
+          "velocity_detail": 1.8113512992858887,
+          "velocity": 1.811789870262146,
+          "endpoint_mae": 0.406846821308136,
+          "endpoint_ilm_opl_mip": 0.42950883507728577,
+          "endpoint_opl_bm_mip": 0.4131423532962799,
+          "update": 19,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            6701836047067206911,
+            180813736095068830
+          ],
+          "lr": 9.5e-07,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6463208198547363,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.186224490404129
+        },
+        {
+          "loss": 1.0711783170700073,
+          "velocity_low": 1.0673993825912476,
+          "velocity_detail": 1.0668754577636719,
+          "velocity": 1.0669409036636353,
+          "endpoint_mae": 0.02656538039445877,
+          "endpoint_ilm_opl_mip": 0.007697824854403734,
+          "endpoint_opl_bm_mip": 0.00852402113378048,
+          "update": 20,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            2569200450622907530,
+            2380745939138959038
+          ],
+          "lr": 1e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.018811538815498352,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.190524831414223
+        },
+        {
+          "loss": 1.9863721132278442,
+          "velocity_low": 1.8087992668151855,
+          "velocity_detail": 1.7994036674499512,
+          "velocity": 1.8005781173706055,
+          "endpoint_mae": 0.47747108340263367,
+          "endpoint_ilm_opl_mip": 0.698698878288269,
+          "endpoint_opl_bm_mip": 0.6648420691490173,
+          "update": 21,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            3140548978254116974,
+            6159034662741509314
+          ],
+          "lr": 1.0500000000000001e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7132834196090698,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.190845474600792
+        },
+        {
+          "loss": 1.5646264553070068,
+          "velocity_low": 1.446075439453125,
+          "velocity_detail": 1.4436686038970947,
+          "velocity": 1.443969488143921,
+          "endpoint_mae": 0.30266955494880676,
+          "endpoint_ilm_opl_mip": 0.4546188414096832,
+          "endpoint_opl_bm_mip": 0.44394293427467346,
+          "update": 22,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.125,
+            0.875
+          ],
+          "noise_seeds": [
+            1335170984096174907,
+            2812577044493175675
+          ],
+          "lr": 1.1e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6034778952598572,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.190258473157883
+        },
+        {
+          "loss": 1.9370644092559814,
+          "velocity_low": 1.813471794128418,
+          "velocity_detail": 1.8110318183898926,
+          "velocity": 1.8113367557525635,
+          "endpoint_mae": 0.4067307114601135,
+          "endpoint_ilm_opl_mip": 0.42936956882476807,
+          "endpoint_opl_bm_mip": 0.4129818081855774,
+          "update": 23,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.25,
+            0.75
+          ],
+          "noise_seeds": [
+            4810311568701866342,
+            7854357247288423884
+          ],
+          "lr": 1.15e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.6484540700912476,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.189424529671669
+        },
+        {
+          "loss": 1.0713179111480713,
+          "velocity_low": 1.0672248601913452,
+          "velocity_detail": 1.0670570135116577,
+          "velocity": 1.0670779943466187,
+          "endpoint_mae": 0.026551516726613045,
+          "endpoint_ilm_opl_mip": 0.007699707988649607,
+          "endpoint_opl_bm_mip": 0.008594474755227566,
+          "update": 24,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.9375,
+            0.99999
+          ],
+          "noise_seeds": [
+            7415658534026283119,
+            1040087813735731738
+          ],
+          "lr": 1.2000000000000002e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.01816500909626484,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.189865410327911
+        },
+        {
+          "loss": 1.9865868091583252,
+          "velocity_low": 1.808967113494873,
+          "velocity_detail": 1.799697756767273,
+          "velocity": 1.800856351852417,
+          "endpoint_mae": 0.47742974758148193,
+          "endpoint_ilm_opl_mip": 0.6982287764549255,
+          "endpoint_opl_bm_mip": 0.6650630831718445,
+          "update": 25,
+          "case_ids": [
+            "10301",
+            "10303"
+          ],
+          "times": [
+            0.0,
+            0.5
+          ],
+          "noise_seeds": [
+            7128993213872968724,
+            8834179554806012105
+          ],
+          "lr": 1.25e-06,
+          "auxiliary_factor": 1.0,
+          "grad_norm": 0.7134683728218079,
+          "microbatch_size": 2,
+          "gradient_accumulation": 1,
+          "seconds": 4.1894842982292175
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "checkpoint_mode": "selective",
+    "microbatch_size": 2,
+    "gradient_accumulation": 1,
+    "effective_batch": 2,
+    "steady_median_seconds": 4.187590770423412
+  },
+  "inference": {
+    "seconds": 14.89046061038971,
+    "seed": 828278217627229546,
+    "clipped_fraction": 0.4992447533435769,
+    "cuda_peak_allocated_bytes": 6159714816,
+    "cuda_peak_reserved_bytes": 6513754112
+  },
+  "entrypoint_metric_checks": {
+    "volume": {
+      "mae": 0.042284050722208255,
+      "psnr": 22.453824870575197,
+      "ssim": 0.0853903215840321
+    },
+    "bscan2d": {
+      "mae": 0.042284050722208255,
+      "psnr": 22.491463954855973,
+      "ssim": 0.11175932449817096
+    },
+    "ilm_opl_max": {
+      "mae": 0.11454880162863797,
+      "psnr": 16.4898546743756,
+      "ssim": 0.08069952056716571
+    },
+    "opl_bm_max": {
+      "mae": 0.09659991776079918,
+      "psnr": 17.726750283406687,
+      "ssim": 0.09587893543901357
+    },
+    "full_mean": {
+      "mae": 0.007173568976858534,
+      "psnr": 40.85271213605597,
+      "ssim": 0.9258632741770837
+    },
+    "full_max": {
+      "mae": 0.17973600326589995,
+      "psnr": 14.036237950749324,
+      "ssim": 0.11010466169166372
+    },
+    "ilm_opl_mean": {
+      "mae": 0.06158908333236785,
+      "psnr": 22.000163432478907,
+      "ssim": 0.22081899308915112
+    },
+    "opl_bm_mean": {
+      "mae": 0.04771877336291615,
+      "psnr": 24.383003026723262,
+      "ssim": 0.30344125674493994
+    },
+    "ilm_bm_mean": {
+      "mae": 0.05412118570387637,
+      "psnr": 23.41183716946294,
+      "ssim": 0.2966601428718065
+    }
+  },
+  "formal_updates": 0
+}

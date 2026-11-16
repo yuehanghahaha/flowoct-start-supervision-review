@@ -1,0 +1,38 @@
+{
+  "parent": "exp131_20261111_haar_axialmamba_a100_200e",
+  "created": "2026-11-16",
+  "parent_source_sha256": {
+    "membership.json": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+    "metrics.py": "0859c628ca5971ea0ca5e8f201863e9fcdf66f5e441aa4c936df4a8dbd5e9f82",
+    "fm3d/wavelet.py": "74c86beab41332db88aba707feec2dd09f280071f6573d6578ada75f637e9039",
+    "fm3d/projection.py": "d32697f3ee9f41f2c073a9d4b89f9c0143adb0fcfcc56ca072f7e60fde7db233",
+    "runtime.py": "8dd0c8e309793114ab1563c25fa2af9d5f23045d13e56631acfe74d9a6d683fe",
+    "dataset.py": "732e56f96806e2801dc93f304c9d2b2f1551037be57929a773964e5961f6c6ee",
+    "report.py": "c808cacad0d7e9e6b9faf643c402ab03f77c59d34356f92d053aeb62c7d57fe4",
+    "train.py": "11adf93e4ff4a52da28aff2b93d3fe8d624885dc13ee639142d0cca42c97e342",
+    "run.py": "ddba40da0ffa8546de3bae5921b7a24e64638d276e73aebebac20b937bedaa00",
+    "a100.py": "9ee2d520eb17f6e0291d92887d908188be4921619eb812a59e876a4d333b9095",
+    "return_results.py": "c58bf7eee309d75794d7a9aea85d5f574840e2e38732e6d82c0cc066d7b6a634",
+    "verification/reference_scan.py": "837f883bf7cfdf31fad0507d4f55fe263d338e213f331eaa76f27a0dfb25db1c",
+    "runs/slot2/control.py": "4cc50e1af7f431d151ea34197a41edf30cff34dbddd509bb2fb01feda392b657"
+  },
+  "unchanged": [
+    "membership.json",
+    "metrics.py",
+    "fm3d/wavelet.py",
+    "fm3d/projection.py",
+    "verification/reference_scan.py"
+  ],
+  "precision_change": "User requested BF16 mixed precision; FP32 parameters/optimizer/EMA/state/loss; TF32 allowed.",
+  "scientific_changes": [
+    "whole-volume eight-band training",
+    "training-only per-band RMS",
+    "analytic Gaussian velocity residual",
+    "38.1M CNN axial Mamba",
+    "effective batch 2",
+    "25 percent exact t=0",
+    "all-time endpoint auxiliaries"
+  ],
+  "references_document": "PROVENANCE.md",
+  "original_design": "provenance/design_20261116.md"
+}

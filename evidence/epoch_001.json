@@ -1,0 +1,5611 @@
+{
+  "epoch": 1,
+  "updates": 200,
+  "last_update": 200,
+  "mean_loss": 1.4502916046977044,
+  "seconds": 872.2812621444464,
+  "steps": [
+    {
+      "loss": 1.1840593814849854,
+      "velocity_low": 1.197412371635437,
+      "velocity_detail": 1.1819243431091309,
+      "velocity": 1.183860421180725,
+      "endpoint_mae": 0.42010921239852905,
+      "endpoint_ilm_opl_mip": 0.7783390283584595,
+      "endpoint_opl_bm_mip": 0.8053975105285645,
+      "update": 1,
+      "case_ids": [
+        "10462",
+        "10397"
+      ],
+      "times": [
+        0.06707315146923065,
+        0.10835327208042145
+      ],
+      "noise_seeds": [
+        4182829600531122982,
+        8409410037005701852
+      ],
+      "lr": 5.0000000000000004e-08,
+      "auxiliary_factor": 0.001,
+      "grad_norm": 0.6171165108680725,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 12.025180041790009
+    },
+    {
+      "loss": 1.2584123611450195,
+      "velocity_low": 1.2140147686004639,
+      "velocity_detail": 1.264541745185852,
+      "velocity": 1.258225917816162,
+      "endpoint_mae": 0.2588548958301544,
+      "endpoint_ilm_opl_mip": 0.3355001211166382,
+      "endpoint_opl_bm_mip": 0.340537965297699,
+      "update": 2,
+      "case_ids": [
+        "10308",
+        "10487"
+      ],
+      "times": [
+        0.9505013823509216,
+        0.24717110395431519
+      ],
+      "noise_seeds": [
+        8368482614383309785,
+        7192146412908326163
+      ],
+      "lr": 1.0000000000000001e-07,
+      "auxiliary_factor": 0.002,
+      "grad_norm": 0.2966410219669342,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188149228692055
+    },
+    {
+      "loss": 1.1328423023223877,
+      "velocity_low": 1.0258502960205078,
+      "velocity_detail": 1.147390604019165,
+      "velocity": 1.1321979761123657,
+      "endpoint_mae": 0.3564138412475586,
+      "endpoint_ilm_opl_mip": 0.8975257873535156,
+      "endpoint_opl_bm_mip": 0.8902608156204224,
+      "update": 3,
+      "case_ids": [
+        "10344",
+        "10401"
+      ],
+      "times": [
+        0.0,
+        0.06204669922590256
+      ],
+      "noise_seeds": [
+        3223193497670557333,
+        935578923074781326
+      ],
+      "lr": 1.5000000000000002e-07,
+      "auxiliary_factor": 0.003,
+      "grad_norm": 0.5397092700004578,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191918209195137
+    },
+    {
+      "loss": 2.145411252975464,
+      "velocity_low": 2.074831485748291,
+      "velocity_detail": 2.1548657417297363,
+      "velocity": 2.1448612213134766,
+      "endpoint_mae": 0.5155104994773865,
+      "endpoint_ilm_opl_mip": 0.42180100083351135,
+      "endpoint_opl_bm_mip": 0.45378372073173523,
+      "update": 4,
+      "case_ids": [
+        "10320",
+        "10354"
+      ],
+      "times": [
+        0.4099600911140442,
+        0.5583381652832031
+      ],
+      "noise_seeds": [
+        8995382559597629077,
+        8551163185324100514
+      ],
+      "lr": 2.0000000000000002e-07,
+      "auxiliary_factor": 0.004,
+      "grad_norm": 0.49985384941101074,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189714133739471
+    },
+    {
+      "loss": 1.520694375038147,
+      "velocity_low": 1.3683611154556274,
+      "velocity_detail": 1.5417951345443726,
+      "velocity": 1.520115852355957,
+      "endpoint_mae": 0.42455193400382996,
+      "endpoint_ilm_opl_mip": 0.3575666546821594,
+      "endpoint_opl_bm_mip": 0.39215320348739624,
+      "update": 5,
+      "case_ids": [
+        "10345",
+        "10439"
+      ],
+      "times": [
+        0.5676860809326172,
+        0.25043705105781555
+      ],
+      "noise_seeds": [
+        9186708396601884619,
+        6211143907931986271
+      ],
+      "lr": 2.5e-07,
+      "auxiliary_factor": 0.005,
+      "grad_norm": 0.37688586115837097,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189095541834831
+    },
+    {
+      "loss": 0.79898601770401,
+      "velocity_low": 0.7585558891296387,
+      "velocity_detail": 0.8036079406738281,
+      "velocity": 0.7979764342308044,
+      "endpoint_mae": 0.3161177933216095,
+      "endpoint_ilm_opl_mip": 0.6935077905654907,
+      "endpoint_opl_bm_mip": 0.6525301337242126,
+      "update": 6,
+      "case_ids": [
+        "10388",
+        "10457"
+      ],
+      "times": [
+        0.0,
+        0.07822803407907486
+      ],
+      "noise_seeds": [
+        5551952888915071592,
+        7715628552428275822
+      ],
+      "lr": 3.0000000000000004e-07,
+      "auxiliary_factor": 0.006,
+      "grad_norm": 0.46865832805633545,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19741278886795
+    },
+    {
+      "loss": 1.7868750095367432,
+      "velocity_low": 1.8456331491470337,
+      "velocity_detail": 1.7769439220428467,
+      "velocity": 1.7855300903320312,
+      "endpoint_mae": 0.4913472533226013,
+      "endpoint_ilm_opl_mip": 0.6993968486785889,
+      "endpoint_opl_bm_mip": 0.761681079864502,
+      "update": 7,
+      "case_ids": [
+        "10304",
+        "10382"
+      ],
+      "times": [
+        0.46711134910583496,
+        0.0
+      ],
+      "noise_seeds": [
+        1616117530275007057,
+        3387182258903505858
+      ],
+      "lr": 3.5e-07,
+      "auxiliary_factor": 0.007,
+      "grad_norm": 0.611329972743988,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191092252731323
+    },
+    {
+      "loss": 1.374319076538086,
+      "velocity_low": 1.331656813621521,
+      "velocity_detail": 1.3789654970169067,
+      "velocity": 1.3730518817901611,
+      "endpoint_mae": 0.4139763414859772,
+      "endpoint_ilm_opl_mip": 0.5884774327278137,
+      "endpoint_opl_bm_mip": 0.5741548538208008,
+      "update": 8,
+      "case_ids": [
+        "10486",
+        "10324"
+      ],
+      "times": [
+        0.4031148850917816,
+        0.013150311075150967
+      ],
+      "noise_seeds": [
+        4100361900422763368,
+        7451520323097999997
+      ],
+      "lr": 4.0000000000000003e-07,
+      "auxiliary_factor": 0.008,
+      "grad_norm": 0.5074347257614136,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191373914480209
+    },
+    {
+      "loss": 1.2603193521499634,
+      "velocity_low": 1.256967306137085,
+      "velocity_detail": 1.2594575881958008,
+      "velocity": 1.2591464519500732,
+      "endpoint_mae": 0.2571614682674408,
+      "endpoint_ilm_opl_mip": 0.525542676448822,
+      "endpoint_opl_bm_mip": 0.5155493021011353,
+      "update": 9,
+      "case_ids": [
+        "10336",
+        "10409"
+      ],
+      "times": [
+        0.8674721717834473,
+        0.0
+      ],
+      "noise_seeds": [
+        1029027303874405633,
+        2889200057678472513
+      ],
+      "lr": 4.5000000000000003e-07,
+      "auxiliary_factor": 0.009,
+      "grad_norm": 0.3373894989490509,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188038066029549
+    },
+    {
+      "loss": 1.3919775485992432,
+      "velocity_low": 1.3910552263259888,
+      "velocity_detail": 1.3907463550567627,
+      "velocity": 1.3907849788665771,
+      "endpoint_mae": 0.29731062054634094,
+      "endpoint_ilm_opl_mip": 0.45733174681663513,
+      "endpoint_opl_bm_mip": 0.41835054755210876,
+      "update": 10,
+      "case_ids": [
+        "10451",
+        "10407"
+      ],
+      "times": [
+        0.8898552656173706,
+        0.14005392789840698
+      ],
+      "noise_seeds": [
+        5043937964491391576,
+        1546636950075083144
+      ],
+      "lr": 5e-07,
+      "auxiliary_factor": 0.01,
+      "grad_norm": 0.38488227128982544,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.2071263790130615
+    },
+    {
+      "loss": 1.0442988872528076,
+      "velocity_low": 0.9762884378433228,
+      "velocity_detail": 1.0526896715164185,
+      "velocity": 1.0431394577026367,
+      "endpoint_mae": 0.1916050910949707,
+      "endpoint_ilm_opl_mip": 0.4221801161766052,
+      "endpoint_opl_bm_mip": 0.45807504653930664,
+      "update": 11,
+      "case_ids": [
+        "10366",
+        "10340"
+      ],
+      "times": [
+        0.0,
+        0.8845155239105225
+      ],
+      "noise_seeds": [
+        7244211832051435626,
+        1609637134573781661
+      ],
+      "lr": 5.5e-07,
+      "auxiliary_factor": 0.011,
+      "grad_norm": 0.24656260013580322,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1908106207847595
+    },
+    {
+      "loss": 1.3287255764007568,
+      "velocity_low": 1.5068511962890625,
+      "velocity_detail": 1.3009454011917114,
+      "velocity": 1.326683521270752,
+      "endpoint_mae": 0.4580163359642029,
+      "endpoint_ilm_opl_mip": 0.6281167268753052,
+      "endpoint_opl_bm_mip": 0.6029911637306213,
+      "update": 12,
+      "case_ids": [
+        "10466",
+        "10371"
+      ],
+      "times": [
+        0.3959899842739105,
+        0.0
+      ],
+      "noise_seeds": [
+        2070777047335030310,
+        4948670903280906375
+      ],
+      "lr": 6.000000000000001e-07,
+      "auxiliary_factor": 0.012,
+      "grad_norm": 0.5693062543869019,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.18971049785614
+    },
+    {
+      "loss": 1.276437759399414,
+      "velocity_low": 1.2928695678710938,
+      "velocity_detail": 1.2709903717041016,
+      "velocity": 1.2737252712249756,
+      "endpoint_mae": 0.43356603384017944,
+      "endpoint_ilm_opl_mip": 0.8438835144042969,
+      "endpoint_opl_bm_mip": 0.7743333578109741,
+      "update": 13,
+      "case_ids": [
+        "10312",
+        "10315"
+      ],
+      "times": [
+        0.17992714047431946,
+        0.03501805290579796
+      ],
+      "noise_seeds": [
+        5889705295788158268,
+        5260105426416640645
+      ],
+      "lr": 6.500000000000001e-07,
+      "auxiliary_factor": 0.013,
+      "grad_norm": 0.6222693920135498,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183997079730034
+    },
+    {
+      "loss": 1.6167926788330078,
+      "velocity_low": 1.6361030340194702,
+      "velocity_detail": 1.6115026473999023,
+      "velocity": 1.6145776510238647,
+      "endpoint_mae": 0.43798184394836426,
+      "endpoint_ilm_opl_mip": 0.5507960915565491,
+      "endpoint_opl_bm_mip": 0.6358922123908997,
+      "update": 14,
+      "case_ids": [
+        "10369",
+        "10418"
+      ],
+      "times": [
+        0.0,
+        0.5697500109672546
+      ],
+      "noise_seeds": [
+        1533883953099991618,
+        2378013334141235146
+      ],
+      "lr": 7e-07,
+      "auxiliary_factor": 0.014,
+      "grad_norm": 0.5151258111000061,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.185635909438133
+    },
+    {
+      "loss": 1.7889349460601807,
+      "velocity_low": 1.7581826448440552,
+      "velocity_detail": 1.790834665298462,
+      "velocity": 1.7867530584335327,
+      "endpoint_mae": 0.5047752261161804,
+      "endpoint_ilm_opl_mip": 0.4668900966644287,
+      "endpoint_opl_bm_mip": 0.498942494392395,
+      "update": 15,
+      "case_ids": [
+        "10492",
+        "10348"
+      ],
+      "times": [
+        0.28099268674850464,
+        0.5223785042762756
+      ],
+      "noise_seeds": [
+        6200557526687809929,
+        8467046789154009390
+      ],
+      "lr": 7.5e-07,
+      "auxiliary_factor": 0.015,
+      "grad_norm": 0.5313406586647034,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.204753533005714
+    },
+    {
+      "loss": 1.2446236610412598,
+      "velocity_low": 1.3030004501342773,
+      "velocity_detail": 1.2340086698532104,
+      "velocity": 1.2426326274871826,
+      "endpoint_mae": 0.29087722301483154,
+      "endpoint_ilm_opl_mip": 0.46302226185798645,
+      "endpoint_opl_bm_mip": 0.5180613398551941,
+      "update": 16,
+      "case_ids": [
+        "10329",
+        "10435"
+      ],
+      "times": [
+        0.8015180826187134,
+        0.0
+      ],
+      "noise_seeds": [
+        4637996891699143311,
+        3803247011860135761
+      ],
+      "lr": 8.000000000000001e-07,
+      "auxiliary_factor": 0.016,
+      "grad_norm": 0.36615607142448425,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192920446395874
+    },
+    {
+      "loss": 1.3796929121017456,
+      "velocity_low": 1.2662074565887451,
+      "velocity_detail": 1.3932068347930908,
+      "velocity": 1.3773318529129028,
+      "endpoint_mae": 0.30703598260879517,
+      "endpoint_ilm_opl_mip": 0.5414960980415344,
+      "endpoint_opl_bm_mip": 0.539145290851593,
+      "update": 17,
+      "case_ids": [
+        "10450",
+        "10372"
+      ],
+      "times": [
+        0.0,
+        0.747071385383606
+      ],
+      "noise_seeds": [
+        283635514941560580,
+        8964405659429248709
+      ],
+      "lr": 8.5e-07,
+      "auxiliary_factor": 0.017,
+      "grad_norm": 0.3588523268699646,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190027579665184
+    },
+    {
+      "loss": 1.3338650465011597,
+      "velocity_low": 1.4889063835144043,
+      "velocity_detail": 1.308895468711853,
+      "velocity": 1.3313968181610107,
+      "endpoint_mae": 0.2780451476573944,
+      "endpoint_ilm_opl_mip": 0.5555513501167297,
+      "endpoint_opl_bm_mip": 0.5196711421012878,
+      "update": 18,
+      "case_ids": [
+        "10493",
+        "10368"
+      ],
+      "times": [
+        0.9753034710884094,
+        0.0
+      ],
+      "noise_seeds": [
+        5746700504088770001,
+        4166363560095125154
+      ],
+      "lr": 9.000000000000001e-07,
+      "auxiliary_factor": 0.018,
+      "grad_norm": 0.4222119450569153,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186761900782585
+    },
+    {
+      "loss": 1.0547891855239868,
+      "velocity_low": 1.0348918437957764,
+      "velocity_detail": 1.0555241107940674,
+      "velocity": 1.0529451370239258,
+      "endpoint_mae": 0.21558810770511627,
+      "endpoint_ilm_opl_mip": 0.3960312306880951,
+      "endpoint_opl_bm_mip": 0.32180526852607727,
+      "update": 19,
+      "case_ids": [
+        "10479",
+        "10432"
+      ],
+      "times": [
+        0.11885514110326767,
+        0.9430976510047913
+      ],
+      "noise_seeds": [
+        6659892668663515722,
+        3345089637195936897
+      ],
+      "lr": 9.5e-07,
+      "auxiliary_factor": 0.019,
+      "grad_norm": 0.2792101800441742,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19602607190609
+    },
+    {
+      "loss": 1.175404667854309,
+      "velocity_low": 1.1227071285247803,
+      "velocity_detail": 1.18016517162323,
+      "velocity": 1.172982931137085,
+      "endpoint_mae": 0.20226016640663147,
+      "endpoint_ilm_opl_mip": 0.4792214632034302,
+      "endpoint_opl_bm_mip": 0.579569399356842,
+      "update": 20,
+      "case_ids": [
+        "10473",
+        "10402"
+      ],
+      "times": [
+        0.0,
+        0.927541971206665
+      ],
+      "noise_seeds": [
+        6708598157168418228,
+        2355288923486169222
+      ],
+      "lr": 1e-06,
+      "auxiliary_factor": 0.02,
+      "grad_norm": 0.28194117546081543,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191317111253738
+    },
+    {
+      "loss": 1.2930066585540771,
+      "velocity_low": 1.2428252696990967,
+      "velocity_detail": 1.2967536449432373,
+      "velocity": 1.2900125980377197,
+      "endpoint_mae": 0.3902014493942261,
+      "endpoint_ilm_opl_mip": 0.5237774848937988,
+      "endpoint_opl_bm_mip": 0.49975985288619995,
+      "update": 21,
+      "case_ids": [
+        "10360",
+        "10412"
+      ],
+      "times": [
+        0.0,
+        0.4638555645942688
+      ],
+      "noise_seeds": [
+        3083294891282203665,
+        3068537223283795253
+      ],
+      "lr": 1.0500000000000001e-06,
+      "auxiliary_factor": 0.021,
+      "grad_norm": 0.44728121161460876,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.201582849025726
+    },
+    {
+      "loss": 1.4093847274780273,
+      "velocity_low": 1.3795615434646606,
+      "velocity_detail": 1.4119441509246826,
+      "velocity": 1.4078962802886963,
+      "endpoint_mae": 0.2996446192264557,
+      "endpoint_ilm_opl_mip": 0.19117045402526855,
+      "endpoint_opl_bm_mip": 0.18030740320682526,
+      "update": 22,
+      "case_ids": [
+        "10468",
+        "10459"
+      ],
+      "times": [
+        0.44652900099754333,
+        0.8810266256332397
+      ],
+      "noise_seeds": [
+        6833557296171524064,
+        6194081073184902891
+      ],
+      "lr": 1.1e-06,
+      "auxiliary_factor": 0.022,
+      "grad_norm": 0.2593531906604767,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190036818385124
+    },
+    {
+      "loss": 1.666240930557251,
+      "velocity_low": 1.5900626182556152,
+      "velocity_detail": 1.6735987663269043,
+      "velocity": 1.6631567478179932,
+      "endpoint_mae": 0.3879455029964447,
+      "endpoint_ilm_opl_mip": 0.48452773690223694,
+      "endpoint_opl_bm_mip": 0.45234909653663635,
+      "update": 23,
+      "case_ids": [
+        "10438",
+        "10455"
+      ],
+      "times": [
+        0.18980616331100464,
+        0.7101839780807495
+      ],
+      "noise_seeds": [
+        4469412385682492900,
+        9131643448023143732
+      ],
+      "lr": 1.15e-06,
+      "auxiliary_factor": 0.023,
+      "grad_norm": 0.43173450231552124,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.196005254983902
+    },
+    {
+      "loss": 1.4968863725662231,
+      "velocity_low": 1.4226775169372559,
+      "velocity_detail": 1.5049692392349243,
+      "velocity": 1.494682788848877,
+      "endpoint_mae": 0.39899492263793945,
+      "endpoint_ilm_opl_mip": 0.2602299749851227,
+      "endpoint_opl_bm_mip": 0.2576711177825928,
+      "update": 24,
+      "case_ids": [
+        "10483",
+        "10384"
+      ],
+      "times": [
+        0.3680568039417267,
+        0.6761155724525452
+      ],
+      "noise_seeds": [
+        8568919473734188500,
+        3453809516029191117
+      ],
+      "lr": 1.2000000000000002e-06,
+      "auxiliary_factor": 0.024,
+      "grad_norm": 0.3405340909957886,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190933719277382
+    },
+    {
+      "loss": 1.3717894554138184,
+      "velocity_low": 1.3247898817062378,
+      "velocity_detail": 1.375002384185791,
+      "velocity": 1.3687258958816528,
+      "endpoint_mae": 0.40803062915802,
+      "endpoint_ilm_opl_mip": 0.40418076515197754,
+      "endpoint_opl_bm_mip": 0.4222825765609741,
+      "update": 25,
+      "case_ids": [
+        "10414",
+        "10416"
+      ],
+      "times": [
+        0.5098491311073303,
+        0.17113842070102692
+      ],
+      "noise_seeds": [
+        4949840768783567401,
+        3876974399516955933
+      ],
+      "lr": 1.25e-06,
+      "auxiliary_factor": 0.025,
+      "grad_norm": 0.41541948914527893,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187888756394386
+    },
+    {
+      "loss": 1.6848243474960327,
+      "velocity_low": 1.5930633544921875,
+      "velocity_detail": 1.6949362754821777,
+      "velocity": 1.6822022199630737,
+      "endpoint_mae": 0.385942280292511,
+      "endpoint_ilm_opl_mip": 0.30162304639816284,
+      "endpoint_opl_bm_mip": 0.34026873111724854,
+      "update": 26,
+      "case_ids": [
+        "10488",
+        "10453"
+      ],
+      "times": [
+        0.334400475025177,
+        0.7376634478569031
+      ],
+      "noise_seeds": [
+        3790632229306457338,
+        3372969767779376388
+      ],
+      "lr": 1.3000000000000003e-06,
+      "auxiliary_factor": 0.026,
+      "grad_norm": 0.38683056831359863,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1919228583574295
+    },
+    {
+      "loss": 1.4415326118469238,
+      "velocity_low": 1.4494653940200806,
+      "velocity_detail": 1.43642258644104,
+      "velocity": 1.4380528926849365,
+      "endpoint_mae": 0.5016341209411621,
+      "endpoint_ilm_opl_mip": 0.3970222473144531,
+      "endpoint_opl_bm_mip": 0.38321155309677124,
+      "update": 27,
+      "case_ids": [
+        "10431",
+        "10311"
+      ],
+      "times": [
+        0.32171839475631714,
+        0.43220674991607666
+      ],
+      "noise_seeds": [
+        5053282953049321726,
+        4485191373997056824
+      ],
+      "lr": 1.35e-06,
+      "auxiliary_factor": 0.027,
+      "grad_norm": 0.5294108986854553,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189996466040611
+    },
+    {
+      "loss": 1.9632817506790161,
+      "velocity_low": 1.9026057720184326,
+      "velocity_detail": 1.966271162033081,
+      "velocity": 1.95831298828125,
+      "endpoint_mae": 0.5353525876998901,
+      "endpoint_ilm_opl_mip": 0.6135576963424683,
+      "endpoint_opl_bm_mip": 0.6377545595169067,
+      "update": 28,
+      "case_ids": [
+        "10383",
+        "10477"
+      ],
+      "times": [
+        0.25433212518692017,
+        0.4153950810432434
+      ],
+      "noise_seeds": [
+        8131032362632773608,
+        3140616580065890021
+      ],
+      "lr": 1.4e-06,
+      "auxiliary_factor": 0.028,
+      "grad_norm": 0.6100143790245056,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19058284163475
+    },
+    {
+      "loss": 1.6650108098983765,
+      "velocity_low": 1.597525715827942,
+      "velocity_detail": 1.667970895767212,
+      "velocity": 1.6591652631759644,
+      "endpoint_mae": 0.510594367980957,
+      "endpoint_ilm_opl_mip": 0.7665915489196777,
+      "endpoint_opl_bm_mip": 0.7104549407958984,
+      "update": 29,
+      "case_ids": [
+        "10480",
+        "10313"
+      ],
+      "times": [
+        0.2741832435131073,
+        0.0708475187420845
+      ],
+      "noise_seeds": [
+        1408900814565363780,
+        3113711765669796616
+      ],
+      "lr": 1.45e-06,
+      "auxiliary_factor": 0.029,
+      "grad_norm": 0.7229554653167725,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.196229070425034
+    },
+    {
+      "loss": 1.7681061029434204,
+      "velocity_low": 2.425978899002075,
+      "velocity_detail": 1.6680395603179932,
+      "velocity": 1.7627819776535034,
+      "endpoint_mae": 0.5373027920722961,
+      "endpoint_ilm_opl_mip": 0.6134334802627563,
+      "endpoint_opl_bm_mip": 0.6344881057739258,
+      "update": 30,
+      "case_ids": [
+        "10417",
+        "10310"
+      ],
+      "times": [
+        0.0,
+        0.2925571799278259
+      ],
+      "noise_seeds": [
+        5897794588954371085,
+        8535694634019713362
+      ],
+      "lr": 1.5e-06,
+      "auxiliary_factor": 0.03,
+      "grad_norm": 0.7889243364334106,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191230282187462
+    },
+    {
+      "loss": 1.488247036933899,
+      "velocity_low": 1.352970838546753,
+      "velocity_detail": 1.4996850490570068,
+      "velocity": 1.4813458919525146,
+      "endpoint_mae": 0.43762701749801636,
+      "endpoint_ilm_opl_mip": 0.9245589971542358,
+      "endpoint_opl_bm_mip": 0.8034452199935913,
+      "update": 31,
+      "case_ids": [
+        "10427",
+        "10346"
+      ],
+      "times": [
+        0.23201310634613037,
+        0.048046257346868515
+      ],
+      "noise_seeds": [
+        1530070270354354493,
+        1113172846327917178
+      ],
+      "lr": 1.5500000000000002e-06,
+      "auxiliary_factor": 0.031,
+      "grad_norm": 0.6046128869056702,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192383959889412
+    },
+    {
+      "loss": 1.8291667699813843,
+      "velocity_low": 1.8620409965515137,
+      "velocity_detail": 1.8186169862747192,
+      "velocity": 1.824044942855835,
+      "endpoint_mae": 0.4915238618850708,
+      "endpoint_ilm_opl_mip": 0.5601123571395874,
+      "endpoint_opl_bm_mip": 0.5377023220062256,
+      "update": 32,
+      "case_ids": [
+        "10353",
+        "10361"
+      ],
+      "times": [
+        0.21010039746761322,
+        0.5454363226890564
+      ],
+      "noise_seeds": [
+        2998016902419166523,
+        2127113150148379766
+      ],
+      "lr": 1.6000000000000001e-06,
+      "auxiliary_factor": 0.032,
+      "grad_norm": 0.5392677783966064,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189496651291847
+    },
+    {
+      "loss": 1.1667720079421997,
+      "velocity_low": 1.1277384757995605,
+      "velocity_detail": 1.1657841205596924,
+      "velocity": 1.1610283851623535,
+      "endpoint_mae": 0.3749609589576721,
+      "endpoint_ilm_opl_mip": 0.6822872161865234,
+      "endpoint_opl_bm_mip": 0.6841498017311096,
+      "update": 33,
+      "case_ids": [
+        "10399",
+        "10465"
+      ],
+      "times": [
+        0.0,
+        0.2724339962005615
+      ],
+      "noise_seeds": [
+        3674063305466732287,
+        5273249345165480805
+      ],
+      "lr": 1.65e-06,
+      "auxiliary_factor": 0.033,
+      "grad_norm": 0.5131866335868835,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.203743949532509
+    },
+    {
+      "loss": 1.4887553453445435,
+      "velocity_low": 1.4826059341430664,
+      "velocity_detail": 1.4814810752868652,
+      "velocity": 1.4816216230392456,
+      "endpoint_mae": 0.4551999866962433,
+      "endpoint_ilm_opl_mip": 0.8089343309402466,
+      "endpoint_opl_bm_mip": 0.859097957611084,
+      "update": 34,
+      "case_ids": [
+        "10406",
+        "10301"
+      ],
+      "times": [
+        0.0,
+        0.19806884229183197
+      ],
+      "noise_seeds": [
+        6082784513816816495,
+        8967987756718162222
+      ],
+      "lr": 1.7e-06,
+      "auxiliary_factor": 0.034,
+      "grad_norm": 0.6689460873603821,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189385265111923
+    },
+    {
+      "loss": 1.3972808122634888,
+      "velocity_low": 1.3765709400177002,
+      "velocity_detail": 1.3946304321289062,
+      "velocity": 1.3923730850219727,
+      "endpoint_mae": 0.34073230624198914,
+      "endpoint_ilm_opl_mip": 0.5210208296775818,
+      "endpoint_opl_bm_mip": 0.559950053691864,
+      "update": 35,
+      "case_ids": [
+        "10489",
+        "10440"
+      ],
+      "times": [
+        0.6685225367546082,
+        0.0
+      ],
+      "noise_seeds": [
+        7808874677512444869,
+        7636791336852403489
+      ],
+      "lr": 1.75e-06,
+      "auxiliary_factor": 0.035,
+      "grad_norm": 0.3854036331176758,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193065479397774
+    },
+    {
+      "loss": 2.0167627334594727,
+      "velocity_low": 1.9741957187652588,
+      "velocity_detail": 2.014493227005005,
+      "velocity": 2.009456157684326,
+      "endpoint_mae": 0.546527624130249,
+      "endpoint_ilm_opl_mip": 0.7413501739501953,
+      "endpoint_opl_bm_mip": 0.7420459985733032,
+      "update": 36,
+      "case_ids": [
+        "10398",
+        "10393"
+      ],
+      "times": [
+        0.10215789079666138,
+        0.39019760489463806
+      ],
+      "noise_seeds": [
+        2509423150606910441,
+        6477480924427393832
+      ],
+      "lr": 1.8000000000000001e-06,
+      "auxiliary_factor": 0.036,
+      "grad_norm": 0.7251972556114197,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190983861684799
+    },
+    {
+      "loss": 0.9784823656082153,
+      "velocity_low": 0.9859137535095215,
+      "velocity_detail": 0.9738114476203918,
+      "velocity": 0.975324273109436,
+      "endpoint_mae": 0.20936906337738037,
+      "endpoint_ilm_opl_mip": 0.30334746837615967,
+      "endpoint_opl_bm_mip": 0.37831634283065796,
+      "update": 37,
+      "case_ids": [
+        "10350",
+        "10437"
+      ],
+      "times": [
+        0.0,
+        0.8382903933525085
+      ],
+      "noise_seeds": [
+        4008137540492533410,
+        6227062932141718305
+      ],
+      "lr": 1.85e-06,
+      "auxiliary_factor": 0.037,
+      "grad_norm": 0.24548020958900452,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189955800771713
+    },
+    {
+      "loss": 1.3882430791854858,
+      "velocity_low": 1.3041837215423584,
+      "velocity_detail": 1.3940784931182861,
+      "velocity": 1.3828415870666504,
+      "endpoint_mae": 0.35547977685928345,
+      "endpoint_ilm_opl_mip": 0.5379934906959534,
+      "endpoint_opl_bm_mip": 0.5179541707038879,
+      "update": 38,
+      "case_ids": [
+        "10443",
+        "10408"
+      ],
+      "times": [
+        0.6523340344429016,
+        0.0
+      ],
+      "noise_seeds": [
+        1350655803641837915,
+        6859687091460280964
+      ],
+      "lr": 1.9e-06,
+      "auxiliary_factor": 0.038,
+      "grad_norm": 0.3978255093097687,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192610532045364
+    },
+    {
+      "loss": 1.3836958408355713,
+      "velocity_low": 1.5619431734085083,
+      "velocity_detail": 1.348375916481018,
+      "velocity": 1.3750717639923096,
+      "endpoint_mae": 0.4791448712348938,
+      "endpoint_ilm_opl_mip": 0.8557583689689636,
+      "endpoint_opl_bm_mip": 0.8970404863357544,
+      "update": 39,
+      "case_ids": [
+        "10434",
+        "10400"
+      ],
+      "times": [
+        0.0011012196773663163,
+        0.10922300815582275
+      ],
+      "noise_seeds": [
+        4571878592860266532,
+        5115489647008811247
+      ],
+      "lr": 1.95e-06,
+      "auxiliary_factor": 0.039,
+      "grad_norm": 0.7465011477470398,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192310854792595
+    },
+    {
+      "loss": 1.0307691097259521,
+      "velocity_low": 0.9809778928756714,
+      "velocity_detail": 1.030759572982788,
+      "velocity": 1.0245368480682373,
+      "endpoint_mae": 0.36409991979599,
+      "endpoint_ilm_opl_mip": 0.6114075183868408,
+      "endpoint_opl_bm_mip": 0.553695797920227,
+      "update": 40,
+      "case_ids": [
+        "10464",
+        "10343"
+      ],
+      "times": [
+        0.0,
+        0.3417033553123474
+      ],
+      "noise_seeds": [
+        6112397117328040505,
+        1371780679113741757
+      ],
+      "lr": 2e-06,
+      "auxiliary_factor": 0.04,
+      "grad_norm": 0.43922728300094604,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.197962865233421
+    },
+    {
+      "loss": 1.108750820159912,
+      "velocity_low": 1.1089478731155396,
+      "velocity_detail": 1.1083987951278687,
+      "velocity": 1.1084673404693604,
+      "endpoint_mae": 0.04344271868467331,
+      "endpoint_ilm_opl_mip": 0.012470593675971031,
+      "endpoint_opl_bm_mip": 0.013986760750412941,
+      "update": 41,
+      "case_ids": [
+        "10405",
+        "10470"
+      ],
+      "times": [
+        0.9634067416191101,
+        0.9336079955101013
+      ],
+      "noise_seeds": [
+        293017107036603945,
+        8261562662154392458
+      ],
+      "lr": 2.0500000000000003e-06,
+      "auxiliary_factor": 0.041,
+      "grad_norm": 0.029146913439035416,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192749530076981
+    },
+    {
+      "loss": 1.5328927040100098,
+      "velocity_low": 1.6099050045013428,
+      "velocity_detail": 1.5146571397781372,
+      "velocity": 1.5265631675720215,
+      "endpoint_mae": 0.40973809361457825,
+      "endpoint_ilm_opl_mip": 0.5622261166572571,
+      "endpoint_opl_bm_mip": 0.5079432725906372,
+      "update": 42,
+      "case_ids": [
+        "10389",
+        "10403"
+      ],
+      "times": [
+        0.6553872227668762,
+        0.0
+      ],
+      "noise_seeds": [
+        2163051156113886396,
+        4999205436972548890
+      ],
+      "lr": 2.1000000000000002e-06,
+      "auxiliary_factor": 0.042,
+      "grad_norm": 0.4781469702720642,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191065222024918
+    },
+    {
+      "loss": 1.7408640384674072,
+      "velocity_low": 1.760502576828003,
+      "velocity_detail": 1.7293554544448853,
+      "velocity": 1.7332489490509033,
+      "endpoint_mae": 0.444069504737854,
+      "endpoint_ilm_opl_mip": 0.6682945489883423,
+      "endpoint_opl_bm_mip": 0.6488933563232422,
+      "update": 43,
+      "case_ids": [
+        "10485",
+        "10309"
+      ],
+      "times": [
+        0.0,
+        0.6206802129745483
+      ],
+      "noise_seeds": [
+        4552973625943977946,
+        6853915462353067238
+      ],
+      "lr": 2.15e-06,
+      "auxiliary_factor": 0.043,
+      "grad_norm": 0.5328331589698792,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193575754761696
+    },
+    {
+      "loss": 1.2567490339279175,
+      "velocity_low": 1.158826470375061,
+      "velocity_detail": 1.261872410774231,
+      "velocity": 1.24899160861969,
+      "endpoint_mae": 0.4169344902038574,
+      "endpoint_ilm_opl_mip": 0.681576132774353,
+      "endpoint_opl_bm_mip": 0.6474945545196533,
+      "update": 44,
+      "case_ids": [
+        "10314",
+        "10471"
+      ],
+      "times": [
+        0.3161753714084625,
+        0.03960177302360535
+      ],
+      "noise_seeds": [
+        5164794015583916057,
+        8901267651624452261
+      ],
+      "lr": 2.2e-06,
+      "auxiliary_factor": 0.044,
+      "grad_norm": 0.5391021370887756,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190881714224815
+    },
+    {
+      "loss": 1.3695416450500488,
+      "velocity_low": 1.355419397354126,
+      "velocity_detail": 1.3647079467773438,
+      "velocity": 1.3635468482971191,
+      "endpoint_mae": 0.2944389283657074,
+      "endpoint_ilm_opl_mip": 0.5279324650764465,
+      "endpoint_opl_bm_mip": 0.49173659086227417,
+      "update": 45,
+      "case_ids": [
+        "10424",
+        "10413"
+      ],
+      "times": [
+        0.0,
+        0.8083767294883728
+      ],
+      "noise_seeds": [
+        5391835177614170253,
+        1290978617274265349
+      ],
+      "lr": 2.25e-06,
+      "auxiliary_factor": 0.045,
+      "grad_norm": 0.36539018154144287,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190591648221016
+    },
+    {
+      "loss": 1.4605714082717896,
+      "velocity_low": 1.4428175687789917,
+      "velocity_detail": 1.4540462493896484,
+      "velocity": 1.4526426792144775,
+      "endpoint_mae": 0.4487645924091339,
+      "endpoint_ilm_opl_mip": 0.6367054581642151,
+      "endpoint_opl_bm_mip": 0.6396477818489075,
+      "update": 46,
+      "case_ids": [
+        "10378",
+        "10436"
+      ],
+      "times": [
+        0.0,
+        0.49126484990119934
+      ],
+      "noise_seeds": [
+        6562048417553441346,
+        488944786454709762
+      ],
+      "lr": 2.3e-06,
+      "auxiliary_factor": 0.046,
+      "grad_norm": 0.5220165848731995,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.20476570725441
+    },
+    {
+      "loss": 1.452149510383606,
+      "velocity_low": 1.4672541618347168,
+      "velocity_detail": 1.448351263999939,
+      "velocity": 1.450714111328125,
+      "endpoint_mae": 0.1808558702468872,
+      "endpoint_ilm_opl_mip": 0.061745572835206985,
+      "endpoint_opl_bm_mip": 0.06385917961597443,
+      "update": 47,
+      "case_ids": [
+        "10411",
+        "10391"
+      ],
+      "times": [
+        0.8509240746498108,
+        0.7760530114173889
+      ],
+      "noise_seeds": [
+        7324681759498559843,
+        4608830743929836969
+      ],
+      "lr": 2.35e-06,
+      "auxiliary_factor": 0.047,
+      "grad_norm": 0.1465539187192917,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187377437949181
+    },
+    {
+      "loss": 0.8967283964157104,
+      "velocity_low": 0.8118106126785278,
+      "velocity_detail": 0.8989529013633728,
+      "velocity": 0.8880600929260254,
+      "endpoint_mae": 0.3141631782054901,
+      "endpoint_ilm_opl_mip": 0.7536107301712036,
+      "endpoint_opl_bm_mip": 0.7226241827011108,
+      "update": 48,
+      "case_ids": [
+        "10381",
+        "10481"
+      ],
+      "times": [
+        0.10559827834367752,
+        0.0
+      ],
+      "noise_seeds": [
+        7199335327779011544,
+        3876971999622286063
+      ],
+      "lr": 2.4000000000000003e-06,
+      "auxiliary_factor": 0.048,
+      "grad_norm": 0.47379642724990845,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192689880728722
+    },
+    {
+      "loss": 1.7447502613067627,
+      "velocity_low": 1.6624478101730347,
+      "velocity_detail": 1.7491707801818848,
+      "velocity": 1.738330364227295,
+      "endpoint_mae": 0.5191182494163513,
+      "endpoint_ilm_opl_mip": 0.39975523948669434,
+      "endpoint_opl_bm_mip": 0.382842093706131,
+      "update": 49,
+      "case_ids": [
+        "10376",
+        "10349"
+      ],
+      "times": [
+        0.37963443994522095,
+        0.45141491293907166
+      ],
+      "noise_seeds": [
+        5252723854994710345,
+        1070481477780500458
+      ],
+      "lr": 2.45e-06,
+      "auxiliary_factor": 0.049,
+      "grad_norm": 0.5303739309310913,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189605966210365
+    },
+    {
+      "loss": 1.029468297958374,
+      "velocity_low": 1.0831093788146973,
+      "velocity_detail": 1.0107051134109497,
+      "velocity": 1.0197556018829346,
+      "endpoint_mae": 0.4130784571170807,
+      "endpoint_ilm_opl_mip": 0.7802345752716064,
+      "endpoint_opl_bm_mip": 0.7182015180587769,
+      "update": 50,
+      "case_ids": [
+        "10333",
+        "10478"
+      ],
+      "times": [
+        0.13434827327728271,
+        0.0
+      ],
+      "noise_seeds": [
+        5520400005953913850,
+        5558150743436391222
+      ],
+      "lr": 2.5e-06,
+      "auxiliary_factor": 0.05,
+      "grad_norm": 0.6188951134681702,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187713757157326
+    },
+    {
+      "loss": 1.6484429836273193,
+      "velocity_low": 1.6001672744750977,
+      "velocity_detail": 1.6511106491088867,
+      "velocity": 1.644742727279663,
+      "endpoint_mae": 0.2711568772792816,
+      "endpoint_ilm_opl_mip": 0.23175811767578125,
+      "endpoint_opl_bm_mip": 0.21354937553405762,
+      "update": 51,
+      "case_ids": [
+        "10441",
+        "10490"
+      ],
+      "times": [
+        0.5006912350654602,
+        0.9800630807876587
+      ],
+      "noise_seeds": [
+        7188265951345187422,
+        117348893027692680
+      ],
+      "lr": 2.55e-06,
+      "auxiliary_factor": 0.051,
+      "grad_norm": 0.2698494791984558,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188321694731712
+    },
+    {
+      "loss": 1.4135335683822632,
+      "velocity_low": 1.425929307937622,
+      "velocity_detail": 1.4032000303268433,
+      "velocity": 1.406041145324707,
+      "endpoint_mae": 0.3279304504394531,
+      "endpoint_ilm_opl_mip": 0.559337854385376,
+      "endpoint_opl_bm_mip": 0.5477937459945679,
+      "update": 52,
+      "case_ids": [
+        "10428",
+        "10316"
+      ],
+      "times": [
+        0.0,
+        0.7439950108528137
+      ],
+      "noise_seeds": [
+        374364822498365466,
+        8782844930459810631
+      ],
+      "lr": 2.6000000000000005e-06,
+      "auxiliary_factor": 0.052,
+      "grad_norm": 0.3882006108760834,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1936686635017395
+    },
+    {
+      "loss": 1.632622241973877,
+      "velocity_low": 1.6421443223953247,
+      "velocity_detail": 1.6273733377456665,
+      "velocity": 1.629219651222229,
+      "endpoint_mae": 0.27486076951026917,
+      "endpoint_ilm_opl_mip": 0.18117813766002655,
+      "endpoint_opl_bm_mip": 0.19075973331928253,
+      "update": 53,
+      "case_ids": [
+        "10386",
+        "10306"
+      ],
+      "times": [
+        0.4848744869232178,
+        0.9857062697410583
+      ],
+      "noise_seeds": [
+        2098742718585358716,
+        7393306838099929347
+      ],
+      "lr": 2.65e-06,
+      "auxiliary_factor": 0.053,
+      "grad_norm": 0.2736818492412567,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190087869763374
+    },
+    {
+      "loss": 0.9885982275009155,
+      "velocity_low": 0.9031423330307007,
+      "velocity_detail": 0.995532751083374,
+      "velocity": 0.9839839935302734,
+      "endpoint_mae": 0.18121927976608276,
+      "endpoint_ilm_opl_mip": 0.3413514792919159,
+      "endpoint_opl_bm_mip": 0.3224985897541046,
+      "update": 54,
+      "case_ids": [
+        "10335",
+        "10426"
+      ],
+      "times": [
+        0.0217423215508461,
+        0.8544481992721558
+      ],
+      "noise_seeds": [
+        8491122980476825395,
+        8446975321731654908
+      ],
+      "lr": 2.7e-06,
+      "auxiliary_factor": 0.054,
+      "grad_norm": 0.22097936272621155,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.308568716049194
+    },
+    {
+      "loss": 1.8237301111221313,
+      "velocity_low": 1.7356486320495605,
+      "velocity_detail": 1.826001524925232,
+      "velocity": 1.8147073984146118,
+      "endpoint_mae": 0.5330150127410889,
+      "endpoint_ilm_opl_mip": 0.5577292442321777,
+      "endpoint_opl_bm_mip": 0.5417777299880981,
+      "update": 55,
+      "case_ids": [
+        "10375",
+        "10444"
+      ],
+      "times": [
+        0.35235175490379333,
+        0.34925761818885803
+      ],
+      "noise_seeds": [
+        4636098352870375440,
+        6516191031966789468
+      ],
+      "lr": 2.7500000000000004e-06,
+      "auxiliary_factor": 0.055,
+      "grad_norm": 0.6036935448646545,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192767485976219
+    },
+    {
+      "loss": 1.371492862701416,
+      "velocity_low": 1.3948163986206055,
+      "velocity_detail": 1.35927414894104,
+      "velocity": 1.3637168407440186,
+      "endpoint_mae": 0.36811918020248413,
+      "endpoint_ilm_opl_mip": 0.5158216953277588,
+      "endpoint_opl_bm_mip": 0.4934556484222412,
+      "update": 56,
+      "case_ids": [
+        "10452",
+        "10380"
+      ],
+      "times": [
+        0.0,
+        0.6492418050765991
+      ],
+      "noise_seeds": [
+        8684324021484657695,
+        1661097694999508250
+      ],
+      "lr": 2.8e-06,
+      "auxiliary_factor": 0.056,
+      "grad_norm": 0.41252318024635315,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192705407738686
+    },
+    {
+      "loss": 1.3511704206466675,
+      "velocity_low": 1.369439721107483,
+      "velocity_detail": 1.3354721069335938,
+      "velocity": 1.339717984199524,
+      "endpoint_mae": 0.42052075266838074,
+      "endpoint_ilm_opl_mip": 0.7967584133148193,
+      "endpoint_opl_bm_mip": 0.7870625257492065,
+      "update": 57,
+      "case_ids": [
+        "10458",
+        "10469"
+      ],
+      "times": [
+        0.0,
+        0.15573546290397644
+      ],
+      "noise_seeds": [
+        8360007018912147673,
+        6787117215098566905
+      ],
+      "lr": 2.8500000000000002e-06,
+      "auxiliary_factor": 0.057,
+      "grad_norm": 0.6435974836349487,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192537784576416
+    },
+    {
+      "loss": 1.3265366554260254,
+      "velocity_low": 1.3655433654785156,
+      "velocity_detail": 1.312610387802124,
+      "velocity": 1.3192269802093506,
+      "endpoint_mae": 0.26449286937713623,
+      "endpoint_ilm_opl_mip": 0.4968743920326233,
+      "endpoint_opl_bm_mip": 0.5009520053863525,
+      "update": 58,
+      "case_ids": [
+        "10387",
+        "10370"
+      ],
+      "times": [
+        0.09374121576547623,
+        0.9023154973983765
+      ],
+      "noise_seeds": [
+        2970820609992836423,
+        8581218451885615758
+      ],
+      "lr": 2.9e-06,
+      "auxiliary_factor": 0.058,
+      "grad_norm": 0.36000528931617737,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 12.065365567803383
+    },
+    {
+      "loss": 1.799230933189392,
+      "velocity_low": 1.880213975906372,
+      "velocity_detail": 1.7736810445785522,
+      "velocity": 1.786997675895691,
+      "endpoint_mae": 0.5094171166419983,
+      "endpoint_ilm_opl_mip": 0.7748318910598755,
+      "endpoint_opl_bm_mip": 0.8035044074058533,
+      "update": 59,
+      "case_ids": [
+        "10491",
+        "10449"
+      ],
+      "times": [
+        0.3071639835834503,
+        0.0
+      ],
+      "noise_seeds": [
+        3542690679068620817,
+        7578193917354910860
+      ],
+      "lr": 2.95e-06,
+      "auxiliary_factor": 0.059,
+      "grad_norm": 0.7422500252723694,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186446949839592
+    },
+    {
+      "loss": 1.734403371810913,
+      "velocity_low": 1.7252905368804932,
+      "velocity_detail": 1.7311437129974365,
+      "velocity": 1.7304121255874634,
+      "endpoint_mae": 0.36233261227607727,
+      "endpoint_ilm_opl_mip": 0.15421271324157715,
+      "endpoint_opl_bm_mip": 0.14309637248516083,
+      "update": 60,
+      "case_ids": [
+        "10474",
+        "10482"
+      ],
+      "times": [
+        0.6932243704795837,
+        0.6012177467346191
+      ],
+      "noise_seeds": [
+        8465205814992857832,
+        6321749588810738614
+      ],
+      "lr": 3e-06,
+      "auxiliary_factor": 0.06,
+      "grad_norm": 0.3015420734882355,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186751052737236
+    },
+    {
+      "loss": 1.4942013025283813,
+      "velocity_low": 1.506441354751587,
+      "velocity_detail": 1.4896650314331055,
+      "velocity": 1.4917621612548828,
+      "endpoint_mae": 0.2232629805803299,
+      "endpoint_ilm_opl_mip": 0.08967123180627823,
+      "endpoint_opl_bm_mip": 0.08419546484947205,
+      "update": 61,
+      "case_ids": [
+        "10445",
+        "10377"
+      ],
+      "times": [
+        0.6364155411720276,
+        0.9298918843269348
+      ],
+      "noise_seeds": [
+        3444376939156530711,
+        1381757083893018721
+      ],
+      "lr": 3.05e-06,
+      "auxiliary_factor": 0.061,
+      "grad_norm": 0.20159652829170227,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.184593245387077
+    },
+    {
+      "loss": 1.097610354423523,
+      "velocity_low": 1.0293766260147095,
+      "velocity_detail": 1.0970666408538818,
+      "velocity": 1.0886054039001465,
+      "endpoint_mae": 0.3705984652042389,
+      "endpoint_ilm_opl_mip": 0.550603985786438,
+      "endpoint_opl_bm_mip": 0.511823296546936,
+      "update": 62,
+      "case_ids": [
+        "10373",
+        "10364"
+      ],
+      "times": [
+        0.0,
+        0.33050405979156494
+      ],
+      "noise_seeds": [
+        3940577905748812853,
+        2914888815732251268
+      ],
+      "lr": 3.1000000000000004e-06,
+      "auxiliary_factor": 0.062,
+      "grad_norm": 0.46658071875572205,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189828887581825
+    },
+    {
+      "loss": 1.757227897644043,
+      "velocity_low": 1.9958877563476562,
+      "velocity_detail": 1.710332989692688,
+      "velocity": 1.7460272312164307,
+      "endpoint_mae": 0.5335700511932373,
+      "endpoint_ilm_opl_mip": 0.6170449256896973,
+      "endpoint_opl_bm_mip": 0.6374556422233582,
+      "update": 63,
+      "case_ids": [
+        "10339",
+        "10392"
+      ],
+      "times": [
+        0.2080674022436142,
+        0.30358651280403137
+      ],
+      "noise_seeds": [
+        6012389879886507695,
+        1207203691982465659
+      ],
+      "lr": 3.15e-06,
+      "auxiliary_factor": 0.063,
+      "grad_norm": 0.7140951752662659,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.205742985010147
+    },
+    {
+      "loss": 1.2153360843658447,
+      "velocity_low": 1.14584219455719,
+      "velocity_detail": 1.2094480991363525,
+      "velocity": 1.2014973163604736,
+      "endpoint_mae": 0.39350634813308716,
+      "endpoint_ilm_opl_mip": 0.8672511577606201,
+      "endpoint_opl_bm_mip": 0.935827374458313,
+      "update": 64,
+      "case_ids": [
+        "10385",
+        "10323"
+      ],
+      "times": [
+        0.026555469259619713,
+        0.12108196318149567
+      ],
+      "noise_seeds": [
+        1477873105054565642,
+        4228568468916778931
+      ],
+      "lr": 3.2000000000000003e-06,
+      "auxiliary_factor": 0.064,
+      "grad_norm": 0.6063451170921326,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1924819350242615
+    },
+    {
+      "loss": 1.6593341827392578,
+      "velocity_low": 1.7259166240692139,
+      "velocity_detail": 1.6376945972442627,
+      "velocity": 1.6487224102020264,
+      "endpoint_mae": 0.44831329584121704,
+      "endpoint_ilm_opl_mip": 0.5842225551605225,
+      "endpoint_opl_bm_mip": 0.615879476070404,
+      "update": 65,
+      "case_ids": [
+        "10461",
+        "10419"
+      ],
+      "times": [
+        0.0,
+        0.5887875556945801
+      ],
+      "noise_seeds": [
+        4752014331769576271,
+        4641629356455093365
+      ],
+      "lr": 3.2500000000000002e-06,
+      "auxiliary_factor": 0.065,
+      "grad_norm": 0.5944494605064392,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183872103691101
+    },
+    {
+      "loss": 1.465590476989746,
+      "velocity_low": 1.4814505577087402,
+      "velocity_detail": 1.4472296237945557,
+      "velocity": 1.451507329940796,
+      "endpoint_mae": 0.46076735854148865,
+      "endpoint_ilm_opl_mip": 0.8579039573669434,
+      "endpoint_opl_bm_mip": 0.7723895311355591,
+      "update": 66,
+      "case_ids": [
+        "10429",
+        "10390"
+      ],
+      "times": [
+        0.0,
+        0.3128781020641327
+      ],
+      "noise_seeds": [
+        2733940692339626128,
+        3437537508179566205
+      ],
+      "lr": 3.3e-06,
+      "auxiliary_factor": 0.066,
+      "grad_norm": 0.6371267437934875,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.199289605021477
+    },
+    {
+      "loss": 1.9583494663238525,
+      "velocity_low": 2.004857063293457,
+      "velocity_detail": 1.9418659210205078,
+      "velocity": 1.9497398138046265,
+      "endpoint_mae": 0.49187931418418884,
+      "endpoint_ilm_opl_mip": 0.4100695252418518,
+      "endpoint_opl_bm_mip": 0.35607028007507324,
+      "update": 67,
+      "case_ids": [
+        "10496",
+        "10337"
+      ],
+      "times": [
+        0.6171818375587463,
+        0.31676918268203735
+      ],
+      "noise_seeds": [
+        7518151912879237859,
+        8060488114601801304
+      ],
+      "lr": 3.35e-06,
+      "auxiliary_factor": 0.067,
+      "grad_norm": 0.5559390187263489,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186149463057518
+    },
+    {
+      "loss": 1.0871504545211792,
+      "velocity_low": 1.0194649696350098,
+      "velocity_detail": 1.0878487825393677,
+      "velocity": 1.0793007612228394,
+      "endpoint_mae": 0.20175787806510925,
+      "endpoint_ilm_opl_mip": 0.4753331243991852,
+      "endpoint_opl_bm_mip": 0.4792174994945526,
+      "update": 68,
+      "case_ids": [
+        "10442",
+        "10303"
+      ],
+      "times": [
+        0.0,
+        0.9111626744270325
+      ],
+      "noise_seeds": [
+        6167688064787308258,
+        3096414121950460546
+      ],
+      "lr": 3.4e-06,
+      "auxiliary_factor": 0.068,
+      "grad_norm": 0.279642254114151,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.18710358440876
+    },
+    {
+      "loss": 1.6511088609695435,
+      "velocity_low": 1.622373104095459,
+      "velocity_detail": 1.6513590812683105,
+      "velocity": 1.647735834121704,
+      "endpoint_mae": 0.2779828906059265,
+      "endpoint_ilm_opl_mip": 0.09916651993989944,
+      "endpoint_opl_bm_mip": 0.12423977255821228,
+      "update": 69,
+      "case_ids": [
+        "10374",
+        "10352"
+      ],
+      "times": [
+        0.7467610836029053,
+        0.702811062335968
+      ],
+      "noise_seeds": [
+        1665385462568060121,
+        4244427096803822824
+      ],
+      "lr": 3.4500000000000004e-06,
+      "auxiliary_factor": 0.069,
+      "grad_norm": 0.19858869910240173,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191286221146584
+    },
+    {
+      "loss": 2.134986639022827,
+      "velocity_low": 2.273078680038452,
+      "velocity_detail": 2.100656509399414,
+      "velocity": 2.122209310531616,
+      "endpoint_mae": 0.5632817149162292,
+      "endpoint_ilm_opl_mip": 0.6327528953552246,
+      "endpoint_opl_bm_mip": 0.6258273720741272,
+      "update": 70,
+      "case_ids": [
+        "10334",
+        "10463"
+      ],
+      "times": [
+        0.22562049329280853,
+        0.5164602398872375
+      ],
+      "noise_seeds": [
+        5745522163611195171,
+        4356690139260767427
+      ],
+      "lr": 3.5e-06,
+      "auxiliary_factor": 0.07,
+      "grad_norm": 0.6982957124710083,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187164708971977
+    },
+    {
+      "loss": 1.1628526449203491,
+      "velocity_low": 1.1206669807434082,
+      "velocity_detail": 1.1521706581115723,
+      "velocity": 1.1482326984405518,
+      "endpoint_mae": 0.3731507658958435,
+      "endpoint_ilm_opl_mip": 0.8005772829055786,
+      "endpoint_opl_bm_mip": 0.9702661633491516,
+      "update": 71,
+      "case_ids": [
+        "10354",
+        "10323"
+      ],
+      "times": [
+        0.08653711527585983,
+        0.0
+      ],
+      "noise_seeds": [
+        7761900776836068673,
+        2856370443308038877
+      ],
+      "lr": 3.5500000000000003e-06,
+      "auxiliary_factor": 0.071,
+      "grad_norm": 0.5843858122825623,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190937548875809
+    },
+    {
+      "loss": 1.311924934387207,
+      "velocity_low": 1.307309865951538,
+      "velocity_detail": 1.3109241724014282,
+      "velocity": 1.3104723691940308,
+      "endpoint_mae": 0.1242937296628952,
+      "endpoint_ilm_opl_mip": 0.037756867706775665,
+      "endpoint_opl_bm_mip": 0.04162803664803505,
+      "update": 72,
+      "case_ids": [
+        "10320",
+        "10408"
+      ],
+      "times": [
+        0.8662638664245605,
+        0.8612122535705566
+      ],
+      "noise_seeds": [
+        6323195456416810872,
+        2546857723921681201
+      ],
+      "lr": 3.6000000000000003e-06,
+      "auxiliary_factor": 0.072,
+      "grad_norm": 0.08313938230276108,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188146755099297
+    },
+    {
+      "loss": 1.4180238246917725,
+      "velocity_low": 1.3898422718048096,
+      "velocity_detail": 1.4067562818527222,
+      "velocity": 1.4046419858932495,
+      "endpoint_mae": 0.46451443433761597,
+      "endpoint_ilm_opl_mip": 0.6905821561813354,
+      "endpoint_opl_bm_mip": 0.6654877066612244,
+      "update": 73,
+      "case_ids": [
+        "10471",
+        "10301"
+      ],
+      "times": [
+        0.39151376485824585,
+        0.0
+      ],
+      "noise_seeds": [
+        5194756977843410708,
+        1913513569043910725
+      ],
+      "lr": 3.65e-06,
+      "auxiliary_factor": 0.073,
+      "grad_norm": 0.5960559248924255,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192300900816917
+    },
+    {
+      "loss": 0.74741131067276,
+      "velocity_low": 0.7661944627761841,
+      "velocity_detail": 0.7316317558288574,
+      "velocity": 0.7359520792961121,
+      "endpoint_mae": 0.3645889163017273,
+      "endpoint_ilm_opl_mip": 0.5926587581634521,
+      "endpoint_opl_bm_mip": 0.5899317264556885,
+      "update": 74,
+      "case_ids": [
+        "10360",
+        "10470"
+      ],
+      "times": [
+        0.17937760055065155,
+        0.0
+      ],
+      "noise_seeds": [
+        2527810844720066317,
+        1146224578582981643
+      ],
+      "lr": 3.7e-06,
+      "auxiliary_factor": 0.074,
+      "grad_norm": 0.5299226641654968,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186414122581482
+    },
+    {
+      "loss": 1.2345649003982544,
+      "velocity_low": 1.187572956085205,
+      "velocity_detail": 1.2301912307739258,
+      "velocity": 1.2248640060424805,
+      "endpoint_mae": 0.37043842673301697,
+      "endpoint_ilm_opl_mip": 0.45615705847740173,
+      "endpoint_opl_bm_mip": 0.4775639772415161,
+      "update": 75,
+      "case_ids": [
+        "10482",
+        "10462"
+      ],
+      "times": [
+        0.0,
+        0.5178813338279724
+      ],
+      "noise_seeds": [
+        7509427953891828604,
+        7377948914772885783
+      ],
+      "lr": 3.75e-06,
+      "auxiliary_factor": 0.075,
+      "grad_norm": 0.42506566643714905,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186485275626183
+    },
+    {
+      "loss": 1.5128735303878784,
+      "velocity_low": 1.5131502151489258,
+      "velocity_detail": 1.5094006061553955,
+      "velocity": 1.5098692178726196,
+      "endpoint_mae": 0.2429676651954651,
+      "endpoint_ilm_opl_mip": 0.07503701746463776,
+      "endpoint_opl_bm_mip": 0.07957220077514648,
+      "update": 76,
+      "case_ids": [
+        "10437",
+        "10371"
+      ],
+      "times": [
+        0.6928266882896423,
+        0.8121483325958252
+      ],
+      "noise_seeds": [
+        8276748305439624268,
+        5686885832193478641
+      ],
+      "lr": 3.8e-06,
+      "auxiliary_factor": 0.076,
+      "grad_norm": 0.17983458936214447,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1918070167303085
+    },
+    {
+      "loss": 1.4259371757507324,
+      "velocity_low": 1.4645696878433228,
+      "velocity_detail": 1.3996825218200684,
+      "velocity": 1.4077935218811035,
+      "endpoint_mae": 0.44062530994415283,
+      "endpoint_ilm_opl_mip": 0.9525190591812134,
+      "endpoint_opl_bm_mip": 0.9738487005233765,
+      "update": 77,
+      "case_ids": [
+        "10491",
+        "10418"
+      ],
+      "times": [
+        0.06388199329376221,
+        0.0
+      ],
+      "noise_seeds": [
+        1150660660880396625,
+        369069611519586880
+      ],
+      "lr": 3.85e-06,
+      "auxiliary_factor": 0.077,
+      "grad_norm": 0.7128589749336243,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190166234970093
+    },
+    {
+      "loss": 1.2148360013961792,
+      "velocity_low": 1.1454496383666992,
+      "velocity_detail": 1.2136340141296387,
+      "velocity": 1.205111026763916,
+      "endpoint_mae": 0.23500218987464905,
+      "endpoint_ilm_opl_mip": 0.5141646265983582,
+      "endpoint_opl_bm_mip": 0.48107585310935974,
+      "update": 78,
+      "case_ids": [
+        "10477",
+        "10438"
+      ],
+      "times": [
+        0.8781771063804626,
+        0.0
+      ],
+      "noise_seeds": [
+        6568427152178120893,
+        2177935331215649565
+      ],
+      "lr": 3.9e-06,
+      "auxiliary_factor": 0.078,
+      "grad_norm": 0.31723731756210327,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186320006847382
+    },
+    {
+      "loss": 1.6160573959350586,
+      "velocity_low": 1.5370028018951416,
+      "velocity_detail": 1.6130260229110718,
+      "velocity": 1.6035231351852417,
+      "endpoint_mae": 0.40805304050445557,
+      "endpoint_ilm_opl_mip": 0.5868605971336365,
+      "endpoint_opl_bm_mip": 0.5965371131896973,
+      "update": 79,
+      "case_ids": [
+        "10398",
+        "10309"
+      ],
+      "times": [
+        0.5523970723152161,
+        0.0
+      ],
+      "noise_seeds": [
+        5206202481541181127,
+        7435113829380861066
+      ],
+      "lr": 3.95e-06,
+      "auxiliary_factor": 0.079,
+      "grad_norm": 0.5202692151069641,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1924132108688354
+    },
+    {
+      "loss": 1.1498167514801025,
+      "velocity_low": 1.1365708112716675,
+      "velocity_detail": 1.1405112743377686,
+      "velocity": 1.1400187015533447,
+      "endpoint_mae": 0.21074292063713074,
+      "endpoint_ilm_opl_mip": 0.5098193883895874,
+      "endpoint_opl_bm_mip": 0.49857234954833984,
+      "update": 80,
+      "case_ids": [
+        "10409",
+        "10303"
+      ],
+      "times": [
+        0.0,
+        0.9699500203132629
+      ],
+      "noise_seeds": [
+        4866750571450819718,
+        617097037254343510
+      ],
+      "lr": 4e-06,
+      "auxiliary_factor": 0.08,
+      "grad_norm": 0.3177705705165863,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192186042666435
+    },
+    {
+      "loss": 1.4495099782943726,
+      "velocity_low": 1.5115914344787598,
+      "velocity_detail": 1.4277129173278809,
+      "velocity": 1.4381978511810303,
+      "endpoint_mae": 0.40772008895874023,
+      "endpoint_ilm_opl_mip": 0.48830026388168335,
+      "endpoint_opl_bm_mip": 0.5127885937690735,
+      "update": 81,
+      "case_ids": [
+        "10464",
+        "10490"
+      ],
+      "times": [
+        0.6399228572845459,
+        0.0
+      ],
+      "noise_seeds": [
+        4863024698711739133,
+        980307190277228797
+      ],
+      "lr": 4.05e-06,
+      "auxiliary_factor": 0.081,
+      "grad_norm": 0.4713004529476166,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190706014633179
+    },
+    {
+      "loss": 0.9160788059234619,
+      "velocity_low": 0.8767609596252441,
+      "velocity_detail": 0.9058066606521606,
+      "velocity": 0.9021759629249573,
+      "endpoint_mae": 0.33710232377052307,
+      "endpoint_ilm_opl_mip": 0.6703754663467407,
+      "endpoint_opl_bm_mip": 0.7056233286857605,
+      "update": 82,
+      "case_ids": [
+        "10440",
+        "10373"
+      ],
+      "times": [
+        0.06001921743154526,
+        0.11077330261468887
+      ],
+      "noise_seeds": [
+        5985527360802273796,
+        4214884675291405124
+      ],
+      "lr": 4.1000000000000006e-06,
+      "auxiliary_factor": 0.082,
+      "grad_norm": 0.5144283175468445,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183835342526436
+    },
+    {
+      "loss": 1.5032492876052856,
+      "velocity_low": 1.4157342910766602,
+      "velocity_detail": 1.503627061843872,
+      "velocity": 1.4926406145095825,
+      "endpoint_mae": 0.4768403172492981,
+      "endpoint_ilm_opl_mip": 0.3952987790107727,
+      "endpoint_opl_bm_mip": 0.4167357385158539,
+      "update": 83,
+      "case_ids": [
+        "10483",
+        "10348"
+      ],
+      "times": [
+        0.3044887185096741,
+        0.46213117241859436
+      ],
+      "noise_seeds": [
+        612248931974078473,
+        6684504967127771560
+      ],
+      "lr": 4.15e-06,
+      "auxiliary_factor": 0.083,
+      "grad_norm": 0.4885838031768799,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188396081328392
+    },
+    {
+      "loss": 1.8870859146118164,
+      "velocity_low": 1.9081027507781982,
+      "velocity_detail": 1.867344617843628,
+      "velocity": 1.8724393844604492,
+      "endpoint_mae": 0.5451252460479736,
+      "endpoint_ilm_opl_mip": 0.5756335854530334,
+      "endpoint_opl_bm_mip": 0.670126736164093,
+      "update": 84,
+      "case_ids": [
+        "10455",
+        "10369"
+      ],
+      "times": [
+        0.38881805539131165,
+        0.20952482521533966
+      ],
+      "noise_seeds": [
+        4501801308191016177,
+        1140950838199906168
+      ],
+      "lr": 4.2000000000000004e-06,
+      "auxiliary_factor": 0.084,
+      "grad_norm": 0.7216842174530029,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187347277998924
+    },
+    {
+      "loss": 1.5169751644134521,
+      "velocity_low": 1.514988660812378,
+      "velocity_detail": 1.5026321411132812,
+      "velocity": 1.5041766166687012,
+      "endpoint_mae": 0.356568843126297,
+      "endpoint_ilm_opl_mip": 0.5754833221435547,
+      "endpoint_opl_bm_mip": 0.5718313455581665,
+      "update": 85,
+      "case_ids": [
+        "10428",
+        "10406"
+      ],
+      "times": [
+        0.0,
+        0.7023510336875916
+      ],
+      "noise_seeds": [
+        5308152971964504470,
+        8979227651626602785
+      ],
+      "lr": 4.25e-06,
+      "auxiliary_factor": 0.085,
+      "grad_norm": 0.4441940188407898,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19018828868866
+    },
+    {
+      "loss": 1.010439157485962,
+      "velocity_low": 0.8225293159484863,
+      "velocity_detail": 1.018460988998413,
+      "velocity": 0.9939694404602051,
+      "endpoint_mae": 0.35288840532302856,
+      "endpoint_ilm_opl_mip": 0.7879190444946289,
+      "endpoint_opl_bm_mip": 0.7606374025344849,
+      "update": 86,
+      "case_ids": [
+        "10442",
+        "10349"
+      ],
+      "times": [
+        0.0,
+        0.1730901300907135
+      ],
+      "noise_seeds": [
+        6858965520954277561,
+        285524692143253232
+      ],
+      "lr": 4.3e-06,
+      "auxiliary_factor": 0.086,
+      "grad_norm": 0.5136584639549255,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188403829932213
+    },
+    {
+      "loss": 1.3328293561935425,
+      "velocity_low": 1.2324919700622559,
+      "velocity_detail": 1.3360868692398071,
+      "velocity": 1.3231375217437744,
+      "endpoint_mae": 0.29681915044784546,
+      "endpoint_ilm_opl_mip": 0.39927124977111816,
+      "endpoint_opl_bm_mip": 0.4365604519844055,
+      "update": 87,
+      "case_ids": [
+        "10488",
+        "10427"
+      ],
+      "times": [
+        0.10776900500059128,
+        0.7662822008132935
+      ],
+      "noise_seeds": [
+        3852066840435958189,
+        3812201033772618242
+      ],
+      "lr": 4.350000000000001e-06,
+      "auxiliary_factor": 0.087,
+      "grad_norm": 0.3525697588920593,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188391625881195
+    },
+    {
+      "loss": 1.8445367813110352,
+      "velocity_low": 1.8606739044189453,
+      "velocity_detail": 1.823838472366333,
+      "velocity": 1.828442931175232,
+      "endpoint_mae": 0.5150566101074219,
+      "endpoint_ilm_opl_mip": 0.6748148798942566,
+      "endpoint_opl_bm_mip": 0.6031169295310974,
+      "update": 88,
+      "case_ids": [
+        "10337",
+        "10424"
+      ],
+      "times": [
+        0.43723276257514954,
+        0.10813505947589874
+      ],
+      "noise_seeds": [
+        3628957195102217602,
+        4026015118406568587
+      ],
+      "lr": 4.4e-06,
+      "auxiliary_factor": 0.088,
+      "grad_norm": 0.7042824029922485,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19083808362484
+    },
+    {
+      "loss": 0.9512587785720825,
+      "velocity_low": 0.9211039543151855,
+      "velocity_detail": 0.9342279434204102,
+      "velocity": 0.9325873851776123,
+      "endpoint_mae": 0.3507448434829712,
+      "endpoint_ilm_opl_mip": 0.8894537687301636,
+      "endpoint_opl_bm_mip": 0.8259686231613159,
+      "update": 89,
+      "case_ids": [
+        "10465",
+        "10443"
+      ],
+      "times": [
+        0.0,
+        0.019384216517210007
+      ],
+      "noise_seeds": [
+        3406877024917181173,
+        8841171301969023982
+      ],
+      "lr": 4.45e-06,
+      "auxiliary_factor": 0.089,
+      "grad_norm": 0.5710411667823792,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193754151463509
+    },
+    {
+      "loss": 1.3840978145599365,
+      "velocity_low": 1.3896713256835938,
+      "velocity_detail": 1.3694543838500977,
+      "velocity": 1.3719815015792847,
+      "endpoint_mae": 0.38654497265815735,
+      "endpoint_ilm_opl_mip": 0.4721166789531708,
+      "endpoint_opl_bm_mip": 0.5030587315559387,
+      "update": 90,
+      "case_ids": [
+        "10350",
+        "10377"
+      ],
+      "times": [
+        0.6594199538230896,
+        0.0
+      ],
+      "noise_seeds": [
+        6293217034087587037,
+        7368698178564560857
+      ],
+      "lr": 4.5e-06,
+      "auxiliary_factor": 0.09,
+      "grad_norm": 0.4626852869987488,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190559312701225
+    },
+    {
+      "loss": 1.0309702157974243,
+      "velocity_low": 0.9648876190185547,
+      "velocity_detail": 1.02937650680542,
+      "velocity": 1.021315336227417,
+      "endpoint_mae": 0.18090498447418213,
+      "endpoint_ilm_opl_mip": 0.441717267036438,
+      "endpoint_opl_bm_mip": 0.4349793791770935,
+      "update": 91,
+      "case_ids": [
+        "10314",
+        "10479"
+      ],
+      "times": [
+        0.0,
+        0.9582968354225159
+      ],
+      "noise_seeds": [
+        1565779667321930953,
+        1010506786366223358
+      ],
+      "lr": 4.5500000000000005e-06,
+      "auxiliary_factor": 0.091,
+      "grad_norm": 0.26317256689071655,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193419337272644
+    },
+    {
+      "loss": 2.100343704223633,
+      "velocity_low": 2.172964334487915,
+      "velocity_detail": 2.0739762783050537,
+      "velocity": 2.0863497257232666,
+      "endpoint_mae": 0.5673465728759766,
+      "endpoint_ilm_opl_mip": 0.49003836512565613,
+      "endpoint_opl_bm_mip": 0.437317430973053,
+      "update": 92,
+      "case_ids": [
+        "10329",
+        "10478"
+      ],
+      "times": [
+        0.45116010308265686,
+        0.38963356614112854
+      ],
+      "noise_seeds": [
+        8449815154481106343,
+        5652766756143906842
+      ],
+      "lr": 4.6e-06,
+      "auxiliary_factor": 0.092,
+      "grad_norm": 0.6881650686264038,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187529027462006
+    },
+    {
+      "loss": 1.1505634784698486,
+      "velocity_low": 1.0794782638549805,
+      "velocity_detail": 1.1543176174163818,
+      "velocity": 1.1449626684188843,
+      "endpoint_mae": 0.2707535922527313,
+      "endpoint_ilm_opl_mip": 0.1573130488395691,
+      "endpoint_opl_bm_mip": 0.19103965163230896,
+      "update": 93,
+      "case_ids": [
+        "10416",
+        "10400"
+      ],
+      "times": [
+        0.3636147081851959,
+        0.8723331093788147
+      ],
+      "noise_seeds": [
+        5145910183231119101,
+        336551046732892549
+      ],
+      "lr": 4.65e-06,
+      "auxiliary_factor": 0.093,
+      "grad_norm": 0.2285616397857666,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189192578196526
+    },
+    {
+      "loss": 1.374704122543335,
+      "velocity_low": 1.370688796043396,
+      "velocity_detail": 1.3724853992462158,
+      "velocity": 1.3722608089447021,
+      "endpoint_mae": 0.14812682569026947,
+      "endpoint_ilm_opl_mip": 0.055389124900102615,
+      "endpoint_opl_bm_mip": 0.05743139237165451,
+      "update": 94,
+      "case_ids": [
+        "10378",
+        "10401"
+      ],
+      "times": [
+        0.7482633590698242,
+        0.9512420296669006
+      ],
+      "noise_seeds": [
+        3259961805529805517,
+        1405316580138540414
+      ],
+      "lr": 4.7e-06,
+      "auxiliary_factor": 0.094,
+      "grad_norm": 0.11944703012704849,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.194185122847557
+    },
+    {
+      "loss": 1.8438100814819336,
+      "velocity_low": 1.9323008060455322,
+      "velocity_detail": 1.8116860389709473,
+      "velocity": 1.8267627954483032,
+      "endpoint_mae": 0.46274808049201965,
+      "endpoint_ilm_opl_mip": 0.6769001483917236,
+      "endpoint_opl_bm_mip": 0.632710337638855,
+      "update": 95,
+      "case_ids": [
+        "10334",
+        "10414"
+      ],
+      "times": [
+        0.5576143860816956,
+        0.0
+      ],
+      "noise_seeds": [
+        8238163313481546675,
+        1229529322011908442
+      ],
+      "lr": 4.75e-06,
+      "auxiliary_factor": 0.095,
+      "grad_norm": 0.6413050889968872,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188228577375412
+    },
+    {
+      "loss": 1.529346227645874,
+      "velocity_low": 1.5454342365264893,
+      "velocity_detail": 1.5091122388839722,
+      "velocity": 1.5136525630950928,
+      "endpoint_mae": 0.451288640499115,
+      "endpoint_ilm_opl_mip": 0.5936587452888489,
+      "endpoint_opl_bm_mip": 0.5859789848327637,
+      "update": 96,
+      "case_ids": [
+        "10429",
+        "10449"
+      ],
+      "times": [
+        0.5001645088195801,
+        0.0
+      ],
+      "noise_seeds": [
+        3518371650669989314,
+        5761573371958418540
+      ],
+      "lr": 4.800000000000001e-06,
+      "auxiliary_factor": 0.096,
+      "grad_norm": 0.5766571164131165,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190818697214127
+    },
+    {
+      "loss": 1.3657379150390625,
+      "velocity_low": 1.5264925956726074,
+      "velocity_detail": 1.330383062362671,
+      "velocity": 1.3548967838287354,
+      "endpoint_mae": 0.32318365573883057,
+      "endpoint_ilm_opl_mip": 0.4016205668449402,
+      "endpoint_opl_bm_mip": 0.38408440351486206,
+      "update": 97,
+      "case_ids": [
+        "10316",
+        "10310"
+      ],
+      "times": [
+        0.0,
+        0.6773319244384766
+      ],
+      "noise_seeds": [
+        2036732069594828652,
+        518931802295073990
+      ],
+      "lr": 4.85e-06,
+      "auxiliary_factor": 0.097,
+      "grad_norm": 0.4344785511493683,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186412423849106
+    },
+    {
+      "loss": 1.1277883052825928,
+      "velocity_low": 1.0943803787231445,
+      "velocity_detail": 1.1077008247375488,
+      "velocity": 1.1060357093811035,
+      "endpoint_mae": 0.36369895935058594,
+      "endpoint_ilm_opl_mip": 0.9337538480758667,
+      "endpoint_opl_bm_mip": 0.9106458425521851,
+      "update": 98,
+      "case_ids": [
+        "10336",
+        "10353"
+      ],
+      "times": [
+        0.026132680475711823,
+        0.0
+      ],
+      "noise_seeds": [
+        3300538701786081675,
+        925809821520054555
+      ],
+      "lr": 4.9e-06,
+      "auxiliary_factor": 0.098,
+      "grad_norm": 0.5937961339950562,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189933627843857
+    },
+    {
+      "loss": 1.3364059925079346,
+      "velocity_low": 1.2402198314666748,
+      "velocity_detail": 1.3321280479431152,
+      "velocity": 1.3206394910812378,
+      "endpoint_mae": 0.4500826895236969,
+      "endpoint_ilm_opl_mip": 0.5690842866897583,
+      "endpoint_opl_bm_mip": 0.5777433514595032,
+      "update": 99,
+      "case_ids": [
+        "10405",
+        "10399"
+      ],
+      "times": [
+        0.28557494282722473,
+        0.22396300733089447
+      ],
+      "noise_seeds": [
+        5066611280383054388,
+        3752356998962663419
+      ],
+      "lr": 4.95e-06,
+      "auxiliary_factor": 0.099,
+      "grad_norm": 0.5650099515914917,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188903108239174
+    },
+    {
+      "loss": 1.3457872867584229,
+      "velocity_low": 1.225377082824707,
+      "velocity_detail": 1.34263014793396,
+      "velocity": 1.327973484992981,
+      "endpoint_mae": 0.4418730139732361,
+      "endpoint_ilm_opl_mip": 0.6754369735717773,
+      "endpoint_opl_bm_mip": 0.6526902914047241,
+      "update": 100,
+      "case_ids": [
+        "10335",
+        "10469"
+      ],
+      "times": [
+        0.33719733357429504,
+        0.0
+      ],
+      "noise_seeds": [
+        1126360417025189078,
+        662913544912246037
+      ],
+      "lr": 5e-06,
+      "auxiliary_factor": 0.1,
+      "grad_norm": 0.5654000639915466,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187754079699516
+    },
+    {
+      "loss": 1.119913101196289,
+      "velocity_low": 1.1041476726531982,
+      "velocity_detail": 1.1005322933197021,
+      "velocity": 1.1009842157363892,
+      "endpoint_mae": 0.41281813383102417,
+      "endpoint_ilm_opl_mip": 0.7206506729125977,
+      "endpoint_opl_bm_mip": 0.7607063055038452,
+      "update": 101,
+      "case_ids": [
+        "10434",
+        "10459"
+      ],
+      "times": [
+        0.11496675759553909,
+        0.12290836870670319
+      ],
+      "noise_seeds": [
+        3286660063659005264,
+        2710756607131309788
+      ],
+      "lr": 5.050000000000001e-06,
+      "auxiliary_factor": 0.101,
+      "grad_norm": 0.6462173461914062,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183547869324684
+    },
+    {
+      "loss": 1.369546890258789,
+      "velocity_low": 1.3674547672271729,
+      "velocity_detail": 1.366936445236206,
+      "velocity": 1.3670012950897217,
+      "endpoint_mae": 0.1537260115146637,
+      "endpoint_ilm_opl_mip": 0.04689938947558403,
+      "endpoint_opl_bm_mip": 0.05101124942302704,
+      "update": 102,
+      "case_ids": [
+        "10489",
+        "10374"
+      ],
+      "times": [
+        0.8011196255683899,
+        0.8709357380867004
+      ],
+      "noise_seeds": [
+        1758066267292018528,
+        1374926560419230708
+      ],
+      "lr": 5.1e-06,
+      "auxiliary_factor": 0.102,
+      "grad_norm": 0.09957337379455566,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1902816742658615
+    },
+    {
+      "loss": 2.01247501373291,
+      "velocity_low": 1.9318194389343262,
+      "velocity_detail": 2.0069284439086914,
+      "velocity": 1.997539758682251,
+      "endpoint_mae": 0.5259365439414978,
+      "endpoint_ilm_opl_mip": 0.45752307772636414,
+      "endpoint_opl_bm_mip": 0.4756178855895996,
+      "update": 103,
+      "case_ids": [
+        "10383",
+        "10312"
+      ],
+      "times": [
+        0.35926172137260437,
+        0.508711040019989
+      ],
+      "noise_seeds": [
+        1053877764533844094,
+        3581726467434038145
+      ],
+      "lr": 5.15e-06,
+      "auxiliary_factor": 0.103,
+      "grad_norm": 0.5924476385116577,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189363345503807
+    },
+    {
+      "loss": 1.6386735439300537,
+      "velocity_low": 1.5456795692443848,
+      "velocity_detail": 1.6298670768737793,
+      "velocity": 1.619343638420105,
+      "endpoint_mae": 0.45401835441589355,
+      "endpoint_ilm_opl_mip": 0.7030915021896362,
+      "endpoint_opl_bm_mip": 0.6999814510345459,
+      "update": 104,
+      "case_ids": [
+        "10492",
+        "10441"
+      ],
+      "times": [
+        0.0,
+        0.46547165513038635
+      ],
+      "noise_seeds": [
+        8990632892322449979,
+        1057998618798385269
+      ],
+      "lr": 5.200000000000001e-06,
+      "auxiliary_factor": 0.104,
+      "grad_norm": 0.5977867245674133,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188076823949814
+    },
+    {
+      "loss": 1.4994601011276245,
+      "velocity_low": 1.5132949352264404,
+      "velocity_detail": 1.4920985698699951,
+      "velocity": 1.4947481155395508,
+      "endpoint_mae": 0.2373674362897873,
+      "endpoint_ilm_opl_mip": 0.1082005649805069,
+      "endpoint_opl_bm_mip": 0.09818413853645325,
+      "update": 105,
+      "case_ids": [
+        "10445",
+        "10451"
+      ],
+      "times": [
+        0.5886590480804443,
+        0.9572618007659912
+      ],
+      "noise_seeds": [
+        5443528224776357269,
+        4900734426222671757
+      ],
+      "lr": 5.2500000000000006e-06,
+      "auxiliary_factor": 0.105,
+      "grad_norm": 0.2249833643436432,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.185993507504463
+    },
+    {
+      "loss": 1.0957554578781128,
+      "velocity_low": 0.9957758188247681,
+      "velocity_detail": 1.0875544548034668,
+      "velocity": 1.0760821104049683,
+      "endpoint_mae": 0.3701545000076294,
+      "endpoint_ilm_opl_mip": 0.7370332479476929,
+      "endpoint_opl_bm_mip": 0.7605301737785339,
+      "update": 106,
+      "case_ids": [
+        "10393",
+        "10389"
+      ],
+      "times": [
+        0.10394592583179474,
+        0.061901725828647614
+      ],
+      "noise_seeds": [
+        5609702475774617634,
+        7608013829178250778
+      ],
+      "lr": 5.3e-06,
+      "auxiliary_factor": 0.106,
+      "grad_norm": 0.6009814739227295,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187284544110298
+    },
+    {
+      "loss": 1.287945032119751,
+      "velocity_low": 1.2076928615570068,
+      "velocity_detail": 1.2833961248397827,
+      "velocity": 1.2739331722259521,
+      "endpoint_mae": 0.35686030983924866,
+      "endpoint_ilm_opl_mip": 0.4699842929840088,
+      "endpoint_opl_bm_mip": 0.4953559339046478,
+      "update": 107,
+      "case_ids": [
+        "10311",
+        "10372"
+      ],
+      "times": [
+        0.604004979133606,
+        0.0
+      ],
+      "noise_seeds": [
+        2502490637601412518,
+        6174905740392223712
+      ],
+      "lr": 5.3500000000000004e-06,
+      "auxiliary_factor": 0.107,
+      "grad_norm": 0.4107639789581299,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190305784344673
+    },
+    {
+      "loss": 1.3888462781906128,
+      "velocity_low": 1.3862719535827637,
+      "velocity_detail": 1.3860783576965332,
+      "velocity": 1.3861024379730225,
+      "endpoint_mae": 0.15405544638633728,
+      "endpoint_ilm_opl_mip": 0.04936883598566055,
+      "endpoint_opl_bm_mip": 0.05188184976577759,
+      "update": 108,
+      "case_ids": [
+        "10407",
+        "10315"
+      ],
+      "times": [
+        0.8071774840354919,
+        0.865924060344696
+      ],
+      "noise_seeds": [
+        545834821952600842,
+        7724553391638267582
+      ],
+      "lr": 5.4e-06,
+      "auxiliary_factor": 0.108,
+      "grad_norm": 0.11495760828256607,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190630465745926
+    },
+    {
+      "loss": 1.4386136531829834,
+      "velocity_low": 1.5424449443817139,
+      "velocity_detail": 1.4030299186706543,
+      "velocity": 1.420456886291504,
+      "endpoint_mae": 0.46248865127563477,
+      "endpoint_ilm_opl_mip": 0.5992804765701294,
+      "endpoint_opl_bm_mip": 0.6087073087692261,
+      "update": 109,
+      "case_ids": [
+        "10417",
+        "10387"
+      ],
+      "times": [
+        0.01267100591212511,
+        0.3988460898399353
+      ],
+      "noise_seeds": [
+        1409609933169965329,
+        8554257308444789901
+      ],
+      "lr": 5.45e-06,
+      "auxiliary_factor": 0.109,
+      "grad_norm": 0.6357774138450623,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187461331486702
+    },
+    {
+      "loss": 1.0923793315887451,
+      "velocity_low": 1.0021880865097046,
+      "velocity_detail": 1.081836462020874,
+      "velocity": 1.0718803405761719,
+      "endpoint_mae": 0.36744850873947144,
+      "endpoint_ilm_opl_mip": 0.7655118107795715,
+      "endpoint_opl_bm_mip": 0.6956459283828735,
+      "update": 110,
+      "case_ids": [
+        "10380",
+        "10375"
+      ],
+      "times": [
+        0.0690043568611145,
+        0.09854823350906372
+      ],
+      "noise_seeds": [
+        3658473120910977676,
+        6312392127144036618
+      ],
+      "lr": 5.500000000000001e-06,
+      "auxiliary_factor": 0.11,
+      "grad_norm": 0.5970026254653931,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191767513751984
+    },
+    {
+      "loss": 1.8496450185775757,
+      "velocity_low": 1.8414173126220703,
+      "velocity_detail": 1.8330614566802979,
+      "velocity": 1.8341059684753418,
+      "endpoint_mae": 0.515220046043396,
+      "endpoint_ilm_opl_mip": 0.4450645446777344,
+      "endpoint_opl_bm_mip": 0.434201180934906,
+      "update": 111,
+      "case_ids": [
+        "10366",
+        "10452"
+      ],
+      "times": [
+        0.5125051736831665,
+        0.33689746260643005
+      ],
+      "noise_seeds": [
+        3877222024172872483,
+        3614879760625970957
+      ],
+      "lr": 5.55e-06,
+      "auxiliary_factor": 0.111,
+      "grad_norm": 0.5695865750312805,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191200390458107
+    },
+    {
+      "loss": 1.0484532117843628,
+      "velocity_low": 1.00225830078125,
+      "velocity_detail": 1.0405665636062622,
+      "velocity": 1.0357780456542969,
+      "endpoint_mae": 0.18049411475658417,
+      "endpoint_ilm_opl_mip": 0.4846227765083313,
+      "endpoint_opl_bm_mip": 0.4485720694065094,
+      "update": 112,
+      "case_ids": [
+        "10419",
+        "10381"
+      ],
+      "times": [
+        0.9889995455741882,
+        0.0
+      ],
+      "noise_seeds": [
+        1241043262657477720,
+        4077457507553722794
+      ],
+      "lr": 5.6e-06,
+      "auxiliary_factor": 0.112,
+      "grad_norm": 0.27303269505500793,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193235084414482
+    },
+    {
+      "loss": 1.1773097515106201,
+      "velocity_low": 1.1248160600662231,
+      "velocity_detail": 1.1695910692214966,
+      "velocity": 1.1639941930770874,
+      "endpoint_mae": 0.22992853820323944,
+      "endpoint_ilm_opl_mip": 0.4673786163330078,
+      "endpoint_opl_bm_mip": 0.49473607540130615,
+      "update": 113,
+      "case_ids": [
+        "10436",
+        "10412"
+      ],
+      "times": [
+        0.8960816264152527,
+        0.0
+      ],
+      "noise_seeds": [
+        2872960236569602921,
+        3351951207048911868
+      ],
+      "lr": 5.65e-06,
+      "auxiliary_factor": 0.113,
+      "grad_norm": 0.3084355592727661,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186378061771393
+    },
+    {
+      "loss": 1.5125598907470703,
+      "velocity_low": 1.561388611793518,
+      "velocity_detail": 1.4860739707946777,
+      "velocity": 1.495488166809082,
+      "endpoint_mae": 0.40676194429397583,
+      "endpoint_ilm_opl_mip": 0.5453327298164368,
+      "endpoint_opl_bm_mip": 0.5455090999603271,
+      "update": 114,
+      "case_ids": [
+        "10403",
+        "10432"
+      ],
+      "times": [
+        0.5076838135719299,
+        0.0
+      ],
+      "noise_seeds": [
+        6346204051854665956,
+        7905440318587293685
+      ],
+      "lr": 5.7000000000000005e-06,
+      "auxiliary_factor": 0.114,
+      "grad_norm": 0.5445839166641235,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1917877197265625
+    },
+    {
+      "loss": 1.4460716247558594,
+      "velocity_low": 1.5791432857513428,
+      "velocity_detail": 1.4082077741622925,
+      "velocity": 1.429574728012085,
+      "endpoint_mae": 0.32080021500587463,
+      "endpoint_ilm_opl_mip": 0.5656576156616211,
+      "endpoint_opl_bm_mip": 0.5304703116416931,
+      "update": 115,
+      "case_ids": [
+        "10361",
+        "10368"
+      ],
+      "times": [
+        0.8877789974212646,
+        0.0
+      ],
+      "noise_seeds": [
+        4261931445482858448,
+        6081806798824329685
+      ],
+      "lr": 5.75e-06,
+      "auxiliary_factor": 0.115,
+      "grad_norm": 0.46163496375083923,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189776256680489
+    },
+    {
+      "loss": 1.3325605392456055,
+      "velocity_low": 1.3305175304412842,
+      "velocity_detail": 1.3199572563171387,
+      "velocity": 1.321277141571045,
+      "endpoint_mae": 0.2614103853702545,
+      "endpoint_ilm_opl_mip": 0.3563082218170166,
+      "endpoint_opl_bm_mip": 0.353659987449646,
+      "update": 116,
+      "case_ids": [
+        "10486",
+        "10345"
+      ],
+      "times": [
+        0.18085792660713196,
+        0.967206597328186
+      ],
+      "noise_seeds": [
+        3196355752383898300,
+        784825469988938997
+      ],
+      "lr": 5.8e-06,
+      "auxiliary_factor": 0.116,
+      "grad_norm": 0.3755240738391876,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190137222409248
+    },
+    {
+      "loss": 1.2043403387069702,
+      "velocity_low": 1.2001621723175049,
+      "velocity_detail": 1.1962629556655884,
+      "velocity": 1.1967504024505615,
+      "endpoint_mae": 0.2830941379070282,
+      "endpoint_ilm_opl_mip": 0.18437962234020233,
+      "endpoint_opl_bm_mip": 0.17810967564582825,
+      "update": 117,
+      "case_ids": [
+        "10333",
+        "10388"
+      ],
+      "times": [
+        0.3556031584739685,
+        0.9080302715301514
+      ],
+      "noise_seeds": [
+        852333383178611298,
+        1767208097589881242
+      ],
+      "lr": 5.85e-06,
+      "auxiliary_factor": 0.117,
+      "grad_norm": 0.2987494468688965,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189552843570709
+    },
+    {
+      "loss": 1.5605366230010986,
+      "velocity_low": 1.4361501932144165,
+      "velocity_detail": 1.5536081790924072,
+      "velocity": 1.5389258861541748,
+      "endpoint_mae": 0.43697232007980347,
+      "endpoint_ilm_opl_mip": 0.7057410478591919,
+      "endpoint_opl_bm_mip": 0.6716834306716919,
+      "update": 118,
+      "case_ids": [
+        "10385",
+        "10339"
+      ],
+      "times": [
+        0.4089125096797943,
+        0.0
+      ],
+      "noise_seeds": [
+        5086977504888604156,
+        2819029869670185822
+      ],
+      "lr": 5.9e-06,
+      "auxiliary_factor": 0.118,
+      "grad_norm": 0.5777852535247803,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.185513600707054
+    },
+    {
+      "loss": 1.7066679000854492,
+      "velocity_low": 1.5711579322814941,
+      "velocity_detail": 1.7094558477401733,
+      "velocity": 1.6921685934066772,
+      "endpoint_mae": 0.3933221399784088,
+      "endpoint_ilm_opl_mip": 0.4233707785606384,
+      "endpoint_opl_bm_mip": 0.38008782267570496,
+      "update": 119,
+      "case_ids": [
+        "10458",
+        "10413"
+      ],
+      "times": [
+        0.708133339881897,
+        0.29672425985336304
+      ],
+      "noise_seeds": [
+        936493858782092928,
+        1214455898735674297
+      ],
+      "lr": 5.950000000000001e-06,
+      "auxiliary_factor": 0.119,
+      "grad_norm": 0.40122392773628235,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.185861095786095
+    },
+    {
+      "loss": 1.2071962356567383,
+      "velocity_low": 1.1967650651931763,
+      "velocity_detail": 1.1930303573608398,
+      "velocity": 1.1934971809387207,
+      "endpoint_mae": 0.3052482008934021,
+      "endpoint_ilm_opl_mip": 0.41001495718955994,
+      "endpoint_opl_bm_mip": 0.4426405131816864,
+      "update": 120,
+      "case_ids": [
+        "10431",
+        "10466"
+      ],
+      "times": [
+        0.0,
+        0.7261230945587158
+      ],
+      "noise_seeds": [
+        6160756830801437920,
+        4095464243681361541
+      ],
+      "lr": 6e-06,
+      "auxiliary_factor": 0.12,
+      "grad_norm": 0.36421218514442444,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191356778144836
+    },
+    {
+      "loss": 1.860152244567871,
+      "velocity_low": 1.59214448928833,
+      "velocity_detail": 1.8725154399871826,
+      "velocity": 1.8374691009521484,
+      "endpoint_mae": 0.5084367394447327,
+      "endpoint_ilm_opl_mip": 0.6812002062797546,
+      "endpoint_opl_bm_mip": 0.6887918710708618,
+      "update": 121,
+      "case_ids": [
+        "10450",
+        "10308"
+      ],
+      "times": [
+        0.37716105580329895,
+        0.2089185267686844
+      ],
+      "noise_seeds": [
+        4160770114929589987,
+        8893012795098074531
+      ],
+      "lr": 6.0500000000000005e-06,
+      "auxiliary_factor": 0.121,
+      "grad_norm": 0.6738880276679993,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1911792904138565
+    },
+    {
+      "loss": 1.0804636478424072,
+      "velocity_low": 1.1760406494140625,
+      "velocity_detail": 1.0416228771209717,
+      "velocity": 1.0584251880645752,
+      "endpoint_mae": 0.41855886578559875,
+      "endpoint_ilm_opl_mip": 0.7111570835113525,
+      "endpoint_opl_bm_mip": 0.6422684192657471,
+      "update": 122,
+      "case_ids": [
+        "10346",
+        "10411"
+      ],
+      "times": [
+        0.0,
+        0.23591305315494537
+      ],
+      "noise_seeds": [
+        7214274512449104869,
+        798319759951441667
+      ],
+      "lr": 6.1e-06,
+      "auxiliary_factor": 0.122,
+      "grad_norm": 0.6295397877693176,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190312042832375
+    },
+    {
+      "loss": 1.4291614294052124,
+      "velocity_low": 1.3929638862609863,
+      "velocity_detail": 1.4054988622665405,
+      "velocity": 1.403931975364685,
+      "endpoint_mae": 0.43643274903297424,
+      "endpoint_ilm_opl_mip": 0.813035786151886,
+      "endpoint_opl_bm_mip": 0.7903832197189331,
+      "update": 123,
+      "case_ids": [
+        "10496",
+        "10487"
+      ],
+      "times": [
+        0.2641918361186981,
+        0.0
+      ],
+      "noise_seeds": [
+        3298903563878074464,
+        4845691756387078900
+      ],
+      "lr": 6.15e-06,
+      "auxiliary_factor": 0.123,
+      "grad_norm": 0.6474616527557373,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193847060203552
+    },
+    {
+      "loss": 1.645277500152588,
+      "velocity_low": 1.6806401014328003,
+      "velocity_detail": 1.6145031452178955,
+      "velocity": 1.622770071029663,
+      "endpoint_mae": 0.45930716395378113,
+      "endpoint_ilm_opl_mip": 0.6921096444129944,
+      "endpoint_opl_bm_mip": 0.6352635622024536,
+      "update": 124,
+      "case_ids": [
+        "10457",
+        "10493"
+      ],
+      "times": [
+        0.0,
+        0.4000195264816284
+      ],
+      "noise_seeds": [
+        8716124518643692261,
+        7257671309781786006
+      ],
+      "lr": 6.200000000000001e-06,
+      "auxiliary_factor": 0.124,
+      "grad_norm": 0.6734204888343811,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.209399193525314
+    },
+    {
+      "loss": 1.4717137813568115,
+      "velocity_low": 1.436405897140503,
+      "velocity_detail": 1.4493247270584106,
+      "velocity": 1.4477099180221558,
+      "endpoint_mae": 0.45242229104042053,
+      "endpoint_ilm_opl_mip": 0.7489237785339355,
+      "endpoint_opl_bm_mip": 0.6890097856521606,
+      "update": 125,
+      "case_ids": [
+        "10397",
+        "10370"
+      ],
+      "times": [
+        0.3410871922969818,
+        0.0
+      ],
+      "noise_seeds": [
+        4627726319989368166,
+        4257256953656350782
+      ],
+      "lr": 6.25e-06,
+      "auxiliary_factor": 0.125,
+      "grad_norm": 0.6575571894645691,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188499614596367
+    },
+    {
+      "loss": 1.2173655033111572,
+      "velocity_low": 1.080434799194336,
+      "velocity_detail": 1.2137072086334229,
+      "velocity": 1.1970481872558594,
+      "endpoint_mae": 0.41116660833358765,
+      "endpoint_ilm_opl_mip": 0.6114444732666016,
+      "endpoint_opl_bm_mip": 0.5682941675186157,
+      "update": 126,
+      "case_ids": [
+        "10481",
+        "10426"
+      ],
+      "times": [
+        0.406869113445282,
+        0.048632510006427765
+      ],
+      "noise_seeds": [
+        4381416108630760316,
+        698130292641432665
+      ],
+      "lr": 6.3e-06,
+      "auxiliary_factor": 0.126,
+      "grad_norm": 0.5047488808631897,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1903494000434875
+    },
+    {
+      "loss": 1.927926778793335,
+      "velocity_low": 2.0032100677490234,
+      "velocity_detail": 1.9030019044876099,
+      "velocity": 1.9155280590057373,
+      "endpoint_mae": 0.47328782081604004,
+      "endpoint_ilm_opl_mip": 0.24869009852409363,
+      "endpoint_opl_bm_mip": 0.2599237561225891,
+      "update": 127,
+      "case_ids": [
+        "10392",
+        "10468"
+      ],
+      "times": [
+        0.5791016817092896,
+        0.5109798312187195
+      ],
+      "noise_seeds": [
+        6439576217036215378,
+        7716369789318329947
+      ],
+      "lr": 6.35e-06,
+      "auxiliary_factor": 0.127,
+      "grad_norm": 0.4804508090019226,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1921746134758
+    },
+    {
+      "loss": 1.0936846733093262,
+      "velocity_low": 0.9602096080780029,
+      "velocity_detail": 1.0880650281906128,
+      "velocity": 1.0720831155776978,
+      "endpoint_mae": 0.3627767562866211,
+      "endpoint_ilm_opl_mip": 0.6502265930175781,
+      "endpoint_opl_bm_mip": 0.6990168690681458,
+      "update": 128,
+      "case_ids": [
+        "10439",
+        "10340"
+      ],
+      "times": [
+        0.0,
+        0.23813842236995697
+      ],
+      "noise_seeds": [
+        4821985086879396363,
+        7383771813469768111
+      ],
+      "lr": 6.4000000000000006e-06,
+      "auxiliary_factor": 0.128,
+      "grad_norm": 0.5271883010864258,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187316596508026
+    },
+    {
+      "loss": 1.4146803617477417,
+      "velocity_low": 1.2915809154510498,
+      "velocity_detail": 1.4084888696670532,
+      "velocity": 1.3938753604888916,
+      "endpoint_mae": 0.4356042146682739,
+      "endpoint_ilm_opl_mip": 0.5773385763168335,
+      "endpoint_opl_bm_mip": 0.6223511099815369,
+      "update": 129,
+      "case_ids": [
+        "10352",
+        "10376"
+      ],
+      "times": [
+        0.4542640149593353,
+        0.0
+      ],
+      "noise_seeds": [
+        275230972318291720,
+        2948606328471442335
+      ],
+      "lr": 6.45e-06,
+      "auxiliary_factor": 0.129,
+      "grad_norm": 0.5274848341941833,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188830062747002
+    },
+    {
+      "loss": 1.8920550346374512,
+      "velocity_low": 1.7278602123260498,
+      "velocity_detail": 1.876945972442627,
+      "velocity": 1.858310341835022,
+      "endpoint_mae": 0.5136491060256958,
+      "endpoint_ilm_opl_mip": 1.0574450492858887,
+      "endpoint_opl_bm_mip": 0.9918621182441711,
+      "update": 130,
+      "case_ids": [
+        "10313",
+        "10485"
+      ],
+      "times": [
+        0.15571711957454681,
+        0.0
+      ],
+      "noise_seeds": [
+        7504585587062934542,
+        921437554756770946
+      ],
+      "lr": 6.5000000000000004e-06,
+      "auxiliary_factor": 0.13,
+      "grad_norm": 0.8382354378700256,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188503339886665
+    },
+    {
+      "loss": 1.314501404762268,
+      "velocity_low": 1.276059865951538,
+      "velocity_detail": 1.291582703590393,
+      "velocity": 1.289642333984375,
+      "endpoint_mae": 0.44796162843704224,
+      "endpoint_ilm_opl_mip": 0.7221860885620117,
+      "endpoint_opl_bm_mip": 0.7328037023544312,
+      "update": 131,
+      "case_ids": [
+        "10306",
+        "10461"
+      ],
+      "times": [
+        0.2747267782688141,
+        0.0
+      ],
+      "noise_seeds": [
+        4239462704344068629,
+        3921662838171180890
+      ],
+      "lr": 6.55e-06,
+      "auxiliary_factor": 0.131,
+      "grad_norm": 0.6347075700759888,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19059082865715
+    },
+    {
+      "loss": 1.7206039428710938,
+      "velocity_low": 1.7978694438934326,
+      "velocity_detail": 1.687462329864502,
+      "velocity": 1.701263189315796,
+      "endpoint_mae": 0.45809364318847656,
+      "endpoint_ilm_opl_mip": 0.5003671646118164,
+      "endpoint_opl_bm_mip": 0.5131092667579651,
+      "update": 132,
+      "case_ids": [
+        "10453",
+        "10480"
+      ],
+      "times": [
+        0.5526139736175537,
+        0.0
+      ],
+      "noise_seeds": [
+        1072205361601302847,
+        4904162654520591615
+      ],
+      "lr": 6.6e-06,
+      "auxiliary_factor": 0.132,
+      "grad_norm": 0.6577240228652954,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189574033021927
+    },
+    {
+      "loss": 1.5378609895706177,
+      "velocity_low": 1.4468305110931396,
+      "velocity_detail": 1.526087999343872,
+      "velocity": 1.5161807537078857,
+      "endpoint_mae": 0.42936283349990845,
+      "endpoint_ilm_opl_mip": 0.5853211879730225,
+      "endpoint_opl_bm_mip": 0.645490288734436,
+      "update": 133,
+      "case_ids": [
+        "10344",
+        "10435"
+      ],
+      "times": [
+        0.5461264252662659,
+        0.0
+      ],
+      "noise_seeds": [
+        4503981235638803837,
+        6599170258569752486
+      ],
+      "lr": 6.650000000000001e-06,
+      "auxiliary_factor": 0.133,
+      "grad_norm": 0.5190540552139282,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187606245279312
+    },
+    {
+      "loss": 1.1822006702423096,
+      "velocity_low": 1.1783533096313477,
+      "velocity_detail": 1.1809738874435425,
+      "velocity": 1.1806464195251465,
+      "endpoint_mae": 0.07283546030521393,
+      "endpoint_ilm_opl_mip": 0.021043462678790092,
+      "endpoint_opl_bm_mip": 0.023187320679426193,
+      "update": 134,
+      "case_ids": [
+        "10324",
+        "10474"
+      ],
+      "times": [
+        0.9010407328605652,
+        0.9311589002609253
+      ],
+      "noise_seeds": [
+        9148066816531741798,
+        650728880293172911
+      ],
+      "lr": 6.7e-06,
+      "auxiliary_factor": 0.134,
+      "grad_norm": 0.02388249896466732,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187939271330833
+    },
+    {
+      "loss": 1.6014484167099,
+      "velocity_low": 1.4514626264572144,
+      "velocity_detail": 1.5938208103179932,
+      "velocity": 1.5760259628295898,
+      "endpoint_mae": 0.4491628408432007,
+      "endpoint_ilm_opl_mip": 0.6996995210647583,
+      "endpoint_opl_bm_mip": 0.7688524723052979,
+      "update": 135,
+      "case_ids": [
+        "10473",
+        "10364"
+      ],
+      "times": [
+        0.05610586702823639,
+        0.3818085193634033
+      ],
+      "noise_seeds": [
+        1027445822199695770,
+        5588033707740043768
+      ],
+      "lr": 6.75e-06,
+      "auxiliary_factor": 0.135,
+      "grad_norm": 0.6104775667190552,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186254128813744
+    },
+    {
+      "loss": 1.5602895021438599,
+      "velocity_low": 1.5589996576309204,
+      "velocity_detail": 1.5376754999160767,
+      "velocity": 1.5403410196304321,
+      "endpoint_mae": 0.35587382316589355,
+      "endpoint_ilm_opl_mip": 0.5325455069541931,
+      "endpoint_opl_bm_mip": 0.6242168545722961,
+      "update": 136,
+      "case_ids": [
+        "10390",
+        "10382"
+      ],
+      "times": [
+        0.7403754591941833,
+        0.0
+      ],
+      "noise_seeds": [
+        8763988372811720431,
+        48256427996504454
+      ],
+      "lr": 6.8e-06,
+      "auxiliary_factor": 0.136,
+      "grad_norm": 0.4653798043727875,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190442696213722
+    },
+    {
+      "loss": 1.511114239692688,
+      "velocity_low": 1.4765199422836304,
+      "velocity_detail": 1.4912508726119995,
+      "velocity": 1.4894095659255981,
+      "endpoint_mae": 0.44279351830482483,
+      "endpoint_ilm_opl_mip": 0.5630680322647095,
+      "endpoint_opl_bm_mip": 0.5937758684158325,
+      "update": 137,
+      "case_ids": [
+        "10386",
+        "10463"
+      ],
+      "times": [
+        0.0,
+        0.5041462779045105
+      ],
+      "noise_seeds": [
+        1837362984967750458,
+        2196783965976287232
+      ],
+      "lr": 6.8500000000000005e-06,
+      "auxiliary_factor": 0.137,
+      "grad_norm": 0.5485759377479553,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1884081065654755
+    },
+    {
+      "loss": 1.319295883178711,
+      "velocity_low": 1.296416997909546,
+      "velocity_detail": 1.3085436820983887,
+      "velocity": 1.307027816772461,
+      "endpoint_mae": 0.29036396741867065,
+      "endpoint_ilm_opl_mip": 0.30232077836990356,
+      "endpoint_opl_bm_mip": 0.29028797149658203,
+      "update": 138,
+      "case_ids": [
+        "10384",
+        "10343"
+      ],
+      "times": [
+        0.8877307772636414,
+        0.2868648171424866
+      ],
+      "noise_seeds": [
+        2708566958290898538,
+        2228249969521084429
+      ],
+      "lr": 6.900000000000001e-06,
+      "auxiliary_factor": 0.138,
+      "grad_norm": 0.321030855178833,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190371781587601
+    },
+    {
+      "loss": 2.167182445526123,
+      "velocity_low": 2.213472366333008,
+      "velocity_detail": 2.138291835784912,
+      "velocity": 2.1476893424987793,
+      "endpoint_mae": 0.5302528142929077,
+      "endpoint_ilm_opl_mip": 0.44685956835746765,
+      "endpoint_opl_bm_mip": 0.4036654233932495,
+      "update": 139,
+      "case_ids": [
+        "10391",
+        "10444"
+      ],
+      "times": [
+        0.4003218710422516,
+        0.5482627153396606
+      ],
+      "noise_seeds": [
+        8570516830386673299,
+        3716433072575783011
+      ],
+      "lr": 6.95e-06,
+      "auxiliary_factor": 0.139,
+      "grad_norm": 0.6088202595710754,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190396353602409
+    },
+    {
+      "loss": 1.0969712734222412,
+      "velocity_low": 1.0875937938690186,
+      "velocity_detail": 1.0644704103469849,
+      "velocity": 1.0673608779907227,
+      "endpoint_mae": 0.38114309310913086,
+      "endpoint_ilm_opl_mip": 0.8757256269454956,
+      "endpoint_opl_bm_mip": 0.8406087756156921,
+      "update": 140,
+      "case_ids": [
+        "10304",
+        "10402"
+      ],
+      "times": [
+        0.0644286572933197,
+        0.0
+      ],
+      "noise_seeds": [
+        1304565401638329069,
+        9151596032104587802
+      ],
+      "lr": 7e-06,
+      "auxiliary_factor": 0.14,
+      "grad_norm": 0.6273161768913269,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191342040896416
+    },
+    {
+      "loss": 1.1959912776947021,
+      "velocity_low": 1.207876443862915,
+      "velocity_detail": 1.1753746271133423,
+      "velocity": 1.179437279701233,
+      "endpoint_mae": 0.2699016332626343,
+      "endpoint_ilm_opl_mip": 0.4552724361419678,
+      "endpoint_opl_bm_mip": 0.4424479305744171,
+      "update": 141,
+      "case_ids": [
+        "10374",
+        "10405"
+      ],
+      "times": [
+        0.837176501750946,
+        0.0
+      ],
+      "noise_seeds": [
+        1976198384235886566,
+        3491795105893146311
+      ],
+      "lr": 7.050000000000001e-06,
+      "auxiliary_factor": 0.141,
+      "grad_norm": 0.3477034866809845,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1907340586185455
+    },
+    {
+      "loss": 1.4054555892944336,
+      "velocity_low": 1.3190643787384033,
+      "velocity_detail": 1.3957223892211914,
+      "velocity": 1.3861401081085205,
+      "endpoint_mae": 0.30722498893737793,
+      "endpoint_ilm_opl_mip": 0.5342386960983276,
+      "endpoint_opl_bm_mip": 0.5033193230628967,
+      "update": 142,
+      "case_ids": [
+        "10391",
+        "10370"
+      ],
+      "times": [
+        0.7362071871757507,
+        0.0
+      ],
+      "noise_seeds": [
+        4952642240080454034,
+        5131462995614900883
+      ],
+      "lr": 7.100000000000001e-06,
+      "auxiliary_factor": 0.142,
+      "grad_norm": 0.38954925537109375,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192104518413544
+    },
+    {
+      "loss": 1.3468701839447021,
+      "velocity_low": 1.352044939994812,
+      "velocity_detail": 1.324353814125061,
+      "velocity": 1.3278151750564575,
+      "endpoint_mae": 0.3828982412815094,
+      "endpoint_ilm_opl_mip": 0.48542922735214233,
+      "endpoint_opl_bm_mip": 0.4429503083229065,
+      "update": 143,
+      "case_ids": [
+        "10445",
+        "10306"
+      ],
+      "times": [
+        0.539635419845581,
+        0.0
+      ],
+      "noise_seeds": [
+        5166998892336998160,
+        8973955328568355141
+      ],
+      "lr": 7.15e-06,
+      "auxiliary_factor": 0.143,
+      "grad_norm": 0.48028379678726196,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.184639886021614
+    },
+    {
+      "loss": 1.1847773790359497,
+      "velocity_low": 1.1155400276184082,
+      "velocity_detail": 1.1760714054107666,
+      "velocity": 1.168505072593689,
+      "endpoint_mae": 0.25105059146881104,
+      "endpoint_ilm_opl_mip": 0.4242655038833618,
+      "endpoint_opl_bm_mip": 0.4851512908935547,
+      "update": 144,
+      "case_ids": [
+        "10462",
+        "10482"
+      ],
+      "times": [
+        0.0,
+        0.830594539642334
+      ],
+      "noise_seeds": [
+        1607846190481301226,
+        3048953046297632710
+      ],
+      "lr": 7.2000000000000005e-06,
+      "auxiliary_factor": 0.144,
+      "grad_norm": 0.30161672830581665,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189261555671692
+    },
+    {
+      "loss": 1.7614034414291382,
+      "velocity_low": 1.6824400424957275,
+      "velocity_detail": 1.7399630546569824,
+      "velocity": 1.7327725887298584,
+      "endpoint_mae": 0.45899999141693115,
+      "endpoint_ilm_opl_mip": 0.7364790439605713,
+      "endpoint_opl_bm_mip": 0.8216282725334167,
+      "update": 145,
+      "case_ids": [
+        "10428",
+        "10473"
+      ],
+      "times": [
+        0.4387177526950836,
+        0.0
+      ],
+      "noise_seeds": [
+        3195357780596651998,
+        8964106248494682259
+      ],
+      "lr": 7.25e-06,
+      "auxiliary_factor": 0.145,
+      "grad_norm": 0.6185700297355652,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190209299325943
+    },
+    {
+      "loss": 2.1612095832824707,
+      "velocity_low": 2.228313446044922,
+      "velocity_detail": 2.1214654445648193,
+      "velocity": 2.1348214149475098,
+      "endpoint_mae": 0.5603224039077759,
+      "endpoint_ilm_opl_mip": 0.6244663596153259,
+      "endpoint_opl_bm_mip": 0.620792031288147,
+      "update": 146,
+      "case_ids": [
+        "10461",
+        "10371"
+      ],
+      "times": [
+        0.20263540744781494,
+        0.44327887892723083
+      ],
+      "noise_seeds": [
+        7239250488201741228,
+        4781935783705783308
+      ],
+      "lr": 7.3e-06,
+      "auxiliary_factor": 0.146,
+      "grad_norm": 0.7877358794212341,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191488862037659
+    },
+    {
+      "loss": 2.3263659477233887,
+      "velocity_low": 2.369731903076172,
+      "velocity_detail": 2.2972075939178467,
+      "velocity": 2.3062729835510254,
+      "endpoint_mae": 0.5023543834686279,
+      "endpoint_ilm_opl_mip": 0.41686466336250305,
+      "endpoint_opl_bm_mip": 0.4784332513809204,
+      "update": 147,
+      "case_ids": [
+        "10409",
+        "10453"
+      ],
+      "times": [
+        0.6723629832267761,
+        0.317252516746521
+      ],
+      "noise_seeds": [
+        2734154198475277475,
+        4610330036487830092
+      ],
+      "lr": 7.350000000000001e-06,
+      "auxiliary_factor": 0.147,
+      "grad_norm": 0.6757681965827942,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191990494728088
+    },
+    {
+      "loss": 1.2370864152908325,
+      "velocity_low": 1.1842097043991089,
+      "velocity_detail": 1.2246099710464478,
+      "velocity": 1.219559907913208,
+      "endpoint_mae": 0.2982324957847595,
+      "endpoint_ilm_opl_mip": 0.4475681781768799,
+      "endpoint_opl_bm_mip": 0.42927756905555725,
+      "update": 148,
+      "case_ids": [
+        "10346",
+        "10471"
+      ],
+      "times": [
+        0.7194297313690186,
+        0.0
+      ],
+      "noise_seeds": [
+        1474748633397971366,
+        4625559539446739738
+      ],
+      "lr": 7.4e-06,
+      "auxiliary_factor": 0.148,
+      "grad_norm": 0.3397294580936432,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190451040863991
+    },
+    {
+      "loss": 1.237086296081543,
+      "velocity_low": 1.033898115158081,
+      "velocity_detail": 1.2283340692520142,
+      "velocity": 1.2040295600891113,
+      "endpoint_mae": 0.3857979476451874,
+      "endpoint_ilm_opl_mip": 0.921668529510498,
+      "endpoint_opl_bm_mip": 0.9005416631698608,
+      "update": 149,
+      "case_ids": [
+        "10344",
+        "10414"
+      ],
+      "times": [
+        0.09183395653963089,
+        0.0
+      ],
+      "noise_seeds": [
+        7137623966128716909,
+        4894755102531349714
+      ],
+      "lr": 7.45e-06,
+      "auxiliary_factor": 0.149,
+      "grad_norm": 0.6191765666007996,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191033318638802
+    },
+    {
+      "loss": 1.7727476358413696,
+      "velocity_low": 1.7645049095153809,
+      "velocity_detail": 1.7532312870025635,
+      "velocity": 1.7546404600143433,
+      "endpoint_mae": 0.4123784303665161,
+      "endpoint_ilm_opl_mip": 0.3826294541358948,
+      "endpoint_opl_bm_mip": 0.441640704870224,
+      "update": 150,
+      "case_ids": [
+        "10406",
+        "10490"
+      ],
+      "times": [
+        0.22234003245830536,
+        0.7013465166091919
+      ],
+      "noise_seeds": [
+        9025220685783608498,
+        6774306856605119224
+      ],
+      "lr": 7.5e-06,
+      "auxiliary_factor": 0.15,
+      "grad_norm": 0.5401886105537415,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193723291158676
+    },
+    {
+      "loss": 1.64530348777771,
+      "velocity_low": 1.5497429370880127,
+      "velocity_detail": 1.642893671989441,
+      "velocity": 1.6312497854232788,
+      "endpoint_mae": 0.44499313831329346,
+      "endpoint_ilm_opl_mip": 0.23344716429710388,
+      "endpoint_opl_bm_mip": 0.2710851728916168,
+      "update": 151,
+      "case_ids": [
+        "10439",
+        "10431"
+      ],
+      "times": [
+        0.4179631173610687,
+        0.5991638898849487
+      ],
+      "noise_seeds": [
+        1023549613972615908,
+        5307483331658793129
+      ],
+      "lr": 7.5500000000000006e-06,
+      "auxiliary_factor": 0.151,
+      "grad_norm": 0.4038735628128052,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189877316355705
+    },
+    {
+      "loss": 1.016487956047058,
+      "velocity_low": 1.0085043907165527,
+      "velocity_detail": 1.0003795623779297,
+      "velocity": 1.0013951063156128,
+      "endpoint_mae": 0.20042896270751953,
+      "endpoint_ilm_opl_mip": 0.39484143257141113,
+      "endpoint_opl_bm_mip": 0.4005100429058075,
+      "update": 152,
+      "case_ids": [
+        "10380",
+        "10376"
+      ],
+      "times": [
+        0.9741662740707397,
+        0.0
+      ],
+      "noise_seeds": [
+        6108107674177567526,
+        8162955803001676820
+      ],
+      "lr": 7.6e-06,
+      "auxiliary_factor": 0.152,
+      "grad_norm": 0.28365352749824524,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189228594303131
+    },
+    {
+      "loss": 1.7509405612945557,
+      "velocity_low": 1.828836441040039,
+      "velocity_detail": 1.7250502109527588,
+      "velocity": 1.7380235195159912,
+      "endpoint_mae": 0.41876688599586487,
+      "endpoint_ilm_opl_mip": 0.21060830354690552,
+      "endpoint_opl_bm_mip": 0.2191515862941742,
+      "update": 153,
+      "case_ids": [
+        "10466",
+        "10368"
+      ],
+      "times": [
+        0.4807572364807129,
+        0.6862006783485413
+      ],
+      "noise_seeds": [
+        3975467078240944405,
+        6222431451223472366
+      ],
+      "lr": 7.650000000000001e-06,
+      "auxiliary_factor": 0.153,
+      "grad_norm": 0.4497455656528473,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187747046351433
+    },
+    {
+      "loss": 1.3063068389892578,
+      "velocity_low": 1.3014755249023438,
+      "velocity_detail": 1.3035168647766113,
+      "velocity": 1.3032617568969727,
+      "endpoint_mae": 0.12405003607273102,
+      "endpoint_ilm_opl_mip": 0.03580878674983978,
+      "endpoint_opl_bm_mip": 0.03993719816207886,
+      "update": 154,
+      "case_ids": [
+        "10434",
+        "10349"
+      ],
+      "times": [
+        0.8492928147315979,
+        0.8785472512245178
+      ],
+      "noise_seeds": [
+        1148628326424084346,
+        3321946220461453890
+      ],
+      "lr": 7.7e-06,
+      "auxiliary_factor": 0.154,
+      "grad_norm": 0.05636027455329895,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190436094999313
+    },
+    {
+      "loss": 1.646876573562622,
+      "velocity_low": 1.6035950183868408,
+      "velocity_detail": 1.64202082157135,
+      "velocity": 1.6372175216674805,
+      "endpoint_mae": 0.2708548903465271,
+      "endpoint_ilm_opl_mip": 0.17556466162204742,
+      "endpoint_opl_bm_mip": 0.1779216080904007,
+      "update": 155,
+      "case_ids": [
+        "10320",
+        "10309"
+      ],
+      "times": [
+        0.5522782802581787,
+        0.9247165322303772
+      ],
+      "noise_seeds": [
+        9155849670158526795,
+        7548617123152467834
+      ],
+      "lr": 7.75e-06,
+      "auxiliary_factor": 0.155,
+      "grad_norm": 0.24992325901985168,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.194597885012627
+    },
+    {
+      "loss": 1.1007078886032104,
+      "velocity_low": 1.1003397703170776,
+      "velocity_detail": 1.099639654159546,
+      "velocity": 1.0997271537780762,
+      "endpoint_mae": 0.03936661034822464,
+      "endpoint_ilm_opl_mip": 0.011401806026697159,
+      "endpoint_opl_bm_mip": 0.012795371934771538,
+      "update": 156,
+      "case_ids": [
+        "10369",
+        "10488"
+      ],
+      "times": [
+        0.9209160804748535,
+        0.987150251865387
+      ],
+      "noise_seeds": [
+        8832936895335793355,
+        4380838217471280713
+      ],
+      "lr": 7.8e-06,
+      "auxiliary_factor": 0.156,
+      "grad_norm": 0.02155972085893154,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1937858909368515
+    },
+    {
+      "loss": 1.2792437076568604,
+      "velocity_low": 1.2703869342803955,
+      "velocity_detail": 1.271515130996704,
+      "velocity": 1.271373987197876,
+      "endpoint_mae": 0.25316792726516724,
+      "endpoint_ilm_opl_mip": 0.12469267845153809,
+      "endpoint_opl_bm_mip": 0.12209773808717728,
+      "update": 157,
+      "case_ids": [
+        "10388",
+        "10463"
+      ],
+      "times": [
+        0.4724435806274414,
+        0.9721550941467285
+      ],
+      "noise_seeds": [
+        7628716705081822684,
+        5352703514889091603
+      ],
+      "lr": 7.850000000000001e-06,
+      "auxiliary_factor": 0.157,
+      "grad_norm": 0.23177467286586761,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190986379981041
+    },
+    {
+      "loss": 1.5071989297866821,
+      "velocity_low": 1.4528191089630127,
+      "velocity_detail": 1.4741877317428589,
+      "velocity": 1.4715166091918945,
+      "endpoint_mae": 0.4478940963745117,
+      "endpoint_ilm_opl_mip": 0.9143353700637817,
+      "endpoint_opl_bm_mip": 0.8779493570327759,
+      "update": 158,
+      "case_ids": [
+        "10387",
+        "10438"
+      ],
+      "times": [
+        0.2308724820613861,
+        0.0
+      ],
+      "noise_seeds": [
+        6889022691162377565,
+        5893086833279415211
+      ],
+      "lr": 7.9e-06,
+      "auxiliary_factor": 0.158,
+      "grad_norm": 0.6804452538490295,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.195197224617004
+    },
+    {
+      "loss": 1.562540054321289,
+      "velocity_low": 1.5577096939086914,
+      "velocity_detail": 1.5520374774932861,
+      "velocity": 1.5527465343475342,
+      "endpoint_mae": 0.30629128217697144,
+      "endpoint_ilm_opl_mip": 0.16260501742362976,
+      "endpoint_opl_bm_mip": 0.13150204718112946,
+      "update": 159,
+      "case_ids": [
+        "10489",
+        "10336"
+      ],
+      "times": [
+        0.529941976070404,
+        0.8438504934310913
+      ],
+      "noise_seeds": [
+        191260627297069271,
+        5663527571222208244
+      ],
+      "lr": 7.95e-06,
+      "auxiliary_factor": 0.159,
+      "grad_norm": 0.2478923499584198,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189600884914398
+    },
+    {
+      "loss": 1.5588483810424805,
+      "velocity_low": 1.4339988231658936,
+      "velocity_detail": 1.5487635135650635,
+      "velocity": 1.534417986869812,
+      "endpoint_mae": 0.3881130814552307,
+      "endpoint_ilm_opl_mip": 0.5637234449386597,
+      "endpoint_opl_bm_mip": 0.5864073634147644,
+      "update": 160,
+      "case_ids": [
+        "10450",
+        "10412"
+      ],
+      "times": [
+        0.6224542856216431,
+        0.0
+      ],
+      "noise_seeds": [
+        263900787354017024,
+        1067634598296518572
+      ],
+      "lr": 8e-06,
+      "auxiliary_factor": 0.16,
+      "grad_norm": 0.47229206562042236,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183865442872047
+    },
+    {
+      "loss": 1.6093437671661377,
+      "velocity_low": 1.7003018856048584,
+      "velocity_detail": 1.5744644403457642,
+      "velocity": 1.5901942253112793,
+      "endpoint_mae": 0.5091625452041626,
+      "endpoint_ilm_opl_mip": 0.34659266471862793,
+      "endpoint_opl_bm_mip": 0.32072120904922485,
+      "update": 161,
+      "case_ids": [
+        "10411",
+        "10451"
+      ],
+      "times": [
+        0.3309207856655121,
+        0.49941399693489075
+      ],
+      "noise_seeds": [
+        6832073966801180223,
+        9000493941344557487
+      ],
+      "lr": 8.05e-06,
+      "auxiliary_factor": 0.161,
+      "grad_norm": 0.5868809223175049,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189054891467094
+    },
+    {
+      "loss": 1.5991952419281006,
+      "velocity_low": 1.5522834062576294,
+      "velocity_detail": 1.5760297775268555,
+      "velocity": 1.573061466217041,
+      "endpoint_mae": 0.4232170581817627,
+      "endpoint_ilm_opl_mip": 0.5914193987846375,
+      "endpoint_opl_bm_mip": 0.6056968569755554,
+      "update": 162,
+      "case_ids": [
+        "10308",
+        "10353"
+      ],
+      "times": [
+        0.5672922134399414,
+        0.023015186190605164
+      ],
+      "noise_seeds": [
+        310971395997199157,
+        6500625218463066819
+      ],
+      "lr": 8.1e-06,
+      "auxiliary_factor": 0.162,
+      "grad_norm": 0.5292217135429382,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192390263080597
+    },
+    {
+      "loss": 2.1804983615875244,
+      "velocity_low": 2.671802520751953,
+      "velocity_detail": 2.082063913345337,
+      "velocity": 2.1557812690734863,
+      "endpoint_mae": 0.5600193738937378,
+      "endpoint_ilm_opl_mip": 0.4807285666465759,
+      "endpoint_opl_bm_mip": 0.47055745124816895,
+      "update": 163,
+      "case_ids": [
+        "10310",
+        "10479"
+      ],
+      "times": [
+        0.1862250417470932,
+        0.5810831785202026
+      ],
+      "noise_seeds": [
+        336920506179984241,
+        2619454116659649866
+      ],
+      "lr": 8.150000000000002e-06,
+      "auxiliary_factor": 0.163,
+      "grad_norm": 0.7777678370475769,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192155942320824
+    },
+    {
+      "loss": 1.4543123245239258,
+      "velocity_low": 1.3770694732666016,
+      "velocity_detail": 1.4247006177902222,
+      "velocity": 1.4187467098236084,
+      "endpoint_mae": 0.4372106194496155,
+      "endpoint_ilm_opl_mip": 0.8576837182044983,
+      "endpoint_opl_bm_mip": 0.8897937536239624,
+      "update": 164,
+      "case_ids": [
+        "10440",
+        "10301"
+      ],
+      "times": [
+        0.0,
+        0.17768822610378265
+      ],
+      "noise_seeds": [
+        293627701356237409,
+        8447147932827520599
+      ],
+      "lr": 8.200000000000001e-06,
+      "auxiliary_factor": 0.164,
+      "grad_norm": 0.6895143389701843,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187765836715698
+    },
+    {
+      "loss": 1.0497393608093262,
+      "velocity_low": 1.0395267009735107,
+      "velocity_detail": 1.0330241918563843,
+      "velocity": 1.033837080001831,
+      "endpoint_mae": 0.20457948744297028,
+      "endpoint_ilm_opl_mip": 0.3814460039138794,
+      "endpoint_opl_bm_mip": 0.37406396865844727,
+      "update": 165,
+      "case_ids": [
+        "10303",
+        "10329"
+      ],
+      "times": [
+        0.9702646136283875,
+        0.06865102052688599
+      ],
+      "noise_seeds": [
+        4159868978555856251,
+        8654498203700458374
+      ],
+      "lr": 8.25e-06,
+      "auxiliary_factor": 0.165,
+      "grad_norm": 0.303805947303772,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190324738621712
+    },
+    {
+      "loss": 1.3786250352859497,
+      "velocity_low": 1.3809027671813965,
+      "velocity_detail": 1.373225212097168,
+      "velocity": 1.3741848468780518,
+      "endpoint_mae": 0.1578303575515747,
+      "endpoint_ilm_opl_mip": 0.05456201732158661,
+      "endpoint_opl_bm_mip": 0.05561006814241409,
+      "update": 166,
+      "case_ids": [
+        "10397",
+        "10468"
+      ],
+      "times": [
+        0.7280939221382141,
+        0.9551294445991516
+      ],
+      "noise_seeds": [
+        6355039567979110419,
+        5221712870902154105
+      ],
+      "lr": 8.3e-06,
+      "auxiliary_factor": 0.166,
+      "grad_norm": 0.10582290589809418,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189418241381645
+    },
+    {
+      "loss": 1.7300336360931396,
+      "velocity_low": 2.0161805152893066,
+      "velocity_detail": 1.6566448211669922,
+      "velocity": 1.7015867233276367,
+      "endpoint_mae": 0.520453155040741,
+      "endpoint_ilm_opl_mip": 0.587049126625061,
+      "endpoint_opl_bm_mip": 0.6047723293304443,
+      "update": 167,
+      "case_ids": [
+        "10419",
+        "10392"
+      ],
+      "times": [
+        0.0,
+        0.4736567735671997
+      ],
+      "noise_seeds": [
+        6751348253066165601,
+        80884216235925558
+      ],
+      "lr": 8.35e-06,
+      "auxiliary_factor": 0.167,
+      "grad_norm": 0.74476158618927,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187908574938774
+    },
+    {
+      "loss": 1.2189114093780518,
+      "velocity_low": 1.1380116939544678,
+      "velocity_detail": 1.2070749998092651,
+      "velocity": 1.1984421014785767,
+      "endpoint_mae": 0.24721255898475647,
+      "endpoint_ilm_opl_mip": 0.49657633900642395,
+      "endpoint_opl_bm_mip": 0.45267415046691895,
+      "update": 168,
+      "case_ids": [
+        "10426",
+        "10337"
+      ],
+      "times": [
+        0.0,
+        0.8443368077278137
+      ],
+      "noise_seeds": [
+        1162494332494696508,
+        1443259838377647104
+      ],
+      "lr": 8.400000000000001e-06,
+      "auxiliary_factor": 0.168,
+      "grad_norm": 0.30238574743270874,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.183682844042778
+    },
+    {
+      "loss": 1.9503779411315918,
+      "velocity_low": 1.9364073276519775,
+      "velocity_detail": 1.9129341840744019,
+      "velocity": 1.9158682823181152,
+      "endpoint_mae": 0.5100098252296448,
+      "endpoint_ilm_opl_mip": 0.7660938501358032,
+      "endpoint_opl_bm_mip": 0.7656722664833069,
+      "update": 169,
+      "case_ids": [
+        "10491",
+        "10375"
+      ],
+      "times": [
+        0.3980298638343811,
+        0.0
+      ],
+      "noise_seeds": [
+        32620319738924204,
+        3071636447852671467
+      ],
+      "lr": 8.45e-06,
+      "auxiliary_factor": 0.169,
+      "grad_norm": 0.760602593421936,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.18950080871582
+    },
+    {
+      "loss": 1.7426068782806396,
+      "velocity_low": 1.6617889404296875,
+      "velocity_detail": 1.7354867458343506,
+      "velocity": 1.7262744903564453,
+      "endpoint_mae": 0.3039473593235016,
+      "endpoint_ilm_opl_mip": 0.34947577118873596,
+      "endpoint_opl_bm_mip": 0.2651258409023285,
+      "update": 170,
+      "case_ids": [
+        "10384",
+        "10474"
+      ],
+      "times": [
+        0.9728504419326782,
+        0.3720862865447998
+      ],
+      "noise_seeds": [
+        7712134320488524784,
+        6440536095672828669
+      ],
+      "lr": 8.5e-06,
+      "auxiliary_factor": 0.17,
+      "grad_norm": 0.3799245059490204,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189982935786247
+    },
+    {
+      "loss": 1.526172161102295,
+      "velocity_low": 1.3475472927093506,
+      "velocity_detail": 1.507462978363037,
+      "velocity": 1.4874736070632935,
+      "endpoint_mae": 0.4458654522895813,
+      "endpoint_ilm_opl_mip": 0.9309970736503601,
+      "endpoint_opl_bm_mip": 0.8414308428764343,
+      "update": 171,
+      "case_ids": [
+        "10385",
+        "10427"
+      ],
+      "times": [
+        0.0,
+        0.24290281534194946
+      ],
+      "noise_seeds": [
+        7779102585469070934,
+        3727405657128465792
+      ],
+      "lr": 8.550000000000001e-06,
+      "auxiliary_factor": 0.171,
+      "grad_norm": 0.6591570973396301,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187991693615913
+    },
+    {
+      "loss": 1.1754882335662842,
+      "velocity_low": 1.1562830209732056,
+      "velocity_detail": 1.1570987701416016,
+      "velocity": 1.156996726989746,
+      "endpoint_mae": 0.26835376024246216,
+      "endpoint_ilm_opl_mip": 0.40284639596939087,
+      "endpoint_opl_bm_mip": 0.40492352843284607,
+      "update": 172,
+      "case_ids": [
+        "10458",
+        "10441"
+      ],
+      "times": [
+        0.0,
+        0.785703182220459
+      ],
+      "noise_seeds": [
+        1189120091372425610,
+        4067370934797862221
+      ],
+      "lr": 8.6e-06,
+      "auxiliary_factor": 0.172,
+      "grad_norm": 0.31457510590553284,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188309699296951
+    },
+    {
+      "loss": 1.819814682006836,
+      "velocity_low": 1.6859378814697266,
+      "velocity_detail": 1.803247332572937,
+      "velocity": 1.788583755493164,
+      "endpoint_mae": 0.46937745809555054,
+      "endpoint_ilm_opl_mip": 0.6443107724189758,
+      "endpoint_opl_bm_mip": 0.7388240098953247,
+      "update": 173,
+      "case_ids": [
+        "10393",
+        "10354"
+      ],
+      "times": [
+        0.4626307487487793,
+        0.01073308102786541
+      ],
+      "noise_seeds": [
+        5393785560723019868,
+        8662715221514148496
+      ],
+      "lr": 8.65e-06,
+      "auxiliary_factor": 0.173,
+      "grad_norm": 0.6401572227478027,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.187970131635666
+    },
+    {
+      "loss": 1.1925859451293945,
+      "velocity_low": 1.1521124839782715,
+      "velocity_detail": 1.1735645532608032,
+      "velocity": 1.170883059501648,
+      "endpoint_mae": 0.338901549577713,
+      "endpoint_ilm_opl_mip": 0.4553864598274231,
+      "endpoint_opl_bm_mip": 0.45062676072120667,
+      "update": 174,
+      "case_ids": [
+        "10437",
+        "10343"
+      ],
+      "times": [
+        0.6360011100769043,
+        0.0
+      ],
+      "noise_seeds": [
+        3306930809255792236,
+        7251167326680975619
+      ],
+      "lr": 8.700000000000001e-06,
+      "auxiliary_factor": 0.174,
+      "grad_norm": 0.3356402516365051,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190894737839699
+    },
+    {
+      "loss": 1.4153964519500732,
+      "velocity_low": 1.375392198562622,
+      "velocity_detail": 1.3978312015533447,
+      "velocity": 1.395026445388794,
+      "endpoint_mae": 0.28953421115875244,
+      "endpoint_ilm_opl_mip": 0.453281968832016,
+      "endpoint_opl_bm_mip": 0.38908833265304565,
+      "update": 175,
+      "case_ids": [
+        "10477",
+        "10429"
+      ],
+      "times": [
+        0.8930407762527466,
+        0.19208918511867523
+      ],
+      "noise_seeds": [
+        7163761858749049144,
+        1825950118978503364
+      ],
+      "lr": 8.750000000000001e-06,
+      "auxiliary_factor": 0.175,
+      "grad_norm": 0.37775155901908875,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.19120991230011
+    },
+    {
+      "loss": 1.6094741821289062,
+      "velocity_low": 1.5044597387313843,
+      "velocity_detail": 1.5909606218338013,
+      "velocity": 1.5801479816436768,
+      "endpoint_mae": 0.43890994787216187,
+      "endpoint_ilm_opl_mip": 0.6138232350349426,
+      "endpoint_opl_bm_mip": 0.613233208656311,
+      "update": 176,
+      "case_ids": [
+        "10459",
+        "10424"
+      ],
+      "times": [
+        0.05228330194950104,
+        0.44818153977394104
+      ],
+      "noise_seeds": [
+        1711258535133476676,
+        1149888840604080016
+      ],
+      "lr": 8.8e-06,
+      "auxiliary_factor": 0.176,
+      "grad_norm": 0.6020026803016663,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.197257995605469
+    },
+    {
+      "loss": 1.1112474203109741,
+      "velocity_low": 1.1182620525360107,
+      "velocity_detail": 1.0866732597351074,
+      "velocity": 1.090621829032898,
+      "endpoint_mae": 0.2365012764930725,
+      "endpoint_ilm_opl_mip": 0.4734271764755249,
+      "endpoint_opl_bm_mip": 0.43728935718536377,
+      "update": 177,
+      "case_ids": [
+        "10316",
+        "10465"
+      ],
+      "times": [
+        0.9319224953651428,
+        0.0
+      ],
+      "noise_seeds": [
+        5557283989939053090,
+        5831007043890256704
+      ],
+      "lr": 8.85e-06,
+      "auxiliary_factor": 0.177,
+      "grad_norm": 0.30981266498565674,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190022900700569
+    },
+    {
+      "loss": 0.9521637558937073,
+      "velocity_low": 0.9096242189407349,
+      "velocity_detail": 0.9210153818130493,
+      "velocity": 0.9195915460586548,
+      "endpoint_mae": 0.3734123706817627,
+      "endpoint_ilm_opl_mip": 0.740092396736145,
+      "endpoint_opl_bm_mip": 0.6926958560943604,
+      "update": 178,
+      "case_ids": [
+        "10443",
+        "10480"
+      ],
+      "times": [
+        0.08882714807987213,
+        0.0016739278798922896
+      ],
+      "noise_seeds": [
+        6664761665993253277,
+        6228415283041957560
+      ],
+      "lr": 8.9e-06,
+      "auxiliary_factor": 0.178,
+      "grad_norm": 0.591335117816925,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.191927999258041
+    },
+    {
+      "loss": 1.680732250213623,
+      "velocity_low": 1.6447811126708984,
+      "velocity_detail": 1.6756303310394287,
+      "velocity": 1.67177414894104,
+      "endpoint_mae": 0.2786843776702881,
+      "endpoint_ilm_opl_mip": 0.10883443057537079,
+      "endpoint_opl_bm_mip": 0.11703864485025406,
+      "update": 179,
+      "case_ids": [
+        "10442",
+        "10383"
+      ],
+      "times": [
+        0.7282633781433105,
+        0.7235139012336731
+      ],
+      "noise_seeds": [
+        2151547268676573852,
+        8065067689569801903
+      ],
+      "lr": 8.949999999999999e-06,
+      "auxiliary_factor": 0.179,
+      "grad_norm": 0.19485945999622345,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1906512677669525
+    },
+    {
+      "loss": 1.1846859455108643,
+      "velocity_low": 1.1746654510498047,
+      "velocity_detail": 1.1615995168685913,
+      "velocity": 1.1632328033447266,
+      "endpoint_mae": 0.2382981926202774,
+      "endpoint_ilm_opl_mip": 0.4900493323802948,
+      "endpoint_opl_bm_mip": 0.4369352459907532,
+      "update": 180,
+      "case_ids": [
+        "10390",
+        "10315"
+      ],
+      "times": [
+        0.9158489108085632,
+        0.0
+      ],
+      "noise_seeds": [
+        560006880056074972,
+        3229926642598386452
+      ],
+      "lr": 9e-06,
+      "auxiliary_factor": 0.18,
+      "grad_norm": 0.30661576986312866,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.186213433742523
+    },
+    {
+      "loss": 1.7936301231384277,
+      "velocity_low": 1.5637059211730957,
+      "velocity_detail": 1.7997102737426758,
+      "velocity": 1.7702096700668335,
+      "endpoint_mae": 0.3366515040397644,
+      "endpoint_ilm_opl_mip": 0.4877883195877075,
+      "endpoint_opl_bm_mip": 0.4512382745742798,
+      "update": 181,
+      "case_ids": [
+        "10348",
+        "10313"
+      ],
+      "times": [
+        0.8560827970504761,
+        0.18623687326908112
+      ],
+      "noise_seeds": [
+        1757506759919351930,
+        1070066264846636732
+      ],
+      "lr": 9.050000000000001e-06,
+      "auxiliary_factor": 0.181,
+      "grad_norm": 0.45731571316719055,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188705757260323
+    },
+    {
+      "loss": 1.3135472536087036,
+      "velocity_low": 1.185672402381897,
+      "velocity_detail": 1.3070796728134155,
+      "velocity": 1.2919037342071533,
+      "endpoint_mae": 0.31607332825660706,
+      "endpoint_ilm_opl_mip": 0.42872023582458496,
+      "endpoint_opl_bm_mip": 0.4600953161716461,
+      "update": 182,
+      "case_ids": [
+        "10407",
+        "10399"
+      ],
+      "times": [
+        0.6180862188339233,
+        0.0
+      ],
+      "noise_seeds": [
+        1914422409222524234,
+        667635838169514338
+      ],
+      "lr": 9.100000000000001e-06,
+      "auxiliary_factor": 0.182,
+      "grad_norm": 0.3533867299556732,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.18698813021183
+    },
+    {
+      "loss": 1.322450876235962,
+      "velocity_low": 1.3480825424194336,
+      "velocity_detail": 1.2931780815124512,
+      "velocity": 1.3000411987304688,
+      "endpoint_mae": 0.2671302258968353,
+      "endpoint_ilm_opl_mip": 0.49114352464675903,
+      "endpoint_opl_bm_mip": 0.4414573013782501,
+      "update": 183,
+      "case_ids": [
+        "10478",
+        "10389"
+      ],
+      "times": [
+        0.06665380299091339,
+        0.950383186340332
+      ],
+      "noise_seeds": [
+        7846959869349039642,
+        520006750087458584
+      ],
+      "lr": 9.15e-06,
+      "auxiliary_factor": 0.183,
+      "grad_norm": 0.39917096495628357,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188960790634155
+    },
+    {
+      "loss": 1.2831530570983887,
+      "velocity_low": 1.1300489902496338,
+      "velocity_detail": 1.2677702903747559,
+      "velocity": 1.2505550384521484,
+      "endpoint_mae": 0.39990371465682983,
+      "endpoint_ilm_opl_mip": 0.7014328241348267,
+      "endpoint_opl_bm_mip": 0.6391547918319702,
+      "update": 184,
+      "case_ids": [
+        "10324",
+        "10361"
+      ],
+      "times": [
+        0.021489201113581657,
+        0.3209109604358673
+      ],
+      "noise_seeds": [
+        346258344234060933,
+        1429934123839630922
+      ],
+      "lr": 9.2e-06,
+      "auxiliary_factor": 0.184,
+      "grad_norm": 0.5379881262779236,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190114617347717
+    },
+    {
+      "loss": 1.6377968788146973,
+      "velocity_low": 1.526021957397461,
+      "velocity_detail": 1.617680311203003,
+      "velocity": 1.6062228679656982,
+      "endpoint_mae": 0.44537320733070374,
+      "endpoint_ilm_opl_mip": 0.6373854279518127,
+      "endpoint_opl_bm_mip": 0.6104896068572998,
+      "update": 185,
+      "case_ids": [
+        "10378",
+        "10408"
+      ],
+      "times": [
+        0.0,
+        0.5587624311447144
+      ],
+      "noise_seeds": [
+        8836214858612740356,
+        6600757492058308044
+      ],
+      "lr": 9.250000000000001e-06,
+      "auxiliary_factor": 0.185,
+      "grad_norm": 0.5640180706977844,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189002558588982
+    },
+    {
+      "loss": 1.983483910560608,
+      "velocity_low": 1.910628080368042,
+      "velocity_detail": 1.953059196472168,
+      "velocity": 1.9477553367614746,
+      "endpoint_mae": 0.5561330914497375,
+      "endpoint_ilm_opl_mip": 0.6844940185546875,
+      "endpoint_opl_bm_mip": 0.6760339736938477,
+      "update": 186,
+      "case_ids": [
+        "10492",
+        "10398"
+      ],
+      "times": [
+        0.2719651162624359,
+        0.3121868968009949
+      ],
+      "noise_seeds": [
+        1118546481101701992,
+        5404273336646180000
+      ],
+      "lr": 9.3e-06,
+      "auxiliary_factor": 0.186,
+      "grad_norm": 0.8172603845596313,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189470142126083
+    },
+    {
+      "loss": 1.4627552032470703,
+      "velocity_low": 1.44374418258667,
+      "velocity_detail": 1.4323177337646484,
+      "velocity": 1.4337459802627563,
+      "endpoint_mae": 0.4182180166244507,
+      "endpoint_ilm_opl_mip": 0.5549241900444031,
+      "endpoint_opl_bm_mip": 0.6013795137405396,
+      "update": 187,
+      "case_ids": [
+        "10418",
+        "10323"
+      ],
+      "times": [
+        0.0,
+        0.551042914390564
+      ],
+      "noise_seeds": [
+        8699734604098627762,
+        5139714915682350378
+      ],
+      "lr": 9.35e-06,
+      "auxiliary_factor": 0.187,
+      "grad_norm": 0.49209052324295044,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192711904644966
+    },
+    {
+      "loss": 2.0199782848358154,
+      "velocity_low": 2.105531930923462,
+      "velocity_detail": 1.988036870956421,
+      "velocity": 2.0027236938476562,
+      "endpoint_mae": 0.35891997814178467,
+      "endpoint_ilm_opl_mip": 0.2806555926799774,
+      "endpoint_opl_bm_mip": 0.27579963207244873,
+      "update": 188,
+      "case_ids": [
+        "10334",
+        "10386"
+      ],
+      "times": [
+        0.48766088485717773,
+        0.8616151213645935
+      ],
+      "noise_seeds": [
+        3229893869330604421,
+        4724480328354327232
+      ],
+      "lr": 9.4e-06,
+      "auxiliary_factor": 0.188,
+      "grad_norm": 0.44093844294548035,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.18783338367939
+    },
+    {
+      "loss": 1.8985036611557007,
+      "velocity_low": 1.9053196907043457,
+      "velocity_detail": 1.8779499530792236,
+      "velocity": 1.881371021270752,
+      "endpoint_mae": 0.4403671622276306,
+      "endpoint_ilm_opl_mip": 0.23442456126213074,
+      "endpoint_opl_bm_mip": 0.22896595299243927,
+      "update": 189,
+      "case_ids": [
+        "10401",
+        "10350"
+      ],
+      "times": [
+        0.4919443130493164,
+        0.6500987410545349
+      ],
+      "noise_seeds": [
+        4709779314285932266,
+        584997656453449487
+      ],
+      "lr": 9.45e-06,
+      "auxiliary_factor": 0.189,
+      "grad_norm": 0.4071137011051178,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188446402549744
+    },
+    {
+      "loss": 1.2901806831359863,
+      "velocity_low": 1.0623481273651123,
+      "velocity_detail": 1.2822389602661133,
+      "velocity": 1.2547526359558105,
+      "endpoint_mae": 0.41558486223220825,
+      "endpoint_ilm_opl_mip": 0.7082158923149109,
+      "endpoint_opl_bm_mip": 0.7734514474868774,
+      "update": 190,
+      "case_ids": [
+        "10340",
+        "10352"
+      ],
+      "times": [
+        0.0,
+        0.29998674988746643
+      ],
+      "noise_seeds": [
+        2046757086178403464,
+        1593791693293634154
+      ],
+      "lr": 9.5e-06,
+      "auxiliary_factor": 0.19,
+      "grad_norm": 0.5466971397399902,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188448563218117
+    },
+    {
+      "loss": 1.1745601892471313,
+      "velocity_low": 1.1497735977172852,
+      "velocity_detail": 1.1544831991195679,
+      "velocity": 1.1538945436477661,
+      "endpoint_mae": 0.24202406406402588,
+      "endpoint_ilm_opl_mip": 0.41896793246269226,
+      "endpoint_opl_bm_mip": 0.4229913353919983,
+      "update": 191,
+      "case_ids": [
+        "10486",
+        "10469"
+      ],
+      "times": [
+        0.0,
+        0.911237895488739
+      ],
+      "noise_seeds": [
+        762919058978731195,
+        7359970801938568102
+      ],
+      "lr": 9.550000000000002e-06,
+      "auxiliary_factor": 0.191,
+      "grad_norm": 0.3078305721282959,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192079544067383
+    },
+    {
+      "loss": 1.9874187707901,
+      "velocity_low": 1.9386177062988281,
+      "velocity_detail": 1.9685628414154053,
+      "velocity": 1.9648196697235107,
+      "endpoint_mae": 0.474405974149704,
+      "endpoint_ilm_opl_mip": 0.3540825843811035,
+      "endpoint_opl_bm_mip": 0.34301403164863586,
+      "update": 192,
+      "case_ids": [
+        "10381",
+        "10435"
+      ],
+      "times": [
+        0.42915019392967224,
+        0.6155601739883423
+      ],
+      "noise_seeds": [
+        3056468209710464827,
+        5777668635924591222
+      ],
+      "lr": 9.600000000000001e-06,
+      "auxiliary_factor": 0.192,
+      "grad_norm": 0.5100979208946228,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.193717941641808
+    },
+    {
+      "loss": 1.3408408164978027,
+      "velocity_low": 1.3930385112762451,
+      "velocity_detail": 1.283557415008545,
+      "velocity": 1.2972426414489746,
+      "endpoint_mae": 0.4808136820793152,
+      "endpoint_ilm_opl_mip": 0.8773065805435181,
+      "endpoint_opl_bm_mip": 0.924395740032196,
+      "update": 193,
+      "case_ids": [
+        "10377",
+        "10400"
+      ],
+      "times": [
+        0.005526461638510227,
+        0.024615369737148285
+      ],
+      "noise_seeds": [
+        2404855686362682254,
+        5224599455165523292
+      ],
+      "lr": 9.65e-06,
+      "auxiliary_factor": 0.193,
+      "grad_norm": 0.7738867402076721,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189907148480415
+    },
+    {
+      "loss": 1.3488452434539795,
+      "velocity_low": 1.3340805768966675,
+      "velocity_detail": 1.3455944061279297,
+      "velocity": 1.3441550731658936,
+      "endpoint_mae": 0.14346930384635925,
+      "endpoint_ilm_opl_mip": 0.0486588291823864,
+      "endpoint_opl_bm_mip": 0.050610899925231934,
+      "update": 194,
+      "case_ids": [
+        "10364",
+        "10444"
+      ],
+      "times": [
+        0.7584952712059021,
+        0.9432487487792969
+      ],
+      "noise_seeds": [
+        4300244340078890856,
+        4436628093386815052
+      ],
+      "lr": 9.7e-06,
+      "auxiliary_factor": 0.194,
+      "grad_norm": 0.05298221483826637,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.185897573828697
+    },
+    {
+      "loss": 1.1932111978530884,
+      "velocity_low": 0.9433910846710205,
+      "velocity_detail": 1.1911234855651855,
+      "velocity": 1.1601569652557373,
+      "endpoint_mae": 0.3671897351741791,
+      "endpoint_ilm_opl_mip": 0.6808006763458252,
+      "endpoint_opl_bm_mip": 0.6133891344070435,
+      "update": 195,
+      "case_ids": [
+        "10464",
+        "10345"
+      ],
+      "times": [
+        0.05064557492733002,
+        0.2730771601200104
+      ],
+      "noise_seeds": [
+        4487648082719471212,
+        7954737948626188317
+      ],
+      "lr": 9.75e-06,
+      "auxiliary_factor": 0.195,
+      "grad_norm": 0.5000106692314148,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.190372437238693
+    },
+    {
+      "loss": 1.1453100442886353,
+      "velocity_low": 1.16165292263031,
+      "velocity_detail": 1.1174287796020508,
+      "velocity": 1.1229567527770996,
+      "endpoint_mae": 0.2475474625825882,
+      "endpoint_ilm_opl_mip": 0.4514402449131012,
+      "endpoint_opl_bm_mip": 0.43153172731399536,
+      "update": 196,
+      "case_ids": [
+        "10432",
+        "10452"
+      ],
+      "times": [
+        0.8912228941917419,
+        0.0
+      ],
+      "noise_seeds": [
+        3431272837694372032,
+        7316661215411741050
+      ],
+      "lr": 9.8e-06,
+      "auxiliary_factor": 0.196,
+      "grad_norm": 0.29357415437698364,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.192756071686745
+    },
+    {
+      "loss": 1.711625337600708,
+      "velocity_low": 1.5770971775054932,
+      "velocity_detail": 1.7104859352111816,
+      "velocity": 1.693812370300293,
+      "endpoint_mae": 0.377544105052948,
+      "endpoint_ilm_opl_mip": 0.2594436705112457,
+      "endpoint_opl_bm_mip": 0.2750183641910553,
+      "update": 197,
+      "case_ids": [
+        "10413",
+        "10372"
+      ],
+      "times": [
+        0.7559560537338257,
+        0.40316203236579895
+      ],
+      "noise_seeds": [
+        4755630847085124346,
+        9064564788524747972
+      ],
+      "lr": 9.85e-06,
+      "auxiliary_factor": 0.197,
+      "grad_norm": 0.34128811955451965,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.188630402088165
+    },
+    {
+      "loss": 1.3769078254699707,
+      "velocity_low": 1.3669681549072266,
+      "velocity_detail": 1.3726681470870972,
+      "velocity": 1.3719556331634521,
+      "endpoint_mae": 0.15726612508296967,
+      "endpoint_ilm_opl_mip": 0.044920921325683594,
+      "endpoint_opl_bm_mip": 0.05092138051986694,
+      "update": 198,
+      "case_ids": [
+        "10470",
+        "10335"
+      ],
+      "times": [
+        0.8327895402908325,
+        0.8299901485443115
+      ],
+      "noise_seeds": [
+        4408041438273584836,
+        1761096366442945511
+      ],
+      "lr": 9.9e-06,
+      "auxiliary_factor": 0.198,
+      "grad_norm": 0.06136656925082207,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.189867287874222
+    },
+    {
+      "loss": 1.1775617599487305,
+      "velocity_low": 1.1359779834747314,
+      "velocity_detail": 1.1484568119049072,
+      "velocity": 1.1468969583511353,
+      "endpoint_mae": 0.4327859878540039,
+      "endpoint_ilm_opl_mip": 0.5587571263313293,
+      "endpoint_opl_bm_mip": 0.5400521755218506,
+      "update": 199,
+      "case_ids": [
+        "10417",
+        "10457"
+      ],
+      "times": [
+        0.0,
+        0.32788005471229553
+      ],
+      "noise_seeds": [
+        4264364620816325652,
+        9115538650931597972
+      ],
+      "lr": 9.950000000000001e-06,
+      "auxiliary_factor": 0.199,
+      "grad_norm": 0.5690743327140808,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1861846297979355
+    },
+    {
+      "loss": 1.9541665315628052,
+      "velocity_low": 1.9879324436187744,
+      "velocity_detail": 1.9006000757217407,
+      "velocity": 1.9115166664123535,
+      "endpoint_mae": 0.5466586947441101,
+      "endpoint_ilm_opl_mip": 0.7857297658920288,
+      "endpoint_opl_bm_mip": 0.8144781589508057,
+      "update": 200,
+      "case_ids": [
+        "10382",
+        "10493"
+      ],
+      "times": [
+        0.38813936710357666,
+        0.0
+      ],
+      "noise_seeds": [
+        1308752113020753966,
+        3099792670768263112
+      ],
+      "lr": 1e-05,
+      "auxiliary_factor": 0.2,
+      "grad_norm": 0.8021025657653809,
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "seconds": 4.1859467178583145
+    }
+  ],
+  "cuda_peak_allocated_bytes": 26756654080,
+  "cuda_peak_reserved_bytes": 28288483328
+}

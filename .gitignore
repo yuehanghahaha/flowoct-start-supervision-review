@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.runtime/
+**/cache/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.mat
+.env
+.env.*

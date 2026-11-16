@@ -1,0 +1,69 @@
+{
+  "observed_at": "2026-11-16T20:34:59.557859+08:00",
+  "current": {
+    "state": "training",
+    "time": "2026-11-16T20:34:12+08:00",
+    "epoch": 18,
+    "update": 3401,
+    "committed_epoch": 17,
+    "loss": 1.373280644416809,
+    "last_update_seconds": 4.195402458310127,
+    "precision": {
+      "tensor_dtype": "float32",
+      "network_autocast_dtype": "bfloat16",
+      "state_loss_ode_dtype": "float32",
+      "tf32_matmul": true,
+      "tf32_cudnn": true,
+      "cudnn_benchmark": true,
+      "cudnn_deterministic": false,
+      "amp": true,
+      "gradient_scaling": false
+    },
+    "execution": {
+      "checkpoint_mode": "selective",
+      "microbatch_size": 2,
+      "gradient_accumulation": 1,
+      "effective_batch": 2,
+      "steady_median_seconds": 4.187590770423412
+    },
+    "cuda_peak_allocated_bytes": 23353882624,
+    "cuda_peak_reserved_bytes": 25086132224
+  },
+  "completed_epochs": 17,
+  "steady_median_step_s": 4.1923076920211315,
+  "mean_epoch_s": 852.9274885402992,
+  "mean_steps_s_per_epoch": 838.627935715951,
+  "mean_outside_step_s_per_epoch": 14.299552824348211,
+  "outside_step_fraction": 0.016765262014031786,
+  "val_cycles": [
+    {
+      "epoch": 5,
+      "summary_after_training_log_s": 214.27078771591187,
+      "cycle_extra_s": 215.91903921961784,
+      "inference_s": 144.53565226495266
+    },
+    {
+      "epoch": 10,
+      "summary_after_training_log_s": 213.7127823829651,
+      "cycle_extra_s": 215.401418492198,
+      "inference_s": 144.14361375570297
+    },
+    {
+      "epoch": 15,
+      "summary_after_training_log_s": 214.5505907535553,
+      "cycle_extra_s": 216.31211088597775,
+      "inference_s": 144.16087682545185
+    }
+  ],
+  "mean_validation_extra_s": 215.87752286593118,
+  "training_step_hours_total": 46.59044087310839,
+  "other_epoch_hours_total": 0.7944196013526784,
+  "validation_hours_total": 2.398639142954791,
+  "train_val_hours_total": 49.783499617415856,
+  "remaining_train_val_hours": 45.5747039198532,
+  "patient_passes_per_declared_epoch": 2.857142857142857,
+  "dataset_passes_total": 571.4285714285714,
+  "voxels_per_patient": 23658496,
+  "voxels_per_update": 47316992,
+  "no_stage_profile": true
+}
