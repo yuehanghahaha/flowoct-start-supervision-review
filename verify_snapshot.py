@@ -38,6 +38,9 @@ def main():
     for n in manifest['scientific_training_experiments']:
         folders=list((ROOT/'experiments').glob(f'exp{n:03d}_*'))
         if len(folders)!=1 or not (folders[0]/'experiment.json').is_file() or not (folders[0]/'evidence').is_dir():failures.append((str(n),'missing experiment code or evidence'))
+        if len(folders)==1 and n in [35,40,59,154,155,164]:
+            module=folders[0]/('source/data/__init__.py' if n in [35,40] else 'source/author/data/__init__.py')
+            if not module.is_file():failures.append((str(n),'missing upstream data-loader package'))
     for n in [173,174]:
         folders=list((ROOT/'analyses').glob(f'exp{n:03d}_*'))
         if len(folders)!=1 or not (folders[0]/'analyze.py').is_file():failures.append((str(n),'missing runnable analysis'))
