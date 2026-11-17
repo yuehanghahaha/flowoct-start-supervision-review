@@ -1,0 +1,34 @@
+{
+  "state": "passed",
+  "recorded_at": "2026-11-17T12:49:01.587378+08:00",
+  "tests": 11,
+  "patient_data_used": false,
+  "gpu_work_performed": false,
+  "official_cuda_parity": "pending",
+  "full_size_a100_acceptance": "pending",
+  "clinical_effect": "not_evaluated",
+  "parameters": {
+    "total": 27421329,
+    "global_context": 545104,
+    "local_and_time": 26876225,
+    "global_fraction": 0.019878832276874692,
+    "local_fraction": 0.9801211677231253,
+    "mamba_only": 204480,
+    "teacher": 111779,
+    "official_cuda_verified": false
+  },
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "skimage": "0.25.2"
+  },
+  "log": "verification/cpu_tests.log",
+  "configuration_sha256": "23a0a64cd10d431af952b7f89635b127e7727ac48c0da01b0479b33057b6c834",
+  "declared_training_input": [
+    256,
+    160,
+    160
+  ]
+}

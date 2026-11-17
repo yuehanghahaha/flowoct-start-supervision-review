@@ -1,0 +1,22 @@
+epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+test_actual_engine_partial_epoch_resume (tests.test_project.ProjectTests) ... ok
+test_checkpoint_and_no_test_access (tests.test_project.ProjectTests) ... ok
+test_complete_metric_groups (tests.test_project.ProjectTests) ... ok
+test_full_model_and_frozen_teacher_gradient (tests.test_project.ProjectTests) ... ok
+test_inference_coverage (tests.test_project.ProjectTests) ... ok
+test_path_identity_all_times (tests.test_project.ProjectTests) ... ok
+test_pixel_geometry_and_target_schedule (tests.test_project.ProjectTests) ... ok
+test_real_dataset_adapter_without_test_reads (tests.test_project.ProjectTests) ... ok
+test_synchronous_whole_state_solver (tests.test_project.ProjectTests) ... ok
+test_teacher_stage_freeze_and_reload (tests.test_project.ProjectTests) ... ok
+test_uniform_partition_unbiased (tests.test_project.ProjectTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.695s
+
+OK
