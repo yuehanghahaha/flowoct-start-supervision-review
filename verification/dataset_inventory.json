@@ -1,0 +1,49 @@
+{
+  "observed_at": "2026-11-17T12:50:24.650980+08:00",
+  "scope": "owned dataset directory names only; no image/annotation contents opened",
+  "dataset_exists": true,
+  "groups": {
+    "labels_native": [
+      {
+        "name": "GT_Artery",
+        "files": 500
+      },
+      {
+        "name": "GT_CAVF",
+        "files": 500
+      },
+      {
+        "name": "GT_Capillary",
+        "files": 500
+      },
+      {
+        "name": "GT_FAZ",
+        "files": 500
+      },
+      {
+        "name": "GT_FAZ3D",
+        "files": 500
+      },
+      {
+        "name": "GT_LargeVessel",
+        "files": 500
+      },
+      {
+        "name": "GT_Layers",
+        "files": 500
+      },
+      {
+        "name": "GT_Vein",
+        "files": 500
+      }
+    ]
+  },
+  "top_level_directories": [
+    "official_projections",
+    "qa",
+    "records",
+    "z256",
+    "labels_native",
+    "metadata"
+  ]
+}

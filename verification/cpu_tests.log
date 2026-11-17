@@ -1,0 +1,50 @@
+test_actual_engine_partial_epoch_resume (tests.test_project.ProjectTests) ... epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+epoch 001 update 00001 loss 0.05299
+epoch 002 update 00003 loss 0.08995
+ok
+test_checkpoint_and_no_test_access (tests.test_project.ProjectTests) ... ok
+test_complete_metric_groups (tests.test_project.ProjectTests) ... ok
+test_full_model_and_frozen_teacher_gradient (tests.test_project.ProjectTests) ... ok
+test_inference_coverage (tests.test_project.ProjectTests) ... ok
+test_path_identity_all_times (tests.test_project.ProjectTests) ... ok
+test_pixel_geometry_and_target_schedule (tests.test_project.ProjectTests) ... ok
+test_real_dataset_adapter_without_test_reads (tests.test_project.ProjectTests) ... ok
+test_synchronous_whole_state_solver (tests.test_project.ProjectTests) ... ok
+test_teacher_stage_freeze_and_reload (tests.test_project.ProjectTests) ... ok
+test_uniform_partition_unbiased (tests.test_project.ProjectTests) ... ok
+test_actual_engine_validates_only_every_ten_epochs (tests.test_subslab.SubslabTests) ... epoch 001 update 00001 loss 0.12582
+epoch 002 update 00002 loss 0.12561
+epoch 003 update 00003 loss 0.12540
+epoch 004 update 00004 loss 0.12518
+epoch 005 update 00005 loss 0.12497
+epoch 006 update 00006 loss 0.12476
+epoch 007 update 00007 loss 0.12455
+epoch 008 update 00008 loss 0.12433
+epoch 009 update 00009 loss 0.12412
+epoch 010 update 00010 loss 0.12391
+epoch 011 update 00011 loss 0.12370
+epoch 012 update 00012 loss 0.12349
+epoch 013 update 00013 loss 0.12328
+epoch 014 update 00014 loss 0.12307
+epoch 015 update 00015 loss 0.12286
+epoch 016 update 00016 loss 0.12265
+epoch 017 update 00017 loss 0.12244
+epoch 018 update 00018 loss 0.12223
+epoch 019 update 00019 loss 0.12202
+epoch 020 update 00020 loss 0.12181
+ok
+test_cross_bin_error_hidden_by_full_mip (tests.test_subslab.SubslabTests) ... ok
+test_empty_invalid_and_thin_subslabs_have_finite_gradients (tests.test_subslab.SubslabTests) ... ok
+test_evaluation_delivery_and_resume_include_depth_evidence (tests.test_subslab.SubslabTests) ... ok
+test_masked_bin_and_patient_aggregation (tests.test_subslab.SubslabTests) ... ok
+test_objective_component_coefficient_ramp_and_time_gradient (tests.test_subslab.SubslabTests) ... ok
+test_warped_layers_and_unique_boundary_ownership (tests.test_subslab.SubslabTests) ... ok
+test_within_bin_ambiguity_is_not_claimed_solved (tests.test_subslab.SubslabTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 5.594s
+
+OK

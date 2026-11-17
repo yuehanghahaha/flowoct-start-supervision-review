@@ -1,0 +1,10 @@
+{
+  "total": 27421329,
+  "global_context": 545104,
+  "local_and_time": 26876225,
+  "global_fraction": 0.019878832276874692,
+  "local_fraction": 0.9801211677231253,
+  "mamba_only": 204480,
+  "teacher": 111779,
+  "official_cuda_verified": false
+}

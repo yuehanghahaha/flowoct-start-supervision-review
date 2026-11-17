@@ -1,0 +1,159 @@
+{
+  "experiment": "exp181_20261117_localvessel_subslab4_200e",
+  "seed": 20261116,
+  "execution": {
+    "require_hpc_container": true
+  },
+  "data": {
+    "shape": [
+      256,
+      304,
+      304
+    ],
+    "stored_scale": 255.0,
+    "native_layer_depth": 640,
+    "expected_counts": {
+      "train": 140,
+      "validation": 10,
+      "test": 50
+    },
+    "spacing_um_zyx": null,
+    "annotation_view": "ILM_OPL_MAX",
+    "allow_pseudo_labels": false
+  },
+  "model": {
+    "channels": [
+      64,
+      128,
+      256
+    ],
+    "stages": 3,
+    "blocks_per_stage": 2,
+    "refine_blocks": 4,
+    "time_width": 256,
+    "context_width": 96,
+    "context_grid": [
+      32,
+      38,
+      38
+    ],
+    "mamba_blocks": 3,
+    "mamba_state": 16,
+    "mamba_expand": 2,
+    "checkpoint_local": true
+  },
+  "patch": {
+    "core": [
+      256,
+      96,
+      96
+    ],
+    "halo": [
+      0,
+      32,
+      32
+    ],
+    "target_mixture": {
+      "small_centerline": 0.5,
+      "faz_ring": 0.2,
+      "vessel": 0.15,
+      "background": 0.15
+    },
+    "apparent_diameter_px": [
+      3.0,
+      7.0
+    ]
+  },
+  "teacher": {
+    "width": 32,
+    "blocks": 6,
+    "updates": 3000,
+    "batch_size": 8,
+    "crop": 128,
+    "lr": 0.0003,
+    "validation_every": 250
+  },
+  "train": {
+    "epochs": 200,
+    "patients_per_update": 2,
+    "patient_groups_per_epoch": 70,
+    "patches_per_patient": 2,
+    "physical_patient_batch": 1,
+    "gradient_accumulation": 2,
+    "exact_zero_fraction": 0.25,
+    "lr": 0.0001,
+    "min_lr": 1e-05,
+    "warmup_updates": 700,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "clip_norm": 1.0,
+    "ema": 0.999,
+    "validation_every": 10,
+    "checkpoint_every": 20
+  },
+  "loss": {
+    "fm_uniform": 1.0,
+    "endpoint": 0.2,
+    "weighted_mip": 0.3,
+    "vessel_ce": 0.1,
+    "cldice": 0.1,
+    "gradient_match": 0.05,
+    "ramp_updates": 1400,
+    "capillary_weight": 4.0,
+    "small_centerline_weight": 8.0,
+    "medium_centerline_weight": 6.0,
+    "faz_weight": 2.0,
+    "skeleton_iterations": 12,
+    "subslab": 0.15
+  },
+  "selection": {
+    "direction": "min",
+    "weights": {
+      "capillary_mae": 0.4,
+      "capillary_skeleton_mae": 0.2,
+      "background_mae": 0.2,
+      "large_mae": 0.1,
+      "volume_mae": 0.1
+    }
+  },
+  "inference": {
+    "solver": "heun",
+    "steps": 16,
+    "core": [
+      256,
+      128,
+      128
+    ],
+    "overlap": [
+      0,
+      32,
+      32
+    ],
+    "halo": [
+      0,
+      32,
+      32
+    ],
+    "retain_validation_volumes": false,
+    "retain_test_volumes": true
+  },
+  "precision": {
+    "parameters": "float32",
+    "network_autocast": "bfloat16",
+    "state_and_loss": "float32",
+    "tf32_matmul": true,
+    "tf32_cudnn": true,
+    "benchmark": true,
+    "deterministic": false,
+    "scaler": false
+  },
+  "subslab": {
+    "bins": 4,
+    "lower": 0,
+    "upper": 2
+  }
+}

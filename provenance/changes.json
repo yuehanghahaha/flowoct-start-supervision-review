@@ -1,0 +1,117 @@
+{
+  "parent_experiment": "exp176_20261116_localvessel_hrfm_200e",
+  "parent_commit": "4ebd97e85e9384e7a0c2c101f69e6c630d762402",
+  "parent_release_manifest_sha256": "dfe0029bde28ce2dc19bb2ff78c29e3e3e81dbf53707ad8fc5d1c7ff6bdd8bb4",
+  "parent_branch": "exp176-localvessel-hrfm-review-20261117",
+  "changes": {
+    "loss.subslab": {
+      "prior": null,
+      "current": 0.15,
+      "scale": "Divide raw valid-ray and nonempty-bin macro L1 by training ILM–OPL MIP RMS. Apply existing 1400-update ramp on all sampled times."
+    },
+    "subslab": {
+      "bins": 4,
+      "lower": 0,
+      "upper": 2,
+      "geometry": "Per A-line ILM–OPL relative depth. Disjoint maximum projections with final right edge included."
+    },
+    "train.validation_every": {
+      "prior": 5,
+      "current": 10,
+      "validation_epochs": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ]
+    },
+    "diagnostic_output": {
+      "prior": null,
+      "current": [
+        "depth_diagnostics.csv",
+        "summary.json:depth_diagnostics",
+        "subslabs.png",
+        "projections.npz: corresponding sub-slab projections and valid masks"
+      ]
+    }
+  },
+  "byte_identical_parent_files": [
+    ".gitattributes",
+    ".gitignore",
+    "docs/manifest_schema.md",
+    "docs/reference_commits.json",
+    "requirements.txt",
+    "src/microflow/data.py",
+    "src/microflow/engine.py",
+    "src/microflow/flow.py",
+    "src/microflow/geometry.py",
+    "src/microflow/inference.py",
+    "src/microflow/model.py",
+    "src/microflow/runtime.py",
+    "tests/__init__.py",
+    "tests/reference_ssm.py",
+    "tests/test_project.py",
+    "tools/decode_binary_mask.py",
+    "tools/decode_labels.py",
+    "tools/register_platform.py",
+    "tools/verify_export.py",
+    "verification/dataset_inventory.json",
+    "verification/model_parameters.json",
+    "verify_release.py"
+  ],
+  "modified_parent_files": [
+    "configs/main.json",
+    "docs/DATASET.md",
+    "docs/PROTOCOL.md",
+    "docs/PROVENANCE.md",
+    "manage.sh",
+    "NOTICE.md",
+    "pyproject.toml",
+    "README.md",
+    "REVIEW_GUIDE.md",
+    "run.py",
+    "src/microflow/__init__.py",
+    "src/microflow/evaluation.py",
+    "src/microflow/losses.py",
+    "src/microflow/metrics.py",
+    "verification/cpu_tests.log",
+    "verification/cpu_verification.json",
+    "verification/README.md"
+  ],
+  "new_files": [
+    "docs/SUBSLAB.md",
+    "provenance/changes.json",
+    "provenance/creation.json",
+    "provenance/parent/main.json",
+    "provenance/parent/release_manifest.json",
+    "src/microflow/subslab.py",
+    "tests/test_subslab.py",
+    "tools/verify_cpu.py"
+  ],
+  "initialization": "fresh network and teacher on the same configured seed; no parent checkpoints loaded",
+  "runtime_evidence": {
+    "cpu_synthetic_checks": 19,
+    "dataset_bound": false,
+    "gpu_acceptance": false,
+    "server_upload": false,
+    "training_updates": 0,
+    "formal_validation_patients": 0,
+    "formal_test_patients": 0
+  }
+}

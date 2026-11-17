@@ -1,0 +1,15 @@
+{
+  "experiment": "exp181_20261117_localvessel_subslab4_200e",
+  "created_at": "2026-11-17T14:03:45.641904+08:00",
+  "parent_experiment": "exp176_20261116_localvessel_hrfm_200e",
+  "parent_commit": "4ebd97e85e9384e7a0c2c101f69e6c630d762402",
+  "parent_read_only": true,
+  "changes_planned": [
+    "four ILM-OPL relative-depth subslab max projections and GT L1 supervision",
+    "generator validation every 10 epochs",
+    "separate depth diagnostic output"
+  ],
+  "training_started": false,
+  "server_upload": false,
+  "gpu_checks": false
+}

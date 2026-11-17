@@ -1,0 +1,8 @@
+torch==2.5.1
+numpy==1.26.4
+scipy==1.15.3
+scikit-image==0.25.2
+Pillow>=10
+# Official CUDA operator; required only for formal GPU stages:
+mamba-ssm==2.2.4
+causal-conv1d==1.5.0.post8

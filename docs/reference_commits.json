@@ -1,0 +1,30 @@
+[
+  {
+    "repo": "HRNet/HRNet-Semantic-Segmentation",
+    "commit": "0bbb2880446ddff2d78f8dd7e8c4c610151d5a51",
+    "path": "lib/models/seg_hrnet.py",
+    "url": "https://github.com/HRNet/HRNet-Semantic-Segmentation/blob/0bbb2880446ddff2d78f8dd7e8c4c610151d5a51/lib/models/seg_hrnet.py",
+    "use": "Official implementation read for design; no source vendored."
+  },
+  {
+    "repo": "MIC-DKFZ/MedNeXt",
+    "commit": "0b78ed869fbd1cc2fd38754d2f8519f1b72d43ba",
+    "path": "nnunet_mednext/network_architecture/mednextv1/blocks.py",
+    "url": "https://github.com/MIC-DKFZ/MedNeXt/blob/0b78ed869fbd1cc2fd38754d2f8519f1b72d43ba/nnunet_mednext/network_architecture/mednextv1/blocks.py",
+    "use": "Official implementation read for design; no source vendored."
+  },
+  {
+    "repo": "jocpae/clDice",
+    "commit": "47d31a6cc4a8101b1ffe8052994821961e57af9f",
+    "path": "cldice_loss/pytorch/soft_skeleton.py",
+    "url": "https://github.com/jocpae/clDice/blob/47d31a6cc4a8101b1ffe8052994821961e57af9f/cldice_loss/pytorch/soft_skeleton.py",
+    "use": "Official implementation read for design; no source vendored."
+  },
+  {
+    "repo": "MIC-DKFZ/Skeleton-Recall",
+    "commit": "c7bac3c72ca7bb4f3d891235f051f0c4d07d7229",
+    "path": "readme.md",
+    "url": "https://github.com/MIC-DKFZ/Skeleton-Recall/blob/c7bac3c72ca7bb4f3d891235f051f0c4d07d7229/readme.md",
+    "use": "Official implementation read for design; no source vendored."
+  }
+]

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microflow-localvessel"
+version = "0.2.0"
+description = "Local-first OCT-to-OCTA flow matching with vascular and relative-depth sub-slab supervision"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5", "numpy>=1.26", "scipy>=1.13", "scikit-image>=0.24", "Pillow>=10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
