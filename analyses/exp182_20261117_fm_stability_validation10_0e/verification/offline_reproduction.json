@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source": "50 completed core records",
+  "independent_standard_values_checked": 5400,
+  "summary_byte_identical": true,
+  "conclusions_byte_identical": true,
+  "frozen_summary_sha256": "04d4c88893fe184407f5f3b3c98bc87a79bed5d63ee60287b2beaa0624cf9faf",
+  "frozen_report_sha256": "5a512d4307d438dcc7cc4ee141a19a2c3013037bb9e2b813b12ac289dcaf6ff9",
+  "bscan_per_slice_rows": 15200,
+  "inference": 0,
+  "training": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "exp182_20261117_fm_stability_validation10_0e",
+  "created": "2026-11-17",
+  "parent": "exp163_20261114_startproj_layermean_a100_200e",
+  "analyses": ["exp173", "exp174"],
+  "epoch_unavailable": 125,
+  "models": {
+    "E090": {"epoch": 90, "role": "retained low point", "file": "epoch_0090.pt", "sha256": "c9a6fd858bc7bddac7aa76a01791f7381ed9d560c3dcb7e31b2452aba187f6fb"},
+    "E120": {"epoch": 120, "role": "before historical low point", "file": "epoch_0120.pt", "sha256": "670786246f9891ee5ee216975fb88fcaec3af49be69f9983ab7fe991c89df00f"},
+    "E130": {"epoch": 130, "role": "recovery after historical low point", "file": "epoch_0130.pt", "sha256": "d65f31294485ce54cdd2794339506d02a7a48b584f9d1552a80372dc370a9470"},
+    "E190": {"epoch": 190, "role": "original four-projection validation best", "file": "best_epoch_0190_64e40fd733c0.pt", "sha256": "b33b7d95b22e8f4d421b802c210a8977690648bcece472a6fdc8a90293f44dc4"},
+    "XOCT_E213": {"epoch": 213, "role": "direct mapping reference; original projection SSIM best (E201-E300)", "file": "XOCT_E213_G.pt"}
+  },
+  "shape": [256, 304, 304],
+  "patch": [256, 64, 64],
+  "overlap": 0.5,
+  "euler_reference_steps": 8,
+  "solver_grid": {"Euler": [1, 2, 4, 8, 16, 32], "Heun": [4, 8]},
+  "perturb_steps": [2, 4, 6],
+  "offsets": [0.005, 0.01, 0.02, -0.02],
+  "noise_std": 0.01,
+  "noise_seed": 20261117,
+  "small_vessel_attenuation": 0.5,
+  "large_diameter_px": 4.0,
+  "first_case": "10302",
+  "fixed_membership_sha256": "63a596e70c47519775354cddcce848ce7779c067d69cb9b18ef4ee81b13dee18",
+  "validation_cases": ["10302", "10319", "10338", "10357", "10396", "10422", "10447", "10456", "10495", "10500"],
+  "precision": {"dtype": "float32", "tf32_matmul": true, "tf32_cudnn": true, "amp": false, "scaler": false, "cudnn_benchmark": true, "cudnn_deterministic": false},
+  "training_epochs": 0,
+  "test_cases_used": 0
+}

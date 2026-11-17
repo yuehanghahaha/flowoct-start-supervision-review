@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import subprocess
 
 import numpy as np
 
@@ -44,10 +45,18 @@ def main():
     for n in [173,174]:
         folders=list((ROOT/'analyses').glob(f'exp{n:03d}_*'))
         if len(folders)!=1 or not (folders[0]/'analyze.py').is_file():failures.append((str(n),'missing runnable analysis'))
+    if 182 in manifest.get('analysis_experiments', []):
+        folder = ROOT/'analyses/exp182_20261117_fm_stability_validation10_0e'
+        result = subprocess.run([sys.executable, '-B', str(folder/'verify_af_data.py')],
+                                capture_output=True, text=True, encoding='utf-8')
+        if result.returncode:
+            failures.append(('exp182', result.stderr or result.stdout))
+        else:
+            print(result.stdout.strip())
     if failures:
         print(json.dumps(dict(passed=False,issues=failures),ensure_ascii=False,indent=2));raise SystemExit(1)
     print(json.dumps(dict(passed=True,files=len(manifest['files'])+1,MiB=round(total/2**20,2),
-        max_file_MiB=round(maximum/2**20,2),scientific_experiments=9,analyses=2,
+        max_file_MiB=round(maximum/2**20,2),scientific_experiments=9,analyses=len(manifest['analysis_experiments']),
         full_resolution_2D_projection_pairs=arrays,credentials_detected=False,new_training=0,new_inference=0),ensure_ascii=False))
 
 

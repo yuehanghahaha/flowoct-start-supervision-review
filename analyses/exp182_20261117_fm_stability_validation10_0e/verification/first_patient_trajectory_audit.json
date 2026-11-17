@@ -1,0 +1,137 @@
+{
+  "time": "2026-11-17T14:59:28.819875+08:00",
+  "passed": true,
+  "case": "10302",
+  "models": {
+    "E090": {
+      "states": {
+        "0": {
+          "bytes": 94634112,
+          "sha256": "6544e4552e1b4fb0318bc0e065cd9c31655598ba407a9425c46e8ba6c0d43dd4"
+        },
+        "1": {
+          "bytes": 94634112,
+          "sha256": "f44a246f0e17aa816eba04570f41975d198575932d2ed16043bbbbbee214f549"
+        },
+        "2": {
+          "bytes": 94634112,
+          "sha256": "17f10bb0945b14f0542d0751417bdc02158792b0bf1e1ff317cb05ed262de9e5"
+        },
+        "3": {
+          "bytes": 94634112,
+          "sha256": "35448b6c360581ee424310eba7b0bc75505f815decc8aecb56c8f0cae3385aaf"
+        },
+        "4": {
+          "bytes": 94634112,
+          "sha256": "eb555e2031c6bdce37ab08bd2ecc7c021872dca8ea105d45ff181b9f79af71f0"
+        },
+        "5": {
+          "bytes": 94634112,
+          "sha256": "3b4ab888a11a098233c6d57f360a8c1f2f5b59d7a3a89aae197f2031d4c069aa"
+        },
+        "6": {
+          "bytes": 94634112,
+          "sha256": "2de9fb0547dd4510b6a21628986ac8fefe237f9a2c17d9bf04d031c4ef49900e"
+        },
+        "7": {
+          "bytes": 94634112,
+          "sha256": "09693466645bd9ab96d163390b75f3418ee998de6d62a536844565074966ae8a"
+        },
+        "8": {
+          "bytes": 94634112,
+          "sha256": "f789eb2cf73307c04d062d59193cc1f76287d33d4f25026c69dd99816908bcca"
+        }
+      },
+      "eight_step_against_solver_max_metric_delta": {
+        "mae": 1.7664275632489623e-07,
+        "psnr": 1.1907157414725589e-05,
+        "ssim": 9.427965944608374e-07
+      },
+      "max_error_balance_residual": 1.14414715765912e-11
+    },
+    "E120": {
+      "states": {
+        "0": {
+          "bytes": 94634112,
+          "sha256": "6544e4552e1b4fb0318bc0e065cd9c31655598ba407a9425c46e8ba6c0d43dd4"
+        },
+        "1": {
+          "bytes": 94634112,
+          "sha256": "620186c1b012e85cbaad10cf058ceb8e8974cfaaf8e33eac97485d61f2ee296e"
+        },
+        "2": {
+          "bytes": 94634112,
+          "sha256": "e32f3f5afa6b1acd98ed0110f8f6f886bedfcedb61c6feb26a69ac4a3e728873"
+        },
+        "3": {
+          "bytes": 94634112,
+          "sha256": "b75a5126868380415296bcea38ee357873654fa9c74361e0c11bce16d14c8833"
+        },
+        "4": {
+          "bytes": 94634112,
+          "sha256": "a23242865410e7e38230edfc49a2695ec3b7d56df41ac216b829f77eeab66645"
+        },
+        "5": {
+          "bytes": 94634112,
+          "sha256": "6edf8459acc6f7c83db0ba6e246a3f83b5ea5ca885ccb165705970dbbc2b8186"
+        },
+        "6": {
+          "bytes": 94634112,
+          "sha256": "3285ad7532cfe79a63b060b65087226c763238b6d4a9d4a7fd070cab7db319e0"
+        },
+        "7": {
+          "bytes": 94634112,
+          "sha256": "2805154da8f4d9368a3b26fd8c37f953a1820bb6611bd289be032ba0fd2a2996"
+        },
+        "8": {
+          "bytes": 94634112,
+          "sha256": "c1c1e394d41bec27dc9f89596a265dddef0d23468a8ed4d4d45c36f6eba05018"
+        }
+      },
+      "eight_step_against_solver_max_metric_delta": null,
+      "max_error_balance_residual": 3.6620604552256575e-12
+    },
+    "E130": {
+      "states": {
+        "0": {
+          "bytes": 94634112,
+          "sha256": "6544e4552e1b4fb0318bc0e065cd9c31655598ba407a9425c46e8ba6c0d43dd4"
+        },
+        "1": {
+          "bytes": 94634112,
+          "sha256": "f0cc0dff38dd033fc769ac2aded09daa68f20dc2e7214814f0d37c6443a9d225"
+        },
+        "2": {
+          "bytes": 94634112,
+          "sha256": "02e2a60fbd29268dbef41d8e78ae8e3652924da74fd3efba3ca5b250fa46f933"
+        },
+        "3": {
+          "bytes": 94634112,
+          "sha256": "debb1360bb151d3d53ccaaf2bc84e6376d5f3898797d19a46665a6fa09313d07"
+        },
+        "4": {
+          "bytes": 94634112,
+          "sha256": "9b4076025f82b7ccacff054ec49159bf51b3ac78ecb716cd91eaeccc28d3a5cb"
+        },
+        "5": {
+          "bytes": 94634112,
+          "sha256": "0f13d70e4a57c71161e46786c29ef1f09038eb276d43b67dbd87b788c5d01c10"
+        },
+        "6": {
+          "bytes": 94634112,
+          "sha256": "e9ec11807ee3a095fce72e45b3e7ad4f89904b35c80698811f6a9bdb2637a6a7"
+        },
+        "7": {
+          "bytes": 94634112,
+          "sha256": "b4efd2e354dd0c5e815d304fb142fe713736071fe9414237b1aaba6b3a73328e"
+        },
+        "8": {
+          "bytes": 94634112,
+          "sha256": "c7a601e662dd2a91e872acada45a5f69d9184899a3fc41c40b27bb66b77266f4"
+        }
+      },
+      "eight_step_against_solver_max_metric_delta": null,
+      "max_error_balance_residual": 7.603669050729872e-12
+    }
+  }
+}

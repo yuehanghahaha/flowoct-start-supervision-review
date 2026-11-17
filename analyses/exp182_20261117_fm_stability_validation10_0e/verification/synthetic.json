@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "time": "2026-11-17T14:48:02+08:00",
+  "checks": [
+    "positive Hann coverage",
+    "linear trajectory and paired velocity",
+    "state error balance",
+    "unclamped states",
+    "Euler and Heun",
+    "time-dependent Heun",
+    "perturbation start and matched control"
+  ]
+}
