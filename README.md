@@ -1,9 +1,10 @@
-# OCT→OCTA · A–F强度漂移与生成轨迹验证
+# OCT→OCTA · A–H强度漂移与生成轨迹验证
 
-本分支新增2026年11月17日完成的exp182 A–F十人验证，供独立分析者检查强度漂移、逐步生成误差和teacher/free速度差异。
+本分支保留exp182的A–F十人验证，并于2026年11月18日补充已完成的G扰动恢复、H求解器对照。供独立分析者检查强度漂移、轨迹误差传播及不同积分设置。
 
-**从 [A–F报告与数据入口](analyses/exp182_20261117_fm_stability_validation10_0e/README.md) 开始。**
+**从 [A–H报告与数据入口](analyses/exp182_20261117_fm_stability_validation10_0e/README.md) 开始。**
 
+- [新增G/H完整分析、图与数据](analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/report.md)
 - [十人结论与完整指标](analyses/exp182_20261117_fm_stability_validation10_0e/analysis/af_conclusions.md)
 - [给分析者的阅读说明](analyses/exp182_20261117_fm_stability_validation10_0e/REVIEW_GUIDE.md)
 - [逐患者指标与GT校正](analyses/exp182_20261117_fm_stability_validation10_0e/analysis/per_patient_standard.csv)
@@ -19,8 +20,9 @@ E90的3D SSIM为0.364562，逐病例GT均值与方差校正后为0.849173，10/1
 python verify_snapshot.py
 cd analyses/exp182_20261117_fm_stability_validation10_0e
 python -B analyze_af.py
+python -B verify_gh_data.py
 ```
 
 当前分支为 `exp182-af-diagnostics-review-20261117`。原有9组科学代码和exp173/174分析继续作为背景，入口为 [历史审阅说明](HISTORICAL_REVIEW.md)。
 
-范围见 [A–F数据说明](analyses/exp182_20261117_fm_stability_validation10_0e/DATA_AVAILABILITY.md)，全分支文件身份在SNAPSHOT_MANIFEST.json。
+范围见 [A–H数据说明](analyses/exp182_20261117_fm_stability_validation10_0e/DATA_AVAILABILITY.md)，全分支文件身份在SNAPSHOT_MANIFEST.json。

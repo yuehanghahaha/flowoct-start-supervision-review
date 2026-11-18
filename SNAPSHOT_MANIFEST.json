@@ -1,7 +1,7 @@
 {
   "repository": "yuehanghahaha/flowoct-start-supervision-review",
   "branch": "exp182-af-diagnostics-review-20261117",
-  "created": "2026-11-17T19:40:47.751026+08:00",
+  "created": "2026-11-18T21:39:07.018170+08:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -5174,6 +5174,66 @@
       "sha256": "3c48fec1f711836eb63e5ae1dec87f433464823fb2c38ab3ad2f7326323a9bdd"
     },
     {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/g_recovery.png",
+      "bytes": 431290,
+      "sha256": "a002b63faf75712f7c0208f2820205cb0da46920af58981bd036a423e69f9a0b"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/h_solvers.png",
+      "bytes": 168153,
+      "sha256": "10995777d1876b70c09a9f2d3e21b8540a2648627f27cb03c1556ff0424c3a67"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/per_patient_standard.csv",
+      "bytes": 1001435,
+      "sha256": "495326cc6788cac6eb3c1489b550b1f934cf9a0c4c9f6f0034548fc3f032d499"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/perturbation_recovery.csv",
+      "bytes": 267873,
+      "sha256": "e965692ecc675ef45666eaf838f3658c0e708235bcb2e1d1dec12cc15b1b3138"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/recovery_groups.csv",
+      "bytes": 18424,
+      "sha256": "09bdee9a2c5e80541f0923d18291ed0e223c1785ac78ac8b7314aacdef3b3a1d"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/report.md",
+      "bytes": 26891,
+      "sha256": "b0c4d5936b0f860f2fe81e158295ff5a1e412194b4249a84ce95464cfc72286a"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/solver_means.csv",
+      "bytes": 19014,
+      "sha256": "1580082b422d06810aa0dd26b6e0404065766e38682e717346a55c19abe1a52f"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/solver_paired_deltas.csv",
+      "bytes": 101650,
+      "sha256": "82f0a2668345880f818eaa9b3f50b8b66272040aa5fbfe60affff3dba264204f"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/solver_runtime.csv",
+      "bytes": 38270,
+      "sha256": "85ec903b34babeaa0ef9d7e90d330f984571084d4dc77727691760bebe909d89"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/standard_metrics.csv",
+      "bytes": 97047,
+      "sha256": "80c2749e4587f4ccd8d81d616045ebfe82acb96fdcb64ec3f0073f9cbb57261e"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/summary.json",
+      "bytes": 45794,
+      "sha256": "72f4a65c55f93fcaf9dc622660e3fb82a0ad38d191728ff001994983be5d73a5"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/verification.json",
+      "bytes": 1422,
+      "sha256": "291619f636e114ace29b14e5262abd2d31dd29f135509f0bb39513e4086ca26c"
+    },
+    {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gt_region_bias.csv",
       "bytes": 161749,
       "sha256": "6a5b6b5db725692c8de6e5676260e004484ce3cb55e42a17458e1eed16dfdba9"
@@ -5220,8 +5280,8 @@
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/DATA_AVAILABILITY.md",
-      "bytes": 1138,
-      "sha256": "8d68b88a4aab9f5b6f062c0067a32cb61f74d8726cd1dec2e733711464dfb882"
+      "bytes": 2108,
+      "sha256": "2ecc04b93f7f46c379a7fe353b43531b927c683c4edb06195389254e312b1cd6"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/experiment.json",
@@ -5267,6 +5327,11 @@
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/implementation/fm3d/wavelets.py",
       "bytes": 2705,
       "sha256": "20c6791a5ae3344b5fc062e3d242bd833872dbce78e511c0e4a40fa80c5dde98"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/implementation/gh_analysis_original.py",
+      "bytes": 19992,
+      "sha256": "a3090a6001e17f4a1faf88d296dc68a7b204292d42b539bf02895532ad42f77e"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/implementation/launch.sh",
@@ -5330,8 +5395,13 @@
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/METRIC_PROTOCOL.md",
-      "bytes": 2960,
-      "sha256": "ba6055b6e0b5e9a6b17fbb5b94260f06e24e92fbdead546cc5379ae3de879f1b"
+      "bytes": 4642,
+      "sha256": "eda32fca8304714d2b2afd00dd30aed11cffc577823d83fe53403eebd7d08e38"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/provenance/gh_source_manifest.json",
+      "bytes": 4419,
+      "sha256": "3650d5cee23eea60de0273d0f31fb47824e21555d4e83a2c5b0cf59de698f896"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/provenance/source_manifest.json",
@@ -5340,13 +5410,13 @@
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/README.md",
-      "bytes": 2570,
-      "sha256": "3dd2e860ed1930cd07f92d1b25c17037674132a26d997b303483ae090f5a0496"
+      "bytes": 4075,
+      "sha256": "a0b9496a7672ad934768a5e9fce78d0d37cf73a23b2b864239a826a7d2720c6f"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/REVIEW_GUIDE.md",
-      "bytes": 1811,
-      "sha256": "3c576164bfb7762764a73c90546c4e80c44e087132df68d2536713acc0b54dec"
+      "bytes": 3117,
+      "sha256": "1e3a8ad9ee4f4cb8434b5c44b208c0ca0bd972707b1abeaa6a1b5b2c61c4f679"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/source/af_bscans.json",
@@ -5357,6 +5427,11 @@
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/source/af_core_records.json",
       "bytes": 6726164,
       "sha256": "334ac29f3db8ce9be449b6536041a1437a7c41803162147308cdd4330996559c"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/source/gh_records.json",
+      "bytes": 4625871,
+      "sha256": "860a51e119aa5bf4486bcb48db4ae3816acab302bb0e094843b614654fac2af9"
     },
     {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/source/historical/exp059_config.json",
@@ -5394,6 +5469,16 @@
       "sha256": "97dd5215ed75b312f355260f6433d1493efee1eef223b74fcfd5f41cfd285e2c"
     },
     {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/verification/gh_offline_reproduction.json",
+      "bytes": 461,
+      "sha256": "1c8b1fc40d03f5dcd7393bad6dc00d4f96ad3ec625f606e6a09261b91d1b558c"
+    },
+    {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/verification/gh_server_status.json",
+      "bytes": 207,
+      "sha256": "fc2705ff0295239d8615117be1cb154aa3d0047760255f23c69b79356b22b296"
+    },
+    {
       "path": "analyses/exp182_20261117_fm_stability_validation10_0e/verification/offline_reproduction.json",
       "bytes": 450,
       "sha256": "8a62d7cc92812c78e42d4353837bedc20c5db7161e9cc8dd0fed3d261e14893e"
@@ -5414,9 +5499,14 @@
       "sha256": "a9e8e6e90fb554e9a3edf95abe947b60766119cc105e5e10e74b90d687eb5ae8"
     },
     {
+      "path": "analyses/exp182_20261117_fm_stability_validation10_0e/verify_gh_data.py",
+      "bytes": 7286,
+      "sha256": "7a96a0bb63fa6949bca3fdd374cf542caba5024245a593094945be834f9801b8"
+    },
+    {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 1990,
-      "sha256": "c337d0a4b6df34ccef8520736bbbd3183a9a2b16de1206a73dba6154f06d85ab"
+      "bytes": 2239,
+      "sha256": "81e63142534b03b5dd9db8ee3675bfacb74c4de7c31f5a49ac37858751186ae8"
     },
     {
       "path": "experiments/exp018_20261027_3dfm_start_zproj_200e/evidence/history.jsonl",
@@ -16110,13 +16200,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 1907,
-      "sha256": "f291340eaff06fe8ac4c661e22d827b49cd4aa6ada15a757088d59fa7e9d5f3d"
+      "bytes": 2101,
+      "sha256": "72de6cd14c35ca53997a0b46849b687544ab748e1797a3e66d05fcab162a8a68"
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 1595,
-      "sha256": "17b76506f45702934b8e3f6085496a33e990026b683ec999972153f229af31b1"
+      "bytes": 1869,
+      "sha256": "4c7d4f495964d9545597090ef43709d10a4fce7e97068f1b4fd62535ca87ebf0"
     },
     {
       "path": "REVIEW_GUIDE.md",
@@ -16125,8 +16215,8 @@
     },
     {
       "path": "verify_snapshot.py",
-      "bytes": 3817,
-      "sha256": "60efbf971629dc0273801000cb211dc664ee6faf13c65b100523a7a1cc13ad32"
+      "bytes": 4224,
+      "sha256": "dd7e42404b38e213dd291435af43943074afc2a18fd475420617a4b87376891b"
     }
   ],
   "scientific_training_experiments": [
@@ -16146,10 +16236,27 @@
     182
   ],
   "new_training": 0,
-  "new_inference": 50,
+  "new_inference": 1210,
   "public_2d_validation_pairs": 60,
-  "new_inference_definition": "Completed A-F validation model-case evaluations with paired teacher velocity queries.",
+  "new_inference_definition": "Completed endpoint evaluation records: 50 core + 320 solver + 840 perturbation/control. Includes reused Euler8 endpoints; not distinct network-call counts.",
   "publication_performed_training": 0,
   "publication_performed_inference": 0,
-  "base_commit": "859e53bdd088626805a896790971ac15bd001ec1"
+  "base_commit": "859e53bdd088626805a896790971ac15bd001ec1",
+  "parent_public_commit": "9a51ad28638a7be5c0d86290564b83957790877e",
+  "completed_analysis_groups": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "diagnostic_evaluations": {
+    "core": 50,
+    "solver": 320,
+    "perturbation_with_control": 840,
+    "actual_perturbation_injections": 720
+  }
 }

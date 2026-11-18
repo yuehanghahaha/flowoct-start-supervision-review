@@ -53,6 +53,13 @@ def main():
             failures.append(('exp182', result.stderr or result.stdout))
         else:
             print(result.stdout.strip())
+        if (folder/'verify_gh_data.py').is_file():
+            result = subprocess.run([sys.executable, '-B', str(folder/'verify_gh_data.py')],
+                                    capture_output=True, text=True, encoding='utf-8')
+            if result.returncode:
+                failures.append(('exp182 G/H', result.stderr or result.stdout))
+            else:
+                print(result.stdout.strip())
     if failures:
         print(json.dumps(dict(passed=False,issues=failures),ensure_ascii=False,indent=2));raise SystemExit(1)
     print(json.dumps(dict(passed=True,files=len(manifest['files'])+1,MiB=round(total/2**20,2),

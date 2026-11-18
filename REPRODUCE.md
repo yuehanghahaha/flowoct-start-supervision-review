@@ -27,3 +27,8 @@ python -B verify.py
 ## exp182 A–F数值复算
 
 在 analyses/exp182_20261117_fm_stability_validation10_0e 运行 python -B analyze_af.py，读取50条完成记录，核对5,400项标准值，生成汇总和判断。已有NumPy环境即可，执行离线分析。
+
+
+## 2026年11月18日G/H补充
+
+在 analyses/exp182_20261117_fm_stability_validation10_0e 运行 python -B verify_gh_data.py，复核320条求解器、840条扰动与对照、10,440行逐患者标准指标及配对统计。已有NumPy环境即可；不运行模型。

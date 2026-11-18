@@ -1,0 +1,107 @@
+{
+  "source_experiment": "exp182_20261117_fm_stability_validation10_0e",
+  "source_sha256": "860a51e119aa5bf4486bcb48db4ae3816acab302bb0e094843b614654fac2af9",
+  "completed": "2026-11-18T00:06:07+08:00",
+  "published_date": "2026-11-18",
+  "parent_public_commit": "9a51ad28638a7be5c0d86290564b83957790877e",
+  "files": [
+    {
+      "source": "analysis/gh/g_recovery.png",
+      "published": "analysis/gh/g_recovery.png",
+      "sha256": "a002b63faf75712f7c0208f2820205cb0da46920af58981bd036a423e69f9a0b",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/h_solvers.png",
+      "published": "analysis/gh/h_solvers.png",
+      "sha256": "10995777d1876b70c09a9f2d3e21b8540a2648627f27cb03c1556ff0424c3a67",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/recovery_groups.csv",
+      "published": "analysis/gh/recovery_groups.csv",
+      "sha256": "09bdee9a2c5e80541f0923d18291ed0e223c1785ac78ac8b7314aacdef3b3a1d",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/report.md",
+      "published": "analysis/gh/report.md",
+      "sha256": "b0c4d5936b0f860f2fe81e158295ff5a1e412194b4249a84ce95464cfc72286a",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/solver_means.csv",
+      "published": "analysis/gh/solver_means.csv",
+      "sha256": "1580082b422d06810aa0dd26b6e0404065766e38682e717346a55c19abe1a52f",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/solver_paired_deltas.csv",
+      "published": "analysis/gh/solver_paired_deltas.csv",
+      "sha256": "82f0a2668345880f818eaa9b3f50b8b66272040aa5fbfe60affff3dba264204f",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/standard_metrics.csv",
+      "published": "analysis/gh/standard_metrics.csv",
+      "sha256": "80c2749e4587f4ccd8d81d616045ebfe82acb96fdcb64ec3f0073f9cbb57261e",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/summary.json",
+      "published": "analysis/gh/summary.json",
+      "sha256": "72f4a65c55f93fcaf9dc622660e3fb82a0ad38d191728ff001994983be5d73a5",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/verification.json",
+      "published": "analysis/gh/verification.json",
+      "sha256": "291619f636e114ace29b14e5262abd2d31dd29f135509f0bb39513e4086ca26c",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "source/gh_records.json",
+      "published": "source/gh_records.json",
+      "sha256": "860a51e119aa5bf4486bcb48db4ae3816acab302bb0e094843b614654fac2af9",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/status.json",
+      "published": "verification/gh_server_status.json",
+      "sha256": "fc2705ff0295239d8615117be1cb154aa3d0047760255f23c69b79356b22b296",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/gh/analyze.py",
+      "published": "implementation/gh_analysis_original.py",
+      "sha256": "a3090a6001e17f4a1faf88d296dc68a7b204292d42b539bf02895532ad42f77e",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "verification/github_publication/verify_gh_data.py",
+      "published": "verify_gh_data.py",
+      "sha256": "7a96a0bb63fa6949bca3fdd374cf542caba5024245a593094945be834f9801b8",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/per_patient_standard.csv",
+      "published": "analysis/gh/per_patient_standard.csv",
+      "transformation": "retain G/H treatments only; original A-F snapshot remains unchanged",
+      "rows": 10440,
+      "source_sha256": "1dcdbc3759c497b7a94b2a05ff44946f2a8b57fd41dd1597e3a0e11200d29b6e",
+      "sha256": "495326cc6788cac6eb3c1489b550b1f934cf9a0c4c9f6f0034548fc3f032d499"
+    },
+    {
+      "source": "analysis/perturbation_recovery.csv",
+      "published": "analysis/gh/perturbation_recovery.csv",
+      "sha256": "e965692ecc675ef45666eaf838f3658c0e708235bcb2e1d1dec12cc15b1b3138",
+      "transformation": "byte-preserved"
+    },
+    {
+      "source": "analysis/solver_runtime.csv",
+      "published": "analysis/gh/solver_runtime.csv",
+      "sha256": "85ec903b34babeaa0ef9d7e90d330f984571084d4dc77727691760bebe909d89",
+      "transformation": "byte-preserved"
+    }
+  ]
+}

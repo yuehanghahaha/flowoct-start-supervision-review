@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "core": 50,
+    "solver": 320,
+    "perturbation": 840
+  },
+  "expected": {
+    "core": 50,
+    "solver": 320,
+    "perturbation": 840
+  },
+  "verified_files": 2220,
+  "complete": true
+}

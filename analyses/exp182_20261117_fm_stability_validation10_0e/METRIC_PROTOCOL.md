@@ -32,3 +32,16 @@ GT校正从未截断终点计算，分别校正全局均值、全局均值与标
 `e_next=e+dt*(v_free−v_gt)`，MSE变化应为`2*dt*mean(e*(v_free−v_gt))+dt^2*velocity_MSE`。`error_velocity_inner`为该整卷内积均值，`mse_balance_residual`为实测变化减去代数预测。原始误差保留符号，截断后诊断另列clipped字段。
 
 二维Dice与clDice使用GT主投影Otsu阈值。FAZ面积取GT FAZ重心所在封闭无血管连通区，开放或无效时为空，空值保留在表格中。
+
+
+## G：扰动传播
+
+对四个FM权重、固定十人，在理想状态x_gt(t)=(1−t)X+tY的t=.25/.5/.75分别注入+0.005/+0.01/+0.02/−0.02、固定种子σ=.01高斯噪声、候选细血管体素强度减半，并沿原Euler8网格继续。每个节点有匹配control。种子为20261117+case_id×10+start_step，相同患者与时点的四权重使用相同噪声。
+
+mae_ratio = MAE(x_perturbed_final,x_control_final) / MAE(x_perturbed_initial,x_ideal_initial)，两个终点均未截断。signed_bias_ratio对亮度偏移另外保留带符号均值比。versus_control_clipped是在终点分别clamp后计算两者距离，报告中的clipped_ratio分母仍为原始初始扰动MAE。standard字段则始终是最终clamp输出对GT的九类标准指标。840条中有120条control和720条实际注入。
+
+细血管候选区域由原二维标签、局部管径4像素界及GT射线峰值50%阈值确定，不是人工3D血管分割；早期理想状态仍含OCT成分。该结构化扰动的整卷放大比包含误差传播，不能直接解释成局部血管亮度变化倍数。
+
+## H：时间求解与相同NFE比较
+
+Euler步数1/2/4/8/16/32，NFE分别相同。Heun步数4/8，NFE分别8/16，末步第二次求值在t=1。Heun采用显式预测、两次速度平均更新；实际代码见implementation/trajectory.py。所有分支从同一OCT开始、使用相同滑窗融合、无中间clamp、终点统一clamp后评价。Euler8可复用核心终点，其他求解器可复用t=0首次速度，physical_new_calls因此可能小于理论NFE；seconds含指标时间及并发影响。H是诊断比较，E190原best和Euler8原路线身份保留。

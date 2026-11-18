@@ -16,3 +16,8 @@
 ## 2026年11月17日A–F数据
 
 新增exp182的50条完成记录、完整A–F表、15,200张B-scan指标和7幅图。共享范围、输入依赖、GT校正见 analyses/exp182_20261117_fm_stability_validation10_0e/DATA_AVAILABILITY.md。
+
+
+## 2026年11月18日G/H补充
+
+exp182新增完整G/H数值源、逐患者与汇总表、配对差和两幅图。入口为 analyses/exp182_20261117_fm_stability_validation10_0e/analysis/gh/report.md；原A–F数值保持首次共享快照。

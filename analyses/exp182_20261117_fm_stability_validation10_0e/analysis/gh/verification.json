@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "source_sha256": "860a51e119aa5bf4486bcb48db4ae3816acab302bb0e094843b614654fac2af9",
+  "frozen_sha256": "97dd5215ed75b312f355260f6433d1493efee1eef223b74fcfd5f41cfd285e2c",
+  "record_hashes": 1200,
+  "committed_sets": 40,
+  "solver_records": 320,
+  "perturbation_records": 840,
+  "matched_standard_values": 31320,
+  "matched_mean_values": 3132,
+  "patients": [
+    "10302",
+    "10319",
+    "10338",
+    "10357",
+    "10396",
+    "10422",
+    "10447",
+    "10456",
+    "10495",
+    "10500"
+  ],
+  "actual_injections": 720,
+  "raw_injections_amplified": 720,
+  "structured_injections_clipped_amplified": 120,
+  "artifacts": {
+    "g_recovery.png": "a002b63faf75712f7c0208f2820205cb0da46920af58981bd036a423e69f9a0b",
+    "h_solvers.png": "10995777d1876b70c09a9f2d3e21b8540a2648627f27cb03c1556ff0424c3a67",
+    "recovery_groups.csv": "09bdee9a2c5e80541f0923d18291ed0e223c1785ac78ac8b7314aacdef3b3a1d",
+    "report.md": "b0c4d5936b0f860f2fe81e158295ff5a1e412194b4249a84ce95464cfc72286a",
+    "solver_means.csv": "1580082b422d06810aa0dd26b6e0404065766e38682e717346a55c19abe1a52f",
+    "solver_paired_deltas.csv": "82f0a2668345880f818eaa9b3f50b8b66272040aa5fbfe60affff3dba264204f",
+    "standard_metrics.csv": "80c2749e4587f4ccd8d81d616045ebfe82acb96fdcb64ec3f0073f9cbb57261e",
+    "summary.json": "72f4a65c55f93fcaf9dc622660e3fb82a0ad38d191728ff001994983be5d73a5"
+  }
+}

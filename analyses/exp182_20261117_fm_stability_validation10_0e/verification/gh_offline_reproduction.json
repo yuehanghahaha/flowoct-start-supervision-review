@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "solver_records": 320,
+  "perturbation_records": 840,
+  "committed_sets": 40,
+  "checked_standard_values": 31320,
+  "checked_patient_mean_values": 3132,
+  "recovery_groups": 72,
+  "solver_paired_groups": 864,
+  "actual_injections": 720,
+  "raw_amplified": 720,
+  "structured_clipped_amplified": 120,
+  "source_sha256": "860a51e119aa5bf4486bcb48db4ae3816acab302bb0e094843b614654fac2af9",
+  "training": 0,
+  "inference": 0
+}
